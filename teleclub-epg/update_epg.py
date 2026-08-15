@@ -2,14 +2,17 @@
 import gzip
 import re
 import unicodedata
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from html.parser import HTMLParser
 from pathlib import Path
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
+from zoneinfo import ZoneInfo
 
 SOURCE_URL = "https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz"
 SEED = Path(__file__).with_name("seed_channels.tsv")
 OUTPUT = Path(__file__).with_name("guia_teleclubtv.xml")
+LIMA = ZoneInfo("America/Lima")
 
 ALIASES = {
     "latina.teleclub": ["LATINA HD", "LATINA"],
@@ -51,11 +54,9 @@ ALIASES = {
     "playboy-tv-18.teleclub": ["PLAYBOY HD", "PLAYBOY"],
 }
 
-# IDs exactos observados en la fuente PE1. Se priorizan antes de cualquier
-# comparación por nombre para recuperar canales válidos sin volver a crear
-# falsos positivos como América->Panamericana o A&E->ESPN Extra.
 PREFERRED_SOURCE_IDS = {
     "latina.teleclub": "LATINA.HD.(Latina.HD).pe",
+    "america-television.teleclub": "AMERICA.TELEVISION.HD.(America.HD).pe",
     "panamericana-television.teleclub": "PANAMERICANA.TELEVISION.HD.(Panamericana.HD).pe",
     "atv.teleclub-2": "ATV.HD.(ATV.HD).pe",
     "rpp-tv.teleclub": "RPP.HD.(RPP.HD).pe",
@@ -70,28 +71,22 @@ PREFERRED_SOURCE_IDS = {
     "comedi-central.teleclub": "COMEDY.CENTRAL.HD.(ComedyCentralHD).pe",
 }
 
-DROP_WORDS = {
-    "CABLE", "PER", "HD", "FHD", "UHD", "4K", "TV", "CANAL", "TELEVISION", "CHANNEL",
-    "REGIONAL", "DTH", "LIVE", "OTT", "LIMA", "PERU"
-}
+DROP_WORDS = {"CABLE", "PER", "HD", "FHD", "UHD", "4K", "TV", "CANAL", "TELEVISION", "CHANNEL", "REGIONAL", "DTH", "LIVE", "OTT", "LIMA", "PERU"}
 
 
 def norm(text: str) -> str:
     text = unicodedata.normalize("NFKD", text or "")
     text = "".join(c for c in text if not unicodedata.combining(c))
-    text = text.upper().replace("&AMP;", "&")
-    text = text.replace("&", " AND ")
+    text = text.upper().replace("&AMP;", "&").replace("&", " AND ")
     text = re.sub(r"[^A-Z0-9+]+", " ", text)
-    words = [w for w in text.split() if w not in DROP_WORDS]
-    return " ".join(words).strip()
+    return " ".join(w for w in text.split() if w not in DROP_WORDS).strip()
 
 
 def token_similarity(a: str, b: str) -> float:
     aa, bb = set(norm(a).split()), set(norm(b).split())
     if not aa or not bb:
         return 0.0
-    common = len(aa & bb)
-    return (2.0 * common) / (len(aa) + len(bb))
+    return (2.0 * len(aa & bb)) / (len(aa) + len(bb))
 
 
 def load_seed():
@@ -100,27 +95,21 @@ def load_seed():
         if not line.strip():
             continue
         parts = line.split("\t")
-        cid = parts[0].strip()
-        name = parts[1].strip() if len(parts) > 1 else cid
-        icon = parts[2].strip() if len(parts) > 2 else ""
-        rows.append((cid, name, icon))
+        rows.append((parts[0].strip(), parts[1].strip() if len(parts) > 1 else parts[0].strip(), parts[2].strip() if len(parts) > 2 else ""))
     return rows
 
 
 def download_source() -> bytes:
-    req = Request(SOURCE_URL, headers={"User-Agent": "TeleclubTV-EPG-Updater/1.3"})
+    req = Request(SOURCE_URL, headers={"User-Agent": "TeleclubTV-EPG-Updater/1.4"})
     with urlopen(req, timeout=60) as r:
-        payload = r.read()
-    return gzip.decompress(payload)
+        return gzip.decompress(r.read())
 
 
 def source_channels(root):
     out = []
     for ch in root.findall("channel"):
         sid = ch.attrib.get("id", "")
-        names = [(x.text or "").strip() for x in ch.findall("display-name") if (x.text or "").strip()]
-        if not names:
-            names = [sid]
+        names = [(x.text or "").strip() for x in ch.findall("display-name") if (x.text or "").strip()] or [sid]
         out.append((sid, names, ch))
     return out
 
@@ -133,8 +122,84 @@ def useful_programmes(programmes_by_id, sid):
     return [p for p in programmes_by_id.get(sid, []) if programme_is_useful(p)]
 
 
+class TableParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.in_tr = False
+        self.in_td = False
+        self.rows = []
+        self.row = []
+        self.buf = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "tr":
+            self.in_tr = True
+            self.row = []
+        elif self.in_tr and tag in ("td", "th"):
+            self.in_td = True
+            self.buf = []
+
+    def handle_data(self, data):
+        if self.in_td:
+            self.buf.append(data)
+
+    def handle_endtag(self, tag):
+        if self.in_td and tag in ("td", "th"):
+            text = re.sub(r"\s+", " ", " ".join(self.buf)).strip()
+            self.row.append(text)
+            self.in_td = False
+        elif tag == "tr" and self.in_tr:
+            if self.row:
+                self.rows.append(self.row)
+            self.in_tr = False
+
+
+def parse_clock(value: str, day):
+    value = re.sub(r"\s+", " ", value.strip().upper())
+    for fmt in ("%I:%M %p", "%H:%M"):
+        try:
+            t = datetime.strptime(value, fmt).time()
+            return datetime.combine(day, t, tzinfo=LIMA)
+        except ValueError:
+            pass
+    return None
+
+
+def gatotv_america_programmes(days=3):
+    programmes = []
+    today = datetime.now(LIMA).date()
+    for offset in range(days):
+        day = today + timedelta(days=offset)
+        url = f"https://www.gatotv.com/canal/america_television_peru/{day.isoformat()}"
+        try:
+            req = Request(url, headers={"User-Agent": "Mozilla/5.0 TeleclubTV-EPG/1.0"})
+            with urlopen(req, timeout=30) as r:
+                html = r.read().decode("utf-8", errors="ignore")
+            parser = TableParser()
+            parser.feed(html)
+            for row in parser.rows:
+                if len(row) < 3:
+                    continue
+                start = parse_clock(row[0], day)
+                stop = parse_clock(row[1], day)
+                title = re.sub(r"\s+", " ", row[2]).strip()
+                if not start or not stop or not title or title.lower() == "programa":
+                    continue
+                if stop <= start:
+                    stop += timedelta(days=1)
+                p = ET.Element("programme", {
+                    "start": start.astimezone(timezone.utc).strftime("%Y%m%d%H%M%S +0000"),
+                    "stop": stop.astimezone(timezone.utc).strftime("%Y%m%d%H%M%S +0000"),
+                    "channel": "america-television.teleclub",
+                })
+                ET.SubElement(p, "title", {"lang": "es"}).text = title
+                programmes.append(p)
+        except Exception as exc:
+            print(f"WARN América TV GatoTV {day}: {exc}")
+    return programmes
+
+
 def choose_source(cid, seed_name, sources, programmes_by_id, used_sources):
-    # 0) Fuente exacta ya comprobada en PE1.
     preferred = PREFERRED_SOURCE_IDS.get(cid)
     if preferred and preferred not in used_sources:
         for sid, names, elem in sources:
@@ -144,10 +209,7 @@ def choose_source(cid, seed_name, sources, programmes_by_id, used_sources):
                     return sid, elem, len(programmes), 1.0
                 break
 
-    aliases = ALIASES.get(cid, [])
-    candidates = aliases + [seed_name]
-
-    # 1) Coincidencias normalizadas exactas.
+    candidates = ALIASES.get(cid, []) + [seed_name]
     for candidate in candidates:
         nc = norm(candidate)
         if not nc:
@@ -156,13 +218,9 @@ def choose_source(cid, seed_name, sources, programmes_by_id, used_sources):
             if sid in used_sources:
                 continue
             programmes = useful_programmes(programmes_by_id, sid)
-            if not programmes:
-                continue
-            if any(norm(v) == nc for v in names):
+            if programmes and any(norm(v) == nc for v in names):
                 return sid, elem, len(programmes), 1.0
 
-    # 2) Fallback conservador por tokens. Los IDs técnicos de la fuente no se
-    # comparan aquí porque incluyen sufijos que degradan la similitud.
     best = None
     best_score = 0.0
     for sid, names, elem in sources:
@@ -172,32 +230,26 @@ def choose_source(cid, seed_name, sources, programmes_by_id, used_sources):
         if not programmes:
             continue
         for candidate in candidates:
-            nc = norm(candidate)
-            if not nc:
+            c_tokens = set(norm(candidate).split())
+            if not c_tokens:
                 continue
-            c_tokens = set(nc.split())
             for src_name in names:
-                ns = norm(src_name)
-                if not ns:
-                    continue
-                s_tokens = set(ns.split())
+                s_tokens = set(norm(src_name).split())
                 if min(len(c_tokens), len(s_tokens)) <= 1:
                     continue
-                score = token_similarity(candidate, src_name)
                 c_nums = {t for t in c_tokens if t.isdigit()}
                 s_nums = {t for t in s_tokens if t.isdigit()}
                 if c_nums and c_nums != s_nums:
                     continue
+                score = token_similarity(candidate, src_name)
                 if score > best_score:
                     best_score = score
                     best = (sid, elem, len(programmes), score)
-
     return best if best_score >= 0.90 else None
 
 
 def main():
-    source_xml = download_source()
-    src_root = ET.fromstring(source_xml)
+    src_root = ET.fromstring(download_source())
     sources = source_channels(src_root)
     programmes_by_id = {}
     for p in src_root.findall("programme"):
@@ -205,34 +257,44 @@ def main():
         if sid:
             programmes_by_id.setdefault(sid, []).append(p)
 
+    # Si EPGShare no trae América TV, usamos la parrilla diaria de GatoTV.
+    america_fallback = gatotv_america_programmes()
+
     out = ET.Element("tv", {
-        "source-info-name": "EPGShare01 PE1",
+        "source-info-name": "EPGShare01 PE1 + GatoTV fallback",
         "source-info-url": SOURCE_URL,
         "generator-info-name": "TeleclubTV Auto EPG",
         "generated-at": datetime.now(timezone.utc).isoformat(),
     })
 
-    matched = 0
     mapping = {}
     used_sources = set()
     seed_rows = load_seed()
     unmatched = []
+    matched = 0
 
     for cid, name, icon in seed_rows:
         found = choose_source(cid, name, sources, programmes_by_id, used_sources)
-        if not found:
+        if not found and cid != "america-television.teleclub":
             unmatched.append((cid, name))
             continue
 
-        sid, _, programme_count, score = found
-        mapping[sid] = cid
-        used_sources.add(sid)
+        if found:
+            sid, _, programme_count, score = found
+            mapping[sid] = cid
+            used_sources.add(sid)
+            print(f"MAP {cid} <- {sid} | programas={programme_count} | score={score:.2f}")
+        elif cid == "america-television.teleclub" and america_fallback:
+            print(f"MAP {cid} <- GatoTV | programas={len(america_fallback)} | score=1.00")
+        else:
+            unmatched.append((cid, name))
+            continue
+
         ch = ET.SubElement(out, "channel", {"id": cid})
         ET.SubElement(ch, "display-name", {"lang": "es"}).text = name
         if icon:
             ET.SubElement(ch, "icon", {"src": icon})
         matched += 1
-        print(f"MAP {cid} <- {sid} | programas={programme_count} | score={score:.2f}")
 
     programme_total = 0
     for sid, cid in mapping.items():
@@ -240,6 +302,11 @@ def main():
             clone = ET.fromstring(ET.tostring(p, encoding="utf-8"))
             clone.set("channel", cid)
             out.append(clone)
+            programme_total += 1
+
+    if "america-television.teleclub" not in mapping.values():
+        for p in america_fallback:
+            out.append(p)
             programme_total += 1
 
     if matched == 0 or programme_total == 0:
