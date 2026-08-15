@@ -14,24 +14,24 @@ OUTPUT = Path(__file__).with_name("guia_teleclubtv.xml")
 ALIASES = {
     "latina.teleclub": ["LATINA HD", "LATINA"],
     "america-television.teleclub": ["AMERICA TELEVISION HD", "AMERICA TELEVISION", "AMERICA TV"],
-    "panamericana-television.teleclub": ["PANAMERICANA TELEVISION HD", "PANAMERICANA TELEVISION"],
+    "panamericana-television.teleclub": ["PANAMERICANA TELEVISION HD", "PANAMERICANA TELEVISION", "PANAMERICANA"],
     "atv.teleclub": ["ATV+", "ATV +"],
     "atv.teleclub-2": ["ATV HD", "ATV"],
-    "global-tv.teleclub": ["GLOBAL", "RED TV"],
-    "rpp-tv.teleclub": ["RPP TV", "RPP HD"],
-    "willas-tv.teleclub": ["WILLAX"],
-    "usmp-tv.teleclub": ["USMP TV"],
+    "global-tv.teleclub": ["GLOBAL", "RED TV", "GLOBAL TV"],
+    "rpp-tv.teleclub": ["RPP TV", "RPP HD", "RPP"],
+    "willas-tv.teleclub": ["WILLAX", "WILLAX TV"],
+    "usmp-tv.teleclub": ["USMP TV", "USMP"],
     "la-tele.teleclub": ["LA TELE PERU", "LA TELE"],
     "cine-canal.teleclub": ["CINECANAL HD", "CINECANAL"],
     "sony.teleclub": ["SONY HD", "SONY"],
     "axn.teleclub": ["AXN HD", "AXN"],
     "paramount-chanel.teleclub": ["PARAMOUNT HD", "PARAMOUNT"],
     "a-e.teleclub": ["A&E HD", "A&E"],
-    "nick.teleclub": ["NICKELODEON", "NICK HD"],
+    "nick.teleclub": ["NICKELODEON", "NICK HD", "NICK"],
     "disney-chanel.teleclub": ["DISNEY CHANNEL HD", "DISNEY CHANNEL"],
     "discovery-kisd.teleclub": ["DISCOVERY KIDS HD", "DISCOVERY KIDS"],
     "nick-jr.teleclub": ["NICK JR"],
-    "disney-jr.teleclub": ["DISNEY JUNIOR"],
+    "disney-jr.teleclub": ["DISNEY JUNIOR", "DISNEY JR"],
     "telemundo.teleclub": ["TELEMUNDO"],
     "espn-1.teleclub": ["ESPN HD", "ESPN"],
     "espn-2.teleclub": ["ESPN 2", "ESPN2"],
@@ -52,8 +52,8 @@ ALIASES = {
 }
 
 DROP_WORDS = {
-    "CABLE", "PER", "HD", "TV", "CANAL", "TELEVISION", "CHANNEL", "REGIONAL",
-    "DTH", "LIVE", "OTT"
+    "CABLE", "PER", "HD", "FHD", "UHD", "4K", "TV", "CANAL", "TELEVISION", "CHANNEL",
+    "REGIONAL", "DTH", "LIVE", "OTT", "LIMA", "PERU"
 }
 
 
@@ -88,7 +88,7 @@ def load_seed():
 
 
 def download_source() -> bytes:
-    req = Request(SOURCE_URL, headers={"User-Agent": "TeleclubTV-EPG-Updater/1.0"})
+    req = Request(SOURCE_URL, headers={"User-Agent": "TeleclubTV-EPG-Updater/1.1"})
     with urlopen(req, timeout=60) as r:
         payload = r.read()
     return gzip.decompress(payload)
@@ -105,11 +105,18 @@ def source_channels(root):
     return out
 
 
-def choose_source(cid, seed_name, sources):
+def programme_is_useful(p):
+    return bool((p.findtext("title") or "").strip())
+
+
+def choose_source(cid, seed_name, sources, programmes_by_id):
     candidates = ALIASES.get(cid, []) + [seed_name]
     best = None
     best_score = 0.0
     for sid, names, elem in sources:
+        programmes = [p for p in programmes_by_id.get(sid, []) if programme_is_useful(p)]
+        if not programmes:
+            continue
         for candidate in candidates:
             for src_name in names + [sid]:
                 na, nb = norm(candidate), norm(src_name)
@@ -117,11 +124,11 @@ def choose_source(cid, seed_name, sources):
                     continue
                 score = 1.0 if na == nb else similarity(candidate, src_name)
                 if na in nb or nb in na:
-                    score = max(score, 0.88)
+                    score = max(score, 0.90)
                 if score > best_score:
                     best_score = score
-                    best = (sid, elem)
-    return best if best_score >= 0.67 else None
+                    best = (sid, elem, len(programmes), best_score)
+    return best if best_score >= 0.62 else None
 
 
 def main():
@@ -130,7 +137,9 @@ def main():
     sources = source_channels(src_root)
     programmes_by_id = {}
     for p in src_root.findall("programme"):
-        programmes_by_id.setdefault(p.attrib.get("channel", ""), []).append(p)
+        sid = p.attrib.get("channel", "")
+        if sid:
+            programmes_by_id.setdefault(sid, []).append(p)
 
     out = ET.Element("tv", {
         "source-info-name": "EPGShare01 PE1",
@@ -142,28 +151,45 @@ def main():
     matched = 0
     mapping = {}
     seed_rows = load_seed()
+    unmatched = []
+
     for cid, name, icon in seed_rows:
+        found = choose_source(cid, name, sources, programmes_by_id)
+        if not found:
+            unmatched.append((cid, name))
+            continue
+
+        sid, _, programme_count, score = found
+        mapping[sid] = cid
         ch = ET.SubElement(out, "channel", {"id": cid})
         ET.SubElement(ch, "display-name", {"lang": "es"}).text = name
         if icon:
             ET.SubElement(ch, "icon", {"src": icon})
+        matched += 1
+        print(f"MAP {cid} <- {sid} | programas={programme_count} | score={score:.2f}")
 
-        found = choose_source(cid, name, sources)
-        if found:
-            sid, _ = found
-            mapping[sid] = cid
-            matched += 1
-
+    programme_total = 0
     for sid, cid in mapping.items():
         for p in programmes_by_id.get(sid, []):
+            if not programme_is_useful(p):
+                continue
             clone = ET.fromstring(ET.tostring(p, encoding="utf-8"))
             clone.set("channel", cid)
             out.append(clone)
+            programme_total += 1
+
+    if matched == 0 or programme_total == 0:
+        raise RuntimeError("La fuente no entregó canales con programación útil; no se reemplaza la EPG actual")
 
     ET.indent(out, space="  ")
     ET.ElementTree(out).write(OUTPUT, encoding="utf-8", xml_declaration=True)
     print(f"EPG actualizado: {OUTPUT}")
-    print(f"Canales Teleclub mapeados: {matched}/{len(seed_rows)}")
+    print(f"Canales con programación real: {matched}/{len(seed_rows)}")
+    print(f"Programas publicados: {programme_total}")
+    if unmatched:
+        print("Canales sin programación disponible en la fuente:")
+        for cid, name in unmatched:
+            print(f"  - {cid} | {name}")
 
 
 if __name__ == "__main__":
