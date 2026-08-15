@@ -51,6 +51,25 @@ ALIASES = {
     "playboy-tv-18.teleclub": ["PLAYBOY HD", "PLAYBOY"],
 }
 
+# IDs exactos observados en la fuente PE1. Se priorizan antes de cualquier
+# comparación por nombre para recuperar canales válidos sin volver a crear
+# falsos positivos como América->Panamericana o A&E->ESPN Extra.
+PREFERRED_SOURCE_IDS = {
+    "latina.teleclub": "LATINA.HD.(Latina.HD).pe",
+    "panamericana-television.teleclub": "PANAMERICANA.TELEVISION.HD.(Panamericana.HD).pe",
+    "atv.teleclub-2": "ATV.HD.(ATV.HD).pe",
+    "rpp-tv.teleclub": "RPP.HD.(RPP.HD).pe",
+    "willas-tv.teleclub": "WILLAX.(Willax).pe",
+    "usmp-tv.teleclub": "USMP.TV.(USMP.TV).pe",
+    "cine-canal.teleclub": "CINECANAL.HD.(Cinecanal.HD).pe",
+    "nick.teleclub": "NICK.HD.(NickHD).pe",
+    "disney-chanel.teleclub": "DISNEY.CHANNEL.HD.(DisneyHD).pe",
+    "disney-jr.teleclub": "DISNEY.JUNIOR.(DisneyJunior).pe",
+    "espn-3.teleclub": "ESPN.3.HD.(ESPN.3.HD).pe",
+    "national-geographic.teleclub": "NAT.GEO.HD.(Nat.Geo.HD).pe",
+    "comedi-central.teleclub": "COMEDY.CENTRAL.HD.(ComedyCentralHD).pe",
+}
+
 DROP_WORDS = {
     "CABLE", "PER", "HD", "FHD", "UHD", "4K", "TV", "CANAL", "TELEVISION", "CHANNEL",
     "REGIONAL", "DTH", "LIVE", "OTT", "LIMA", "PERU"
@@ -89,7 +108,7 @@ def load_seed():
 
 
 def download_source() -> bytes:
-    req = Request(SOURCE_URL, headers={"User-Agent": "TeleclubTV-EPG-Updater/1.2"})
+    req = Request(SOURCE_URL, headers={"User-Agent": "TeleclubTV-EPG-Updater/1.3"})
     with urlopen(req, timeout=60) as r:
         payload = r.read()
     return gzip.decompress(payload)
@@ -110,12 +129,25 @@ def programme_is_useful(p):
     return bool((p.findtext("title") or "").strip())
 
 
+def useful_programmes(programmes_by_id, sid):
+    return [p for p in programmes_by_id.get(sid, []) if programme_is_useful(p)]
+
+
 def choose_source(cid, seed_name, sources, programmes_by_id, used_sources):
+    # 0) Fuente exacta ya comprobada en PE1.
+    preferred = PREFERRED_SOURCE_IDS.get(cid)
+    if preferred and preferred not in used_sources:
+        for sid, names, elem in sources:
+            if sid == preferred:
+                programmes = useful_programmes(programmes_by_id, sid)
+                if programmes:
+                    return sid, elem, len(programmes), 1.0
+                break
+
     aliases = ALIASES.get(cid, [])
     candidates = aliases + [seed_name]
 
-    # 1) Solo coincidencias normalizadas exactas. Esto evita America -> Panamericana,
-    # A&E -> ESPN Extra y conserva los números de ESPN 1/2/3.
+    # 1) Coincidencias normalizadas exactas.
     for candidate in candidates:
         nc = norm(candidate)
         if not nc:
@@ -123,20 +155,20 @@ def choose_source(cid, seed_name, sources, programmes_by_id, used_sources):
         for sid, names, elem in sources:
             if sid in used_sources:
                 continue
-            programmes = [p for p in programmes_by_id.get(sid, []) if programme_is_useful(p)]
+            programmes = useful_programmes(programmes_by_id, sid)
             if not programmes:
                 continue
-            source_values = names + [sid]
-            if any(norm(v) == nc for v in source_values):
+            if any(norm(v) == nc for v in names):
                 return sid, elem, len(programmes), 1.0
 
-    # 2) Fallback conservador por tokens. Nunca usa coincidencia de subcadenas de caracteres.
+    # 2) Fallback conservador por tokens. Los IDs técnicos de la fuente no se
+    # comparan aquí porque incluyen sufijos que degradan la similitud.
     best = None
     best_score = 0.0
     for sid, names, elem in sources:
         if sid in used_sources:
             continue
-        programmes = [p for p in programmes_by_id.get(sid, []) if programme_is_useful(p)]
+        programmes = useful_programmes(programmes_by_id, sid)
         if not programmes:
             continue
         for candidate in candidates:
@@ -144,16 +176,14 @@ def choose_source(cid, seed_name, sources, programmes_by_id, used_sources):
             if not nc:
                 continue
             c_tokens = set(nc.split())
-            for src_name in names + [sid]:
+            for src_name in names:
                 ns = norm(src_name)
                 if not ns:
                     continue
                 s_tokens = set(ns.split())
-                # Para nombres cortos exigimos igualdad; evita falsos positivos como A&E/ESPN.
                 if min(len(c_tokens), len(s_tokens)) <= 1:
                     continue
                 score = token_similarity(candidate, src_name)
-                # Si hay números en el candidato, deben coincidir en la fuente.
                 c_nums = {t for t in c_tokens if t.isdigit()}
                 s_nums = {t for t in s_tokens if t.isdigit()}
                 if c_nums and c_nums != s_nums:
@@ -162,7 +192,7 @@ def choose_source(cid, seed_name, sources, programmes_by_id, used_sources):
                     best_score = score
                     best = (sid, elem, len(programmes), score)
 
-    return best if best_score >= 0.86 else None
+    return best if best_score >= 0.90 else None
 
 
 def main():
@@ -206,9 +236,7 @@ def main():
 
     programme_total = 0
     for sid, cid in mapping.items():
-        for p in programmes_by_id.get(sid, []):
-            if not programme_is_useful(p):
-                continue
+        for p in useful_programmes(programmes_by_id, sid):
             clone = ET.fromstring(ET.tostring(p, encoding="utf-8"))
             clone.set("channel", cid)
             out.append(clone)
