@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import gzip
-import io
 import re
 import unicodedata
 from datetime import datetime, timezone
@@ -19,14 +18,37 @@ ALIASES = {
     "atv.teleclub": ["ATV+", "ATV +"],
     "atv.teleclub-2": ["ATV HD", "ATV"],
     "global-tv.teleclub": ["GLOBAL", "RED TV"],
-    "cinecanal.teleclub": ["CINECANAL HD", "CINECANAL"],
-    "tnt.teleclub": ["TNT HD", "TNT"],
-    "willax.teleclub": ["WILLAX"],
-    "axn.teleclub": ["AXN HD", "AXN"],
-    "history.teleclub": ["HISTORY CHANNEL HD", "HISTORY CHANNEL", "HISTORY"],
-    "nick.teleclub": ["NICKELODEON", "NICK HD"],
+    "rpp-tv.teleclub": ["RPP TV", "RPP HD"],
+    "willas-tv.teleclub": ["WILLAX"],
+    "usmp-tv.teleclub": ["USMP TV"],
+    "la-tele.teleclub": ["LA TELE PERU", "LA TELE"],
+    "cine-canal.teleclub": ["CINECANAL HD", "CINECANAL"],
     "sony.teleclub": ["SONY HD", "SONY"],
-    "natgeo.teleclub": ["NAT GEO HD", "NAT GEO"],
+    "axn.teleclub": ["AXN HD", "AXN"],
+    "paramount-chanel.teleclub": ["PARAMOUNT HD", "PARAMOUNT"],
+    "a-e.teleclub": ["A&E HD", "A&E"],
+    "nick.teleclub": ["NICKELODEON", "NICK HD"],
+    "disney-chanel.teleclub": ["DISNEY CHANNEL HD", "DISNEY CHANNEL"],
+    "discovery-kisd.teleclub": ["DISCOVERY KIDS HD", "DISCOVERY KIDS"],
+    "nick-jr.teleclub": ["NICK JR"],
+    "disney-jr.teleclub": ["DISNEY JUNIOR"],
+    "telemundo.teleclub": ["TELEMUNDO"],
+    "espn-1.teleclub": ["ESPN HD", "ESPN"],
+    "espn-2.teleclub": ["ESPN 2", "ESPN2"],
+    "espn-3.teleclub": ["ESPN 3 HD", "ESPN 3"],
+    "animal-planet.teleclub": ["ANIMAL PLANET HD", "ANIMAL PLANET"],
+    "discovery-channel.teleclub": ["DISCOVERY CHANNEL", "DISCOVERY HD"],
+    "discovery-h-h.teleclub": ["HOME & HEALTH HD", "HOME & HEALTH"],
+    "history.teleclub": ["HISTORY CHANNEL HD", "HISTORY CHANNEL", "HISTORY"],
+    "national-geographic.teleclub": ["NAT GEO HD", "NAT GEO", "NATIONAL GEOGRAPHIC"],
+    "discovery-sciense.teleclub": ["DISCOVERY SCIENCE"],
+    "discovery-turbo.teleclub": ["DISCOVERY TURBO"],
+    "discovery-theater.teleclub": ["DISCOVERY HD THEATER"],
+    "comedi-central.teleclub": ["COMEDY CENTRAL HD", "COMEDY CENTRAL"],
+    "lifetime.teleclub": ["LIFETIME"],
+    "food-network.teleclub": ["FOOD NETWORK"],
+    "enlace.teleclub": ["ENLACE TBN", "ENLACE"],
+    "playboy-tv-18.teleclub": ["PLAYBOY HD", "PLAYBOY"],
 }
 
 DROP_WORDS = {
@@ -119,7 +141,8 @@ def main():
 
     matched = 0
     mapping = {}
-    for cid, name, icon in load_seed():
+    seed_rows = load_seed()
+    for cid, name, icon in seed_rows:
         ch = ET.SubElement(out, "channel", {"id": cid})
         ET.SubElement(ch, "display-name", {"lang": "es"}).text = name
         if icon:
@@ -140,7 +163,7 @@ def main():
     ET.indent(out, space="  ")
     ET.ElementTree(out).write(OUTPUT, encoding="utf-8", xml_declaration=True)
     print(f"EPG actualizado: {OUTPUT}")
-    print(f"Canales Teleclub mapeados: {matched}/{len(load_seed())}")
+    print(f"Canales Teleclub mapeados: {matched}/{len(seed_rows)}")
 
 
 if __name__ == "__main__":
