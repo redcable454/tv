@@ -1,8 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-08-15T14:22:48.660758+00:00">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-08-15T14:32:53.315114+00:00">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
+  </channel>
+  <channel id="america-television.teleclub">
+    <display-name lang="es">4 CABLE | AMERICA TELEVISION HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Am%C3%A9rica_Televisi%C3%B3n_logo_2016.png" />
   </channel>
   <channel id="panamericana-television.teleclub">
     <display-name lang="es">CABLE | PANAMERICANA TELEVISION HD</display-name>
@@ -11455,5 +11459,128 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20260815050000 +0000" stop="20260815051700 +0000" channel="america-television.teleclub">
+    <title lang="es">América noticias Edición central</title>
+  </programme>
+  <programme start="20260815051700 +0000" stop="20260815052400 +0000" channel="america-television.teleclub">
+    <title lang="es">América Deportes</title>
+  </programme>
+  <programme start="20260815052400 +0000" stop="20260815052700 +0000" channel="america-television.teleclub">
+    <title lang="es">América noticias Edición central</title>
+  </programme>
+  <programme start="20260815052700 +0000" stop="20260815054500 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
+  <programme start="20260815054500 +0000" stop="20260815063000 +0000" channel="america-television.teleclub">
+    <title lang="es">Desvelados</title>
+  </programme>
+  <programme start="20260815063000 +0000" stop="20260815073000 +0000" channel="america-television.teleclub">
+    <title lang="es">Corazón de Oro</title>
+  </programme>
+  <programme start="20260815073000 +0000" stop="20260815081000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
+  </programme>
+  <programme start="20260815081000 +0000" stop="20260815083000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
+  <programme start="20260815083000 +0000" stop="20260815093000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
+  <programme start="20260815093000 +0000" stop="20260815103000 +0000" channel="america-television.teleclub">
+    <title lang="es">América noticias Edición central</title>
+  </programme>
+  <programme start="20260815103000 +0000" stop="20260815111600 +0000" channel="america-television.teleclub">
+    <title lang="es">Mande quien mande</title>
+  </programme>
+  <programme start="20260815111600 +0000" stop="20260815120000 +0000" channel="america-television.teleclub">
+    <title lang="es">Mande quien mande</title>
+  </programme>
+  <programme start="20260815120000 +0000" stop="20260815130000 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Edición sabatina matutino</title>
+  </programme>
+  <programme start="20260815130000 +0000" stop="20260815150000 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Edición sabatina</title>
+  </programme>
+  <programme start="20260815150000 +0000" stop="20260815170000 +0000" channel="america-television.teleclub">
+    <title lang="es">¡Estás en todas!</title>
+  </programme>
+  <programme start="20260815170000 +0000" stop="20260815180000 +0000" channel="america-television.teleclub">
+    <title lang="es">Veredicto Final</title>
+  </programme>
+  <programme start="20260815180000 +0000" stop="20260815190000 +0000" channel="america-television.teleclub">
+    <title lang="es">Como dice el dicho</title>
+  </programme>
+  <programme start="20260815190000 +0000" stop="20260815200000 +0000" channel="america-television.teleclub">
+    <title lang="es">Solamente milagros</title>
+  </programme>
+  <programme start="20260815210000 +0000" stop="20260815223000 +0000" channel="america-television.teleclub">
+    <title lang="es">Angry Birds La película</title>
+  </programme>
+  <programme start="20260816001500 +0000" stop="20260816011500 +0000" channel="america-television.teleclub">
+    <title lang="es">Los milagros de la rosa, Perú</title>
+  </programme>
+  <programme start="20260816011500 +0000" stop="20260816020000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los milagros de la rosa, Perú</title>
+  </programme>
+  <programme start="20260816020000 +0000" stop="20260816040000 +0000" channel="america-television.teleclub">
+    <title lang="es">El reventonazo de la Chola</title>
+  </programme>
+  <programme start="20260816040000 +0000" stop="20260816053000 +0000" channel="america-television.teleclub">
+    <title lang="es">Chapa tu money</title>
+  </programme>
+  <programme start="20260817040000 +0000" stop="20260817053000 +0000" channel="america-television.teleclub">
+    <title lang="es">Chapa tu money</title>
+  </programme>
+  <programme start="20260816053000 +0000" stop="20260816063000 +0000" channel="america-television.teleclub">
+    <title lang="es">Amores que Matan</title>
+  </programme>
+  <programme start="20260816063000 +0000" stop="20260816073000 +0000" channel="america-television.teleclub">
+    <title lang="es">BKFC 60 Campeonato de Lucha a Puño Limpio</title>
+  </programme>
+  <programme start="20260816073000 +0000" stop="20260816093000 +0000" channel="america-television.teleclub">
+    <title lang="es">El asedio de Robin Hood</title>
+  </programme>
+  <programme start="20260816093000 +0000" stop="20260816103000 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Edición sabatina matutino</title>
+  </programme>
+  <programme start="20260816103000 +0000" stop="20260816111600 +0000" channel="america-television.teleclub">
+    <title lang="es">¡Estás en todas!</title>
+  </programme>
+  <programme start="20260816111600 +0000" stop="20260816120000 +0000" channel="america-television.teleclub">
+    <title lang="es">¡Estás en todas!</title>
+  </programme>
+  <programme start="20260816120000 +0000" stop="20260816130000 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Edición dominical matutino</title>
+  </programme>
+  <programme start="20260816130000 +0000" stop="20260816143000 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Edición Dominical</title>
+  </programme>
+  <programme start="20260816143000 +0000" stop="20260816170000 +0000" channel="america-television.teleclub">
+    <title lang="es">Domingo al Día</title>
+  </programme>
+  <programme start="20260816170000 +0000" stop="20260816180000 +0000" channel="america-television.teleclub">
+    <title lang="es">TEC</title>
+  </programme>
+  <programme start="20260816180000 +0000" stop="20260816190000 +0000" channel="america-television.teleclub">
+    <title lang="es">Bluey Juguemos a ser chefs</title>
+  </programme>
+  <programme start="20260816190000 +0000" stop="20260816200000 +0000" channel="america-television.teleclub">
+    <title lang="es">Solamente milagros</title>
+  </programme>
+  <programme start="20260816210000 +0000" stop="20260816211500 +0000" channel="america-television.teleclub">
+    <title lang="es">Antesala</title>
+  </programme>
+  <programme start="20260816211500 +0000" stop="20260816231500 +0000" channel="america-television.teleclub">
+    <title lang="es">UNSAAC vs. Alianza Lima Fútbol Peruano Femenino Primera División</title>
+  </programme>
+  <programme start="20260816231500 +0000" stop="20260817000000 +0000" channel="america-television.teleclub">
+    <title lang="es">América Deportes</title>
+  </programme>
+  <programme start="20260817000000 +0000" stop="20260817005000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los milagros de la rosa, Perú</title>
+  </programme>
+  <programme start="20260817005000 +0000" stop="20260817012000 +0000" channel="america-television.teleclub">
+    <title lang="es">Sí, va a salir</title>
   </programme>
 </tv>
