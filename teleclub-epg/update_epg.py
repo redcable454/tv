@@ -13,9 +13,9 @@ OUTPUT = Path(__file__).with_name("guia_teleclubtv.xml")
 
 ALIASES = {
     "latina.teleclub": ["LATINA HD", "LATINA"],
-    "america-television.teleclub": ["AMERICA TELEVISION HD", "AMERICA TELEVISION", "AMERICA TV"],
-    "panamericana-television.teleclub": ["PANAMERICANA TELEVISION HD", "PANAMERICANA TELEVISION", "PANAMERICANA"],
-    "atv.teleclub": ["ATV+", "ATV +"],
+    "america-television.teleclub": ["AMERICA TELEVISION HD", "AMERICA TELEVISION", "AMERICA TV", "AMERICA HD", "AMERICA"],
+    "panamericana-television.teleclub": ["PANAMERICANA TELEVISION HD", "PANAMERICANA TELEVISION", "PANAMERICANA HD", "PANAMERICANA"],
+    "atv.teleclub": ["ATV+", "ATV +", "ATV PLUS"],
     "atv.teleclub-2": ["ATV HD", "ATV"],
     "global-tv.teleclub": ["GLOBAL", "RED TV", "GLOBAL TV"],
     "rpp-tv.teleclub": ["RPP TV", "RPP HD", "RPP"],
@@ -26,16 +26,16 @@ ALIASES = {
     "sony.teleclub": ["SONY HD", "SONY"],
     "axn.teleclub": ["AXN HD", "AXN"],
     "paramount-chanel.teleclub": ["PARAMOUNT HD", "PARAMOUNT"],
-    "a-e.teleclub": ["A&E HD", "A&E"],
+    "a-e.teleclub": ["A&E HD", "A&E", "A AND E"],
     "nick.teleclub": ["NICKELODEON", "NICK HD", "NICK"],
     "disney-chanel.teleclub": ["DISNEY CHANNEL HD", "DISNEY CHANNEL"],
     "discovery-kisd.teleclub": ["DISCOVERY KIDS HD", "DISCOVERY KIDS"],
     "nick-jr.teleclub": ["NICK JR"],
     "disney-jr.teleclub": ["DISNEY JUNIOR", "DISNEY JR"],
     "telemundo.teleclub": ["TELEMUNDO"],
-    "espn-1.teleclub": ["ESPN HD", "ESPN"],
-    "espn-2.teleclub": ["ESPN 2", "ESPN2"],
-    "espn-3.teleclub": ["ESPN 3 HD", "ESPN 3"],
+    "espn-1.teleclub": ["ESPN 1 HD", "ESPN 1", "ESPN HD", "ESPN"],
+    "espn-2.teleclub": ["ESPN 2 HD", "ESPN 2", "ESPN2 HD", "ESPN2"],
+    "espn-3.teleclub": ["ESPN 3 HD", "ESPN 3", "ESPN3 HD", "ESPN3"],
     "animal-planet.teleclub": ["ANIMAL PLANET HD", "ANIMAL PLANET"],
     "discovery-channel.teleclub": ["DISCOVERY CHANNEL", "DISCOVERY HD"],
     "discovery-h-h.teleclub": ["HOME & HEALTH HD", "HOME & HEALTH"],
@@ -61,12 +61,13 @@ def norm(text: str) -> str:
     text = unicodedata.normalize("NFKD", text or "")
     text = "".join(c for c in text if not unicodedata.combining(c))
     text = text.upper().replace("&AMP;", "&")
+    text = text.replace("&", " AND ")
     text = re.sub(r"[^A-Z0-9+]+", " ", text)
-    words = [w for w in text.split() if w not in DROP_WORDS and not w.isdigit()]
+    words = [w for w in text.split() if w not in DROP_WORDS]
     return " ".join(words).strip()
 
 
-def similarity(a: str, b: str) -> float:
+def token_similarity(a: str, b: str) -> float:
     aa, bb = set(norm(a).split()), set(norm(b).split())
     if not aa or not bb:
         return 0.0
@@ -88,7 +89,7 @@ def load_seed():
 
 
 def download_source() -> bytes:
-    req = Request(SOURCE_URL, headers={"User-Agent": "TeleclubTV-EPG-Updater/1.1"})
+    req = Request(SOURCE_URL, headers={"User-Agent": "TeleclubTV-EPG-Updater/1.2"})
     with urlopen(req, timeout=60) as r:
         payload = r.read()
     return gzip.decompress(payload)
@@ -109,26 +110,59 @@ def programme_is_useful(p):
     return bool((p.findtext("title") or "").strip())
 
 
-def choose_source(cid, seed_name, sources, programmes_by_id):
-    candidates = ALIASES.get(cid, []) + [seed_name]
+def choose_source(cid, seed_name, sources, programmes_by_id, used_sources):
+    aliases = ALIASES.get(cid, [])
+    candidates = aliases + [seed_name]
+
+    # 1) Solo coincidencias normalizadas exactas. Esto evita America -> Panamericana,
+    # A&E -> ESPN Extra y conserva los números de ESPN 1/2/3.
+    for candidate in candidates:
+        nc = norm(candidate)
+        if not nc:
+            continue
+        for sid, names, elem in sources:
+            if sid in used_sources:
+                continue
+            programmes = [p for p in programmes_by_id.get(sid, []) if programme_is_useful(p)]
+            if not programmes:
+                continue
+            source_values = names + [sid]
+            if any(norm(v) == nc for v in source_values):
+                return sid, elem, len(programmes), 1.0
+
+    # 2) Fallback conservador por tokens. Nunca usa coincidencia de subcadenas de caracteres.
     best = None
     best_score = 0.0
     for sid, names, elem in sources:
+        if sid in used_sources:
+            continue
         programmes = [p for p in programmes_by_id.get(sid, []) if programme_is_useful(p)]
         if not programmes:
             continue
         for candidate in candidates:
+            nc = norm(candidate)
+            if not nc:
+                continue
+            c_tokens = set(nc.split())
             for src_name in names + [sid]:
-                na, nb = norm(candidate), norm(src_name)
-                if not na or not nb:
+                ns = norm(src_name)
+                if not ns:
                     continue
-                score = 1.0 if na == nb else similarity(candidate, src_name)
-                if na in nb or nb in na:
-                    score = max(score, 0.90)
+                s_tokens = set(ns.split())
+                # Para nombres cortos exigimos igualdad; evita falsos positivos como A&E/ESPN.
+                if min(len(c_tokens), len(s_tokens)) <= 1:
+                    continue
+                score = token_similarity(candidate, src_name)
+                # Si hay números en el candidato, deben coincidir en la fuente.
+                c_nums = {t for t in c_tokens if t.isdigit()}
+                s_nums = {t for t in s_tokens if t.isdigit()}
+                if c_nums and c_nums != s_nums:
+                    continue
                 if score > best_score:
                     best_score = score
-                    best = (sid, elem, len(programmes), best_score)
-    return best if best_score >= 0.62 else None
+                    best = (sid, elem, len(programmes), score)
+
+    return best if best_score >= 0.86 else None
 
 
 def main():
@@ -150,17 +184,19 @@ def main():
 
     matched = 0
     mapping = {}
+    used_sources = set()
     seed_rows = load_seed()
     unmatched = []
 
     for cid, name, icon in seed_rows:
-        found = choose_source(cid, name, sources, programmes_by_id)
+        found = choose_source(cid, name, sources, programmes_by_id, used_sources)
         if not found:
             unmatched.append((cid, name))
             continue
 
         sid, _, programme_count, score = found
         mapping[sid] = cid
+        used_sources.add(sid)
         ch = ET.SubElement(out, "channel", {"id": cid})
         ET.SubElement(ch, "display-name", {"lang": "es"}).text = name
         if icon:
