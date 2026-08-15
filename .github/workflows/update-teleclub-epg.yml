@@ -2,7 +2,7 @@ name: Actualizar EPG TeleclubTV
 
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
   push:
     paths:
@@ -13,9 +13,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: teleclub-epg-hourly
+  cancel-in-progress: false
+
 jobs:
   actualizar-epg:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
@@ -25,7 +30,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generar guía XMLTV
+      - name: Generar y validar guía XMLTV
         run: python teleclub-epg/update_epg.py
 
       - name: Guardar guía actualizada
