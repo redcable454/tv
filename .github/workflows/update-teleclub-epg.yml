@@ -30,8 +30,24 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generar y validar guía XMLTV
+      - name: Generar guía XMLTV
         run: python teleclub-epg/update_epg.py
+
+      - name: Validar guía antes de publicar
+        run: |
+          test -s teleclub-epg/guia_teleclubtv.xml
+          grep -q '<channel id=' teleclub-epg/guia_teleclubtv.xml
+          grep -q '<programme ' teleclub-epg/guia_teleclubtv.xml
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          p='teleclub-epg/guia_teleclubtv.xml'
+          root=ET.parse(p).getroot()
+          channels=len(root.findall('channel'))
+          programmes=len(root.findall('programme'))
+          print(f'EPG válida: {channels} canales, {programmes} programas')
+          if channels < 5 or programmes < 1:
+              raise SystemExit('EPG inválida o incompleta; no se publicará')
+          PY
 
       - name: Guardar guía actualizada
         run: |
