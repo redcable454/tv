@@ -36,19 +36,20 @@ jobs:
           set -e
           mkdir -p teleclub-epg
           tmp="$(mktemp)"
+          EPG_URL='https://teleclubtv-panel.micanalfmradio8.workers.dev/epg.xml'
           if curl -fL --retry 3 --retry-delay 5 --connect-timeout 20 --max-time 120 \
-            -H 'User-Agent: TeleclubTV-EPG-GitHub/1.0' \
-            'https://panel.teleclub.site/epg.xml' -o "$tmp"; then
+            -H 'User-Agent: TeleclubTV-EPG-GitHub/1.1' \
+            "$EPG_URL" -o "$tmp"; then
             if grep -q '<tv' "$tmp" && grep -q '<channel ' "$tmp"; then
               mv "$tmp" teleclub-epg/guia_teleclubtv.xml
-              echo "EPG descargada desde panel.teleclub.site"
+              echo "EPG descargada desde $EPG_URL"
             else
-              echo "La respuesta del panel no parece XMLTV válido"
+              echo "La respuesta del Worker no parece XMLTV válido"
               rm -f "$tmp"
               python teleclub-epg/update_epg.py
             fi
           else
-            echo "No se pudo descargar la EPG del panel; usando generador local de respaldo"
+            echo "No se pudo descargar la EPG del Worker; usando generador local de respaldo"
             rm -f "$tmp"
             python teleclub-epg/update_epg.py
           fi
@@ -79,5 +80,3 @@ jobs:
             git commit -m "Actualizar guía EPG TeleclubTV"
             git push
           fi
-
-# Sincronización forzada tras desplegar EPG de radios
