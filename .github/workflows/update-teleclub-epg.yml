@@ -80,3 +80,5 @@ jobs:
             git commit -m "Actualizar guía EPG TeleclubTV"
             git push
           fi
+
+# Sincronización forzada después de corregir IDs EPG de radios
