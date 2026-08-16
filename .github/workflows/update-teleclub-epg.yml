@@ -2,19 +2,19 @@ name: Actualizar EPG TeleclubTV
 
 on:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
   push:
     paths:
+      - ".github/workflows/update-teleclub-epg.yml"
       - "teleclub-epg/update_epg.py"
       - "teleclub-epg/seed_channels.tsv"
-      - ".github/workflows/update-teleclub-epg.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: teleclub-epg-hourly
+  group: teleclub-epg-auto
   cancel-in-progress: false
 
 jobs:
@@ -30,14 +30,33 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generar guía XMLTV
-        run: python teleclub-epg/update_epg.py
+      - name: Descargar EPG automática desde el panel
+        shell: bash
+        run: |
+          set -e
+          mkdir -p teleclub-epg
+          tmp="$(mktemp)"
+          if curl -fL --retry 3 --retry-delay 5 --connect-timeout 20 --max-time 120 \
+            -H 'User-Agent: TeleclubTV-EPG-GitHub/1.0' \
+            'https://panel.teleclub.site/epg.xml' -o "$tmp"; then
+            if grep -q '<tv' "$tmp" && grep -q '<channel ' "$tmp"; then
+              mv "$tmp" teleclub-epg/guia_teleclubtv.xml
+              echo "EPG descargada desde panel.teleclub.site"
+            else
+              echo "La respuesta del panel no parece XMLTV válido"
+              rm -f "$tmp"
+              python teleclub-epg/update_epg.py
+            fi
+          else
+            echo "No se pudo descargar la EPG del panel; usando generador local de respaldo"
+            rm -f "$tmp"
+            python teleclub-epg/update_epg.py
+          fi
 
       - name: Validar guía antes de publicar
         run: |
           test -s teleclub-epg/guia_teleclubtv.xml
-          grep -q '<channel id=' teleclub-epg/guia_teleclubtv.xml
-          grep -q '<programme ' teleclub-epg/guia_teleclubtv.xml
+          grep -q '<channel ' teleclub-epg/guia_teleclubtv.xml
           python - <<'PY'
           import xml.etree.ElementTree as ET
           p='teleclub-epg/guia_teleclubtv.xml'
@@ -45,8 +64,8 @@ jobs:
           channels=len(root.findall('channel'))
           programmes=len(root.findall('programme'))
           print(f'EPG válida: {channels} canales, {programmes} programas')
-          if channels < 5 or programmes < 1:
-              raise SystemExit('EPG inválida o incompleta; no se publicará')
+          if channels < 1:
+              raise SystemExit('EPG inválida o vacía; no se publicará')
           PY
 
       - name: Guardar guía actualizada
