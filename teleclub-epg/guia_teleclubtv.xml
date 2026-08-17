@@ -381,9 +381,6 @@
 <channel id="custom-1123"><display-name>Radio jaen mix</display-name></channel>
 <channel id="custom-1124"><display-name>Radio disney peru</display-name></channel>
 <channel id="custom-1125"><display-name>Radio corazón</display-name></channel>
-<programme start="20260817020000 -0500" stop="20260817030000 -0500" channel="custom-5">
-<title>Sin información</title>
-</programme>
 <programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="custom-5">
 <title>Sin información</title>
 </programme>
@@ -525,8 +522,8 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="custom-5">
 <title>Sin información</title>
 </programme>
-<programme start="20260817020000 -0500" stop="20260817030000 -0500" channel="custom-1023">
-<title>Programación Infantil</title>
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="custom-5">
+<title>Sin información</title>
 </programme>
 <programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="custom-1023">
 <title>Programación Infantil</title>
@@ -669,8 +666,8 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="custom-1023">
 <title>Programación Infantil</title>
 </programme>
-<programme start="20260817020000 -0500" stop="20260817030000 -0500" channel="custom-1056">
-<title>Programación Series y Peliculas</title>
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="custom-1023">
+<title>Programación Infantil</title>
 </programme>
 <programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="custom-1056">
 <title>Programación Series y Peliculas</title>
@@ -813,7 +810,10 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="custom-1056">
 <title>Programación Series y Peliculas</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817040000 -0500" channel="custom-1034">
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="custom-1056">
+<title>Programación Series y Peliculas</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817040000 -0500" channel="custom-1034">
 <title>Baloncesto WNBA : Indiana Fever vs. Atlanta Dream</title>
 </programme>
 <programme start="20260817040000 -0500" stop="20260817060000 -0500" channel="custom-1034">
@@ -903,10 +903,13 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="custom-1034">
 <title>ESPN 4</title>
 </programme>
-<programme start="20260819020000 -0500" stop="20260819021633 -0500" channel="custom-1034">
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="custom-1034">
 <title>ESPN 4</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817040000 -0500" channel="custom-1037">
+<programme start="20260819030000 -0500" stop="20260819031211 -0500" channel="custom-1034">
+<title>ESPN 4</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817040000 -0500" channel="custom-1037">
 <title>Platense vs. Boca Juniors</title>
 </programme>
 <programme start="20260817040000 -0500" stop="20260817060000 -0500" channel="custom-1037">
@@ -993,10 +996,10 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="custom-1037">
 <title>ATP Masters 1000: National Bank Open, final</title>
 </programme>
-<programme start="20260819020000 -0500" stop="20260819021633 -0500" channel="custom-1037">
+<programme start="20260819020000 -0500" stop="20260819031211 -0500" channel="custom-1037">
 <title>Ricardo Blandon vs. Brian Mosinos</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817040000 -0500" channel="custom-1036">
+<programme start="20260817031211 -0500" stop="20260817040000 -0500" channel="custom-1036">
 <title>ESPN KnockOut : Kaye Scott vs. Claressa Shields</title>
 </programme>
 <programme start="20260817040000 -0500" stop="20260817060000 -0500" channel="custom-1036">
@@ -1086,13 +1089,13 @@
 <programme start="20260819000000 -0500" stop="20260819020000 -0500" channel="custom-1036">
 <title>Baloncesto WNBA : Indiana Fever vs. Toronto Tempo</title>
 </programme>
-<programme start="20260819020000 -0500" stop="20260819021633 -0500" channel="custom-1036">
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="custom-1036">
 <title>ESPN 6</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817030000 -0500" channel="america-television.teleclub">
-<title>Intrusos</title>
+<programme start="20260819030000 -0500" stop="20260819031211 -0500" channel="custom-1036">
+<title>ESPN 6</title>
 </programme>
-<programme start="20260817030000 -0500" stop="20260817033000 -0500" channel="america-television.teleclub">
+<programme start="20260817031211 -0500" stop="20260817033000 -0500" channel="america-television.teleclub">
 <title>Pare de sufrir</title>
 </programme>
 <programme start="20260817033000 -0500" stop="20260817040000 -0500" channel="america-television.teleclub">
@@ -1194,13 +1197,13 @@
 <programme start="20260819000000 -0500" stop="20260819013000 -0500" channel="america-television.teleclub">
 <title>Intrusos</title>
 </programme>
-<programme start="20260819013000 -0500" stop="20260819021633 -0500" channel="america-television.teleclub">
+<programme start="20260819013000 -0500" stop="20260819023000 -0500" channel="america-television.teleclub">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817030000 -0500" channel="peru.teleclub">
-<title>Sábados felices</title>
+<programme start="20260819023000 -0500" stop="20260819031211 -0500" channel="america-television.teleclub">
+<title>Sin información</title>
 </programme>
-<programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="peru.teleclub">
+<programme start="20260817031211 -0500" stop="20260817040000 -0500" channel="peru.teleclub">
 <title>La finca de hoy</title>
 </programme>
 <programme start="20260817040000 -0500" stop="20260817043000 -0500" channel="peru.teleclub">
@@ -1365,10 +1368,16 @@
 <programme start="20260819010000 -0500" stop="20260819013000 -0500" channel="peru.teleclub">
 <title>Las mujeres de mi tierra</title>
 </programme>
-<programme start="20260819013000 -0500" stop="20260819021633 -0500" channel="peru.teleclub">
+<programme start="20260819013000 -0500" stop="20260819023000 -0500" channel="peru.teleclub">
 <title>Tu voz estéreo</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817060000 -0500" channel="panamericana-television.teleclub">
+<programme start="20260819023000 -0500" stop="20260819030000 -0500" channel="peru.teleclub">
+<title>El diario de Diana</title>
+</programme>
+<programme start="20260819030000 -0500" stop="20260819031211 -0500" channel="peru.teleclub">
+<title>La finca de hoy</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817060000 -0500" channel="panamericana-television.teleclub">
 <title>Cazador de talentos</title>
 </programme>
 <programme start="20260817060000 -0500" stop="20260817073000 -0500" channel="panamericana-television.teleclub">
@@ -1485,13 +1494,13 @@
 <programme start="20260819003000 -0500" stop="20260819013000 -0500" channel="panamericana-television.teleclub">
 <title>Sin información</title>
 </programme>
-<programme start="20260819013000 -0500" stop="20260819021633 -0500" channel="panamericana-television.teleclub">
+<programme start="20260819013000 -0500" stop="20260819023000 -0500" channel="panamericana-television.teleclub">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817030000 -0500" channel="208dtv.cl">
-<title>Gladiador</title>
+<programme start="20260819023000 -0500" stop="20260819031211 -0500" channel="panamericana-television.teleclub">
+<title>Sin información</title>
 </programme>
-<programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="208dtv.cl">
+<programme start="20260817031211 -0500" stop="20260817040000 -0500" channel="208dtv.cl">
 <title>Betty&apos;s Call : Großer Bruder</title>
 </programme>
 <programme start="20260817040000 -0500" stop="20260817050000 -0500" channel="208dtv.cl">
@@ -1617,19 +1626,13 @@
 <programme start="20260819011000 -0500" stop="20260819021000 -0500" channel="208dtv.cl">
 <title>Sin información</title>
 </programme>
-<programme start="20260819021000 -0500" stop="20260819021633 -0500" channel="208dtv.cl">
+<programme start="20260819021000 -0500" stop="20260819031000 -0500" channel="208dtv.cl">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817023000 -0500" channel="215dtv.cl">
-<title>Frasier : Grifos en el Montana</title>
+<programme start="20260819031000 -0500" stop="20260819031211 -0500" channel="208dtv.cl">
+<title>Sin información</title>
 </programme>
-<programme start="20260817023000 -0500" stop="20260817025000 -0500" channel="215dtv.cl">
-<title>Frasier : Cómo enterrar a un millonario</title>
-</programme>
-<programme start="20260817025000 -0500" stop="20260817031000 -0500" channel="215dtv.cl">
-<title>Frasier : La foca que vino a cenar</title>
-</programme>
-<programme start="20260817031000 -0500" stop="20260817033500 -0500" channel="215dtv.cl">
+<programme start="20260817031211 -0500" stop="20260817033500 -0500" channel="215dtv.cl">
 <title>Workaholics : Aniversario de amistad</title>
 </programme>
 <programme start="20260817033500 -0500" stop="20260817035500 -0500" channel="215dtv.cl">
@@ -1989,13 +1992,13 @@
 <programme start="20260819011000 -0500" stop="20260819021000 -0500" channel="215dtv.cl">
 <title>Sin información</title>
 </programme>
-<programme start="20260819021000 -0500" stop="20260819021633 -0500" channel="215dtv.cl">
+<programme start="20260819021000 -0500" stop="20260819031000 -0500" channel="215dtv.cl">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817024600 -0500" channel="217dtv.cl">
-<title>Diviértete y termínalo</title>
+<programme start="20260819031000 -0500" stop="20260819031211 -0500" channel="215dtv.cl">
+<title>Sin información</title>
 </programme>
-<programme start="20260817024600 -0500" stop="20260817050000 -0500" channel="217dtv.cl">
+<programme start="20260817031211 -0500" stop="20260817050000 -0500" channel="217dtv.cl">
 <title>Bien hecho, asno</title>
 </programme>
 <programme start="20260817050000 -0500" stop="20260817063200 -0500" channel="217dtv.cl">
@@ -2058,13 +2061,13 @@
 <programme start="20260818225400 -0500" stop="20260819005800 -0500" channel="217dtv.cl">
 <title>Maze Runner: correr o morir</title>
 </programme>
-<programme start="20260819005800 -0500" stop="20260819021633 -0500" channel="217dtv.cl">
+<programme start="20260819005800 -0500" stop="20260819023400 -0500" channel="217dtv.cl">
 <title>Max Payne</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817025000 -0500" channel="custom-1000">
-<title>Herraduras y granadas de mano</title>
+<programme start="20260819023400 -0500" stop="20260819031211 -0500" channel="217dtv.cl">
+<title>Tan fácil como apilar vasos</title>
 </programme>
-<programme start="20260817025000 -0500" stop="20260817034000 -0500" channel="custom-1000">
+<programme start="20260817031211 -0500" stop="20260817034000 -0500" channel="custom-1000">
 <title>Manifest</title>
 </programme>
 <programme start="20260817034000 -0500" stop="20260817043000 -0500" channel="custom-1000">
@@ -2235,13 +2238,13 @@
 <programme start="20260819011000 -0500" stop="20260819020000 -0500" channel="custom-1000">
 <title>Toda la oscuridad</title>
 </programme>
-<programme start="20260819020000 -0500" stop="20260819021633 -0500" channel="custom-1000">
+<programme start="20260819020000 -0500" stop="20260819025000 -0500" channel="custom-1000">
 <title>Ella tiene algo especial</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817030000 -0500" channel="225dtv.cl">
-<title>Tres hermanas</title>
+<programme start="20260819025000 -0500" stop="20260819031211 -0500" channel="custom-1000">
+<title>Dejó a la familia fuera de combate</title>
 </programme>
-<programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="225dtv.cl">
+<programme start="20260817031211 -0500" stop="20260817040000 -0500" channel="225dtv.cl">
 <title>Tres hermanas</title>
 </programme>
 <programme start="20260817040000 -0500" stop="20260817050000 -0500" channel="225dtv.cl">
@@ -2382,13 +2385,13 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="225dtv.cl">
 <title>Sin información</title>
 </programme>
-<programme start="20260819020000 -0500" stop="20260819021633 -0500" channel="225dtv.cl">
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="225dtv.cl">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817023000 -0500" channel="custom-1009">
-<title>Blue Bloods : De repente</title>
+<programme start="20260819030000 -0500" stop="20260819031211 -0500" channel="225dtv.cl">
+<title>Sin información</title>
 </programme>
-<programme start="20260817023000 -0500" stop="20260817031500 -0500" channel="custom-1009">
+<programme start="20260817031211 -0500" stop="20260817031500 -0500" channel="custom-1009">
 <title>Blue Bloods : Los olvidados</title>
 </programme>
 <programme start="20260817031500 -0500" stop="20260817040000 -0500" channel="custom-1009">
@@ -2565,10 +2568,10 @@
 <programme start="20260819005000 -0500" stop="20260819015000 -0500" channel="custom-1009">
 <title>Sin información</title>
 </programme>
-<programme start="20260819015000 -0500" stop="20260819021633 -0500" channel="custom-1009">
+<programme start="20260819015000 -0500" stop="20260819025000 -0500" channel="custom-1009">
 <title>Sin información</title>
 </programme>
-<programme start="20260817020000 -0500" stop="20260817030000 -0500" channel="207dtv">
+<programme start="20260819025000 -0500" stop="20260819031211 -0500" channel="custom-1009">
 <title>Sin información</title>
 </programme>
 <programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="207dtv">
@@ -2712,13 +2715,10 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="207dtv">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817023000 -0500" channel="custom-1059">
-<title>Los favoritos de Juan Manuel Herrera en Bs. As. : La Valiente</title>
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="207dtv">
+<title>Sin información</title>
 </programme>
-<programme start="20260817023000 -0500" stop="20260817030000 -0500" channel="custom-1059">
-<title>Dulces con historia</title>
-</programme>
-<programme start="20260817030000 -0500" stop="20260817033000 -0500" channel="custom-1059">
+<programme start="20260817031211 -0500" stop="20260817033000 -0500" channel="custom-1059">
 <title>Estefi Express</title>
 </programme>
 <programme start="20260817033000 -0500" stop="20260817040000 -0500" channel="custom-1059">
@@ -2934,13 +2934,13 @@
 <programme start="20260819003000 -0500" stop="20260819013000 -0500" channel="custom-1059">
 <title>Sin información</title>
 </programme>
-<programme start="20260819013000 -0500" stop="20260819021633 -0500" channel="custom-1059">
+<programme start="20260819013000 -0500" stop="20260819023000 -0500" channel="custom-1059">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817025300 -0500" channel="ANIMAL.PLANET.HD.(Animal.Planet.HD).pe">
-<title>El zoológico del Bronx : Entrenar dragones</title>
+<programme start="20260819023000 -0500" stop="20260819031211 -0500" channel="custom-1059">
+<title>Sin información</title>
 </programme>
-<programme start="20260817025300 -0500" stop="20260817034200 -0500" channel="ANIMAL.PLANET.HD.(Animal.Planet.HD).pe">
+<programme start="20260817031211 -0500" stop="20260817034200 -0500" channel="ANIMAL.PLANET.HD.(Animal.Planet.HD).pe">
 <title>El zoológico del Bronx : El águila ha aterrizado</title>
 </programme>
 <programme start="20260817034200 -0500" stop="20260817042500 -0500" channel="ANIMAL.PLANET.HD.(Animal.Planet.HD).pe">
@@ -3117,13 +3117,13 @@
 <programme start="20260818234400 -0500" stop="20260819011700 -0500" channel="ANIMAL.PLANET.HD.(Animal.Planet.HD).pe">
 <title>Pesca mortal : Creador de viudas</title>
 </programme>
-<programme start="20260819011700 -0500" stop="20260819021633 -0500" channel="ANIMAL.PLANET.HD.(Animal.Planet.HD).pe">
+<programme start="20260819011700 -0500" stop="20260819021700 -0500" channel="ANIMAL.PLANET.HD.(Animal.Planet.HD).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817024300 -0500" channel="732dtv.cl">
-<title>Mirada policial : Al límite</title>
+<programme start="20260819021700 -0500" stop="20260819031211 -0500" channel="ANIMAL.PLANET.HD.(Animal.Planet.HD).pe">
+<title>Sin información</title>
 </programme>
-<programme start="20260817024300 -0500" stop="20260817032900 -0500" channel="732dtv.cl">
+<programme start="20260817031211 -0500" stop="20260817032900 -0500" channel="732dtv.cl">
 <title>Mirada policial : Carrera contra el tiempo</title>
 </programme>
 <programme start="20260817032900 -0500" stop="20260817041400 -0500" channel="732dtv.cl">
@@ -3291,25 +3291,13 @@
 <programme start="20260819004600 -0500" stop="20260819014600 -0500" channel="732dtv.cl">
 <title>Sin información</title>
 </programme>
-<programme start="20260819014600 -0500" stop="20260819021633 -0500" channel="732dtv.cl">
+<programme start="20260819014600 -0500" stop="20260819024600 -0500" channel="732dtv.cl">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817021900 -0500" channel="330dtv.co">
-<title>The Dog &amp; Pony Show : Aprendiendo a cultivar</title>
+<programme start="20260819024600 -0500" stop="20260819031211 -0500" channel="732dtv.cl">
+<title>Sin información</title>
 </programme>
-<programme start="20260817021900 -0500" stop="20260817023000 -0500" channel="330dtv.co">
-<title>The Dog &amp; Pony Show : Bienvenidos a la casa club</title>
-</programme>
-<programme start="20260817023000 -0500" stop="20260817024100 -0500" channel="330dtv.co">
-<title>Bada Bean : El día del error</title>
-</programme>
-<programme start="20260817024100 -0500" stop="20260817025600 -0500" channel="330dtv.co">
-<title>Bada Bean : El desorden de Cosa</title>
-</programme>
-<programme start="20260817025600 -0500" stop="20260817030700 -0500" channel="330dtv.co">
-<title>Bada Bean : Mal gusto</title>
-</programme>
-<programme start="20260817030700 -0500" stop="20260817031800 -0500" channel="330dtv.co">
+<programme start="20260817031211 -0500" stop="20260817031800 -0500" channel="330dtv.co">
 <title>Underdogs United : Momentos mágicos</title>
 </programme>
 <programme start="20260817031800 -0500" stop="20260817032900 -0500" channel="330dtv.co">
@@ -3822,13 +3810,13 @@
 <programme start="20260819002700 -0500" stop="20260819012700 -0500" channel="330dtv.co">
 <title>Sin información</title>
 </programme>
-<programme start="20260819012700 -0500" stop="20260819021633 -0500" channel="330dtv.co">
+<programme start="20260819012700 -0500" stop="20260819022700 -0500" channel="330dtv.co">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817024900 -0500" channel="DISCOVERY.TURBO.(Disc.Turbo).pe">
-<title>American Hot Rod</title>
+<programme start="20260819022700 -0500" stop="20260819031211 -0500" channel="330dtv.co">
+<title>Sin información</title>
 </programme>
-<programme start="20260817024900 -0500" stop="20260817033700 -0500" channel="DISCOVERY.TURBO.(Disc.Turbo).pe">
+<programme start="20260817031211 -0500" stop="20260817033700 -0500" channel="DISCOVERY.TURBO.(Disc.Turbo).pe">
 <title>American Hot Rod</title>
 </programme>
 <programme start="20260817033700 -0500" stop="20260817042200 -0500" channel="DISCOVERY.TURBO.(Disc.Turbo).pe">
@@ -3999,13 +3987,13 @@
 <programme start="20260819002500 -0500" stop="20260819012500 -0500" channel="DISCOVERY.TURBO.(Disc.Turbo).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260819012500 -0500" stop="20260819021633 -0500" channel="DISCOVERY.TURBO.(Disc.Turbo).pe">
+<programme start="20260819012500 -0500" stop="20260819022500 -0500" channel="DISCOVERY.TURBO.(Disc.Turbo).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817022500 -0500" channel="HOME.&amp;amp;.HEALTH.HD.(Home&amp;amp;HealthHD).pe">
-<title>Madres adolescentes T(4): Ep.15 No respiraba</title>
+<programme start="20260819022500 -0500" stop="20260819031211 -0500" channel="DISCOVERY.TURBO.(Disc.Turbo).pe">
+<title>Sin información</title>
 </programme>
-<programme start="20260817022500 -0500" stop="20260817031400 -0500" channel="HOME.&amp;amp;.HEALTH.HD.(Home&amp;amp;HealthHD).pe">
+<programme start="20260817031211 -0500" stop="20260817031400 -0500" channel="HOME.&amp;amp;.HEALTH.HD.(Home&amp;amp;HealthHD).pe">
 <title>Limpiadores compulsivos T(2): Ep.8 Alison y Dusty &amp; Helen y Janet</title>
 </programme>
 <programme start="20260817031400 -0500" stop="20260817035900 -0500" channel="HOME.&amp;amp;.HEALTH.HD.(Home&amp;amp;HealthHD).pe">
@@ -4170,13 +4158,16 @@
 <programme start="20260819010200 -0500" stop="20260819015100 -0500" channel="HOME.&amp;amp;.HEALTH.HD.(Home&amp;amp;HealthHD).pe">
 <title>Pesadilla en la cocina T(9): Ep.4 Restaurante Kindred</title>
 </programme>
-<programme start="20260819015100 -0500" stop="20260819021633 -0500" channel="HOME.&amp;amp;.HEALTH.HD.(Home&amp;amp;HealthHD).pe">
+<programme start="20260819015100 -0500" stop="20260819024000 -0500" channel="HOME.&amp;amp;.HEALTH.HD.(Home&amp;amp;HealthHD).pe">
 <title>Mi vida con Tourette T(2): Ep.11 Tu ansiedad me está dando ansiedad</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817024800 -0500" channel="DISCOVERY.HD.THEATER.(Disc.TheaterHD).pe">
-<title>Clandestinos : Espíritu en el cielo</title>
+<programme start="20260819024000 -0500" stop="20260819030400 -0500" channel="HOME.&amp;amp;.HEALTH.HD.(Home&amp;amp;HealthHD).pe">
+<title>Sobre esta piel T(2): Ep.7 Tatiani y Karla</title>
 </programme>
-<programme start="20260817024800 -0500" stop="20260817033600 -0500" channel="DISCOVERY.HD.THEATER.(Disc.TheaterHD).pe">
+<programme start="20260819030400 -0500" stop="20260819031211 -0500" channel="HOME.&amp;amp;.HEALTH.HD.(Home&amp;amp;HealthHD).pe">
+<title>Sobre esta piel T(2): Ep.8 Dayane Kelly y Edileia</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817033600 -0500" channel="DISCOVERY.HD.THEATER.(Disc.TheaterHD).pe">
 <title>Buceador : Nos vemos en Massachusetts</title>
 </programme>
 <programme start="20260817033600 -0500" stop="20260817042400 -0500" channel="DISCOVERY.HD.THEATER.(Disc.TheaterHD).pe">
@@ -4353,13 +4344,13 @@
 <programme start="20260819002400 -0500" stop="20260819012400 -0500" channel="DISCOVERY.HD.THEATER.(Disc.TheaterHD).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260819012400 -0500" stop="20260819021633 -0500" channel="DISCOVERY.HD.THEATER.(Disc.TheaterHD).pe">
+<programme start="20260819012400 -0500" stop="20260819022400 -0500" channel="DISCOVERY.HD.THEATER.(Disc.TheaterHD).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817030000 -0500" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-<title>La ola ovni Belga</title>
+<programme start="20260819022400 -0500" stop="20260819031211 -0500" channel="DISCOVERY.HD.THEATER.(Disc.TheaterHD).pe">
+<title>Sin información</title>
 </programme>
-<programme start="20260817030000 -0500" stop="20260817034700 -0500" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
+<programme start="20260817031211 -0500" stop="20260817034700 -0500" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
 <title>Gold Rush</title>
 </programme>
 <programme start="20260817034700 -0500" stop="20260817043400 -0500" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
@@ -4551,13 +4542,16 @@
 <programme start="20260819012800 -0500" stop="20260819021100 -0500" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
 <title>Escobas voladoras no identificadas vs volcanes</title>
 </programme>
-<programme start="20260819021100 -0500" stop="20260819021633 -0500" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
+<programme start="20260819021100 -0500" stop="20260819023600 -0500" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
 <title>San Francisco Javier</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817022900 -0500" channel="custom-1058">
-<title>Dulce genio : Familiares</title>
+<programme start="20260819023600 -0500" stop="20260819030000 -0500" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
+<title>San Luis De Paraitinga</title>
 </programme>
-<programme start="20260817022900 -0500" stop="20260817031300 -0500" channel="custom-1058">
+<programme start="20260819030000 -0500" stop="20260819031211 -0500" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
+<title>Autos de oro</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817031300 -0500" channel="custom-1058">
 <title>Todos contra la chef Alex : Alex vs. postres</title>
 </programme>
 <programme start="20260817031300 -0500" stop="20260817033500 -0500" channel="custom-1058">
@@ -4776,13 +4770,13 @@
 <programme start="20260819005900 -0500" stop="20260819014400 -0500" channel="custom-1058">
 <title>El mejor parrillero : Los parrilleros de Kentucky</title>
 </programme>
-<programme start="20260819014400 -0500" stop="20260819021633 -0500" channel="custom-1058">
+<programme start="20260819014400 -0500" stop="20260819024400 -0500" channel="custom-1058">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817030000 -0500" channel="HISTORY.2.HD.(H2.HD).pe">
-<title>Recomiendo Chile</title>
+<programme start="20260819024400 -0500" stop="20260819031211 -0500" channel="custom-1058">
+<title>Sin información</title>
 </programme>
-<programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="HISTORY.2.HD.(H2.HD).pe">
+<programme start="20260817031211 -0500" stop="20260817040000 -0500" channel="HISTORY.2.HD.(H2.HD).pe">
 <title>Lugares que hablan : Islas Chauques, Chiloé</title>
 </programme>
 <programme start="20260817040000 -0500" stop="20260817050000 -0500" channel="HISTORY.2.HD.(H2.HD).pe">
@@ -4950,13 +4944,13 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="HISTORY.2.HD.(H2.HD).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260819020000 -0500" stop="20260819021633 -0500" channel="HISTORY.2.HD.(H2.HD).pe">
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="HISTORY.2.HD.(H2.HD).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817022500 -0500" channel="503dtv.cl">
-<title>Hellboy II: El ejército dorado</title>
+<programme start="20260819030000 -0500" stop="20260819031211 -0500" channel="HISTORY.2.HD.(H2.HD).pe">
+<title>Sin información</title>
 </programme>
-<programme start="20260817022500 -0500" stop="20260817045800 -0500" channel="503dtv.cl">
+<programme start="20260817031211 -0500" stop="20260817045800 -0500" channel="503dtv.cl">
 <title>El mediador</title>
 </programme>
 <programme start="20260817045800 -0500" stop="20260817065000 -0500" channel="503dtv.cl">
@@ -5022,13 +5016,10 @@
 <programme start="20260818225700 -0500" stop="20260819011000 -0500" channel="503dtv.cl">
 <title>Como novio de pueblo</title>
 </programme>
-<programme start="20260819011000 -0500" stop="20260819021633 -0500" channel="503dtv.cl">
+<programme start="20260819011000 -0500" stop="20260819031211 -0500" channel="503dtv.cl">
 <title>Sólo para parejas</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817022900 -0500" channel="517dtv.cl">
-<title>La bestia</title>
-</programme>
-<programme start="20260817022900 -0500" stop="20260817042500 -0500" channel="517dtv.cl">
+<programme start="20260817031211 -0500" stop="20260817042500 -0500" channel="517dtv.cl">
 <title>La carretera</title>
 </programme>
 <programme start="20260817042500 -0500" stop="20260817061400 -0500" channel="517dtv.cl">
@@ -5103,13 +5094,10 @@
 <programme start="20260818231900 -0500" stop="20260819012900 -0500" channel="517dtv.cl">
 <title>Resistencia</title>
 </programme>
-<programme start="20260819012900 -0500" stop="20260819021633 -0500" channel="517dtv.cl">
+<programme start="20260819012900 -0500" stop="20260819031211 -0500" channel="517dtv.cl">
 <title>Noah</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817022500 -0500" channel="1513dtv.cl">
-<title>El experimento Belko</title>
-</programme>
-<programme start="20260817022500 -0500" stop="20260817041000 -0500" channel="1513dtv.cl">
+<programme start="20260817031211 -0500" stop="20260817041000 -0500" channel="1513dtv.cl">
 <title>Placeres vespertinos</title>
 </programme>
 <programme start="20260817041000 -0500" stop="20260817060000 -0500" channel="1513dtv.cl">
@@ -5190,10 +5178,13 @@
 <programme start="20260818234000 -0500" stop="20260819012500 -0500" channel="1513dtv.cl">
 <title>Dicha</title>
 </programme>
-<programme start="20260819012500 -0500" stop="20260819021633 -0500" channel="1513dtv.cl">
+<programme start="20260819012500 -0500" stop="20260819022500 -0500" channel="1513dtv.cl">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817043000 -0500" channel="custom-1004">
+<programme start="20260819022500 -0500" stop="20260819031211 -0500" channel="1513dtv.cl">
+<title>Sin información</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817043000 -0500" channel="custom-1004">
 <title>Bohemian Rhapsody, la historia de Freddie Mercury</title>
 </programme>
 <programme start="20260817043000 -0500" stop="20260817063500 -0500" channel="custom-1004">
@@ -5277,10 +5268,13 @@
 <programme start="20260818230000 -0500" stop="20260819011000 -0500" channel="custom-1004">
 <title>Resistencia</title>
 </programme>
-<programme start="20260819011000 -0500" stop="20260819021633 -0500" channel="custom-1004">
+<programme start="20260819011000 -0500" stop="20260819023500 -0500" channel="custom-1004">
 <title>Los novios de las Navidades pasadas</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817040000 -0500" channel="custom-1032">
+<programme start="20260819023500 -0500" stop="20260819031211 -0500" channel="custom-1004">
+<title>La noche de los nerds</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817040000 -0500" channel="custom-1032">
 <title>Tenis WTA National Bank Open 2026 : Final</title>
 </programme>
 <programme start="20260817040000 -0500" stop="20260817050000 -0500" channel="custom-1032">
@@ -5373,13 +5367,13 @@
 <programme start="20260819003000 -0500" stop="20260819013000 -0500" channel="custom-1032">
 <title>Sin información</title>
 </programme>
-<programme start="20260819013000 -0500" stop="20260819021633 -0500" channel="custom-1032">
+<programme start="20260819013000 -0500" stop="20260819023000 -0500" channel="custom-1032">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817025000 -0500" channel="custom-1016">
-<title>Tierra de zombies</title>
+<programme start="20260819023000 -0500" stop="20260819031211 -0500" channel="custom-1032">
+<title>Sin información</title>
 </programme>
-<programme start="20260817025000 -0500" stop="20260817043500 -0500" channel="custom-1016">
+<programme start="20260817031211 -0500" stop="20260817043500 -0500" channel="custom-1016">
 <title>Asesinatos accidentales</title>
 </programme>
 <programme start="20260817043500 -0500" stop="20260817050000 -0500" channel="custom-1016">
@@ -5490,13 +5484,13 @@
 <programme start="20260819003000 -0500" stop="20260819021000 -0500" channel="custom-1016">
 <title>Me heriste</title>
 </programme>
-<programme start="20260819021000 -0500" stop="20260819021633 -0500" channel="custom-1016">
+<programme start="20260819021000 -0500" stop="20260819024500 -0500" channel="custom-1016">
 <title>Otra visita a la autopista 10</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817022500 -0500" channel="custom-1001">
-<title>Película</title>
+<programme start="20260819024500 -0500" stop="20260819031211 -0500" channel="custom-1016">
+<title>Bourbon Street</title>
 </programme>
-<programme start="20260817022500 -0500" stop="20260817040000 -0500" channel="custom-1001">
+<programme start="20260817031211 -0500" stop="20260817040000 -0500" channel="custom-1001">
 <title>Película</title>
 </programme>
 <programme start="20260817040000 -0500" stop="20260817043000 -0500" channel="custom-1001">
@@ -5577,16 +5571,13 @@
 <programme start="20260819000000 -0500" stop="20260819014000 -0500" channel="custom-1001">
 <title>Película</title>
 </programme>
-<programme start="20260819014000 -0500" stop="20260819021633 -0500" channel="custom-1001">
+<programme start="20260819014000 -0500" stop="20260819024000 -0500" channel="custom-1001">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817023400 -0500" channel="DISNEY.CHANNEL.HD.(DisneyHD).pe">
-<title>Star vs. las fuerzas del mal : Mi nueva varita; Ludo salvaje</title>
+<programme start="20260819024000 -0500" stop="20260819031211 -0500" channel="custom-1001">
+<title>Sin información</title>
 </programme>
-<programme start="20260817023400 -0500" stop="20260817025700 -0500" channel="DISNEY.CHANNEL.HD.(DisneyHD).pe">
-<title>Amphibia : El gran partido de bichobol; Campamento de combate</title>
-</programme>
-<programme start="20260817025700 -0500" stop="20260817032000 -0500" channel="DISNEY.CHANNEL.HD.(DisneyHD).pe">
+<programme start="20260817031211 -0500" stop="20260817032000 -0500" channel="DISNEY.CHANNEL.HD.(DisneyHD).pe">
 <title>Phineas y Ferb : Un juego helado; Feliz Año Nuevo</title>
 </programme>
 <programme start="20260817032000 -0500" stop="20260817035100 -0500" channel="DISNEY.CHANNEL.HD.(DisneyHD).pe">
@@ -5901,19 +5892,13 @@
 <programme start="20260819011000 -0500" stop="20260819021000 -0500" channel="DISNEY.CHANNEL.HD.(DisneyHD).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260819021000 -0500" stop="20260819021633 -0500" channel="DISNEY.CHANNEL.HD.(DisneyHD).pe">
+<programme start="20260819021000 -0500" stop="20260819031000 -0500" channel="DISNEY.CHANNEL.HD.(DisneyHD).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817022000 -0500" channel="NICK.HD.(NickHD).pe">
-<title>Best &amp; Bester : Robo pisotón; El bosque y tú</title>
+<programme start="20260819031000 -0500" stop="20260819031211 -0500" channel="DISNEY.CHANNEL.HD.(DisneyHD).pe">
+<title>Sin información</title>
 </programme>
-<programme start="20260817022000 -0500" stop="20260817024000 -0500" channel="NICK.HD.(NickHD).pe">
-<title>Deer Squad : Tormenta batida; Vaquero Steel</title>
-</programme>
-<programme start="20260817024000 -0500" stop="20260817030500 -0500" channel="NICK.HD.(NickHD).pe">
-<title>El show de Patricio Estrella : Revancha retroactiva; Caza casas</title>
-</programme>
-<programme start="20260817030500 -0500" stop="20260817032000 -0500" channel="NICK.HD.(NickHD).pe">
+<programme start="20260817031211 -0500" stop="20260817032000 -0500" channel="NICK.HD.(NickHD).pe">
 <title>El show de Patricio Estrella : El programa cavernícola de Patricio Estrella</title>
 </programme>
 <programme start="20260817032000 -0500" stop="20260817034500 -0500" channel="NICK.HD.(NickHD).pe">
@@ -6297,19 +6282,13 @@
 <programme start="20260819011000 -0500" stop="20260819021000 -0500" channel="NICK.HD.(NickHD).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260819021000 -0500" stop="20260819021633 -0500" channel="NICK.HD.(NickHD).pe">
+<programme start="20260819021000 -0500" stop="20260819031000 -0500" channel="NICK.HD.(NickHD).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817022500 -0500" channel="NICK.JR.OTT.(Nick.Jr).pe">
-<title>PAW Patrol: Patrulla de cachorros : Los cachorros salvan a Francois; Los cachorros salvan a los pingüinos</title>
+<programme start="20260819031000 -0500" stop="20260819031211 -0500" channel="NICK.HD.(NickHD).pe">
+<title>Sin información</title>
 </programme>
-<programme start="20260817022500 -0500" stop="20260817025000 -0500" channel="NICK.JR.OTT.(Nick.Jr).pe">
-<title>PAW Patrol: Patrulla de cachorros : Los cachorros salvan la competencia de snowboard; Los cachorros salvan a la gallina del mar</title>
-</programme>
-<programme start="20260817025000 -0500" stop="20260817031000 -0500" channel="NICK.JR.OTT.(Nick.Jr).pe">
-<title>Deer Squad : Problema doble; Una mala idea de empaque</title>
-</programme>
-<programme start="20260817031000 -0500" stop="20260817033500 -0500" channel="NICK.JR.OTT.(Nick.Jr).pe">
+<programme start="20260817031211 -0500" stop="20260817033500 -0500" channel="NICK.JR.OTT.(Nick.Jr).pe">
 <title>El pequeño reino de Ben y Holly : El cohete duende; Picnic en la luna</title>
 </programme>
 <programme start="20260817033500 -0500" stop="20260817035500 -0500" channel="NICK.JR.OTT.(Nick.Jr).pe">
@@ -6693,16 +6672,13 @@
 <programme start="20260819011000 -0500" stop="20260819021000 -0500" channel="NICK.JR.OTT.(Nick.Jr).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260819021000 -0500" stop="20260819021633 -0500" channel="NICK.JR.OTT.(Nick.Jr).pe">
+<programme start="20260819021000 -0500" stop="20260819031000 -0500" channel="NICK.JR.OTT.(Nick.Jr).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817022400 -0500" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
-<title>Playas alrededor del mundo : Vistas del océano y piscinas dobles</title>
+<programme start="20260819031000 -0500" stop="20260819031211 -0500" channel="NICK.JR.OTT.(Nick.Jr).pe">
+<title>Sin información</title>
 </programme>
-<programme start="20260817022400 -0500" stop="20260817024800 -0500" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
-<title>Pantano: Se Vende : Mi Primera Casa</title>
-</programme>
-<programme start="20260817024800 -0500" stop="20260817033600 -0500" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+<programme start="20260817031211 -0500" stop="20260817033600 -0500" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
 <title>Casas rodantes increíbles : Entegra Cornerstone; Renegade IKON; Global Expedition Vehicles Pangea</title>
 </programme>
 <programme start="20260817033600 -0500" stop="20260817042400 -0500" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
@@ -6987,10 +6963,13 @@
 <programme start="20260819002400 -0500" stop="20260819012400 -0500" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260819012400 -0500" stop="20260819021633 -0500" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+<programme start="20260819012400 -0500" stop="20260819022400 -0500" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817050000 -0500" channel="custom-1105">
+<programme start="20260819022400 -0500" stop="20260819031211 -0500" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+<title>Sin información</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817050000 -0500" channel="custom-1105">
 <title>HTV</title>
 </programme>
 <programme start="20260817050000 -0500" stop="20260817090000 -0500" channel="custom-1105">
@@ -7029,13 +7008,13 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="custom-1105">
 <title>Sin información</title>
 </programme>
-<programme start="20260819020000 -0500" stop="20260819021633 -0500" channel="custom-1105">
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="custom-1105">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817023500 -0500" channel="custom-1107">
-<title>Reunion Part 2</title>
+<programme start="20260819030000 -0500" stop="20260819031211 -0500" channel="custom-1105">
+<title>Sin información</title>
 </programme>
-<programme start="20260817023500 -0500" stop="20260817032500 -0500" channel="custom-1107">
+<programme start="20260817031211 -0500" stop="20260817032500 -0500" channel="custom-1107">
 <title>Back to School</title>
 </programme>
 <programme start="20260817032500 -0500" stop="20260817041000 -0500" channel="custom-1107">
@@ -7284,13 +7263,16 @@
 <programme start="20260819014500 -0500" stop="20260819020500 -0500" channel="custom-1107">
 <title>Sterling and Nina Agdal LXIX</title>
 </programme>
-<programme start="20260819020500 -0500" stop="20260819021633 -0500" channel="custom-1107">
+<programme start="20260819020500 -0500" stop="20260819022500 -0500" channel="custom-1107">
 <title>Sterling and Nina Agdal LXX</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817030000 -0500" channel="custom-1061">
-<title>La mejor oferta</title>
+<programme start="20260819022500 -0500" stop="20260819025000 -0500" channel="custom-1107">
+<title>Sterling and Nina Agdal LXXI</title>
 </programme>
-<programme start="20260817030000 -0500" stop="20260817044300 -0500" channel="custom-1061">
+<programme start="20260819025000 -0500" stop="20260819031211 -0500" channel="custom-1107">
+<title>Puntos decisivos</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817044300 -0500" channel="custom-1061">
 <title>Our Driving Issues</title>
 </programme>
 <programme start="20260817044300 -0500" stop="20260817051000 -0500" channel="custom-1061">
@@ -7380,13 +7362,13 @@
 <programme start="20260819001300 -0500" stop="20260819003500 -0500" channel="custom-1061">
 <title>My Happy Place</title>
 </programme>
-<programme start="20260819003500 -0500" stop="20260819021633 -0500" channel="custom-1061">
+<programme start="20260819003500 -0500" stop="20260819030000 -0500" channel="custom-1061">
 <title>Sin rodeos</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817023800 -0500" channel="202dtv.pe">
-<title>El faro</title>
+<programme start="20260819030000 -0500" stop="20260819031211 -0500" channel="custom-1061">
+<title>My Saving Grace</title>
 </programme>
-<programme start="20260817023800 -0500" stop="20260817040900 -0500" channel="202dtv.pe">
+<programme start="20260817031211 -0500" stop="20260817040900 -0500" channel="202dtv.pe">
 <title>Sin salida</title>
 </programme>
 <programme start="20260817040900 -0500" stop="20260817043100 -0500" channel="202dtv.pe">
@@ -7479,19 +7461,13 @@
 <programme start="20260818220000 -0500" stop="20260819002200 -0500" channel="202dtv.pe">
 <title>Depredador 2</title>
 </programme>
-<programme start="20260819002200 -0500" stop="20260819021633 -0500" channel="202dtv.pe">
+<programme start="20260819002200 -0500" stop="20260819022300 -0500" channel="202dtv.pe">
 <title>Aliens vs. Depredador 2</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817022000 -0500" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
-<title>Puppy Dog Pals : El búmeran de Bob; Atrapen a ese pez</title>
+<programme start="20260819022300 -0500" stop="20260819031211 -0500" channel="202dtv.pe">
+<title>Crimen a contrarreloj</title>
 </programme>
-<programme start="20260817022000 -0500" stop="20260817024400 -0500" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
-<title>Muppet Babies : The Good, the Bad, and the Froggy; MuppetRock</title>
-</programme>
-<programme start="20260817024400 -0500" stop="20260817030900 -0500" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
-<title>La casa de Mickey Mouse : El arreo de Mickey</title>
-</programme>
-<programme start="20260817030900 -0500" stop="20260817033200 -0500" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
+<programme start="20260817031211 -0500" stop="20260817033200 -0500" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
 <title>TOTS: Servicio de entrega de animalitos</title>
 </programme>
 <programme start="20260817033200 -0500" stop="20260817035500 -0500" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
@@ -7803,16 +7779,13 @@
 <programme start="20260819010100 -0500" stop="20260819020100 -0500" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260819020100 -0500" stop="20260819021633 -0500" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
+<programme start="20260819020100 -0500" stop="20260819030100 -0500" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817023000 -0500" channel="custom-1069">
-<title>Maratónica</title>
+<programme start="20260819030100 -0500" stop="20260819031211 -0500" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
+<title>Sin información</title>
 </programme>
-<programme start="20260817023000 -0500" stop="20260817030000 -0500" channel="custom-1069">
-<title>Maratónica</title>
-</programme>
-<programme start="20260817030000 -0500" stop="20260817033000 -0500" channel="custom-1069">
+<programme start="20260817031211 -0500" stop="20260817033000 -0500" channel="custom-1069">
 <title>Maratónica</title>
 </programme>
 <programme start="20260817033000 -0500" stop="20260817040000 -0500" channel="custom-1069">
@@ -8094,10 +8067,16 @@
 <programme start="20260819013000 -0500" stop="20260819020000 -0500" channel="custom-1069">
 <title>Maratónica</title>
 </programme>
-<programme start="20260819020000 -0500" stop="20260819021633 -0500" channel="custom-1069">
+<programme start="20260819020000 -0500" stop="20260819023000 -0500" channel="custom-1069">
 <title>Maratónica</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817032500 -0500" channel="760dtv.cl">
+<programme start="20260819023000 -0500" stop="20260819030000 -0500" channel="custom-1069">
+<title>Maratónica</title>
+</programme>
+<programme start="20260819030000 -0500" stop="20260819031211 -0500" channel="custom-1069">
+<title>Maratónica</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817032500 -0500" channel="760dtv.cl">
 <title>La piloto</title>
 </programme>
 <programme start="20260817032500 -0500" stop="20260817043000 -0500" channel="760dtv.cl">
@@ -8211,13 +8190,10 @@
 <programme start="20260819000000 -0500" stop="20260819014500 -0500" channel="760dtv.cl">
 <title>Mi camino es amarte</title>
 </programme>
-<programme start="20260819014500 -0500" stop="20260819021633 -0500" channel="760dtv.cl">
+<programme start="20260819014500 -0500" stop="20260819031211 -0500" channel="760dtv.cl">
 <title>La piloto</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817030500 -0500" channel="209dtv.co">
-<title>NCIS: Hawai&apos;i : Run and Gun</title>
-</programme>
-<programme start="20260817030500 -0500" stop="20260817040000 -0500" channel="209dtv.co">
+<programme start="20260817031211 -0500" stop="20260817040000 -0500" channel="209dtv.co">
 <title>NCIS: Hawai&apos;i : Past Due</title>
 </programme>
 <programme start="20260817040000 -0500" stop="20260817050000 -0500" channel="209dtv.co">
@@ -8373,13 +8349,13 @@
 <programme start="20260819002000 -0500" stop="20260819012000 -0500" channel="209dtv.co">
 <title>Sin información</title>
 </programme>
-<programme start="20260819012000 -0500" stop="20260819021633 -0500" channel="209dtv.co">
+<programme start="20260819012000 -0500" stop="20260819022000 -0500" channel="209dtv.co">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817024300 -0500" channel="NAT.GEO.HD.(Nat.Geo.HD).pe">
-<title>Solo contra el mundo : Desierto e infierno</title>
+<programme start="20260819022000 -0500" stop="20260819031211 -0500" channel="209dtv.co">
+<title>Sin información</title>
 </programme>
-<programme start="20260817024300 -0500" stop="20260817032700 -0500" channel="NAT.GEO.HD.(Nat.Geo.HD).pe">
+<programme start="20260817031211 -0500" stop="20260817032700 -0500" channel="NAT.GEO.HD.(Nat.Geo.HD).pe">
 <title>Alerta Aeropuerto: Madrid : Café con aroma a delito</title>
 </programme>
 <programme start="20260817032700 -0500" stop="20260817041100 -0500" channel="NAT.GEO.HD.(Nat.Geo.HD).pe">
@@ -8526,10 +8502,13 @@
 <programme start="20260819010700 -0500" stop="20260819020700 -0500" channel="NAT.GEO.HD.(Nat.Geo.HD).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260819020700 -0500" stop="20260819021633 -0500" channel="NAT.GEO.HD.(Nat.Geo.HD).pe">
+<programme start="20260819020700 -0500" stop="20260819030700 -0500" channel="NAT.GEO.HD.(Nat.Geo.HD).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817081800 -0500" channel="custom-24">
+<programme start="20260819030700 -0500" stop="20260819031211 -0500" channel="NAT.GEO.HD.(Nat.Geo.HD).pe">
+<title>Sin información</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817081800 -0500" channel="custom-24">
 <title>Espejo público</title>
 </programme>
 <programme start="20260817081800 -0500" stop="20260817095500 -0500" channel="custom-24">
@@ -8631,10 +8610,10 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="custom-24">
 <title>Sin información</title>
 </programme>
-<programme start="20260819020000 -0500" stop="20260819021633 -0500" channel="custom-24">
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="custom-24">
 <title>Sin información</title>
 </programme>
-<programme start="20260817020000 -0500" stop="20260817030000 -0500" channel="TELEMUNDO.(Telemundo).pe">
+<programme start="20260819030000 -0500" stop="20260819031211 -0500" channel="custom-24">
 <title>Sin información</title>
 </programme>
 <programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="TELEMUNDO.(Telemundo).pe">
@@ -8778,10 +8757,10 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="TELEMUNDO.(Telemundo).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817023000 -0500" channel="custom-1026">
-<title>Tal cual : Tal cual, lo mejor</title>
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="TELEMUNDO.(Telemundo).pe">
+<title>Sin información</title>
 </programme>
-<programme start="20260817023000 -0500" stop="20260817033000 -0500" channel="custom-1026">
+<programme start="20260817031211 -0500" stop="20260817033000 -0500" channel="custom-1026">
 <title>DTE</title>
 </programme>
 <programme start="20260817033000 -0500" stop="20260817040000 -0500" channel="custom-1026">
@@ -8940,13 +8919,13 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="custom-1026">
 <title>Sin información</title>
 </programme>
-<programme start="20260819020000 -0500" stop="20260819021633 -0500" channel="custom-1026">
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="custom-1026">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817024800 -0500" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
-<title>Houdini&apos;s Last Secrets : Buried Alive</title>
+<programme start="20260819030000 -0500" stop="20260819031211 -0500" channel="custom-1026">
+<title>Sin información</title>
 </programme>
-<programme start="20260817024800 -0500" stop="20260817033600 -0500" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
+<programme start="20260817031211 -0500" stop="20260817033600 -0500" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
 <title>Reyes de la construcción : Puente Woodrow Wilson</title>
 </programme>
 <programme start="20260817033600 -0500" stop="20260817042400 -0500" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
@@ -9120,10 +9099,13 @@
 <programme start="20260819002400 -0500" stop="20260819012400 -0500" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260819012400 -0500" stop="20260819021633 -0500" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
+<programme start="20260819012400 -0500" stop="20260819022400 -0500" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817031400 -0500" channel="custom-1013">
+<programme start="20260819022400 -0500" stop="20260819031211 -0500" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
+<title>Sin información</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817031400 -0500" channel="custom-1013">
 <title>Una papa sin catsup</title>
 </programme>
 <programme start="20260817031400 -0500" stop="20260817050400 -0500" channel="custom-1013">
@@ -9207,11 +9189,8 @@
 <programme start="20260819000500 -0500" stop="20260819013700 -0500" channel="custom-1013">
 <title>El rey de los taxistas</title>
 </programme>
-<programme start="20260819013700 -0500" stop="20260819021633 -0500" channel="custom-1013">
+<programme start="20260819013700 -0500" stop="20260819031211 -0500" channel="custom-1013">
 <title>Los peseros</title>
-</programme>
-<programme start="20260817020000 -0500" stop="20260817030000 -0500" channel="custom-1054">
-<title>Sin información</title>
 </programme>
 <programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="custom-1054">
 <title>Sin información</title>
@@ -9354,7 +9333,10 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="custom-1054">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817033000 -0500" channel="603dtv.pe">
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="custom-1054">
+<title>Sin información</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817033000 -0500" channel="603dtv.pe">
 <title>Sporting Cristal vs. Sport Huancayo</title>
 </programme>
 <programme start="20260817033000 -0500" stop="20260817040000 -0500" channel="603dtv.pe">
@@ -9453,10 +9435,10 @@
 <programme start="20260818230000 -0500" stop="20260819013000 -0500" channel="603dtv.pe">
 <title>El Chiringuito de Jugones</title>
 </programme>
-<programme start="20260819013000 -0500" stop="20260819021633 -0500" channel="603dtv.pe">
+<programme start="20260819013000 -0500" stop="20260819031211 -0500" channel="603dtv.pe">
 <title>Los Chankas vs. Melgar</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817033000 -0500" channel="604dtv.pe">
+<programme start="20260817031211 -0500" stop="20260817033000 -0500" channel="604dtv.pe">
 <title>FC Cajamarca vs. Universitario</title>
 </programme>
 <programme start="20260817033000 -0500" stop="20260817040000 -0500" channel="604dtv.pe">
@@ -9555,10 +9537,13 @@
 <programme start="20260818230000 -0500" stop="20260819013000 -0500" channel="604dtv.pe">
 <title>El Chiringuito de Jugones</title>
 </programme>
-<programme start="20260819013000 -0500" stop="20260819021633 -0500" channel="604dtv.pe">
+<programme start="20260819013000 -0500" stop="20260819023000 -0500" channel="604dtv.pe">
 <title>Liga 1 Radio</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817043000 -0500" channel="908mvstr.cl">
+<programme start="20260819023000 -0500" stop="20260819031211 -0500" channel="604dtv.pe">
+<title>Cienciano vs. Deportivo Garcilaso</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817043000 -0500" channel="908mvstr.cl">
 <title>Bandidos</title>
 </programme>
 <programme start="20260817043000 -0500" stop="20260817064500 -0500" channel="908mvstr.cl">
@@ -9630,13 +9615,13 @@
 <programme start="20260818233500 -0500" stop="20260819013000 -0500" channel="908mvstr.cl">
 <title>El primer grado</title>
 </programme>
-<programme start="20260819013000 -0500" stop="20260819021633 -0500" channel="908mvstr.cl">
+<programme start="20260819013000 -0500" stop="20260819023000 -0500" channel="908mvstr.cl">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817030000 -0500" channel="892mvstr.cl">
-<title>Honor y respeto</title>
+<programme start="20260819023000 -0500" stop="20260819031211 -0500" channel="908mvstr.cl">
+<title>Sin información</title>
 </programme>
-<programme start="20260817030000 -0500" stop="20260817035000 -0500" channel="892mvstr.cl">
+<programme start="20260817031211 -0500" stop="20260817035000 -0500" channel="892mvstr.cl">
 <title>Toma mi mano</title>
 </programme>
 <programme start="20260817035000 -0500" stop="20260817044000 -0500" channel="892mvstr.cl">
@@ -9804,13 +9789,13 @@
 <programme start="20260819003000 -0500" stop="20260819013000 -0500" channel="892mvstr.cl">
 <title>Sin información</title>
 </programme>
-<programme start="20260819013000 -0500" stop="20260819021633 -0500" channel="892mvstr.cl">
+<programme start="20260819013000 -0500" stop="20260819023000 -0500" channel="892mvstr.cl">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817022000 -0500" channel="865mvstr.cl">
-<title>Cazadores de África</title>
+<programme start="20260819023000 -0500" stop="20260819031211 -0500" channel="892mvstr.cl">
+<title>Sin información</title>
 </programme>
-<programme start="20260817022000 -0500" stop="20260817031500 -0500" channel="865mvstr.cl">
+<programme start="20260817031211 -0500" stop="20260817031500 -0500" channel="865mvstr.cl">
 <title>Insectos al poder</title>
 </programme>
 <programme start="20260817031500 -0500" stop="20260817041000 -0500" channel="865mvstr.cl">
@@ -9969,13 +9954,13 @@
 <programme start="20260819003500 -0500" stop="20260819013500 -0500" channel="865mvstr.cl">
 <title>Sin información</title>
 </programme>
-<programme start="20260819013500 -0500" stop="20260819021633 -0500" channel="865mvstr.cl">
+<programme start="20260819013500 -0500" stop="20260819023500 -0500" channel="865mvstr.cl">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817024000 -0500" channel="226dtv.cl">
-<title>Rubí</title>
+<programme start="20260819023500 -0500" stop="20260819031211 -0500" channel="865mvstr.cl">
+<title>Sin información</title>
 </programme>
-<programme start="20260817024000 -0500" stop="20260817033000 -0500" channel="226dtv.cl">
+<programme start="20260817031211 -0500" stop="20260817033000 -0500" channel="226dtv.cl">
 <title>Hermanas, un amor compartido</title>
 </programme>
 <programme start="20260817033000 -0500" stop="20260817042000 -0500" channel="226dtv.cl">
@@ -10122,16 +10107,13 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="226dtv.cl">
 <title>Sin información</title>
 </programme>
-<programme start="20260819020000 -0500" stop="20260819021633 -0500" channel="226dtv.cl">
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="226dtv.cl">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817023000 -0500" channel="telesur.ar">
-<title>Destino verde</title>
+<programme start="20260819030000 -0500" stop="20260819031211 -0500" channel="226dtv.cl">
+<title>Sin información</title>
 </programme>
-<programme start="20260817023000 -0500" stop="20260817030000 -0500" channel="telesur.ar">
-<title>Reportajes TeleSUR</title>
-</programme>
-<programme start="20260817030000 -0500" stop="20260817033000 -0500" channel="telesur.ar">
+<programme start="20260817031211 -0500" stop="20260817033000 -0500" channel="telesur.ar">
 <title>Atomun</title>
 </programme>
 <programme start="20260817033000 -0500" stop="20260817040000 -0500" channel="telesur.ar">
@@ -10455,19 +10437,13 @@
 <programme start="20260819003000 -0500" stop="20260819013000 -0500" channel="telesur.ar">
 <title>Sin información</title>
 </programme>
-<programme start="20260819013000 -0500" stop="20260819021633 -0500" channel="telesur.ar">
+<programme start="20260819013000 -0500" stop="20260819023000 -0500" channel="telesur.ar">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817023000 -0500" channel="france-24-espanol.ar">
-<title>En Primera Plana</title>
+<programme start="20260819023000 -0500" stop="20260819031211 -0500" channel="telesur.ar">
+<title>Sin información</title>
 </programme>
-<programme start="20260817023000 -0500" stop="20260817024500 -0500" channel="france-24-espanol.ar">
-<title>Noticias</title>
-</programme>
-<programme start="20260817024500 -0500" stop="20260817030000 -0500" channel="france-24-espanol.ar">
-<title>En Primera Plana</title>
-</programme>
-<programme start="20260817030000 -0500" stop="20260817031500 -0500" channel="france-24-espanol.ar">
+<programme start="20260817031211 -0500" stop="20260817031500 -0500" channel="france-24-espanol.ar">
 <title>Noticias</title>
 </programme>
 <programme start="20260817031500 -0500" stop="20260817032100 -0500" channel="france-24-espanol.ar">
@@ -11121,13 +11097,10 @@
 <programme start="20260819011500 -0500" stop="20260819021500 -0500" channel="france-24-espanol.ar">
 <title>Sin información</title>
 </programme>
-<programme start="20260819021500 -0500" stop="20260819021633 -0500" channel="france-24-espanol.ar">
+<programme start="20260819021500 -0500" stop="20260819031211 -0500" channel="france-24-espanol.ar">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817030000 -0500" channel="ovacion.teleclub">
-<title>Noticias</title>
-</programme>
-<programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="ovacion.teleclub">
+<programme start="20260817031211 -0500" stop="20260817040000 -0500" channel="ovacion.teleclub">
 <title>Mesa de prensa</title>
 </programme>
 <programme start="20260817040000 -0500" stop="20260817050000 -0500" channel="ovacion.teleclub">
@@ -11271,10 +11244,13 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="ovacion.teleclub">
 <title>Sin información</title>
 </programme>
-<programme start="20260819020000 -0500" stop="20260819021633 -0500" channel="ovacion.teleclub">
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="ovacion.teleclub">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817033500 -0500" channel="custom-1065">
+<programme start="20260819030000 -0500" stop="20260819031211 -0500" channel="ovacion.teleclub">
+<title>Sin información</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817033500 -0500" channel="custom-1065">
 <title>La hora de la 1</title>
 </programme>
 <programme start="20260817033500 -0500" stop="20260817072000 -0500" channel="custom-1065">
@@ -11439,10 +11415,13 @@
 <programme start="20260819002700 -0500" stop="20260819012700 -0500" channel="custom-1065">
 <title>Sin información</title>
 </programme>
-<programme start="20260819012700 -0500" stop="20260819021633 -0500" channel="custom-1065">
+<programme start="20260819012700 -0500" stop="20260819022700 -0500" channel="custom-1065">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817060000 -0500" channel="custom-1096">
+<programme start="20260819022700 -0500" stop="20260819031211 -0500" channel="custom-1065">
+<title>Sin información</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817060000 -0500" channel="custom-1096">
 <title>Fuera del aire</title>
 </programme>
 <programme start="20260817060000 -0500" stop="20260817100000 -0500" channel="custom-1096">
@@ -11529,16 +11508,13 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="custom-1096">
 <title>Sin información</title>
 </programme>
-<programme start="20260819020000 -0500" stop="20260819021633 -0500" channel="custom-1096">
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="custom-1096">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817023000 -0500" channel="2047mvstr.pe">
-<title>Educar+</title>
+<programme start="20260819030000 -0500" stop="20260819031211 -0500" channel="custom-1096">
+<title>Sin información</title>
 </programme>
-<programme start="20260817023000 -0500" stop="20260817030000 -0500" channel="2047mvstr.pe">
-<title>El Soldadito de Plomo</title>
-</programme>
-<programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="2047mvstr.pe">
+<programme start="20260817031211 -0500" stop="20260817040000 -0500" channel="2047mvstr.pe">
 <title>Déjame que te cuente: Ópera</title>
 </programme>
 <programme start="20260817040000 -0500" stop="20260817040500 -0500" channel="2047mvstr.pe">
@@ -11865,16 +11841,13 @@
 <programme start="20260819003000 -0500" stop="20260819013000 -0500" channel="2047mvstr.pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260819013000 -0500" stop="20260819021633 -0500" channel="2047mvstr.pe">
+<programme start="20260819013000 -0500" stop="20260819023000 -0500" channel="2047mvstr.pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817025000 -0500" channel="8577mvstr.pe">
-<title>Prédicas</title>
+<programme start="20260819023000 -0500" stop="20260819031211 -0500" channel="2047mvstr.pe">
+<title>Sin información</title>
 </programme>
-<programme start="20260817025000 -0500" stop="20260817030000 -0500" channel="8577mvstr.pe">
-<title>Microprogramas musicales</title>
-</programme>
-<programme start="20260817030000 -0500" stop="20260817033000 -0500" channel="8577mvstr.pe">
+<programme start="20260817031211 -0500" stop="20260817033000 -0500" channel="8577mvstr.pe">
 <title>Coronilla de la Misericordia, oración intergenaracional</title>
 </programme>
 <programme start="20260817033000 -0500" stop="20260817040000 -0500" channel="8577mvstr.pe">
@@ -12150,10 +12123,10 @@
 <programme start="20260819000000 -0500" stop="20260819015000 -0500" channel="8577mvstr.pe">
 <title>Butaca 19</title>
 </programme>
-<programme start="20260819015000 -0500" stop="20260819021633 -0500" channel="8577mvstr.pe">
+<programme start="20260819015000 -0500" stop="20260819025000 -0500" channel="8577mvstr.pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260817020000 -0500" stop="20260817030000 -0500" channel="228dtv.pe">
+<programme start="20260819025000 -0500" stop="20260819031211 -0500" channel="8577mvstr.pe">
 <title>Sin información</title>
 </programme>
 <programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="228dtv.pe">
@@ -12297,13 +12270,10 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="228dtv.pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817023000 -0500" channel="ewtn.pe">
-<title>Tips para ser feliz</title>
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="228dtv.pe">
+<title>Sin información</title>
 </programme>
-<programme start="20260817023000 -0500" stop="20260817030000 -0500" channel="ewtn.pe">
-<title>Vidas por la vida : La agenda 2030</title>
-</programme>
-<programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="ewtn.pe">
+<programme start="20260817031211 -0500" stop="20260817040000 -0500" channel="ewtn.pe">
 <title>Lo mejor de la madre Angélica : La asunción de la Virgen</title>
 </programme>
 <programme start="20260817040000 -0500" stop="20260817043000 -0500" channel="ewtn.pe">
@@ -12543,10 +12513,10 @@
 <programme start="20260819003000 -0500" stop="20260819013000 -0500" channel="ewtn.pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260819013000 -0500" stop="20260819021633 -0500" channel="ewtn.pe">
+<programme start="20260819013000 -0500" stop="20260819023000 -0500" channel="ewtn.pe">
 <title>Sin información</title>
 </programme>
-<programme start="20260817020000 -0500" stop="20260817030000 -0500" channel="custom-1085">
+<programme start="20260819023000 -0500" stop="20260819031211 -0500" channel="ewtn.pe">
 <title>Sin información</title>
 </programme>
 <programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="custom-1085">
@@ -12690,13 +12660,10 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="custom-1085">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817023000 -0500" channel="custom-1086">
-<title>Jóvenes héroes</title>
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="custom-1085">
+<title>Sin información</title>
 </programme>
-<programme start="20260817023000 -0500" stop="20260817030000 -0500" channel="custom-1086">
-<title>Controversial</title>
-</programme>
-<programme start="20260817030000 -0500" stop="20260817033000 -0500" channel="custom-1086">
+<programme start="20260817031211 -0500" stop="20260817033000 -0500" channel="custom-1086">
 <title>Momento decisivo</title>
 </programme>
 <programme start="20260817033000 -0500" stop="20260817040000 -0500" channel="custom-1086">
@@ -12939,16 +12906,13 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="custom-1086">
 <title>Santuario de fe</title>
 </programme>
-<programme start="20260819020000 -0500" stop="20260819021633 -0500" channel="custom-1086">
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="custom-1086">
 <title>La puerta abierta</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817023000 -0500" channel="527">
-<title>Prisma</title>
+<programme start="20260819030000 -0500" stop="20260819031211 -0500" channel="custom-1086">
+<title>Musicales</title>
 </programme>
-<programme start="20260817023000 -0500" stop="20260817030000 -0500" channel="527">
-<title>Ronda Artística</title>
-</programme>
-<programme start="20260817030000 -0500" stop="20260817033000 -0500" channel="527">
+<programme start="20260817031211 -0500" stop="20260817033000 -0500" channel="527">
 <title>CGTN Noticias</title>
 </programme>
 <programme start="20260817033000 -0500" stop="20260817040000 -0500" channel="527">
@@ -13233,10 +13197,16 @@
 <programme start="20260819013000 -0500" stop="20260819020000 -0500" channel="527">
 <title>Así Es China</title>
 </programme>
-<programme start="20260819020000 -0500" stop="20260819021633 -0500" channel="527">
+<programme start="20260819020000 -0500" stop="20260819023000 -0500" channel="527">
 <title>Diarios de viaje</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817031303 -0500" channel="539">
+<programme start="20260819023000 -0500" stop="20260819030000 -0500" channel="527">
+<title>Ronda Artística</title>
+</programme>
+<programme start="20260819030000 -0500" stop="20260819031211 -0500" channel="527">
+<title>CGTN Noticias</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817031303 -0500" channel="539">
 <title>(1999) - Mystery Men</title>
 </programme>
 <programme start="20260817031303 -0500" stop="20260817044653 -0500" channel="539">
@@ -13314,11 +13284,11 @@
 <programme start="20260818221807 -0500" stop="20260819000432 -0500" channel="539">
 <title>(1974) - Aeropuerto 1975</title>
 </programme>
-<programme start="20260819000432 -0500" stop="20260819021633 -0500" channel="539">
+<programme start="20260819000432 -0500" stop="20260819025433 -0500" channel="539">
 <title>(1983) - Scarface</title>
 </programme>
-<programme start="20260817020000 -0500" stop="20260817030000 -0500" channel="custom-1008">
-<title>Sin información</title>
+<programme start="20260819025433 -0500" stop="20260819031211 -0500" channel="539">
+<title>(1961) - Atlántida, El Continente Perdido</title>
 </programme>
 <programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="custom-1008">
 <title>Sin información</title>
@@ -13461,7 +13431,7 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="custom-1008">
 <title>Sin información</title>
 </programme>
-<programme start="20260817020000 -0500" stop="20260817030000 -0500" channel="custom-1025">
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="custom-1008">
 <title>Sin información</title>
 </programme>
 <programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="custom-1025">
@@ -13605,10 +13575,10 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="custom-1025">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817022000 -0500" channel="589">
-<title>7 Lives Xposed</title>
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="custom-1025">
+<title>Sin información</title>
 </programme>
-<programme start="20260817022000 -0500" stop="20260817040000 -0500" channel="589">
+<programme start="20260817031211 -0500" stop="20260817040000 -0500" channel="589">
 <title>Naughty Cosplay</title>
 </programme>
 <programme start="20260817040000 -0500" stop="20260817053000 -0500" channel="589">
@@ -13851,13 +13821,13 @@
 <programme start="20260819001400 -0500" stop="20260819014400 -0500" channel="589">
 <title>11 Black Inches in Mommy&apos;s A...!</title>
 </programme>
-<programme start="20260819014400 -0500" stop="20260819021633 -0500" channel="589">
+<programme start="20260819014400 -0500" stop="20260819023600 -0500" channel="589">
 <title>The Man</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817030000 -0500" channel="590">
-<title>A las colegialas les encantan las p...</title>
+<programme start="20260819023600 -0500" stop="20260819031211 -0500" channel="589">
+<title>Insatiable Sweethearts</title>
 </programme>
-<programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="590">
+<programme start="20260817031211 -0500" stop="20260817040000 -0500" channel="590">
 <title>Triángulos amorosos de familias reconstituidas</title>
 </programme>
 <programme start="20260817040000 -0500" stop="20260817052800 -0500" channel="590">
@@ -13953,11 +13923,11 @@
 <programme start="20260818231900 -0500" stop="20260819004800 -0500" channel="590">
 <title>MILF gotean para los hombres jóvenes</title>
 </programme>
-<programme start="20260819004800 -0500" stop="20260819021633 -0500" channel="590">
+<programme start="20260819004800 -0500" stop="20260819021800 -0500" channel="590">
 <title>Big Racks Meet Monster Black Dongs</title>
 </programme>
-<programme start="20260817020000 -0500" stop="20260817030000 -0500" channel="627">
-<title>Sin información</title>
+<programme start="20260819021800 -0500" stop="20260819031211 -0500" channel="590">
+<title>Diosa squirt</title>
 </programme>
 <programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="627">
 <title>Sin información</title>
@@ -14100,7 +14070,7 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="627">
 <title>Sin información</title>
 </programme>
-<programme start="20260817020000 -0500" stop="20260817030000 -0500" channel="custom-1024">
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="627">
 <title>Sin información</title>
 </programme>
 <programme start="20260817030000 -0500" stop="20260817040000 -0500" channel="custom-1024">
@@ -14244,7 +14214,10 @@
 <programme start="20260819010000 -0500" stop="20260819020000 -0500" channel="custom-1024">
 <title>Sin información</title>
 </programme>
-<programme start="20260817021633 -0500" stop="20260817060000 -0500" channel="custom-1104">
+<programme start="20260819020000 -0500" stop="20260819030000 -0500" channel="custom-1024">
+<title>Sin información</title>
+</programme>
+<programme start="20260817031211 -0500" stop="20260817060000 -0500" channel="custom-1104">
 <title>PBO con Chema Salcedo</title>
 </programme>
 <programme start="20260817060000 -0500" stop="20260817100000 -0500" channel="custom-1104">
@@ -14310,7 +14283,7 @@
 <programme start="20260818220000 -0500" stop="20260819020000 -0500" channel="custom-1104">
 <title>PBO Noticias</title>
 </programme>
-<programme start="20260819020000 -0500" stop="20260819021633 -0500" channel="custom-1104">
+<programme start="20260819020000 -0500" stop="20260819031211 -0500" channel="custom-1104">
 <title>PBO con Chema Salcedo</title>
 </programme>
 <programme start="20260816060000 -0500" stop="20260816083000 -0500" channel="latina.teleclub"><title lang="es">Latina noticias fin de semana</title><desc lang="es">Lo más importante del Perú y el mundo.</desc></programme>
@@ -14357,7 +14330,6 @@
 <programme start="20260818170000 -0500" stop="20260818180000 -0500" channel="latina.teleclub"><title lang="es">Promesa de hermanos</title><desc lang="es">Una tragedia une el destino de seis hermanos que tienen que enfrentarse a las calles de Estambul. Entre tantos sacrificios y obstáculos harán lo posible para permanecer juntos.</desc></programme>
 <programme start="20260818180000 -0500" stop="20260818184500 -0500" channel="latina.teleclub"><title lang="es">Sara no es Kara</title><desc lang="es">La historia de dos hermanas gemelas idénticas criadas en una familia feliz, a pesar de ser pobre y cuyas vidas se entrelazan por el amor, la identidad, el engaño y la ambición.</desc></programme>
 <programme start="20260818184500 -0500" stop="20260818210000 -0500" channel="latina.teleclub"><title lang="es">Campeonato Mundial Femenino Sub-17 de Voleibol FIVB 2026</title><desc lang="es">Cobertura de la segunda edición del campeonato mundial de voleibol femenino en la categoría sub-17. Desde Santiago, Chile.</desc></programme>
-<programme start="20260816060000 -0500" stop="20260816080000 -0500" channel="rpp-tv.teleclub"><title lang="es">La rotativa del aire</title><desc lang="es">Las noticias más relevantes del Perú y el mundo, en un noticiero ágil y lleno de información, enlaces en vivo y entrevistas en directo.</desc></programme>
 <programme start="20260816080000 -0500" stop="20260816100000 -0500" channel="rpp-tv.teleclub"><title lang="es">Ampliación de noticias</title><desc lang="es">El análisis de los hechos que hacen noticia, con entrevistas a sus protagonistas.</desc></programme>
 <programme start="20260816100000 -0500" stop="20260816103000 -0500" channel="rpp-tv.teleclub"><title lang="es">Domingo es fiesta</title><desc lang="es">Un espacio para comprender mejor el Evangelio a través de un diálogo franco y abierto.</desc></programme>
 <programme start="20260816103000 -0500" stop="20260816130000 -0500" channel="rpp-tv.teleclub"><title lang="es">Siempre en casa</title><desc lang="es">Un programa para informarse, aprender trucos de cocina, recetas y nuevos emprendimientos.</desc></programme>
@@ -14402,7 +14374,6 @@
 <programme start="20260818170000 -0500" stop="20260818180000 -0500" channel="rpp-tv.teleclub"><title lang="es">Economía para todos</title><desc lang="es">Un espacio destinado a las últimas noticias económicas.</desc></programme>
 <programme start="20260818180000 -0500" stop="20260818190000 -0500" channel="rpp-tv.teleclub"><title lang="es">Conexión</title><desc lang="es">Un programa con buena información y entretenimiento durante el trayecto de vuelta a casa.</desc></programme>
 <programme start="20260818190000 -0500" stop="20260818200000 -0500" channel="rpp-tv.teleclub"><title lang="es">Las cosas como son</title><desc lang="es">Un programa con entrevistas a especialistas para analizar diversos temas de actualidad política, social y económica.</desc></programme>
-<programme start="20260816063000 -0500" stop="20260816080000 -0500" channel="atv.teleclub-2"><title lang="es">Canto andino</title><desc lang="es">Programa de música andina con la presentación de reconocidas orquestas y grupos de danzas.</desc></programme>
 <programme start="20260816080000 -0500" stop="20260816085500 -0500" channel="atv.teleclub-2"><title lang="es">Las nuevas aventuras de Tom y Jerry</title><desc lang="es">Las nuevas aventuras del gato y el ratón más famosos del mundo; ambos se la pasan tramando planes en contra del otro, haciendo bromas y participando en escapadas alrededor del mundo.</desc></programme>
 <programme start="20260816085500 -0500" stop="20260816090000 -0500" channel="atv.teleclub-2"><title lang="es">Silvestre y Piolín</title><desc lang="es">El más famoso dúo del mundo del gato y el canario lleva sus peleas sin parar.</desc></programme>
 <programme start="20260816090000 -0500" stop="20260816094500 -0500" channel="atv.teleclub-2"><title lang="es">Warner Cartoons</title></programme>
@@ -14451,7 +14422,6 @@
 <programme start="20260818163000 -0500" stop="20260818173000 -0500" channel="atv.teleclub-2"><title lang="es">Esposa por obligación</title><desc lang="es">Un matrimonio por conveniencia enfrenta la oposición de la familia mientras los personajes navegan sus sentimientos y lealtades.</desc></programme>
 <programme start="20260818173000 -0500" stop="20260818190000 -0500" channel="atv.teleclub-2"><title lang="es">Tres hermanas</title><desc lang="es">Una historia de lazos fraternales. Un grupo de jóvenes pasan a la adultez mediante un camino lleno de problemas y situaciones que las hacen crecer.</desc></programme>
 <programme start="20260818190000 -0500" stop="20260818200000 -0500" channel="atv.teleclub-2"><title lang="es">Corazón abandonado</title><desc lang="es">La familia Sayar comienza una nueva vida tras algunas pérdidas.</desc></programme>
-<programme start="20260816070000 -0500" stop="20260816080000 -0500" channel="atv-plus.teleclub"><title lang="es">Al extremo</title><desc lang="es">Un programa periodístico que compila varios segmentos de noticias, las cuales tienen una cosa en común, estas son impactantes y asombrosas, algunas de estas noticias que se presentan son controversiales y algunas algo amarillistas.</desc></programme>
 <programme start="20260816080000 -0500" stop="20260816090000 -0500" channel="atv-plus.teleclub"><title lang="es">Diez</title><desc lang="es">Programa informativo y de entretenimiento en donde cada emisión estará conformada por un conteo regresivo impactante de diferentes temas de interés que han sucedido o que suceden actualmente a nivel nacional e internacional.</desc></programme>
 <programme start="20260816090000 -0500" stop="20260816100000 -0500" channel="atv-plus.teleclub"><title lang="es">Diez</title><desc lang="es">Programa informativo y de entretenimiento en donde cada emisión estará conformada por un conteo regresivo impactante de diferentes temas de interés que han sucedido o que suceden actualmente a nivel nacional e internacional.</desc></programme>
 <programme start="20260816100000 -0500" stop="20260816110000 -0500" channel="atv-plus.teleclub"><title lang="es">Al extremo</title><desc lang="es">Un programa periodístico que compila varios segmentos de noticias, las cuales tienen una cosa en común, estas son impactantes y asombrosas, algunas de estas noticias que se presentan son controversiales y algunas algo amarillistas.</desc></programme>
@@ -14513,7 +14483,6 @@
 <programme start="20260818170000 -0500" stop="20260818180000 -0500" channel="atv-plus.teleclub"><title lang="es">Matinal</title></programme>
 <programme start="20260818180000 -0500" stop="20260818190000 -0500" channel="atv-plus.teleclub"><title lang="es">Matinal</title></programme>
 <programme start="20260818190000 -0500" stop="20260818200000 -0500" channel="atv-plus.teleclub"><title lang="es">El deportivo digital con Jason Sánchez</title><desc lang="es">Jason Sánchez analiza y comenta noticias del mundo del deporte.</desc></programme>
-<programme start="20260816070000 -0500" stop="20260816080000 -0500" channel="exitosa-tv.teleclub"><title lang="es">Exitosa Perú</title><desc lang="es">Un espacio con las noticias más importantes de Perú, además de actualidad y política.</desc></programme>
 <programme start="20260816080000 -0500" stop="20260816090000 -0500" channel="exitosa-tv.teleclub"><title lang="es">Exitosa Perú</title><desc lang="es">Un espacio con las noticias más importantes de Perú, además de actualidad y política.</desc></programme>
 <programme start="20260816090000 -0500" stop="20260816100000 -0500" channel="exitosa-tv.teleclub"><title lang="es">Exitosa Perú</title><desc lang="es">Un espacio con las noticias más importantes de Perú, además de actualidad y política.</desc></programme>
 <programme start="20260816100000 -0500" stop="20260816120000 -0500" channel="exitosa-tv.teleclub"><title lang="es">En defensa de la verdad</title><desc lang="es">Un programa con la información desde diversos puntos del país.</desc></programme>
@@ -14549,7 +14518,6 @@
 <programme start="20260818140000 -0500" stop="20260818160000 -0500" channel="exitosa-tv.teleclub"><title lang="es">Exitosa deportes</title><desc lang="es">La información más destacada y las últimas noticias del mundo del deporte en Perú y el mundo.</desc></programme>
 <programme start="20260818160000 -0500" stop="20260818190000 -0500" channel="exitosa-tv.teleclub"><title lang="es">Contra el tráfico</title><desc lang="es">Una gran manera de escapar momentáneamente a la realidad del tráfico.</desc></programme>
 <programme start="20260818190000 -0500" stop="20260818220000 -0500" channel="exitosa-tv.teleclub"><title lang="es">Informamos y opinamos</title><desc lang="es">Un programa con la actualidad en noticias y lo más destacado de la región.</desc></programme>
-<programme start="20260816070000 -0500" stop="20260816080000 -0500" channel="global-tv.teleclub"><title lang="es">El Conciertazo</title><desc lang="es">Música clásica para niños.</desc></programme>
 <programme start="20260816080000 -0500" stop="20260816090000 -0500" channel="global-tv.teleclub"><title lang="es">Saber y ganar</title><desc lang="es">Concursos que ponen a prueba los conocimientos y agilidad mental a través de un auténtico bombardeo de preguntas de ámbito general.</desc></programme>
 <programme start="20260816090000 -0500" stop="20260816100000 -0500" channel="global-tv.teleclub"><title lang="es">Rookie Blue</title><desc lang="es">Cinco policías jóvenes y ambiciosos tratan de triunfar en una carrera de alto riesgo donde el más mínimo error puede tener consecuencias fatales. En el centro de este grupo se encuentra la perfeccionista Andy McNally, cuyo padre era también policía.</desc></programme>
 <programme start="20260816100000 -0500" stop="20260816110000 -0500" channel="global-tv.teleclub"><title lang="es">Un amor indomable</title><desc lang="es">La historia de amor entre Federico y Julieta, sin saber qué son hermanos. Cuando Federico descubre que Julieta es su hermana, todo el amor que siente se transforma en odio y rencor.</desc></programme>
@@ -14609,8 +14577,6 @@
 <programme start="20260818170000 -0500" stop="20260818180000 -0500" channel="global-tv.teleclub"><title lang="es">Los ángeles de Charlie</title><desc lang="es">Tres hermosas mujeres toman el poder y las armas para resolver diversos crímenes.</desc></programme>
 <programme start="20260818180000 -0500" stop="20260818190000 -0500" channel="global-tv.teleclub"><title lang="es">Andrea</title><desc lang="es">Un programa que apuesta a darle solución a los problemas que muchos peruanos viven diariamente.</desc></programme>
 <programme start="20260818190000 -0500" stop="20260818200000 -0500" channel="global-tv.teleclub"><title lang="es">Elif</title><desc lang="es">Melek se enamora de Kenan, el hijo favorito de la familia para la que trabajaba. Pero la madre de Kenan la rechaza y la envía lejos a pesar de estar embarazada. La hija de ambos, Elif, nace mientras su padre se casa con otra mujer.</desc></programme>
-<programme start="20260816070000 -0500" stop="20260816073000 -0500" channel="la-tele.teleclub"><title lang="es">Nutri salud</title><desc lang="es">Un programa para ayudar a mejorar la salud.</desc></programme>
-<programme start="20260816073000 -0500" stop="20260816080000 -0500" channel="la-tele.teleclub"><title lang="es">Nutri salud</title><desc lang="es">Un programa para ayudar a mejorar la salud.</desc></programme>
 <programme start="20260816080000 -0500" stop="20260816084000 -0500" channel="la-tele.teleclub"><title lang="es">Sport Rocks</title></programme>
 <programme start="20260816084000 -0500" stop="20260816090000 -0500" channel="la-tele.teleclub"><title lang="es">Doc McStuffins</title><desc lang="es">Dottie es una niña de seis años que tiene la habilidad natural de comunicarse con peluches y juguetes, a quienes cura en su clínica, ubicada en el patio.</desc></programme>
 <programme start="20260816090000 -0500" stop="20260816094000 -0500" channel="la-tele.teleclub"><title lang="es">Super Hero Squad</title><desc lang="es">Héroes y villanos se enfrentan en una batalla por la conquista de la Espada Infinita, el objeto más poderoso del Universo.</desc></programme>
@@ -14750,7 +14716,6 @@
 <programme start="20260818160000 -0500" stop="20260818170000 -0500" channel="tv-peru-noticias.teleclub"><title lang="es">Aliados por la Seguridad</title><desc lang="es">Un programa periodístico donde se dará a conocer el fino trabajo policial desde el inicio de la investigación y donde el televidente podrá ser pieza clave para luchar contra el crimen.</desc></programme>
 <programme start="20260818170000 -0500" stop="20260818190000 -0500" channel="tv-peru-noticias.teleclub"><title lang="es">Noticias tarde</title></programme>
 <programme start="20260818190000 -0500" stop="20260818200000 -0500" channel="tv-peru-noticias.teleclub"><title lang="es">Geomundo</title><desc lang="es">Un programa que es una ventana para mirar el mundo y sus conflictos internacionales con un análisis agudo, por medio de entrevistas y reportajes.</desc></programme>
-<programme start="20260816060300 -0500" stop="20260816080000 -0500" channel="justicia-tv.teleclub"><title lang="es">Casos judiciales (resoluciones y sentencias)</title><desc lang="es">Espacio dedicado a las sentencias de los casos judiciales más importantes de país.</desc></programme>
 <programme start="20260816080000 -0500" stop="20260816083000 -0500" channel="justicia-tv.teleclub"><title lang="es">Presidencia del Poder Judicial del Perú</title><desc lang="es">Cobertura de las conferencias de prensa del presidente del Poder Judicial de Perú.</desc></programme>
 <programme start="20260816083000 -0500" stop="20260816090000 -0500" channel="justicia-tv.teleclub"><title lang="es">Oralidad en los procesos civiles: Juez supremo Héctor Lama More</title></programme>
 <programme start="20260816090000 -0500" stop="20260816093000 -0500" channel="justicia-tv.teleclub"><title lang="es">Conociendo el Derecho Penal</title><desc lang="es">Un programa acerca del funcionamiento del Derecho Penal.</desc></programme>
@@ -14805,8 +14770,6 @@
 <programme start="20260818180000 -0500" stop="20260818180300 -0500" channel="justicia-tv.teleclub"><title lang="es">Himno nacional</title><desc lang="es">Entonación de las notas del himno nacional de Perú.</desc></programme>
 <programme start="20260818180300 -0500" stop="20260818190000 -0500" channel="justicia-tv.teleclub"><title lang="es">Seminarios y conferencias jurisdiccionales y jurídicas</title><desc lang="es">Cobertura de los seminarios y conferencias jurisdiccionales y jurídicas.</desc></programme>
 <programme start="20260818190000 -0500" stop="20260818191500 -0500" channel="justicia-tv.teleclub"><title lang="es">Noticiero judicial</title><desc lang="es">La información jurisdiccional más relevante desde el Palacio de Justicia y las 35 Cortes Supremas del país.</desc></programme>
-<programme start="20260816070000 -0500" stop="20260816080000 -0500" channel="congreso-tv.teleclub"><title lang="es">Congreso noticias: Edición matinal</title><desc lang="es">Se cubren todas las noticias y actualidades sobre el Congreso.</desc></programme>
-<programme start="20260816080000 -0500" stop="20260816081000 -0500" channel="congreso-tv.teleclub"><title lang="es">Comisiones</title><desc lang="es">En el Congreso, el trabajo de fiscalización y debate se concentra en las comisiones. De esta manera, los congresistas analizan proyectos de ley y garantizan representación ciudadana.</desc></programme>
 <programme start="20260816081000 -0500" stop="20260816090000 -0500" channel="congreso-tv.teleclub"><title lang="es">Micronoticiero</title><desc lang="es">Resumen de las actividades del Congreso de la República del Perú.</desc></programme>
 <programme start="20260816090000 -0500" stop="20260816100000 -0500" channel="congreso-tv.teleclub"><title lang="es">Actualidad parlamentaria</title><desc lang="es">Se cubren todas las actualidades cotidianas de Parlamento, para que los peruanos estén informados de las novedades.</desc></programme>
 <programme start="20260816100000 -0500" stop="20260816110000 -0500" channel="congreso-tv.teleclub"><title lang="es">Ecos del Congreso</title></programme>
