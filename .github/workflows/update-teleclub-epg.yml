@@ -9,6 +9,7 @@ on:
       - ".github/workflows/update-teleclub-epg.yml"
       - "teleclub-epg/update_epg.py"
       - "teleclub-epg/add_radio_la_zona.py"
+      - "teleclub-epg/add_all_radios.py"
       - "teleclub-epg/seed_channels.tsv"
 
 permissions:
@@ -55,26 +56,29 @@ jobs:
             python teleclub-epg/update_epg.py
           fi
 
-      - name: Agregar EPG de Radio La Zona
+      - name: Agregar programación detallada de Radio La Zona
         run: |
           python teleclub-epg/add_radio_la_zona.py
+
+      - name: Agregar todas las radios activas del panel
+        run: |
+          python teleclub-epg/add_all_radios.py
 
       - name: Validar guía antes de publicar
         run: |
           test -s teleclub-epg/guia_teleclubtv.xml
           grep -q '<channel ' teleclub-epg/guia_teleclubtv.xml
-          grep -q 'channel id="custom-28"' teleclub-epg/guia_teleclubtv.xml
-          grep -q 'channel="custom-28"' teleclub-epg/guia_teleclubtv.xml
           python - <<'PY'
           import xml.etree.ElementTree as ET
           p='teleclub-epg/guia_teleclubtv.xml'
           root=ET.parse(p).getroot()
           channels=len(root.findall('channel'))
           programmes=len(root.findall('programme'))
-          radio_programmes=sum(1 for p in root.findall('programme') if p.attrib.get('channel')=='custom-28')
-          print(f'EPG válida: {channels} canales, {programmes} programas; Radio La Zona={radio_programmes}')
-          if channels < 1 or radio_programmes < 1:
-              raise SystemExit('EPG inválida o sin Radio La Zona; no se publicará')
+          radio_ids={ch.attrib.get('id') for ch in root.findall('channel') if 'radio' in ' '.join((x.text or '') for x in ch.findall('display-name')).lower() or ch.attrib.get('id')=='custom-28'}
+          radio_programmes=sum(1 for p in root.findall('programme') if p.attrib.get('channel') in radio_ids)
+          print(f'EPG válida: {channels} canales, {programmes} programas; radios={len(radio_ids)}, programas_radio={radio_programmes}')
+          if channels < 1 or len(radio_ids) < 1 or radio_programmes < 1:
+              raise SystemExit('EPG inválida o sin radios; no se publicará')
           PY
 
       - name: Guardar guía actualizada
