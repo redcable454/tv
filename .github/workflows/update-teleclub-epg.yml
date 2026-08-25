@@ -8,6 +8,7 @@ on:
     paths:
       - ".github/workflows/update-teleclub-epg.yml"
       - "teleclub-epg/update_epg.py"
+      - "teleclub-epg/add_radio_la_zona.py"
       - "teleclub-epg/seed_channels.tsv"
 
 permissions:
@@ -54,19 +55,26 @@ jobs:
             python teleclub-epg/update_epg.py
           fi
 
+      - name: Agregar EPG de Radio La Zona
+        run: |
+          python teleclub-epg/add_radio_la_zona.py
+
       - name: Validar guía antes de publicar
         run: |
           test -s teleclub-epg/guia_teleclubtv.xml
           grep -q '<channel ' teleclub-epg/guia_teleclubtv.xml
+          grep -q 'channel id="custom-28"' teleclub-epg/guia_teleclubtv.xml
+          grep -q 'channel="custom-28"' teleclub-epg/guia_teleclubtv.xml
           python - <<'PY'
           import xml.etree.ElementTree as ET
           p='teleclub-epg/guia_teleclubtv.xml'
           root=ET.parse(p).getroot()
           channels=len(root.findall('channel'))
           programmes=len(root.findall('programme'))
-          print(f'EPG válida: {channels} canales, {programmes} programas')
-          if channels < 1:
-              raise SystemExit('EPG inválida o vacía; no se publicará')
+          radio_programmes=sum(1 for p in root.findall('programme') if p.attrib.get('channel')=='custom-28')
+          print(f'EPG válida: {channels} canales, {programmes} programas; Radio La Zona={radio_programmes}')
+          if channels < 1 or radio_programmes < 1:
+              raise SystemExit('EPG inválida o sin Radio La Zona; no se publicará')
           PY
 
       - name: Guardar guía actualizada
