@@ -2,6 +2,7 @@
 import json
 from datetime import datetime, timedelta, timezone
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 from xml.etree import ElementTree as ET
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -9,6 +10,7 @@ from zoneinfo import ZoneInfo
 PANEL_URL = "https://teleclubtv-panel.micanalfmradio8.workers.dev/api/admin/channels"
 EPG = Path(__file__).with_name("guia_teleclubtv.xml")
 LIMA = ZoneInfo("America/Lima")
+FALLBACK_ID = "radio-inolvidable.teleclub"
 
 WEEKDAY = [
     ("00:00", "06:00", "Música Continuada"),
@@ -23,9 +25,13 @@ WEEKDAY = [
 
 
 def panel_channels():
-    req = Request(PANEL_URL, headers={"User-Agent":"TeleclubTV-EPG-Inolvidable/1.0"})
-    with urlopen(req, timeout=30) as r:
-        data=json.loads(r.read().decode("utf-8"))
+    req = Request(PANEL_URL, headers={"User-Agent":"TeleclubTV-EPG-Inolvidable/1.1"})
+    try:
+        with urlopen(req, timeout=30) as r:
+            data=json.loads(r.read().decode("utf-8"))
+    except (HTTPError, URLError, TimeoutError) as exc:
+        print(f"WARN panel Inolvidable: {exc}; usando ID estable de respaldo")
+        return []
     if isinstance(data, dict):
         return data.get("canales") or data.get("channels") or data.get("data") or []
     return data if isinstance(data, list) else []
@@ -35,13 +41,27 @@ def norm(s):
     return str(s or "").lower().replace("á","a").replace("é","e").replace("í","i").replace("ó","o").replace("ú","u")
 
 
-def find_radio():
+def find_radio(root):
     for r in panel_channels():
         name=r.get("name") or r.get("nombre") or ""
         if "inolvidable" in norm(name):
             cid=str(r.get("tvg_id") or r.get("tvgId") or f"custom-{r.get('id')}").strip()
             return cid, name
-    raise RuntimeError("Radio La Inolvidable no fue encontrada en los canales activos del panel")
+    for ch in root.findall("channel"):
+        names=" ".join((x.text or "") for x in ch.findall("display-name"))
+        if "inolvidable" in norm(names):
+            return ch.attrib.get("id") or FALLBACK_ID, names.strip() or "Radio La Inolvidable"
+    return FALLBACK_ID, "Radio La Inolvidable"
+
+
+def ensure_channel(root,cid,name):
+    for ch in root.findall("channel"):
+        if ch.attrib.get("id")==cid:
+            return
+    ch=ET.Element("channel",{"id":cid})
+    ET.SubElement(ch,"display-name",{"lang":"es"}).text=name
+    idx=next((i for i,x in enumerate(list(root)) if x.tag=="programme"),len(root))
+    root.insert(idx,ch)
 
 
 def dt(day, hhmm):
@@ -52,18 +72,15 @@ def dt(day, hhmm):
 
 
 def main():
-    cid,name=find_radio()
     tree=ET.parse(EPG); root=tree.getroot()
-    # Quitar programación genérica o anterior de esta radio para evitar duplicados.
+    cid,name=find_radio(root)
+    ensure_channel(root,cid,name)
     for p in list(root.findall("programme")):
         if p.attrib.get("channel") == cid:
             root.remove(p)
-    today=datetime.now(LIMA).date()
-    added=0
+    today=datetime.now(LIMA).date(); added=0
     for off in range(7):
         day=today+timedelta(days=off)
-        # La fuente oficial OIGO confirma esta parrilla de lunes a viernes.
-        # Para fin de semana se mantiene una entrada continua hasta disponer de horarios oficiales completos verificables.
         schedule=WEEKDAY if day.weekday() < 5 else [("00:00","24:00",f"{name} - En vivo")]
         for start,stop,title in schedule:
             a=dt(day,start); b=dt(day,stop)
