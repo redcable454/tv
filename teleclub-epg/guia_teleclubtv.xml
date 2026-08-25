@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-08-25T06:22:27.504201+00:00">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-08-25T06:38:07.279248+00:00" radio-la-zona-updated-at="2026-08-25T06:38:07.421009+00:00">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -55,6 +55,9 @@
   <channel id="comedi-central.teleclub">
     <display-name lang="es">CABLE | COMEDY CENTRAL</display-name>
     <icon src="https://i.imgur.com/rdcnvM2_d.png" />
+  </channel>
+  <channel id="custom-28">
+    <display-name lang="es">Radio La Zona</display-name>
   </channel>
   <programme start="20260824230000 +0000" stop="20260825000000 +0000" channel="latina.teleclub">
     <title lang="es">Sara no es Kara</title>
@@ -12056,274 +12059,534 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20260826044500 +0000" stop="20260826053000 +0000" channel="america-television.teleclub">
-    <title lang="es">Desvelados</title>
+  <programme start="20260826043000 +0000" stop="20260826051000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
+  </programme>
+  <programme start="20260825051000 +0000" stop="20260825053000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
   </programme>
   <programme start="20260825053000 +0000" stop="20260825063000 +0000" channel="america-television.teleclub">
-    <title lang="es">Corazón de Oro</title>
-  </programme>
-  <programme start="20260825063000 +0000" stop="20260825071000 +0000" channel="america-television.teleclub">
-    <title lang="es">Destilando amor</title>
-  </programme>
-  <programme start="20260825071000 +0000" stop="20260825073000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20260825073000 +0000" stop="20260825083000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
-  <programme start="20260825083000 +0000" stop="20260825100000 +0000" channel="america-television.teleclub">
+  <programme start="20260825063000 +0000" stop="20260825080000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20260825100000 +0000" stop="20260825101600 +0000" channel="america-television.teleclub">
+  <programme start="20260825080000 +0000" stop="20260825081600 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20260825101600 +0000" stop="20260825120000 +0000" channel="america-television.teleclub">
+  <programme start="20260825081600 +0000" stop="20260825100000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20260825120000 +0000" stop="20260825135000 +0000" channel="america-television.teleclub">
+  <programme start="20260825100000 +0000" stop="20260825115000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20260825135000 +0000" stop="20260825141000 +0000" channel="america-television.teleclub">
+  <programme start="20260825115000 +0000" stop="20260825121000 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20260825141000 +0000" stop="20260825143000 +0000" channel="america-television.teleclub">
+  <programme start="20260825121000 +0000" stop="20260825123000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20260825143000 +0000" stop="20260825160000 +0000" channel="america-television.teleclub">
+  <programme start="20260825123000 +0000" stop="20260825140000 +0000" channel="america-television.teleclub">
     <title lang="es">América Hoy</title>
   </programme>
-  <programme start="20260825160000 +0000" stop="20260825170000 +0000" channel="america-television.teleclub">
+  <programme start="20260825140000 +0000" stop="20260825150000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20260825170000 +0000" stop="20260825173500 +0000" channel="america-television.teleclub">
+  <programme start="20260825150000 +0000" stop="20260825153500 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Edición Mediodía</title>
   </programme>
-  <programme start="20260825173500 +0000" stop="20260825174500 +0000" channel="america-television.teleclub">
+  <programme start="20260825153500 +0000" stop="20260825154500 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20260825174500 +0000" stop="20260825180000 +0000" channel="america-television.teleclub">
+  <programme start="20260825154500 +0000" stop="20260825160000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20260825180000 +0000" stop="20260825184000 +0000" channel="america-television.teleclub">
+  <programme start="20260825160000 +0000" stop="20260825164000 +0000" channel="america-television.teleclub">
     <title lang="es">Destilando amor</title>
   </programme>
-  <programme start="20260825184000 +0000" stop="20260825201000 +0000" channel="america-television.teleclub">
+  <programme start="20260825164000 +0000" stop="20260825181000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20260825201000 +0000" stop="20260825210000 +0000" channel="america-television.teleclub">
+  <programme start="20260825181000 +0000" stop="20260825190000 +0000" channel="america-television.teleclub">
     <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20260825210000 +0000" stop="20260825220000 +0000" channel="america-television.teleclub">
+  <programme start="20260825190000 +0000" stop="20260825200000 +0000" channel="america-television.teleclub">
     <title lang="es">Corazón de oro</title>
   </programme>
-  <programme start="20260825230000 +0000" stop="20260825235000 +0000" channel="america-television.teleclub">
+  <programme start="20260825210000 +0000" stop="20260825215000 +0000" channel="america-television.teleclub">
     <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
-  <programme start="20260825235000 +0000" stop="20260826003000 +0000" channel="america-television.teleclub">
+  <programme start="20260825215000 +0000" stop="20260825223000 +0000" channel="america-television.teleclub">
     <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
-  <programme start="20260826003000 +0000" stop="20260826020000 +0000" channel="america-television.teleclub">
+  <programme start="20260825223000 +0000" stop="20260826000000 +0000" channel="america-television.teleclub">
     <title lang="es">Esto es guerra</title>
   </programme>
-  <programme start="20260826020000 +0000" stop="20260826030000 +0000" channel="america-television.teleclub">
+  <programme start="20260826000000 +0000" stop="20260826010000 +0000" channel="america-television.teleclub">
     <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20260826030000 +0000" stop="20260826040000 +0000" channel="america-television.teleclub">
+  <programme start="20260826010000 +0000" stop="20260826020000 +0000" channel="america-television.teleclub">
     <title lang="es">Señora del destino</title>
   </programme>
-  <programme start="20260826040000 +0000" stop="20260826041700 +0000" channel="america-television.teleclub">
+  <programme start="20260826020000 +0000" stop="20260826021700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20260826041700 +0000" stop="20260826042400 +0000" channel="america-television.teleclub">
+  <programme start="20260826021700 +0000" stop="20260826022400 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20260826042400 +0000" stop="20260826042700 +0000" channel="america-television.teleclub">
+  <programme start="20260826022400 +0000" stop="20260826022700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20260826042700 +0000" stop="20260826044500 +0000" channel="america-television.teleclub">
+  <programme start="20260826022700 +0000" stop="20260826024500 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20260826044500 +0000" stop="20260826053000 +0000" channel="america-television.teleclub">
+  <programme start="20260826024500 +0000" stop="20260826033000 +0000" channel="america-television.teleclub">
     <title lang="es">Desvelados</title>
   </programme>
-  <programme start="20260827044500 +0000" stop="20260827053000 +0000" channel="america-television.teleclub">
-    <title lang="es">Desvelados</title>
+  <programme start="20260826033000 +0000" stop="20260826043000 +0000" channel="america-television.teleclub">
+    <title lang="es">Corazón de Oro</title>
+  </programme>
+  <programme start="20260826043000 +0000" stop="20260826051000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
+  </programme>
+  <programme start="20260827043000 +0000" stop="20260827051000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
+  </programme>
+  <programme start="20260826051000 +0000" stop="20260826053000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
   </programme>
   <programme start="20260826053000 +0000" stop="20260826063000 +0000" channel="america-television.teleclub">
-    <title lang="es">Corazón de Oro</title>
-  </programme>
-  <programme start="20260826063000 +0000" stop="20260826071000 +0000" channel="america-television.teleclub">
-    <title lang="es">Destilando amor</title>
-  </programme>
-  <programme start="20260826071000 +0000" stop="20260826073000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20260826073000 +0000" stop="20260826083000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
-  <programme start="20260826083000 +0000" stop="20260826100000 +0000" channel="america-television.teleclub">
+  <programme start="20260826063000 +0000" stop="20260826080000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20260826100000 +0000" stop="20260826101600 +0000" channel="america-television.teleclub">
+  <programme start="20260826080000 +0000" stop="20260826081600 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20260826101600 +0000" stop="20260826120000 +0000" channel="america-television.teleclub">
+  <programme start="20260826081600 +0000" stop="20260826100000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20260826120000 +0000" stop="20260826135000 +0000" channel="america-television.teleclub">
+  <programme start="20260826100000 +0000" stop="20260826115000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20260826135000 +0000" stop="20260826141000 +0000" channel="america-television.teleclub">
+  <programme start="20260826115000 +0000" stop="20260826121000 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20260826141000 +0000" stop="20260826143000 +0000" channel="america-television.teleclub">
+  <programme start="20260826121000 +0000" stop="20260826123000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20260826143000 +0000" stop="20260826160000 +0000" channel="america-television.teleclub">
+  <programme start="20260826123000 +0000" stop="20260826140000 +0000" channel="america-television.teleclub">
     <title lang="es">América hoy</title>
   </programme>
-  <programme start="20260826160000 +0000" stop="20260826170000 +0000" channel="america-television.teleclub">
+  <programme start="20260826140000 +0000" stop="20260826150000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20260826170000 +0000" stop="20260826173500 +0000" channel="america-television.teleclub">
+  <programme start="20260826150000 +0000" stop="20260826153500 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Edición Mediodía</title>
   </programme>
-  <programme start="20260826173500 +0000" stop="20260826174500 +0000" channel="america-television.teleclub">
+  <programme start="20260826153500 +0000" stop="20260826154500 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
+  </programme>
+  <programme start="20260826154500 +0000" stop="20260826160000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
+  <programme start="20260826160000 +0000" stop="20260826164000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
+  </programme>
+  <programme start="20260826164000 +0000" stop="20260826174500 +0000" channel="america-television.teleclub">
+    <title lang="es">Mande quien mande</title>
   </programme>
   <programme start="20260826174500 +0000" stop="20260826180000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
-  <programme start="20260826180000 +0000" stop="20260826184000 +0000" channel="america-television.teleclub">
-    <title lang="es">Destilando amor</title>
-  </programme>
-  <programme start="20260826184000 +0000" stop="20260826194500 +0000" channel="america-television.teleclub">
-    <title lang="es">Mande quien mande</title>
-  </programme>
-  <programme start="20260826194500 +0000" stop="20260826200000 +0000" channel="america-television.teleclub">
     <title lang="es">Antesala</title>
   </programme>
-  <programme start="20260826200000 +0000" stop="20260826220000 +0000" channel="america-television.teleclub">
+  <programme start="20260826180000 +0000" stop="20260826200000 +0000" channel="america-television.teleclub">
     <title lang="es">Sporting Cristal vs. Sport Huancayo Fútbol Peruano Primera División</title>
   </programme>
-  <programme start="20260826230000 +0000" stop="20260827003000 +0000" channel="america-television.teleclub">
+  <programme start="20260826210000 +0000" stop="20260826223000 +0000" channel="america-television.teleclub">
     <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
-  <programme start="20260827003000 +0000" stop="20260827020000 +0000" channel="america-television.teleclub">
+  <programme start="20260826223000 +0000" stop="20260827000000 +0000" channel="america-television.teleclub">
     <title lang="es">Esto es guerra</title>
   </programme>
-  <programme start="20260827020000 +0000" stop="20260827030000 +0000" channel="america-television.teleclub">
+  <programme start="20260827000000 +0000" stop="20260827010000 +0000" channel="america-television.teleclub">
     <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20260827030000 +0000" stop="20260827035000 +0000" channel="america-television.teleclub">
+  <programme start="20260827010000 +0000" stop="20260827015000 +0000" channel="america-television.teleclub">
     <title lang="es">Señora del destino</title>
   </programme>
-  <programme start="20260827035000 +0000" stop="20260827040000 +0000" channel="america-television.teleclub">
+  <programme start="20260827015000 +0000" stop="20260827020000 +0000" channel="america-television.teleclub">
     <title lang="es">La Tinka</title>
   </programme>
-  <programme start="20260827040000 +0000" stop="20260827041700 +0000" channel="america-television.teleclub">
+  <programme start="20260827020000 +0000" stop="20260827021700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20260827041700 +0000" stop="20260827042400 +0000" channel="america-television.teleclub">
+  <programme start="20260827021700 +0000" stop="20260827022400 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20260827042400 +0000" stop="20260827042700 +0000" channel="america-television.teleclub">
+  <programme start="20260827022400 +0000" stop="20260827022700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20260827042700 +0000" stop="20260827044500 +0000" channel="america-television.teleclub">
+  <programme start="20260827022700 +0000" stop="20260827024500 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20260827044500 +0000" stop="20260827053000 +0000" channel="america-television.teleclub">
+  <programme start="20260827024500 +0000" stop="20260827033000 +0000" channel="america-television.teleclub">
     <title lang="es">Desvelados</title>
   </programme>
-  <programme start="20260828044500 +0000" stop="20260828053000 +0000" channel="america-television.teleclub">
-    <title lang="es">Desvelados</title>
+  <programme start="20260827033000 +0000" stop="20260827043000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
+  </programme>
+  <programme start="20260827043000 +0000" stop="20260827051000 +0000" channel="america-television.teleclub">
+    <title lang="es">América noticias Edición central</title>
+  </programme>
+  <programme start="20260828043000 +0000" stop="20260828051000 +0000" channel="america-television.teleclub">
+    <title lang="es">América noticias Edición central</title>
+  </programme>
+  <programme start="20260827051000 +0000" stop="20260827053000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
   </programme>
   <programme start="20260827053000 +0000" stop="20260827063000 +0000" channel="america-television.teleclub">
-    <title lang="es">Destilando amor</title>
-  </programme>
-  <programme start="20260827063000 +0000" stop="20260827071000 +0000" channel="america-television.teleclub">
-    <title lang="es">América noticias Edición central</title>
-  </programme>
-  <programme start="20260827071000 +0000" stop="20260827073000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20260827073000 +0000" stop="20260827083000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
-  <programme start="20260827083000 +0000" stop="20260827100000 +0000" channel="america-television.teleclub">
+  <programme start="20260827063000 +0000" stop="20260827080000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20260827100000 +0000" stop="20260827101600 +0000" channel="america-television.teleclub">
+  <programme start="20260827080000 +0000" stop="20260827081600 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20260827101600 +0000" stop="20260827120000 +0000" channel="america-television.teleclub">
+  <programme start="20260827081600 +0000" stop="20260827100000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20260827120000 +0000" stop="20260827135000 +0000" channel="america-television.teleclub">
+  <programme start="20260827100000 +0000" stop="20260827115000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20260827135000 +0000" stop="20260827141000 +0000" channel="america-television.teleclub">
+  <programme start="20260827115000 +0000" stop="20260827121000 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20260827141000 +0000" stop="20260827143000 +0000" channel="america-television.teleclub">
+  <programme start="20260827121000 +0000" stop="20260827123000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20260827143000 +0000" stop="20260827160000 +0000" channel="america-television.teleclub">
+  <programme start="20260827123000 +0000" stop="20260827140000 +0000" channel="america-television.teleclub">
     <title lang="es">América Hoy</title>
   </programme>
-  <programme start="20260827160000 +0000" stop="20260827170000 +0000" channel="america-television.teleclub">
+  <programme start="20260827140000 +0000" stop="20260827150000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20260827170000 +0000" stop="20260827173500 +0000" channel="america-television.teleclub">
+  <programme start="20260827150000 +0000" stop="20260827153500 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Edición Mediodía</title>
   </programme>
-  <programme start="20260827173500 +0000" stop="20260827174500 +0000" channel="america-television.teleclub">
+  <programme start="20260827153500 +0000" stop="20260827154500 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20260827174500 +0000" stop="20260827180000 +0000" channel="america-television.teleclub">
+  <programme start="20260827154500 +0000" stop="20260827160000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20260827180000 +0000" stop="20260827184000 +0000" channel="america-television.teleclub">
+  <programme start="20260827160000 +0000" stop="20260827164000 +0000" channel="america-television.teleclub">
     <title lang="es">Destilando amor</title>
   </programme>
-  <programme start="20260827184000 +0000" stop="20260827201000 +0000" channel="america-television.teleclub">
+  <programme start="20260827164000 +0000" stop="20260827181000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20260827201000 +0000" stop="20260827210000 +0000" channel="america-television.teleclub">
+  <programme start="20260827181000 +0000" stop="20260827190000 +0000" channel="america-television.teleclub">
     <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20260827210000 +0000" stop="20260827220000 +0000" channel="america-television.teleclub">
+  <programme start="20260827190000 +0000" stop="20260827200000 +0000" channel="america-television.teleclub">
     <title lang="es">Corazón de oro</title>
   </programme>
-  <programme start="20260827230000 +0000" stop="20260827235000 +0000" channel="america-television.teleclub">
+  <programme start="20260827210000 +0000" stop="20260827215000 +0000" channel="america-television.teleclub">
     <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
-  <programme start="20260827235000 +0000" stop="20260828003000 +0000" channel="america-television.teleclub">
+  <programme start="20260827215000 +0000" stop="20260827223000 +0000" channel="america-television.teleclub">
     <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
-  <programme start="20260828003000 +0000" stop="20260828020000 +0000" channel="america-television.teleclub">
+  <programme start="20260827223000 +0000" stop="20260828000000 +0000" channel="america-television.teleclub">
     <title lang="es">Esto es guerra</title>
   </programme>
-  <programme start="20260828020000 +0000" stop="20260828030000 +0000" channel="america-television.teleclub">
+  <programme start="20260828000000 +0000" stop="20260828010000 +0000" channel="america-television.teleclub">
     <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20260828030000 +0000" stop="20260828040000 +0000" channel="america-television.teleclub">
+  <programme start="20260828010000 +0000" stop="20260828020000 +0000" channel="america-television.teleclub">
     <title lang="es">Señora del destino</title>
   </programme>
-  <programme start="20260828040000 +0000" stop="20260828041700 +0000" channel="america-television.teleclub">
+  <programme start="20260828020000 +0000" stop="20260828021700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20260828041700 +0000" stop="20260828042400 +0000" channel="america-television.teleclub">
+  <programme start="20260828021700 +0000" stop="20260828022400 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20260828042400 +0000" stop="20260828042700 +0000" channel="america-television.teleclub">
+  <programme start="20260828022400 +0000" stop="20260828022700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20260828042700 +0000" stop="20260828044500 +0000" channel="america-television.teleclub">
+  <programme start="20260828022700 +0000" stop="20260828024500 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20260828044500 +0000" stop="20260828053000 +0000" channel="america-television.teleclub">
+  <programme start="20260828024500 +0000" stop="20260828033000 +0000" channel="america-television.teleclub">
     <title lang="es">Desvelados</title>
+  </programme>
+  <programme start="20260828033000 +0000" stop="20260828043000 +0000" channel="america-television.teleclub">
+    <title lang="es">Corazón de Oro</title>
+  </programme>
+  <programme start="20260828043000 +0000" stop="20260828051000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
+  </programme>
+  <programme start="20260824050000 +0000" stop="20260824110000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260824110000 +0000" stop="20260824140000 +0000" channel="custom-28">
+    <title lang="es">El Flow</title>
+    <desc lang="es">Música, actualidad y entretenimiento para empezar el día con energía.</desc>
+  </programme>
+  <programme start="20260824140000 +0000" stop="20260824180000 +0000" channel="custom-28">
+    <title lang="es">El Break</title>
+    <desc lang="es">Música, tendencias, entrevistas y entretenimiento.</desc>
+  </programme>
+  <programme start="20260824180000 +0000" stop="20260824190000 +0000" channel="custom-28">
+    <title lang="es">Las más encendidas</title>
+    <desc lang="es">Las canciones del momento en una hora de música continuada.</desc>
+  </programme>
+  <programme start="20260824190000 +0000" stop="20260824230000 +0000" channel="custom-28">
+    <title lang="es">Energizona</title>
+    <desc lang="es">Música, juegos y entretenimiento de Radio La Zona.</desc>
+  </programme>
+  <programme start="20260824230000 +0000" stop="20260825030000 +0000" channel="custom-28">
+    <title lang="es">De Ida y Vuelta</title>
+    <desc lang="es">Música, ocurrencias y entretenimiento para el regreso a casa.</desc>
+  </programme>
+  <programme start="20260825030000 +0000" stop="20260825050000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260825050000 +0000" stop="20260825110000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260825110000 +0000" stop="20260825140000 +0000" channel="custom-28">
+    <title lang="es">El Flow</title>
+    <desc lang="es">Música, actualidad y entretenimiento para empezar el día con energía.</desc>
+  </programme>
+  <programme start="20260825140000 +0000" stop="20260825180000 +0000" channel="custom-28">
+    <title lang="es">El Break</title>
+    <desc lang="es">Música, tendencias, entrevistas y entretenimiento.</desc>
+  </programme>
+  <programme start="20260825180000 +0000" stop="20260825190000 +0000" channel="custom-28">
+    <title lang="es">Las más encendidas</title>
+    <desc lang="es">Las canciones del momento en una hora de música continuada.</desc>
+  </programme>
+  <programme start="20260825190000 +0000" stop="20260825230000 +0000" channel="custom-28">
+    <title lang="es">Energizona</title>
+    <desc lang="es">Música, juegos y entretenimiento de Radio La Zona.</desc>
+  </programme>
+  <programme start="20260825230000 +0000" stop="20260826030000 +0000" channel="custom-28">
+    <title lang="es">De Ida y Vuelta</title>
+    <desc lang="es">Música, ocurrencias y entretenimiento para el regreso a casa.</desc>
+  </programme>
+  <programme start="20260826030000 +0000" stop="20260826050000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260826050000 +0000" stop="20260826110000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260826110000 +0000" stop="20260826140000 +0000" channel="custom-28">
+    <title lang="es">El Flow</title>
+    <desc lang="es">Música, actualidad y entretenimiento para empezar el día con energía.</desc>
+  </programme>
+  <programme start="20260826140000 +0000" stop="20260826180000 +0000" channel="custom-28">
+    <title lang="es">El Break</title>
+    <desc lang="es">Música, tendencias, entrevistas y entretenimiento.</desc>
+  </programme>
+  <programme start="20260826180000 +0000" stop="20260826190000 +0000" channel="custom-28">
+    <title lang="es">Las más encendidas</title>
+    <desc lang="es">Las canciones del momento en una hora de música continuada.</desc>
+  </programme>
+  <programme start="20260826190000 +0000" stop="20260826230000 +0000" channel="custom-28">
+    <title lang="es">Energizona</title>
+    <desc lang="es">Música, juegos y entretenimiento de Radio La Zona.</desc>
+  </programme>
+  <programme start="20260826230000 +0000" stop="20260827030000 +0000" channel="custom-28">
+    <title lang="es">De Ida y Vuelta</title>
+    <desc lang="es">Música, ocurrencias y entretenimiento para el regreso a casa.</desc>
+  </programme>
+  <programme start="20260827030000 +0000" stop="20260827050000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260827050000 +0000" stop="20260827110000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260827110000 +0000" stop="20260827140000 +0000" channel="custom-28">
+    <title lang="es">El Flow</title>
+    <desc lang="es">Música, actualidad y entretenimiento para empezar el día con energía.</desc>
+  </programme>
+  <programme start="20260827140000 +0000" stop="20260827180000 +0000" channel="custom-28">
+    <title lang="es">El Break</title>
+    <desc lang="es">Música, tendencias, entrevistas y entretenimiento.</desc>
+  </programme>
+  <programme start="20260827180000 +0000" stop="20260827190000 +0000" channel="custom-28">
+    <title lang="es">Las más encendidas</title>
+    <desc lang="es">Las canciones del momento en una hora de música continuada.</desc>
+  </programme>
+  <programme start="20260827190000 +0000" stop="20260827230000 +0000" channel="custom-28">
+    <title lang="es">Energizona</title>
+    <desc lang="es">Música, juegos y entretenimiento de Radio La Zona.</desc>
+  </programme>
+  <programme start="20260827230000 +0000" stop="20260828030000 +0000" channel="custom-28">
+    <title lang="es">De Ida y Vuelta</title>
+    <desc lang="es">Música, ocurrencias y entretenimiento para el regreso a casa.</desc>
+  </programme>
+  <programme start="20260828030000 +0000" stop="20260828050000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260828050000 +0000" stop="20260828110000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260828110000 +0000" stop="20260828140000 +0000" channel="custom-28">
+    <title lang="es">El Flow</title>
+    <desc lang="es">Música, actualidad y entretenimiento para empezar el día con energía.</desc>
+  </programme>
+  <programme start="20260828140000 +0000" stop="20260828180000 +0000" channel="custom-28">
+    <title lang="es">El Break</title>
+    <desc lang="es">Música, tendencias, entrevistas y entretenimiento.</desc>
+  </programme>
+  <programme start="20260828180000 +0000" stop="20260828190000 +0000" channel="custom-28">
+    <title lang="es">Las más encendidas</title>
+    <desc lang="es">Las canciones del momento en una hora de música continuada.</desc>
+  </programme>
+  <programme start="20260828190000 +0000" stop="20260828230000 +0000" channel="custom-28">
+    <title lang="es">Energizona</title>
+    <desc lang="es">Música, juegos y entretenimiento de Radio La Zona.</desc>
+  </programme>
+  <programme start="20260828230000 +0000" stop="20260829010000 +0000" channel="custom-28">
+    <title lang="es">De Ida y Vuelta</title>
+    <desc lang="es">Música, ocurrencias y entretenimiento para el regreso a casa.</desc>
+  </programme>
+  <programme start="20260829010000 +0000" stop="20260829050000 +0000" channel="custom-28">
+    <title lang="es">Zona Weekend</title>
+    <desc lang="es">Mezclas y música para encender el fin de semana.</desc>
+  </programme>
+  <programme start="20260829050000 +0000" stop="20260829090000 +0000" channel="custom-28">
+    <title lang="es">Zona Weekend</title>
+    <desc lang="es">Mezclas y música para encender el fin de semana.</desc>
+  </programme>
+  <programme start="20260829090000 +0000" stop="20260829110000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260829110000 +0000" stop="20260829180000 +0000" channel="custom-28">
+    <title lang="es">El Break</title>
+    <desc lang="es">Música, tendencias, entrevistas y entretenimiento.</desc>
+  </programme>
+  <programme start="20260829180000 +0000" stop="20260829200000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260829200000 +0000" stop="20260829210000 +0000" channel="custom-28">
+    <title lang="es">Clásicos del Reggaetón</title>
+    <desc lang="es">Clásicos del reggaetón que marcaron el género urbano.</desc>
+  </programme>
+  <programme start="20260829210000 +0000" stop="20260829220000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260829220000 +0000" stop="20260829230000 +0000" channel="custom-28">
+    <title lang="es">Flow Nacional</title>
+    <desc lang="es">Artistas nacionales de música urbana, salsa y reparto.</desc>
+  </programme>
+  <programme start="20260829230000 +0000" stop="20260830050000 +0000" channel="custom-28">
+    <title lang="es">Zona Weekend</title>
+    <desc lang="es">Mezclas y música para encender el fin de semana.</desc>
+  </programme>
+  <programme start="20260830050000 +0000" stop="20260830090000 +0000" channel="custom-28">
+    <title lang="es">Zona Weekend</title>
+    <desc lang="es">Mezclas y música para encender el fin de semana.</desc>
+  </programme>
+  <programme start="20260830090000 +0000" stop="20260830110000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260830110000 +0000" stop="20260830180000 +0000" channel="custom-28">
+    <title lang="es">El Flow</title>
+    <desc lang="es">Música, actualidad y entretenimiento para empezar el día con energía.</desc>
+  </programme>
+  <programme start="20260830180000 +0000" stop="20260830200000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260830200000 +0000" stop="20260830210000 +0000" channel="custom-28">
+    <title lang="es">Clásicos del Reggaetón</title>
+    <desc lang="es">Clásicos del reggaetón que marcaron el género urbano.</desc>
+  </programme>
+  <programme start="20260830210000 +0000" stop="20260830220000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260830220000 +0000" stop="20260830230000 +0000" channel="custom-28">
+    <title lang="es">Flow Nacional</title>
+    <desc lang="es">Artistas nacionales de música urbana, salsa y reparto.</desc>
+  </programme>
+  <programme start="20260830230000 +0000" stop="20260831050000 +0000" channel="custom-28">
+    <title lang="es">Zona Weekend</title>
+    <desc lang="es">Mezclas y música para encender el fin de semana.</desc>
+  </programme>
+  <programme start="20260831050000 +0000" stop="20260831110000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260831110000 +0000" stop="20260831140000 +0000" channel="custom-28">
+    <title lang="es">El Flow</title>
+    <desc lang="es">Música, actualidad y entretenimiento para empezar el día con energía.</desc>
+  </programme>
+  <programme start="20260831140000 +0000" stop="20260831180000 +0000" channel="custom-28">
+    <title lang="es">El Break</title>
+    <desc lang="es">Música, tendencias, entrevistas y entretenimiento.</desc>
+  </programme>
+  <programme start="20260831180000 +0000" stop="20260831190000 +0000" channel="custom-28">
+    <title lang="es">Las más encendidas</title>
+    <desc lang="es">Las canciones del momento en una hora de música continuada.</desc>
+  </programme>
+  <programme start="20260831190000 +0000" stop="20260831230000 +0000" channel="custom-28">
+    <title lang="es">Energizona</title>
+    <desc lang="es">Música, juegos y entretenimiento de Radio La Zona.</desc>
+  </programme>
+  <programme start="20260831230000 +0000" stop="20260901030000 +0000" channel="custom-28">
+    <title lang="es">De Ida y Vuelta</title>
+    <desc lang="es">Música, ocurrencias y entretenimiento para el regreso a casa.</desc>
+  </programme>
+  <programme start="20260901030000 +0000" stop="20260901050000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260901050000 +0000" stop="20260901110000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260901110000 +0000" stop="20260901140000 +0000" channel="custom-28">
+    <title lang="es">El Flow</title>
+    <desc lang="es">Música, actualidad y entretenimiento para empezar el día con energía.</desc>
+  </programme>
+  <programme start="20260901140000 +0000" stop="20260901180000 +0000" channel="custom-28">
+    <title lang="es">El Break</title>
+    <desc lang="es">Música, tendencias, entrevistas y entretenimiento.</desc>
+  </programme>
+  <programme start="20260901180000 +0000" stop="20260901190000 +0000" channel="custom-28">
+    <title lang="es">Las más encendidas</title>
+    <desc lang="es">Las canciones del momento en una hora de música continuada.</desc>
+  </programme>
+  <programme start="20260901190000 +0000" stop="20260901230000 +0000" channel="custom-28">
+    <title lang="es">Energizona</title>
+    <desc lang="es">Música, juegos y entretenimiento de Radio La Zona.</desc>
+  </programme>
+  <programme start="20260901230000 +0000" stop="20260902030000 +0000" channel="custom-28">
+    <title lang="es">De Ida y Vuelta</title>
+    <desc lang="es">Música, ocurrencias y entretenimiento para el regreso a casa.</desc>
+  </programme>
+  <programme start="20260902030000 +0000" stop="20260902050000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
   </programme>
 </tv>
