@@ -9,7 +9,7 @@ on:
       - ".github/workflows/update-teleclub-epg.yml"
       - "teleclub-epg/update_epg.py"
       - "teleclub-epg/add_radio_la_zona.py"
-      - "teleclub-epg/add_all_radios.py"
+      - "teleclub-epg/add_all_panel_channels.py"
       - "teleclub-epg/seed_channels.tsv"
 
 permissions:
@@ -60,25 +60,26 @@ jobs:
         run: |
           python teleclub-epg/add_radio_la_zona.py
 
-      - name: Agregar todas las radios activas del panel
+      - name: Sincronizar todos los canales y radios activos del panel
         run: |
-          python teleclub-epg/add_all_radios.py
+          python teleclub-epg/add_all_panel_channels.py
 
       - name: Validar guía antes de publicar
         run: |
           test -s teleclub-epg/guia_teleclubtv.xml
           grep -q '<channel ' teleclub-epg/guia_teleclubtv.xml
+          grep -q '<programme ' teleclub-epg/guia_teleclubtv.xml
           python - <<'PY'
           import xml.etree.ElementTree as ET
           p='teleclub-epg/guia_teleclubtv.xml'
           root=ET.parse(p).getroot()
           channels=len(root.findall('channel'))
           programmes=len(root.findall('programme'))
-          radio_ids={ch.attrib.get('id') for ch in root.findall('channel') if 'radio' in ' '.join((x.text or '') for x in ch.findall('display-name')).lower() or ch.attrib.get('id')=='custom-28'}
-          radio_programmes=sum(1 for p in root.findall('programme') if p.attrib.get('channel') in radio_ids)
-          print(f'EPG válida: {channels} canales, {programmes} programas; radios={len(radio_ids)}, programas_radio={radio_programmes}')
-          if channels < 1 or len(radio_ids) < 1 or radio_programmes < 1:
-              raise SystemExit('EPG inválida o sin radios; no se publicará')
+          with_programmes={p.attrib.get('channel') for p in root.findall('programme')}
+          missing=[ch.attrib.get('id') for ch in root.findall('channel') if ch.attrib.get('id') not in with_programmes]
+          print(f'EPG válida: {channels} canales/radios, {programmes} programas; sin_programacion={len(missing)}')
+          if channels < 1 or programmes < 1 or missing:
+              raise SystemExit(f'EPG incompleta; IDs sin programación: {missing[:20]}')
           PY
 
       - name: Guardar guía actualizada
@@ -93,4 +94,4 @@ jobs:
             git push
           fi
 
-# Sincronización forzada tras despliegue AudioPlayer 4.4 - 2026-08-17
+# Sincronización automática de todos los canales y radios del panel.
