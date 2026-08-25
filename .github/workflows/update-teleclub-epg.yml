@@ -9,6 +9,7 @@ on:
       - ".github/workflows/update-teleclub-epg.yml"
       - "teleclub-epg/update_epg.py"
       - "teleclub-epg/add_radio_la_zona.py"
+      - "teleclub-epg/add_radio_inolvidable.py"
       - "teleclub-epg/add_all_panel_channels.py"
       - "teleclub-epg/seed_channels.tsv"
 
@@ -46,23 +47,22 @@ jobs:
               mv "$tmp" teleclub-epg/guia_teleclubtv.xml
               echo "EPG descargada desde $EPG_URL"
             else
-              echo "La respuesta del Worker no parece XMLTV válido"
               rm -f "$tmp"
               python teleclub-epg/update_epg.py
             fi
           else
-            echo "No se pudo descargar la EPG del Worker; usando generador local de respaldo"
             rm -f "$tmp"
             python teleclub-epg/update_epg.py
           fi
 
       - name: Agregar programación detallada de Radio La Zona
-        run: |
-          python teleclub-epg/add_radio_la_zona.py
+        run: python teleclub-epg/add_radio_la_zona.py
 
       - name: Sincronizar todos los canales y radios activos del panel
-        run: |
-          python teleclub-epg/add_all_panel_channels.py
+        run: python teleclub-epg/add_all_panel_channels.py
+
+      - name: Agregar programación real de Radio La Inolvidable
+        run: python teleclub-epg/add_radio_inolvidable.py
 
       - name: Validar guía antes de publicar
         run: |
