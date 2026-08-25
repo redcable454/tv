@@ -2,6 +2,7 @@
 import json
 from datetime import datetime, timedelta, timezone
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 from xml.etree import ElementTree as ET
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -12,9 +13,13 @@ LIMA = ZoneInfo("America/Lima")
 
 
 def fetch_channels():
-    req = Request(PANEL_CHANNELS_URL, headers={"User-Agent": "TeleclubTV-EPG-PanelSync/1.0"})
-    with urlopen(req, timeout=30) as r:
-        payload = json.loads(r.read().decode("utf-8"))
+    req = Request(PANEL_CHANNELS_URL, headers={"User-Agent": "TeleclubTV-EPG-PanelSync/1.1"})
+    try:
+        with urlopen(req, timeout=30) as r:
+            payload = json.loads(r.read().decode("utf-8"))
+    except (HTTPError, URLError, TimeoutError) as exc:
+        print(f"WARN: no se pudo leer /api/admin/channels ({exc}); se conserva la EPG existente y continúan las radios con fallback por nombre.")
+        return []
     if isinstance(payload, dict):
         return payload.get("canales") or payload.get("channels") or payload.get("data") or []
     if isinstance(payload, list):
@@ -40,7 +45,6 @@ def active(row):
 def ensure_channel(root, cid, name, icon):
     for ch in root.findall("channel"):
         if ch.attrib.get("id") == cid:
-            # refrescar nombre/logo si faltan
             dn = ch.find("display-name")
             if dn is None:
                 ET.SubElement(ch, "display-name", {"lang": "es"}).text = name
@@ -74,8 +78,7 @@ def add_generic_programmes(root, cid, name, category, days=3):
             "stop": stop.astimezone(timezone.utc).strftime("%Y%m%d%H%M%S +0000"),
             "channel": cid,
         })
-        title = f"{name} - En vivo"
-        ET.SubElement(p, "title", {"lang": "es"}).text = title
+        ET.SubElement(p, "title", {"lang": "es"}).text = f"{name} - En vivo"
         desc = f"Programación en vivo de {name}."
         if category:
             desc += f" Categoría: {category}."
@@ -89,7 +92,8 @@ def main():
     root = ET.parse(EPG).getroot()
     rows = [r for r in fetch_channels() if isinstance(r, dict) and active(r)]
     if not rows:
-        raise RuntimeError("El panel no devolvió canales activos; se cancela para no publicar una EPG incompleta")
+        print("Panel: endpoint administrativo no disponible públicamente; no se modifica la lista base de canales en este paso.")
+        return
 
     ids = []
     created_channels = 0
