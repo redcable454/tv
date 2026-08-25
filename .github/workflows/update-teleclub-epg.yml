@@ -10,6 +10,7 @@ on:
       - "teleclub-epg/update_epg.py"
       - "teleclub-epg/add_radio_la_zona.py"
       - "teleclub-epg/add_radio_inolvidable.py"
+      - "teleclub-epg/add_radio_programming_extra.py"
       - "teleclub-epg/add_all_panel_channels.py"
       - "teleclub-epg/seed_channels.tsv"
 
@@ -27,12 +28,10 @@ jobs:
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
-
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Descargar EPG automática desde el panel
         shell: bash
         run: |
@@ -40,30 +39,17 @@ jobs:
           mkdir -p teleclub-epg
           tmp="$(mktemp)"
           EPG_URL='https://teleclubtv-panel.micanalfmradio8.workers.dev/epg.xml'
-          if curl -fL --retry 3 --retry-delay 5 --connect-timeout 20 --max-time 120 \
-            -H 'User-Agent: TeleclubTV-EPG-GitHub/1.1' \
-            "$EPG_URL" -o "$tmp"; then
-            if grep -q '<tv' "$tmp" && grep -q '<channel ' "$tmp"; then
-              mv "$tmp" teleclub-epg/guia_teleclubtv.xml
-              echo "EPG descargada desde $EPG_URL"
-            else
-              rm -f "$tmp"
-              python teleclub-epg/update_epg.py
-            fi
-          else
-            rm -f "$tmp"
-            python teleclub-epg/update_epg.py
-          fi
-
+          if curl -fL --retry 3 --retry-delay 5 --connect-timeout 20 --max-time 120 -H 'User-Agent: TeleclubTV-EPG-GitHub/1.1' "$EPG_URL" -o "$tmp"; then
+            if grep -q '<tv' "$tmp" && grep -q '<channel ' "$tmp"; then mv "$tmp" teleclub-epg/guia_teleclubtv.xml; else rm -f "$tmp"; python teleclub-epg/update_epg.py; fi
+          else rm -f "$tmp"; python teleclub-epg/update_epg.py; fi
       - name: Agregar programación detallada de Radio La Zona
         run: python teleclub-epg/add_radio_la_zona.py
-
       - name: Sincronizar todos los canales y radios activos del panel
         run: python teleclub-epg/add_all_panel_channels.py
-
       - name: Agregar programación real de Radio La Inolvidable
         run: python teleclub-epg/add_radio_inolvidable.py
-
+      - name: Agregar EPG de Felicidad Oxigeno Corazon Disney Studio92 y Planeta
+        run: python teleclub-epg/add_radio_programming_extra.py
       - name: Validar guía antes de publicar
         run: |
           test -s teleclub-epg/guia_teleclubtv.xml
@@ -71,27 +57,16 @@ jobs:
           grep -q '<programme ' teleclub-epg/guia_teleclubtv.xml
           python - <<'PY'
           import xml.etree.ElementTree as ET
-          p='teleclub-epg/guia_teleclubtv.xml'
-          root=ET.parse(p).getroot()
-          channels=len(root.findall('channel'))
-          programmes=len(root.findall('programme'))
+          root=ET.parse('teleclub-epg/guia_teleclubtv.xml').getroot()
+          channels=len(root.findall('channel')); programmes=len(root.findall('programme'))
           with_programmes={p.attrib.get('channel') for p in root.findall('programme')}
           missing=[ch.attrib.get('id') for ch in root.findall('channel') if ch.attrib.get('id') not in with_programmes]
           print(f'EPG válida: {channels} canales/radios, {programmes} programas; sin_programacion={len(missing)}')
-          if channels < 1 or programmes < 1 or missing:
-              raise SystemExit(f'EPG incompleta; IDs sin programación: {missing[:20]}')
+          if channels < 1 or programmes < 1 or missing: raise SystemExit(f'EPG incompleta: {missing[:20]}')
           PY
-
       - name: Guardar guía actualizada
         run: |
           git config user.name "teleclub-epg-bot"
           git config user.email "actions@users.noreply.github.com"
           git add teleclub-epg/guia_teleclubtv.xml
-          if git diff --cached --quiet; then
-            echo "La guía no cambió"
-          else
-            git commit -m "Actualizar guía EPG TeleclubTV"
-            git push
-          fi
-
-# Sincronización automática de todos los canales y radios del panel.
+          if git diff --cached --quiet; then echo "La guía no cambió"; else git commit -m "Actualizar guía EPG TeleclubTV"; git push; fi
