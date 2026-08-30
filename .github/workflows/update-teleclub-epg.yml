@@ -8,6 +8,7 @@ on:
     paths:
       - ".github/workflows/update-teleclub-epg.yml"
       - "teleclub-epg/update_epg.py"
+      - "teleclub-epg/add_sports_epg.py"
       - "teleclub-epg/add_radio_la_zona.py"
       - "teleclub-epg/add_radio_inolvidable.py"
       - "teleclub-epg/add_radio_programming_extra.py"
@@ -46,6 +47,8 @@ jobs:
         run: python teleclub-epg/add_radio_la_zona.py
       - name: Sincronizar todos los canales y radios activos del panel
         run: python teleclub-epg/add_all_panel_channels.py
+      - name: Agregar EPG deportiva Liga1 Liga Max y Ovación TV
+        run: python teleclub-epg/add_sports_epg.py
       - name: Agregar programación real de Radio La Inolvidable
         run: python teleclub-epg/add_radio_inolvidable.py
       - name: Agregar EPG de Felicidad Oxigeno Corazon Disney Studio92 y Planeta
@@ -71,4 +74,4 @@ jobs:
           git add teleclub-epg/guia_teleclubtv.xml
           if git diff --cached --quiet; then echo "La guía no cambió"; else git commit -m "Actualizar guía EPG TeleclubTV"; git push; fi
 
-# Forzar regeneración EPG radios 2026-08-25
+# Forzar regeneración EPG deportes 2026-08-29
