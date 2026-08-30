@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-08-30T02:07:39.743493+00:00" radio-la-zona-updated-at="2026-08-30T02:07:40.008477+00:00">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-08-30T04:04:52.100563+00:00" radio-la-zona-updated-at="2026-08-30T04:04:52.349072+00:00">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -63,7 +63,7 @@
     <display-name lang="es">Liga1</display-name>
   </channel>
   <channel id="liga-max.teleclub">
-    <display-name lang="es">Liga Max</display-name>
+    <display-name lang="es">L1 Max</display-name>
   </channel>
   <channel id="ovacion-tv.teleclub">
     <display-name lang="es">Ovación TV</display-name>
@@ -12273,64 +12273,544 @@
     <title lang="es">Zona Weekend</title>
     <desc lang="es">Mezclas y música para encender el fin de semana.</desc>
   </programme>
-  <programme start="20260829050000 +0000" stop="20260830050000 +0000" channel="liga1.teleclub">
-    <title lang="es">Liga1 - En vivo</title>
-    <desc lang="es">Programación deportiva en vivo de Liga1.</desc>
+  <programme start="20260830160000 +0000" stop="20260830180000 +0000" channel="liga1.teleclub">
+    <title lang="es">CD Moquegua vs Alianza Atlético</title>
+    <desc lang="es">Fecha 7 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260830181500 +0000" stop="20260830201500 +0000" channel="liga1.teleclub">
+    <title lang="es">ADT vs Sport Huancayo</title>
+    <desc lang="es">Fecha 7 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260830203000 +0000" stop="20260830223000 +0000" channel="liga1.teleclub">
+    <title lang="es">Sport Boys vs Sporting Cristal</title>
+    <desc lang="es">Fecha 7 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260831000000 +0000" stop="20260831020000 +0000" channel="liga1.teleclub">
+    <title lang="es">Cienciano vs Cusco FC</title>
+    <desc lang="es">Fecha 7 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260831200000 +0000" stop="20260831220000 +0000" channel="liga1.teleclub">
+    <title lang="es">Atlético Grau vs FBC Melgar</title>
+    <desc lang="es">Fecha 7 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260904180000 +0000" stop="20260904200000 +0000" channel="liga1.teleclub">
+    <title lang="es">FC Cajamarca vs Cienciano</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260904201500 +0000" stop="20260904221500 +0000" channel="liga1.teleclub">
+    <title lang="es">Alianza Atlético vs UTC</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260905200000 +0000" stop="20260905220000 +0000" channel="liga1.teleclub">
+    <title lang="es">Sport Huancayo vs Sport Boys</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260905230000 +0000" stop="20260906010000 +0000" channel="liga1.teleclub">
+    <title lang="es">Cusco FC vs CD Moquegua</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260906013000 +0000" stop="20260906033000 +0000" channel="liga1.teleclub">
+    <title lang="es">Universitario vs Comerciantes Unidos</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260906160000 +0000" stop="20260906180000 +0000" channel="liga1.teleclub">
+    <title lang="es">Sporting Cristal vs Los Chankas</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260906183000 +0000" stop="20260906203000 +0000" channel="liga1.teleclub">
+    <title lang="es">Deportivo Garcilaso vs Atlético Grau</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260906204500 +0000" stop="20260906224500 +0000" channel="liga1.teleclub">
+    <title lang="es">Juan Pablo II vs Alianza Lima</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260907000000 +0000" stop="20260907020000 +0000" channel="liga1.teleclub">
+    <title lang="es">FBC Melgar vs ADT</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260830160000 +0000" stop="20260830180000 +0000" channel="liga-max.teleclub">
+    <title lang="es">CD Moquegua vs Alianza Atlético</title>
+    <desc lang="es">Fecha 7 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260830181500 +0000" stop="20260830201500 +0000" channel="liga-max.teleclub">
+    <title lang="es">ADT vs Sport Huancayo</title>
+    <desc lang="es">Fecha 7 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260830203000 +0000" stop="20260830223000 +0000" channel="liga-max.teleclub">
+    <title lang="es">Sport Boys vs Sporting Cristal</title>
+    <desc lang="es">Fecha 7 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260831000000 +0000" stop="20260831020000 +0000" channel="liga-max.teleclub">
+    <title lang="es">Cienciano vs Cusco FC</title>
+    <desc lang="es">Fecha 7 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260831200000 +0000" stop="20260831220000 +0000" channel="liga-max.teleclub">
+    <title lang="es">Atlético Grau vs FBC Melgar</title>
+    <desc lang="es">Fecha 7 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260904180000 +0000" stop="20260904200000 +0000" channel="liga-max.teleclub">
+    <title lang="es">FC Cajamarca vs Cienciano</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260904201500 +0000" stop="20260904221500 +0000" channel="liga-max.teleclub">
+    <title lang="es">Alianza Atlético vs UTC</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260905200000 +0000" stop="20260905220000 +0000" channel="liga-max.teleclub">
+    <title lang="es">Sport Huancayo vs Sport Boys</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260905230000 +0000" stop="20260906010000 +0000" channel="liga-max.teleclub">
+    <title lang="es">Cusco FC vs CD Moquegua</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260906013000 +0000" stop="20260906033000 +0000" channel="liga-max.teleclub">
+    <title lang="es">Universitario vs Comerciantes Unidos</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260906160000 +0000" stop="20260906180000 +0000" channel="liga-max.teleclub">
+    <title lang="es">Sporting Cristal vs Los Chankas</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260906183000 +0000" stop="20260906203000 +0000" channel="liga-max.teleclub">
+    <title lang="es">Deportivo Garcilaso vs Atlético Grau</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260906204500 +0000" stop="20260906224500 +0000" channel="liga-max.teleclub">
+    <title lang="es">Juan Pablo II vs Alianza Lima</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260907000000 +0000" stop="20260907020000 +0000" channel="liga-max.teleclub">
+    <title lang="es">FBC Melgar vs ADT</title>
+    <desc lang="es">Fecha 8 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20260829120000 +0000" stop="20260829130000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Debate Abierto</title>
+    <desc lang="es">Programación deportiva de Ovación. Debate Abierto.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260830050000 +0000" stop="20260831050000 +0000" channel="liga1.teleclub">
-    <title lang="es">Liga1 - En vivo</title>
-    <desc lang="es">Programación deportiva en vivo de Liga1.</desc>
+  <programme start="20260829130000 +0000" stop="20260829150000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Zona Deportiva</title>
+    <desc lang="es">Programación deportiva de Ovación. Zona Deportiva.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260831050000 +0000" stop="20260901050000 +0000" channel="liga1.teleclub">
-    <title lang="es">Liga1 - En vivo</title>
-    <desc lang="es">Programación deportiva en vivo de Liga1.</desc>
+  <programme start="20260829150000 +0000" stop="20260829170000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Previa en Ovación</title>
+    <desc lang="es">Programación deportiva de Ovación. Previa en Ovación.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260901050000 +0000" stop="20260902050000 +0000" channel="liga1.teleclub">
-    <title lang="es">Liga1 - En vivo</title>
-    <desc lang="es">Programación deportiva en vivo de Liga1.</desc>
+  <programme start="20260829170000 +0000" stop="20260830000000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Transmisiones Deportivas</title>
+    <desc lang="es">Programación deportiva de Ovación. Transmisiones Deportivas.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260829050000 +0000" stop="20260830050000 +0000" channel="liga-max.teleclub">
-    <title lang="es">Liga Max - En vivo</title>
-    <desc lang="es">Programación deportiva en vivo de Liga Max.</desc>
+  <programme start="20260830000000 +0000" stop="20260830010000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Ovación - Edición Central</title>
+    <desc lang="es">Programación deportiva de Ovación. Ovación - Edición Central.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260830050000 +0000" stop="20260831050000 +0000" channel="liga-max.teleclub">
-    <title lang="es">Liga Max - En vivo</title>
-    <desc lang="es">Programación deportiva en vivo de Liga Max.</desc>
+  <programme start="20260830010000 +0000" stop="20260830020000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Fusión Latina</title>
+    <desc lang="es">Programación deportiva de Ovación. Fusión Latina.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260831050000 +0000" stop="20260901050000 +0000" channel="liga-max.teleclub">
-    <title lang="es">Liga Max - En vivo</title>
-    <desc lang="es">Programación deportiva en vivo de Liga Max.</desc>
+  <programme start="20260830133000 +0000" stop="20260830160000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Evolution 360</title>
+    <desc lang="es">Programación deportiva de Ovación. Evolution 360.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260901050000 +0000" stop="20260902050000 +0000" channel="liga-max.teleclub">
-    <title lang="es">Liga Max - En vivo</title>
-    <desc lang="es">Programación deportiva en vivo de Liga Max.</desc>
+  <programme start="20260830160000 +0000" stop="20260830180000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Previa en Ovación 2</title>
+    <desc lang="es">Programación deportiva de Ovación. Previa en Ovación 2.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260829050000 +0000" stop="20260830050000 +0000" channel="ovacion-tv.teleclub">
-    <title lang="es">Ovación TV - En vivo</title>
-    <desc lang="es">Programación deportiva en vivo de Ovación TV.</desc>
+  <programme start="20260830180000 +0000" stop="20260831000000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Transmisiones Deportivas 2</title>
+    <desc lang="es">Programación deportiva de Ovación. Transmisiones Deportivas 2.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260830050000 +0000" stop="20260831050000 +0000" channel="ovacion-tv.teleclub">
-    <title lang="es">Ovación TV - En vivo</title>
-    <desc lang="es">Programación deportiva en vivo de Ovación TV.</desc>
+  <programme start="20260831000000 +0000" stop="20260831020000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Al Cierre con Ovación</title>
+    <desc lang="es">Programación deportiva de Ovación. Al Cierre con Ovación.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260831050000 +0000" stop="20260901050000 +0000" channel="ovacion-tv.teleclub">
-    <title lang="es">Ovación TV - En vivo</title>
-    <desc lang="es">Programación deportiva en vivo de Ovación TV.</desc>
+  <programme start="20260831110000 +0000" stop="20260831140000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Impacto Deportivo</title>
+    <desc lang="es">Programación deportiva de Ovación. Impacto Deportivo.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260901050000 +0000" stop="20260902050000 +0000" channel="ovacion-tv.teleclub">
-    <title lang="es">Ovación TV - En vivo</title>
-    <desc lang="es">Programación deportiva en vivo de Ovación TV.</desc>
+  <programme start="20260831140000 +0000" stop="20260831150000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Negrini lo Sabe</title>
+    <desc lang="es">Programación deportiva de Ovación. Negrini lo Sabe.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260831150000 +0000" stop="20260831170000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Full Deporte</title>
+    <desc lang="es">Programación deportiva de Ovación. Full Deporte.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260831170000 +0000" stop="20260831180000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">De Una</title>
+    <desc lang="es">Programación deportiva de Ovación. De Una.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260831180000 +0000" stop="20260831190000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Ovación - Primera Edición</title>
+    <desc lang="es">Programación deportiva de Ovación. Ovación - Primera Edición.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260831190000 +0000" stop="20260831200000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">360 en Ovación</title>
+    <desc lang="es">Programación deportiva de Ovación. 360 en Ovación.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260831200000 +0000" stop="20260831210000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">La Sobremesa</title>
+    <desc lang="es">Programación deportiva de Ovación. La Sobremesa.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260831210000 +0000" stop="20260831220000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">La Hora de Lalo</title>
+    <desc lang="es">Programación deportiva de Ovación. La Hora de Lalo.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260831220000 +0000" stop="20260831230000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Goles y Salud</title>
+    <desc lang="es">Programación deportiva de Ovación. Goles y Salud.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260831230000 +0000" stop="20260901000000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Segundo Tiempo</title>
+    <desc lang="es">Programación deportiva de Ovación. Segundo Tiempo.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260901000000 +0000" stop="20260901010000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Ovación - Edición Central</title>
+    <desc lang="es">Programación deportiva de Ovación. Ovación - Edición Central.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260901010000 +0000" stop="20260901020000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Fútbol para Todos</title>
+    <desc lang="es">Programación deportiva de Ovación. Fútbol para Todos.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260901110000 +0000" stop="20260901140000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Impacto Deportivo</title>
+    <desc lang="es">Programación deportiva de Ovación. Impacto Deportivo.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260901140000 +0000" stop="20260901150000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Negrini lo Sabe</title>
+    <desc lang="es">Programación deportiva de Ovación. Negrini lo Sabe.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260901150000 +0000" stop="20260901170000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Full Deporte</title>
+    <desc lang="es">Programación deportiva de Ovación. Full Deporte.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260901170000 +0000" stop="20260901180000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">De Una</title>
+    <desc lang="es">Programación deportiva de Ovación. De Una.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260901180000 +0000" stop="20260901190000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Ovación - Primera Edición</title>
+    <desc lang="es">Programación deportiva de Ovación. Ovación - Primera Edición.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260901190000 +0000" stop="20260901200000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">La Afición Comenta</title>
+    <desc lang="es">Programación deportiva de Ovación. La Afición Comenta.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260901200000 +0000" stop="20260901210000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">La Sobremesa</title>
+    <desc lang="es">Programación deportiva de Ovación. La Sobremesa.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260901210000 +0000" stop="20260901220000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">La Hora de Lalo</title>
+    <desc lang="es">Programación deportiva de Ovación. La Hora de Lalo.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260901220000 +0000" stop="20260901230000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Goles y Salud</title>
+    <desc lang="es">Programación deportiva de Ovación. Goles y Salud.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260901230000 +0000" stop="20260902000000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Segundo Tiempo</title>
+    <desc lang="es">Programación deportiva de Ovación. Segundo Tiempo.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260902000000 +0000" stop="20260902010000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Ovación - Edición Central</title>
+    <desc lang="es">Programación deportiva de Ovación. Ovación - Edición Central.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260902010000 +0000" stop="20260902020000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Fútbol para Todos</title>
+    <desc lang="es">Programación deportiva de Ovación. Fútbol para Todos.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260902110000 +0000" stop="20260902140000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Impacto Deportivo</title>
+    <desc lang="es">Programación deportiva de Ovación. Impacto Deportivo.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260902140000 +0000" stop="20260902150000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Negrini lo Sabe</title>
+    <desc lang="es">Programación deportiva de Ovación. Negrini lo Sabe.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260902150000 +0000" stop="20260902170000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Full Deporte</title>
+    <desc lang="es">Programación deportiva de Ovación. Full Deporte.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260902170000 +0000" stop="20260902180000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">De Una</title>
+    <desc lang="es">Programación deportiva de Ovación. De Una.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260902180000 +0000" stop="20260902190000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Ovación - Primera Edición</title>
+    <desc lang="es">Programación deportiva de Ovación. Ovación - Primera Edición.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260902190000 +0000" stop="20260902200000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">360 en Ovación</title>
+    <desc lang="es">Programación deportiva de Ovación. 360 en Ovación.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260902200000 +0000" stop="20260902210000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">La Sobremesa</title>
+    <desc lang="es">Programación deportiva de Ovación. La Sobremesa.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260902210000 +0000" stop="20260902220000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">La Hora de Lalo</title>
+    <desc lang="es">Programación deportiva de Ovación. La Hora de Lalo.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260902220000 +0000" stop="20260902230000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Goles y Salud</title>
+    <desc lang="es">Programación deportiva de Ovación. Goles y Salud.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260902230000 +0000" stop="20260903000000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Segundo Tiempo</title>
+    <desc lang="es">Programación deportiva de Ovación. Segundo Tiempo.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260903000000 +0000" stop="20260903010000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Ovación - Edición Central</title>
+    <desc lang="es">Programación deportiva de Ovación. Ovación - Edición Central.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260903010000 +0000" stop="20260903020000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Fútbol para Todos</title>
+    <desc lang="es">Programación deportiva de Ovación. Fútbol para Todos.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260903110000 +0000" stop="20260903140000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Impacto Deportivo</title>
+    <desc lang="es">Programación deportiva de Ovación. Impacto Deportivo.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260903140000 +0000" stop="20260903150000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Negrini lo Sabe</title>
+    <desc lang="es">Programación deportiva de Ovación. Negrini lo Sabe.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260903150000 +0000" stop="20260903170000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Full Deporte</title>
+    <desc lang="es">Programación deportiva de Ovación. Full Deporte.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260903170000 +0000" stop="20260903180000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">De Una</title>
+    <desc lang="es">Programación deportiva de Ovación. De Una.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260903180000 +0000" stop="20260903190000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Ovación - Primera Edición</title>
+    <desc lang="es">Programación deportiva de Ovación. Ovación - Primera Edición.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260903190000 +0000" stop="20260903200000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">La Afición Comenta</title>
+    <desc lang="es">Programación deportiva de Ovación. La Afición Comenta.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260903200000 +0000" stop="20260903210000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">La Sobremesa</title>
+    <desc lang="es">Programación deportiva de Ovación. La Sobremesa.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260903210000 +0000" stop="20260903220000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">La Hora de Lalo</title>
+    <desc lang="es">Programación deportiva de Ovación. La Hora de Lalo.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260903220000 +0000" stop="20260903230000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Goles y Salud</title>
+    <desc lang="es">Programación deportiva de Ovación. Goles y Salud.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260903230000 +0000" stop="20260904000000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Segundo Tiempo</title>
+    <desc lang="es">Programación deportiva de Ovación. Segundo Tiempo.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260904000000 +0000" stop="20260904010000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Ovación - Edición Central</title>
+    <desc lang="es">Programación deportiva de Ovación. Ovación - Edición Central.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260904010000 +0000" stop="20260904020000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Fútbol para Todos</title>
+    <desc lang="es">Programación deportiva de Ovación. Fútbol para Todos.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260904110000 +0000" stop="20260904140000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Impacto Deportivo</title>
+    <desc lang="es">Programación deportiva de Ovación. Impacto Deportivo.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260904140000 +0000" stop="20260904150000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Negrini lo Sabe</title>
+    <desc lang="es">Programación deportiva de Ovación. Negrini lo Sabe.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260904150000 +0000" stop="20260904170000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Full Deporte</title>
+    <desc lang="es">Programación deportiva de Ovación. Full Deporte.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260904170000 +0000" stop="20260904180000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">De Una</title>
+    <desc lang="es">Programación deportiva de Ovación. De Una.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260904180000 +0000" stop="20260904190000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Ovación - Primera Edición</title>
+    <desc lang="es">Programación deportiva de Ovación. Ovación - Primera Edición.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260904190000 +0000" stop="20260904200000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">360 en Ovación</title>
+    <desc lang="es">Programación deportiva de Ovación. 360 en Ovación.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260904200000 +0000" stop="20260904210000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">La Sobremesa</title>
+    <desc lang="es">Programación deportiva de Ovación. La Sobremesa.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260904210000 +0000" stop="20260904220000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">La Hora de Lalo</title>
+    <desc lang="es">Programación deportiva de Ovación. La Hora de Lalo.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260904220000 +0000" stop="20260904230000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Goles y Salud</title>
+    <desc lang="es">Programación deportiva de Ovación. Goles y Salud.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260904230000 +0000" stop="20260905000000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Segundo Tiempo</title>
+    <desc lang="es">Programación deportiva de Ovación. Segundo Tiempo.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260905000000 +0000" stop="20260905010000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Ovación - Edición Central</title>
+    <desc lang="es">Programación deportiva de Ovación. Ovación - Edición Central.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260905010000 +0000" stop="20260905020000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Fútbol para Todos</title>
+    <desc lang="es">Programación deportiva de Ovación. Fútbol para Todos.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260905120000 +0000" stop="20260905130000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Debate Abierto</title>
+    <desc lang="es">Programación deportiva de Ovación. Debate Abierto.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260905130000 +0000" stop="20260905150000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Zona Deportiva</title>
+    <desc lang="es">Programación deportiva de Ovación. Zona Deportiva.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260905150000 +0000" stop="20260905170000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Previa en Ovación</title>
+    <desc lang="es">Programación deportiva de Ovación. Previa en Ovación.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260905170000 +0000" stop="20260906000000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Transmisiones Deportivas</title>
+    <desc lang="es">Programación deportiva de Ovación. Transmisiones Deportivas.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260906000000 +0000" stop="20260906010000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Ovación - Edición Central</title>
+    <desc lang="es">Programación deportiva de Ovación. Ovación - Edición Central.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260906010000 +0000" stop="20260906020000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Fusión Latina</title>
+    <desc lang="es">Programación deportiva de Ovación. Fusión Latina.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260906133000 +0000" stop="20260906160000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Evolution 360</title>
+    <desc lang="es">Programación deportiva de Ovación. Evolution 360.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260906160000 +0000" stop="20260906180000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Previa en Ovación 2</title>
+    <desc lang="es">Programación deportiva de Ovación. Previa en Ovación 2.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260906180000 +0000" stop="20260907000000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Transmisiones Deportivas 2</title>
+    <desc lang="es">Programación deportiva de Ovación. Transmisiones Deportivas 2.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260907000000 +0000" stop="20260907020000 +0000" channel="ovacion-tv.teleclub">
+    <title lang="es">Al Cierre con Ovación</title>
+    <desc lang="es">Programación deportiva de Ovación. Al Cierre con Ovación.</desc>
     <category lang="es">Deportes</category>
   </programme>
   <programme start="20260829050000 +0000" stop="20260830050000 +0000" channel="radio-inolvidable.teleclub">
