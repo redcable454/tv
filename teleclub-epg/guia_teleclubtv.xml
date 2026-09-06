@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-09-06T04:51:22.490335+00:00" radio-la-zona-updated-at="2026-09-06T04:51:22.783849+00:00">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-09-06T08:59:30.379274+00:00" radio-la-zona-updated-at="2026-09-06T08:59:30.562572+00:00">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -11910,34 +11910,6 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20260904050000 +0000" stop="20260904110000 +0000" channel="custom-28">
-    <title lang="es">Radio La Zona, Te enciende</title>
-    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
-  </programme>
-  <programme start="20260904110000 +0000" stop="20260904140000 +0000" channel="custom-28">
-    <title lang="es">El Flow</title>
-    <desc lang="es">Música, actualidad y entretenimiento para empezar el día con energía.</desc>
-  </programme>
-  <programme start="20260904140000 +0000" stop="20260904180000 +0000" channel="custom-28">
-    <title lang="es">El Break</title>
-    <desc lang="es">Música, tendencias, entrevistas y entretenimiento.</desc>
-  </programme>
-  <programme start="20260904180000 +0000" stop="20260904190000 +0000" channel="custom-28">
-    <title lang="es">Las más encendidas</title>
-    <desc lang="es">Las canciones del momento en una hora de música continuada.</desc>
-  </programme>
-  <programme start="20260904190000 +0000" stop="20260904230000 +0000" channel="custom-28">
-    <title lang="es">Energizona</title>
-    <desc lang="es">Música, juegos y entretenimiento de Radio La Zona.</desc>
-  </programme>
-  <programme start="20260904230000 +0000" stop="20260905010000 +0000" channel="custom-28">
-    <title lang="es">De Ida y Vuelta</title>
-    <desc lang="es">Música, ocurrencias y entretenimiento para el regreso a casa.</desc>
-  </programme>
-  <programme start="20260905010000 +0000" stop="20260905050000 +0000" channel="custom-28">
-    <title lang="es">Zona Weekend</title>
-    <desc lang="es">Mezclas y música para encender el fin de semana.</desc>
-  </programme>
   <programme start="20260905050000 +0000" stop="20260905090000 +0000" channel="custom-28">
     <title lang="es">Zona Weekend</title>
     <desc lang="es">Mezclas y música para encender el fin de semana.</desc>
@@ -12171,6 +12143,38 @@
     <desc lang="es">Artistas nacionales de música urbana, salsa y reparto.</desc>
   </programme>
   <programme start="20260912230000 +0000" stop="20260913050000 +0000" channel="custom-28">
+    <title lang="es">Zona Weekend</title>
+    <desc lang="es">Mezclas y música para encender el fin de semana.</desc>
+  </programme>
+  <programme start="20260913050000 +0000" stop="20260913090000 +0000" channel="custom-28">
+    <title lang="es">Zona Weekend</title>
+    <desc lang="es">Mezclas y música para encender el fin de semana.</desc>
+  </programme>
+  <programme start="20260913090000 +0000" stop="20260913110000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260913110000 +0000" stop="20260913180000 +0000" channel="custom-28">
+    <title lang="es">El Flow</title>
+    <desc lang="es">Música, actualidad y entretenimiento para empezar el día con energía.</desc>
+  </programme>
+  <programme start="20260913180000 +0000" stop="20260913200000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260913200000 +0000" stop="20260913210000 +0000" channel="custom-28">
+    <title lang="es">Clásicos del Reggaetón</title>
+    <desc lang="es">Clásicos del reggaetón que marcaron el género urbano.</desc>
+  </programme>
+  <programme start="20260913210000 +0000" stop="20260913220000 +0000" channel="custom-28">
+    <title lang="es">Radio La Zona, Te enciende</title>
+    <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
+  </programme>
+  <programme start="20260913220000 +0000" stop="20260913230000 +0000" channel="custom-28">
+    <title lang="es">Flow Nacional</title>
+    <desc lang="es">Artistas nacionales de música urbana, salsa y reparto.</desc>
+  </programme>
+  <programme start="20260913230000 +0000" stop="20260914050000 +0000" channel="custom-28">
     <title lang="es">Zona Weekend</title>
     <desc lang="es">Mezclas y música para encender el fin de semana.</desc>
   </programme>
@@ -12714,10 +12718,6 @@
     <desc lang="es">Programación deportiva de Ovación. Al Cierre con Ovación.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260905050000 +0000" stop="20260906050000 +0000" channel="radio-inolvidable.teleclub">
-    <title lang="es">Radio La Inolvidable - En vivo</title>
-    <desc lang="es">Programación de Radio La Inolvidable. Horario de Perú.</desc>
-  </programme>
   <programme start="20260906050000 +0000" stop="20260907050000 +0000" channel="radio-inolvidable.teleclub">
     <title lang="es">Radio La Inolvidable - En vivo</title>
     <desc lang="es">Programación de Radio La Inolvidable. Horario de Perú.</desc>
@@ -12882,23 +12882,9 @@
     <title lang="es">Música Continuada</title>
     <desc lang="es">Programación de Radio La Inolvidable. Horario de Perú.</desc>
   </programme>
-  <programme start="20260905050000 +0000" stop="20260905110000 +0000" channel="radio-felicidad.teleclub">
-    <title lang="es">La Música De Tu Vida</title>
-  </programme>
-  <programme start="20260905110000 +0000" stop="20260905140000 +0000" channel="radio-felicidad.teleclub">
-    <title lang="es">Vivamos Felices</title>
-  </programme>
-  <programme start="20260905140000 +0000" stop="20260905170000 +0000" channel="radio-felicidad.teleclub">
-    <title lang="es">Es la Hora</title>
-  </programme>
-  <programme start="20260905170000 +0000" stop="20260905200000 +0000" channel="radio-felicidad.teleclub">
-    <title lang="es">Criollazos De Felicidad</title>
-  </programme>
-  <programme start="20260905200000 +0000" stop="20260906000000 +0000" channel="radio-felicidad.teleclub">
-    <title lang="es">Los Clásicos de Felicidad</title>
-  </programme>
-  <programme start="20260906000000 +0000" stop="20260906050000 +0000" channel="radio-felicidad.teleclub">
-    <title lang="es">La Música De Tu Vida</title>
+  <programme start="20260912050000 +0000" stop="20260913050000 +0000" channel="radio-inolvidable.teleclub">
+    <title lang="es">Radio La Inolvidable - En vivo</title>
+    <desc lang="es">Programación de Radio La Inolvidable. Horario de Perú.</desc>
   </programme>
   <programme start="20260906050000 +0000" stop="20260906110000 +0000" channel="radio-felicidad.teleclub">
     <title lang="es">La Música De Tu Vida</title>
@@ -13008,14 +12994,23 @@
   <programme start="20260912000000 +0000" stop="20260912050000 +0000" channel="radio-felicidad.teleclub">
     <title lang="es">La Música De Tu Vida</title>
   </programme>
-  <programme start="20260905050000 +0000" stop="20260905090000 +0000" channel="radio-oxigeno.teleclub">
-    <title lang="es">Lo Mejor del Rock N' Pop</title>
+  <programme start="20260912050000 +0000" stop="20260912110000 +0000" channel="radio-felicidad.teleclub">
+    <title lang="es">La Música De Tu Vida</title>
   </programme>
-  <programme start="20260905090000 +0000" stop="20260905110000 +0000" channel="radio-oxigeno.teleclub">
-    <title lang="es">Oxígeno Classics</title>
+  <programme start="20260912110000 +0000" stop="20260912140000 +0000" channel="radio-felicidad.teleclub">
+    <title lang="es">Vivamos Felices</title>
   </programme>
-  <programme start="20260905110000 +0000" stop="20260906050000 +0000" channel="radio-oxigeno.teleclub">
-    <title lang="es">Lo Mejor del Rock N' Pop</title>
+  <programme start="20260912140000 +0000" stop="20260912170000 +0000" channel="radio-felicidad.teleclub">
+    <title lang="es">Es la Hora</title>
+  </programme>
+  <programme start="20260912170000 +0000" stop="20260912200000 +0000" channel="radio-felicidad.teleclub">
+    <title lang="es">Criollazos De Felicidad</title>
+  </programme>
+  <programme start="20260912200000 +0000" stop="20260913000000 +0000" channel="radio-felicidad.teleclub">
+    <title lang="es">Los Clásicos de Felicidad</title>
+  </programme>
+  <programme start="20260913000000 +0000" stop="20260913050000 +0000" channel="radio-felicidad.teleclub">
+    <title lang="es">La Música De Tu Vida</title>
   </programme>
   <programme start="20260906050000 +0000" stop="20260906090000 +0000" channel="radio-oxigeno.teleclub">
     <title lang="es">Lo Mejor del Rock N' Pop</title>
@@ -13071,14 +13066,14 @@
   <programme start="20260911110000 +0000" stop="20260912050000 +0000" channel="radio-oxigeno.teleclub">
     <title lang="es">Lo Mejor del Rock N' Pop</title>
   </programme>
-  <programme start="20260905050000 +0000" stop="20260905190000 +0000" channel="radio-corazon.teleclub">
-    <title lang="es">Música continua</title>
+  <programme start="20260912050000 +0000" stop="20260912090000 +0000" channel="radio-oxigeno.teleclub">
+    <title lang="es">Lo Mejor del Rock N' Pop</title>
   </programme>
-  <programme start="20260905190000 +0000" stop="20260906020000 +0000" channel="radio-corazon.teleclub">
-    <title lang="es">Música continua - Vive +</title>
+  <programme start="20260912090000 +0000" stop="20260912110000 +0000" channel="radio-oxigeno.teleclub">
+    <title lang="es">Oxígeno Classics</title>
   </programme>
-  <programme start="20260906020000 +0000" stop="20260906050000 +0000" channel="radio-corazon.teleclub">
-    <title lang="es">Música continua</title>
+  <programme start="20260912110000 +0000" stop="20260913050000 +0000" channel="radio-oxigeno.teleclub">
+    <title lang="es">Lo Mejor del Rock N' Pop</title>
   </programme>
   <programme start="20260906050000 +0000" stop="20260906190000 +0000" channel="radio-corazon.teleclub">
     <title lang="es">Música continua</title>
@@ -13134,14 +13129,14 @@
   <programme start="20260912020000 +0000" stop="20260912050000 +0000" channel="radio-corazon.teleclub">
     <title lang="es">Música continua</title>
   </programme>
-  <programme start="20260905050000 +0000" stop="20260905110000 +0000" channel="radio-disney.teleclub">
-    <title lang="es">Radio Disney - Música</title>
+  <programme start="20260912050000 +0000" stop="20260912190000 +0000" channel="radio-corazon.teleclub">
+    <title lang="es">Música continua</title>
   </programme>
-  <programme start="20260905110000 +0000" stop="20260906030000 +0000" channel="radio-disney.teleclub">
-    <title lang="es">Radio Disney - La radio que te escucha</title>
+  <programme start="20260912190000 +0000" stop="20260913020000 +0000" channel="radio-corazon.teleclub">
+    <title lang="es">Música continua - Vive +</title>
   </programme>
-  <programme start="20260906030000 +0000" stop="20260906050000 +0000" channel="radio-disney.teleclub">
-    <title lang="es">Radio Disney - Música</title>
+  <programme start="20260913020000 +0000" stop="20260913050000 +0000" channel="radio-corazon.teleclub">
+    <title lang="es">Música continua</title>
   </programme>
   <programme start="20260906050000 +0000" stop="20260906110000 +0000" channel="radio-disney.teleclub">
     <title lang="es">Radio Disney - Música</title>
@@ -13197,29 +13192,14 @@
   <programme start="20260912030000 +0000" stop="20260912050000 +0000" channel="radio-disney.teleclub">
     <title lang="es">Radio Disney - Música</title>
   </programme>
-  <programme start="20260905050000 +0000" stop="20260905110000 +0000" channel="studio-92.teleclub">
-    <title lang="es">Studio92 Tu mundo, a tu manera</title>
+  <programme start="20260912050000 +0000" stop="20260912110000 +0000" channel="radio-disney.teleclub">
+    <title lang="es">Radio Disney - Música</title>
   </programme>
-  <programme start="20260905110000 +0000" stop="20260905120000 +0000" channel="studio-92.teleclub">
-    <title lang="es">Las Previas de Wake App</title>
+  <programme start="20260912110000 +0000" stop="20260913030000 +0000" channel="radio-disney.teleclub">
+    <title lang="es">Radio Disney - La radio que te escucha</title>
   </programme>
-  <programme start="20260905120000 +0000" stop="20260905150000 +0000" channel="studio-92.teleclub">
-    <title lang="es">Wake App</title>
-  </programme>
-  <programme start="20260905150000 +0000" stop="20260905180000 +0000" channel="studio-92.teleclub">
-    <title lang="es">Backstage</title>
-  </programme>
-  <programme start="20260905180000 +0000" stop="20260905210000 +0000" channel="studio-92.teleclub">
-    <title lang="es">All In</title>
-  </programme>
-  <programme start="20260905210000 +0000" stop="20260905220000 +0000" channel="studio-92.teleclub">
-    <title lang="es">Pide Nomás</title>
-  </programme>
-  <programme start="20260905220000 +0000" stop="20260906010000 +0000" channel="studio-92.teleclub">
-    <title lang="es">Estación 92</title>
-  </programme>
-  <programme start="20260906010000 +0000" stop="20260906050000 +0000" channel="studio-92.teleclub">
-    <title lang="es">Studio Rewind</title>
+  <programme start="20260913030000 +0000" stop="20260913050000 +0000" channel="radio-disney.teleclub">
+    <title lang="es">Radio Disney - Música</title>
   </programme>
   <programme start="20260906050000 +0000" stop="20260906110000 +0000" channel="studio-92.teleclub">
     <title lang="es">Studio92 Tu mundo, a tu manera</title>
@@ -13365,17 +13345,29 @@
   <programme start="20260912010000 +0000" stop="20260912050000 +0000" channel="studio-92.teleclub">
     <title lang="es">Studio Rewind</title>
   </programme>
-  <programme start="20260905050000 +0000" stop="20260905070000 +0000" channel="radio-planeta.teleclub">
-    <title lang="es">Planeta Weekend</title>
+  <programme start="20260912050000 +0000" stop="20260912110000 +0000" channel="studio-92.teleclub">
+    <title lang="es">Studio92 Tu mundo, a tu manera</title>
   </programme>
-  <programme start="20260905070000 +0000" stop="20260905180000 +0000" channel="radio-planeta.teleclub">
-    <title lang="es">Música Continuada</title>
+  <programme start="20260912110000 +0000" stop="20260912120000 +0000" channel="studio-92.teleclub">
+    <title lang="es">Las Previas de Wake App</title>
   </programme>
-  <programme start="20260905180000 +0000" stop="20260905210000 +0000" channel="radio-planeta.teleclub">
-    <title lang="es">Sisoi</title>
+  <programme start="20260912120000 +0000" stop="20260912150000 +0000" channel="studio-92.teleclub">
+    <title lang="es">Wake App</title>
   </programme>
-  <programme start="20260905210000 +0000" stop="20260906050000 +0000" channel="radio-planeta.teleclub">
-    <title lang="es">Música Continuada</title>
+  <programme start="20260912150000 +0000" stop="20260912180000 +0000" channel="studio-92.teleclub">
+    <title lang="es">Backstage</title>
+  </programme>
+  <programme start="20260912180000 +0000" stop="20260912210000 +0000" channel="studio-92.teleclub">
+    <title lang="es">All In</title>
+  </programme>
+  <programme start="20260912210000 +0000" stop="20260912220000 +0000" channel="studio-92.teleclub">
+    <title lang="es">Pide Nomás</title>
+  </programme>
+  <programme start="20260912220000 +0000" stop="20260913010000 +0000" channel="studio-92.teleclub">
+    <title lang="es">Estación 92</title>
+  </programme>
+  <programme start="20260913010000 +0000" stop="20260913050000 +0000" channel="studio-92.teleclub">
+    <title lang="es">Studio Rewind</title>
   </programme>
   <programme start="20260906050000 +0000" stop="20260906070000 +0000" channel="radio-planeta.teleclub">
     <title lang="es">Planeta Weekend</title>
@@ -13501,6 +13493,18 @@
     <title lang="es">After</title>
   </programme>
   <programme start="20260912010000 +0000" stop="20260912050000 +0000" channel="radio-planeta.teleclub">
+    <title lang="es">Música Continuada</title>
+  </programme>
+  <programme start="20260912050000 +0000" stop="20260912070000 +0000" channel="radio-planeta.teleclub">
+    <title lang="es">Planeta Weekend</title>
+  </programme>
+  <programme start="20260912070000 +0000" stop="20260912180000 +0000" channel="radio-planeta.teleclub">
+    <title lang="es">Música Continuada</title>
+  </programme>
+  <programme start="20260912180000 +0000" stop="20260912210000 +0000" channel="radio-planeta.teleclub">
+    <title lang="es">Sisoi</title>
+  </programme>
+  <programme start="20260912210000 +0000" stop="20260913050000 +0000" channel="radio-planeta.teleclub">
     <title lang="es">Música Continuada</title>
   </programme>
 </tv>
