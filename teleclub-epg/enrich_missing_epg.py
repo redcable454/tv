@@ -16,6 +16,7 @@ SOURCES = [
     "https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_CR1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
     # US1 temporalmente desactivado: su descarga puede superar el timeout del workflow.
     # "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz",
 ]
@@ -42,6 +43,7 @@ def generic(p):
 # Alias exactos verificados contra EPGShare PE1. Se usan solo cuando el ID
 # de Teleclub difiere del ID XMLTV de la fuente; no afectan el matching general.
 SOURCE_ID_ALIASES = {
+    "892mvstr.cl": ["Canal.D.ca2", "Canal.D.HD.ca2"],
     "custom-1065": ["TVEInternacionalAmerica.es", "TVEInternacionalEuropeAsia.es", "TVE.Internacional.es", "TVE.Internacional.América.es", "Canal.TVE.Internacional.mx"],
     "custom-1067": ["RTespanol.news", "RTespanol.nws", "RT.Español.(RTESP).[607].cr", "RT.(Russia.Today).Español.(RTESP).[602].cr"],
     "custom-1063": ["Deutsche.Welle.es"],
