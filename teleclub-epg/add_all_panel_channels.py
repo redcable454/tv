@@ -7,7 +7,7 @@ from xml.etree import ElementTree as ET
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-PANEL_CHANNELS_URL = "https://teleclubtv-panel.micanalfmradio8.workers.dev/api/admin/channels"
+PANEL_CHANNELS_URL = "https://teleclubtv-panel.micanalfmradio8.workers.dev/api/epg-channels"
 EPG = Path(__file__).with_name("guia_teleclubtv.xml")
 LIMA = ZoneInfo("America/Lima")
 
