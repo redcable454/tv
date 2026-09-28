@@ -1,14 +1,12 @@
 {
   "channels": 226,
-  "programmes": 14498,
+  "programmes": 12227,
   "channels_with_programmes": 226,
-  "real_epg_channels": 83,
-  "generic_epg_channels": 143,
+  "real_epg_channels": 94,
+  "generic_epg_channels": 132,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
-    "1513dtv.cl",
     "215dtv.cl",
-    "225dtv.cl",
     "330dtv.co",
     "527",
     "539",
@@ -18,9 +16,7 @@
     "760dtv.cl",
     "892mvstr.cl",
     "DISCOVERY.SCIENCE.(Disc.Science).pe",
-    "DISCOVERY.TURBO.(Disc.Turbo).pe",
     "HISTORY.2.HD.(H2.HD).pe",
-    "HOME.&amp;.HEALTH.HD.(Home&amp;HealthHD).pe",
     "ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe",
     "Juntos-tv.teleclub",
     "arpegio-tv.teleclub",
@@ -48,8 +44,6 @@
     "custom-1040",
     "custom-1041",
     "custom-1042",
-    "custom-1054",
-    "custom-1058",
     "custom-1060",
     "custom-1063",
     "custom-1065",
@@ -86,12 +80,7 @@
     "custom-1218",
     "custom-1219",
     "custom-1221",
-    "custom-1224",
-    "custom-1226",
-    "custom-1227",
     "custom-1228",
-    "custom-1229",
-    "custom-1230",
     "custom-1231",
     "custom-1232",
     "custom-27",
@@ -292,16 +281,8 @@
       "name": "D PELICULA"
     },
     {
-      "id": "1513dtv.cl",
-      "name": "DHE"
-    },
-    {
       "id": "ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe",
       "name": "Disccovery ID"
-    },
-    {
-      "id": "HOME.&amp;.HEALTH.HD.(Home&amp;HealthHD).pe",
-      "name": "Discovery H&H"
     },
     {
       "id": "330dtv.co",
@@ -310,10 +291,6 @@
     {
       "id": "DISCOVERY.SCIENCE.(Disc.Science).pe",
       "name": "DISCOVERY SCIENSE"
-    },
-    {
-      "id": "DISCOVERY.TURBO.(Disc.Turbo).pe",
-      "name": "DISCOVERY TURBO"
     },
     {
       "id": "cbn-tv.teleclub",
@@ -344,10 +321,6 @@
       "name": "Exitosa tv"
     },
     {
-      "id": "custom-1058",
-      "name": "FOOD NETWORK"
-    },
-    {
       "id": "auno-tv.teleclub",
       "name": "Fuego tv"
     },
@@ -360,18 +333,6 @@
       "name": "Global tv"
     },
     {
-      "id": "custom-1226",
-      "name": "HBO 2"
-    },
-    {
-      "id": "custom-1230",
-      "name": "HBO EXTREME"
-    },
-    {
-      "id": "custom-1227",
-      "name": "HBO FAMILY"
-    },
-    {
       "id": "custom-1231",
       "name": "HBO MUNDI"
     },
@@ -380,16 +341,8 @@
       "name": "HBO PLUS"
     },
     {
-      "id": "custom-1229",
-      "name": "HBO POP"
-    },
-    {
       "id": "custom-1232",
       "name": "HBO SINGNATURE"
-    },
-    {
-      "id": "custom-1054",
-      "name": "HGTV"
     },
     {
       "id": "hoy-peru-tv-jaen.teleclub",
@@ -482,10 +435,6 @@
     {
       "id": "custom-1011",
       "name": "PARAMOUNT CHANEL"
-    },
-    {
-      "id": "225dtv.cl",
-      "name": "PASIONES"
     },
     {
       "id": "custom-1104",
@@ -642,10 +591,6 @@
     {
       "id": "custom-1041",
       "name": "TITAN CHANEL"
-    },
-    {
-      "id": "custom-1224",
-      "name": "TNT NOVELAS"
     },
     {
       "id": "custom-1216",
