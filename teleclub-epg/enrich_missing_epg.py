@@ -10,7 +10,8 @@ SOURCES = [
     "https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz",
     "https://cdn.epg.guru/7dayiptv/Peru.xml",
     "https://iptv-epg.org/files/epg-pe.xml",
-    "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz",
+    # US1 temporalmente desactivado: su descarga puede superar el timeout del workflow.
+    # "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz",
 ]
 
 DROP={"HD","FHD","UHD","4K","TV","CANAL","TELEVISION","CHANNEL","PERU","PE","CABLE"}
