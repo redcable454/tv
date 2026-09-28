@@ -1,9 +1,9 @@
 {
   "channels": 229,
-  "programmes": 12775,
+  "programmes": 13228,
   "channels_with_programmes": 229,
-  "real_epg_channels": 101,
-  "generic_epg_channels": 128,
+  "real_epg_channels": 105,
+  "generic_epg_channels": 124,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "330dtv.co",
@@ -14,9 +14,7 @@
     "603dtv.pe",
     "760dtv.cl",
     "892mvstr.cl",
-    "DISCOVERY.SCIENCE.(Disc.Science).pe",
     "Juntos-tv.teleclub",
-    "arpegio-tv.teleclub",
     "atv.teleclub",
     "auno-tv.teleclub",
     "aura-tv.teleclub",
@@ -34,7 +32,6 @@
     "custom-1023",
     "custom-1024",
     "custom-1025",
-    "custom-1026",
     "custom-1028",
     "custom-1031",
     "custom-1040",
@@ -44,7 +41,6 @@
     "custom-1063",
     "custom-1065",
     "custom-1067",
-    "custom-1074",
     "custom-1085",
     "custom-1088",
     "custom-1089",
@@ -145,16 +141,8 @@
       "name": "ADRENALINA TV"
     },
     {
-      "id": "custom-1074",
-      "name": "AGROTENDENCIA"
-    },
-    {
       "id": "custom-1025",
       "name": "AZTECA CLICK"
-    },
-    {
-      "id": "custom-1026",
-      "name": "AZTECA CORAZÓN"
     },
     {
       "id": "custom-1042",
@@ -267,10 +255,6 @@
     {
       "id": "330dtv.co",
       "name": "DISCOVERY KISD"
-    },
-    {
-      "id": "DISCOVERY.SCIENCE.(Disc.Science).pe",
-      "name": "DISCOVERY SCIENSE"
     },
     {
       "id": "cbn-tv.teleclub",
@@ -483,10 +467,6 @@
     {
       "id": "custom-1121",
       "name": "Radio super stereo Arequipa"
-    },
-    {
-      "id": "arpegio-tv.teleclub",
-      "name": "REGIÓN TV"
     },
     {
       "id": "539",
