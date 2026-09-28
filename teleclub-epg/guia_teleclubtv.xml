@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-09-28T20:57:10.341345+00:00" radio-la-zona-updated-at="2026-09-28T20:57:10.492383+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-09-28T20:58:44.693606+00:00" radio-la-zona-updated-at="2026-09-28T20:58:44.952476+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -13279,30 +13279,6 @@
   <programme start="20260930050000 +0000" stop="20261001050000 +0000" channel="custom-1042">
     <title lang="es">AZTECA DEPORTES - En vivo</title>
     <desc lang="es">Programación en vivo de AZTECA DEPORTES. Categoría: Cable.</desc>
-  </programme>
-  <programme start="20260928050000 +0000" stop="20260929050000 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
-    <title lang="es">Disccovery ID - En vivo</title>
-    <desc lang="es">Programación en vivo de Disccovery ID. Categoría: Cable.</desc>
-  </programme>
-  <programme start="20260929050000 +0000" stop="20260930050000 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
-    <title lang="es">Disccovery ID - En vivo</title>
-    <desc lang="es">Programación en vivo de Disccovery ID. Categoría: Cable.</desc>
-  </programme>
-  <programme start="20260930050000 +0000" stop="20261001050000 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
-    <title lang="es">Disccovery ID - En vivo</title>
-    <desc lang="es">Programación en vivo de Disccovery ID. Categoría: Cable.</desc>
-  </programme>
-  <programme start="20260928050000 +0000" stop="20260929050000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
-    <title lang="es">CABLE | H2 - En vivo</title>
-    <desc lang="es">Programación en vivo de CABLE | H2. Categoría: Cable.</desc>
-  </programme>
-  <programme start="20260929050000 +0000" stop="20260930050000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
-    <title lang="es">CABLE | H2 - En vivo</title>
-    <desc lang="es">Programación en vivo de CABLE | H2. Categoría: Cable.</desc>
-  </programme>
-  <programme start="20260930050000 +0000" stop="20261001050000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
-    <title lang="es">CABLE | H2 - En vivo</title>
-    <desc lang="es">Programación en vivo de CABLE | H2. Categoría: Cable.</desc>
   </programme>
   <programme start="20260928050000 +0000" stop="20260929050000 +0000" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
     <title lang="es">DISCOVERY SCIENSE - En vivo</title>
@@ -38424,6 +38400,853 @@
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20260927164700 +0000" stop="20260927173900 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Crímenes en el bosque</title>
+    <sub-title lang="es">La cabaña 13</sub-title>
+    <desc lang="es">Un querido pastor y su esposa alquilan una cabaña para alejarse de todo. Sin embargo, un ataque deja a un fallecido y al otro en el hospital. Una investigación sobre el pasado de la pareja revela una larga lista de sospechosos y fechorías.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260927173900 +0000" stop="20260927183000 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Casados con secretos</title>
+    <sub-title lang="es">El Hombre del Éter</sub-title>
+    <desc lang="es">Un violador en serie llamado el Hombre del Éter acecha en las sombras de Albuquerque, N.M., y las víctimas no pueden identificar al atacante enmascarado; mientras él amplía su área, oficiales trabajan para detenerlo antes de que ataque de nuevo.</desc>
+    <date>2016</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260927183000 +0000" stop="20260927192100 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Casados con secretos</title>
+    <sub-title lang="es">Juego con la muerte</sub-title>
+    <desc lang="es">La policía cree que el desenlace fatal de una pareja de Carolina del Norte está relacionado con un robo, hasta que los investigadores profundizan en los motivos y aprenden sobre la retorcida doble vida del asesino.</desc>
+    <date>2017</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260927192100 +0000" stop="20260927201300 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Casados con secretos</title>
+    <sub-title lang="es">Sin vuelta a casa</sub-title>
+    <desc lang="es">La investigación de una desaparición de una madre de Wyoming y sus dos hijos pequeños está relacionada con un homicidio.</desc>
+    <date>2017</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260927201300 +0000" stop="20260927210400 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">El precio de la fama</title>
+    <sub-title lang="es">Guión de un asesinato</sub-title>
+    <desc lang="es">El comediante Jim Jefferies relata sus experiencias con un pasante que parecía tenerlo todo: autos de lujo, vacaciones exclusivas y mujeres hermosas, hasta que, en mayo de 2016, la situación explotó.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260927210400 +0000" stop="20260927215400 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Desaparecidos</title>
+    <sub-title lang="es">Desaparecida en la frontera</sub-title>
+    <desc lang="es">Se extiende el rumor en la ciudad fronteriza de Brownsville, Texas, de que Kimberly Ávila pudo haber sido secuestrada o asesinada por un miembro del cártel cuando desapareció el 13 de mayo de 2017.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260927215400 +0000" stop="20260927224600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Desaparecidos</title>
+    <sub-title lang="es">Desaparecida en la noche</sub-title>
+    <desc lang="es">Gretchen Fleming está resolviendo su vida mientras vive en su ciudad natal. Después de una noche de fiesta en la ciudad, Gretchen es vista por última vez saliendo de un bar local con un hombre misterioso y nunca se vuelve a saber de ella.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E8</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260927224600 +0000" stop="20260927233800 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Desaparecidos</title>
+    <sub-title lang="es">Cerca de casa</sub-title>
+    <desc lang="es">Ali Lowitzer, de 16 años, desapareció después de haber bajado del autobús de la escuela. La investigación determinó que Lowitzer pudo haber sido secuestrada con el propósito de prostituirla. Un destacamento de SWAT intenta salvarla.</desc>
+    <date>2018</date>
+    <episode-num system="onscreen">E9</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260927233800 +0000" stop="20260928011500 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Aprendiz del asesino serial</title>
+    <desc lang="es">La doctora Katherine Ramsland entrevista a Elmer Wayne, el único superviviente de la masacre de Houston en 1973, para revelar su escalofriante viaje de adolescente manipulado a asesino convicto, y la aterradora verdad detrás de los hechos.</desc>
+    <date>2025</date>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20260928011500 +0000" stop="20260928020500 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Detrás del engaño</title>
+    <desc lang="es">Expertos en lenguaje corporal, lingüística y psicología forense examinan las palabras y acciones del financiero caído en desgracia Jeffrey Epstein, Ghislaine Maxwell y del príncipe Andrew.</desc>
+    <date>2020</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928020500 +0000" stop="20260928025500 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Mar de crímenes</title>
+    <sub-title lang="es">La dama del lago</sub-title>
+    <desc lang="es">Florence y Mark Unger adoran irse de vacaciones al lago con sus hijos. Su vida es perfecta, hasta que Mark desarrolla una adicción a los calmantes debido a una lesión deportiva. Florence hará lo que sea necesario para mantener a su familia a flote.</desc>
+    <date>2019</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928025500 +0000" stop="20260928034300 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Mar de crímenes</title>
+    <sub-title lang="es">Lo que hay debajo</sub-title>
+    <desc lang="es">En el lago Erie, ocurren más de 2000 naufragios, debido a sus aguas poco profundas. El pescador Chris Leclair posee una doble vida que demuestra ser traicionera. Chris se encuentra atrapado en una red de mentiras cuando su esposa descubre un secreto.</desc>
+    <date>2019</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928034300 +0000" stop="20260928043100 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Michael Jackson: A Faking It Special</title>
+    <desc lang="es">Michael Jackson enfrentó serias acusaciones durante años. Expertos analizan sus comportamientos basados en imágenes de entrevistas y declaraciones.</desc>
+    <date>2021</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260928043100 +0000" stop="20260928052000 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Secretos del pantano</title>
+    <sub-title lang="es">La viuda negra de Mississippi</sub-title>
+    <desc lang="es">En la mañana de su cumpleaños número 50, una mujer es ubicada boca abajo en Suqualena Creek, cerca de Meridien, Mississippi; los detectives pronto descubren que la hija de la víctima y su mejor amigo guardan secretos.</desc>
+    <date>2015</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928052000 +0000" stop="20260928060700 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Secretos del pantano</title>
+    <sub-title lang="es">Terror en la comunidad gótica</sub-title>
+    <desc lang="es">Una joven abandona su hogar y se une a una comunidad gótica en Manchester, New Hampshire. Después, algo siniestro ocurre cuando desaparece en un bar de carretera.</desc>
+    <date>2015</date>
+    <episode-num system="onscreen">E10</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928060700 +0000" stop="20260928065500 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Keith Morrison investiga: Una confesión fatal</title>
+    <desc lang="es">Daniel Villegas dice que fue obligado a confesar que cometió un doble homicidio cuando tenía 16 años.</desc>
+    <date>2019</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928065500 +0000" stop="20260928074600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Detrás del engaño: Ted Bundy</title>
+    <desc lang="es">Los expertos analizan imágenes de la corte y del interrogatorio para revelar cómo Ted Bundy pudo mantenerse un paso por delante de la ley.</desc>
+    <date>2021</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260928074600 +0000" stop="20260928083200 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Desaparecidos</title>
+    <sub-title lang="es">Desaparecida en la frontera</sub-title>
+    <desc lang="es">Se extiende el rumor en la ciudad fronteriza de Brownsville, Texas, de que Kimberly Ávila pudo haber sido secuestrada o asesinada por un miembro del cártel cuando desapareció el 13 de mayo de 2017.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928083200 +0000" stop="20260928091800 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">El lado oscuro de Playboy</title>
+    <sub-title lang="es">Doble problema</sub-title>
+    <desc lang="es">La fama de las gemelas Playboy Sandy y Mandy Bentley se dispara hasta que un romance provoca una caída en desgracia.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928091800 +0000" stop="20260928101300 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Los Murdaugh: dinastía mortal</title>
+    <sub-title lang="es">La caja de Pandora</sub-title>
+    <desc lang="es">Un paseo en bote un sábado por la noche resulta ser fatal para tres jóvenes parejas de la costa de Carolina del Sur y desencadena una serie de eventos perturbadores para la dinastía Murdaugh.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928101300 +0000" stop="20260928110000 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Los Murdaugh: dinastía mortal</title>
+    <sub-title lang="es">Algo malvado viene para acá</sub-title>
+    <desc lang="es">El doble asesinato de la esposa y el hijo de Alex Murdaugh aturde a la comunidad que su familia ha presidido durante casi un siglo.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928110000 +0000" stop="20260928114800 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Casados con secretos</title>
+    <sub-title lang="es">Juego con la muerte</sub-title>
+    <desc lang="es">La policía cree que el desenlace fatal de una pareja de Carolina del Norte está relacionado con un robo, hasta que los investigadores profundizan en los motivos y aprenden sobre la retorcida doble vida del asesino.</desc>
+    <date>2017</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928114800 +0000" stop="20260928123800 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Casados con secretos</title>
+    <sub-title lang="es">Sin vuelta a casa</sub-title>
+    <desc lang="es">La investigación de una desaparición de una madre de Wyoming y sus dos hijos pequeños está relacionada con un homicidio.</desc>
+    <date>2017</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928123800 +0000" stop="20260928132900 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">El precio de la fama</title>
+    <sub-title lang="es">Guión de un asesinato</sub-title>
+    <desc lang="es">El comediante Jim Jefferies relata sus experiencias con un pasante que parecía tenerlo todo: autos de lujo, vacaciones exclusivas y mujeres hermosas, hasta que, en mayo de 2016, la situación explotó.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928132900 +0000" stop="20260928142000 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Letalmente rubia</title>
+    <sub-title lang="es">Baile caliente</sub-title>
+    <desc lang="es">Una madre soltera recurre al baile exótico para mantener a su familia. A medida que logra el éxito, la tentación de ganar más dinero la lleva a mentir con consecuencias devastadoras. Ante un futuro incierto, apuñala y mata a su novio en su casa.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928142000 +0000" stop="20260928150900 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">La casa del mal</title>
+    <sub-title lang="es">Era como mirar un demonio</sub-title>
+    <desc lang="es">Shaquoia e Imani conocen a Isiah y perciben su maldad. No saben por qué su madre saldría con un hombre como él. Shaquoia hace todo lo que puede para proteger a sus hermanos de la ira de Isiah, pero su crueldad y obsesión destruirían a la familia.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928150900 +0000" stop="20260928160100 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">La peor pesadilla</title>
+    <sub-title lang="es">Atrapado</sub-title>
+    <desc lang="es">Karen Widdoss cree haberse liberado de su posesivo exnovio, pero cuando empieza a salir con otra persona, siente que alguien la vigila.</desc>
+    <date>2019</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928160100 +0000" stop="20260928165300 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Los Murdaugh: dinastía mortal</title>
+    <sub-title lang="es">La caja de Pandora</sub-title>
+    <desc lang="es">Un paseo en bote un sábado por la noche resulta ser fatal para tres jóvenes parejas de la costa de Carolina del Sur y desencadena una serie de eventos perturbadores para la dinastía Murdaugh.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928165300 +0000" stop="20260928174500 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Los Murdaugh: dinastía mortal</title>
+    <sub-title lang="es">Algo malvado viene para acá</sub-title>
+    <desc lang="es">El doble asesinato de la esposa y el hijo de Alex Murdaugh aturde a la comunidad que su familia ha presidido durante casi un siglo.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928174500 +0000" stop="20260928183400 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Los Murdaugh: dinastía mortal</title>
+    <sub-title lang="es">El pozo del mal</sub-title>
+    <desc lang="es">Un tiroteo expone la red de mentiras a medida que se acumulan cargos contra Alex Murdaugh. Las acusaciones de conspiración sacuden la vida en su comunidad de Carolina del Sur.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928183400 +0000" stop="20260928192500 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Keith Morrison investiga: Una confesión fatal</title>
+    <desc lang="es">Daniel Villegas dice que fue obligado a confesar que cometió un doble homicidio cuando tenía 16 años.</desc>
+    <date>2019</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928192500 +0000" stop="20260928202100 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Detrás del engaño: Ted Bundy</title>
+    <desc lang="es">Los expertos analizan imágenes de la corte y del interrogatorio para revelar cómo Ted Bundy pudo mantenerse un paso por delante de la ley.</desc>
+    <date>2021</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260928202100 +0000" stop="20260928211100 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Terror en casa</title>
+    <sub-title lang="es">Con miedo</sub-title>
+    <desc lang="es">Intrusos enmascarados entran en la casa de Valerie y Matthew Yussman, piden $1 millón y amenazan con detonar una bomba.</desc>
+    <date>2018</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928211100 +0000" stop="20260928220100 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Cuando el mal se disfraza</title>
+    <sub-title lang="es">Sueños</sub-title>
+    <desc lang="es">Keonte Chavis confía en su familia para apoyar sus sueños. Cuando una desaparición repentina lleva a un asesinato perturbador, todos se enfrentan a una realidad oscura y aterradora: el depredador es uno de los suyos.</desc>
+    <date>2021</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928220100 +0000" stop="20260928225100 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Cuando el mal se disfraza</title>
+    <sub-title lang="es">Encierro</sub-title>
+    <desc lang="es">Molly McAfee y su pareja, Adam Buchanan, disfrutan los fines de semana en su cabaña en el bosque. Es el lugar perfecto para que Nolen y Gavin se empapen de naturaleza, pero alguien tiene planes de quemarlo todo para quedarse con lo que quiere.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E10</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928225100 +0000" stop="20260928234200 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Revista People investiga</title>
+    <sub-title lang="es">¿Dónde está Mark Himebaugh?</sub-title>
+    <desc lang="es">En noviembre de 1991, Mark Himebaugh, de 11 años, sale de su casa para comprobar si hay un incendio cercano y desaparece sin dejar rastro. Mientras la policía investiga, descubre que tanto su familia como la ciudad pueden estar ocultando secretos.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928234200 +0000" stop="20260929003300 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Asesinatos en las redes sociales</title>
+    <sub-title lang="es">En espera de la oscuridad</sub-title>
+    <desc lang="es">Cooper, de 19 años, se sumerge en la vida de Los Ángeles entre videos virales de TikTok, colaboraciones y fiestas. Luego, en Discord, el lado oscuro de la fama.</desc>
+    <date>2026</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929003300 +0000" stop="20260929012100 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">O.J. Simpson: la explotación del mal</title>
+    <desc lang="es">La producción capta el descenso a la borrachera de O.J. Simpson mientras recuerda su pasado, difuminando la línea entre la actuación y la realidad en busca de validación. La tensión alcanza su punto máximo.</desc>
+    <date>2026</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20260929012100 +0000" stop="20260929030100 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Demonios de Hollywood</title>
+    <sub-title lang="es">Niños famosos: la vida fuera de ser el centro de atención</sub-title>
+    <desc lang="es">Los ex niños actores Brian Bonsall y Dee Jay Daniels confiesan la dura realidad de la vida después de la fama, mientras que los productores de "Home Improvement" y "That's So Raven" revelan sus roces con jóvenes estrellas que acabaron tras las rejas.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20260929030100 +0000" stop="20260929043400 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Demonios de Hollywood</title>
+    <sub-title lang="es">Más allá del embarazo</sub-title>
+    <desc lang="es">Las adolescentes embarazadas recibieron duras críticas tras aparecer en "16 and Pregnant". Dieciséis años después del estreno del programa, las integrantes del reparto hablan abiertamente sobre las dificultades que enfrentaron.</desc>
+    <date>2026</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929043400 +0000" stop="20260929052300 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Mamá, ¿puedo matar?</title>
+    <sub-title lang="es">Siete maneras de matar a tu amante</sub-title>
+    <desc lang="es">Tras el asesinato de un profesor universitario en su cama, la policía descubre que el crimen no fue un crimen pasional. Los detectives destapan seis intentos de asesinato fallidos y una escalofriante conspiración entre una hija y su madre.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929052300 +0000" stop="20260929061000 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Mamá, ¿puedo matar?</title>
+    <sub-title lang="es">Los secretos de un soldado</sub-title>
+    <desc lang="es">Un pistolero asesina a tiros a un soldado en su casa, pero tras la tragedia se esconde una familia destrozada por el sexo, la manipulación y el secretismo. Los investigadores descubren un mundo oculto de fiestas sexuales.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
+  <programme start="20260929061000 +0000" stop="20260929065800 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Mar de crímenes</title>
+    <sub-title lang="es">La dama del lago</sub-title>
+    <desc lang="es">Florence y Mark Unger adoran irse de vacaciones al lago con sus hijos. Su vida es perfecta, hasta que Mark desarrolla una adicción a los calmantes debido a una lesión deportiva. Florence hará lo que sea necesario para mantener a su familia a flote.</desc>
+    <date>2019</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929065800 +0000" stop="20260929074500 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Mar de crímenes</title>
+    <sub-title lang="es">Lo que hay debajo</sub-title>
+    <desc lang="es">En el lago Erie, ocurren más de 2000 naufragios, debido a sus aguas poco profundas. El pescador Chris Leclair posee una doble vida que demuestra ser traicionera. Chris se encuentra atrapado en una red de mentiras cuando su esposa descubre un secreto.</desc>
+    <date>2019</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929074500 +0000" stop="20260929083100 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Cuando el mal se disfraza</title>
+    <sub-title lang="es">Sueños</sub-title>
+    <desc lang="es">Keonte Chavis confía en su familia para apoyar sus sueños. Cuando una desaparición repentina lleva a un asesinato perturbador, todos se enfrentan a una realidad oscura y aterradora: el depredador es uno de los suyos.</desc>
+    <date>2021</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929083100 +0000" stop="20260929093100 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Michael Jackson: A Faking It Special</title>
+    <desc lang="es">Michael Jackson enfrentó serias acusaciones durante años. Expertos analizan sus comportamientos basados en imágenes de entrevistas y declaraciones.</desc>
+    <date>2021</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260929093100 +0000" stop="20260929110000 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Aprendiz del asesino serial</title>
+    <desc lang="es">La doctora Katherine Ramsland entrevista a Elmer Wayne, el único superviviente de la masacre de Houston en 1973, para revelar su escalofriante viaje de adolescente manipulado a asesino convicto, y la aterradora verdad detrás de los hechos.</desc>
+    <date>2025</date>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20260929110000 +0000" stop="20260929114800 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Keith Morrison investiga: Una confesión fatal</title>
+    <desc lang="es">Daniel Villegas dice que fue obligado a confesar que cometió un doble homicidio cuando tenía 16 años.</desc>
+    <date>2019</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929114800 +0000" stop="20260929123600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Detrás del engaño: Ted Bundy</title>
+    <desc lang="es">Los expertos analizan imágenes de la corte y del interrogatorio para revelar cómo Ted Bundy pudo mantenerse un paso por delante de la ley.</desc>
+    <date>2021</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260929123600 +0000" stop="20260929132600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Terror en casa</title>
+    <sub-title lang="es">Con miedo</sub-title>
+    <desc lang="es">Intrusos enmascarados entran en la casa de Valerie y Matthew Yussman, piden $1 millón y amenazan con detonar una bomba.</desc>
+    <date>2018</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929132600 +0000" stop="20260929141600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Destino fatal: rumbo a la muerte</title>
+    <sub-title lang="es">Desvío a la oscuridad</sub-title>
+    <desc lang="es">Una joven de 18 años emprende un viaje a través del país, atraída por un festival contracultural que promete libertad y pertenencia. En el camino, encuentra comunidad, música y alegría fugaz. Sin embargo, su camino toma un giro oscuro e inesperado.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929141600 +0000" stop="20260929150600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">La casa del mal</title>
+    <sub-title lang="es">Atrapada a bordo con un psicópata</sub-title>
+    <desc lang="es">Eline empieza a salir con Matthew. Al principio él parece amable y encantador, pero pronto revela su oscura vida secreta. Para cuando ella se da cuenta, Eline tiene un hijo con un hombre violento y lleno de ira.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929150600 +0000" stop="20260929155700 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">La peor pesadilla</title>
+    <sub-title lang="es">Encerrado</sub-title>
+    <desc lang="es">Luego de que Anita Wooldridge desaparece, los investigadores deben confiar en el pensamiento rápido y en el trabajo de la policía, mientras se apresuran para encontrarla antes de que sea demasiado tarde.</desc>
+    <date>2019</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929155700 +0000" stop="20260929173600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Aprendiz del asesino serial</title>
+    <desc lang="es">La doctora Katherine Ramsland entrevista a Elmer Wayne, el único superviviente de la masacre de Houston en 1973, para revelar su escalofriante viaje de adolescente manipulado a asesino convicto, y la aterradora verdad detrás de los hechos.</desc>
+    <date>2025</date>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20260929173600 +0000" stop="20260929182600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Detrás del engaño</title>
+    <desc lang="es">Expertos en lenguaje corporal, lingüística y psicología forense examinan las palabras y acciones del financiero caído en desgracia Jeffrey Epstein, Ghislaine Maxwell y del príncipe Andrew.</desc>
+    <date>2020</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929182600 +0000" stop="20260929191600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Mar de crímenes</title>
+    <sub-title lang="es">La dama del lago</sub-title>
+    <desc lang="es">Florence y Mark Unger adoran irse de vacaciones al lago con sus hijos. Su vida es perfecta, hasta que Mark desarrolla una adicción a los calmantes debido a una lesión deportiva. Florence hará lo que sea necesario para mantener a su familia a flote.</desc>
+    <date>2019</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929191600 +0000" stop="20260929200600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Mar de crímenes</title>
+    <sub-title lang="es">Lo que hay debajo</sub-title>
+    <desc lang="es">En el lago Erie, ocurren más de 2000 naufragios, debido a sus aguas poco profundas. El pescador Chris Leclair posee una doble vida que demuestra ser traicionera. Chris se encuentra atrapado en una red de mentiras cuando su esposa descubre un secreto.</desc>
+    <date>2019</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929200600 +0000" stop="20260929205600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Michael Jackson: A Faking It Special</title>
+    <desc lang="es">Michael Jackson enfrentó serias acusaciones durante años. Expertos analizan sus comportamientos basados en imágenes de entrevistas y declaraciones.</desc>
+    <date>2021</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260929205600 +0000" stop="20260929214600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Cuando el mal se disfraza</title>
+    <sub-title lang="es">Segunda oportunidad</sub-title>
+    <desc lang="es">Joy y Fred son novios típicos de la escuela secundaria hasta que un trágico accidente laboral cambia el curso de sus vidas. Mientras Joy intenta encontrar una segunda oportunidad para amar, se enfrenta a una tragedia desgarradora.</desc>
+    <date>2020</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929214600 +0000" stop="20260929223600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Cuando el mal se disfraza</title>
+    <sub-title lang="es">Solo ella sabe</sub-title>
+    <desc lang="es">Chloe Randolph, de 20 años, da a luz a un bebé, y su familia está encantada, pero lo que debería ser un momento maravilloso para esta madre está a punto de convertirse en una pesadilla. Alguien ha traicionado su confianza, y habrá mucho que pagar.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929223600 +0000" stop="20260929232600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Revista People investiga</title>
+    <sub-title lang="es">La extraña desaparición de Karlie Guse</sub-title>
+    <desc lang="es">En 2018, una adolescente desaparece misteriosamente después de asistir a una fiesta de secundaria en el norte de California.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929232600 +0000" stop="20260930001600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">El lado oscuro de Playboy</title>
+    <sub-title lang="es">Corre, Bambi, corre</sub-title>
+    <desc lang="es">Laurie Bembenek, de 19 años, se convierte en conejita de Playboy, tras ser despedida del departamento de policía. Laurie es pintada como una mujer fatal y condenada por asesinato, cuando muere la exmujer de su nuevo marido.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930001600 +0000" stop="20260930010600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">El lado oscuro de Playboy</title>
+    <sub-title lang="es">La conejita y Charles Manson</sub-title>
+    <desc lang="es">La impresionante actriz Victoria Vetri se convierte en Playmate del año en 1968. Solo un año después, los seguidores de Charles Manson asesinan brutalmente a su amiga íntima Sharon Tate.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930010600 +0000" stop="20260930015600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Detective americano: Joe Kenda</title>
+    <sub-title lang="es">Lobo en las sombras</sub-title>
+    <desc lang="es">Un pequeño pueblo de Nueva Inglaterra queda conmocionado tras el secuestro y asesinato de una joven maestra, cuyo cuerpo es abandonado en el bosque. Años de pistas falsas terminan cuando una decisión revela a un monstruo a plena vista.</desc>
+    <date>2026</date>
+    <episode-num system="onscreen">E8</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930015600 +0000" stop="20260930024600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Asesinatos en un viernes 13</title>
+    <sub-title lang="es">Todos nos volvemos un poco locos</sub-title>
+    <desc lang="es">En una noche oscura y tormentosa, la policía encuentra a una familia muerta en su mansión. Una película de terror parpadea en la pantalla. Una máscara ensangrentada se encuentra cerca.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930024600 +0000" stop="20260930033600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Asesinatos en un viernes 13</title>
+    <sub-title lang="es">Ella no tenía nombre</sub-title>
+    <desc lang="es">Una joven desaparece tras subir a una patrulla. Durante 35 años, es una desconocida. Mientras el miedo y los rumores se apoderan de un pequeño pueblo, una pista obtenida bajo hipnosis resuelve el caso y saca a la luz a un depredador inesperado.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930033600 +0000" stop="20260930042600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Evidencia en el sótano</title>
+    <sub-title lang="es">Aroma a muerte</sub-title>
+    <desc lang="es">En 1998, unos nuevos propietarios que están renovando su sótano descubren un cuerpo. Mientras la policía investiga, descubren que pertenece al adolescente Christopher Denoyer, quien fue reportado como desaparecido por su familia en los años 80.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E8</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930042600 +0000" stop="20260930051600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Asesinatos en el campo de juego</title>
+    <sub-title lang="es">Aplausos robados</sub-title>
+    <desc lang="es">La adolescente Alicia DeBolt desaparece al poco de ingresar en el equipo de animadoras. La policía interroga a sus compañeras y a los integrantes del equipo de fútbol americano, pero la verdad de lo ocurrido resulta espeluznante.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930051600 +0000" stop="20260930060700 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Asesinatos en el campo de juego</title>
+    <sub-title lang="es">Asesinato de bienvenida</sub-title>
+    <desc lang="es">La familia de una animadora la encuentra asesinada en su habitación la noche después del baile.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
+  <programme start="20260930060700 +0000" stop="20260930074600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Demonios de Hollywood</title>
+    <sub-title lang="es">Más allá del embarazo</sub-title>
+    <desc lang="es">Las adolescentes embarazadas recibieron duras críticas tras aparecer en "16 and Pregnant". Dieciséis años después del estreno del programa, las integrantes del reparto hablan abiertamente sobre las dificultades que enfrentaron.</desc>
+    <date>2026</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930074600 +0000" stop="20260930083600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Cuando el mal se disfraza</title>
+    <sub-title lang="es">Segunda oportunidad</sub-title>
+    <desc lang="es">Joy y Fred son novios típicos de la escuela secundaria hasta que un trágico accidente laboral cambia el curso de sus vidas. Mientras Joy intenta encontrar una segunda oportunidad para amar, se enfrenta a una tragedia desgarradora.</desc>
+    <date>2020</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930083600 +0000" stop="20260930092400 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Crímenes en el bosque</title>
+    <sub-title lang="es">La cabaña 13</sub-title>
+    <desc lang="es">Un querido pastor y su esposa alquilan una cabaña para alejarse de todo. Sin embargo, un ataque deja a un fallecido y al otro en el hospital. Una investigación sobre el pasado de la pareja revela una larga lista de sospechosos y fechorías.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930092400 +0000" stop="20260930101200 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Asesinatos en las redes sociales</title>
+    <sub-title lang="es">En espera de la oscuridad</sub-title>
+    <desc lang="es">Cooper, de 19 años, se sumerge en la vida de Los Ángeles entre videos virales de TikTok, colaboraciones y fiestas. Luego, en Discord, el lado oscuro de la fama.</desc>
+    <date>2026</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930101200 +0000" stop="20260930110000 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">O.J. Simpson: la explotación del mal</title>
+    <desc lang="es">La producción capta el descenso a la borrachera de O.J. Simpson mientras recuerda su pasado, difuminando la línea entre la actuación y la realidad en busca de validación. La tensión alcanza su punto máximo.</desc>
+    <date>2026</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20260930110000 +0000" stop="20260930114800 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Mar de crímenes</title>
+    <sub-title lang="es">La dama del lago</sub-title>
+    <desc lang="es">Florence y Mark Unger adoran irse de vacaciones al lago con sus hijos. Su vida es perfecta, hasta que Mark desarrolla una adicción a los calmantes debido a una lesión deportiva. Florence hará lo que sea necesario para mantener a su familia a flote.</desc>
+    <date>2019</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930114800 +0000" stop="20260930123600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Mar de crímenes</title>
+    <sub-title lang="es">Lo que hay debajo</sub-title>
+    <desc lang="es">En el lago Erie, ocurren más de 2000 naufragios, debido a sus aguas poco profundas. El pescador Chris Leclair posee una doble vida que demuestra ser traicionera. Chris se encuentra atrapado en una red de mentiras cuando su esposa descubre un secreto.</desc>
+    <date>2019</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930123600 +0000" stop="20260930132600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Michael Jackson: A Faking It Special</title>
+    <desc lang="es">Michael Jackson enfrentó serias acusaciones durante años. Expertos analizan sus comportamientos basados en imágenes de entrevistas y declaraciones.</desc>
+    <date>2021</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260930132600 +0000" stop="20260930141600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Destino fatal: rumbo a la muerte</title>
+    <sub-title lang="es">Baja Noir</sub-title>
+    <desc lang="es">El sueño de un hombre de visitar un paraíso en México se convierte en una pesadilla después de que la policía lo encuentra brutalmente asesinado. Un triángulo amoroso, engaños y traiciones en un caso donde la codicia choca con una ambición mortal.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930141600 +0000" stop="20260930150600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">La casa del mal</title>
+    <sub-title lang="es">Como un monstruo en las películas</sub-title>
+    <desc lang="es">Misty teme a su hermano violento, cruel y manipulador, Patrick Boggs. Su exnovia Lena alguna vez lo amó, pero ahora también le teme. Ambos se sienten afortunados de haber escapado de él con vida. Sospechan que otros no fueron tan afortunados.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E10</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930150600 +0000" stop="20260930155600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">La peor pesadilla</title>
+    <sub-title lang="es">Ven conmigo</sub-title>
+    <desc lang="es">Luego de una relación fallida, Jennifer Hitchcock, una mujer de 22 años, piensa que finalmente encontró el amor en Maurice Mason. Sin embargo, cuando Maurice se muda con ella, Jennifer comienza a sentir que alguien espía todos sus movimientos.</desc>
+    <date>2019</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930155600 +0000" stop="20260930164600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Asesinatos en las redes sociales</title>
+    <sub-title lang="es">En espera de la oscuridad</sub-title>
+    <desc lang="es">Cooper, de 19 años, se sumerge en la vida de Los Ángeles entre videos virales de TikTok, colaboraciones y fiestas. Luego, en Discord, el lado oscuro de la fama.</desc>
+    <date>2026</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930164600 +0000" stop="20260930173600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">O.J. Simpson: la explotación del mal</title>
+    <desc lang="es">La producción capta el descenso a la borrachera de O.J. Simpson mientras recuerda su pasado, difuminando la línea entre la actuación y la realidad en busca de validación. La tensión alcanza su punto máximo.</desc>
+    <date>2026</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20260930173600 +0000" stop="20260930191600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Demonios de Hollywood</title>
+    <sub-title lang="es">Niños famosos: la vida fuera de ser el centro de atención</sub-title>
+    <desc lang="es">Los ex niños actores Brian Bonsall y Dee Jay Daniels confiesan la dura realidad de la vida después de la fama, mientras que los productores de "Home Improvement" y "That's So Raven" revelan sus roces con jóvenes estrellas que acabaron tras las rejas.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20260930191600 +0000" stop="20260930205600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Demonios de Hollywood</title>
+    <sub-title lang="es">Más allá del embarazo</sub-title>
+    <desc lang="es">Las adolescentes embarazadas recibieron duras críticas tras aparecer en "16 and Pregnant". Dieciséis años después del estreno del programa, las integrantes del reparto hablan abiertamente sobre las dificultades que enfrentaron.</desc>
+    <date>2026</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930205600 +0000" stop="20260930214600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Cuando el mal se disfraza</title>
+    <sub-title lang="es">Acompañante</sub-title>
+    <desc lang="es">Melissa y Rob encuentran el amor en un cumpleaños, pero cuando el tiempo y las tensiones aumentan, la relación que alguna vez fue feliz llega a un final mortal.</desc>
+    <date>2020</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930214600 +0000" stop="20260930223600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Cuando el mal se disfraza</title>
+    <sub-title lang="es">No tenía opción</sub-title>
+    <desc lang="es">Detrás de las sonrisas, la fealdad se esconde dentro de la familia Hudnall. Durante años, Bill, Stephanie y sus hijos ocultan su tormento mientras mantienen las apariencias. Pero en 2011, la fachada se rompe cuando alguien cuenta la verdad.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930223600 +0000" stop="20260930232600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">Revista People investiga</title>
+    <sub-title lang="es">Cautiva: La desaparición de Tanya Kach</sub-title>
+    <desc lang="es">Tras mudarse a una nueva ciudad a raíz del divorcio de sus padres, una chica de 14 años se siente insatisfecha con su nuevo entorno, por lo que comienza a escaparse de casa, hasta que un día no regresa.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E8</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930232600 +0000" stop="20261001001600 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
+    <title lang="es">La casa del mal: Sombras de muerte</title>
+    <sub-title lang="es">Lugar panorámico</sub-title>
+    <desc lang="es">Los asesinatos de dos adolescentes en un remoto y pintoresco mirador parecen aleatorios hasta que la policía descubre una red de secretos entre su círculo de amigos.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20260927165900 +0000" stop="20260927174900 +0000" channel="732dtv.cl">
     <title lang="es">El rastro</title>
     <sub-title lang="es">Enemigo cercano</sub-title>
@@ -40140,6 +40963,813 @@
     <episode-num system="onscreen">E3</episode-num>
     <rating system="MJColombia">
       <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20260927170700 +0000" stop="20260927180200 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Exploración Azteca</title>
+    <sub-title lang="es">El Corazón del Imperio</sub-title>
+    <desc lang="es">Uno de los secretos mejor guardados de esta antigua cultura: cómo fue posible la construcción de la gran ciudad de Tenochtitlan en las aguas de un lago.</desc>
+    <date>2011</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20260927180200 +0000" stop="20260927190200 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Exploración Azteca</title>
+    <sub-title lang="es">Un Imperio Se Levanta</sub-title>
+    <desc lang="es">La vertiginosa expansión del Imperio y su poderío militar.</desc>
+    <date>2011</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260927190200 +0000" stop="20260927200000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Exploración Azteca</title>
+    <sub-title lang="es">El Choque de Dos Mundos</sub-title>
+    <desc lang="es">Búsqueda de los restos de los antiguos bergantines españoles y evaluación de los efectos del choque de esos dos mundos.</desc>
+    <date>2011</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20260927200000 +0000" stop="20260927213500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Tulsa en llamas: La masacre de 1921</title>
+    <desc lang="es">Una mirada profunda y aleccionadora a los trágicos acontecimientos de hace un siglo. Centrado en un período específico, desde el nacimiento de Black Wall Street hasta su caída en dos sangrientos días, las consecuencias y la reconstrucción.</desc>
+    <date>2021</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260927213500 +0000" stop="20260927231000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El código de Dios</title>
+    <desc lang="es">El Códice de Leningrado es el texto completo más antiguo de la Biblia hebrea; ahora, el experto en antigüedades Timothy Smith cree que ha encontrado un código secreto en la escritura, que supuestamente describe eventos históricos.</desc>
+    <date>2018</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260927231000 +0000" stop="20260928000500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">Secretos de los 7 Sellos</sub-title>
+    <desc lang="es">El Libro de la Revelación de la Biblia y los secretos de los siete sellos.</desc>
+    <date>2010</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928000500 +0000" stop="20260928010000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">El Armagedon de Da Vinci</sub-title>
+    <desc lang="es">Un código secreto en los escritos, bocetos y obras maestras artísticas de Leonardo Da Vinci podría predecir un gran diluvio que acabará con la humanidad.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928010000 +0000" stop="20260928015500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">El juramento sangriento de Hitler</sub-title>
+    <desc lang="es">Se analiza si Adolf Hitler, líder de la Alemania nazi, fue el tercer anticristo que predijo Nostradamus y se investiga el uso del ocultismo en el esfuerzo nazi por lograr la supremacía aria mundial.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928015500 +0000" stop="20260928025000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">Plan de Batalla del Armageddon</sub-title>
+    <desc lang="es">El antiguo Rollo Hebreo de la Guerra encontrado en una cueva cerca del Mar Muerto en 1947 detalla una futura guerra apocalíptica que terminará el mundo.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E11</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928025000 +0000" stop="20260928034500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">El tercer anticristo</sub-title>
+    <desc lang="es">Creyentes de los escritos de Nostradamus piensan que Napoleón Bonaparte y Adolfo Hitler fueron dos anticristos previstos por el profeta, y ellos están buscando evidencias sobre el tercero que supuestamente ya está aquí.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928034500 +0000" stop="20260928044000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">El ejército de Satán</sub-title>
+    <desc lang="es">Visiones aterradoras de la guerra final de Satanás contra Dios.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E9</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928044000 +0000" stop="20260928053500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">El juramento sangriento de Hitler</sub-title>
+    <desc lang="es">Se analiza si Adolf Hitler, líder de la Alemania nazi, fue el tercer anticristo que predijo Nostradamus y se investiga el uso del ocultismo en el esfuerzo nazi por lograr la supremacía aria mundial.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928053500 +0000" stop="20260928063000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">Plan de Batalla del Armageddon</sub-title>
+    <desc lang="es">El antiguo Rollo Hebreo de la Guerra encontrado en una cueva cerca del Mar Muerto en 1947 detalla una futura guerra apocalíptica que terminará el mundo.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E11</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928063000 +0000" stop="20260928072500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">El Armagedon de Da Vinci</sub-title>
+    <desc lang="es">Un código secreto en los escritos, bocetos y obras maestras artísticas de Leonardo Da Vinci podría predecir un gran diluvio que acabará con la humanidad.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928072500 +0000" stop="20260928085500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El código de Dios</title>
+    <desc lang="es">El Códice de Leningrado es el texto completo más antiguo de la Biblia hebrea; ahora, el experto en antigüedades Timothy Smith cree que ha encontrado un código secreto en la escritura, que supuestamente describe eventos históricos.</desc>
+    <date>2018</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928085500 +0000" stop="20260928094500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">Secretos de los 7 Sellos</sub-title>
+    <desc lang="es">El Libro de la Revelación de la Biblia y los secretos de los siete sellos.</desc>
+    <date>2010</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928094500 +0000" stop="20260928101000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Una breve historia de...</title>
+    <sub-title lang="es">El rey de las hamburguesas</sub-title>
+    <desc lang="es">La historia que oculta la mayor batalla de hamburguesas de todos los tiempos. Un chef al que no consideraban como se merecía labró su camino innovación tras innovación.</desc>
+    <date>2021</date>
+    <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928101000 +0000" stop="20260928103500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Una breve historia de...</title>
+    <desc lang="es">Un recorrido por las historias de múltiples cosas: desde marcas icónicas como Nike, Domino's y Nintendo hasta temas como la mafia, los ovnis y la vida secreta de los multimillonarios.</desc>
+    <date>2022</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928103500 +0000" stop="20260928110000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Una breve historia de...</title>
+    <sub-title lang="es">Salado y adictivo</sub-title>
+    <desc lang="es">La historia de una rivalidad que acabó creando la mayor compañía de elaboración de aperitivos del mundo. Las innovaciones que introdujeron, cambiaron para siempre el sabor de las papas fritas en los Estados Unidos.</desc>
+    <date>2021</date>
+    <episode-num system="onscreen">E11</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928110000 +0000" stop="20260928115500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">El ejército de Satán</sub-title>
+    <desc lang="es">Visiones aterradoras de la guerra final de Satanás contra Dios.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E9</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928115500 +0000" stop="20260928125000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">El juramento sangriento de Hitler</sub-title>
+    <desc lang="es">Se analiza si Adolf Hitler, líder de la Alemania nazi, fue el tercer anticristo que predijo Nostradamus y se investiga el uso del ocultismo en el esfuerzo nazi por lograr la supremacía aria mundial.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928125000 +0000" stop="20260928142500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El código de Dios</title>
+    <desc lang="es">El Códice de Leningrado es el texto completo más antiguo de la Biblia hebrea; ahora, el experto en antigüedades Timothy Smith cree que ha encontrado un código secreto en la escritura, que supuestamente describe eventos históricos.</desc>
+    <date>2018</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928142500 +0000" stop="20260928152000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">Secretos de los 7 Sellos</sub-title>
+    <desc lang="es">El Libro de la Revelación de la Biblia y los secretos de los siete sellos.</desc>
+    <date>2010</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928152000 +0000" stop="20260928161500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">El Armagedon de Da Vinci</sub-title>
+    <desc lang="es">Un código secreto en los escritos, bocetos y obras maestras artísticas de Leonardo Da Vinci podría predecir un gran diluvio que acabará con la humanidad.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928161500 +0000" stop="20260928171000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">El juramento sangriento de Hitler</sub-title>
+    <desc lang="es">Se analiza si Adolf Hitler, líder de la Alemania nazi, fue el tercer anticristo que predijo Nostradamus y se investiga el uso del ocultismo en el esfuerzo nazi por lograr la supremacía aria mundial.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928171000 +0000" stop="20260928180500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">Plan de Batalla del Armageddon</sub-title>
+    <desc lang="es">El antiguo Rollo Hebreo de la Guerra encontrado en una cueva cerca del Mar Muerto en 1947 detalla una futura guerra apocalíptica que terminará el mundo.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E11</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928180500 +0000" stop="20260928190500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">El tercer anticristo</sub-title>
+    <desc lang="es">Creyentes de los escritos de Nostradamus piensan que Napoleón Bonaparte y Adolfo Hitler fueron dos anticristos previstos por el profeta, y ellos están buscando evidencias sobre el tercero que supuestamente ya está aquí.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928190500 +0000" stop="20260928200000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El Efecto Nostradamus</title>
+    <sub-title lang="es">El ejército de Satán</sub-title>
+    <desc lang="es">Visiones aterradoras de la guerra final de Satanás contra Dios.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E9</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928200000 +0000" stop="20260928213500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El código de Dios</title>
+    <desc lang="es">El Códice de Leningrado es el texto completo más antiguo de la Biblia hebrea; ahora, el experto en antigüedades Timothy Smith cree que ha encontrado un código secreto en la escritura, que supuestamente describe eventos históricos.</desc>
+    <date>2018</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928213500 +0000" stop="20260928220000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Una breve historia de...</title>
+    <sub-title lang="es">Los marginados de las hamburguesa</sub-title>
+    <desc lang="es">Wendy's transformó la industria de las hamburguesas. ¿Cómo se ideó la icónica campaña Where's The Beef? ¿Y cómo sobrevivió a un escándalo mundial.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E35</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928220000 +0000" stop="20260928222500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Una breve historia de...</title>
+    <sub-title lang="es">La mafia</sub-title>
+    <desc lang="es">Un vistazo a los orígenes de la mafia estadounidense y a la impresionante historia de su ascenso. Además, un análisis de cómo ella sentó los orígenes de uno de los bares gay más emblemáticos de Nueva York.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E30</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260928222500 +0000" stop="20260928232000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Operación de espionaje</title>
+    <desc lang="es">En 1939, el mundo estaba al borde de la guerra. Un enigmático empresario canadiense, William Stephenson, se embarcó en una misión que cambiaría el rumbo de la historia.</desc>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260928232000 +0000" stop="20260929001000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Gigantes de las máquinas</title>
+    <sub-title lang="es">Tesla vs. Marconi</sub-title>
+    <desc lang="es">Dos inventores rivales tienen la misma idea para mejorar las cosas: la comunicación inalámbrica.</desc>
+    <date>2021</date>
+    <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929001000 +0000" stop="20260929010000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Ciudades ocultas</title>
+    <sub-title lang="es">Ciudad del pecado (Las Vegas)</sub-title>
+    <desc lang="es">Un secreto bajo tierra transforma Las Vegas de un desierto árido en una metrópolis.</desc>
+    <date>2008</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929010000 +0000" stop="20260929020200 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Constructores de imperios</title>
+    <desc lang="es">Se repasa la historia de los más grandes imperios, cuyos creadores han gobernado naciones y continentes durante cientos y miles de años.</desc>
+    <date>2018</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929020200 +0000" stop="20260929031000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Constructores de imperios</title>
+    <desc lang="es">Se repasa la historia de los más grandes imperios, cuyos creadores han gobernado naciones y continentes durante cientos y miles de años.</desc>
+    <date>2018</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929031000 +0000" stop="20260929040000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Construyendo un imperio</title>
+    <sub-title lang="es">Los Bizantinos</sub-title>
+    <desc lang="es">El imperio bizantino gobernó el mundo occidental durante mil años y brilló entre las penumbras de las Eras Oscuras.</desc>
+    <date>2006</date>
+    <episode-num system="onscreen">E11</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929040000 +0000" stop="20260929050000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Genios Ancestrales</title>
+    <sub-title lang="es">El Imperio romano</sub-title>
+    <desc lang="es">Los textos antiguos ayudan a explicar las tecnologías avanzadas del Imperio Romano.</desc>
+    <date>2014</date>
+    <episode-num system="onscreen">E9</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929050000 +0000" stop="20260929060200 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Constructores de imperios</title>
+    <desc lang="es">Se repasa la historia de los más grandes imperios, cuyos creadores han gobernado naciones y continentes durante cientos y miles de años.</desc>
+    <date>2018</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929060200 +0000" stop="20260929070800 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Constructores de imperios</title>
+    <desc lang="es">Se repasa la historia de los más grandes imperios, cuyos creadores han gobernado naciones y continentes durante cientos y miles de años.</desc>
+    <date>2018</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929070800 +0000" stop="20260929075800 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Ciudades ocultas</title>
+    <sub-title lang="es">Ciudad del pecado (Las Vegas)</sub-title>
+    <desc lang="es">Un secreto bajo tierra transforma Las Vegas de un desierto árido en una metrópolis.</desc>
+    <date>2008</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929075800 +0000" stop="20260929082300 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Una breve historia de...</title>
+    <sub-title lang="es">Los marginados de las hamburguesa</sub-title>
+    <desc lang="es">Wendy's transformó la industria de las hamburguesas. ¿Cómo se ideó la icónica campaña Where's The Beef? ¿Y cómo sobrevivió a un escándalo mundial.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E35</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929082300 +0000" stop="20260929084800 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Una breve historia de...</title>
+    <sub-title lang="es">La mafia</sub-title>
+    <desc lang="es">Un vistazo a los orígenes de la mafia estadounidense y a la impresionante historia de su ascenso. Además, un análisis de cómo ella sentó los orígenes de uno de los bares gay más emblemáticos de Nueva York.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E30</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929084800 +0000" stop="20260929094300 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Operación de espionaje</title>
+    <desc lang="es">En 1939, el mundo estaba al borde de la guerra. Un enigmático empresario canadiense, William Stephenson, se embarcó en una misión que cambiaría el rumbo de la historia.</desc>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260929094300 +0000" stop="20260929103300 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Gigantes de las máquinas</title>
+    <sub-title lang="es">Tesla vs. Marconi</sub-title>
+    <desc lang="es">Dos inventores rivales tienen la misma idea para mejorar las cosas: la comunicación inalámbrica.</desc>
+    <date>2021</date>
+    <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929103300 +0000" stop="20260929110000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Una breve historia de...</title>
+    <sub-title lang="es">La revolución de la dona</sub-title>
+    <desc lang="es">Bill Rosenberg fundó Dunkin Donuts en 1950. Un repaso a través de su batalla con Krispy Kreme y Starbucks y un vistazo a la historia de los Munchkins.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E27</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929110000 +0000" stop="20260929115000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Genios Ancestrales</title>
+    <sub-title lang="es">El Imperio romano</sub-title>
+    <desc lang="es">Los textos antiguos ayudan a explicar las tecnologías avanzadas del Imperio Romano.</desc>
+    <date>2014</date>
+    <episode-num system="onscreen">E9</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929115000 +0000" stop="20260929125000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Constructores de imperios</title>
+    <desc lang="es">Se repasa la historia de los más grandes imperios, cuyos creadores han gobernado naciones y continentes durante cientos y miles de años.</desc>
+    <date>2018</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929125000 +0000" stop="20260929131500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Una breve historia de...</title>
+    <desc lang="es">Un recorrido por las historias de múltiples cosas: desde marcas icónicas como Nike, Domino's y Nintendo hasta temas como la mafia, los ovnis y la vida secreta de los multimillonarios.</desc>
+    <date>2022</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929131500 +0000" stop="20260929133800 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Una breve historia de...</title>
+    <desc lang="es">Un recorrido por las historias de múltiples cosas: desde marcas icónicas como Nike, Domino's y Nintendo hasta temas como la mafia, los ovnis y la vida secreta de los multimillonarios.</desc>
+    <date>2022</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929133800 +0000" stop="20260929140300 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Una breve historia de...</title>
+    <sub-title lang="es">Los marginados de las hamburguesa</sub-title>
+    <desc lang="es">Wendy's transformó la industria de las hamburguesas. ¿Cómo se ideó la icónica campaña Where's The Beef? ¿Y cómo sobrevivió a un escándalo mundial.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E35</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929140300 +0000" stop="20260929142800 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Una breve historia de...</title>
+    <sub-title lang="es">La mafia</sub-title>
+    <desc lang="es">Un vistazo a los orígenes de la mafia estadounidense y a la impresionante historia de su ascenso. Además, un análisis de cómo ella sentó los orígenes de uno de los bares gay más emblemáticos de Nueva York.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E30</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929142800 +0000" stop="20260929152300 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Operación de espionaje</title>
+    <desc lang="es">En 1939, el mundo estaba al borde de la guerra. Un enigmático empresario canadiense, William Stephenson, se embarcó en una misión que cambiaría el rumbo de la historia.</desc>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260929152300 +0000" stop="20260929161300 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Gigantes de las máquinas</title>
+    <sub-title lang="es">Tesla vs. Marconi</sub-title>
+    <desc lang="es">Dos inventores rivales tienen la misma idea para mejorar las cosas: la comunicación inalámbrica.</desc>
+    <date>2021</date>
+    <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929161300 +0000" stop="20260929170300 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Ciudades ocultas</title>
+    <sub-title lang="es">Ciudad del pecado (Las Vegas)</sub-title>
+    <desc lang="es">Un secreto bajo tierra transforma Las Vegas de un desierto árido en una metrópolis.</desc>
+    <date>2008</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929170300 +0000" stop="20260929180800 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Constructores de imperios</title>
+    <desc lang="es">Se repasa la historia de los más grandes imperios, cuyos creadores han gobernado naciones y continentes durante cientos y miles de años.</desc>
+    <date>2018</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929180800 +0000" stop="20260929190300 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Construyendo un imperio</title>
+    <sub-title lang="es">Los Bizantinos</sub-title>
+    <desc lang="es">El imperio bizantino gobernó el mundo occidental durante mil años y brilló entre las penumbras de las Eras Oscuras.</desc>
+    <date>2006</date>
+    <episode-num system="onscreen">E11</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929190300 +0000" stop="20260929195500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Genios Ancestrales</title>
+    <sub-title lang="es">El Imperio romano</sub-title>
+    <desc lang="es">Los textos antiguos ayudan a explicar las tecnologías avanzadas del Imperio Romano.</desc>
+    <date>2014</date>
+    <episode-num system="onscreen">E9</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929195500 +0000" stop="20260929202000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Una breve historia de...</title>
+    <sub-title lang="es">Los marginados de las hamburguesa</sub-title>
+    <desc lang="es">Wendy's transformó la industria de las hamburguesas. ¿Cómo se ideó la icónica campaña Where's The Beef? ¿Y cómo sobrevivió a un escándalo mundial.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E35</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929202000 +0000" stop="20260929204500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Una breve historia de...</title>
+    <sub-title lang="es">La mafia</sub-title>
+    <desc lang="es">Un vistazo a los orígenes de la mafia estadounidense y a la impresionante historia de su ascenso. Además, un análisis de cómo ella sentó los orígenes de uno de los bares gay más emblemáticos de Nueva York.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E30</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929204500 +0000" stop="20260929214000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Operación de espionaje</title>
+    <desc lang="es">En 1939, el mundo estaba al borde de la guerra. Un enigmático empresario canadiense, William Stephenson, se embarcó en una misión que cambiaría el rumbo de la historia.</desc>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260929214000 +0000" stop="20260929231500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">La guerra de las cola</title>
+    <desc lang="es">La vieja rivalidad entre Coca-Cola y Pepsi y el fracaso del lanzamiento de la "New Coke" en 1985, una decisión arriesgada, tomada por los directivos de la compañía, que resultó ser un fiasco.</desc>
+    <date>2019</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260929231500 +0000" stop="20260930001000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">La humanidad: Historia de todos nosotros</title>
+    <sub-title lang="es">Pioneros</sub-title>
+    <desc lang="es">La humanidad domina el desierto; las antiguas tradiciones son barridas en nombre de la ciencia; revolucionarios americanos frente a un poderoso imperio.</desc>
+    <date>2012</date>
+    <episode-num system="onscreen">E9</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260930001000 +0000" stop="20260930010000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Nazi Diabólico</title>
+    <desc lang="es">El partido nazi fue muy heterogéneo en sus bases, con miembros de toda condición intelectual y económica engrosando sus filas. Este programa analiza la esencia humana que dio soporte al nazismo.</desc>
+    <date>2014</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930010000 +0000" stop="20260930020000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El poder de Hitler</title>
+    <sub-title lang="es">Ruina</sub-title>
+    <desc lang="es">Hitler expresaba su deseo de paz, pero, cuando llegó al poder, involucró a sus altos mandos en una guerra de exterminio que garantizaría la supremacía del Reich en Europa.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260930020000 +0000" stop="20260930025500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Soldados Nisei de la 2da Guerra Mundial</title>
+    <desc lang="es">La historia no reconocida de los soldados estadounidenses de ascendencia japonesa que lucharon en la Segunda Guerra Mundial, los hijos de inmigrantes japoneses que se ofrecieron como voluntarios por miles después del ataque a Pearl Harbor.</desc>
+    <date>2021</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930025500 +0000" stop="20260930034500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Archivos perdidos de la Segunda Guerra Mundial</title>
+    <sub-title lang="es">Fin del juego</sub-title>
+    <desc lang="es">Con el final de la guerra a la vista, Okinawa se convierte en un obstáculo para la victoria de los Aliados; un disparo termina con el Tercer Reich; Estados Unidos lanza la última bomba en Japón y el mundo celebra la derrota de los Poderes del Eje.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E10</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930034500 +0000" stop="20260930052500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">La 2da Guerra Desde el Espacio</title>
+    <desc lang="es">Nueva información detalla cómo una nación clasificada en el lugar 19 en los ejércitos del mundo en 1939 emergió seis años después como la única superpotencia atómica del planeta.</desc>
+    <date>2012</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930052500 +0000" stop="20260930062500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El poder de Hitler</title>
+    <sub-title lang="es">Ruina</sub-title>
+    <desc lang="es">Hitler expresaba su deseo de paz, pero, cuando llegó al poder, involucró a sus altos mandos en una guerra de exterminio que garantizaría la supremacía del Reich en Europa.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260930062500 +0000" stop="20260930072000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Soldados Nisei de la 2da Guerra Mundial</title>
+    <desc lang="es">La historia no reconocida de los soldados estadounidenses de ascendencia japonesa que lucharon en la Segunda Guerra Mundial, los hijos de inmigrantes japoneses que se ofrecieron como voluntarios por miles después del ataque a Pearl Harbor.</desc>
+    <date>2021</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930072000 +0000" stop="20260930081000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Nazi Diabólico</title>
+    <desc lang="es">El partido nazi fue muy heterogéneo en sus bases, con miembros de toda condición intelectual y económica engrosando sus filas. Este programa analiza la esencia humana que dio soporte al nazismo.</desc>
+    <date>2014</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930081000 +0000" stop="20260930094500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">La guerra de las cola</title>
+    <desc lang="es">La vieja rivalidad entre Coca-Cola y Pepsi y el fracaso del lanzamiento de la "New Coke" en 1985, una decisión arriesgada, tomada por los directivos de la compañía, que resultó ser un fiasco.</desc>
+    <date>2019</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930094500 +0000" stop="20260930103500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">La humanidad: Historia de todos nosotros</title>
+    <sub-title lang="es">Pioneros</sub-title>
+    <desc lang="es">La humanidad domina el desierto; las antiguas tradiciones son barridas en nombre de la ciencia; revolucionarios americanos frente a un poderoso imperio.</desc>
+    <date>2012</date>
+    <episode-num system="onscreen">E9</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260930103500 +0000" stop="20260930110000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Una breve historia de...</title>
+    <sub-title lang="es">Los marginados de las hamburguesa</sub-title>
+    <desc lang="es">Wendy's transformó la industria de las hamburguesas. ¿Cómo se ideó la icónica campaña Where's The Beef? ¿Y cómo sobrevivió a un escándalo mundial.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E35</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930110000 +0000" stop="20260930123500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">La 2da Guerra Desde el Espacio</title>
+    <desc lang="es">Nueva información detalla cómo una nación clasificada en el lugar 19 en los ejércitos del mundo en 1939 emergió seis años después como la única superpotencia atómica del planeta.</desc>
+    <date>2012</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930123500 +0000" stop="20260930133000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El poder de Hitler</title>
+    <sub-title lang="es">Ruina</sub-title>
+    <desc lang="es">Hitler expresaba su deseo de paz, pero, cuando llegó al poder, involucró a sus altos mandos en una guerra de exterminio que garantizaría la supremacía del Reich en Europa.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260930133000 +0000" stop="20260930135500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Una breve historia de...</title>
+    <sub-title lang="es">De la hamburguesa a la comida rápida</sub-title>
+    <desc lang="es">La historia de cómo un cocinero impaciente creó uno de los alimentos más emblemáticos de EE. UU., lo que llevó a la invención de la primera cadena de comida rápida.</desc>
+    <date>2021</date>
+    <episode-num system="onscreen">E12</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930135500 +0000" stop="20260930153000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">La guerra de las cola</title>
+    <desc lang="es">La vieja rivalidad entre Coca-Cola y Pepsi y el fracaso del lanzamiento de la "New Coke" en 1985, una decisión arriesgada, tomada por los directivos de la compañía, que resultó ser un fiasco.</desc>
+    <date>2019</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930153000 +0000" stop="20260930162500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">La humanidad: Historia de todos nosotros</title>
+    <sub-title lang="es">Pioneros</sub-title>
+    <desc lang="es">La humanidad domina el desierto; las antiguas tradiciones son barridas en nombre de la ciencia; revolucionarios americanos frente a un poderoso imperio.</desc>
+    <date>2012</date>
+    <episode-num system="onscreen">E9</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260930162500 +0000" stop="20260930171500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Nazi Diabólico</title>
+    <desc lang="es">El partido nazi fue muy heterogéneo en sus bases, con miembros de toda condición intelectual y económica engrosando sus filas. Este programa analiza la esencia humana que dio soporte al nazismo.</desc>
+    <date>2014</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930171500 +0000" stop="20260930181500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">El poder de Hitler</title>
+    <sub-title lang="es">Ruina</sub-title>
+    <desc lang="es">Hitler expresaba su deseo de paz, pero, cuando llegó al poder, involucró a sus altos mandos en una guerra de exterminio que garantizaría la supremacía del Reich en Europa.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20260930181500 +0000" stop="20260930191000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Soldados Nisei de la 2da Guerra Mundial</title>
+    <desc lang="es">La historia no reconocida de los soldados estadounidenses de ascendencia japonesa que lucharon en la Segunda Guerra Mundial, los hijos de inmigrantes japoneses que se ofrecieron como voluntarios por miles después del ataque a Pearl Harbor.</desc>
+    <date>2021</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930191000 +0000" stop="20260930200000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Archivos perdidos de la Segunda Guerra Mundial</title>
+    <sub-title lang="es">Fin del juego</sub-title>
+    <desc lang="es">Con el final de la guerra a la vista, Okinawa se convierte en un obstáculo para la victoria de los Aliados; un disparo termina con el Tercer Reich; Estados Unidos lanza la última bomba en Japón y el mundo celebra la derrota de los Poderes del Eje.</desc>
+    <date>2009</date>
+    <episode-num system="onscreen">E10</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930200000 +0000" stop="20260930213500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">La 2da Guerra Desde el Espacio</title>
+    <desc lang="es">Nueva información detalla cómo una nación clasificada en el lugar 19 en los ejércitos del mundo en 1939 emergió seis años después como la única superpotencia atómica del planeta.</desc>
+    <date>2012</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930213500 +0000" stop="20260930222500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Genios Ancestrales</title>
+    <sub-title lang="es">Las Embarcaciones Más Formidables</sub-title>
+    <desc lang="es">Examinando algunos de los mayores barcos de la historia, que fueron diseñados y construidos hace miles de años.</desc>
+    <date>2014</date>
+    <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930222500 +0000" stop="20260930231500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Inventos legendarios</title>
+    <sub-title lang="es">Los mejores monumentos de la antigüedad</sub-title>
+    <desc lang="es">Cómo construían grandes edificios o complejos los pueblos de la antigüedad, como el Coliseo de Roma, Stonehenge o el Coloso de Rodas.</desc>
+    <date>2016</date>
+    <episode-num system="onscreen">E8</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20260930231500 +0000" stop="20261001001000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
+    <title lang="es">Los secretos de La Biblia</title>
+    <sub-title lang="es">Profecías misteriosas</sub-title>
+    <desc lang="es">Las profecías bíblicas se consideran mensajes y avisos enviados por Dios, pero ¿qué predicen en realidad? ¿Pueden descodificarse y utilizarse para pronosticar el futuro de la humanidad.</desc>
+    <date>2013</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20260927165000 +0000" stop="20260927174600 +0000" channel="DISCOVERY.TURBO.(Disc.Turbo).pe">
