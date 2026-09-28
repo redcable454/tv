@@ -12,6 +12,7 @@ SOURCES = [
     "https://iptv-epg.org/files/epg-pe.xml",
     "https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz",
     # US1 temporalmente desactivado: su descarga puede superar el timeout del workflow.
     # "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz",
 ]
@@ -42,7 +43,7 @@ SOURCE_ID_ALIASES = {
     "custom-1076": ["CNN.ESPAÑOL.(CNNEsp).pe", "CNN.Español.co"],
     "215dtv.cl": ["COMEDY.CENTRAL.HD.(ComedyCentralHD).pe", "Comedy.Central.co"],
     "DISCOVERY.SCIENCE.(Disc.Science).pe": ["Canal.Discovery.Science.(Latinoamérica).sv", "DISCOVERY.SCIENCE.(Disc.Science).pe", "Discovery.Science.co", "Discovery.Science.ar"],
-    "custom-1011": ["PARAMOUNT.HD.(Paramount.HD).pe", "PARAMOUNT.(Paramount).pe", "Paramount.Channel.co", "Paramount.ar"],
+    "custom-1011": ["PARAMOUNT.HD.(Paramount.HD).pe", "PARAMOUNT.(Paramount).pe", "Paramount.Channel.co", "Paramount.ar", "[PARAMNT].Paramount.Network.uy", "PARAMOUNT.NETWORK.HD..uy", "PARAMOUNT.NETWORK..uy"],
     "custom-1058": ["Food.Network.co"],
     "custom-1054": ["HGTV.co"],
     "225dtv.cl": ["PASIONES.co"],
