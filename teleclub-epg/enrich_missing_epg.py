@@ -42,8 +42,8 @@ def generic(p):
 # Alias exactos verificados contra EPGShare PE1. Se usan solo cuando el ID
 # de Teleclub difiere del ID XMLTV de la fuente; no afectan el matching general.
 SOURCE_ID_ALIASES = {
-    "custom-1065": ["TVEInternacionalEuropeAsia.es", "TVE.Internacional.es", "TVE.Internacional.América.es", "Canal.TVE.Internacional.mx"],
-    "custom-1067": ["RT.Español.(RTESP).[607].cr", "RT.(Russia.Today).Español.(RTESP).[602].cr"],
+    "custom-1065": ["TVEInternacionalAmerica.es", "TVEInternacionalEuropeAsia.es", "TVE.Internacional.es", "TVE.Internacional.América.es", "Canal.TVE.Internacional.mx"],
+    "custom-1067": ["RTespanol.news", "RTespanol.nws", "RT.Español.(RTESP).[607].cr", "RT.(Russia.Today).Español.(RTESP).[602].cr"],
     "custom-1063": ["Deutsche.Welle.es"],
     "527": ["CGTN.Español.es"],
     "custom-1031": ["ESPN.HD.(ESPN.HD).pe"],
