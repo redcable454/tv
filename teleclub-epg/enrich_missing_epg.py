@@ -10,6 +10,7 @@ SOURCES = [
     "https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz",
     "https://cdn.epg.guru/7dayiptv/Peru.xml",
     "https://iptv-epg.org/files/epg-pe.xml",
+    "https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz",
     # US1 temporalmente desactivado: su descarga puede superar el timeout del workflow.
     # "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz",
 ]
@@ -39,8 +40,8 @@ SOURCE_ID_ALIASES = {
     "custom-1004": ["CINECANAL.(Cinecanal).pe", "CINECANAL.HD.(Cinecanal.HD).pe", "Cinecanal.co"],
     "custom-1076": ["CNN.ESPAÑOL.(CNNEsp).pe", "CNN.Español.co"],
     "215dtv.cl": ["COMEDY.CENTRAL.HD.(ComedyCentralHD).pe", "Comedy.Central.co"],
-    "DISCOVERY.SCIENCE.(Disc.Science).pe": ["DISCOVERY.SCIENCE.(Disc.Science).pe", "Discovery.Science.co", "Science.us"],
-    "custom-1011": ["PARAMOUNT.HD.(Paramount.HD).pe", "PARAMOUNT.(Paramount).pe", "Paramount.Channel.co", "Paramount.Network.-.Eastern.Feed.us"],
+    "DISCOVERY.SCIENCE.(Disc.Science).pe": ["DISCOVERY.SCIENCE.(Disc.Science).pe", "Discovery.Science.co", "Discovery.Science.ar"],
+    "custom-1011": ["PARAMOUNT.HD.(Paramount.HD).pe", "PARAMOUNT.(Paramount).pe", "Paramount.Channel.co", "Paramount.ar"],
     "custom-1058": ["Food.Network.co"],
     "custom-1054": ["HGTV.co"],
     "225dtv.cl": ["PASIONES.co"],
