@@ -13,6 +13,7 @@ SOURCES = [
     "https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz",
     # US1 temporalmente desactivado: su descarga puede superar el timeout del workflow.
     # "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz",
 ]
