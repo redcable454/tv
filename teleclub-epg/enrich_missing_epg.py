@@ -38,7 +38,7 @@ SOURCE_ID_ALIASES = {
     "custom-1076": ["CNN.ESPAÑOL.(CNNEsp).pe", "CNN.Español.co"],
     "215dtv.cl": ["COMEDY.CENTRAL.HD.(ComedyCentralHD).pe", "Comedy.Central.co"],
     "DISCOVERY.SCIENCE.(Disc.Science).pe": ["DISCOVERY.SCIENCE.(Disc.Science).pe"],
-    "custom-1011": ["Paramount.Channel.co"],
+    "custom-1011": ["PARAMOUNT.HD.(Paramount.HD).pe", "PARAMOUNT.(Paramount).pe", "Paramount.Channel.co"],
     "custom-1058": ["Food.Network.co"],
     "custom-1054": ["HGTV.co"],
     "225dtv.cl": ["PASIONES.co"],
