@@ -30,6 +30,22 @@ def generic(p):
     t=(p.findtext("title") or "").strip().lower()
     return t.endswith(" - en vivo")
 
+# Alias exactos verificados contra EPGShare PE1. Se usan solo cuando el ID
+# de Teleclub difiere del ID XMLTV de la fuente; no afectan el matching general.
+SOURCE_ID_ALIASES = {
+    "DISCOVERY.SCIENCE.(Disc.Science).pe": ["DISCOVERY.SCIENCE.(Disc.Science).pe"],
+    "DISCOVERY.TURBO.(Disc.Turbo).pe": ["DISCOVERY.TURBO.(Disc.Turbo).pe"],
+    "HISTORY.2.HD.(H2.HD).pe": ["HISTORY.2.HD.(H2.HD).pe"],
+    "HOME.&amp;.HEALTH.HD.(Home&amp;HealthHD).pe": [
+        "HOME.&HEALTH.HD.(Home&HealthHD).pe",
+        "HOME.&amp;.HEALTH.HD.(Home&amp;HealthHD).pe",
+    ],
+    "ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe": [
+        "ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe",
+        "INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe",
+    ],
+}
+
 def load_source(url):
     req=Request(url,headers={"User-Agent":"TeleclubTV-EPG-Updater/1.1","Accept":"application/xml,text/xml,*/*"})
     with urlopen(req,timeout=90) as r:
@@ -65,9 +81,15 @@ def enrich(root, src, source_url):
         if current and any(not generic(p) for p in current):
             continue
         sid=""
+        # 1) ID exacto; 2) alias exacto verificado; 3) nombre seguro.
         if cid in exact and src_prog.get(cid):
             sid=cid
         else:
+            for alias in SOURCE_ID_ALIASES.get(cid, []):
+                if alias in exact and src_prog.get(alias):
+                    sid=alias
+                    break
+        if not sid:
             for n in names(ch):
                 hits=[x for x in byname.get(norm(n),[]) if src_prog.get(x[0])]
                 if len(hits)==1:
