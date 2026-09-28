@@ -41,6 +41,7 @@ def generic(p):
 # Alias exactos verificados contra EPGShare PE1. Se usan solo cuando el ID
 # de Teleclub difiere del ID XMLTV de la fuente; no afectan el matching general.
 SOURCE_ID_ALIASES = {
+    "custom-1031": ["ESPN.HD.(ESPN.HD).pe"],
     "760dtv.cl": ["Univisión.(Latin.America).(UNIVIS).[407].cr", "Univision.-.Eastern.Feed.us"],
     "custom-1060": ["Canal.Ve.Plus.(Latinoamérica).sv", "Canal.Ve.Plus.(Estados.Unidos).sv", "VePlus.us"],
     "custom-1016": ["SONY.MOVIES.HD..uy", "[SONYHD].Sony.Movie.Channel.HD.uy", "Sony.Movies.mx", "Sony.Movies.us"],
