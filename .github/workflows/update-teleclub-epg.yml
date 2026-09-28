@@ -67,14 +67,34 @@ jobs:
           channels=len(root.findall('channel')); programmes=len(root.findall('programme'))
           with_programmes={p.attrib.get('channel') for p in root.findall('programme')}
           missing=[ch.attrib.get('id') for ch in root.findall('channel') if ch.attrib.get('id') not in with_programmes]
-          print(f'EPG válida: {channels} canales/radios, {programmes} programas; sin_programacion={len(missing)}')
+          import json
+          generic=set()
+          for p in root.findall('programme'):
+              title=(p.findtext('title') or '').strip()
+              if title.lower().endswith(' - en vivo'):
+                  generic.add(p.attrib.get('channel'))
+          real=sorted(x for x in with_programmes if x and x not in generic)
+          status={
+              'channels': channels,
+              'programmes': programmes,
+              'channels_with_programmes': len(with_programmes),
+              'real_epg_channels': len(real),
+              'generic_epg_channels': len(generic),
+              'missing_epg_channels': len(missing),
+              'generic_channel_ids': sorted(x for x in generic if x),
+              'missing_channel_ids': missing,
+          }
+          with open('teleclub-epg/epg-status.json','w',encoding='utf-8') as fh:
+              json.dump(status,fh,ensure_ascii=False,indent=2)
+              fh.write('\\n')
+          print(f'EPG válida: {channels} canales/radios, {programmes} programas; real={len(real)}, generica={len(generic)}, sin_programacion={len(missing)}')
           if channels < 1 or programmes < 1 or missing: raise SystemExit(f'EPG incompleta: {missing[:20]}')
           PY
       - name: Guardar guía actualizada
         run: |
           git config user.name "teleclub-epg-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add teleclub-epg/guia_teleclubtv.xml
+          git add teleclub-epg/guia_teleclubtv.xml teleclub-epg/epg-status.json
           if git diff --cached --quiet; then echo "La guía no cambió"; else git commit -m "Actualizar guía EPG TeleclubTV"; git push; fi
 
 # Forzar regeneración EPG deportes 2026-08-29
