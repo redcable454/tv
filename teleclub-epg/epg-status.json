@@ -1,16 +1,14 @@
 {
   "channels": 229,
-  "programmes": 14425,
+  "programmes": 14610,
   "channels_with_programmes": 229,
-  "real_epg_channels": 115,
-  "generic_epg_channels": 114,
+  "real_epg_channels": 118,
+  "generic_epg_channels": 111,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
-    "539",
     "589",
     "590",
     "603dtv.pe",
-    "892mvstr.cl",
     "Juntos-tv.teleclub",
     "atv.teleclub",
     "auno-tv.teleclub",
@@ -108,7 +106,6 @@
     "regional-millenium-49-tv-pucallpa.teleclub",
     "regional-planeta-tv-bagua.teleclub",
     "regional-pucallpa-tv.teleclub",
-    "regional-sol-stereo-tv-casma.teleclub",
     "regional-teleselva-tv.teleclub",
     "regional-telesur-camana.teleclub",
     "regional-telesur-moquegua.teleclub",
@@ -175,20 +172,12 @@
       "name": "Canal 8 - Catacaos"
     },
     {
-      "id": "892mvstr.cl",
-      "name": "CANAL D"
-    },
-    {
       "id": "custom-1023",
       "name": "CANAL INFANTIL"
     },
     {
       "id": "ipe.teleclub",
       "name": "CANAL IPE SD"
-    },
-    {
-      "id": "regional-sol-stereo-tv-casma.teleclub",
-      "name": "Canal M"
     },
     {
       "id": "custom-1173",
@@ -429,10 +418,6 @@
     {
       "id": "custom-1121",
       "name": "Radio super stereo Arequipa"
-    },
-    {
-      "id": "539",
-      "name": "REWIND"
     },
     {
       "id": "regional-innova-fm-tv-bagua-grande.teleclub",
