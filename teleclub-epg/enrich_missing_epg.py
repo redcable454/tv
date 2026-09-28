@@ -43,6 +43,8 @@ def generic(p):
 # Alias exactos verificados contra EPGShare PE1. Se usan solo cuando el ID
 # de Teleclub difiere del ID XMLTV de la fuente; no afectan el matching general.
 SOURCE_ID_ALIASES = {
+    "590": ["VENUS.(Venus).pe"],
+    "589": ["PLAYBOY.HD.(PlayboyHD).pe", "PLAYBOY.(Playboy).pe"],
     "custom-1107": ["TopLatinoTV.pe"],
     "custom-1108": ["Karibena.pe", "Karibeña.pe"],
     "custom-1234": ["M.DEPORTES.HD.(M.Deportes.HD).pe", "M.DEPORTES.(M.Deportes).pe"],
