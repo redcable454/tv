@@ -82,6 +82,17 @@ jobs:
               'generic_epg_channels': len(generic),
               'missing_epg_channels': len(missing),
               'generic_channel_ids': sorted(x for x in generic if x),
+              'generic_channels': sorted(
+                  [
+                      {
+                          'id': ch.attrib.get('id',''),
+                          'name': (ch.findtext('display-name') or '').strip(),
+                      }
+                      for ch in root.findall('channel')
+                      if ch.attrib.get('id') in generic
+                  ],
+                  key=lambda x: (x['name'].lower(), x['id'])
+              ),
               'missing_channel_ids': missing,
           }
           with open('teleclub-epg/epg-status.json','w',encoding='utf-8') as fh:
