@@ -1,6 +1,6 @@
 {
   "channels": 226,
-  "programmes": 14492,
+  "programmes": 14498,
   "channels_with_programmes": 226,
   "real_epg_channels": 83,
   "generic_epg_channels": 143,
@@ -149,6 +149,580 @@
     "vision-sur-arequipa.teleclub",
     "xtv-jaen.teleclub",
     "yuri-vision-tv.teleclub"
+  ],
+  "generic_channels": [
+    {
+      "id": "custom-5",
+      "name": "A1"
+    },
+    {
+      "id": "custom-1040",
+      "name": "ADRENALINA TV"
+    },
+    {
+      "id": "custom-1074",
+      "name": "AGROTENDENCIA"
+    },
+    {
+      "id": "custom-1025",
+      "name": "AZTECA CLICK"
+    },
+    {
+      "id": "custom-1026",
+      "name": "AZTECA CORAZÓN"
+    },
+    {
+      "id": "custom-1042",
+      "name": "AZTECA DEPORTES"
+    },
+    {
+      "id": "regional-bella-abanquina-tv.teleclub",
+      "name": "Bella Abanquina TV"
+    },
+    {
+      "id": "regional-bhtv.teleclub",
+      "name": "BHtv"
+    },
+    {
+      "id": "custom-1105",
+      "name": "BHTV HD"
+    },
+    {
+      "id": "onda-tv.teleclub",
+      "name": "BONITA TV"
+    },
+    {
+      "id": "HISTORY.2.HD.(H2.HD).pe",
+      "name": "CABLE | H2"
+    },
+    {
+      "id": "cadena-tv.teleclub",
+      "name": "Cadena tv"
+    },
+    {
+      "id": "regional-cajamarca-tv-tv360.teleclub",
+      "name": "Cajamarca TV - TV360"
+    },
+    {
+      "id": "regional-canal-21-huancayo.teleclub",
+      "name": "Canal 21 Huancayo"
+    },
+    {
+      "id": "regional-canal-25-ayacucho-tv360.teleclub",
+      "name": "Canal 25 Ayacucho - TV360"
+    },
+    {
+      "id": "huacho.teleclub",
+      "name": "Canal 36 huacho"
+    },
+    {
+      "id": "regional-canal-8-catacaos.teleclub",
+      "name": "Canal 8 - Catacaos"
+    },
+    {
+      "id": "892mvstr.cl",
+      "name": "CANAL D"
+    },
+    {
+      "id": "custom-1023",
+      "name": "CANAL INFANTIL"
+    },
+    {
+      "id": "ipe.teleclub",
+      "name": "CANAL IPE SD"
+    },
+    {
+      "id": "regional-sol-stereo-tv-casma.teleclub",
+      "name": "Canal M"
+    },
+    {
+      "id": "custom-1173",
+      "name": "canal tv en linia cusco"
+    },
+    {
+      "id": "custom-1009",
+      "name": "CANAL USA"
+    },
+    {
+      "id": "custom-7",
+      "name": "Canal39"
+    },
+    {
+      "id": "custom-1221",
+      "name": "CARTONITO"
+    },
+    {
+      "id": "regional-casma-tv.teleclub",
+      "name": "Casma tv"
+    },
+    {
+      "id": "527",
+      "name": "CGTN SPAÑOL"
+    },
+    {
+      "id": "custom-1004",
+      "name": "CINE CANAL"
+    },
+    {
+      "id": "custom-1076",
+      "name": "CNN SPAÑOL"
+    },
+    {
+      "id": "215dtv.cl",
+      "name": "COMEDI CENTRAL"
+    },
+    {
+      "id": "custom-1135",
+      "name": "Controversia tv"
+    },
+    {
+      "id": "custom-1089",
+      "name": "CREO FE TV"
+    },
+    {
+      "id": "cineclub-tv.teleclub",
+      "name": "Cuba tv Ayacucho"
+    },
+    {
+      "id": "custom-1170",
+      "name": "Cultura 24 tv"
+    },
+    {
+      "id": "custom-1013",
+      "name": "D PELICULA"
+    },
+    {
+      "id": "1513dtv.cl",
+      "name": "DHE"
+    },
+    {
+      "id": "ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe",
+      "name": "Disccovery ID"
+    },
+    {
+      "id": "HOME.&amp;.HEALTH.HD.(Home&amp;HealthHD).pe",
+      "name": "Discovery H&H"
+    },
+    {
+      "id": "330dtv.co",
+      "name": "DISCOVERY KISD"
+    },
+    {
+      "id": "DISCOVERY.SCIENCE.(Disc.Science).pe",
+      "name": "DISCOVERY SCIENSE"
+    },
+    {
+      "id": "DISCOVERY.TURBO.(Disc.Turbo).pe",
+      "name": "DISCOVERY TURBO"
+    },
+    {
+      "id": "cbn-tv.teleclub",
+      "name": "Doble c tv"
+    },
+    {
+      "id": "custom-27",
+      "name": "Dud tv"
+    },
+    {
+      "id": "aura-tv.teleclub",
+      "name": "DUNAS TV"
+    },
+    {
+      "id": "custom-1063",
+      "name": "DW SPAÑOL"
+    },
+    {
+      "id": "custom-6",
+      "name": "Eros tv"
+    },
+    {
+      "id": "custom-1031",
+      "name": "ESPN 1"
+    },
+    {
+      "id": "exitosa-tv.teleclub",
+      "name": "Exitosa tv"
+    },
+    {
+      "id": "custom-1058",
+      "name": "FOOD NETWORK"
+    },
+    {
+      "id": "auno-tv.teleclub",
+      "name": "Fuego tv"
+    },
+    {
+      "id": "regional-planeta-tv-bagua.teleclub",
+      "name": "Gamarra Chanel tv"
+    },
+    {
+      "id": "global-tv.teleclub",
+      "name": "Global tv"
+    },
+    {
+      "id": "custom-1226",
+      "name": "HBO 2"
+    },
+    {
+      "id": "custom-1230",
+      "name": "HBO EXTREME"
+    },
+    {
+      "id": "custom-1227",
+      "name": "HBO FAMILY"
+    },
+    {
+      "id": "custom-1231",
+      "name": "HBO MUNDI"
+    },
+    {
+      "id": "custom-1228",
+      "name": "HBO PLUS"
+    },
+    {
+      "id": "custom-1229",
+      "name": "HBO POP"
+    },
+    {
+      "id": "custom-1232",
+      "name": "HBO SINGNATURE"
+    },
+    {
+      "id": "custom-1054",
+      "name": "HGTV"
+    },
+    {
+      "id": "hoy-peru-tv-jaen.teleclub",
+      "name": "Hoyperu tv"
+    },
+    {
+      "id": "regional-imperial-television-huancayo.teleclub",
+      "name": "Imperial Televisión - Huancayo"
+    },
+    {
+      "id": "Juntos-tv.teleclub",
+      "name": "Juntos tv"
+    },
+    {
+      "id": "custom-1108",
+      "name": "KARIBEÑA TV"
+    },
+    {
+      "id": "custom-1218",
+      "name": "LA NUEVA FM JAEN"
+    },
+    {
+      "id": "latina-clasicos.teleclub",
+      "name": "Latina clásicos"
+    },
+    {
+      "id": "latina-noticias.teleclub",
+      "name": "Latina noticias"
+    },
+    {
+      "id": "latina-podcast.teleclub",
+      "name": "Latina podcast"
+    },
+    {
+      "id": "603dtv.pe",
+      "name": "LIGA 1 HD"
+    },
+    {
+      "id": "custom-8",
+      "name": "Lo nuestro tv"
+    },
+    {
+      "id": "mega-tv-arequipa.teleclub",
+      "name": "Mega tv Arequipa"
+    },
+    {
+      "id": "mega-tv-jaen.teleclub",
+      "name": "Mega tv jaen"
+    },
+    {
+      "id": "regional-huanuco-en-vivo.teleclub",
+      "name": "Miel tv"
+    },
+    {
+      "id": "regional-millenium-49-tv-pucallpa.teleclub",
+      "name": "Millenium"
+    },
+    {
+      "id": "regional-telesur-camana.teleclub",
+      "name": "Monterrico tv"
+    },
+    {
+      "id": "nacional-tv.teleclub",
+      "name": "Nacional tv"
+    },
+    {
+      "id": "nativa-tv.teleclub",
+      "name": "Nativa tv"
+    },
+    {
+      "id": "nzk-tv.teleclub",
+      "name": "Neo tv jaen"
+    },
+    {
+      "id": "custom-1085",
+      "name": "NUEVO TIEMPO TV"
+    },
+    {
+      "id": "custom-1102",
+      "name": "ONDA DIGITAL"
+    },
+    {
+      "id": "orbit-tv.teleclub",
+      "name": "Orbit tv"
+    },
+    {
+      "id": "ovacion.teleclub",
+      "name": "Ovación tv"
+    },
+    {
+      "id": "custom-1011",
+      "name": "PARAMOUNT CHANEL"
+    },
+    {
+      "id": "225dtv.cl",
+      "name": "PASIONES"
+    },
+    {
+      "id": "custom-1104",
+      "name": "PBO"
+    },
+    {
+      "id": "planea-tv.teleclub",
+      "name": "Planea tv jaen"
+    },
+    {
+      "id": "589",
+      "name": "PLAYBOY TV +18"
+    },
+    {
+      "id": "custom-1024",
+      "name": "PLIN PLIN TV"
+    },
+    {
+      "id": "top-tv.teleclub",
+      "name": "POPU TV"
+    },
+    {
+      "id": "regional-pucallpa-tv.teleclub",
+      "name": "Pucallpa TV"
+    },
+    {
+      "id": "regional-tvenlinea-cusco.teleclub",
+      "name": "Qosqotimes tv"
+    },
+    {
+      "id": "custom-1117",
+      "name": "Radio 1160"
+    },
+    {
+      "id": "custom-29",
+      "name": "Radio inolvidable"
+    },
+    {
+      "id": "custom-1123",
+      "name": "Radio jaen mix"
+    },
+    {
+      "id": "custom-1114",
+      "name": "Radio la nube"
+    },
+    {
+      "id": "custom-1115",
+      "name": "Radio Megamix"
+    },
+    {
+      "id": "custom-1122",
+      "name": "Radio melodia Arequipa"
+    },
+    {
+      "id": "custom-31",
+      "name": "Radio moda"
+    },
+    {
+      "id": "custom-1116",
+      "name": "Radio mágica"
+    },
+    {
+      "id": "custom-1119",
+      "name": "Radio omar"
+    },
+    {
+      "id": "custom-1120",
+      "name": "Radio onda cero"
+    },
+    {
+      "id": "custom-1121",
+      "name": "Radio super stereo Arequipa"
+    },
+    {
+      "id": "arpegio-tv.teleclub",
+      "name": "REGIÓN TV"
+    },
+    {
+      "id": "539",
+      "name": "REWIND"
+    },
+    {
+      "id": "regional-innova-fm-tv-bagua-grande.teleclub",
+      "name": "Ribereña tv"
+    },
+    {
+      "id": "custom-1067",
+      "name": "RT SPAÑOL"
+    },
+    {
+      "id": "custom-1065",
+      "name": "RTVE"
+    },
+    {
+      "id": "regional-mega-tv-tarapoto.teleclub",
+      "name": "Rumbo minero tv"
+    },
+    {
+      "id": "custom-1219",
+      "name": "RV jaen"
+    },
+    {
+      "id": "custom-1088",
+      "name": "SANTA ROSA TV"
+    },
+    {
+      "id": "custom-1109",
+      "name": "SEXTREME TV +18"
+    },
+    {
+      "id": "cositel-tv-ica.teleclub",
+      "name": "Sillustani tv"
+    },
+    {
+      "id": "custom-1016",
+      "name": "SONY MOVIES"
+    },
+    {
+      "id": "malu-tv.teleclub",
+      "name": "Sqala tv"
+    },
+    {
+      "id": "regional-creo-tv-cajamarca.teleclub",
+      "name": "Sucesos tv"
+    },
+    {
+      "id": "atv.teleclub",
+      "name": "Super tv"
+    },
+    {
+      "id": "custom-1",
+      "name": "Teleclub tv"
+    },
+    {
+      "id": "regional-telesur-moquegua.teleclub",
+      "name": "Telecolor"
+    },
+    {
+      "id": "custom-1028",
+      "name": "TELENOVELAS"
+    },
+    {
+      "id": "regional-teleselva-tv.teleclub",
+      "name": "Teleselva tv"
+    },
+    {
+      "id": "custom-1171",
+      "name": "Telesistem tv"
+    },
+    {
+      "id": "custom-1137",
+      "name": "Tevesur"
+    },
+    {
+      "id": "custom-1041",
+      "name": "TITAN CHANEL"
+    },
+    {
+      "id": "custom-1224",
+      "name": "TNT NOVELAS"
+    },
+    {
+      "id": "custom-1216",
+      "name": "TNT SPORTS"
+    },
+    {
+      "id": "custom-1107",
+      "name": "TOP LATINO TV"
+    },
+    {
+      "id": "regional-atm-television.teleclub",
+      "name": "Top tv aguaytia"
+    },
+    {
+      "id": "regional-tropical-tv-puerto-maldonado.teleclub",
+      "name": "Tropical TV"
+    },
+    {
+      "id": "turbo-mix-tv-cajamarca.teleclub",
+      "name": "Turbo mix tv"
+    },
+    {
+      "id": "chincha.teleclub",
+      "name": "TV chincha"
+    },
+    {
+      "id": "custom-1103",
+      "name": "TV COSMOS"
+    },
+    {
+      "id": "peru.teleclub",
+      "name": "TV PERU"
+    },
+    {
+      "id": "custom-1206",
+      "name": "Unicentro tv"
+    },
+    {
+      "id": "760dtv.cl",
+      "name": "UNIVISION"
+    },
+    {
+      "id": "uranio-tv.teleclub",
+      "name": "Uranio tv"
+    },
+    {
+      "id": "590",
+      "name": "VENUS TV +18"
+    },
+    {
+      "id": "custom-1060",
+      "name": "VEPLUS TV"
+    },
+    {
+      "id": "vision-sur-arequipa.teleclub",
+      "name": "Visión sur tv"
+    },
+    {
+      "id": "custom-1127",
+      "name": "Visión tv jaen"
+    },
+    {
+      "id": "regional-dmj-cusco.teleclub",
+      "name": "VR canal 21 nazca"
+    },
+    {
+      "id": "custom-1017",
+      "name": "WEST"
+    },
+    {
+      "id": "xtv-jaen.teleclub",
+      "name": "Xtv"
+    },
+    {
+      "id": "yuri-vision-tv.teleclub",
+      "name": "Yurivision"
+    }
   ],
   "missing_channel_ids": []
 }\n
