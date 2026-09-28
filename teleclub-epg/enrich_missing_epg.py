@@ -5,7 +5,10 @@ from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
 
 EPG = Path(__file__).with_name("guia_teleclubtv.xml")
-SOURCE = "https://cdn.epg.guru/7dayiptv/Peru.xml"
+SOURCES = [
+    "https://cdn.epg.guru/7dayiptv/Peru.xml",
+    "https://iptv-epg.org/files/epg-pe.xml",
+]
 
 DROP={"HD","FHD","UHD","4K","TV","CANAL","TELEVISION","CHANNEL","PERU","PE","CABLE"}
 def norm(s):
@@ -26,17 +29,12 @@ def generic(p):
     t=(p.findtext("title") or "").strip().lower()
     return t.endswith(" - en vivo")
 
-def main():
-    root=ET.parse(EPG).getroot()
-    req=Request(SOURCE,headers={"User-Agent":"TeleclubTV-EPG-Updater/1.0","Accept":"application/xml,text/xml,*/*"})
-    try:
-        with urlopen(req,timeout=90) as r:
-            data=r.read()
-        src=ET.fromstring(data)
-    except Exception as exc:
-        print(f"WARN EPG secundaria no disponible: {exc}")
-        return
+def load_source(url):
+    req=Request(url,headers={"User-Agent":"TeleclubTV-EPG-Updater/1.1","Accept":"application/xml,text/xml,*/*"})
+    with urlopen(req,timeout=90) as r:
+        return ET.fromstring(r.read())
 
+def enrich(root, src, source_url):
     src_channels=src.findall("channel")
     src_prog={}
     for p in src.findall("programme"):
@@ -46,11 +44,11 @@ def main():
 
     exact={c.attrib.get("id",""):c for c in src_channels}
     byname={}
-    for c in src_channels:
-        sid=c.attrib.get("id","")
-        for n in names(c):
+    for ch in src_channels:
+        sid=ch.attrib.get("id","")
+        for n in names(ch):
             k=norm(n)
-            if k: byname.setdefault(k,[]).append((sid,c))
+            if k: byname.setdefault(k,[]).append((sid,ch))
 
     existing_prog={}
     for p in root.findall("programme"):
@@ -60,20 +58,16 @@ def main():
     for ch in root.findall("channel"):
         cid=ch.attrib.get("id","")
         current=existing_prog.get(cid,[])
-        # Solo completar canales sin EPG real; no reemplazar programación existente.
         if current and any(not generic(p) for p in current):
             continue
         sid=""
         if cid in exact and src_prog.get(cid):
             sid=cid
         else:
-            # Para IDs custom-* no confiamos en el ID: primero nombre exacto.
             for n in names(ch):
                 hits=[x for x in byname.get(norm(n),[]) if src_prog.get(x[0])]
                 if len(hits)==1:
                     sid=hits[0][0]; break
-            # Si no hubo exacta, aceptar solo una coincidencia de nombre muy fuerte
-            # y claramente superior a la segunda candidata.
             if not sid:
                 scored=[]
                 for srcch in src_channels:
@@ -85,7 +79,6 @@ def main():
                 if scored and (len(scored)==1 or scored[0][0]-scored[1][0]>=0.08):
                     sid=scored[0][1]
         if not sid:
-            print(f"EPG secundaria: sin coincidencia segura para {cid} | {' / '.join(names(ch))}")
             continue
         for p in list(current):
             if generic(p): root.remove(p)
@@ -94,13 +87,27 @@ def main():
             clone.set("channel",cid)
             root.append(clone); added+=1
         matched+=1
-        print(f"EPG secundaria: {cid} <- {sid} ({len(src_prog[sid])} programas)")
+        print(f"EPG secundaria {source_url}: {cid} <- {sid} ({len(src_prog[sid])} programas)")
+    return matched,added
 
-    if matched:
-        root.set("secondary-source-info-url",SOURCE)
+def main():
+    root=ET.parse(EPG).getroot()
+    used=[]
+    total_matched=total_added=0
+    for source in SOURCES:
+        try:
+            src=load_source(source)
+        except Exception as exc:
+            print(f"WARN EPG secundaria no disponible {source}: {exc}")
+            continue
+        matched,added=enrich(root,src,source)
+        if matched:
+            used.append(source)
+            total_matched+=matched; total_added+=added
+    if used:
+        root.set("secondary-source-info-url"," ".join(used))
         ET.indent(root,space="  ")
         ET.ElementTree(root).write(EPG,encoding="utf-8",xml_declaration=True)
-    print(f"EPG secundaria: canales completados={matched}, programas agregados={added}")
-
+    print(f"EPG secundaria total: canales completados={total_matched}, programas agregados={total_added}")
 if __name__=="__main__":
     main()
