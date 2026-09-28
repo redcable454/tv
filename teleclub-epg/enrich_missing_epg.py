@@ -17,6 +17,11 @@ def norm(s):
 def names(ch):
     return [(x.text or "").strip() for x in ch.findall("display-name") if (x.text or "").strip()]
 
+def similarity(a,b):
+    aa=set(norm(a).split()); bb=set(norm(b).split())
+    if not aa or not bb: return 0.0
+    return (2.0*len(aa & bb))/(len(aa)+len(bb))
+
 def generic(p):
     t=(p.findtext("title") or "").strip().lower()
     return t.endswith(" - en vivo")
@@ -62,11 +67,25 @@ def main():
         if cid in exact and src_prog.get(cid):
             sid=cid
         else:
+            # Para IDs custom-* no confiamos en el ID: primero nombre exacto.
             for n in names(ch):
                 hits=[x for x in byname.get(norm(n),[]) if src_prog.get(x[0])]
                 if len(hits)==1:
                     sid=hits[0][0]; break
+            # Si no hubo exacta, aceptar solo una coincidencia de nombre muy fuerte
+            # y claramente superior a la segunda candidata.
+            if not sid:
+                scored=[]
+                for srcch in src_channels:
+                    ssid=srcch.attrib.get("id","")
+                    if not src_prog.get(ssid): continue
+                    score=max([similarity(a,b) for a in names(ch) for b in names(srcch)] or [0])
+                    if score>=0.92: scored.append((score,ssid))
+                scored.sort(reverse=True)
+                if scored and (len(scored)==1 or scored[0][0]-scored[1][0]>=0.08):
+                    sid=scored[0][1]
         if not sid:
+            print(f"EPG secundaria: sin coincidencia segura para {cid} | {' / '.join(names(ch))}")
             continue
         for p in list(current):
             if generic(p): root.remove(p)
