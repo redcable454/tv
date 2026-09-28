@@ -37,7 +37,7 @@ SOURCE_ID_ALIASES = {
     "custom-1004": ["CINECANAL.(Cinecanal).pe", "CINECANAL.HD.(Cinecanal.HD).pe", "Cinecanal.co"],
     "custom-1076": ["CNN.ESPAÑOL.(CNNEsp).pe", "CNN.Español.co"],
     "215dtv.cl": ["COMEDY.CENTRAL.HD.(ComedyCentralHD).pe", "Comedy.Central.co"],
-    "DISCOVERY.SCIENCE.(Disc.Science).pe": ["DISCOVERY.SCIENCE.(Disc.Science).pe"],
+    "DISCOVERY.SCIENCE.(Disc.Science).pe": ["DISCOVERY.SCIENCE.(Disc.Science).pe", "Discovery.Science.co"],
     "custom-1011": ["PARAMOUNT.HD.(Paramount.HD).pe", "PARAMOUNT.(Paramount).pe", "Paramount.Channel.co"],
     "custom-1058": ["Food.Network.co"],
     "custom-1054": ["HGTV.co"],
@@ -47,12 +47,13 @@ SOURCE_ID_ALIASES = {
     "custom-1229": ["HBO.POP.co"],
     "custom-1230": ["HBO.XTREME.co"],
     "DISCOVERY.TURBO.(Disc.Turbo).pe": ["DISCOVERY.TURBO.(Disc.Turbo).pe"],
-    "HISTORY.2.HD.(H2.HD).pe": ["HISTORY.2.HD.(H2.HD).pe"],
+    "HISTORY.2.HD.(H2.HD).pe": ["HISTORY.2.HD.(H2.HD).pe", "History.2.co"],
     "HOME.&amp;.HEALTH.HD.(Home&amp;HealthHD).pe": [
         "HOME.&HEALTH.HD.(Home&HealthHD).pe",
         "HOME.&amp;.HEALTH.HD.(Home&amp;HealthHD).pe",
     ],
     "ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe": [
+        "ID.-.Investigation.Discovery.co",
         "ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe",
         "INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe",
     ],
