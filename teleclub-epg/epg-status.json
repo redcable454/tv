@@ -1,12 +1,11 @@
 {
-  "channels": 226,
-  "programmes": 12227,
-  "channels_with_programmes": 226,
-  "real_epg_channels": 94,
+  "channels": 229,
+  "programmes": 12528,
+  "channels_with_programmes": 229,
+  "real_epg_channels": 97,
   "generic_epg_channels": 132,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
-    "215dtv.cl",
     "330dtv.co",
     "527",
     "539",
@@ -29,7 +28,6 @@
     "cineclub-tv.teleclub",
     "cositel-tv-ica.teleclub",
     "custom-1",
-    "custom-1004",
     "custom-1009",
     "custom-1011",
     "custom-1013",
@@ -49,7 +47,6 @@
     "custom-1065",
     "custom-1067",
     "custom-1074",
-    "custom-1076",
     "custom-1085",
     "custom-1088",
     "custom-1089",
@@ -83,6 +80,9 @@
     "custom-1228",
     "custom-1231",
     "custom-1232",
+    "custom-1233",
+    "custom-1234",
+    "custom-1235",
     "custom-27",
     "custom-29",
     "custom-31",
@@ -249,18 +249,6 @@
       "name": "CGTN SPAÑOL"
     },
     {
-      "id": "custom-1004",
-      "name": "CINE CANAL"
-    },
-    {
-      "id": "custom-1076",
-      "name": "CNN SPAÑOL"
-    },
-    {
-      "id": "215dtv.cl",
-      "name": "COMEDI CENTRAL"
-    },
-    {
       "id": "custom-1135",
       "name": "Controversia tv"
     },
@@ -279,6 +267,10 @@
     {
       "id": "custom-1013",
       "name": "D PELICULA"
+    },
+    {
+      "id": "custom-1233",
+      "name": "Directv sports"
     },
     {
       "id": "ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe",
@@ -403,6 +395,10 @@
     {
       "id": "regional-telesur-camana.teleclub",
       "name": "Monterrico tv"
+    },
+    {
+      "id": "custom-1234",
+      "name": "Movistar deportes"
     },
     {
       "id": "nacional-tv.teleclub",
@@ -659,6 +655,10 @@
     {
       "id": "custom-1017",
       "name": "WEST"
+    },
+    {
+      "id": "custom-1235",
+      "name": "Win sports"
     },
     {
       "id": "xtv-jaen.teleclub",
