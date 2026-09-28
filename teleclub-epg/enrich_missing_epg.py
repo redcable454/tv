@@ -43,7 +43,7 @@ def generic(p):
 SOURCE_ID_ALIASES = {
     "760dtv.cl": ["Univisión.(Latin.America).(UNIVIS).[407].cr", "Univision.-.Eastern.Feed.us"],
     "custom-1060": ["Canal.Ve.Plus.(Latinoamérica).sv", "Canal.Ve.Plus.(Estados.Unidos).sv", "VePlus.us"],
-    "custom-1016": ["Sony.Movies.mx", "Sony.Movies.us", "Sony.Movies.uy"],
+    "custom-1016": ["SONY.MOVIES.HD..uy", "[SONYHD].Sony.Movie.Channel.HD.uy", "Sony.Movies.mx", "Sony.Movies.us"],
     "330dtv.co": ["Canal.Discovery.Kids.(Latinoamérica).sv", "Canal.Discovery.Kids.(México).sv"],
     "custom-1004": ["CINECANAL.(Cinecanal).pe", "CINECANAL.HD.(Cinecanal.HD).pe", "Cinecanal.co"],
     "custom-1076": ["CNN.ESPAÑOL.(CNNEsp).pe", "CNN.Español.co"],
