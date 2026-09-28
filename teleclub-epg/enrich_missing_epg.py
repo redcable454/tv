@@ -7,6 +7,7 @@ from xml.etree import ElementTree as ET
 EPG = Path(__file__).with_name("guia_teleclubtv.xml")
 SOURCES = [
     "https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz",
     "https://cdn.epg.guru/7dayiptv/Peru.xml",
     "https://iptv-epg.org/files/epg-pe.xml",
 ]
@@ -33,6 +34,15 @@ def generic(p):
 # Alias exactos verificados contra EPGShare PE1. Se usan solo cuando el ID
 # de Teleclub difiere del ID XMLTV de la fuente; no afectan el matching general.
 SOURCE_ID_ALIASES = {
+    "custom-1004": ["CINECANAL.co"],
+    "custom-1058": ["Food.Network.co"],
+    "custom-1054": ["HGTV.co"],
+    "custom-1011": ["Paramount.Channel.co"],
+    "225dtv.cl": ["PASIONES.co"],
+    "custom-1226": ["HBO.2.co"],
+    "custom-1227": ["HBO.Family.co", "HBO.FAMILY.ESTE.co"],
+    "custom-1229": ["HBO.POP.co"],
+    "custom-1230": ["HBO.XTREME.co"],
     "DISCOVERY.SCIENCE.(Disc.Science).pe": ["DISCOVERY.SCIENCE.(Disc.Science).pe"],
     "DISCOVERY.TURBO.(Disc.Turbo).pe": ["DISCOVERY.TURBO.(Disc.Turbo).pe"],
     "HISTORY.2.HD.(H2.HD).pe": ["HISTORY.2.HD.(H2.HD).pe"],
