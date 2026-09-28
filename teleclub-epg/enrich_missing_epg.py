@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-import re, unicodedata
+import re, unicodedata, gzip
 from pathlib import Path
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
 
 EPG = Path(__file__).with_name("guia_teleclubtv.xml")
 SOURCES = [
+    "https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz",
     "https://cdn.epg.guru/7dayiptv/Peru.xml",
     "https://iptv-epg.org/files/epg-pe.xml",
 ]
@@ -32,7 +33,10 @@ def generic(p):
 def load_source(url):
     req=Request(url,headers={"User-Agent":"TeleclubTV-EPG-Updater/1.1","Accept":"application/xml,text/xml,*/*"})
     with urlopen(req,timeout=90) as r:
-        return ET.fromstring(r.read())
+        data=r.read()
+    if url.lower().endswith(".gz"):
+        data=gzip.decompress(data)
+    return ET.fromstring(data)
 
 def enrich(root, src, source_url):
     src_channels=src.findall("channel")
