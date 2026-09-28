@@ -14,6 +14,7 @@ SOURCES = [
     "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_CR1.xml.gz",
     # US1 temporalmente desactivado: su descarga puede superar el timeout del workflow.
     # "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz",
 ]
@@ -40,6 +41,10 @@ def generic(p):
 # Alias exactos verificados contra EPGShare PE1. Se usan solo cuando el ID
 # de Teleclub difiere del ID XMLTV de la fuente; no afectan el matching general.
 SOURCE_ID_ALIASES = {
+    "760dtv.cl": ["Univisión.(Latin.America).(UNIVIS).[407].cr", "Univision.-.Eastern.Feed.us"],
+    "custom-1060": ["VePlus.us"],
+    "custom-1016": ["Sony.Movies.mx", "Sony.Movies.us"],
+    "330dtv.co": ["Canal.Discovery.Kids.(Latinoamérica).sv", "Canal.Discovery.Kids.(México).sv"],
     "custom-1004": ["CINECANAL.(Cinecanal).pe", "CINECANAL.HD.(Cinecanal.HD).pe", "Cinecanal.co"],
     "custom-1076": ["CNN.ESPAÑOL.(CNNEsp).pe", "CNN.Español.co"],
     "215dtv.cl": ["COMEDY.CENTRAL.HD.(ComedyCentralHD).pe", "Comedy.Central.co"],
