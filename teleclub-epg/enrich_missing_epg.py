@@ -34,16 +34,18 @@ def generic(p):
 # Alias exactos verificados contra EPGShare PE1. Se usan solo cuando el ID
 # de Teleclub difiere del ID XMLTV de la fuente; no afectan el matching general.
 SOURCE_ID_ALIASES = {
-    "custom-1004": ["CINECANAL.co"],
+    "custom-1004": ["CINECANAL.(Cinecanal).pe", "CINECANAL.HD.(Cinecanal.HD).pe", "Cinecanal.co"],
+    "custom-1076": ["CNN.ESPAÑOL.(CNNEsp).pe", "CNN.Español.co"],
+    "215dtv.cl": ["COMEDY.CENTRAL.HD.(ComedyCentralHD).pe", "Comedy.Central.co"],
+    "DISCOVERY.SCIENCE.(Disc.Science).pe": ["DISCOVERY.SCIENCE.(Disc.Science).pe"],
+    "custom-1011": ["Paramount.Channel.co"],
     "custom-1058": ["Food.Network.co"],
     "custom-1054": ["HGTV.co"],
-    "custom-1011": ["Paramount.Channel.co"],
     "225dtv.cl": ["PASIONES.co"],
     "custom-1226": ["HBO.2.co"],
     "custom-1227": ["HBO.Family.co", "HBO.FAMILY.ESTE.co"],
     "custom-1229": ["HBO.POP.co"],
     "custom-1230": ["HBO.XTREME.co"],
-    "DISCOVERY.SCIENCE.(Disc.Science).pe": ["DISCOVERY.SCIENCE.(Disc.Science).pe"],
     "DISCOVERY.TURBO.(Disc.Turbo).pe": ["DISCOVERY.TURBO.(Disc.Turbo).pe"],
     "HISTORY.2.HD.(H2.HD).pe": ["HISTORY.2.HD.(H2.HD).pe"],
     "HOME.&amp;.HEALTH.HD.(Home&amp;HealthHD).pe": [
