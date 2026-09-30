@@ -1,9 +1,9 @@
 {
-  "channels": 230,
-  "programmes": 14809,
-  "channels_with_programmes": 230,
+  "channels": 233,
+  "programmes": 14816,
+  "channels_with_programmes": 233,
   "real_epg_channels": 122,
-  "generic_epg_channels": 108,
+  "generic_epg_channels": 111,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "589",
@@ -61,6 +61,7 @@
     "custom-1219",
     "custom-1221",
     "custom-1235",
+    "custom-1238",
     "custom-27",
     "custom-29",
     "custom-31",
@@ -86,6 +87,8 @@
     "ovacion.teleclub",
     "peru.teleclub",
     "planea-tv.teleclub",
+    "radio-la-zona.teleclub",
+    "radio-virus-star-trujillo.teleclub",
     "regional-atm-television.teleclub",
     "regional-bella-abanquina-tv.teleclub",
     "regional-bhtv.teleclub",
@@ -365,6 +368,10 @@
       "name": "Radio 1160"
     },
     {
+      "id": "radio-la-zona.teleclub",
+      "name": "Radio fans"
+    },
+    {
       "id": "custom-29",
       "name": "Radio inolvidable"
     },
@@ -403,6 +410,10 @@
     {
       "id": "custom-1121",
       "name": "Radio super stereo Arequipa"
+    },
+    {
+      "id": "radio-virus-star-trujillo.teleclub",
+      "name": "Radio viru star"
     },
     {
       "id": "regional-innova-fm-tv-bagua-grande.teleclub",
@@ -491,6 +502,10 @@
     {
       "id": "regional-tropical-tv-puerto-maldonado.teleclub",
       "name": "Tropical TV"
+    },
+    {
+      "id": "custom-1238",
+      "name": "TUDN"
     },
     {
       "id": "turbo-mix-tv-cajamarca.teleclub",
