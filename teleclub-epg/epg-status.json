@@ -1,9 +1,9 @@
 {
-  "channels": 233,
-  "programmes": 14903,
-  "channels_with_programmes": 233,
+  "channels": 234,
+  "programmes": 14905,
+  "channels_with_programmes": 234,
   "real_epg_channels": 120,
-  "generic_epg_channels": 113,
+  "generic_epg_channels": 114,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "589",
@@ -89,6 +89,7 @@
     "ovacion.teleclub",
     "peru.teleclub",
     "planea-tv.teleclub",
+    "radio-exitosa.teleclub",
     "radio-la-zona.teleclub",
     "radio-virus-star-trujillo.teleclub",
     "regional-atm-television.teleclub",
@@ -420,6 +421,10 @@
     {
       "id": "radio-virus-star-trujillo.teleclub",
       "name": "Radio viru star"
+    },
+    {
+      "id": "radio-exitosa.teleclub",
+      "name": "Radio éxito"
     },
     {
       "id": "regional-innova-fm-tv-bagua-grande.teleclub",
