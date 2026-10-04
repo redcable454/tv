@@ -1,14 +1,15 @@
 {
   "channels": 235,
-  "programmes": 15103,
+  "programmes": 15053,
   "channels_with_programmes": 235,
-  "real_epg_channels": 122,
-  "generic_epg_channels": 113,
+  "real_epg_channels": 121,
+  "generic_epg_channels": 114,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "589",
     "590",
     "603dtv.pe",
+    "604dtv.pe",
     "Juntos-tv.teleclub",
     "atv.teleclub",
     "auno-tv.teleclub",
@@ -147,7 +148,7 @@
     },
     {
       "id": "solar-tv.teleclub",
-      "name": "BICOLOR+ TV"
+      "name": "BICOLOR+ PREMIUM"
     },
     {
       "id": "onda-tv.teleclub",
@@ -274,6 +275,14 @@
       "name": "KARIBEÑA TV"
     },
     {
+      "id": "603dtv.pe",
+      "name": "L1"
+    },
+    {
+      "id": "604dtv.pe",
+      "name": "L1 MAX"
+    },
+    {
       "id": "custom-1218",
       "name": "LA NUEVA FM JAEN"
     },
@@ -288,10 +297,6 @@
     {
       "id": "latina-podcast.teleclub",
       "name": "Latina podcast"
-    },
-    {
-      "id": "603dtv.pe",
-      "name": "LIGA 1 HD"
     },
     {
       "id": "custom-8",
