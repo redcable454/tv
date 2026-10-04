@@ -1,9 +1,9 @@
 {
-  "channels": 234,
-  "programmes": 15036,
-  "channels_with_programmes": 234,
+  "channels": 235,
+  "programmes": 15032,
+  "channels_with_programmes": 235,
   "real_epg_channels": 122,
-  "generic_epg_channels": 112,
+  "generic_epg_channels": 113,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "589",
@@ -112,6 +112,7 @@
     "regional-telesur-moquegua.teleclub",
     "regional-tropical-tv-puerto-maldonado.teleclub",
     "regional-tvenlinea-cusco.teleclub",
+    "solar-tv.teleclub",
     "top-tv.teleclub",
     "turbo-mix-tv-cajamarca.teleclub",
     "uranio-tv.teleclub",
@@ -143,6 +144,10 @@
     {
       "id": "custom-1105",
       "name": "BHTV HD"
+    },
+    {
+      "id": "solar-tv.teleclub",
+      "name": "BICOLOR+ TV"
     },
     {
       "id": "onda-tv.teleclub",
