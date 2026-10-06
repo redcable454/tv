@@ -1,9 +1,9 @@
 {
-  "channels": 235,
-  "programmes": 15193,
-  "channels_with_programmes": 235,
-  "real_epg_channels": 121,
-  "generic_epg_channels": 114,
+  "channels": 240,
+  "programmes": 15918,
+  "channels_with_programmes": 240,
+  "real_epg_channels": 123,
+  "generic_epg_channels": 117,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "589",
@@ -63,6 +63,9 @@
     "custom-1221",
     "custom-1235",
     "custom-1238",
+    "custom-1244",
+    "custom-1245",
+    "custom-1247",
     "custom-27",
     "custom-29",
     "custom-31",
@@ -129,6 +132,10 @@
     {
       "id": "custom-1040",
       "name": "ADRENALINA TV"
+    },
+    {
+      "id": "custom-1247",
+      "name": "AMC SERIES"
     },
     {
       "id": "custom-1025",
@@ -241,6 +248,10 @@
     {
       "id": "custom-6",
       "name": "Eros tv"
+    },
+    {
+      "id": "custom-1245",
+      "name": "ESPN PREMIUM"
     },
     {
       "id": "exitosa-tv.teleclub",
@@ -505,6 +516,10 @@
     {
       "id": "custom-1216",
       "name": "TNT SPORTS"
+    },
+    {
+      "id": "custom-1244",
+      "name": "TNT SPORTS PREMIUM"
     },
     {
       "id": "custom-1107",
