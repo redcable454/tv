@@ -1,9 +1,9 @@
 {
-  "channels": 243,
-  "programmes": 15983,
-  "channels_with_programmes": 243,
-  "real_epg_channels": 124,
-  "generic_epg_channels": 119,
+  "channels": 246,
+  "programmes": 16882,
+  "channels_with_programmes": 246,
+  "real_epg_channels": 126,
+  "generic_epg_channels": 120,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "589",
@@ -11,12 +11,14 @@
     "603dtv.pe",
     "604dtv.pe",
     "Juntos-tv.teleclub",
+    "Tv+-teleclub",
     "atv.teleclub",
     "auno-tv.teleclub",
     "aura-tv.teleclub",
     "cadena-tv.teleclub",
     "cbn-tv.teleclub",
     "chincha.teleclub",
+    "chv-teleclub",
     "cineclub-tv.teleclub",
     "cositel-tv-ica.teleclub",
     "custom-1",
@@ -29,11 +31,8 @@
     "custom-1028",
     "custom-1040",
     "custom-1041",
-    "custom-1065",
     "custom-1067",
     "custom-1085",
-    "custom-1088",
-    "custom-1089",
     "custom-1102",
     "custom-1103",
     "custom-1104",
@@ -67,6 +66,8 @@
     "custom-1245",
     "custom-1247",
     "custom-1249",
+    "custom-1252",
+    "custom-1255",
     "custom-27",
     "custom-29",
     "custom-31",
@@ -91,7 +92,6 @@
     "onda-tv.teleclub",
     "orbit-tv.teleclub",
     "ovacion.teleclub",
-    "peru.teleclub",
     "planea-tv.teleclub",
     "radio-exitosa.teleclub",
     "radio-la-zona.teleclub",
@@ -121,6 +121,7 @@
     "solar-tv.teleclub",
     "top-tv.teleclub",
     "turbo-mix-tv-cajamarca.teleclub",
+    "tv-peru-teleclub",
     "uranio-tv.teleclub",
     "vision-sur-arequipa.teleclub",
     "xtv-jaen.teleclub",
@@ -224,12 +225,12 @@
       "name": "Casma tv"
     },
     {
-      "id": "custom-1135",
-      "name": "Controversia tv"
+      "id": "chv-teleclub",
+      "name": "CHV"
     },
     {
-      "id": "custom-1089",
-      "name": "CREO FE TV"
+      "id": "custom-1135",
+      "name": "Controversia tv"
     },
     {
       "id": "cineclub-tv.teleclub",
@@ -460,20 +461,12 @@
       "name": "RT SPAÑOL"
     },
     {
-      "id": "custom-1065",
-      "name": "RTVE"
-    },
-    {
       "id": "regional-mega-tv-tarapoto.teleclub",
       "name": "Rumbo minero tv"
     },
     {
       "id": "custom-1219",
       "name": "RV jaen"
-    },
-    {
-      "id": "custom-1088",
-      "name": "SANTA ROSA TV"
     },
     {
       "id": "custom-1109",
@@ -502,6 +495,10 @@
     {
       "id": "regional-telesur-moquegua.teleclub",
       "name": "Telecolor"
+    },
+    {
+      "id": "custom-1252",
+      "name": "TELEFE"
     },
     {
       "id": "custom-1028",
@@ -560,8 +557,12 @@
       "name": "TV COSMOS"
     },
     {
-      "id": "peru.teleclub",
-      "name": "TV PERU"
+      "id": "tv-peru-teleclub",
+      "name": "TV Peru"
+    },
+    {
+      "id": "Tv+-teleclub",
+      "name": "TV+"
     },
     {
       "id": "custom-1206",
@@ -574,6 +575,10 @@
     {
       "id": "590",
       "name": "VENUS TV +18"
+    },
+    {
+      "id": "custom-1255",
+      "name": "VIA X SPORTS"
     },
     {
       "id": "vision-sur-arequipa.teleclub",
