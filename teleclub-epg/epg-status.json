@@ -1,9 +1,9 @@
 {
-  "channels": 246,
-  "programmes": 16882,
-  "channels_with_programmes": 246,
-  "real_epg_channels": 126,
-  "generic_epg_channels": 120,
+  "channels": 256,
+  "programmes": 17980,
+  "channels_with_programmes": 256,
+  "real_epg_channels": 133,
+  "generic_epg_channels": 123,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "589",
@@ -68,6 +68,9 @@
     "custom-1249",
     "custom-1252",
     "custom-1255",
+    "custom-1258",
+    "custom-1261",
+    "custom-1270",
     "custom-27",
     "custom-29",
     "custom-31",
@@ -179,6 +182,10 @@
     {
       "id": "regional-cajamarca-tv-tv360.teleclub",
       "name": "Cajamarca TV - TV360"
+    },
+    {
+      "id": "custom-1270",
+      "name": "CANAL 13"
     },
     {
       "id": "regional-canal-21-huancayo.teleclub",
@@ -353,6 +360,10 @@
       "name": "Neo tv jaen"
     },
     {
+      "id": "custom-1261",
+      "name": "NTN 24 HORAS"
+    },
+    {
       "id": "custom-1085",
       "name": "NUEVO TIEMPO TV"
     },
@@ -479,6 +490,10 @@
     {
       "id": "malu-tv.teleclub",
       "name": "Sqala tv"
+    },
+    {
+      "id": "custom-1258",
+      "name": "Stingray Concerts"
     },
     {
       "id": "regional-creo-tv-cajamarca.teleclub",
