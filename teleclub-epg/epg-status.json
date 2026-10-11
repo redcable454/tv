@@ -1,15 +1,16 @@
 {
   "channels": 268,
-  "programmes": 19012,
+  "programmes": 18184,
   "channels_with_programmes": 268,
-  "real_epg_channels": 136,
-  "generic_epg_channels": 132,
+  "real_epg_channels": 133,
+  "generic_epg_channels": 135,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "589",
     "590",
     "603dtv.pe",
     "604dtv.pe",
+    "760dtv.cl",
     "Juntos-tv.teleclub",
     "Tv+-teleclub",
     "Unitel-huancayo-teleclub",
@@ -71,6 +72,7 @@
     "custom-1255",
     "custom-1258",
     "custom-1261",
+    "custom-1266",
     "custom-1270",
     "custom-1273",
     "custom-1278",
@@ -99,6 +101,7 @@
     "malu-tv.teleclub",
     "mega-tv-arequipa.teleclub",
     "mega-tv-jaen.teleclub",
+    "nacional-tv.teleclub",
     "nativa-tv.teleclub",
     "nzk-tv.teleclub",
     "onda-tv.teleclub",
@@ -345,6 +348,10 @@
       "name": "LA NUEVA FM JAEN"
     },
     {
+      "id": "custom-1266",
+      "name": "LA RED"
+    },
+    {
       "id": "latina-clasicos.teleclub",
       "name": "Latina clásicos"
     },
@@ -379,6 +386,10 @@
     {
       "id": "regional-telesur-camana.teleclub",
       "name": "Monterrico tv"
+    },
+    {
+      "id": "nacional-tv.teleclub",
+      "name": "Nacional tv"
     },
     {
       "id": "nativa-tv.teleclub",
@@ -627,6 +638,10 @@
     {
       "id": "Unitel-huancayo-teleclub",
       "name": "Unitel tv Huancayo"
+    },
+    {
+      "id": "760dtv.cl",
+      "name": "UNIVISION"
     },
     {
       "id": "uranio-tv.teleclub",
