@@ -1,15 +1,13 @@
 {
-  "channels": 263,
-  "programmes": 17277,
-  "channels_with_programmes": 263,
-  "real_epg_channels": 130,
-  "generic_epg_channels": 133,
+  "channels": 265,
+  "programmes": 17331,
+  "channels_with_programmes": 265,
+  "real_epg_channels": 131,
+  "generic_epg_channels": 134,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "589",
     "590",
-    "603dtv.pe",
-    "604dtv.pe",
     "760dtv.cl",
     "Juntos-tv.teleclub",
     "Tv+-teleclub",
@@ -30,7 +28,6 @@
     "custom-1023",
     "custom-1024",
     "custom-1025",
-    "custom-1028",
     "custom-1040",
     "custom-1041",
     "custom-1067",
@@ -99,6 +96,10 @@
     "malu-tv.teleclub",
     "mega-tv-arequipa.teleclub",
     "mega-tv-jaen.teleclub",
+    "movistar.lch2357",
+    "movistar.lch6518",
+    "movistar.lch7216",
+    "movistar.lch7217",
     "nacional-tv.teleclub",
     "nativa-tv.teleclub",
     "nzk-tv.teleclub",
@@ -274,6 +275,10 @@
       "name": "DIRECTV SPORTS PLUS"
     },
     {
+      "id": "movistar.lch2357",
+      "name": "DISNEY CHANEL"
+    },
+    {
       "id": "cbn-tv.teleclub",
       "name": "Doble c tv"
     },
@@ -334,11 +339,11 @@
       "name": "KARIBEÑA TV"
     },
     {
-      "id": "603dtv.pe",
+      "id": "movistar.lch7217",
       "name": "L1"
     },
     {
-      "id": "604dtv.pe",
+      "id": "movistar.lch7216",
       "name": "L1 MAX"
     },
     {
@@ -542,7 +547,7 @@
       "name": "TELEFE"
     },
     {
-      "id": "custom-1028",
+      "id": "movistar.lch6518",
       "name": "TELENOVELAS"
     },
     {
