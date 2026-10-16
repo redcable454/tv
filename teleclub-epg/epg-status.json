@@ -1,9 +1,9 @@
 {
-  "channels": 265,
-  "programmes": 17331,
-  "channels_with_programmes": 265,
-  "real_epg_channels": 131,
-  "generic_epg_channels": 134,
+  "channels": 268,
+  "programmes": 17456,
+  "channels_with_programmes": 268,
+  "real_epg_channels": 133,
+  "generic_epg_channels": 135,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "589",
@@ -34,7 +34,6 @@
     "custom-1085",
     "custom-1102",
     "custom-1103",
-    "custom-1104",
     "custom-1105",
     "custom-1107",
     "custom-1108",
@@ -96,8 +95,11 @@
     "malu-tv.teleclub",
     "mega-tv-arequipa.teleclub",
     "mega-tv-jaen.teleclub",
+    "movistar.lch2219",
     "movistar.lch2357",
     "movistar.lch6518",
+    "movistar.lch7110",
+    "movistar.lch7202",
     "movistar.lch7216",
     "movistar.lch7217",
     "nacional-tv.teleclub",
@@ -105,7 +107,6 @@
     "nzk-tv.teleclub",
     "onda-tv.teleclub",
     "orbit-tv.teleclub",
-    "ovacion.teleclub",
     "planea-tv.teleclub",
     "radio-exitosa.teleclub",
     "radio-la-zona.teleclub",
@@ -411,11 +412,11 @@
       "name": "Orbit tv"
     },
     {
-      "id": "ovacion.teleclub",
+      "id": "movistar.lch7202",
       "name": "Ovación tv"
     },
     {
-      "id": "custom-1104",
+      "id": "movistar.lch7110",
       "name": "PBO"
     },
     {
@@ -665,6 +666,10 @@
     {
       "id": "custom-1017",
       "name": "WEST"
+    },
+    {
+      "id": "movistar.lch2219",
+      "name": "WILLAS TV"
     },
     {
       "id": "custom-1235",

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-16T14:27:46.594620+00:00" radio-la-zona-updated-at="2026-10-16T14:27:46.802037+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-16T18:14:46.819424+00:00" radio-la-zona-updated-at="2026-10-16T18:14:47.095640+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -68,9 +68,9 @@
     <display-name lang="es">Latina</display-name>
     <icon src="http://panel.digo.net.pe:80/images/e2e111c5c7af02e5b44c0ebc9e15d56a.png" />
   </channel>
-  <channel id="ovacion.teleclub">
+  <channel id="movistar.lch7202">
     <display-name lang="es">Ovación tv</display-name>
-    <icon src="https://cdn-profiles.tunein.com/s17868/images/logog.png" />
+    <icon src="http://panel.digo.net.pe:80/images/3840428688dd447240a9338aec9ac630.png" />
   </channel>
   <channel id="mitv.america-television">
     <display-name lang="es">América</display-name>
@@ -120,6 +120,10 @@
     <display-name lang="es">Visión sur tv</display-name>
     <icon src="https://cdn.m3u.cl/logo/1490_Vision_Sur_Television.png" />
   </channel>
+  <channel id="movistar.lch2203">
+    <display-name lang="es">Panamericana tv</display-name>
+    <icon src="https://i.imgur.com/oSvEqkm_d.png" />
+  </channel>
   <channel id="mega-tv-jaen.teleclub">
     <display-name lang="es">Mega tv jaen</display-name>
     <icon src="https://cdn.m3u.cl/logo/1491_Mega_TV_Jaen.png" />
@@ -147,6 +151,10 @@
   <channel id="latina-noticias.teleclub">
     <display-name lang="es">Latina noticias</display-name>
     <icon src="https://cdn.m3u.cl/logo/1742_Latina_Noticias.png" />
+  </channel>
+  <channel id="movistar.lch2205">
+    <display-name lang="es">ATV</display-name>
+    <icon src="http://panel.digo.net.pe:80/images/d73e8da51cec0f6adaae0534163fc2c6.png" />
   </channel>
   <channel id="custom-27">
     <display-name lang="es">Dud tv</display-name>
@@ -176,9 +184,9 @@
     <display-name lang="es">Nacional tv</display-name>
     <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5h6_x3vDbiY_b6zaSBJOl-sw-0tBfVaXnWlUNHRC7eA&amp;s=10" />
   </channel>
-  <channel id="atv-plus.teleclub">
+  <channel id="movistar.lch6307">
     <display-name lang="es">ATV +</display-name>
-    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxJ8xbi3p7o_uPUDbfWfAPwAMc5qN4Xusvogy1Qtto4Q&amp;s=10" />
+    <icon src="http://panel.digo.net.pe:80/images/5ca7075fda4a57839f3d2e764bf0021d.png" />
   </channel>
   <channel id="ipe.teleclub">
     <display-name lang="es">CANAL IPE SD</display-name>
@@ -537,6 +545,10 @@
     <display-name lang="es">SOL TV</display-name>
     <icon src="https://i.imgur.com/Gx5dOEO_d.png" />
   </channel>
+  <channel id="movistar.lch2219">
+    <display-name lang="es">WILLAS TV</display-name>
+    <icon src="http://panel.digo.net.pe:80/images/e754dfeea9674479e5ac8d3f8b396157.png" />
+  </channel>
   <channel id="2047mvstr.pe">
     <display-name lang="es">USMP TV</display-name>
     <icon src="https://i.imgur.com/fdCDlsd_d.png" />
@@ -552,9 +564,9 @@
     <display-name lang="es">TV COSMOS</display-name>
     <icon src="https://cdn.m3u.cl/logo/701_TV_Cosmos_15_1.png" />
   </channel>
-  <channel id="custom-1104">
+  <channel id="movistar.lch7110">
     <display-name lang="es">PBO</display-name>
-    <icon src="https://i.imgur.com/lonVunk.jpg" />
+    <icon src="http://panel.digo.net.pe:80/images/431e76612889d2307b8ca32ed42f4f25.png" />
   </channel>
   <channel id="custom-1105">
     <display-name lang="es">BHTV HD</display-name>
@@ -870,8 +882,9 @@
   <channel id="custom-1249">
     <display-name lang="es">BICOLOR+</display-name>
   </channel>
-  <channel id="n-canal.teleclub">
+  <channel id="movistar.lch2318">
     <display-name lang="es">Canal N</display-name>
+    <icon src="http://panel.digo.net.pe:80/images/2fbb8a03c0827c6df680c4a87e916122.png" />
   </channel>
   <channel id="custom-1252">
     <display-name lang="es">TELEFE</display-name>
@@ -12937,200 +12950,200 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261017043000 +0000" stop="20261017051000 +0000" channel="america-television.teleclub">
-    <title lang="es">Destilando amor</title>
-  </programme>
-  <programme start="20261016051000 +0000" stop="20261016053000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
-  <programme start="20261016053000 +0000" stop="20261016063000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
-  <programme start="20261016063000 +0000" stop="20261016080000 +0000" channel="america-television.teleclub">
-    <title lang="es">Mande quien mande</title>
-  </programme>
-  <programme start="20261016080000 +0000" stop="20261016081600 +0000" channel="america-television.teleclub">
-    <title lang="es">América Noticias Primera Edición</title>
-  </programme>
-  <programme start="20261016081600 +0000" stop="20261016100000 +0000" channel="america-television.teleclub">
-    <title lang="es">América Noticias Primera Edición</title>
-  </programme>
-  <programme start="20261016100000 +0000" stop="20261016115000 +0000" channel="america-television.teleclub">
-    <title lang="es">América Noticias Primera Edición</title>
-  </programme>
-  <programme start="20261016115000 +0000" stop="20261016121000 +0000" channel="america-television.teleclub">
-    <title lang="es">América Deportes</title>
-  </programme>
-  <programme start="20261016121000 +0000" stop="20261016123000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
-  <programme start="20261016123000 +0000" stop="20261016140000 +0000" channel="america-television.teleclub">
-    <title lang="es">América hoy</title>
-  </programme>
-  <programme start="20261016140000 +0000" stop="20261016150000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
-  <programme start="20261016150000 +0000" stop="20261016153500 +0000" channel="america-television.teleclub">
-    <title lang="es">América Noticias Edición Mediodía</title>
-  </programme>
-  <programme start="20261016153500 +0000" stop="20261016154500 +0000" channel="america-television.teleclub">
-    <title lang="es">América Deportes</title>
-  </programme>
-  <programme start="20261016154500 +0000" stop="20261016160000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
-  <programme start="20261016160000 +0000" stop="20261016164000 +0000" channel="america-television.teleclub">
-    <title lang="es">Destilando amor</title>
-  </programme>
-  <programme start="20261016164000 +0000" stop="20261016181000 +0000" channel="america-television.teleclub">
-    <title lang="es">Mande quien mande</title>
-  </programme>
-  <programme start="20261016181000 +0000" stop="20261016190000 +0000" channel="america-television.teleclub">
-    <title lang="es">Al fondo hay sitio</title>
-  </programme>
-  <programme start="20261016190000 +0000" stop="20261016200000 +0000" channel="america-television.teleclub">
-    <title lang="es">Los Hilos del Pasado</title>
-  </programme>
-  <programme start="20261016210000 +0000" stop="20261016223000 +0000" channel="america-television.teleclub">
-    <title lang="es">Los milagros de la rosa, Perú</title>
-  </programme>
-  <programme start="20261016223000 +0000" stop="20261017000000 +0000" channel="america-television.teleclub">
-    <title lang="es">Esto es guerra</title>
-  </programme>
-  <programme start="20261017000000 +0000" stop="20261017010000 +0000" channel="america-television.teleclub">
-    <title lang="es">Al fondo hay sitio</title>
-  </programme>
-  <programme start="20261017010000 +0000" stop="20261017020000 +0000" channel="america-television.teleclub">
-    <title lang="es">La vida que me robaste</title>
-  </programme>
-  <programme start="20261017020000 +0000" stop="20261017021700 +0000" channel="america-television.teleclub">
-    <title lang="es">América noticias Edición central</title>
-  </programme>
-  <programme start="20261017021700 +0000" stop="20261017022400 +0000" channel="america-television.teleclub">
-    <title lang="es">América Deportes</title>
-  </programme>
-  <programme start="20261017022400 +0000" stop="20261017022700 +0000" channel="america-television.teleclub">
-    <title lang="es">América noticias Edición central</title>
-  </programme>
-  <programme start="20261017022700 +0000" stop="20261017024500 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
-  <programme start="20261017024500 +0000" stop="20261017033000 +0000" channel="america-television.teleclub">
+  <programme start="20261017044500 +0000" stop="20261017053000 +0000" channel="america-television.teleclub">
     <title lang="es">Desvelados</title>
   </programme>
-  <programme start="20261017033000 +0000" stop="20261017043000 +0000" channel="america-television.teleclub">
+  <programme start="20261016053000 +0000" stop="20261016063000 +0000" channel="america-television.teleclub">
     <title lang="es">Los hilos del pasado</title>
   </programme>
-  <programme start="20261017043000 +0000" stop="20261017051000 +0000" channel="america-television.teleclub">
+  <programme start="20261016063000 +0000" stop="20261016071000 +0000" channel="america-television.teleclub">
     <title lang="es">Destilando amor</title>
   </programme>
-  <programme start="20261018043000 +0000" stop="20261018051000 +0000" channel="america-television.teleclub">
+  <programme start="20261016071000 +0000" stop="20261016073000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
+  <programme start="20261016073000 +0000" stop="20261016083000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
+  <programme start="20261016083000 +0000" stop="20261016100000 +0000" channel="america-television.teleclub">
+    <title lang="es">Mande quien mande</title>
+  </programme>
+  <programme start="20261016100000 +0000" stop="20261016101600 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Primera Edición</title>
+  </programme>
+  <programme start="20261016101600 +0000" stop="20261016120000 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Primera Edición</title>
+  </programme>
+  <programme start="20261016120000 +0000" stop="20261016135000 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Primera Edición</title>
+  </programme>
+  <programme start="20261016135000 +0000" stop="20261016141000 +0000" channel="america-television.teleclub">
+    <title lang="es">América Deportes</title>
+  </programme>
+  <programme start="20261016141000 +0000" stop="20261016143000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
+  <programme start="20261016143000 +0000" stop="20261016160000 +0000" channel="america-television.teleclub">
+    <title lang="es">América hoy</title>
+  </programme>
+  <programme start="20261016160000 +0000" stop="20261016170000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
+  <programme start="20261016170000 +0000" stop="20261016173500 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Edición Mediodía</title>
+  </programme>
+  <programme start="20261016173500 +0000" stop="20261016174500 +0000" channel="america-television.teleclub">
+    <title lang="es">América Deportes</title>
+  </programme>
+  <programme start="20261016174500 +0000" stop="20261016180000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
+  <programme start="20261016180000 +0000" stop="20261016184000 +0000" channel="america-television.teleclub">
     <title lang="es">Destilando amor</title>
   </programme>
-  <programme start="20261017051000 +0000" stop="20261017053000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
+  <programme start="20261016184000 +0000" stop="20261016201000 +0000" channel="america-television.teleclub">
+    <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20261017053000 +0000" stop="20261017063000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
+  <programme start="20261016201000 +0000" stop="20261016210000 +0000" channel="america-television.teleclub">
+    <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20261017063000 +0000" stop="20261017073000 +0000" channel="america-television.teleclub">
+  <programme start="20261016210000 +0000" stop="20261016220000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los Hilos del Pasado</title>
+  </programme>
+  <programme start="20261016230000 +0000" stop="20261017003000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los milagros de la rosa, Perú</title>
+  </programme>
+  <programme start="20261017003000 +0000" stop="20261017020000 +0000" channel="america-television.teleclub">
+    <title lang="es">Esto es guerra</title>
+  </programme>
+  <programme start="20261017020000 +0000" stop="20261017030000 +0000" channel="america-television.teleclub">
+    <title lang="es">Al fondo hay sitio</title>
+  </programme>
+  <programme start="20261017030000 +0000" stop="20261017040000 +0000" channel="america-television.teleclub">
+    <title lang="es">La vida que me robaste</title>
+  </programme>
+  <programme start="20261017040000 +0000" stop="20261017041700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20261017073000 +0000" stop="20261017081600 +0000" channel="america-television.teleclub">
+  <programme start="20261017041700 +0000" stop="20261017042400 +0000" channel="america-television.teleclub">
+    <title lang="es">América Deportes</title>
+  </programme>
+  <programme start="20261017042400 +0000" stop="20261017042700 +0000" channel="america-television.teleclub">
+    <title lang="es">América noticias Edición central</title>
+  </programme>
+  <programme start="20261017042700 +0000" stop="20261017044500 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
+  <programme start="20261017044500 +0000" stop="20261017053000 +0000" channel="america-television.teleclub">
+    <title lang="es">Desvelados</title>
+  </programme>
+  <programme start="20261018044500 +0000" stop="20261018053000 +0000" channel="america-television.teleclub">
+    <title lang="es">Desvelados</title>
+  </programme>
+  <programme start="20261017053000 +0000" stop="20261017063000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los hilos del pasado</title>
+  </programme>
+  <programme start="20261017063000 +0000" stop="20261017071000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
+  </programme>
+  <programme start="20261017071000 +0000" stop="20261017073000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
+  <programme start="20261017073000 +0000" stop="20261017083000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
+  <programme start="20261017083000 +0000" stop="20261017093000 +0000" channel="america-television.teleclub">
+    <title lang="es">América noticias Edición central</title>
+  </programme>
+  <programme start="20261017093000 +0000" stop="20261017101600 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20261017081600 +0000" stop="20261017090000 +0000" channel="america-television.teleclub">
+  <programme start="20261017101600 +0000" stop="20261017110000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20261017090000 +0000" stop="20261017100000 +0000" channel="america-television.teleclub">
+  <programme start="20261017110000 +0000" stop="20261017120000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Edición sabatina matutino</title>
   </programme>
-  <programme start="20261017100000 +0000" stop="20261017120000 +0000" channel="america-television.teleclub">
+  <programme start="20261017120000 +0000" stop="20261017140000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Edición sabatina</title>
   </programme>
-  <programme start="20261017120000 +0000" stop="20261017140000 +0000" channel="america-television.teleclub">
+  <programme start="20261017140000 +0000" stop="20261017160000 +0000" channel="america-television.teleclub">
     <title lang="es">¡Estás en todas!</title>
   </programme>
-  <programme start="20261017150000 +0000" stop="20261017160000 +0000" channel="america-television.teleclub">
+  <programme start="20261017170000 +0000" stop="20261017180000 +0000" channel="america-television.teleclub">
     <title lang="es">Como dice el dicho</title>
   </programme>
-  <programme start="20261017160000 +0000" stop="20261017170000 +0000" channel="america-television.teleclub">
+  <programme start="20261017180000 +0000" stop="20261017190000 +0000" channel="america-television.teleclub">
     <title lang="es">Solamente milagros</title>
   </programme>
-  <programme start="20261017180000 +0000" stop="20261017193000 +0000" channel="america-television.teleclub">
+  <programme start="20261017200000 +0000" stop="20261017213000 +0000" channel="america-television.teleclub">
     <title lang="es">El hijo de la máscara</title>
   </programme>
-  <programme start="20261017211500 +0000" stop="20261017221500 +0000" channel="america-television.teleclub">
+  <programme start="20261017231500 +0000" stop="20261018001500 +0000" channel="america-television.teleclub">
     <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
-  <programme start="20261017221500 +0000" stop="20261017230000 +0000" channel="america-television.teleclub">
+  <programme start="20261018001500 +0000" stop="20261018010000 +0000" channel="america-television.teleclub">
     <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
-  <programme start="20261017230000 +0000" stop="20261018010000 +0000" channel="america-television.teleclub">
+  <programme start="20261018010000 +0000" stop="20261018030000 +0000" channel="america-television.teleclub">
     <title lang="es">El reventonazo de la Chola</title>
   </programme>
-  <programme start="20261018010000 +0000" stop="20261018013000 +0000" channel="america-television.teleclub">
+  <programme start="20261018030000 +0000" stop="20261018033000 +0000" channel="america-television.teleclub">
     <title lang="es">La alameda de la Chola Chabuca</title>
   </programme>
-  <programme start="20261018013000 +0000" stop="20261018030000 +0000" channel="america-television.teleclub">
+  <programme start="20261018033000 +0000" stop="20261018050000 +0000" channel="america-television.teleclub">
     <title lang="es">Medias hermanas</title>
   </programme>
-  <programme start="20261018030000 +0000" stop="20261018040000 +0000" channel="america-television.teleclub">
+  <programme start="20261018050000 +0000" stop="20261018060000 +0000" channel="america-television.teleclub">
     <title lang="es">BKFC 60 Campeonato de Lucha a Puño Limpio</title>
   </programme>
-  <programme start="20261018040000 +0000" stop="20261018060000 +0000" channel="america-television.teleclub">
-    <title lang="es">Winter, el delfín</title>
-  </programme>
-  <programme start="20261019040000 +0000" stop="20261019060000 +0000" channel="america-television.teleclub">
-    <title lang="es">Winter, el delfín</title>
-  </programme>
   <programme start="20261018060000 +0000" stop="20261018080000 +0000" channel="america-television.teleclub">
+    <title lang="es">Winter, el delfín</title>
+  </programme>
+  <programme start="20261018080000 +0000" stop="20261018100000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Edición sabatina</title>
   </programme>
-  <programme start="20261018080000 +0000" stop="20261018081600 +0000" channel="america-television.teleclub">
+  <programme start="20261018100000 +0000" stop="20261018101600 +0000" channel="america-television.teleclub">
     <title lang="es">¡Estás en todas!</title>
   </programme>
-  <programme start="20261018081600 +0000" stop="20261018090000 +0000" channel="america-television.teleclub">
+  <programme start="20261018101600 +0000" stop="20261018110000 +0000" channel="america-television.teleclub">
     <title lang="es">¡Estás en todas!</title>
   </programme>
-  <programme start="20261018090000 +0000" stop="20261018100000 +0000" channel="america-television.teleclub">
+  <programme start="20261018110000 +0000" stop="20261018120000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Edición dominical matutino</title>
   </programme>
-  <programme start="20261018100000 +0000" stop="20261018113000 +0000" channel="america-television.teleclub">
+  <programme start="20261018120000 +0000" stop="20261018133000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Edición Dominical</title>
   </programme>
-  <programme start="20261018113000 +0000" stop="20261018140000 +0000" channel="america-television.teleclub">
+  <programme start="20261018133000 +0000" stop="20261018160000 +0000" channel="america-television.teleclub">
     <title lang="es">Domingo al Día</title>
   </programme>
-  <programme start="20261018140000 +0000" stop="20261018150000 +0000" channel="america-television.teleclub">
+  <programme start="20261018160000 +0000" stop="20261018170000 +0000" channel="america-television.teleclub">
     <title lang="es">TEC</title>
   </programme>
-  <programme start="20261018160000 +0000" stop="20261018170000 +0000" channel="america-television.teleclub">
+  <programme start="20261018180000 +0000" stop="20261018190000 +0000" channel="america-television.teleclub">
     <title lang="es">Solamente milagros</title>
   </programme>
-  <programme start="20261018173000 +0000" stop="20261018191500 +0000" channel="america-television.teleclub">
+  <programme start="20261018193000 +0000" stop="20261018211500 +0000" channel="america-television.teleclub">
     <title lang="es">El Heredero del Crimen</title>
   </programme>
-  <programme start="20261018211500 +0000" stop="20261018230000 +0000" channel="america-television.teleclub">
+  <programme start="20261018231500 +0000" stop="20261019010000 +0000" channel="america-television.teleclub">
     <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
-  <programme start="20261018230000 +0000" stop="20261019010000 +0000" channel="america-television.teleclub">
+  <programme start="20261019010000 +0000" stop="20261019030000 +0000" channel="america-television.teleclub">
     <title lang="es">Cuarto Poder</title>
   </programme>
-  <programme start="20261019010000 +0000" stop="20261019015000 +0000" channel="america-television.teleclub">
+  <programme start="20261019030000 +0000" stop="20261019035000 +0000" channel="america-television.teleclub">
     <title lang="es">Fútbol en América</title>
   </programme>
-  <programme start="20261019015000 +0000" stop="20261019015300 +0000" channel="america-television.teleclub">
+  <programme start="20261019035000 +0000" stop="20261019035300 +0000" channel="america-television.teleclub">
     <title lang="es">La Tinka</title>
   </programme>
-  <programme start="20261019015300 +0000" stop="20261019023000 +0000" channel="america-television.teleclub">
+  <programme start="20261019035300 +0000" stop="20261019043000 +0000" channel="america-television.teleclub">
     <title lang="es">Fútbol en América</title>
   </programme>
-  <programme start="20261019023000 +0000" stop="20261019040000 +0000" channel="america-television.teleclub">
+  <programme start="20261019043000 +0000" stop="20261019060000 +0000" channel="america-television.teleclub">
     <title lang="es">La piedra mágica</title>
-  </programme>
-  <programme start="20261019040000 +0000" stop="20261019050000 +0000" channel="america-television.teleclub">
-    <title lang="es">América Noticias Edición dominical matutino</title>
   </programme>
   <programme start="20261015050000 +0000" stop="20261015110000 +0000" channel="custom-28">
     <title lang="es">Radio La Zona, Te enciende</title>
@@ -13404,15 +13417,15 @@
     <title lang="es">Teleclub tv - En vivo</title>
     <desc lang="es">Programación en vivo de Teleclub tv. Categoría: Locales.</desc>
   </programme>
-  <programme start="20261016050000 +0000" stop="20261017050000 +0000" channel="ovacion.teleclub">
+  <programme start="20261016050000 +0000" stop="20261017050000 +0000" channel="movistar.lch7202">
     <title lang="es">Ovación tv - En vivo</title>
     <desc lang="es">Programación en vivo de Ovación tv. Categoría: Deportes.</desc>
   </programme>
-  <programme start="20261017050000 +0000" stop="20261018050000 +0000" channel="ovacion.teleclub">
+  <programme start="20261017050000 +0000" stop="20261018050000 +0000" channel="movistar.lch7202">
     <title lang="es">Ovación tv - En vivo</title>
     <desc lang="es">Programación en vivo de Ovación tv. Categoría: Deportes.</desc>
   </programme>
-  <programme start="20261018050000 +0000" stop="20261019050000 +0000" channel="ovacion.teleclub">
+  <programme start="20261018050000 +0000" stop="20261019050000 +0000" channel="movistar.lch7202">
     <title lang="es">Ovación tv - En vivo</title>
     <desc lang="es">Programación en vivo de Ovación tv. Categoría: Deportes.</desc>
   </programme>
@@ -13920,6 +13933,18 @@
     <title lang="es">Juntos tv - En vivo</title>
     <desc lang="es">Programación en vivo de Juntos tv. Categoría: Nacionales.</desc>
   </programme>
+  <programme start="20261016050000 +0000" stop="20261017050000 +0000" channel="movistar.lch2219">
+    <title lang="es">WILLAS TV - En vivo</title>
+    <desc lang="es">Programación en vivo de WILLAS TV. Categoría: Nacionales.</desc>
+  </programme>
+  <programme start="20261017050000 +0000" stop="20261018050000 +0000" channel="movistar.lch2219">
+    <title lang="es">WILLAS TV - En vivo</title>
+    <desc lang="es">Programación en vivo de WILLAS TV. Categoría: Nacionales.</desc>
+  </programme>
+  <programme start="20261018050000 +0000" stop="20261019050000 +0000" channel="movistar.lch2219">
+    <title lang="es">WILLAS TV - En vivo</title>
+    <desc lang="es">Programación en vivo de WILLAS TV. Categoría: Nacionales.</desc>
+  </programme>
   <programme start="20261016050000 +0000" stop="20261017050000 +0000" channel="onda-tv.teleclub">
     <title lang="es">BONITA TV - En vivo</title>
     <desc lang="es">Programación en vivo de BONITA TV. Categoría: Nacionales.</desc>
@@ -13956,15 +13981,15 @@
     <title lang="es">TV COSMOS - En vivo</title>
     <desc lang="es">Programación en vivo de TV COSMOS. Categoría: Nacionales.</desc>
   </programme>
-  <programme start="20261016050000 +0000" stop="20261017050000 +0000" channel="custom-1104">
+  <programme start="20261016050000 +0000" stop="20261017050000 +0000" channel="movistar.lch7110">
     <title lang="es">PBO - En vivo</title>
     <desc lang="es">Programación en vivo de PBO. Categoría: Nacionales.</desc>
   </programme>
-  <programme start="20261017050000 +0000" stop="20261018050000 +0000" channel="custom-1104">
+  <programme start="20261017050000 +0000" stop="20261018050000 +0000" channel="movistar.lch7110">
     <title lang="es">PBO - En vivo</title>
     <desc lang="es">Programación en vivo de PBO. Categoría: Nacionales.</desc>
   </programme>
-  <programme start="20261018050000 +0000" stop="20261019050000 +0000" channel="custom-1104">
+  <programme start="20261018050000 +0000" stop="20261019050000 +0000" channel="movistar.lch7110">
     <title lang="es">PBO - En vivo</title>
     <desc lang="es">Programación en vivo de PBO. Categoría: Nacionales.</desc>
   </programme>
@@ -15400,7 +15425,443 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261015230000 +0000" stop="20261016000000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261015223000 +0000" stop="20261015233000 +0000" channel="movistar.lch2203">
+    <title lang="es">Ana de nadie</title>
+    <desc lang="es">Ana cree tener al marido perfecto hasta que descubre que su esposo la engaña y acto seguido conoce a un hombre que la considera el amor de su vida.</desc>
+    <date>2023</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261015233000 +0000" stop="20261016003000 +0000" channel="movistar.lch2203">
+    <title lang="es">La familia Ingalls</title>
+    <desc lang="es">Serie basada en los libros de Laura Ingalls Wilder, en donde se narran las aventuras de la familia Ingalls, una familia originaria de Wisconsin que se muda a Minnesota en 1870.</desc>
+    <date>1974</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016003000 +0000" stop="20261016013000 +0000" channel="movistar.lch2203">
+    <title lang="es">Tutankamón</title>
+    <date>2019</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016013000 +0000" stop="20261016030000 +0000" channel="movistar.lch2203">
+    <title lang="es">24 horas</title>
+    <desc lang="es">Las noticias más temprano, con la objetividad y veracidad que se busca en el Perú. El noticiero decano de la televisión peruana.</desc>
+    <date>2006</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016030000 +0000" stop="20261016040000 +0000" channel="movistar.lch2203">
+    <title lang="es">Esta noche</title>
+    <desc lang="es">Espacio periodístico enfocado en la actualidad, política nacional, debate y entrevistas profundas cara a cara con los protagonistas de la agenda peruana.</desc>
+    <date>2012</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016040000 +0000" stop="20261016044500 +0000" channel="movistar.lch2203">
+    <title lang="es">Vale todo</title>
+    <desc lang="es">Raquel Accioli una mujer totalmente íntegra, pero su hija Maria de Fátima es todo lo contrario. Ella vende la casa familiar y se escapa con el dinero a Río de Janeiro.</desc>
+    <date>1988</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016044500 +0000" stop="20261016050000 +0000" channel="movistar.lch2203">
+    <title lang="es">MacGyverEl Juicio Final</title>
+    <desc lang="es">El asesinato y un secuestro llevan a MacGyver hacia una plata nuclear secreta.</desc>
+    <date>1994</date>
+    <country lang="es">Estados Unidos</country>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016050000 +0000" stop="20261016053000 +0000" channel="movistar.lch2203">
+    <title lang="es">MacGyver</title>
+    <desc lang="es">MacGyver es un joven que crea una organización clandestina para ayudar al gobierno de Estados Unidos en misiones arriesgadas. El agente sabrá usar su inventiva, su conocimiento y su capacidad de improvisación para convertirse en un héroe de acción.</desc>
+    <date>2016</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016053000 +0000" stop="20261016100000 +0000" channel="movistar.lch2203">
+    <title lang="es">Geoherbal</title>
+    <date>2024</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016100000 +0000" stop="20261016103000 +0000" channel="movistar.lch2203">
+    <title lang="es">Telebrands</title>
+    <date>2004</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016103000 +0000" stop="20261016110000 +0000" channel="movistar.lch2203">
+    <title lang="es">Buenos días, Perú</title>
+    <desc lang="es">Un matutino por excelencia de la televisión peruana con información de la actualidad nacional e internacional.</desc>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016110000 +0000" stop="20261016123000 +0000" channel="movistar.lch2203">
+    <title lang="es">Buenos días, Perú</title>
+    <desc lang="es">Un matutino por excelencia de la televisión peruana con información de la actualidad nacional e internacional.</desc>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016123000 +0000" stop="20261016143000 +0000" channel="movistar.lch2203">
+    <title lang="es">Buenos días, Perú</title>
+    <desc lang="es">Un matutino por excelencia de la televisión peruana con información de la actualidad nacional e internacional.</desc>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016143000 +0000" stop="20261016150000 +0000" channel="movistar.lch2203">
+    <title lang="es">Quality Products</title>
+    <desc lang="es">Espacio contratado Programa en ventas por televisión en el Perú brinda productos innovadores y exclusivos, que se comercializan a nivel mundial.</desc>
+    <date>2012</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016150000 +0000" stop="20261016151500 +0000" channel="movistar.lch2203">
+    <title lang="es">Fitosana</title>
+    <date>2009</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016151500 +0000" stop="20261016154500 +0000" channel="movistar.lch2203">
+    <title lang="es">Telebrands</title>
+    <date>2004</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016154500 +0000" stop="20261016170000 +0000" channel="movistar.lch2203">
+    <title lang="es">Detrás de Cámaras</title>
+    <desc lang="es">Programa de investigación que recorre asuntos vinculados al espectáculo, el entretenimiento y las personalidades venezolanas.</desc>
+    <date>2003</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016170000 +0000" stop="20261016180000 +0000" channel="movistar.lch2203">
+    <title lang="es">24 horas</title>
+    <desc lang="es">Las noticias más temprano, con la objetividad y veracidad que se busca en el Perú. El noticiero decano de la televisión peruana.</desc>
+    <date>2006</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016180000 +0000" stop="20261016200000 +0000" channel="movistar.lch2203">
+    <title lang="es">24 horas</title>
+    <desc lang="es">Las noticias más temprano, con la objetividad y veracidad que se busca en el Perú. El noticiero decano de la televisión peruana.</desc>
+    <date>2006</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016200000 +0000" stop="20261016213000 +0000" channel="movistar.lch2203">
+    <title lang="es">La calle no calla</title>
+    <date>2026</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016213000 +0000" stop="20261016223000 +0000" channel="movistar.lch2203">
+    <title lang="es">La hija del mariachi</title>
+    <date>2025</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016223000 +0000" stop="20261016233000 +0000" channel="movistar.lch2203">
+    <title lang="es">Ana de nadie</title>
+    <desc lang="es">Ana cree tener al marido perfecto hasta que descubre que su esposo la engaña y acto seguido conoce a un hombre que la considera el amor de su vida.</desc>
+    <date>2023</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016233000 +0000" stop="20261017003000 +0000" channel="movistar.lch2203">
+    <title lang="es">La familia Ingalls</title>
+    <desc lang="es">Serie basada en los libros de Laura Ingalls Wilder, en donde se narran las aventuras de la familia Ingalls, una familia originaria de Wisconsin que se muda a Minnesota en 1870.</desc>
+    <date>1974</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017003000 +0000" stop="20261017013000 +0000" channel="movistar.lch2203">
+    <title lang="es">Abraham</title>
+    <desc lang="es">Adaptación de uno de los libros más reconocidos de la Biblia, que aborda la historia del origen de la humanidad, invitando a entender el presente, volviendo al principio de todo. La caída de Lucifer, la vida de Adán y Eva, Noé y el diluvio, y otros.</desc>
+    <date>2021</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261017013000 +0000" stop="20261017030000 +0000" channel="movistar.lch2203">
+    <title lang="es">24 horas</title>
+    <desc lang="es">Las noticias más temprano, con la objetividad y veracidad que se busca en el Perú. El noticiero decano de la televisión peruana.</desc>
+    <date>2006</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261017030000 +0000" stop="20261017040000 +0000" channel="movistar.lch2203">
+    <title lang="es">Esta noche</title>
+    <desc lang="es">Espacio periodístico enfocado en la actualidad, política nacional, debate y entrevistas profundas cara a cara con los protagonistas de la agenda peruana.</desc>
+    <date>2012</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261017040000 +0000" stop="20261017050000 +0000" channel="movistar.lch2203">
+    <title lang="es">Vale todo</title>
+    <desc lang="es">Raquel Accioli una mujer totalmente íntegra, pero su hija Maria de Fátima es todo lo contrario. Ella vende la casa familiar y se escapa con el dinero a Río de Janeiro.</desc>
+    <date>1988</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261017050000 +0000" stop="20261017053000 +0000" channel="movistar.lch2203">
+    <title lang="es">Los Portales</title>
+    <desc lang="es">Programa que se dedica a la promoción y desarrollo inmobiliario y habilitación urbana, así como el desarrollo de viviendas de interés social y de proyectos multifamiliares de vivienda.</desc>
+    <date>2008</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261017053000 +0000" stop="20261017103000 +0000" channel="movistar.lch2203">
+    <title lang="es">Geoherbal</title>
+    <date>2024</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261017103000 +0000" stop="20261017130000 +0000" channel="movistar.lch2203">
+    <title lang="es">Encantos del Perú</title>
+    <desc lang="es">Programa con motivación cultural, música, danza y costumbres peruanas.</desc>
+    <date>2006</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017130000 +0000" stop="20261017140000 +0000" channel="movistar.lch2203">
+    <title lang="es">En forma</title>
+    <date>2021</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017140000 +0000" stop="20261017150000 +0000" channel="movistar.lch2203">
+    <title lang="es">Vida y hogar</title>
+    <desc lang="es">Servicios inmobiliarios que se ofrecen en el país. El tipo de material que se utiliza para determinado tipo de construcción, además de tratar el tema de diseño de interiores y de las nuevas tendencias del urbanismo.</desc>
+    <date>2012</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017150000 +0000" stop="20261017154500 +0000" channel="movistar.lch2203">
+    <title lang="es">La Cajita Musical</title>
+    <desc lang="es">Programa folclórico de música nacional.</desc>
+    <date>2011</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017154500 +0000" stop="20261017160000 +0000" channel="movistar.lch2203">
+    <title lang="es">Telebrands</title>
+    <date>2004</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017160000 +0000" stop="20261017163000 +0000" channel="movistar.lch2203">
+    <title lang="es">Patrimonio mundial</title>
+    <desc lang="es">Obras extraordinarias de la arquitectura, monumentos sorprendentes y fascinantes paisajes naturales, todos ellos reconocidos por la UNESCO como patrimonios de la humanidad.</desc>
+    <date>1995</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261017163000 +0000" stop="20261017170000 +0000" channel="movistar.lch2203">
+    <title lang="es">Visión futuro</title>
+    <date>2021</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017170000 +0000" stop="20261017180000 +0000" channel="movistar.lch2203">
+    <title lang="es">Escápate</title>
+    <desc lang="es">Recorridos por tierra a distintos destinos de Perú para mostrar las actividades, la cultura, los deportes y las opciones gastronómicas que ofrecen.</desc>
+    <date>2025</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017180000 +0000" stop="20261017190000 +0000" channel="movistar.lch2203">
+    <title lang="es">Vende +</title>
+    <date>2026</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017190000 +0000" stop="20261017210000 +0000" channel="movistar.lch2203">
+    <title lang="es">Saras &amp; KumudAlmas gemelas</title>
+    <desc lang="es">Un hombre es forzado por su padre a casarse con una mujer que no conoce. ¿Podrá oponerse a ese designio? Una historia de poder, amor y desengaño en los más impactantes escenarios naturales de Asia y Medio Oriente.</desc>
+    <date>2013</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017210000 +0000" stop="20261018000000 +0000" channel="movistar.lch2203">
+    <title lang="es">El show de Edwin</title>
+    <date>2026</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018000000 +0000" stop="20261018020000 +0000" channel="movistar.lch2203">
+    <title lang="es">24 horas</title>
+    <desc lang="es">Las noticias más temprano, con la objetividad y veracidad que se busca en el Perú. El noticiero decano de la televisión peruana.</desc>
+    <date>2006</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018020000 +0000" stop="20261018040000 +0000" channel="movistar.lch2203">
+    <title lang="es">JB Noticias</title>
+    <desc lang="es">Un formato que mezcla sátira, actualidad y personajes inéditos.</desc>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018040000 +0000" stop="20261018050000 +0000" channel="movistar.lch2203">
+    <title lang="es">Inka Mma Profesional</title>
+    <desc lang="es">Evento de artes marciales mixtas en Peru, con más de 20 años en la realización de grandes eventos deportivos.</desc>
+    <date>2026</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018050000 +0000" stop="20261018060000 +0000" channel="movistar.lch2203">
+    <title lang="es">Cazador de talentos</title>
+    <desc lang="es">El ganador del programa tendrá una grabación de su propio EP y un contrato para trabajar en la cadena de restaurantes y hoteles Rústica.</desc>
+    <date>2024</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018060000 +0000" stop="20261018103000 +0000" channel="movistar.lch2203">
+    <title lang="es">Geoherbal</title>
+    <date>2024</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018103000 +0000" stop="20261018130000 +0000" channel="movistar.lch2203">
+    <title lang="es">Encantos del Perú</title>
+    <desc lang="es">Programa con motivación cultural, música, danza y costumbres peruanas.</desc>
+    <date>2006</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018130000 +0000" stop="20261018151000 +0000" channel="movistar.lch2203">
+    <title lang="es">El dominical de Panamericana</title>
+    <desc lang="es">Informes y reportajes del ámbito político, social, internacional y del espectáculo.</desc>
+    <date>2011</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018151000 +0000" stop="20261018153000 +0000" channel="movistar.lch2203">
+    <title lang="es">Doctores al mando</title>
+    <date>2026</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018153000 +0000" stop="20261018160000 +0000" channel="movistar.lch2203">
+    <title lang="es">Clínica Ñahui</title>
+    <desc lang="es">Un programa dedicado al cuidado de la salud visual.</desc>
+    <date>2018</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018160000 +0000" stop="20261018161500 +0000" channel="movistar.lch2203">
+    <title lang="es">Rejuvenece con la Dra. Ruth Guerra</title>
+    <date>2026</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018161500 +0000" stop="20261018163000 +0000" channel="movistar.lch2203">
+    <title lang="es">Patrimonio mundial</title>
+    <desc lang="es">Obras extraordinarias de la arquitectura, monumentos sorprendentes y fascinantes paisajes naturales, todos ellos reconocidos por la UNESCO como patrimonios de la humanidad.</desc>
+    <date>1995</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018163000 +0000" stop="20261018170000 +0000" channel="movistar.lch2203">
+    <title lang="es">Dpaso, el legendario caballo peruano</title>
+    <desc lang="es">Un programa de corte cultural y educativo que va dirigido a apasionados del caballo peruano de paso.</desc>
+    <date>2022</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018170000 +0000" stop="20261018183000 +0000" channel="movistar.lch2203">
+    <title lang="es">Expedición al mundo animal</title>
+    <desc lang="es">El comportamiento de los animales salvajes en sus diversos ambientes y el papel que desempeñan en el mantenimiento del equilibrio ecológico.</desc>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018183000 +0000" stop="20261018193000 +0000" channel="movistar.lch2203">
+    <title lang="es">Lo mejor de risas y salsa</title>
+    <desc lang="es">Programa cómico nacional.</desc>
+    <date>2000</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018193000 +0000" stop="20261018210000 +0000" channel="movistar.lch2203">
+    <title lang="es">Trampolín para todo el mundo</title>
+    <desc lang="es">Un espacio a que las personas tengan la oportunidad de mostrar su talento, junto a destacadas entrevistas, concursos, comentarios e informes especiales.</desc>
+    <date>2008</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018210000 +0000" stop="20261018230000 +0000" channel="movistar.lch2203">
+    <title lang="es">24 horas</title>
+    <desc lang="es">Las noticias más temprano, con la objetividad y veracidad que se busca en el Perú. El noticiero decano de la televisión peruana.</desc>
+    <date>2006</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018230000 +0000" stop="20261019000000 +0000" channel="movistar.lch2203">
+    <title lang="es">Alerta aeropuerto</title>
+    <desc lang="es">Siguiendo a las autoridades del aeropuerto El Dorado en Colombia y su lucha contra osados criminales que tratan de transportar drogas de formas muy ingeniosas, deportaciones, falsificación de documentos y otros delitos.</desc>
+    <date>2015</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261015230000 +0000" stop="20261016000000 +0000" channel="movistar.lch2205">
     <title lang="es">Tres hermanas</title>
     <desc lang="es">Una historia de lazos fraternales. Un grupo de jóvenes pasan a la adultez mediante un camino lleno de problemas y situaciones que las hacen crecer.</desc>
     <date>2024</date>
@@ -15408,7 +15869,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261016000000 +0000" stop="20261016010000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016000000 +0000" stop="20261016010000 +0000" channel="movistar.lch2205">
     <title lang="es">Corazón abandonado</title>
     <desc lang="es">La familia Sayar comienza una nueva vida tras algunas pérdidas.</desc>
     <date>2018</date>
@@ -15416,7 +15877,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016010000 +0000" stop="20261016023000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016010000 +0000" stop="20261016023000 +0000" channel="movistar.lch2205">
     <title lang="es">Ocurre ahora</title>
     <desc lang="es">Noticias del Perú y del mundo.</desc>
     <date>2024</date>
@@ -15424,7 +15885,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016023000 +0000" stop="20261016040000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016023000 +0000" stop="20261016040000 +0000" channel="movistar.lch2205">
     <title lang="es">Magaly TV, la firme</title>
     <desc lang="es">Un programa lleno de humor, diversión y entrevistas a famosos.</desc>
     <date>2019</date>
@@ -15432,7 +15893,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261016040000 +0000" stop="20261016045000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016040000 +0000" stop="20261016045000 +0000" channel="movistar.lch2205">
     <title lang="es">ATV noticias edición central</title>
     <desc lang="es">Un completo resumen informativo con lo más destacado de la jornada.</desc>
     <date>2006</date>
@@ -15440,14 +15901,14 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261016045000 +0000" stop="20261016050000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016045000 +0000" stop="20261016050000 +0000" channel="movistar.lch2205">
     <title lang="es">El deportivo en otra cancha</title>
     <date>2024</date>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261016050000 +0000" stop="20261016060000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016050000 +0000" stop="20261016060000 +0000" channel="movistar.lch2205">
     <title lang="es">The Walking Dead</title>
     <desc lang="es">Tras estar en estado de coma, el expolicía Rick Grimes, descubre que una enfermedad originó un apocalipsis zombi. Rick liderará un grupo de sobrevivientes para buscar un lugar seguro, pero las luchas más peligrosas surgirán entre ellos mismos.</desc>
     <date>2010</date>
@@ -15455,7 +15916,7 @@
       <value>+18</value>
     </rating>
   </programme>
-  <programme start="20261016060000 +0000" stop="20261016070000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016060000 +0000" stop="20261016070000 +0000" channel="movistar.lch2205">
     <title lang="es">Los hombres de Paco</title>
     <desc lang="es">Las relaciones personales y profesionales de tres policías nacionales que han sufrido mala suerte.</desc>
     <date>2005</date>
@@ -15463,7 +15924,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261016070000 +0000" stop="20261016090000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016070000 +0000" stop="20261016090000 +0000" channel="movistar.lch2205">
     <title lang="es">Combate</title>
     <desc lang="es">Dos equipos de jóvenes se enfrentan y deben realizar diferentes pruebas para demostrar cuál de los dos es el más ágil, el más fuerte, el más rápido y el más inteligente.</desc>
     <date>2014</date>
@@ -15471,7 +15932,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261016090000 +0000" stop="20261016103000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016090000 +0000" stop="20261016103000 +0000" channel="movistar.lch2205">
     <title lang="es">Águila Roja</title>
     <desc lang="es">Un héroe anónimo justiciero conocido con el apelativo de Águila Roja, ayuda a los débiles y busca sin descanso a los culpables del trágico asesinato de su joven esposa.</desc>
     <date>2009</date>
@@ -15479,21 +15940,21 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016103000 +0000" stop="20261016120000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016103000 +0000" stop="20261016120000 +0000" channel="movistar.lch2205">
     <title lang="es">ATV noticias edición matinal</title>
     <desc lang="es">Las noticias más relevantes del día narradas con un enfoque objetivo y ágil.</desc>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261016120000 +0000" stop="20261016153000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016120000 +0000" stop="20261016153000 +0000" channel="movistar.lch2205">
     <title lang="es">ATV noticias edición matinal</title>
     <desc lang="es">Las noticias más relevantes del día narradas con un enfoque objetivo y ágil.</desc>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261016153000 +0000" stop="20261016170000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016153000 +0000" stop="20261016170000 +0000" channel="movistar.lch2205">
     <title lang="es">Así de simple</title>
     <desc lang="es">Un programa de variedades, humor, noticias y lo mejor del entretenimiento.</desc>
     <date>2000</date>
@@ -15501,7 +15962,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016170000 +0000" stop="20261016180000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016170000 +0000" stop="20261016180000 +0000" channel="movistar.lch2205">
     <title lang="es">ATV Noticias edición mediodía</title>
     <desc lang="es">Actualízate a mitad de jornada. Infórmate con el reporte más completo de lo que sucede en el Perú y el mundo.</desc>
     <date>2026</date>
@@ -15509,7 +15970,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016180000 +0000" stop="20261016190000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016180000 +0000" stop="20261016190000 +0000" channel="movistar.lch2205">
     <title lang="es">Andrea</title>
     <desc lang="es">Un programa que apuesta a darle solución a los problemas que muchos peruanos viven diariamente.</desc>
     <date>2019</date>
@@ -15517,7 +15978,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261016190000 +0000" stop="20261016203000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016190000 +0000" stop="20261016203000 +0000" channel="movistar.lch2205">
     <title lang="es">La mujer en el espejo</title>
     <desc lang="es">Juliana Soler es una joven con baja autoestima que obtiene un espejo mágico de su tía Mercedes, el cual le permite vivir una doble vida: de día se convierte en Maritza Ferrer, una mujer bella y segura de sí misma.</desc>
     <date>2004</date>
@@ -15525,7 +15986,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261016203000 +0000" stop="20261016220000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016203000 +0000" stop="20261016220000 +0000" channel="movistar.lch2205">
     <title lang="es">Amor eterno</title>
     <desc lang="es">Kemal y Nihan viven un amor imposible por la diferencia de clases, Kemal, nacido en una familia de clase media y a punto de convertirse en ingeniero, y Nihan, nacida en una familia rica, pero destinada a cambiar su vida para siempre.</desc>
     <date>2019</date>
@@ -15533,7 +15994,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261016220000 +0000" stop="20261016230000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016220000 +0000" stop="20261016230000 +0000" channel="movistar.lch2205">
     <title lang="es">Esposa por obligación</title>
     <desc lang="es">Un matrimonio por conveniencia enfrenta la oposición de la familia mientras los personajes navegan sus sentimientos y lealtades.</desc>
     <date>2024</date>
@@ -15541,7 +16002,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016230000 +0000" stop="20261017000000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261016230000 +0000" stop="20261017000000 +0000" channel="movistar.lch2205">
     <title lang="es">Tres hermanas</title>
     <desc lang="es">Una historia de lazos fraternales. Un grupo de jóvenes pasan a la adultez mediante un camino lleno de problemas y situaciones que las hacen crecer.</desc>
     <date>2024</date>
@@ -15549,7 +16010,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261017000000 +0000" stop="20261017010000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017000000 +0000" stop="20261017010000 +0000" channel="movistar.lch2205">
     <title lang="es">Corazón abandonado</title>
     <desc lang="es">La familia Sayar comienza una nueva vida tras algunas pérdidas.</desc>
     <date>2018</date>
@@ -15557,7 +16018,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017010000 +0000" stop="20261017023000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017010000 +0000" stop="20261017023000 +0000" channel="movistar.lch2205">
     <title lang="es">Ocurre ahora</title>
     <desc lang="es">Noticias del Perú y del mundo.</desc>
     <date>2024</date>
@@ -15565,7 +16026,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017023000 +0000" stop="20261017040000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017023000 +0000" stop="20261017040000 +0000" channel="movistar.lch2205">
     <title lang="es">Magaly TV, la firme</title>
     <desc lang="es">Un programa lleno de humor, diversión y entrevistas a famosos.</desc>
     <date>2019</date>
@@ -15573,7 +16034,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261017040000 +0000" stop="20261017045000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017040000 +0000" stop="20261017045000 +0000" channel="movistar.lch2205">
     <title lang="es">ATV noticias edición central</title>
     <desc lang="es">Un completo resumen informativo con lo más destacado de la jornada.</desc>
     <date>2006</date>
@@ -15581,14 +16042,14 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261017045000 +0000" stop="20261017050000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017045000 +0000" stop="20261017050000 +0000" channel="movistar.lch2205">
     <title lang="es">El deportivo en otra cancha</title>
     <date>2024</date>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261017050000 +0000" stop="20261017060000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017050000 +0000" stop="20261017060000 +0000" channel="movistar.lch2205">
     <title lang="es">The Walking Dead</title>
     <desc lang="es">Tras estar en estado de coma, el expolicía Rick Grimes, descubre que una enfermedad originó un apocalipsis zombi. Rick liderará un grupo de sobrevivientes para buscar un lugar seguro, pero las luchas más peligrosas surgirán entre ellos mismos.</desc>
     <date>2010</date>
@@ -15596,7 +16057,7 @@
       <value>+18</value>
     </rating>
   </programme>
-  <programme start="20261017060000 +0000" stop="20261017070000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017060000 +0000" stop="20261017070000 +0000" channel="movistar.lch2205">
     <title lang="es">Los hombres de Paco</title>
     <desc lang="es">Las relaciones personales y profesionales de tres policías nacionales que han sufrido mala suerte.</desc>
     <date>2005</date>
@@ -15604,7 +16065,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261017070000 +0000" stop="20261017090000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017070000 +0000" stop="20261017090000 +0000" channel="movistar.lch2205">
     <title lang="es">Combate</title>
     <desc lang="es">Dos equipos de jóvenes se enfrentan y deben realizar diferentes pruebas para demostrar cuál de los dos es el más ágil, el más fuerte, el más rápido y el más inteligente.</desc>
     <date>2014</date>
@@ -15612,7 +16073,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261017090000 +0000" stop="20261017100000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017090000 +0000" stop="20261017100000 +0000" channel="movistar.lch2205">
     <title lang="es">Águila Roja</title>
     <desc lang="es">Un héroe anónimo justiciero conocido con el apelativo de Águila Roja, ayuda a los débiles y busca sin descanso a los culpables del trágico asesinato de su joven esposa.</desc>
     <date>2009</date>
@@ -15620,7 +16081,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017100000 +0000" stop="20261017110000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017100000 +0000" stop="20261017110000 +0000" channel="movistar.lch2205">
     <title lang="es">Águila Roja</title>
     <desc lang="es">Un héroe anónimo justiciero conocido con el apelativo de Águila Roja, ayuda a los débiles y busca sin descanso a los culpables del trágico asesinato de su joven esposa.</desc>
     <date>2009</date>
@@ -15628,14 +16089,14 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017110000 +0000" stop="20261017113000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017110000 +0000" stop="20261017113000 +0000" channel="movistar.lch2205">
     <title lang="es">El deportivo en otra cancha</title>
     <date>2024</date>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261017113000 +0000" stop="20261017133000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017113000 +0000" stop="20261017133000 +0000" channel="movistar.lch2205">
     <title lang="es">Canto andino</title>
     <desc lang="es">Programa de música andina con la presentación de reconocidas orquestas y grupos de danzas.</desc>
     <date>2006</date>
@@ -15643,7 +16104,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017133000 +0000" stop="20261017135500 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017133000 +0000" stop="20261017135500 +0000" channel="movistar.lch2205">
     <title lang="es">El show de Tom y Jerry</title>
     <desc lang="es">El gato Tom y el ratón Jerry, el dúo más famoso, regresa para experimentar nuevas aventuras y enfrentarse en nuevas batallas.</desc>
     <date>2014</date>
@@ -15651,7 +16112,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261017135500 +0000" stop="20261017142000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017135500 +0000" stop="20261017142000 +0000" channel="movistar.lch2205">
     <title lang="es">Silvestre y Piolín</title>
     <desc lang="es">El más famoso dúo del mundo del gato y el canario lleva sus peleas sin parar.</desc>
     <date>2000</date>
@@ -15659,14 +16120,14 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017142000 +0000" stop="20261017144500 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017142000 +0000" stop="20261017144500 +0000" channel="movistar.lch2205">
     <title lang="es">Warner Cartoons</title>
     <date>2000</date>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017144500 +0000" stop="20261017151000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017144500 +0000" stop="20261017151000 +0000" channel="movistar.lch2205">
     <title lang="es">El show de los Looney Tunes</title>
     <desc lang="es">Los entrañables personajes de la Warner: Bugs Bunny, el Pato Lucas, Porky, Silvestre, Piolín, el Correcaminos y el Coyote viven nuevas aventuras.</desc>
     <date>2011</date>
@@ -15674,7 +16135,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261017151000 +0000" stop="20261017153500 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017151000 +0000" stop="20261017153500 +0000" channel="movistar.lch2205">
     <title lang="es">El Show de Bugs Bunny</title>
     <desc lang="es">Un programa que presenta a Bugs Bunny y sus inseparables amigos.</desc>
     <date>1960</date>
@@ -15682,7 +16143,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017153500 +0000" stop="20261017160000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017153500 +0000" stop="20261017160000 +0000" channel="movistar.lch2205">
     <title lang="es">Tom &amp; Jerry</title>
     <desc lang="es">El clásico infantil que comenzó sus aventuras allá por el año 1940, y que cuenta las peripecias de un gato y de su mejor enemigo, un ratón. A pesar de sus diferencias, Tom y Jerry no pueden vivir el uno sin el otro.</desc>
     <date>1965</date>
@@ -15690,7 +16151,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017160000 +0000" stop="20261017163000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017160000 +0000" stop="20261017163000 +0000" channel="movistar.lch2205">
     <title lang="es">El Correcaminos</title>
     <desc lang="es">Un pájaro pequeño supera en con su ingenio y velocidad a un coyote.</desc>
     <date>1997</date>
@@ -15698,7 +16159,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017163000 +0000" stop="20261017170000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017163000 +0000" stop="20261017170000 +0000" channel="movistar.lch2205">
     <title lang="es">Los Picapiedra</title>
     <desc lang="es">Pedro, Vilma, Pablo y Betty viven unas locas aventuras en Piedradura.</desc>
     <date>1960</date>
@@ -15706,7 +16167,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017170000 +0000" stop="20261017180000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017170000 +0000" stop="20261017180000 +0000" channel="movistar.lch2205">
     <title lang="es">Taz-Mania</title>
     <desc lang="es">El Demonio de Tasmania y sus diabólicas aventuras.</desc>
     <date>1991</date>
@@ -15714,7 +16175,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017180000 +0000" stop="20261017200000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017180000 +0000" stop="20261017200000 +0000" channel="movistar.lch2205">
     <title lang="es">Lucha Libre TNA</title>
     <desc lang="es">La lucha libre profesional más emocionante, con atletas de talla mundial y combates inolvidables.</desc>
     <date>2008</date>
@@ -15722,7 +16183,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017200000 +0000" stop="20261017220000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017200000 +0000" stop="20261017220000 +0000" channel="movistar.lch2205">
     <title lang="es">Argo</title>
     <desc lang="es">Durante la crisis de rehenes en Irán de 1979, el Gobierno de EE. UU. infiltra a un especialista de la CIA, quien idea un arriesgado plan para sacar del país a seis estadounidenses que se encontraban amparados en la casa del embajador canadiense.</desc>
     <date>2012</date>
@@ -15731,7 +16192,7 @@
       <value>+18</value>
     </rating>
   </programme>
-  <programme start="20261017220000 +0000" stop="20261018000000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261017220000 +0000" stop="20261018000000 +0000" channel="movistar.lch2205">
     <title lang="es">Hogar dulce hogar</title>
     <desc lang="es">Una barista ayuda a un hombre devoto a construir una casa para una familia necesitada, con la esperanza de que él se fije en ella.</desc>
     <date>2020</date>
@@ -15740,7 +16201,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018000000 +0000" stop="20261018020000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018000000 +0000" stop="20261018020000 +0000" channel="movistar.lch2205">
     <title lang="es">Más barato por docena</title>
     <desc lang="es">Mientras su esposa viaja por negocios, un entrenador de fútbol americano tiene que lidiar con el caos que provocan sus 12 hijos.</desc>
     <date>2003</date>
@@ -15749,7 +16210,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261018020000 +0000" stop="20261018040000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018020000 +0000" stop="20261018040000 +0000" channel="movistar.lch2205">
     <title lang="es">El profesor chiflado</title>
     <desc lang="es">Un científico obeso se deshace de su peso cuando una fórmula secreta lo convierte en un esbelto bailarín mujeriego.</desc>
     <date>1996</date>
@@ -15758,7 +16219,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261018040000 +0000" stop="20261018050000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018040000 +0000" stop="20261018050000 +0000" channel="movistar.lch2205">
     <title lang="es">Alto al crimen</title>
     <desc lang="es">Reportajes de operativos policiales contra la delincuencia, drogas y terrorismo. Además, el programa cuenta con un servicio para poder realizar denuncias a través de su aplicación móvil.</desc>
     <date>2012</date>
@@ -15766,7 +16227,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261018050000 +0000" stop="20261018060000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018050000 +0000" stop="20261018060000 +0000" channel="movistar.lch2205">
     <title lang="es">The Walking Dead</title>
     <desc lang="es">Tras estar en estado de coma, el expolicía Rick Grimes, descubre que una enfermedad originó un apocalipsis zombi. Rick liderará un grupo de sobrevivientes para buscar un lugar seguro, pero las luchas más peligrosas surgirán entre ellos mismos.</desc>
     <date>2010</date>
@@ -15774,7 +16235,7 @@
       <value>+18</value>
     </rating>
   </programme>
-  <programme start="20261018060000 +0000" stop="20261018070000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018060000 +0000" stop="20261018070000 +0000" channel="movistar.lch2205">
     <title lang="es">Los hombres de Paco</title>
     <desc lang="es">Las relaciones personales y profesionales de tres policías nacionales que han sufrido mala suerte.</desc>
     <date>2005</date>
@@ -15782,7 +16243,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261018070000 +0000" stop="20261018090000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018070000 +0000" stop="20261018090000 +0000" channel="movistar.lch2205">
     <title lang="es">Combate</title>
     <desc lang="es">Dos equipos de jóvenes se enfrentan y deben realizar diferentes pruebas para demostrar cuál de los dos es el más ágil, el más fuerte, el más rápido y el más inteligente.</desc>
     <date>2014</date>
@@ -15790,7 +16251,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261018090000 +0000" stop="20261018100000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018090000 +0000" stop="20261018100000 +0000" channel="movistar.lch2205">
     <title lang="es">Águila Roja</title>
     <desc lang="es">Un héroe anónimo justiciero conocido con el apelativo de Águila Roja, ayuda a los débiles y busca sin descanso a los culpables del trágico asesinato de su joven esposa.</desc>
     <date>2009</date>
@@ -15798,7 +16259,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018100000 +0000" stop="20261018110000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018100000 +0000" stop="20261018110000 +0000" channel="movistar.lch2205">
     <title lang="es">Águila Roja</title>
     <desc lang="es">Un héroe anónimo justiciero conocido con el apelativo de Águila Roja, ayuda a los débiles y busca sin descanso a los culpables del trágico asesinato de su joven esposa.</desc>
     <date>2009</date>
@@ -15806,14 +16267,14 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018110000 +0000" stop="20261018113000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018110000 +0000" stop="20261018113000 +0000" channel="movistar.lch2205">
     <title lang="es">El deportivo en otra cancha</title>
     <date>2024</date>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261018113000 +0000" stop="20261018133000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018113000 +0000" stop="20261018133000 +0000" channel="movistar.lch2205">
     <title lang="es">Canto andino</title>
     <desc lang="es">Programa de música andina con la presentación de reconocidas orquestas y grupos de danzas.</desc>
     <date>2006</date>
@@ -15821,7 +16282,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018133000 +0000" stop="20261018135500 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018133000 +0000" stop="20261018135500 +0000" channel="movistar.lch2205">
     <title lang="es">El show de Tom y Jerry</title>
     <desc lang="es">El gato Tom y el ratón Jerry, el dúo más famoso, regresa para experimentar nuevas aventuras y enfrentarse en nuevas batallas.</desc>
     <date>2014</date>
@@ -15829,7 +16290,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261018135500 +0000" stop="20261018142000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018135500 +0000" stop="20261018142000 +0000" channel="movistar.lch2205">
     <title lang="es">Silvestre y Piolín</title>
     <desc lang="es">El más famoso dúo del mundo del gato y el canario lleva sus peleas sin parar.</desc>
     <date>2000</date>
@@ -15837,14 +16298,14 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018142000 +0000" stop="20261018144500 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018142000 +0000" stop="20261018144500 +0000" channel="movistar.lch2205">
     <title lang="es">Warner Cartoons</title>
     <date>2000</date>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018144500 +0000" stop="20261018151000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018144500 +0000" stop="20261018151000 +0000" channel="movistar.lch2205">
     <title lang="es">El show de los Looney Tunes</title>
     <desc lang="es">Los entrañables personajes de la Warner: Bugs Bunny, el Pato Lucas, Porky, Silvestre, Piolín, el Correcaminos y el Coyote viven nuevas aventuras.</desc>
     <date>2011</date>
@@ -15852,7 +16313,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261018151000 +0000" stop="20261018153500 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018151000 +0000" stop="20261018153500 +0000" channel="movistar.lch2205">
     <title lang="es">El Show de Bugs Bunny</title>
     <desc lang="es">Un programa que presenta a Bugs Bunny y sus inseparables amigos.</desc>
     <date>1960</date>
@@ -15860,7 +16321,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018153500 +0000" stop="20261018160000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018153500 +0000" stop="20261018160000 +0000" channel="movistar.lch2205">
     <title lang="es">Tom &amp; Jerry</title>
     <desc lang="es">El clásico infantil que comenzó sus aventuras allá por el año 1940, y que cuenta las peripecias de un gato y de su mejor enemigo, un ratón. A pesar de sus diferencias, Tom y Jerry no pueden vivir el uno sin el otro.</desc>
     <date>1965</date>
@@ -15868,7 +16329,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018160000 +0000" stop="20261018163000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018160000 +0000" stop="20261018163000 +0000" channel="movistar.lch2205">
     <title lang="es">Don Gato</title>
     <desc lang="es">Don Gato y sus amigos felinos disfrutan de la vida en un callejón de Nueva York.</desc>
     <date>1961</date>
@@ -15876,7 +16337,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018163000 +0000" stop="20261018180000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018163000 +0000" stop="20261018180000 +0000" channel="movistar.lch2205">
     <title lang="es">Los Picapiedra</title>
     <desc lang="es">Pedro, Vilma, Pablo y Betty viven unas locas aventuras en Piedradura.</desc>
     <date>1960</date>
@@ -15884,7 +16345,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018180000 +0000" stop="20261018183000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018180000 +0000" stop="20261018183000 +0000" channel="movistar.lch2205">
     <title lang="es">Taz-Mania</title>
     <desc lang="es">El Demonio de Tasmania y sus diabólicas aventuras.</desc>
     <date>1991</date>
@@ -15892,7 +16353,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018183000 +0000" stop="20261018203000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018183000 +0000" stop="20261018203000 +0000" channel="movistar.lch2205">
     <title lang="es">Aventuras de una niñera</title>
     <desc lang="es">Una rutinaria noche en Chicago se convierte en una graciosa pesadilla para una joven niñera y los tres niños que cuida.</desc>
     <date>1987</date>
@@ -15901,7 +16362,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261018203000 +0000" stop="20261018223000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018203000 +0000" stop="20261018223000 +0000" channel="movistar.lch2205">
     <title lang="es">Metro</title>
     <desc lang="es">Un experimentado negociador de rehenes y un integrante de SWAT persiguen a un ladrón de joyas psicópata que mató a un colega.</desc>
     <date>1997</date>
@@ -15910,7 +16371,526 @@
       <value>+18</value>
     </rating>
   </programme>
-  <programme start="20261018223000 +0000" stop="20261019003000 +0000" channel="atv-plus.teleclub">
+  <programme start="20261018223000 +0000" stop="20261019003000 +0000" channel="movistar.lch2205">
+    <title lang="es">Gemelos</title>
+    <desc lang="es">Dos hombres adultos descubren que son hermanos gemelos, aunque no se parecen en nada, ya que su nacimiento fue fruto de un experimento genético que tuvo un inesperado final.</desc>
+    <date>1988</date>
+    <country lang="es">Estados Unidos</country>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261015230000 +0000" stop="20261016000000 +0000" channel="movistar.lch6307">
+    <title lang="es">Tres hermanas</title>
+    <desc lang="es">Una historia de lazos fraternales. Un grupo de jóvenes pasan a la adultez mediante un camino lleno de problemas y situaciones que las hacen crecer.</desc>
+    <date>2024</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016000000 +0000" stop="20261016010000 +0000" channel="movistar.lch6307">
+    <title lang="es">Corazón abandonado</title>
+    <desc lang="es">La familia Sayar comienza una nueva vida tras algunas pérdidas.</desc>
+    <date>2018</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016010000 +0000" stop="20261016023000 +0000" channel="movistar.lch6307">
+    <title lang="es">Ocurre ahora</title>
+    <desc lang="es">Noticias del Perú y del mundo.</desc>
+    <date>2024</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016023000 +0000" stop="20261016040000 +0000" channel="movistar.lch6307">
+    <title lang="es">Magaly TV, la firme</title>
+    <desc lang="es">Un programa lleno de humor, diversión y entrevistas a famosos.</desc>
+    <date>2019</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016040000 +0000" stop="20261016045000 +0000" channel="movistar.lch6307">
+    <title lang="es">ATV noticias edición central</title>
+    <desc lang="es">Un completo resumen informativo con lo más destacado de la jornada.</desc>
+    <date>2006</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016045000 +0000" stop="20261016050000 +0000" channel="movistar.lch6307">
+    <title lang="es">El deportivo en otra cancha</title>
+    <date>2024</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016050000 +0000" stop="20261016060000 +0000" channel="movistar.lch6307">
+    <title lang="es">The Walking Dead</title>
+    <desc lang="es">Tras estar en estado de coma, el expolicía Rick Grimes, descubre que una enfermedad originó un apocalipsis zombi. Rick liderará un grupo de sobrevivientes para buscar un lugar seguro, pero las luchas más peligrosas surgirán entre ellos mismos.</desc>
+    <date>2010</date>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
+  <programme start="20261016060000 +0000" stop="20261016070000 +0000" channel="movistar.lch6307">
+    <title lang="es">Los hombres de Paco</title>
+    <desc lang="es">Las relaciones personales y profesionales de tres policías nacionales que han sufrido mala suerte.</desc>
+    <date>2005</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016070000 +0000" stop="20261016090000 +0000" channel="movistar.lch6307">
+    <title lang="es">Combate</title>
+    <desc lang="es">Dos equipos de jóvenes se enfrentan y deben realizar diferentes pruebas para demostrar cuál de los dos es el más ágil, el más fuerte, el más rápido y el más inteligente.</desc>
+    <date>2014</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016090000 +0000" stop="20261016103000 +0000" channel="movistar.lch6307">
+    <title lang="es">Águila Roja</title>
+    <desc lang="es">Un héroe anónimo justiciero conocido con el apelativo de Águila Roja, ayuda a los débiles y busca sin descanso a los culpables del trágico asesinato de su joven esposa.</desc>
+    <date>2009</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016103000 +0000" stop="20261016120000 +0000" channel="movistar.lch6307">
+    <title lang="es">ATV noticias edición matinal</title>
+    <desc lang="es">Las noticias más relevantes del día narradas con un enfoque objetivo y ágil.</desc>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016120000 +0000" stop="20261016153000 +0000" channel="movistar.lch6307">
+    <title lang="es">ATV noticias edición matinal</title>
+    <desc lang="es">Las noticias más relevantes del día narradas con un enfoque objetivo y ágil.</desc>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016153000 +0000" stop="20261016170000 +0000" channel="movistar.lch6307">
+    <title lang="es">Así de simple</title>
+    <desc lang="es">Un programa de variedades, humor, noticias y lo mejor del entretenimiento.</desc>
+    <date>2000</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016170000 +0000" stop="20261016180000 +0000" channel="movistar.lch6307">
+    <title lang="es">ATV Noticias edición mediodía</title>
+    <desc lang="es">Actualízate a mitad de jornada. Infórmate con el reporte más completo de lo que sucede en el Perú y el mundo.</desc>
+    <date>2026</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016180000 +0000" stop="20261016190000 +0000" channel="movistar.lch6307">
+    <title lang="es">Andrea</title>
+    <desc lang="es">Un programa que apuesta a darle solución a los problemas que muchos peruanos viven diariamente.</desc>
+    <date>2019</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016190000 +0000" stop="20261016203000 +0000" channel="movistar.lch6307">
+    <title lang="es">La mujer en el espejo</title>
+    <desc lang="es">Juliana Soler es una joven con baja autoestima que obtiene un espejo mágico de su tía Mercedes, el cual le permite vivir una doble vida: de día se convierte en Maritza Ferrer, una mujer bella y segura de sí misma.</desc>
+    <date>2004</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016203000 +0000" stop="20261016220000 +0000" channel="movistar.lch6307">
+    <title lang="es">Amor eterno</title>
+    <desc lang="es">Kemal y Nihan viven un amor imposible por la diferencia de clases, Kemal, nacido en una familia de clase media y a punto de convertirse en ingeniero, y Nihan, nacida en una familia rica, pero destinada a cambiar su vida para siempre.</desc>
+    <date>2019</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261016220000 +0000" stop="20261016230000 +0000" channel="movistar.lch6307">
+    <title lang="es">Esposa por obligación</title>
+    <desc lang="es">Un matrimonio por conveniencia enfrenta la oposición de la familia mientras los personajes navegan sus sentimientos y lealtades.</desc>
+    <date>2024</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261016230000 +0000" stop="20261017000000 +0000" channel="movistar.lch6307">
+    <title lang="es">Tres hermanas</title>
+    <desc lang="es">Una historia de lazos fraternales. Un grupo de jóvenes pasan a la adultez mediante un camino lleno de problemas y situaciones que las hacen crecer.</desc>
+    <date>2024</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261017000000 +0000" stop="20261017010000 +0000" channel="movistar.lch6307">
+    <title lang="es">Corazón abandonado</title>
+    <desc lang="es">La familia Sayar comienza una nueva vida tras algunas pérdidas.</desc>
+    <date>2018</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017010000 +0000" stop="20261017023000 +0000" channel="movistar.lch6307">
+    <title lang="es">Ocurre ahora</title>
+    <desc lang="es">Noticias del Perú y del mundo.</desc>
+    <date>2024</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017023000 +0000" stop="20261017040000 +0000" channel="movistar.lch6307">
+    <title lang="es">Magaly TV, la firme</title>
+    <desc lang="es">Un programa lleno de humor, diversión y entrevistas a famosos.</desc>
+    <date>2019</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261017040000 +0000" stop="20261017045000 +0000" channel="movistar.lch6307">
+    <title lang="es">ATV noticias edición central</title>
+    <desc lang="es">Un completo resumen informativo con lo más destacado de la jornada.</desc>
+    <date>2006</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261017045000 +0000" stop="20261017050000 +0000" channel="movistar.lch6307">
+    <title lang="es">El deportivo en otra cancha</title>
+    <date>2024</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261017050000 +0000" stop="20261017060000 +0000" channel="movistar.lch6307">
+    <title lang="es">The Walking Dead</title>
+    <desc lang="es">Tras estar en estado de coma, el expolicía Rick Grimes, descubre que una enfermedad originó un apocalipsis zombi. Rick liderará un grupo de sobrevivientes para buscar un lugar seguro, pero las luchas más peligrosas surgirán entre ellos mismos.</desc>
+    <date>2010</date>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
+  <programme start="20261017060000 +0000" stop="20261017070000 +0000" channel="movistar.lch6307">
+    <title lang="es">Los hombres de Paco</title>
+    <desc lang="es">Las relaciones personales y profesionales de tres policías nacionales que han sufrido mala suerte.</desc>
+    <date>2005</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261017070000 +0000" stop="20261017090000 +0000" channel="movistar.lch6307">
+    <title lang="es">Combate</title>
+    <desc lang="es">Dos equipos de jóvenes se enfrentan y deben realizar diferentes pruebas para demostrar cuál de los dos es el más ágil, el más fuerte, el más rápido y el más inteligente.</desc>
+    <date>2014</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261017090000 +0000" stop="20261017100000 +0000" channel="movistar.lch6307">
+    <title lang="es">Águila Roja</title>
+    <desc lang="es">Un héroe anónimo justiciero conocido con el apelativo de Águila Roja, ayuda a los débiles y busca sin descanso a los culpables del trágico asesinato de su joven esposa.</desc>
+    <date>2009</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017100000 +0000" stop="20261017110000 +0000" channel="movistar.lch6307">
+    <title lang="es">Águila Roja</title>
+    <desc lang="es">Un héroe anónimo justiciero conocido con el apelativo de Águila Roja, ayuda a los débiles y busca sin descanso a los culpables del trágico asesinato de su joven esposa.</desc>
+    <date>2009</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017110000 +0000" stop="20261017113000 +0000" channel="movistar.lch6307">
+    <title lang="es">El deportivo en otra cancha</title>
+    <date>2024</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261017113000 +0000" stop="20261017133000 +0000" channel="movistar.lch6307">
+    <title lang="es">Canto andino</title>
+    <desc lang="es">Programa de música andina con la presentación de reconocidas orquestas y grupos de danzas.</desc>
+    <date>2006</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017133000 +0000" stop="20261017135500 +0000" channel="movistar.lch6307">
+    <title lang="es">El show de Tom y Jerry</title>
+    <desc lang="es">El gato Tom y el ratón Jerry, el dúo más famoso, regresa para experimentar nuevas aventuras y enfrentarse en nuevas batallas.</desc>
+    <date>2014</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261017135500 +0000" stop="20261017142000 +0000" channel="movistar.lch6307">
+    <title lang="es">Silvestre y Piolín</title>
+    <desc lang="es">El más famoso dúo del mundo del gato y el canario lleva sus peleas sin parar.</desc>
+    <date>2000</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017142000 +0000" stop="20261017144500 +0000" channel="movistar.lch6307">
+    <title lang="es">Warner Cartoons</title>
+    <date>2000</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017144500 +0000" stop="20261017151000 +0000" channel="movistar.lch6307">
+    <title lang="es">El show de los Looney Tunes</title>
+    <desc lang="es">Los entrañables personajes de la Warner: Bugs Bunny, el Pato Lucas, Porky, Silvestre, Piolín, el Correcaminos y el Coyote viven nuevas aventuras.</desc>
+    <date>2011</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261017151000 +0000" stop="20261017153500 +0000" channel="movistar.lch6307">
+    <title lang="es">El Show de Bugs Bunny</title>
+    <desc lang="es">Un programa que presenta a Bugs Bunny y sus inseparables amigos.</desc>
+    <date>1960</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017153500 +0000" stop="20261017160000 +0000" channel="movistar.lch6307">
+    <title lang="es">Tom &amp; Jerry</title>
+    <desc lang="es">El clásico infantil que comenzó sus aventuras allá por el año 1940, y que cuenta las peripecias de un gato y de su mejor enemigo, un ratón. A pesar de sus diferencias, Tom y Jerry no pueden vivir el uno sin el otro.</desc>
+    <date>1965</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017160000 +0000" stop="20261017163000 +0000" channel="movistar.lch6307">
+    <title lang="es">El Correcaminos</title>
+    <desc lang="es">Un pájaro pequeño supera en con su ingenio y velocidad a un coyote.</desc>
+    <date>1997</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017163000 +0000" stop="20261017170000 +0000" channel="movistar.lch6307">
+    <title lang="es">Los Picapiedra</title>
+    <desc lang="es">Pedro, Vilma, Pablo y Betty viven unas locas aventuras en Piedradura.</desc>
+    <date>1960</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017170000 +0000" stop="20261017180000 +0000" channel="movistar.lch6307">
+    <title lang="es">Taz-Mania</title>
+    <desc lang="es">El Demonio de Tasmania y sus diabólicas aventuras.</desc>
+    <date>1991</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017180000 +0000" stop="20261017200000 +0000" channel="movistar.lch6307">
+    <title lang="es">Lucha Libre TNA</title>
+    <desc lang="es">La lucha libre profesional más emocionante, con atletas de talla mundial y combates inolvidables.</desc>
+    <date>2008</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261017200000 +0000" stop="20261017220000 +0000" channel="movistar.lch6307">
+    <title lang="es">Argo</title>
+    <desc lang="es">Durante la crisis de rehenes en Irán de 1979, el Gobierno de EE. UU. infiltra a un especialista de la CIA, quien idea un arriesgado plan para sacar del país a seis estadounidenses que se encontraban amparados en la casa del embajador canadiense.</desc>
+    <date>2012</date>
+    <country lang="es">Estados Unidos</country>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
+  <programme start="20261017220000 +0000" stop="20261018000000 +0000" channel="movistar.lch6307">
+    <title lang="es">Hogar dulce hogar</title>
+    <desc lang="es">Una barista ayuda a un hombre devoto a construir una casa para una familia necesitada, con la esperanza de que él se fije en ella.</desc>
+    <date>2020</date>
+    <country lang="es">Estados Unidos</country>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018000000 +0000" stop="20261018020000 +0000" channel="movistar.lch6307">
+    <title lang="es">Más barato por docena</title>
+    <desc lang="es">Mientras su esposa viaja por negocios, un entrenador de fútbol americano tiene que lidiar con el caos que provocan sus 12 hijos.</desc>
+    <date>2003</date>
+    <country lang="es">Estados Unidos</country>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018020000 +0000" stop="20261018040000 +0000" channel="movistar.lch6307">
+    <title lang="es">El profesor chiflado</title>
+    <desc lang="es">Un científico obeso se deshace de su peso cuando una fórmula secreta lo convierte en un esbelto bailarín mujeriego.</desc>
+    <date>1996</date>
+    <country lang="es">Estados Unidos</country>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018040000 +0000" stop="20261018050000 +0000" channel="movistar.lch6307">
+    <title lang="es">Alto al crimen</title>
+    <desc lang="es">Reportajes de operativos policiales contra la delincuencia, drogas y terrorismo. Además, el programa cuenta con un servicio para poder realizar denuncias a través de su aplicación móvil.</desc>
+    <date>2012</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018050000 +0000" stop="20261018060000 +0000" channel="movistar.lch6307">
+    <title lang="es">The Walking Dead</title>
+    <desc lang="es">Tras estar en estado de coma, el expolicía Rick Grimes, descubre que una enfermedad originó un apocalipsis zombi. Rick liderará un grupo de sobrevivientes para buscar un lugar seguro, pero las luchas más peligrosas surgirán entre ellos mismos.</desc>
+    <date>2010</date>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
+  <programme start="20261018060000 +0000" stop="20261018070000 +0000" channel="movistar.lch6307">
+    <title lang="es">Los hombres de Paco</title>
+    <desc lang="es">Las relaciones personales y profesionales de tres policías nacionales que han sufrido mala suerte.</desc>
+    <date>2005</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018070000 +0000" stop="20261018090000 +0000" channel="movistar.lch6307">
+    <title lang="es">Combate</title>
+    <desc lang="es">Dos equipos de jóvenes se enfrentan y deben realizar diferentes pruebas para demostrar cuál de los dos es el más ágil, el más fuerte, el más rápido y el más inteligente.</desc>
+    <date>2014</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018090000 +0000" stop="20261018100000 +0000" channel="movistar.lch6307">
+    <title lang="es">Águila Roja</title>
+    <desc lang="es">Un héroe anónimo justiciero conocido con el apelativo de Águila Roja, ayuda a los débiles y busca sin descanso a los culpables del trágico asesinato de su joven esposa.</desc>
+    <date>2009</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018100000 +0000" stop="20261018110000 +0000" channel="movistar.lch6307">
+    <title lang="es">Águila Roja</title>
+    <desc lang="es">Un héroe anónimo justiciero conocido con el apelativo de Águila Roja, ayuda a los débiles y busca sin descanso a los culpables del trágico asesinato de su joven esposa.</desc>
+    <date>2009</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018110000 +0000" stop="20261018113000 +0000" channel="movistar.lch6307">
+    <title lang="es">El deportivo en otra cancha</title>
+    <date>2024</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018113000 +0000" stop="20261018133000 +0000" channel="movistar.lch6307">
+    <title lang="es">Canto andino</title>
+    <desc lang="es">Programa de música andina con la presentación de reconocidas orquestas y grupos de danzas.</desc>
+    <date>2006</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018133000 +0000" stop="20261018135500 +0000" channel="movistar.lch6307">
+    <title lang="es">El show de Tom y Jerry</title>
+    <desc lang="es">El gato Tom y el ratón Jerry, el dúo más famoso, regresa para experimentar nuevas aventuras y enfrentarse en nuevas batallas.</desc>
+    <date>2014</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018135500 +0000" stop="20261018142000 +0000" channel="movistar.lch6307">
+    <title lang="es">Silvestre y Piolín</title>
+    <desc lang="es">El más famoso dúo del mundo del gato y el canario lleva sus peleas sin parar.</desc>
+    <date>2000</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018142000 +0000" stop="20261018144500 +0000" channel="movistar.lch6307">
+    <title lang="es">Warner Cartoons</title>
+    <date>2000</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018144500 +0000" stop="20261018151000 +0000" channel="movistar.lch6307">
+    <title lang="es">El show de los Looney Tunes</title>
+    <desc lang="es">Los entrañables personajes de la Warner: Bugs Bunny, el Pato Lucas, Porky, Silvestre, Piolín, el Correcaminos y el Coyote viven nuevas aventuras.</desc>
+    <date>2011</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018151000 +0000" stop="20261018153500 +0000" channel="movistar.lch6307">
+    <title lang="es">El Show de Bugs Bunny</title>
+    <desc lang="es">Un programa que presenta a Bugs Bunny y sus inseparables amigos.</desc>
+    <date>1960</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018153500 +0000" stop="20261018160000 +0000" channel="movistar.lch6307">
+    <title lang="es">Tom &amp; Jerry</title>
+    <desc lang="es">El clásico infantil que comenzó sus aventuras allá por el año 1940, y que cuenta las peripecias de un gato y de su mejor enemigo, un ratón. A pesar de sus diferencias, Tom y Jerry no pueden vivir el uno sin el otro.</desc>
+    <date>1965</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018160000 +0000" stop="20261018163000 +0000" channel="movistar.lch6307">
+    <title lang="es">Don Gato</title>
+    <desc lang="es">Don Gato y sus amigos felinos disfrutan de la vida en un callejón de Nueva York.</desc>
+    <date>1961</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018163000 +0000" stop="20261018180000 +0000" channel="movistar.lch6307">
+    <title lang="es">Los Picapiedra</title>
+    <desc lang="es">Pedro, Vilma, Pablo y Betty viven unas locas aventuras en Piedradura.</desc>
+    <date>1960</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018180000 +0000" stop="20261018183000 +0000" channel="movistar.lch6307">
+    <title lang="es">Taz-Mania</title>
+    <desc lang="es">El Demonio de Tasmania y sus diabólicas aventuras.</desc>
+    <date>1991</date>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261018183000 +0000" stop="20261018203000 +0000" channel="movistar.lch6307">
+    <title lang="es">Aventuras de una niñera</title>
+    <desc lang="es">Una rutinaria noche en Chicago se convierte en una graciosa pesadilla para una joven niñera y los tres niños que cuida.</desc>
+    <date>1987</date>
+    <country lang="es">Estados Unidos</country>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261018203000 +0000" stop="20261018223000 +0000" channel="movistar.lch6307">
+    <title lang="es">Metro</title>
+    <desc lang="es">Un experimentado negociador de rehenes y un integrante de SWAT persiguen a un ladrón de joyas psicópata que mató a un colega.</desc>
+    <date>1997</date>
+    <country lang="es">Estados Unidos</country>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
+  <programme start="20261018223000 +0000" stop="20261019003000 +0000" channel="movistar.lch6307">
     <title lang="es">Gemelos</title>
     <desc lang="es">Dos hombres adultos descubren que son hermanos gemelos, aunque no se parecen en nada, ya que su nacimiento fue fruto de un experimento genético que tuvo un inesperado final.</desc>
     <date>1988</date>
@@ -24163,14 +25143,14 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261015230000 +0000" stop="20261016000000 +0000" channel="n-canal.teleclub">
+  <programme start="20261015230000 +0000" stop="20261016000000 +0000" channel="movistar.lch2318">
     <title lang="es">N Deportes</title>
     <desc lang="es">Una breve sección para conocer las últimas y más destacadas noticias del ámbito deportivo.</desc>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016000000 +0000" stop="20261016010000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016000000 +0000" stop="20261016010000 +0000" channel="movistar.lch2318">
     <title lang="es">N Portada</title>
     <desc lang="es">Un espacio de análisis noticioso, las cuatro mejores noticias del día son analizadas y comentadas por los analistas invitados y los periodistas de la casa.</desc>
     <date>2013</date>
@@ -24178,7 +25158,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016010000 +0000" stop="20261016020000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016010000 +0000" stop="20261016020000 +0000" channel="movistar.lch2318">
     <title lang="es">Primero a las 8</title>
     <desc lang="es">Un noticiero con todo el acontecer nacional e internacional y excelentes coberturas informativas.</desc>
     <date>2024</date>
@@ -24186,7 +25166,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261016020000 +0000" stop="20261016030000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016020000 +0000" stop="20261016030000 +0000" channel="movistar.lch2318">
     <title lang="es">Cuentas claras</title>
     <desc lang="es">Un espacio para el análisis profundo de la coyuntura política y económica del país.</desc>
     <date>2024</date>
@@ -24194,7 +25174,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261016030000 +0000" stop="20261016040000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016030000 +0000" stop="20261016040000 +0000" channel="movistar.lch2318">
     <title lang="es">Al final del día</title>
     <desc lang="es">Espacio con las últimas notas y actualizaciones de lo que pasa en Perú y en el mundo.</desc>
     <date>2024</date>
@@ -24202,7 +25182,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261016040000 +0000" stop="20261016050000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016040000 +0000" stop="20261016050000 +0000" channel="movistar.lch2318">
     <title lang="es">Primero a las 8</title>
     <desc lang="es">Un noticiero con todo el acontecer nacional e internacional y excelentes coberturas informativas.</desc>
     <date>2005</date>
@@ -24210,7 +25190,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016050000 +0000" stop="20261016070000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016050000 +0000" stop="20261016070000 +0000" channel="movistar.lch2318">
     <title lang="es">N Directo</title>
     <desc lang="es">Todo el acontecer nacional e internacional con el mejor equipo de periodistas.</desc>
     <date>2012</date>
@@ -24218,7 +25198,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016070000 +0000" stop="20261016080000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016070000 +0000" stop="20261016080000 +0000" channel="movistar.lch2318">
     <title lang="es">Al final del día</title>
     <desc lang="es">Espacio con las últimas notas y actualizaciones de lo que pasa en Perú y en el mundo.</desc>
     <date>2024</date>
@@ -24226,7 +25206,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261016080000 +0000" stop="20261016090000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016080000 +0000" stop="20261016090000 +0000" channel="movistar.lch2318">
     <title lang="es">Cuentas claras</title>
     <desc lang="es">Un espacio para el análisis profundo de la coyuntura política y económica del país.</desc>
     <date>2024</date>
@@ -24234,7 +25214,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261016090000 +0000" stop="20261016100000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016090000 +0000" stop="20261016100000 +0000" channel="movistar.lch2318">
     <title lang="es">N Portada</title>
     <desc lang="es">Un espacio de análisis noticioso, las cuatro mejores noticias del día son analizadas y comentadas por los analistas invitados y los periodistas de la casa.</desc>
     <date>2013</date>
@@ -24242,7 +25222,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016100000 +0000" stop="20261016110000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016100000 +0000" stop="20261016110000 +0000" channel="movistar.lch2318">
     <title lang="es">Primero a las 8</title>
     <desc lang="es">Un noticiero con todo el acontecer nacional e internacional y excelentes coberturas informativas.</desc>
     <date>2005</date>
@@ -24250,28 +25230,28 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016110000 +0000" stop="20261016133000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016110000 +0000" stop="20261016133000 +0000" channel="movistar.lch2318">
     <title lang="es">Mañana al día</title>
     <date>2024</date>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016133000 +0000" stop="20261016140000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016133000 +0000" stop="20261016140000 +0000" channel="movistar.lch2318">
     <title lang="es">N Deportes</title>
     <desc lang="es">Una breve sección para conocer las últimas y más destacadas noticias del ámbito deportivo.</desc>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016140000 +0000" stop="20261016160000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016140000 +0000" stop="20261016160000 +0000" channel="movistar.lch2318">
     <title lang="es">De 9 a 11</title>
     <date>2024</date>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016160000 +0000" stop="20261016174500 +0000" channel="n-canal.teleclub">
+  <programme start="20261016160000 +0000" stop="20261016174500 +0000" channel="movistar.lch2318">
     <title lang="es">N Directo</title>
     <desc lang="es">Todo el acontecer nacional e internacional con el mejor equipo de periodistas.</desc>
     <date>2012</date>
@@ -24279,42 +25259,42 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016174500 +0000" stop="20261016180000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016174500 +0000" stop="20261016180000 +0000" channel="movistar.lch2318">
     <title lang="es">N Deportes</title>
     <desc lang="es">Una breve sección para conocer las últimas y más destacadas noticias del ámbito deportivo.</desc>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016180000 +0000" stop="20261016200000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016180000 +0000" stop="20261016200000 +0000" channel="movistar.lch2318">
     <title lang="es">N Noticias</title>
     <desc lang="es">Programa informativo que ofrece noticias de actualidad nacional e internacional, con entrevistas y notas en vivo.</desc>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016200000 +0000" stop="20261016203000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016200000 +0000" stop="20261016203000 +0000" channel="movistar.lch2318">
     <title lang="es">A media tarde</title>
     <date>2024</date>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016203000 +0000" stop="20261016210000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016203000 +0000" stop="20261016210000 +0000" channel="movistar.lch2318">
     <title lang="es">N Deportes</title>
     <desc lang="es">Una breve sección para conocer las últimas y más destacadas noticias del ámbito deportivo.</desc>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016210000 +0000" stop="20261016220000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016210000 +0000" stop="20261016220000 +0000" channel="movistar.lch2318">
     <title lang="es">A media tarde</title>
     <date>2024</date>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016220000 +0000" stop="20261016230000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016220000 +0000" stop="20261016230000 +0000" channel="movistar.lch2318">
     <title lang="es">N Directo</title>
     <desc lang="es">Todo el acontecer nacional e internacional con el mejor equipo de periodistas.</desc>
     <date>2012</date>
@@ -24322,14 +25302,14 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261016230000 +0000" stop="20261017000000 +0000" channel="n-canal.teleclub">
+  <programme start="20261016230000 +0000" stop="20261017000000 +0000" channel="movistar.lch2318">
     <title lang="es">N Deportes</title>
     <desc lang="es">Una breve sección para conocer las últimas y más destacadas noticias del ámbito deportivo.</desc>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017000000 +0000" stop="20261017010000 +0000" channel="n-canal.teleclub">
+  <programme start="20261017000000 +0000" stop="20261017010000 +0000" channel="movistar.lch2318">
     <title lang="es">N Portada</title>
     <desc lang="es">Un espacio de análisis noticioso, las cuatro mejores noticias del día son analizadas y comentadas por los analistas invitados y los periodistas de la casa.</desc>
     <date>2013</date>
@@ -24337,7 +25317,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017010000 +0000" stop="20261017020000 +0000" channel="n-canal.teleclub">
+  <programme start="20261017010000 +0000" stop="20261017020000 +0000" channel="movistar.lch2318">
     <title lang="es">Primero a las 8</title>
     <desc lang="es">Un noticiero con todo el acontecer nacional e internacional y excelentes coberturas informativas.</desc>
     <date>2024</date>
@@ -24345,7 +25325,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261017020000 +0000" stop="20261017030000 +0000" channel="n-canal.teleclub">
+  <programme start="20261017020000 +0000" stop="20261017030000 +0000" channel="movistar.lch2318">
     <title lang="es">Cuentas claras</title>
     <desc lang="es">Un espacio para el análisis profundo de la coyuntura política y económica del país.</desc>
     <date>2024</date>
@@ -24353,7 +25333,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261017030000 +0000" stop="20261017040000 +0000" channel="n-canal.teleclub">
+  <programme start="20261017030000 +0000" stop="20261017040000 +0000" channel="movistar.lch2318">
     <title lang="es">Al final del día</title>
     <desc lang="es">Espacio con las últimas notas y actualizaciones de lo que pasa en Perú y en el mundo.</desc>
     <date>2024</date>
@@ -24361,7 +25341,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261017040000 +0000" stop="20261017050000 +0000" channel="n-canal.teleclub">
+  <programme start="20261017040000 +0000" stop="20261017050000 +0000" channel="movistar.lch2318">
     <title lang="es">Primero a las 8</title>
     <desc lang="es">Un noticiero con todo el acontecer nacional e internacional y excelentes coberturas informativas.</desc>
     <date>2005</date>
@@ -24369,7 +25349,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017050000 +0000" stop="20261017070000 +0000" channel="n-canal.teleclub">
+  <programme start="20261017050000 +0000" stop="20261017070000 +0000" channel="movistar.lch2318">
     <title lang="es">N Directo</title>
     <desc lang="es">Todo el acontecer nacional e internacional con el mejor equipo de periodistas.</desc>
     <date>2012</date>
@@ -24377,7 +25357,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017070000 +0000" stop="20261017080000 +0000" channel="n-canal.teleclub">
+  <programme start="20261017070000 +0000" stop="20261017080000 +0000" channel="movistar.lch2318">
     <title lang="es">Al final del día</title>
     <desc lang="es">Espacio con las últimas notas y actualizaciones de lo que pasa en Perú y en el mundo.</desc>
     <date>2024</date>
@@ -24385,7 +25365,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261017080000 +0000" stop="20261017090000 +0000" channel="n-canal.teleclub">
+  <programme start="20261017080000 +0000" stop="20261017090000 +0000" channel="movistar.lch2318">
     <title lang="es">Cuentas claras</title>
     <desc lang="es">Un espacio para el análisis profundo de la coyuntura política y económica del país.</desc>
     <date>2024</date>
@@ -24393,7 +25373,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261017090000 +0000" stop="20261017100000 +0000" channel="n-canal.teleclub">
+  <programme start="20261017090000 +0000" stop="20261017100000 +0000" channel="movistar.lch2318">
     <title lang="es">N Portada</title>
     <desc lang="es">Un espacio de análisis noticioso, las cuatro mejores noticias del día son analizadas y comentadas por los analistas invitados y los periodistas de la casa.</desc>
     <date>2013</date>
@@ -24401,7 +25381,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017100000 +0000" stop="20261017110000 +0000" channel="n-canal.teleclub">
+  <programme start="20261017100000 +0000" stop="20261017110000 +0000" channel="movistar.lch2318">
     <title lang="es">Primero a las 8</title>
     <desc lang="es">Un noticiero con todo el acontecer nacional e internacional y excelentes coberturas informativas.</desc>
     <date>2005</date>
@@ -24409,7 +25389,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017110000 +0000" stop="20261017130000 +0000" channel="n-canal.teleclub">
+  <programme start="20261017110000 +0000" stop="20261017130000 +0000" channel="movistar.lch2318">
     <title lang="es">Noticias</title>
     <desc lang="es">Las últimas noticias nacionales e internacionales sobre deportes, economía y finanzas, espectáculos, cultura y arte.</desc>
     <date>2010</date>
@@ -24417,7 +25397,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261017130000 +0000" stop="20261017180000 +0000" channel="n-canal.teleclub">
+  <programme start="20261017130000 +0000" stop="20261017180000 +0000" channel="movistar.lch2318">
     <title lang="es">N Noticias</title>
     <desc lang="es">Las noticias de la actualidad nacional e internacional en todo momento, con la mejor información, la cobertura más completa, entrevistas, contactos en vivo, deportes y espectáculos.</desc>
     <date>2012</date>
@@ -24425,7 +25405,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017180000 +0000" stop="20261017193000 +0000" channel="n-canal.teleclub">
+  <programme start="20261017180000 +0000" stop="20261017193000 +0000" channel="movistar.lch2318">
     <title lang="es">Automundo</title>
     <desc lang="es">Un programa dedicado al mundo del automovilismo que muestra diversas carreras, rallies, exhibiciones de carros y los nuevos diseños en el mercado.</desc>
     <date>2010</date>
@@ -24433,7 +25413,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261017193000 +0000" stop="20261018000000 +0000" channel="n-canal.teleclub">
+  <programme start="20261017193000 +0000" stop="20261018000000 +0000" channel="movistar.lch2318">
     <title lang="es">N Noticias</title>
     <desc lang="es">Las noticias de la actualidad nacional e internacional en todo momento, con la mejor información, la cobertura más completa, entrevistas, contactos en vivo, deportes y espectáculos.</desc>
     <date>2012</date>
@@ -24441,7 +25421,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018000000 +0000" stop="20261018010000 +0000" channel="n-canal.teleclub">
+  <programme start="20261018000000 +0000" stop="20261018010000 +0000" channel="movistar.lch2318">
     <title lang="es">El cliente</title>
     <desc lang="es">Espacio sobre el análisis, estudios y perspectivas en negocios, pequeñas y grandes empresas.</desc>
     <date>2023</date>
@@ -24449,7 +25429,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261018010000 +0000" stop="20261018020000 +0000" channel="n-canal.teleclub">
+  <programme start="20261018010000 +0000" stop="20261018020000 +0000" channel="movistar.lch2318">
     <title lang="es">Primero a las 8 Edición sabatina</title>
     <desc lang="es">Programa informativo con todos los hechos que hacen noticia.</desc>
     <date>2024</date>
@@ -24457,14 +25437,14 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261018020000 +0000" stop="20261018030000 +0000" channel="n-canal.teleclub">
+  <programme start="20261018020000 +0000" stop="20261018030000 +0000" channel="movistar.lch2318">
     <title lang="es">La Linares</title>
     <desc lang="es">Entrevista a diferentes personajes de la farándula y política peruana.</desc>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261018030000 +0000" stop="20261018040000 +0000" channel="n-canal.teleclub">
+  <programme start="20261018030000 +0000" stop="20261018040000 +0000" channel="movistar.lch2318">
     <title lang="es">N Noticias</title>
     <desc lang="es">Las noticias de la actualidad nacional e internacional en todo momento, con la mejor información, la cobertura más completa, entrevistas, contactos en vivo, deportes y espectáculos.</desc>
     <date>2012</date>
@@ -24472,7 +25452,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018040000 +0000" stop="20261018050000 +0000" channel="n-canal.teleclub">
+  <programme start="20261018040000 +0000" stop="20261018050000 +0000" channel="movistar.lch2318">
     <title lang="es">Automundo</title>
     <desc lang="es">Un programa dedicado al mundo del automovilismo que muestra diversas carreras, rallies, exhibiciones de carros y los nuevos diseños en el mercado.</desc>
     <date>2010</date>
@@ -24480,7 +25460,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018050000 +0000" stop="20261018113000 +0000" channel="n-canal.teleclub">
+  <programme start="20261018050000 +0000" stop="20261018113000 +0000" channel="movistar.lch2318">
     <title lang="es">Noticias</title>
     <desc lang="es">Las últimas noticias nacionales e internacionales sobre deportes, economía y finanzas, espectáculos, cultura y arte.</desc>
     <date>2010</date>
@@ -24488,7 +25468,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261018113000 +0000" stop="20261018130000 +0000" channel="n-canal.teleclub">
+  <programme start="20261018113000 +0000" stop="20261018130000 +0000" channel="movistar.lch2318">
     <title lang="es">Automundo</title>
     <desc lang="es">Un programa dedicado al mundo del automovilismo que muestra diversas carreras, rallies, exhibiciones de carros y los nuevos diseños en el mercado.</desc>
     <date>2010</date>
@@ -24496,7 +25476,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018130000 +0000" stop="20261018160000 +0000" channel="n-canal.teleclub">
+  <programme start="20261018130000 +0000" stop="20261018160000 +0000" channel="movistar.lch2318">
     <title lang="es">N Noticias</title>
     <desc lang="es">Las noticias de la actualidad nacional e internacional en todo momento, con la mejor información, la cobertura más completa, entrevistas, contactos en vivo, deportes y espectáculos.</desc>
     <date>2012</date>
@@ -24504,7 +25484,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018160000 +0000" stop="20261018170000 +0000" channel="n-canal.teleclub">
+  <programme start="20261018160000 +0000" stop="20261018170000 +0000" channel="movistar.lch2318">
     <title lang="es">El cliente</title>
     <desc lang="es">Espacio sobre el análisis, estudios y perspectivas en negocios, pequeñas y grandes empresas.</desc>
     <date>2023</date>
@@ -24512,7 +25492,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261018170000 +0000" stop="20261018180000 +0000" channel="n-canal.teleclub">
+  <programme start="20261018170000 +0000" stop="20261018180000 +0000" channel="movistar.lch2318">
     <title lang="es">N Noticias</title>
     <desc lang="es">Las noticias de la actualidad nacional e internacional en todo momento, con la mejor información, la cobertura más completa, entrevistas, contactos en vivo, deportes y espectáculos.</desc>
     <date>2012</date>
@@ -24520,7 +25500,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018180000 +0000" stop="20261018193000 +0000" channel="n-canal.teleclub">
+  <programme start="20261018180000 +0000" stop="20261018193000 +0000" channel="movistar.lch2318">
     <title lang="es">Automundo</title>
     <desc lang="es">Un programa dedicado al mundo del automovilismo que muestra diversas carreras, rallies, exhibiciones de carros y los nuevos diseños en el mercado.</desc>
     <date>2010</date>
@@ -24528,7 +25508,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018193000 +0000" stop="20261018230000 +0000" channel="n-canal.teleclub">
+  <programme start="20261018193000 +0000" stop="20261018230000 +0000" channel="movistar.lch2318">
     <title lang="es">N Noticias</title>
     <desc lang="es">Las noticias de la actualidad nacional e internacional en todo momento, con la mejor información, la cobertura más completa, entrevistas, contactos en vivo, deportes y espectáculos.</desc>
     <date>2012</date>
@@ -24536,7 +25516,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261018230000 +0000" stop="20261019000000 +0000" channel="n-canal.teleclub">
+  <programme start="20261018230000 +0000" stop="20261019000000 +0000" channel="movistar.lch2318">
     <title lang="es">Pasos perdidos</title>
     <desc lang="es">Un espacio en el que se brinda información sobre los temas abordados en el Congreso del Perú.</desc>
     <date>2022</date>
