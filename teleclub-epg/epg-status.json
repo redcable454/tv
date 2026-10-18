@@ -1,14 +1,13 @@
 {
   "channels": 266,
-  "programmes": 17613,
+  "programmes": 17796,
   "channels_with_programmes": 266,
-  "real_epg_channels": 133,
-  "generic_epg_channels": 133,
+  "real_epg_channels": 135,
+  "generic_epg_channels": 131,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "589",
     "590",
-    "760dtv.cl",
     "Juntos-tv.teleclub",
     "Tv+-teleclub",
     "Unitel-huancayo-teleclub",
@@ -100,7 +99,6 @@
     "movistar.lch7202",
     "movistar.lch7216",
     "movistar.lch7217",
-    "nacional-tv.teleclub",
     "nativa-tv.teleclub",
     "nzk-tv.teleclub",
     "onda-tv.teleclub",
@@ -382,10 +380,6 @@
       "name": "Monterrico tv"
     },
     {
-      "id": "nacional-tv.teleclub",
-      "name": "Nacional tv"
-    },
-    {
       "id": "nativa-tv.teleclub",
       "name": "Nativa tv"
     },
@@ -624,10 +618,6 @@
     {
       "id": "Unitel-huancayo-teleclub",
       "name": "Unitel tv Huancayo"
-    },
-    {
-      "id": "760dtv.cl",
-      "name": "UNIVISION"
     },
     {
       "id": "uranio-tv.teleclub",
