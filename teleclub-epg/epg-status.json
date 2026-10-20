@@ -1,9 +1,9 @@
 {
-  "channels": 267,
-  "programmes": 17888,
-  "channels_with_programmes": 267,
-  "real_epg_channels": 135,
-  "generic_epg_channels": 132,
+  "channels": 270,
+  "programmes": 18139,
+  "channels_with_programmes": 270,
+  "real_epg_channels": 136,
+  "generic_epg_channels": 134,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "589",
@@ -14,7 +14,6 @@
     "atv.teleclub",
     "auno-tv.teleclub",
     "aura-tv.teleclub",
-    "bit-tv.teleclub",
     "cadena-tv.teleclub",
     "cbn-tv.teleclub",
     "chincha.teleclub",
@@ -74,6 +73,8 @@
     "custom-1282",
     "custom-1284",
     "custom-1294",
+    "custom-1297",
+    "custom-1299",
     "custom-27",
     "custom-29",
     "custom-31",
@@ -81,8 +82,6 @@
     "custom-6",
     "custom-7",
     "custom-8",
-    "exitosa-tv.teleclub",
-    "global-tv.teleclub",
     "hoy-peru-tv-jaen.teleclub",
     "https://i.ibb.co/Nd3595Jp/1e57475a9a6b-640-360.png",
     "huacho.teleclub",
@@ -95,7 +94,10 @@
     "mega-tv-jaen.teleclub",
     "movistar.lch2219",
     "movistar.lch2357",
+    "movistar.lch6309",
+    "movistar.lch6311",
     "movistar.lch6518",
+    "movistar.lch6519",
     "movistar.lch7110",
     "movistar.lch7202",
     "movistar.lch7216",
@@ -253,6 +255,10 @@
       "name": "CHV"
     },
     {
+      "id": "custom-1299",
+      "name": "CONEC2"
+    },
+    {
       "id": "custom-1135",
       "name": "Controversia tv"
     },
@@ -301,7 +307,7 @@
       "name": "ESPN PREMIUM"
     },
     {
-      "id": "exitosa-tv.teleclub",
+      "id": "movistar.lch6311",
       "name": "Exitosa tv"
     },
     {
@@ -313,7 +319,7 @@
       "name": "Gamarra Chanel tv"
     },
     {
-      "id": "global-tv.teleclub",
+      "id": "movistar.lch6309",
       "name": "Global tv"
     },
     {
@@ -379,6 +385,10 @@
     {
       "id": "regional-telesur-camana.teleclub",
       "name": "Monterrico tv"
+    },
+    {
+      "id": "movistar.lch6519",
+      "name": "NATIVA"
     },
     {
       "id": "nativa-tv.teleclub",
@@ -521,10 +531,6 @@
       "name": "Sucesos tv"
     },
     {
-      "id": "bit-tv.teleclub",
-      "name": "SUPER HITS TV"
-    },
-    {
       "id": "atv.teleclub",
       "name": "Super tv"
     },
@@ -539,6 +545,10 @@
     {
       "id": "custom-1252",
       "name": "TELEFE"
+    },
+    {
+      "id": "custom-1297",
+      "name": "TELELIMA"
     },
     {
       "id": "movistar.lch6518",
