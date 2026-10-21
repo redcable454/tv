@@ -1,16 +1,18 @@
 {
-  "channels": 270,
-  "programmes": 17946,
-  "channels_with_programmes": 270,
-  "real_epg_channels": 136,
-  "generic_epg_channels": 134,
+  "channels": 278,
+  "programmes": 18203,
+  "channels_with_programmes": 278,
+  "real_epg_channels": 139,
+  "generic_epg_channels": 139,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "589",
     "590",
     "Juntos-tv.teleclub",
+    "Primeratelevisión.teleclub",
     "Tv+-teleclub",
     "Unitel-huancayo-teleclub",
+    "amazonica.teleclub",
     "atv.teleclub",
     "auno-tv.teleclub",
     "aura-tv.teleclub",
@@ -59,7 +61,6 @@
     "custom-1221",
     "custom-1235",
     "custom-1238",
-    "custom-1244",
     "custom-1245",
     "custom-1247",
     "custom-1249",
@@ -72,9 +73,11 @@
     "custom-1281",
     "custom-1282",
     "custom-1284",
-    "custom-1294",
     "custom-1297",
     "custom-1299",
+    "custom-1301",
+    "custom-1303",
+    "custom-1304",
     "custom-27",
     "custom-29",
     "custom-31",
@@ -90,6 +93,7 @@
     "latina-noticias.teleclub",
     "latina-podcast.teleclub",
     "malu-tv.teleclub",
+    "master-tv.teleclub",
     "mega-tv-arequipa.teleclub",
     "mega-tv-jaen.teleclub",
     "movistar.lch2219",
@@ -112,7 +116,6 @@
     "radio-virus-star-trujillo.teleclub",
     "regional-atm-television.teleclub",
     "regional-bella-abanquina-tv.teleclub",
-    "regional-bhtv.teleclub",
     "regional-cajamarca-tv-tv360.teleclub",
     "regional-canal-21-huancayo.teleclub",
     "regional-canal-25-ayacucho-tv360.teleclub",
@@ -134,10 +137,12 @@
     "regional-tvenlinea-cusco.teleclub",
     "solar-tv.teleclub",
     "top-tv.teleclub",
+    "trivu-tv.teleclub",
     "turbo-mix-tv-cajamarca.teleclub",
     "tv-peru-teleclub",
     "uranio-tv.teleclub",
     "vision-sur-arequipa.teleclub",
+    "vivaQuillabamba.teleclub",
     "xtv-jaen.teleclub",
     "yuri-vision-tv.teleclub"
   ],
@@ -149,6 +154,10 @@
     {
       "id": "custom-1040",
       "name": "ADRENALINA TV"
+    },
+    {
+      "id": "amazonica.teleclub",
+      "name": "AMAZONICA TV"
     },
     {
       "id": "custom-1247",
@@ -165,10 +174,6 @@
     {
       "id": "regional-bella-abanquina-tv.teleclub",
       "name": "Bella Abanquina TV"
-    },
-    {
-      "id": "regional-bhtv.teleclub",
-      "name": "BHtv"
     },
     {
       "id": "custom-1105",
@@ -295,6 +300,14 @@
       "name": "DUNAS TV"
     },
     {
+      "id": "custom-1303",
+      "name": "ECHOS ECUADOR"
+    },
+    {
+      "id": "custom-1304",
+      "name": "Eco tv ica"
+    },
+    {
       "id": "custom-1281",
       "name": "ECUAVISA"
     },
@@ -367,6 +380,10 @@
       "name": "Lo nuestro tv"
     },
     {
+      "id": "master-tv.teleclub",
+      "name": "Master tv"
+    },
+    {
       "id": "mega-tv-arequipa.teleclub",
       "name": "Mega tv Arequipa"
     },
@@ -397,6 +414,10 @@
     {
       "id": "nzk-tv.teleclub",
       "name": "Neo tv jaen"
+    },
+    {
+      "id": "custom-1301",
+      "name": "NOVELISIMA TV"
     },
     {
       "id": "custom-1085",
@@ -433,6 +454,10 @@
     {
       "id": "top-tv.teleclub",
       "name": "POPU TV"
+    },
+    {
+      "id": "Primeratelevisión.teleclub",
+      "name": "Primavera televisión"
     },
     {
       "id": "regional-pucallpa-tv.teleclub",
@@ -579,10 +604,6 @@
       "name": "TNT SPORTS"
     },
     {
-      "id": "custom-1244",
-      "name": "TNT SPORTS PREMIUM"
-    },
-    {
       "id": "custom-1282",
       "name": "TODO CINE"
     },
@@ -593,6 +614,10 @@
     {
       "id": "regional-atm-television.teleclub",
       "name": "Top tv aguaytia"
+    },
+    {
+      "id": "trivu-tv.teleclub",
+      "name": "Trivu tv"
     },
     {
       "id": "regional-tropical-tv-puerto-maldonado.teleclub",
@@ -643,16 +668,16 @@
       "name": "VENUS TV +18"
     },
     {
-      "id": "custom-1294",
-      "name": "VIA X SPORTS"
-    },
-    {
       "id": "vision-sur-arequipa.teleclub",
       "name": "Visión sur tv"
     },
     {
       "id": "custom-1127",
       "name": "Visión tv jaen"
+    },
+    {
+      "id": "vivaQuillabamba.teleclub",
+      "name": "Viva Quillabamba"
     },
     {
       "id": "regional-dmj-cusco.teleclub",

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-21T19:24:28.645419+00:00" radio-la-zona-updated-at="2026-10-21T19:24:28.911886+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-21T22:31:15.789619+00:00" radio-la-zona-updated-at="2026-10-21T22:31:16.028798+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -329,7 +329,6 @@
   </channel>
   <channel id="226dtv.cl">
     <display-name lang="es">LAS ESTRELLAS</display-name>
-    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/226.png" />
   </channel>
   <channel id="225dtv.cl">
     <display-name lang="es">PASIONES</display-name>
@@ -660,8 +659,8 @@
   <channel id="regional-canal-25-ayacucho-tv360.teleclub">
     <display-name lang="es">Canal 25 Ayacucho</display-name>
   </channel>
-  <channel id="regional-bhtv.teleclub">
-    <display-name lang="es">BHtv</display-name>
+  <channel id="vivaQuillabamba.teleclub">
+    <display-name lang="es">Viva Quillabamba</display-name>
   </channel>
   <channel id="regional-teleselva-tv.teleclub">
     <display-name lang="es">Teleselva tv</display-name>
@@ -723,6 +722,9 @@
   </channel>
   <channel id="cadena-tv.teleclub">
     <display-name lang="es">Cadena tv</display-name>
+  </channel>
+  <channel id="amazonica.teleclub">
+    <display-name lang="es">AMAZONICA TV</display-name>
   </channel>
   <channel id="regional-telesur-camana.teleclub">
     <display-name lang="es">Monterrico tv</display-name>
@@ -870,9 +872,6 @@
     <display-name lang="es">TOONCAST</display-name>
     <icon src="http://panel.digo.net.pe:80/images/1b09d3d87c3ea38f746e78d842d91408.png" />
   </channel>
-  <channel id="custom-1244">
-    <display-name lang="es">TNT SPORTS PREMIUM</display-name>
-  </channel>
   <channel id="custom-1245">
     <display-name lang="es">ESPN PREMIUM</display-name>
   </channel>
@@ -941,7 +940,7 @@
     <display-name lang="es">PLUS TV LIFE</display-name>
   </channel>
   <channel id="custom-1294">
-    <display-name lang="es">VIA X SPORTS</display-name>
+    <display-name lang="es">VIA X</display-name>
   </channel>
   <channel id="custom-1295">
     <display-name lang="es">ZONA LATINA</display-name>
@@ -956,6 +955,30 @@
   </channel>
   <channel id="custom-1299">
     <display-name lang="es">CONEC2</display-name>
+  </channel>
+  <channel id="custom-1300">
+    <display-name lang="es">TNT NOVELAS</display-name>
+  </channel>
+  <channel id="custom-1301">
+    <display-name lang="es">NOVELISIMA TV</display-name>
+  </channel>
+  <channel id="custom-1302">
+    <display-name lang="es">ECUADOR TV</display-name>
+  </channel>
+  <channel id="custom-1303">
+    <display-name lang="es">ECHOS ECUADOR</display-name>
+  </channel>
+  <channel id="custom-1304">
+    <display-name lang="es">Eco tv ica</display-name>
+  </channel>
+  <channel id="Primeratelevisión.teleclub">
+    <display-name lang="es">Primavera televisión</display-name>
+  </channel>
+  <channel id="master-tv.teleclub">
+    <display-name lang="es">Master tv</display-name>
+  </channel>
+  <channel id="trivu-tv.teleclub">
+    <display-name lang="es">Trivu tv</display-name>
   </channel>
   <channel id="liga1.teleclub">
     <display-name lang="es">Liga1</display-name>
@@ -12974,266 +12997,275 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261021050000 +0000" stop="20261021051700 +0000" channel="america-television.teleclub">
-    <title lang="es">América noticias Edición central</title>
+  <programme start="20261022043000 +0000" stop="20261022053000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los hilos del pasado</title>
   </programme>
-  <programme start="20261021051700 +0000" stop="20261021052400 +0000" channel="america-television.teleclub">
-    <title lang="es">América Deportes</title>
+  <programme start="20261021053000 +0000" stop="20261021061000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
   </programme>
-  <programme start="20261021052400 +0000" stop="20261021052700 +0000" channel="america-television.teleclub">
-    <title lang="es">América noticias Edición central</title>
-  </programme>
-  <programme start="20261021052700 +0000" stop="20261021054500 +0000" channel="america-television.teleclub">
+  <programme start="20261021061000 +0000" stop="20261021063000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
-  </programme>
-  <programme start="20261021054500 +0000" stop="20261021063000 +0000" channel="america-television.teleclub">
-    <title lang="es">Desvelados</title>
   </programme>
   <programme start="20261021063000 +0000" stop="20261021073000 +0000" channel="america-television.teleclub">
-    <title lang="es">Los hilos del pasado</title>
-  </programme>
-  <programme start="20261021073000 +0000" stop="20261021081000 +0000" channel="america-television.teleclub">
-    <title lang="es">Destilando amor</title>
-  </programme>
-  <programme start="20261021081000 +0000" stop="20261021083000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261021083000 +0000" stop="20261021093000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
-  <programme start="20261021093000 +0000" stop="20261021110000 +0000" channel="america-television.teleclub">
+  <programme start="20261021073000 +0000" stop="20261021090000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20261021110000 +0000" stop="20261021111600 +0000" channel="america-television.teleclub">
+  <programme start="20261021090000 +0000" stop="20261021091600 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261021111600 +0000" stop="20261021130000 +0000" channel="america-television.teleclub">
+  <programme start="20261021091600 +0000" stop="20261021110000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261021130000 +0000" stop="20261021145000 +0000" channel="america-television.teleclub">
+  <programme start="20261021110000 +0000" stop="20261021125000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261021145000 +0000" stop="20261021151000 +0000" channel="america-television.teleclub">
+  <programme start="20261021125000 +0000" stop="20261021131000 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261021151000 +0000" stop="20261021153000 +0000" channel="america-television.teleclub">
+  <programme start="20261021131000 +0000" stop="20261021133000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261021153000 +0000" stop="20261021170000 +0000" channel="america-television.teleclub">
+  <programme start="20261021133000 +0000" stop="20261021150000 +0000" channel="america-television.teleclub">
     <title lang="es">América hoy</title>
   </programme>
-  <programme start="20261021170000 +0000" stop="20261021180000 +0000" channel="america-television.teleclub">
+  <programme start="20261021150000 +0000" stop="20261021160000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261021180000 +0000" stop="20261021183500 +0000" channel="america-television.teleclub">
+  <programme start="20261021160000 +0000" stop="20261021163500 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Edición Mediodía</title>
   </programme>
-  <programme start="20261021183500 +0000" stop="20261021184500 +0000" channel="america-television.teleclub">
+  <programme start="20261021163500 +0000" stop="20261021164500 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261021184500 +0000" stop="20261021190000 +0000" channel="america-television.teleclub">
+  <programme start="20261021164500 +0000" stop="20261021170000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261021190000 +0000" stop="20261021194000 +0000" channel="america-television.teleclub">
+  <programme start="20261021170000 +0000" stop="20261021174000 +0000" channel="america-television.teleclub">
     <title lang="es">Destilando amor</title>
   </programme>
-  <programme start="20261021194000 +0000" stop="20261021211000 +0000" channel="america-television.teleclub">
+  <programme start="20261021174000 +0000" stop="20261021191000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20261021211000 +0000" stop="20261021220000 +0000" channel="america-television.teleclub">
+  <programme start="20261021191000 +0000" stop="20261021200000 +0000" channel="america-television.teleclub">
     <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20261021220000 +0000" stop="20261021230000 +0000" channel="america-television.teleclub">
+  <programme start="20261021200000 +0000" stop="20261021210000 +0000" channel="america-television.teleclub">
     <title lang="es">Los Hilos del Pasado</title>
   </programme>
-  <programme start="20261022000000 +0000" stop="20261022013000 +0000" channel="america-television.teleclub">
+  <programme start="20261021220000 +0000" stop="20261021233000 +0000" channel="america-television.teleclub">
     <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
-  <programme start="20261022013000 +0000" stop="20261022030000 +0000" channel="america-television.teleclub">
+  <programme start="20261021233000 +0000" stop="20261022010000 +0000" channel="america-television.teleclub">
     <title lang="es">Esto es guerra</title>
   </programme>
-  <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="america-television.teleclub">
+  <programme start="20261022010000 +0000" stop="20261022020000 +0000" channel="america-television.teleclub">
     <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20261022040000 +0000" stop="20261022045000 +0000" channel="america-television.teleclub">
+  <programme start="20261022020000 +0000" stop="20261022025000 +0000" channel="america-television.teleclub">
     <title lang="es">La vida que me robaste</title>
   </programme>
-  <programme start="20261022045000 +0000" stop="20261022045300 +0000" channel="america-television.teleclub">
+  <programme start="20261022025000 +0000" stop="20261022025300 +0000" channel="america-television.teleclub">
     <title lang="es">La Tinka</title>
   </programme>
-  <programme start="20261022045300 +0000" stop="20261022050000 +0000" channel="america-television.teleclub">
+  <programme start="20261022025300 +0000" stop="20261022030000 +0000" channel="america-television.teleclub">
     <title lang="es">La vida que me robaste</title>
   </programme>
-  <programme start="20261022050000 +0000" stop="20261022051700 +0000" channel="america-television.teleclub">
+  <programme start="20261022030000 +0000" stop="20261022031700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20261022051700 +0000" stop="20261022052400 +0000" channel="america-television.teleclub">
+  <programme start="20261022031700 +0000" stop="20261022032400 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261022052400 +0000" stop="20261022052700 +0000" channel="america-television.teleclub">
+  <programme start="20261022032400 +0000" stop="20261022032700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20261022052700 +0000" stop="20261022054500 +0000" channel="america-television.teleclub">
+  <programme start="20261022032700 +0000" stop="20261022034500 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261022054500 +0000" stop="20261022063000 +0000" channel="america-television.teleclub">
+  <programme start="20261022034500 +0000" stop="20261022043000 +0000" channel="america-television.teleclub">
     <title lang="es">Desvelados</title>
+  </programme>
+  <programme start="20261022043000 +0000" stop="20261022053000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los hilos del pasado</title>
+  </programme>
+  <programme start="20261023043000 +0000" stop="20261023053000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los hilos del pasado</title>
+  </programme>
+  <programme start="20261022053000 +0000" stop="20261022061000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
+  </programme>
+  <programme start="20261022061000 +0000" stop="20261022063000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
   </programme>
   <programme start="20261022063000 +0000" stop="20261022073000 +0000" channel="america-television.teleclub">
-    <title lang="es">Los hilos del pasado</title>
-  </programme>
-  <programme start="20261022073000 +0000" stop="20261022081000 +0000" channel="america-television.teleclub">
-    <title lang="es">Destilando amor</title>
-  </programme>
-  <programme start="20261022081000 +0000" stop="20261022083000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261022083000 +0000" stop="20261022093000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
-  <programme start="20261022093000 +0000" stop="20261022110000 +0000" channel="america-television.teleclub">
+  <programme start="20261022073000 +0000" stop="20261022090000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20261022110000 +0000" stop="20261022111600 +0000" channel="america-television.teleclub">
+  <programme start="20261022090000 +0000" stop="20261022091600 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261022111600 +0000" stop="20261022130000 +0000" channel="america-television.teleclub">
+  <programme start="20261022091600 +0000" stop="20261022110000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261022130000 +0000" stop="20261022145000 +0000" channel="america-television.teleclub">
+  <programme start="20261022110000 +0000" stop="20261022125000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261022145000 +0000" stop="20261022151000 +0000" channel="america-television.teleclub">
+  <programme start="20261022125000 +0000" stop="20261022131000 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261022151000 +0000" stop="20261022153000 +0000" channel="america-television.teleclub">
+  <programme start="20261022131000 +0000" stop="20261022133000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261022153000 +0000" stop="20261022170000 +0000" channel="america-television.teleclub">
+  <programme start="20261022133000 +0000" stop="20261022150000 +0000" channel="america-television.teleclub">
     <title lang="es">América Hoy</title>
   </programme>
-  <programme start="20261022170000 +0000" stop="20261022180000 +0000" channel="america-television.teleclub">
+  <programme start="20261022150000 +0000" stop="20261022160000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261022180000 +0000" stop="20261022183500 +0000" channel="america-television.teleclub">
+  <programme start="20261022160000 +0000" stop="20261022163500 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Edición Mediodía</title>
   </programme>
-  <programme start="20261022183500 +0000" stop="20261022184500 +0000" channel="america-television.teleclub">
+  <programme start="20261022163500 +0000" stop="20261022164500 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261022184500 +0000" stop="20261022190000 +0000" channel="america-television.teleclub">
+  <programme start="20261022164500 +0000" stop="20261022170000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261022190000 +0000" stop="20261022194000 +0000" channel="america-television.teleclub">
+  <programme start="20261022170000 +0000" stop="20261022174000 +0000" channel="america-television.teleclub">
     <title lang="es">Destilando amor</title>
   </programme>
-  <programme start="20261022194000 +0000" stop="20261022211000 +0000" channel="america-television.teleclub">
+  <programme start="20261022174000 +0000" stop="20261022191000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20261022211000 +0000" stop="20261022220000 +0000" channel="america-television.teleclub">
+  <programme start="20261022191000 +0000" stop="20261022200000 +0000" channel="america-television.teleclub">
     <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20261022220000 +0000" stop="20261022230000 +0000" channel="america-television.teleclub">
+  <programme start="20261022200000 +0000" stop="20261022210000 +0000" channel="america-television.teleclub">
     <title lang="es">Los Hilos del Pasado</title>
   </programme>
-  <programme start="20261023000000 +0000" stop="20261023005000 +0000" channel="america-television.teleclub">
+  <programme start="20261022220000 +0000" stop="20261022225000 +0000" channel="america-television.teleclub">
     <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
-  <programme start="20261023005000 +0000" stop="20261023013000 +0000" channel="america-television.teleclub">
+  <programme start="20261022225000 +0000" stop="20261022233000 +0000" channel="america-television.teleclub">
     <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
-  <programme start="20261023013000 +0000" stop="20261023030000 +0000" channel="america-television.teleclub">
+  <programme start="20261022233000 +0000" stop="20261023010000 +0000" channel="america-television.teleclub">
     <title lang="es">Esto es guerra</title>
   </programme>
-  <programme start="20261023030000 +0000" stop="20261023040000 +0000" channel="america-television.teleclub">
+  <programme start="20261023010000 +0000" stop="20261023020000 +0000" channel="america-television.teleclub">
     <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20261023040000 +0000" stop="20261023050000 +0000" channel="america-television.teleclub">
+  <programme start="20261023020000 +0000" stop="20261023030000 +0000" channel="america-television.teleclub">
     <title lang="es">La vida que me robaste</title>
   </programme>
-  <programme start="20261023050000 +0000" stop="20261023051700 +0000" channel="america-television.teleclub">
+  <programme start="20261023030000 +0000" stop="20261023031700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20261023051700 +0000" stop="20261023052400 +0000" channel="america-television.teleclub">
+  <programme start="20261023031700 +0000" stop="20261023032400 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261023052400 +0000" stop="20261023052700 +0000" channel="america-television.teleclub">
+  <programme start="20261023032400 +0000" stop="20261023032700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20261023052700 +0000" stop="20261023054500 +0000" channel="america-television.teleclub">
+  <programme start="20261023032700 +0000" stop="20261023034500 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261023054500 +0000" stop="20261023063000 +0000" channel="america-television.teleclub">
+  <programme start="20261023034500 +0000" stop="20261023043000 +0000" channel="america-television.teleclub">
     <title lang="es">Desvelados</title>
   </programme>
-  <programme start="20261023063000 +0000" stop="20261023073000 +0000" channel="america-television.teleclub">
+  <programme start="20261023043000 +0000" stop="20261023053000 +0000" channel="america-television.teleclub">
     <title lang="es">Los hilos del pasado</title>
   </programme>
-  <programme start="20261023073000 +0000" stop="20261023081000 +0000" channel="america-television.teleclub">
+  <programme start="20261024043000 +0000" stop="20261024053000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los hilos del pasado</title>
+  </programme>
+  <programme start="20261023053000 +0000" stop="20261023061000 +0000" channel="america-television.teleclub">
     <title lang="es">Destilando amor</title>
   </programme>
-  <programme start="20261023081000 +0000" stop="20261023083000 +0000" channel="america-television.teleclub">
+  <programme start="20261023061000 +0000" stop="20261023063000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261023083000 +0000" stop="20261023093000 +0000" channel="america-television.teleclub">
+  <programme start="20261023063000 +0000" stop="20261023073000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261023093000 +0000" stop="20261023110000 +0000" channel="america-television.teleclub">
+  <programme start="20261023073000 +0000" stop="20261023090000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20261023110000 +0000" stop="20261023111600 +0000" channel="america-television.teleclub">
+  <programme start="20261023090000 +0000" stop="20261023091600 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261023111600 +0000" stop="20261023130000 +0000" channel="america-television.teleclub">
+  <programme start="20261023091600 +0000" stop="20261023110000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261023130000 +0000" stop="20261023145000 +0000" channel="america-television.teleclub">
+  <programme start="20261023110000 +0000" stop="20261023125000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261023145000 +0000" stop="20261023151000 +0000" channel="america-television.teleclub">
+  <programme start="20261023125000 +0000" stop="20261023131000 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261023151000 +0000" stop="20261023153000 +0000" channel="america-television.teleclub">
+  <programme start="20261023131000 +0000" stop="20261023133000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261023153000 +0000" stop="20261023170000 +0000" channel="america-television.teleclub">
+  <programme start="20261023133000 +0000" stop="20261023150000 +0000" channel="america-television.teleclub">
     <title lang="es">América hoy</title>
   </programme>
-  <programme start="20261023170000 +0000" stop="20261023180000 +0000" channel="america-television.teleclub">
+  <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261023180000 +0000" stop="20261023183500 +0000" channel="america-television.teleclub">
+  <programme start="20261023160000 +0000" stop="20261023163500 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Edición Mediodía</title>
   </programme>
-  <programme start="20261023183500 +0000" stop="20261023184500 +0000" channel="america-television.teleclub">
+  <programme start="20261023163500 +0000" stop="20261023164500 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261023184500 +0000" stop="20261023190000 +0000" channel="america-television.teleclub">
+  <programme start="20261023164500 +0000" stop="20261023170000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261023190000 +0000" stop="20261023194000 +0000" channel="america-television.teleclub">
+  <programme start="20261023170000 +0000" stop="20261023174000 +0000" channel="america-television.teleclub">
     <title lang="es">Destilando amor</title>
   </programme>
-  <programme start="20261023194000 +0000" stop="20261023211000 +0000" channel="america-television.teleclub">
+  <programme start="20261023174000 +0000" stop="20261023191000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20261023211000 +0000" stop="20261023220000 +0000" channel="america-television.teleclub">
+  <programme start="20261023191000 +0000" stop="20261023200000 +0000" channel="america-television.teleclub">
     <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20261023220000 +0000" stop="20261023230000 +0000" channel="america-television.teleclub">
+  <programme start="20261023200000 +0000" stop="20261023210000 +0000" channel="america-television.teleclub">
     <title lang="es">Los Hilos del Pasado</title>
   </programme>
-  <programme start="20261024000000 +0000" stop="20261024013000 +0000" channel="america-television.teleclub">
+  <programme start="20261023220000 +0000" stop="20261023233000 +0000" channel="america-television.teleclub">
     <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
-  <programme start="20261024013000 +0000" stop="20261024030000 +0000" channel="america-television.teleclub">
+  <programme start="20261023233000 +0000" stop="20261024010000 +0000" channel="america-television.teleclub">
     <title lang="es">Esto es guerra</title>
   </programme>
-  <programme start="20261024030000 +0000" stop="20261024040000 +0000" channel="america-television.teleclub">
+  <programme start="20261024010000 +0000" stop="20261024020000 +0000" channel="america-television.teleclub">
     <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20261024040000 +0000" stop="20261024050000 +0000" channel="america-television.teleclub">
+  <programme start="20261024020000 +0000" stop="20261024030000 +0000" channel="america-television.teleclub">
     <title lang="es">La vida que me robaste</title>
+  </programme>
+  <programme start="20261024030000 +0000" stop="20261024031700 +0000" channel="america-television.teleclub">
+    <title lang="es">América noticias Edición central</title>
+  </programme>
+  <programme start="20261024031700 +0000" stop="20261024032400 +0000" channel="america-television.teleclub">
+    <title lang="es">América Deportes</title>
+  </programme>
+  <programme start="20261024032400 +0000" stop="20261024032700 +0000" channel="america-television.teleclub">
+    <title lang="es">América noticias Edición central</title>
+  </programme>
+  <programme start="20261024032700 +0000" stop="20261024034500 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
+  <programme start="20261024034500 +0000" stop="20261024043000 +0000" channel="america-television.teleclub">
+    <title lang="es">Desvelados</title>
+  </programme>
+  <programme start="20261024043000 +0000" stop="20261024053000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los hilos del pasado</title>
   </programme>
   <programme start="20261020050000 +0000" stop="20261020110000 +0000" channel="custom-28">
     <title lang="es">Radio La Zona, Te enciende</title>
@@ -14323,17 +14355,17 @@
     <title lang="es">Canal 25 Ayacucho - En vivo</title>
     <desc lang="es">Programación en vivo de Canal 25 Ayacucho. Categoría: Regionales.</desc>
   </programme>
-  <programme start="20261021050000 +0000" stop="20261022050000 +0000" channel="regional-bhtv.teleclub">
-    <title lang="es">BHtv - En vivo</title>
-    <desc lang="es">Programación en vivo de BHtv. Categoría: Regionales.</desc>
+  <programme start="20261021050000 +0000" stop="20261022050000 +0000" channel="vivaQuillabamba.teleclub">
+    <title lang="es">Viva Quillabamba - En vivo</title>
+    <desc lang="es">Programación en vivo de Viva Quillabamba. Categoría: Regionales.</desc>
   </programme>
-  <programme start="20261022050000 +0000" stop="20261023050000 +0000" channel="regional-bhtv.teleclub">
-    <title lang="es">BHtv - En vivo</title>
-    <desc lang="es">Programación en vivo de BHtv. Categoría: Regionales.</desc>
+  <programme start="20261022050000 +0000" stop="20261023050000 +0000" channel="vivaQuillabamba.teleclub">
+    <title lang="es">Viva Quillabamba - En vivo</title>
+    <desc lang="es">Programación en vivo de Viva Quillabamba. Categoría: Regionales.</desc>
   </programme>
-  <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="regional-bhtv.teleclub">
-    <title lang="es">BHtv - En vivo</title>
-    <desc lang="es">Programación en vivo de BHtv. Categoría: Regionales.</desc>
+  <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="vivaQuillabamba.teleclub">
+    <title lang="es">Viva Quillabamba - En vivo</title>
+    <desc lang="es">Programación en vivo de Viva Quillabamba. Categoría: Regionales.</desc>
   </programme>
   <programme start="20261021050000 +0000" stop="20261022050000 +0000" channel="regional-teleselva-tv.teleclub">
     <title lang="es">Teleselva tv - En vivo</title>
@@ -14538,6 +14570,18 @@
   <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="cadena-tv.teleclub">
     <title lang="es">Cadena tv - En vivo</title>
     <desc lang="es">Programación en vivo de Cadena tv. Categoría: Regionales.</desc>
+  </programme>
+  <programme start="20261021050000 +0000" stop="20261022050000 +0000" channel="amazonica.teleclub">
+    <title lang="es">AMAZONICA TV - En vivo</title>
+    <desc lang="es">Programación en vivo de AMAZONICA TV. Categoría: Regionales.</desc>
+  </programme>
+  <programme start="20261022050000 +0000" stop="20261023050000 +0000" channel="amazonica.teleclub">
+    <title lang="es">AMAZONICA TV - En vivo</title>
+    <desc lang="es">Programación en vivo de AMAZONICA TV. Categoría: Regionales.</desc>
+  </programme>
+  <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="amazonica.teleclub">
+    <title lang="es">AMAZONICA TV - En vivo</title>
+    <desc lang="es">Programación en vivo de AMAZONICA TV. Categoría: Regionales.</desc>
   </programme>
   <programme start="20261021050000 +0000" stop="20261022050000 +0000" channel="regional-telesur-camana.teleclub">
     <title lang="es">Monterrico tv - En vivo</title>
@@ -14875,18 +14919,6 @@
     <title lang="es">BICOLOR+ PREMIUM - En vivo</title>
     <desc lang="es">Programación en vivo de BICOLOR+ PREMIUM. Categoría: Deportes.</desc>
   </programme>
-  <programme start="20261021050000 +0000" stop="20261022050000 +0000" channel="custom-1244">
-    <title lang="es">TNT SPORTS PREMIUM - En vivo</title>
-    <desc lang="es">Programación en vivo de TNT SPORTS PREMIUM. Categoría: Premium.</desc>
-  </programme>
-  <programme start="20261022050000 +0000" stop="20261023050000 +0000" channel="custom-1244">
-    <title lang="es">TNT SPORTS PREMIUM - En vivo</title>
-    <desc lang="es">Programación en vivo de TNT SPORTS PREMIUM. Categoría: Premium.</desc>
-  </programme>
-  <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="custom-1244">
-    <title lang="es">TNT SPORTS PREMIUM - En vivo</title>
-    <desc lang="es">Programación en vivo de TNT SPORTS PREMIUM. Categoría: Premium.</desc>
-  </programme>
   <programme start="20261021050000 +0000" stop="20261022050000 +0000" channel="custom-1245">
     <title lang="es">ESPN PREMIUM - En vivo</title>
     <desc lang="es">Programación en vivo de ESPN PREMIUM. Categoría: Premium.</desc>
@@ -15043,18 +15075,6 @@
     <title lang="es">COVATEL - En vivo</title>
     <desc lang="es">Programación en vivo de COVATEL. Categoría: Cable.</desc>
   </programme>
-  <programme start="20261021050000 +0000" stop="20261022050000 +0000" channel="custom-1294">
-    <title lang="es">VIA X SPORTS - En vivo</title>
-    <desc lang="es">Programación en vivo de VIA X SPORTS. Categoría: Cable.</desc>
-  </programme>
-  <programme start="20261022050000 +0000" stop="20261023050000 +0000" channel="custom-1294">
-    <title lang="es">VIA X SPORTS - En vivo</title>
-    <desc lang="es">Programación en vivo de VIA X SPORTS. Categoría: Cable.</desc>
-  </programme>
-  <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="custom-1294">
-    <title lang="es">VIA X SPORTS - En vivo</title>
-    <desc lang="es">Programación en vivo de VIA X SPORTS. Categoría: Cable.</desc>
-  </programme>
   <programme start="20261021050000 +0000" stop="20261022050000 +0000" channel="custom-1297">
     <title lang="es">TELELIMA - En vivo</title>
     <desc lang="es">Programación en vivo de TELELIMA. Categoría: Nacionales.</desc>
@@ -15090,6 +15110,78 @@
   <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="custom-1299">
     <title lang="es">CONEC2 - En vivo</title>
     <desc lang="es">Programación en vivo de CONEC2. Categoría: Nacionales.</desc>
+  </programme>
+  <programme start="20261021050000 +0000" stop="20261022050000 +0000" channel="custom-1301">
+    <title lang="es">NOVELISIMA TV - En vivo</title>
+    <desc lang="es">Programación en vivo de NOVELISIMA TV. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261022050000 +0000" stop="20261023050000 +0000" channel="custom-1301">
+    <title lang="es">NOVELISIMA TV - En vivo</title>
+    <desc lang="es">Programación en vivo de NOVELISIMA TV. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="custom-1301">
+    <title lang="es">NOVELISIMA TV - En vivo</title>
+    <desc lang="es">Programación en vivo de NOVELISIMA TV. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261021050000 +0000" stop="20261022050000 +0000" channel="custom-1303">
+    <title lang="es">ECHOS ECUADOR - En vivo</title>
+    <desc lang="es">Programación en vivo de ECHOS ECUADOR. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261022050000 +0000" stop="20261023050000 +0000" channel="custom-1303">
+    <title lang="es">ECHOS ECUADOR - En vivo</title>
+    <desc lang="es">Programación en vivo de ECHOS ECUADOR. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="custom-1303">
+    <title lang="es">ECHOS ECUADOR - En vivo</title>
+    <desc lang="es">Programación en vivo de ECHOS ECUADOR. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261021050000 +0000" stop="20261022050000 +0000" channel="custom-1304">
+    <title lang="es">Eco tv ica - En vivo</title>
+    <desc lang="es">Programación en vivo de Eco tv ica. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261022050000 +0000" stop="20261023050000 +0000" channel="custom-1304">
+    <title lang="es">Eco tv ica - En vivo</title>
+    <desc lang="es">Programación en vivo de Eco tv ica. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="custom-1304">
+    <title lang="es">Eco tv ica - En vivo</title>
+    <desc lang="es">Programación en vivo de Eco tv ica. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261021050000 +0000" stop="20261022050000 +0000" channel="Primeratelevisión.teleclub">
+    <title lang="es">Primavera televisión - En vivo</title>
+    <desc lang="es">Programación en vivo de Primavera televisión. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261022050000 +0000" stop="20261023050000 +0000" channel="Primeratelevisión.teleclub">
+    <title lang="es">Primavera televisión - En vivo</title>
+    <desc lang="es">Programación en vivo de Primavera televisión. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="Primeratelevisión.teleclub">
+    <title lang="es">Primavera televisión - En vivo</title>
+    <desc lang="es">Programación en vivo de Primavera televisión. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261021050000 +0000" stop="20261022050000 +0000" channel="master-tv.teleclub">
+    <title lang="es">Master tv - En vivo</title>
+    <desc lang="es">Programación en vivo de Master tv. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261022050000 +0000" stop="20261023050000 +0000" channel="master-tv.teleclub">
+    <title lang="es">Master tv - En vivo</title>
+    <desc lang="es">Programación en vivo de Master tv. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="master-tv.teleclub">
+    <title lang="es">Master tv - En vivo</title>
+    <desc lang="es">Programación en vivo de Master tv. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261021050000 +0000" stop="20261022050000 +0000" channel="trivu-tv.teleclub">
+    <title lang="es">Trivu tv - En vivo</title>
+    <desc lang="es">Programación en vivo de Trivu tv. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261022050000 +0000" stop="20261023050000 +0000" channel="trivu-tv.teleclub">
+    <title lang="es">Trivu tv - En vivo</title>
+    <desc lang="es">Programación en vivo de Trivu tv. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="trivu-tv.teleclub">
+    <title lang="es">Trivu tv - En vivo</title>
+    <desc lang="es">Programación en vivo de Trivu tv. Categoría: Cable.</desc>
   </programme>
   <programme start="20261020230000 +0000" stop="20261021000000 +0000" channel="movistar.lch2201">
     <title lang="es">Mi vida por ti</title>
@@ -69900,6 +69992,814 @@
     <date>2008</date>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261020171800 +0000" stop="20261020181500 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Leyla está lista para escuchar a su madre y descubrir dónde ha estado todo este tiempo. La empresa sufre cambios radicales después de Füsun.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E40</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261020181500 +0000" stop="20261020190500 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Çagla se alegra de que Ozan quiera que viva con él. Mientras tanto, el mapa del tesoro que encontraron Ekrem y Yalçin apunta a la casa de Zümrüt.</desc>
+    <episode-num system="onscreen">E56</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261020190500 +0000" stop="20261020195600 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Çagla se preocupa por la conversación que Mert pretende tener con Ozan, y la aventura de Ekrem, Yalcin y Menekse llega otra vez a su fin.</desc>
+    <episode-num system="onscreen">E57</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261020195600 +0000" stop="20261020205200 +0000" channel="custom-1300">
+    <title lang="es">Fuerza de mujer</title>
+    <desc lang="es">Bahar y su familia empiezan a construir una nueva vida juntos, pero el destino aún le reserva una sorpresa.</desc>
+    <episode-num system="onscreen">E70</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261020205200 +0000" stop="20261020214300 +0000" channel="custom-1300">
+    <title lang="es">Fuerza de mujer</title>
+    <desc lang="es">Sarp le reclama a Sirin haber sido la culpable de que su vida cambiara drásticamente. Sarp lleva a Sirin al cementerio, y ahí ella encuentra las tumbas falsas de Bahar, Nisan y Doruk. Sarp amenaza a Sirin con no decir nada sobre su encuentro.</desc>
+    <date>2023</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261020214300 +0000" stop="20261020223700 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Ates cree que no podrá obtener la custodia de los niños, por lo que quiere irse al extranjero con Leyla. Leyla está cerca de encontrar a su madre.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E39</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261020223700 +0000" stop="20261020234200 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Leyla está lista para escuchar a su madre y descubrir dónde ha estado todo este tiempo. La empresa sufre cambios radicales después de Füsun.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E40</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261020234200 +0000" stop="20261021003300 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Saffet Agha ocupa la mansión de Korhan para encontrar a Suna y Seyran. Ferit sugiere acampar en un área remota para despistarlo.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E106</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021003300 +0000" stop="20261021012400 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Fuat recuerda un momento de la infancia con Ferit y adivina su paradero. Al día siguiente, parte con Asuman en busca de Ferit.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E107</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021012400 +0000" stop="20261021022800 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Leyla está lista para escuchar a su madre y descubrir dónde ha estado todo este tiempo. La empresa sufre cambios radicales después de Füsun.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E40</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021022800 +0000" stop="20261021032100 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Un heredero desconfiado debe regresar a Estambul, donde conoce a una estafadora que se hace pasar por una novia.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021032100 +0000" stop="20261021041100 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Asuman y Fuat sorprenden a Ferit y a las mujeres en su campamento y hacen un picnic, pero después sufren un accidente.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E108</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021041100 +0000" stop="20261021050000 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Todos lamentan la muerte de Fuat en un funeral doloroso. Las familias se reúnen, de luto y con ira, culpándose unas a otras.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E109</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021050000 +0000" stop="20261021054900 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Çagla se alegra de que Ozan quiera que viva con él. Mientras tanto, el mapa del tesoro que encontraron Ekrem y Yalçin apunta a la casa de Zümrüt.</desc>
+    <episode-num system="onscreen">E56</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261021054900 +0000" stop="20261021063700 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Çagla se preocupa por la conversación que Mert pretende tener con Ozan, y la aventura de Ekrem, Yalcin y Menekse llega otra vez a su fin.</desc>
+    <episode-num system="onscreen">E57</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261021063700 +0000" stop="20261021072200 +0000" channel="custom-1300">
+    <title lang="es">Fuerza de mujer</title>
+    <desc lang="es">Bahar y su familia empiezan a construir una nueva vida juntos, pero el destino aún le reserva una sorpresa.</desc>
+    <episode-num system="onscreen">E70</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021072200 +0000" stop="20261021080700 +0000" channel="custom-1300">
+    <title lang="es">Fuerza de mujer</title>
+    <desc lang="es">Sarp le reclama a Sirin haber sido la culpable de que su vida cambiara drásticamente. Sarp lleva a Sirin al cementerio, y ahí ella encuentra las tumbas falsas de Bahar, Nisan y Doruk. Sarp amenaza a Sirin con no decir nada sobre su encuentro.</desc>
+    <date>2023</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021080700 +0000" stop="20261021085200 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Elif le aclara sus intenciones a Ekrem. Mientras tanto, Çinar decide abrir su corazón a Esra, pero Ozan tiene otros planes para él.</desc>
+    <episode-num system="onscreen">E12</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
+  <programme start="20261021085200 +0000" stop="20261021093800 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Un heredero desconfiado debe regresar a Estambul, donde conoce a una estafadora que se hace pasar por una novia.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021093800 +0000" stop="20261021102000 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Asuman y Fuat sorprenden a Ferit y a las mujeres en su campamento y hacen un picnic, pero después sufren un accidente.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E108</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021102000 +0000" stop="20261021110200 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Todos lamentan la muerte de Fuat en un funeral doloroso. Las familias se reúnen, de luto y con ira, culpándose unas a otras.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E109</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021110200 +0000" stop="20261021120000 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Leyla está lista para escuchar a su madre y descubrir dónde ha estado todo este tiempo. La empresa sufre cambios radicales después de Füsun.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E40</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021120000 +0000" stop="20261021124800 +0000" channel="custom-1300">
+    <title lang="es">Sueños de libertad</title>
+    <desc lang="es">Jesús descubre riesgos para sus futuros hijos al indagar sobre la enfermedad de Mercedes. Begoña está muy dolida al ver a su marido distante y frío.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E43</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261021124800 +0000" stop="20261021133600 +0000" channel="custom-1300">
+    <title lang="es">Sueños de libertad</title>
+    <desc lang="es">Begoña y Jesús se reconcilian. Andrés confronta a su hermano. Isidro malinterpreta la relación amorosa de su hija. Begoña teme tener problemas para dar a luz.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E44</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261021133600 +0000" stop="20261021142400 +0000" channel="custom-1300">
+    <title lang="es">Sueños de libertad</title>
+    <desc lang="es">Tras hacerse las pruebas de fertilidad, Begoña llega a una conclusión que le hace solicitar la ayuda de Luz. La conversación que escuchó Isidro entre su hija y Carmen sigue trayendo de cabeza al chofer, que confronta a una acorralada Fina.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E45</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261021142400 +0000" stop="20261021151200 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Asuman y Fuat sorprenden a Ferit y a las mujeres en su campamento y hacen un picnic, pero después sufren un accidente.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E108</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021151200 +0000" stop="20261021160000 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Todos lamentan la muerte de Fuat en un funeral doloroso. Las familias se reúnen, de luto y con ira, culpándose unas a otras.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E109</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021160000 +0000" stop="20261021165200 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Leyla está lista para escuchar a su madre y descubrir dónde ha estado todo este tiempo. La empresa sufre cambios radicales después de Füsun.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E40</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021165200 +0000" stop="20261021174500 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Un heredero desconfiado debe regresar a Estambul, donde conoce a una estafadora que se hace pasar por una novia.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021174500 +0000" stop="20261021183700 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Çagla se preocupa por la conversación que Mert pretende tener con Ozan, y la aventura de Ekrem, Yalcin y Menekse llega otra vez a su fin.</desc>
+    <episode-num system="onscreen">E57</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261021183700 +0000" stop="20261021192900 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Ozan y Esra descubren lo que Çagla oculta. Mert visita a Ozan en la empresa para explicárselo todo.</desc>
+    <episode-num system="onscreen">E58</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261021192900 +0000" stop="20261021202100 +0000" channel="custom-1300">
+    <title lang="es">Fuerza de mujer</title>
+    <desc lang="es">Bahar y Enver intentan ayudar a Arif con un problema. Sirin recibe una llamada amenazadora.</desc>
+    <episode-num system="onscreen">E72</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021202100 +0000" stop="20261021211200 +0000" channel="custom-1300">
+    <title lang="es">Fuerza de mujer</title>
+    <sub-title lang="es">¿Cuál es la verdad?</sub-title>
+    <desc lang="es">Sirin recibe otra amenaza para que no diga nada sobre su encuentro con Sarp. Suat le revela a Piril que Sarp se encontró a Sirin. Piril y Suat discuten. Sarp les exige que le digan toda la verdad.</desc>
+    <date>2023</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021211200 +0000" stop="20261021220300 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Leyla está lista para escuchar a su madre y descubrir dónde ha estado todo este tiempo. La empresa sufre cambios radicales después de Füsun.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E40</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021220300 +0000" stop="20261021225400 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Un heredero desconfiado debe regresar a Estambul, donde conoce a una estafadora que se hace pasar por una novia.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021225400 +0000" stop="20261021234500 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Asuman y Fuat sorprenden a Ferit y a las mujeres en su campamento y hacen un picnic, pero después sufren un accidente.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E108</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261021234500 +0000" stop="20261022003600 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Todos lamentan la muerte de Fuat en un funeral doloroso. Las familias se reúnen, de luto y con ira, culpándose unas a otras.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E109</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022003600 +0000" stop="20261022012700 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Un heredero desconfiado debe regresar a Estambul, donde conoce a una estafadora que se hace pasar por una novia.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022012700 +0000" stop="20261022021800 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Leyla recupera la tarjeta de su hotel, por lo que debe empacar rápido y salir. Todos están atónitos al escuchar el testamento de Vahit.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022021800 +0000" stop="20261022030900 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Hattuç y Halis Agha muestran su estrecho vínculo. Kazim lleva a Hattuç y a Suna a un viaje misterioso. Seyran planea encontrarse con Ferit.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E110</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022030900 +0000" stop="20261022040000 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Kazim casa a Suna a la fuerza con Saffet, de modo que ella queda traumatizada. Seyran y Ferit intentan encontrarse, sin saber la sorpresa que los espera..</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E111</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022040000 +0000" stop="20261022045100 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Çagla se preocupa por la conversación que Mert pretende tener con Ozan, y la aventura de Ekrem, Yalcin y Menekse llega otra vez a su fin.</desc>
+    <episode-num system="onscreen">E57</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261022045100 +0000" stop="20261022054200 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Ozan y Esra descubren lo que Çagla oculta. Mert visita a Ozan en la empresa para explicárselo todo.</desc>
+    <episode-num system="onscreen">E58</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261022054200 +0000" stop="20261022063300 +0000" channel="custom-1300">
+    <title lang="es">Fuerza de mujer</title>
+    <desc lang="es">Bahar y Enver intentan ayudar a Arif con un problema. Sirin recibe una llamada amenazadora.</desc>
+    <episode-num system="onscreen">E72</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022063300 +0000" stop="20261022072200 +0000" channel="custom-1300">
+    <title lang="es">Fuerza de mujer</title>
+    <sub-title lang="es">¿Cuál es la verdad?</sub-title>
+    <desc lang="es">Sirin recibe otra amenaza para que no diga nada sobre su encuentro con Sarp. Suat le revela a Piril que Sarp se encontró a Sirin. Piril y Suat discuten. Sarp les exige que le digan toda la verdad.</desc>
+    <date>2023</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022072200 +0000" stop="20261022081100 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Ekrem y Zümrüt deciden rebelarse contra Meneke, y Ozan hace todo lo posible para que Esra no salga a cenar con Çnar.</desc>
+    <episode-num system="onscreen">E13</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
+  <programme start="20261022081100 +0000" stop="20261022085600 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Leyla recupera la tarjeta de su hotel, por lo que debe empacar rápido y salir. Todos están atónitos al escuchar el testamento de Vahit.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022085600 +0000" stop="20261022094100 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Hattuç y Halis Agha muestran su estrecho vínculo. Kazim lleva a Hattuç y a Suna a un viaje misterioso. Seyran planea encontrarse con Ferit.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E110</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022094100 +0000" stop="20261022102600 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Kazim casa a Suna a la fuerza con Saffet, de modo que ella queda traumatizada. Seyran y Ferit intentan encontrarse, sin saber la sorpresa que los espera..</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E111</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022102600 +0000" stop="20261022120000 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Un heredero desconfiado debe regresar a Estambul, donde conoce a una estafadora que se hace pasar por una novia.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022120000 +0000" stop="20261022124800 +0000" channel="custom-1300">
+    <title lang="es">Sueños de libertad</title>
+    <desc lang="es">Begoña y Jesús se reconcilian. Andrés confronta a su hermano. Isidro malinterpreta la relación amorosa de su hija. Begoña teme tener problemas para dar a luz.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E44</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261022124800 +0000" stop="20261022133600 +0000" channel="custom-1300">
+    <title lang="es">Sueños de libertad</title>
+    <desc lang="es">Tras hacerse las pruebas de fertilidad, Begoña llega a una conclusión que le hace solicitar la ayuda de Luz. La conversación que escuchó Isidro entre su hija y Carmen sigue trayendo de cabeza al chofer, que confronta a una acorralada Fina.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E45</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261022133600 +0000" stop="20261022142400 +0000" channel="custom-1300">
+    <title lang="es">Sueños de libertad</title>
+    <desc lang="es">Jesús busca como llevar a cabo su nuevo proyecto. Fina le cuenta a su padre su secreto, lo que deja a Marta preocupada.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E46</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261022142400 +0000" stop="20261022151200 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Hattuç y Halis Agha muestran su estrecho vínculo. Kazim lleva a Hattuç y a Suna a un viaje misterioso. Seyran planea encontrarse con Ferit.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E110</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022151200 +0000" stop="20261022160000 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Kazim casa a Suna a la fuerza con Saffet, de modo que ella queda traumatizada. Seyran y Ferit intentan encontrarse, sin saber la sorpresa que los espera..</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E111</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022160000 +0000" stop="20261022165200 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Un heredero desconfiado debe regresar a Estambul, donde conoce a una estafadora que se hace pasar por una novia.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022165200 +0000" stop="20261022174500 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Leyla recupera la tarjeta de su hotel, por lo que debe empacar rápido y salir. Todos están atónitos al escuchar el testamento de Vahit.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022174500 +0000" stop="20261022183700 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Ozan y Esra descubren lo que Çagla oculta. Mert visita a Ozan en la empresa para explicárselo todo.</desc>
+    <episode-num system="onscreen">E58</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261022183700 +0000" stop="20261022192900 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Zeyno descubre cómo localizar a Mert, Zümrüt establece normas para mejorar su barrio y Esra recibe una oferta de trabajo.</desc>
+    <episode-num system="onscreen">E59</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261022192900 +0000" stop="20261022202100 +0000" channel="custom-1300">
+    <title lang="es">Fuerza de mujer</title>
+    <desc lang="es">Piril hace un descubrimiento sorprendente sobre el pasado de Sarp.</desc>
+    <episode-num system="onscreen">E74</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022202100 +0000" stop="20261022211200 +0000" channel="custom-1300">
+    <title lang="es">Fuerza de mujer</title>
+    <desc lang="es">Seyfullah obliga a Ceyda a casarse con Peyami. Jale les notifica a Hatice y Enver que ya encontraron una médula compatible con Bahar. Hatice y Enver discuten y acuerdan divorciarse. Teoman le pide un divorcio a Yeliz.</desc>
+    <date>2023</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022211200 +0000" stop="20261022220300 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Un heredero desconfiado debe regresar a Estambul, donde conoce a una estafadora que se hace pasar por una novia.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022220300 +0000" stop="20261022225400 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Leyla recupera la tarjeta de su hotel, por lo que debe empacar rápido y salir. Todos están atónitos al escuchar el testamento de Vahit.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022225400 +0000" stop="20261022234500 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Hattuç y Halis Agha muestran su estrecho vínculo. Kazim lleva a Hattuç y a Suna a un viaje misterioso. Seyran planea encontrarse con Ferit.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E110</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261022234500 +0000" stop="20261023003600 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Kazim casa a Suna a la fuerza con Saffet, de modo que ella queda traumatizada. Seyran y Ferit intentan encontrarse, sin saber la sorpresa que los espera..</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E111</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023003600 +0000" stop="20261023012700 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Leyla recupera la tarjeta de su hotel, por lo que debe empacar rápido y salir. Todos están atónitos al escuchar el testamento de Vahit.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023012700 +0000" stop="20261023021800 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Ates está indeciso sobre leer la carta de su padre. Por mera coincidencia, Leyla está en casa de Ates y pide su ayuda para limpiar su nombre.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023021800 +0000" stop="20261023030900 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Seyran huye para quedarse con Ferit. Kazim lleva a Seyran de vuelta a Antep, lo que causa tensiones. Seyran y Ferit se separan nuevamente.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E112</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023030900 +0000" stop="20261023040000 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Ferit enfrenta la culpa por la muerte de su hermano y confronta a Pelin. Kazim lleva a Seyran a la casa de Saffet.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E113</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023040000 +0000" stop="20261023045100 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Ozan y Esra descubren lo que Çagla oculta. Mert visita a Ozan en la empresa para explicárselo todo.</desc>
+    <episode-num system="onscreen">E58</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261023045100 +0000" stop="20261023054200 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Zeyno descubre cómo localizar a Mert, Zümrüt establece normas para mejorar su barrio y Esra recibe una oferta de trabajo.</desc>
+    <episode-num system="onscreen">E59</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261023054200 +0000" stop="20261023063300 +0000" channel="custom-1300">
+    <title lang="es">Fuerza de mujer</title>
+    <desc lang="es">Piril hace un descubrimiento sorprendente sobre el pasado de Sarp.</desc>
+    <episode-num system="onscreen">E74</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023063300 +0000" stop="20261023072200 +0000" channel="custom-1300">
+    <title lang="es">Fuerza de mujer</title>
+    <desc lang="es">Seyfullah obliga a Ceyda a casarse con Peyami. Jale les notifica a Hatice y Enver que ya encontraron una médula compatible con Bahar. Hatice y Enver discuten y acuerdan divorciarse. Teoman le pide un divorcio a Yeliz.</desc>
+    <date>2023</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023072200 +0000" stop="20261023081100 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Ozan se hace una idea equivocada sobre Çnar y Esra, y se enfurece. Hay un problema con la aplicación y nadie sabe dónde está Ozan.</desc>
+    <episode-num system="onscreen">E14</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
+  <programme start="20261023081100 +0000" stop="20261023085600 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Ates está indeciso sobre leer la carta de su padre. Por mera coincidencia, Leyla está en casa de Ates y pide su ayuda para limpiar su nombre.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023085600 +0000" stop="20261023094100 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Seyran huye para quedarse con Ferit. Kazim lleva a Seyran de vuelta a Antep, lo que causa tensiones. Seyran y Ferit se separan nuevamente.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E112</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023094100 +0000" stop="20261023102600 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Ferit enfrenta la culpa por la muerte de su hermano y confronta a Pelin. Kazim lleva a Seyran a la casa de Saffet.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E113</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023102600 +0000" stop="20261023120000 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Leyla recupera la tarjeta de su hotel, por lo que debe empacar rápido y salir. Todos están atónitos al escuchar el testamento de Vahit.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023120000 +0000" stop="20261023124800 +0000" channel="custom-1300">
+    <title lang="es">Sueños de libertad</title>
+    <desc lang="es">Tras hacerse las pruebas de fertilidad, Begoña llega a una conclusión que le hace solicitar la ayuda de Luz. La conversación que escuchó Isidro entre su hija y Carmen sigue trayendo de cabeza al chofer, que confronta a una acorralada Fina.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E45</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261023124800 +0000" stop="20261023133600 +0000" channel="custom-1300">
+    <title lang="es">Sueños de libertad</title>
+    <desc lang="es">Jesús busca como llevar a cabo su nuevo proyecto. Fina le cuenta a su padre su secreto, lo que deja a Marta preocupada.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E46</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261023133600 +0000" stop="20261023142400 +0000" channel="custom-1300">
+    <title lang="es">Sueños de libertad</title>
+    <desc lang="es">Begoña descubre una amarga verdad sobre Jesús y su madre. Por otro lado, Jesús y Marta quieren usar la finca de Los Olmos como aval, pero Andrés teme que puedan perder ese terreno. Además, Isidro sigue sin asumir la homosexualidad de Fina.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E47</episode-num>
+    <rating system="MJColombia">
+      <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261023142400 +0000" stop="20261023151200 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Seyran huye para quedarse con Ferit. Kazim lleva a Seyran de vuelta a Antep, lo que causa tensiones. Seyran y Ferit se separan nuevamente.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E112</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023151200 +0000" stop="20261023160000 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Ferit enfrenta la culpa por la muerte de su hermano y confronta a Pelin. Kazim lleva a Seyran a la casa de Saffet.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E113</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023160000 +0000" stop="20261023165200 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Leyla recupera la tarjeta de su hotel, por lo que debe empacar rápido y salir. Todos están atónitos al escuchar el testamento de Vahit.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023165200 +0000" stop="20261023174500 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Ates está indeciso sobre leer la carta de su padre. Por mera coincidencia, Leyla está en casa de Ates y pide su ayuda para limpiar su nombre.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023174500 +0000" stop="20261023183700 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Zeyno descubre cómo localizar a Mert, Zümrüt establece normas para mejorar su barrio y Esra recibe una oferta de trabajo.</desc>
+    <episode-num system="onscreen">E59</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261023183700 +0000" stop="20261023192900 +0000" channel="custom-1300">
+    <title lang="es">Olvídame si puedes</title>
+    <desc lang="es">Elif descubre que Ekrem es realmente inocente; Esra decide separarse de Ozan tras el resultado de la prueba de paternidad.</desc>
+    <episode-num system="onscreen">E60</episode-num>
+    <rating system="MJColombia">
+      <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261023192900 +0000" stop="20261023202100 +0000" channel="custom-1300">
+    <title lang="es">Fuerza de mujer</title>
+    <desc lang="es">Bahar y Sirin se encuentran nuevamente ante un gran dilema.</desc>
+    <episode-num system="onscreen">E76</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023202100 +0000" stop="20261023211200 +0000" channel="custom-1300">
+    <title lang="es">Fuerza de mujer</title>
+    <desc lang="es">Hatice y Enver le revelan a Bahar que el hospital ya encontró un donante de médula. Bahar se pone muy feliz, pero cambia de humor cuando se entera de que su donante es Sirin. Levent descubre que Sirin sigue obsesionada con Sarp.</desc>
+    <date>2023</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023211200 +0000" stop="20261023220300 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Leyla recupera la tarjeta de su hotel, por lo que debe empacar rápido y salir. Todos están atónitos al escuchar el testamento de Vahit.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023220300 +0000" stop="20261023225400 +0000" channel="custom-1300">
+    <title lang="es">Quiéreme siempre</title>
+    <desc lang="es">Ates está indeciso sobre leer la carta de su padre. Por mera coincidencia, Leyla está en casa de Ates y pide su ayuda para limpiar su nombre.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023225400 +0000" stop="20261023234500 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Seyran huye para quedarse con Ferit. Kazim lleva a Seyran de vuelta a Antep, lo que causa tensiones. Seyran y Ferit se separan nuevamente.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E112</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261023234500 +0000" stop="20261024003600 +0000" channel="custom-1300">
+    <title lang="es">El chico de oro</title>
+    <desc lang="es">Ferit enfrenta la culpa por la muerte de su hermano y confronta a Pelin. Kazim lleva a Seyran a la casa de Saffet.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E113</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261020200000 +0000" stop="20261020210000 +0000" channel="atv-sur.teleclub">
@@ -198812,6 +199712,186 @@ Vive las emociones de los partidos de la 71º edición de la Eredivisie, la máx
   <programme start="20261023233000 -0600" stop="20261024010000 -0600" channel="custom-1276">
     <title lang="es">Guate música</title>
   </programme>
+  <programme start="20261020010000 -0600" stop="20261020023000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261020023000 -0600" stop="20261020040000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261020040000 -0600" stop="20261020053000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261020053000 -0600" stop="20261020070000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261020070000 -0600" stop="20261020083000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261020083000 -0600" stop="20261020100000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261020100000 -0600" stop="20261020113000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261020113000 -0600" stop="20261020130000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261020130000 -0600" stop="20261020143000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261020143000 -0600" stop="20261020160000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261020160000 -0600" stop="20261020173000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261020173000 -0600" stop="20261020190000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261020190000 -0600" stop="20261020203000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261020203000 -0600" stop="20261020220000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261020220000 -0600" stop="20261020233000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261020233000 -0600" stop="20261021010000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261021010000 -0600" stop="20261021023000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261021023000 -0600" stop="20261021040000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261021040000 -0600" stop="20261021053000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261021053000 -0600" stop="20261021070000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261021070000 -0600" stop="20261021083000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261021083000 -0600" stop="20261021100000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261021100000 -0600" stop="20261021113000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261021113000 -0600" stop="20261021130000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261021130000 -0600" stop="20261021143000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261021143000 -0600" stop="20261021160000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261021160000 -0600" stop="20261021173000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261021173000 -0600" stop="20261021190000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261021190000 -0600" stop="20261021203000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261021203000 -0600" stop="20261021220000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261021220000 -0600" stop="20261021233000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261021233000 -0600" stop="20261022010000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261022010000 -0600" stop="20261022023000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261022023000 -0600" stop="20261022040000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261022040000 -0600" stop="20261022053000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261022053000 -0600" stop="20261022070000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261022070000 -0600" stop="20261022083000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261022083000 -0600" stop="20261022100000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261022100000 -0600" stop="20261022113000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261022113000 -0600" stop="20261022130000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261022130000 -0600" stop="20261022143000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261022143000 -0600" stop="20261022160000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261022160000 -0600" stop="20261022173000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261022173000 -0600" stop="20261022190000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261022190000 -0600" stop="20261022203000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261022203000 -0600" stop="20261022220000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261022220000 -0600" stop="20261022233000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261022233000 -0600" stop="20261023010000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261023010000 -0600" stop="20261023023000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261023023000 -0600" stop="20261023040000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261023040000 -0600" stop="20261023053000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261023053000 -0600" stop="20261023070000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261023070000 -0600" stop="20261023083000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261023083000 -0600" stop="20261023100000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261023100000 -0600" stop="20261023113000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261023113000 -0600" stop="20261023130000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261023130000 -0600" stop="20261023143000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
+  <programme start="20261023143000 -0600" stop="20261023160000 -0600" channel="custom-1294">
+    <title lang="es">Not News</title>
+  </programme>
+  <programme start="20261023160000 -0600" stop="20261023173000 -0600" channel="custom-1294">
+    <title lang="es">Todo va a estar bien</title>
+  </programme>
+  <programme start="20261023173000 -0600" stop="20261023190000 -0600" channel="custom-1294">
+    <title lang="es">Cadena nacional</title>
+  </programme>
   <programme start="20261020003000 -0600" stop="20261020023000 -0600" channel="custom-1295">
     <title lang="es">Zona de Estrellas</title>
   </programme>
@@ -199006,6 +200086,264 @@ Vive las emociones de los partidos de la 71º edición de la Eredivisie, la máx
   </programme>
   <programme start="20261023173000 -0600" stop="20261023193000 -0600" channel="custom-1295">
     <title lang="es">Que te lo digo</title>
+  </programme>
+  <programme start="20261020003000 -0600" stop="20261020013000 -0600" channel="custom-1302">
+    <title lang="es">Telediario</title>
+  </programme>
+  <programme start="20261020013000 -0600" stop="20261020043000 -0600" channel="custom-1302">
+    <title lang="es">Café TV</title>
+  </programme>
+  <programme start="20261020043000 -0600" stop="20261020053000 -0600" channel="custom-1302">
+    <title lang="es">Esta es mi canción</title>
+  </programme>
+  <programme start="20261020053000 -0600" stop="20261020060000 -0600" channel="custom-1302">
+    <title lang="es">Noticiero Quichua Willaykuna</title>
+  </programme>
+  <programme start="20261020060000 -0600" stop="20261020080000 -0600" channel="custom-1302">
+    <title lang="es">Telediario</title>
+  </programme>
+  <programme start="20261020080000 -0600" stop="20261020100000 -0600" channel="custom-1302">
+    <title lang="es">Café TV</title>
+  </programme>
+  <programme start="20261020100000 -0600" stop="20261020110000 -0600" channel="custom-1302">
+    <title lang="es">Rodando Ecuador</title>
+  </programme>
+  <programme start="20261020110000 -0600" stop="20261020120000 -0600" channel="custom-1302">
+    <title lang="es">Infantiles</title>
+  </programme>
+  <programme start="20261020120000 -0600" stop="20261020123000 -0600" channel="custom-1302">
+    <title lang="es">Próxima parada</title>
+  </programme>
+  <programme start="20261020123000 -0600" stop="20261020130000 -0600" channel="custom-1302">
+    <title lang="es">Hola,¿qué hace?</title>
+  </programme>
+  <programme start="20261020130000 -0600" stop="20261020140000 -0600" channel="custom-1302">
+    <title lang="es">Telediario</title>
+  </programme>
+  <programme start="20261020140000 -0600" stop="20261020145000 -0600" channel="custom-1302">
+    <title lang="es">Fanático</title>
+  </programme>
+  <programme start="20261020145000 -0600" stop="20261020150000 -0600" channel="custom-1302">
+    <title lang="es">Tierra y Mar</title>
+  </programme>
+  <programme start="20261020150000 -0600" stop="20261020160000 -0600" channel="custom-1302">
+    <title lang="es">Educa</title>
+  </programme>
+  <programme start="20261020160000 -0600" stop="20261020163000 -0600" channel="custom-1302">
+    <title lang="es">Infantiles</title>
+  </programme>
+  <programme start="20261020163000 -0600" stop="20261020183000 -0600" channel="custom-1302">
+    <title lang="es">Café TV</title>
+  </programme>
+  <programme start="20261020183000 -0600" stop="20261020190000 -0600" channel="custom-1302">
+    <title lang="es">Fanático</title>
+  </programme>
+  <programme start="20261020190000 -0600" stop="20261020200000 -0600" channel="custom-1302">
+    <title lang="es">Esta es mi canción</title>
+  </programme>
+  <programme start="20261020200000 -0600" stop="20261020210000 -0600" channel="custom-1302">
+    <title lang="es">Telediario</title>
+  </programme>
+  <programme start="20261020210000 -0600" stop="20261020220000 -0600" channel="custom-1302">
+    <title lang="es">Desde Cero</title>
+  </programme>
+  <programme start="20261020220000 -0600" stop="20261020230000 -0600" channel="custom-1302">
+    <title lang="es">Fanático</title>
+  </programme>
+  <programme start="20261020230000 -0600" stop="20261021000000 -0600" channel="custom-1302">
+    <title lang="es">Rodando Ecuador</title>
+  </programme>
+  <programme start="20261021000000 -0600" stop="20261021003000 -0600" channel="custom-1302">
+    <title lang="es">Próxima parada</title>
+  </programme>
+  <programme start="20261021003000 -0600" stop="20261021013000 -0600" channel="custom-1302">
+    <title lang="es">Telediario</title>
+  </programme>
+  <programme start="20261021013000 -0600" stop="20261021043000 -0600" channel="custom-1302">
+    <title lang="es">Café TV</title>
+  </programme>
+  <programme start="20261021043000 -0600" stop="20261021053000 -0600" channel="custom-1302">
+    <title lang="es">Esta es mi canción</title>
+  </programme>
+  <programme start="20261021053000 -0600" stop="20261021060000 -0600" channel="custom-1302">
+    <title lang="es">Noticiero Quichua Willaykuna</title>
+  </programme>
+  <programme start="20261021060000 -0600" stop="20261021080000 -0600" channel="custom-1302">
+    <title lang="es">Telediario</title>
+  </programme>
+  <programme start="20261021080000 -0600" stop="20261021100000 -0600" channel="custom-1302">
+    <title lang="es">Café TV</title>
+  </programme>
+  <programme start="20261021100000 -0600" stop="20261021110000 -0600" channel="custom-1302">
+    <title lang="es">Rodando Ecuador</title>
+  </programme>
+  <programme start="20261021110000 -0600" stop="20261021120000 -0600" channel="custom-1302">
+    <title lang="es">Infantiles</title>
+  </programme>
+  <programme start="20261021120000 -0600" stop="20261021123000 -0600" channel="custom-1302">
+    <title lang="es">Próxima parada</title>
+  </programme>
+  <programme start="20261021123000 -0600" stop="20261021130000 -0600" channel="custom-1302">
+    <title lang="es">Hola,¿qué hace?</title>
+  </programme>
+  <programme start="20261021130000 -0600" stop="20261021140000 -0600" channel="custom-1302">
+    <title lang="es">Telediario</title>
+  </programme>
+  <programme start="20261021140000 -0600" stop="20261021145000 -0600" channel="custom-1302">
+    <title lang="es">Fanático</title>
+  </programme>
+  <programme start="20261021145000 -0600" stop="20261021150000 -0600" channel="custom-1302">
+    <title lang="es">Tierra y Mar</title>
+  </programme>
+  <programme start="20261021150000 -0600" stop="20261021160000 -0600" channel="custom-1302">
+    <title lang="es">Educa</title>
+  </programme>
+  <programme start="20261021160000 -0600" stop="20261021163000 -0600" channel="custom-1302">
+    <title lang="es">Infantiles</title>
+  </programme>
+  <programme start="20261021163000 -0600" stop="20261021183000 -0600" channel="custom-1302">
+    <title lang="es">Café TV</title>
+  </programme>
+  <programme start="20261021183000 -0600" stop="20261021190000 -0600" channel="custom-1302">
+    <title lang="es">Fanático</title>
+  </programme>
+  <programme start="20261021190000 -0600" stop="20261021200000 -0600" channel="custom-1302">
+    <title lang="es">Esta es mi canción</title>
+  </programme>
+  <programme start="20261021200000 -0600" stop="20261021210000 -0600" channel="custom-1302">
+    <title lang="es">Telediario</title>
+  </programme>
+  <programme start="20261021210000 -0600" stop="20261021220000 -0600" channel="custom-1302">
+    <title lang="es">Desde Cero</title>
+  </programme>
+  <programme start="20261021220000 -0600" stop="20261021230000 -0600" channel="custom-1302">
+    <title lang="es">Fanático</title>
+  </programme>
+  <programme start="20261021230000 -0600" stop="20261022000000 -0600" channel="custom-1302">
+    <title lang="es">Rodando Ecuador</title>
+  </programme>
+  <programme start="20261022000000 -0600" stop="20261022003000 -0600" channel="custom-1302">
+    <title lang="es">Próxima parada</title>
+  </programme>
+  <programme start="20261022003000 -0600" stop="20261022013000 -0600" channel="custom-1302">
+    <title lang="es">Telediario</title>
+  </programme>
+  <programme start="20261022013000 -0600" stop="20261022043000 -0600" channel="custom-1302">
+    <title lang="es">Café TV</title>
+  </programme>
+  <programme start="20261022043000 -0600" stop="20261022053000 -0600" channel="custom-1302">
+    <title lang="es">Esta es mi canción</title>
+  </programme>
+  <programme start="20261022053000 -0600" stop="20261022060000 -0600" channel="custom-1302">
+    <title lang="es">Noticiero Quichua Willaykuna</title>
+  </programme>
+  <programme start="20261022060000 -0600" stop="20261022080000 -0600" channel="custom-1302">
+    <title lang="es">Telediario</title>
+  </programme>
+  <programme start="20261022080000 -0600" stop="20261022100000 -0600" channel="custom-1302">
+    <title lang="es">Café TV</title>
+  </programme>
+  <programme start="20261022100000 -0600" stop="20261022110000 -0600" channel="custom-1302">
+    <title lang="es">Rodando Ecuador</title>
+  </programme>
+  <programme start="20261022110000 -0600" stop="20261022120000 -0600" channel="custom-1302">
+    <title lang="es">Infantiles</title>
+  </programme>
+  <programme start="20261022120000 -0600" stop="20261022123000 -0600" channel="custom-1302">
+    <title lang="es">Próxima parada</title>
+  </programme>
+  <programme start="20261022123000 -0600" stop="20261022130000 -0600" channel="custom-1302">
+    <title lang="es">Hola,¿qué hace?</title>
+  </programme>
+  <programme start="20261022130000 -0600" stop="20261022140000 -0600" channel="custom-1302">
+    <title lang="es">Telediario</title>
+  </programme>
+  <programme start="20261022140000 -0600" stop="20261022145000 -0600" channel="custom-1302">
+    <title lang="es">Fanático</title>
+  </programme>
+  <programme start="20261022145000 -0600" stop="20261022150000 -0600" channel="custom-1302">
+    <title lang="es">Tierra y Mar</title>
+  </programme>
+  <programme start="20261022150000 -0600" stop="20261022160000 -0600" channel="custom-1302">
+    <title lang="es">Educa</title>
+  </programme>
+  <programme start="20261022160000 -0600" stop="20261022163000 -0600" channel="custom-1302">
+    <title lang="es">Infantiles</title>
+  </programme>
+  <programme start="20261022163000 -0600" stop="20261022183000 -0600" channel="custom-1302">
+    <title lang="es">Café TV</title>
+  </programme>
+  <programme start="20261022183000 -0600" stop="20261022190000 -0600" channel="custom-1302">
+    <title lang="es">Fanático</title>
+  </programme>
+  <programme start="20261022190000 -0600" stop="20261022200000 -0600" channel="custom-1302">
+    <title lang="es">Esta es mi canción</title>
+  </programme>
+  <programme start="20261022200000 -0600" stop="20261022210000 -0600" channel="custom-1302">
+    <title lang="es">Telediario</title>
+  </programme>
+  <programme start="20261022210000 -0600" stop="20261022220000 -0600" channel="custom-1302">
+    <title lang="es">Desde Cero</title>
+  </programme>
+  <programme start="20261022220000 -0600" stop="20261022230000 -0600" channel="custom-1302">
+    <title lang="es">Fanático</title>
+  </programme>
+  <programme start="20261022230000 -0600" stop="20261023000000 -0600" channel="custom-1302">
+    <title lang="es">Rodando Ecuador</title>
+  </programme>
+  <programme start="20261023000000 -0600" stop="20261023003000 -0600" channel="custom-1302">
+    <title lang="es">Próxima parada</title>
+  </programme>
+  <programme start="20261023003000 -0600" stop="20261023013000 -0600" channel="custom-1302">
+    <title lang="es">Telediario</title>
+  </programme>
+  <programme start="20261023013000 -0600" stop="20261023043000 -0600" channel="custom-1302">
+    <title lang="es">Café TV</title>
+  </programme>
+  <programme start="20261023043000 -0600" stop="20261023053000 -0600" channel="custom-1302">
+    <title lang="es">Esta es mi canción</title>
+  </programme>
+  <programme start="20261023053000 -0600" stop="20261023060000 -0600" channel="custom-1302">
+    <title lang="es">Noticiero Quichua Willaykuna</title>
+  </programme>
+  <programme start="20261023060000 -0600" stop="20261023080000 -0600" channel="custom-1302">
+    <title lang="es">Telediario</title>
+  </programme>
+  <programme start="20261023080000 -0600" stop="20261023100000 -0600" channel="custom-1302">
+    <title lang="es">Café TV</title>
+  </programme>
+  <programme start="20261023100000 -0600" stop="20261023110000 -0600" channel="custom-1302">
+    <title lang="es">Rodando Ecuador</title>
+  </programme>
+  <programme start="20261023110000 -0600" stop="20261023120000 -0600" channel="custom-1302">
+    <title lang="es">Infantiles</title>
+  </programme>
+  <programme start="20261023120000 -0600" stop="20261023123000 -0600" channel="custom-1302">
+    <title lang="es">Próxima parada</title>
+  </programme>
+  <programme start="20261023123000 -0600" stop="20261023130000 -0600" channel="custom-1302">
+    <title lang="es">Hola,¿qué hace?</title>
+  </programme>
+  <programme start="20261023130000 -0600" stop="20261023140000 -0600" channel="custom-1302">
+    <title lang="es">Telediario</title>
+  </programme>
+  <programme start="20261023140000 -0600" stop="20261023145000 -0600" channel="custom-1302">
+    <title lang="es">Fanático</title>
+  </programme>
+  <programme start="20261023145000 -0600" stop="20261023150000 -0600" channel="custom-1302">
+    <title lang="es">Tierra y Mar</title>
+  </programme>
+  <programme start="20261023150000 -0600" stop="20261023160000 -0600" channel="custom-1302">
+    <title lang="es">Educa</title>
+  </programme>
+  <programme start="20261023160000 -0600" stop="20261023163000 -0600" channel="custom-1302">
+    <title lang="es">Infantiles</title>
+  </programme>
+  <programme start="20261023163000 -0600" stop="20261023183000 -0600" channel="custom-1302">
+    <title lang="es">Café TV</title>
+  </programme>
+  <programme start="20261023183000 -0600" stop="20261023190000 -0600" channel="custom-1302">
+    <title lang="es">Fanático</title>
   </programme>
   <programme start="20261020030000 -0300" stop="20261020043000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">Deportes 5</title>
