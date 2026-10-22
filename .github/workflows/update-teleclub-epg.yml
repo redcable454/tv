@@ -118,9 +118,10 @@ jobs:
             echo "La guía no cambió"
           else
             git commit -m "Actualizar guía EPG TeleclubTV"
-            # Otros cambios del panel pueden publicarse mientras se genera la guía.
-            # Reintegrarlos antes de publicar para evitar rechazos non-fast-forward.
-            git pull --rebase origin main
+            # La guía se genera desde fuentes externas y puede cambiar en cada ejecución.
+            # Si otra ejecución publica al mismo tiempo, conservar los archivos EPG
+            # generados por esta ejecución al rebasar y volver a intentar la publicación.
+            git pull --rebase -X theirs origin main
             git push
           fi
 
