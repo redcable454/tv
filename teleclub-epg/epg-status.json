@@ -1,9 +1,9 @@
 {
   "channels": 276,
-  "programmes": 18275,
-  "channels_with_programmes": 277,
-  "real_epg_channels": 141,
-  "generic_epg_channels": 136,
+  "programmes": 18163,
+  "channels_with_programmes": 276,
+  "real_epg_channels": 138,
+  "generic_epg_channels": 138,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "589",
@@ -103,6 +103,8 @@
     "movistar.lch6519",
     "movistar.lch7110",
     "movistar.lch7202",
+    "movistar.lch7216",
+    "movistar.lch7217",
     "nativa-tv.teleclub",
     "nzk-tv.teleclub",
     "onda-tv.teleclub",
@@ -351,6 +353,14 @@
     {
       "id": "custom-1108",
       "name": "KARIBEÑA TV"
+    },
+    {
+      "id": "movistar.lch7217",
+      "name": "L1"
+    },
+    {
+      "id": "movistar.lch7216",
+      "name": "L1 MAX"
     },
     {
       "id": "custom-1218",
