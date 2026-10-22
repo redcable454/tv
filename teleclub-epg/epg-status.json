@@ -1,9 +1,9 @@
 {
-  "channels": 278,
-  "programmes": 18203,
-  "channels_with_programmes": 278,
+  "channels": 279,
+  "programmes": 18206,
+  "channels_with_programmes": 279,
   "real_epg_channels": 139,
-  "generic_epg_channels": 139,
+  "generic_epg_channels": 140,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "589",
@@ -78,6 +78,7 @@
     "custom-1301",
     "custom-1303",
     "custom-1304",
+    "custom-1309",
     "custom-27",
     "custom-29",
     "custom-31",
@@ -222,6 +223,10 @@
     {
       "id": "regional-canal-8-catacaos.teleclub",
       "name": "Canal 8 - Catacaos"
+    },
+    {
+      "id": "custom-1309",
+      "name": "CANAL CPN"
     },
     {
       "id": "custom-1023",

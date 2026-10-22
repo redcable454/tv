@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-21T22:31:15.789619+00:00" radio-la-zona-updated-at="2026-10-21T22:31:16.028798+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-22T01:02:00.588065+00:00" radio-la-zona-updated-at="2026-10-22T01:02:00.865063+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -979,6 +979,9 @@
   </channel>
   <channel id="trivu-tv.teleclub">
     <display-name lang="es">Trivu tv</display-name>
+  </channel>
+  <channel id="custom-1309">
+    <display-name lang="es">CANAL CPN</display-name>
   </channel>
   <channel id="liga1.teleclub">
     <display-name lang="es">Liga1</display-name>
@@ -12997,275 +13000,275 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261022043000 +0000" stop="20261022053000 +0000" channel="america-television.teleclub">
-    <title lang="es">Los hilos del pasado</title>
-  </programme>
-  <programme start="20261021053000 +0000" stop="20261021061000 +0000" channel="america-television.teleclub">
+  <programme start="20261022043000 +0000" stop="20261022051000 +0000" channel="america-television.teleclub">
     <title lang="es">Destilando amor</title>
   </programme>
-  <programme start="20261021061000 +0000" stop="20261021063000 +0000" channel="america-television.teleclub">
+  <programme start="20261021051000 +0000" stop="20261021053000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261021063000 +0000" stop="20261021073000 +0000" channel="america-television.teleclub">
+  <programme start="20261021053000 +0000" stop="20261021063000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261021073000 +0000" stop="20261021090000 +0000" channel="america-television.teleclub">
+  <programme start="20261021063000 +0000" stop="20261021080000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20261021090000 +0000" stop="20261021091600 +0000" channel="america-television.teleclub">
+  <programme start="20261021080000 +0000" stop="20261021081600 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261021091600 +0000" stop="20261021110000 +0000" channel="america-television.teleclub">
+  <programme start="20261021081600 +0000" stop="20261021100000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261021110000 +0000" stop="20261021125000 +0000" channel="america-television.teleclub">
+  <programme start="20261021100000 +0000" stop="20261021115000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261021125000 +0000" stop="20261021131000 +0000" channel="america-television.teleclub">
+  <programme start="20261021115000 +0000" stop="20261021121000 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261021131000 +0000" stop="20261021133000 +0000" channel="america-television.teleclub">
+  <programme start="20261021121000 +0000" stop="20261021123000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261021133000 +0000" stop="20261021150000 +0000" channel="america-television.teleclub">
+  <programme start="20261021123000 +0000" stop="20261021140000 +0000" channel="america-television.teleclub">
     <title lang="es">América hoy</title>
   </programme>
-  <programme start="20261021150000 +0000" stop="20261021160000 +0000" channel="america-television.teleclub">
+  <programme start="20261021140000 +0000" stop="20261021150000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261021160000 +0000" stop="20261021163500 +0000" channel="america-television.teleclub">
+  <programme start="20261021150000 +0000" stop="20261021153500 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Edición Mediodía</title>
   </programme>
-  <programme start="20261021163500 +0000" stop="20261021164500 +0000" channel="america-television.teleclub">
+  <programme start="20261021153500 +0000" stop="20261021154500 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261021164500 +0000" stop="20261021170000 +0000" channel="america-television.teleclub">
+  <programme start="20261021154500 +0000" stop="20261021160000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261021170000 +0000" stop="20261021174000 +0000" channel="america-television.teleclub">
+  <programme start="20261021160000 +0000" stop="20261021164000 +0000" channel="america-television.teleclub">
     <title lang="es">Destilando amor</title>
   </programme>
-  <programme start="20261021174000 +0000" stop="20261021191000 +0000" channel="america-television.teleclub">
+  <programme start="20261021164000 +0000" stop="20261021181000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20261021191000 +0000" stop="20261021200000 +0000" channel="america-television.teleclub">
+  <programme start="20261021181000 +0000" stop="20261021190000 +0000" channel="america-television.teleclub">
     <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20261021200000 +0000" stop="20261021210000 +0000" channel="america-television.teleclub">
+  <programme start="20261021190000 +0000" stop="20261021200000 +0000" channel="america-television.teleclub">
     <title lang="es">Los Hilos del Pasado</title>
   </programme>
-  <programme start="20261021220000 +0000" stop="20261021233000 +0000" channel="america-television.teleclub">
+  <programme start="20261021210000 +0000" stop="20261021223000 +0000" channel="america-television.teleclub">
     <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
-  <programme start="20261021233000 +0000" stop="20261022010000 +0000" channel="america-television.teleclub">
+  <programme start="20261021223000 +0000" stop="20261022000000 +0000" channel="america-television.teleclub">
     <title lang="es">Esto es guerra</title>
   </programme>
-  <programme start="20261022010000 +0000" stop="20261022020000 +0000" channel="america-television.teleclub">
+  <programme start="20261022000000 +0000" stop="20261022010000 +0000" channel="america-television.teleclub">
     <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20261022020000 +0000" stop="20261022025000 +0000" channel="america-television.teleclub">
+  <programme start="20261022010000 +0000" stop="20261022015000 +0000" channel="america-television.teleclub">
     <title lang="es">La vida que me robaste</title>
   </programme>
-  <programme start="20261022025000 +0000" stop="20261022025300 +0000" channel="america-television.teleclub">
+  <programme start="20261022015000 +0000" stop="20261022015300 +0000" channel="america-television.teleclub">
     <title lang="es">La Tinka</title>
   </programme>
-  <programme start="20261022025300 +0000" stop="20261022030000 +0000" channel="america-television.teleclub">
+  <programme start="20261022015300 +0000" stop="20261022020000 +0000" channel="america-television.teleclub">
     <title lang="es">La vida que me robaste</title>
   </programme>
-  <programme start="20261022030000 +0000" stop="20261022031700 +0000" channel="america-television.teleclub">
+  <programme start="20261022020000 +0000" stop="20261022021700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20261022031700 +0000" stop="20261022032400 +0000" channel="america-television.teleclub">
+  <programme start="20261022021700 +0000" stop="20261022022400 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261022032400 +0000" stop="20261022032700 +0000" channel="america-television.teleclub">
+  <programme start="20261022022400 +0000" stop="20261022022700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20261022032700 +0000" stop="20261022034500 +0000" channel="america-television.teleclub">
+  <programme start="20261022022700 +0000" stop="20261022024500 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261022034500 +0000" stop="20261022043000 +0000" channel="america-television.teleclub">
+  <programme start="20261022024500 +0000" stop="20261022033000 +0000" channel="america-television.teleclub">
     <title lang="es">Desvelados</title>
   </programme>
-  <programme start="20261022043000 +0000" stop="20261022053000 +0000" channel="america-television.teleclub">
+  <programme start="20261022033000 +0000" stop="20261022043000 +0000" channel="america-television.teleclub">
     <title lang="es">Los hilos del pasado</title>
   </programme>
-  <programme start="20261023043000 +0000" stop="20261023053000 +0000" channel="america-television.teleclub">
-    <title lang="es">Los hilos del pasado</title>
-  </programme>
-  <programme start="20261022053000 +0000" stop="20261022061000 +0000" channel="america-television.teleclub">
+  <programme start="20261022043000 +0000" stop="20261022051000 +0000" channel="america-television.teleclub">
     <title lang="es">Destilando amor</title>
   </programme>
-  <programme start="20261022061000 +0000" stop="20261022063000 +0000" channel="america-television.teleclub">
+  <programme start="20261023043000 +0000" stop="20261023051000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
+  </programme>
+  <programme start="20261022051000 +0000" stop="20261022053000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261022063000 +0000" stop="20261022073000 +0000" channel="america-television.teleclub">
+  <programme start="20261022053000 +0000" stop="20261022063000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261022073000 +0000" stop="20261022090000 +0000" channel="america-television.teleclub">
+  <programme start="20261022063000 +0000" stop="20261022080000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20261022090000 +0000" stop="20261022091600 +0000" channel="america-television.teleclub">
+  <programme start="20261022080000 +0000" stop="20261022081600 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261022091600 +0000" stop="20261022110000 +0000" channel="america-television.teleclub">
+  <programme start="20261022081600 +0000" stop="20261022100000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261022110000 +0000" stop="20261022125000 +0000" channel="america-television.teleclub">
+  <programme start="20261022100000 +0000" stop="20261022115000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261022125000 +0000" stop="20261022131000 +0000" channel="america-television.teleclub">
+  <programme start="20261022115000 +0000" stop="20261022121000 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261022131000 +0000" stop="20261022133000 +0000" channel="america-television.teleclub">
+  <programme start="20261022121000 +0000" stop="20261022123000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261022133000 +0000" stop="20261022150000 +0000" channel="america-television.teleclub">
+  <programme start="20261022123000 +0000" stop="20261022140000 +0000" channel="america-television.teleclub">
     <title lang="es">América Hoy</title>
   </programme>
-  <programme start="20261022150000 +0000" stop="20261022160000 +0000" channel="america-television.teleclub">
+  <programme start="20261022140000 +0000" stop="20261022150000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261022160000 +0000" stop="20261022163500 +0000" channel="america-television.teleclub">
+  <programme start="20261022150000 +0000" stop="20261022153500 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Edición Mediodía</title>
   </programme>
-  <programme start="20261022163500 +0000" stop="20261022164500 +0000" channel="america-television.teleclub">
+  <programme start="20261022153500 +0000" stop="20261022154500 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261022164500 +0000" stop="20261022170000 +0000" channel="america-television.teleclub">
+  <programme start="20261022154500 +0000" stop="20261022160000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261022170000 +0000" stop="20261022174000 +0000" channel="america-television.teleclub">
+  <programme start="20261022160000 +0000" stop="20261022164000 +0000" channel="america-television.teleclub">
     <title lang="es">Destilando amor</title>
   </programme>
-  <programme start="20261022174000 +0000" stop="20261022191000 +0000" channel="america-television.teleclub">
+  <programme start="20261022164000 +0000" stop="20261022181000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20261022191000 +0000" stop="20261022200000 +0000" channel="america-television.teleclub">
+  <programme start="20261022181000 +0000" stop="20261022190000 +0000" channel="america-television.teleclub">
     <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20261022200000 +0000" stop="20261022210000 +0000" channel="america-television.teleclub">
+  <programme start="20261022190000 +0000" stop="20261022200000 +0000" channel="america-television.teleclub">
     <title lang="es">Los Hilos del Pasado</title>
   </programme>
-  <programme start="20261022220000 +0000" stop="20261022225000 +0000" channel="america-television.teleclub">
+  <programme start="20261022210000 +0000" stop="20261022215000 +0000" channel="america-television.teleclub">
     <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
-  <programme start="20261022225000 +0000" stop="20261022233000 +0000" channel="america-television.teleclub">
+  <programme start="20261022215000 +0000" stop="20261022223000 +0000" channel="america-television.teleclub">
     <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
-  <programme start="20261022233000 +0000" stop="20261023010000 +0000" channel="america-television.teleclub">
+  <programme start="20261022223000 +0000" stop="20261023000000 +0000" channel="america-television.teleclub">
     <title lang="es">Esto es guerra</title>
+  </programme>
+  <programme start="20261023000000 +0000" stop="20261023010000 +0000" channel="america-television.teleclub">
+    <title lang="es">Al fondo hay sitio</title>
   </programme>
   <programme start="20261023010000 +0000" stop="20261023020000 +0000" channel="america-television.teleclub">
-    <title lang="es">Al fondo hay sitio</title>
-  </programme>
-  <programme start="20261023020000 +0000" stop="20261023030000 +0000" channel="america-television.teleclub">
     <title lang="es">La vida que me robaste</title>
   </programme>
-  <programme start="20261023030000 +0000" stop="20261023031700 +0000" channel="america-television.teleclub">
+  <programme start="20261023020000 +0000" stop="20261023021700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20261023031700 +0000" stop="20261023032400 +0000" channel="america-television.teleclub">
+  <programme start="20261023021700 +0000" stop="20261023022400 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261023032400 +0000" stop="20261023032700 +0000" channel="america-television.teleclub">
+  <programme start="20261023022400 +0000" stop="20261023022700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20261023032700 +0000" stop="20261023034500 +0000" channel="america-television.teleclub">
+  <programme start="20261023022700 +0000" stop="20261023024500 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261023034500 +0000" stop="20261023043000 +0000" channel="america-television.teleclub">
+  <programme start="20261023024500 +0000" stop="20261023033000 +0000" channel="america-television.teleclub">
     <title lang="es">Desvelados</title>
   </programme>
-  <programme start="20261023043000 +0000" stop="20261023053000 +0000" channel="america-television.teleclub">
+  <programme start="20261023033000 +0000" stop="20261023043000 +0000" channel="america-television.teleclub">
     <title lang="es">Los hilos del pasado</title>
   </programme>
-  <programme start="20261024043000 +0000" stop="20261024053000 +0000" channel="america-television.teleclub">
-    <title lang="es">Los hilos del pasado</title>
-  </programme>
-  <programme start="20261023053000 +0000" stop="20261023061000 +0000" channel="america-television.teleclub">
+  <programme start="20261023043000 +0000" stop="20261023051000 +0000" channel="america-television.teleclub">
     <title lang="es">Destilando amor</title>
   </programme>
-  <programme start="20261023061000 +0000" stop="20261023063000 +0000" channel="america-television.teleclub">
+  <programme start="20261024043000 +0000" stop="20261024051000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
+  </programme>
+  <programme start="20261023051000 +0000" stop="20261023053000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261023063000 +0000" stop="20261023073000 +0000" channel="america-television.teleclub">
+  <programme start="20261023053000 +0000" stop="20261023063000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261023073000 +0000" stop="20261023090000 +0000" channel="america-television.teleclub">
+  <programme start="20261023063000 +0000" stop="20261023080000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20261023090000 +0000" stop="20261023091600 +0000" channel="america-television.teleclub">
+  <programme start="20261023080000 +0000" stop="20261023081600 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261023091600 +0000" stop="20261023110000 +0000" channel="america-television.teleclub">
+  <programme start="20261023081600 +0000" stop="20261023100000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261023110000 +0000" stop="20261023125000 +0000" channel="america-television.teleclub">
+  <programme start="20261023100000 +0000" stop="20261023115000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
-  <programme start="20261023125000 +0000" stop="20261023131000 +0000" channel="america-television.teleclub">
+  <programme start="20261023115000 +0000" stop="20261023121000 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261023131000 +0000" stop="20261023133000 +0000" channel="america-television.teleclub">
+  <programme start="20261023121000 +0000" stop="20261023123000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261023133000 +0000" stop="20261023150000 +0000" channel="america-television.teleclub">
+  <programme start="20261023123000 +0000" stop="20261023140000 +0000" channel="america-television.teleclub">
     <title lang="es">América hoy</title>
   </programme>
-  <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="america-television.teleclub">
+  <programme start="20261023140000 +0000" stop="20261023150000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023163500 +0000" channel="america-television.teleclub">
+  <programme start="20261023150000 +0000" stop="20261023153500 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Edición Mediodía</title>
   </programme>
-  <programme start="20261023163500 +0000" stop="20261023164500 +0000" channel="america-television.teleclub">
+  <programme start="20261023153500 +0000" stop="20261023154500 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261023164500 +0000" stop="20261023170000 +0000" channel="america-television.teleclub">
+  <programme start="20261023154500 +0000" stop="20261023160000 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261023170000 +0000" stop="20261023174000 +0000" channel="america-television.teleclub">
+  <programme start="20261023160000 +0000" stop="20261023164000 +0000" channel="america-television.teleclub">
     <title lang="es">Destilando amor</title>
   </programme>
-  <programme start="20261023174000 +0000" stop="20261023191000 +0000" channel="america-television.teleclub">
+  <programme start="20261023164000 +0000" stop="20261023181000 +0000" channel="america-television.teleclub">
     <title lang="es">Mande quien mande</title>
   </programme>
-  <programme start="20261023191000 +0000" stop="20261023200000 +0000" channel="america-television.teleclub">
+  <programme start="20261023181000 +0000" stop="20261023190000 +0000" channel="america-television.teleclub">
     <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20261023200000 +0000" stop="20261023210000 +0000" channel="america-television.teleclub">
+  <programme start="20261023190000 +0000" stop="20261023200000 +0000" channel="america-television.teleclub">
     <title lang="es">Los Hilos del Pasado</title>
   </programme>
-  <programme start="20261023220000 +0000" stop="20261023233000 +0000" channel="america-television.teleclub">
+  <programme start="20261023210000 +0000" stop="20261023223000 +0000" channel="america-television.teleclub">
     <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
-  <programme start="20261023233000 +0000" stop="20261024010000 +0000" channel="america-television.teleclub">
+  <programme start="20261023223000 +0000" stop="20261024000000 +0000" channel="america-television.teleclub">
     <title lang="es">Esto es guerra</title>
   </programme>
-  <programme start="20261024010000 +0000" stop="20261024020000 +0000" channel="america-television.teleclub">
+  <programme start="20261024000000 +0000" stop="20261024010000 +0000" channel="america-television.teleclub">
     <title lang="es">Al fondo hay sitio</title>
   </programme>
-  <programme start="20261024020000 +0000" stop="20261024030000 +0000" channel="america-television.teleclub">
+  <programme start="20261024010000 +0000" stop="20261024020000 +0000" channel="america-television.teleclub">
     <title lang="es">La vida que me robaste</title>
   </programme>
-  <programme start="20261024030000 +0000" stop="20261024031700 +0000" channel="america-television.teleclub">
+  <programme start="20261024020000 +0000" stop="20261024021700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20261024031700 +0000" stop="20261024032400 +0000" channel="america-television.teleclub">
+  <programme start="20261024021700 +0000" stop="20261024022400 +0000" channel="america-television.teleclub">
     <title lang="es">América Deportes</title>
   </programme>
-  <programme start="20261024032400 +0000" stop="20261024032700 +0000" channel="america-television.teleclub">
+  <programme start="20261024022400 +0000" stop="20261024022700 +0000" channel="america-television.teleclub">
     <title lang="es">América noticias Edición central</title>
   </programme>
-  <programme start="20261024032700 +0000" stop="20261024034500 +0000" channel="america-television.teleclub">
+  <programme start="20261024022700 +0000" stop="20261024024500 +0000" channel="america-television.teleclub">
     <title lang="es">America espectaculos</title>
   </programme>
-  <programme start="20261024034500 +0000" stop="20261024043000 +0000" channel="america-television.teleclub">
+  <programme start="20261024024500 +0000" stop="20261024033000 +0000" channel="america-television.teleclub">
     <title lang="es">Desvelados</title>
   </programme>
-  <programme start="20261024043000 +0000" stop="20261024053000 +0000" channel="america-television.teleclub">
+  <programme start="20261024033000 +0000" stop="20261024043000 +0000" channel="america-television.teleclub">
     <title lang="es">Los hilos del pasado</title>
+  </programme>
+  <programme start="20261024043000 +0000" stop="20261024051000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
   </programme>
   <programme start="20261020050000 +0000" stop="20261020110000 +0000" channel="custom-28">
     <title lang="es">Radio La Zona, Te enciende</title>
@@ -15182,6 +15185,18 @@
   <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="trivu-tv.teleclub">
     <title lang="es">Trivu tv - En vivo</title>
     <desc lang="es">Programación en vivo de Trivu tv. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261021050000 +0000" stop="20261022050000 +0000" channel="custom-1309">
+    <title lang="es">CANAL CPN - En vivo</title>
+    <desc lang="es">Programación en vivo de CANAL CPN. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261022050000 +0000" stop="20261023050000 +0000" channel="custom-1309">
+    <title lang="es">CANAL CPN - En vivo</title>
+    <desc lang="es">Programación en vivo de CANAL CPN. Categoría: Cable.</desc>
+  </programme>
+  <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="custom-1309">
+    <title lang="es">CANAL CPN - En vivo</title>
+    <desc lang="es">Programación en vivo de CANAL CPN. Categoría: Cable.</desc>
   </programme>
   <programme start="20261020230000 +0000" stop="20261021000000 +0000" channel="movistar.lch2201">
     <title lang="es">Mi vida por ti</title>
