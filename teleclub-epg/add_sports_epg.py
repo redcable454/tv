@@ -263,32 +263,28 @@ def fill_channel_gaps(root, cid, name, days=8):
 
 def main():
     root = ET.parse(EPG).getroot()
-    # IDs internos del panel y tvg-id exactos de teleclubtv_con_epg.m3u.
+    # L1 y L1 MAX deben conservar la programación que venga en el XMLTV fuente
+    # que entrega el panel/usuario. No se usan parrillas de páginas externas.
     ensure_channel(root, "movistar.lch7217", "L1")
     ensure_channel(root, "movistar.lch7216", "L1 MAX")
-    remove_programmes(root, "movistar.lch7216")
 
-    # Eliminar los bloques genéricos de ejecuciones anteriores.
-    # No inventar nombres de programas: conservar la guía fuente disponible y
-    # añadir únicamente partidos con horario publicado.
+    # Retirar solamente los bloques genéricos que el propio generador antiguo
+    # creó; no sustituir la programación fuente ni espejar un canal sobre otro.
     for p in list(root.findall("programme")):
-        if p.attrib.get("channel") == "movistar.lch7216":
-            desc = (p.findtext("desc") or "").lower()
-            title = (p.findtext("title") or "").lower()
-            if "bloque informativo de continuidad" in desc or title == "programación de l1 max":
-                root.remove(p)
-
-    ligamax_count = add_liga_programming(root, "movistar.lch7216")
-    # Publicar la misma guía con el tvg-id exacto que usa la lista M3U de L1.
-    l1_count = mirror_channel_programmes(root, "movistar.lch7216", "movistar.lch7217", "L1")
-    ovacion_count = add_ovacion_programming(root)
+        cid = p.attrib.get("channel")
+        if cid not in ("movistar.lch7217", "movistar.lch7216"):
+            continue
+        desc = (p.findtext("desc") or "").lower()
+        title = (p.findtext("title") or "").lower()
+        if (
+            "bloque informativo de continuidad" in desc
+            or title in ("programación de l1", "programación de l1 max")
+        ):
+            root.remove(p)
 
     ET.indent(root, space="  ")
     ET.ElementTree(root).write(EPG, encoding="utf-8", xml_declaration=True)
-    print(
-        f"EPG deportiva: L1 MAX={ligamax_count}, "
-        f"movistar.lch7217={l1_count}, Ovación TV={ovacion_count}"
-    )
+    print("EPG L1/L1 MAX: se conserva solo la programación de la fuente, sin parrillas externas ni relleno genérico.")
 
 
 if __name__ == "__main__":
