@@ -15,6 +15,8 @@ OUTPUT = Path(__file__).with_name("guia_teleclubtv.xml")
 LIMA = ZoneInfo("America/Lima")
 
 ALIASES = {
+    "movistar.lch7217": ["L1", "LIGA 1", "LIGA1", "LIGA1 HD"],
+    "movistar.lch7216": ["L1 MAX", "LIGA 1 MAX", "LIGA1 MAX", "LIGA1 MAX HD"],
     "latina.teleclub": ["LATINA HD", "LATINA"],
     "america-television.teleclub": ["AMERICA TELEVISION HD", "AMERICA TELEVISION", "AMERICA TV", "AMERICA HD", "AMERICA"],
     "panamericana-television.teleclub": ["PANAMERICANA TELEVISION HD", "PANAMERICANA TELEVISION", "PANAMERICANA HD", "PANAMERICANA"],
