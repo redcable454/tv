@@ -130,10 +130,9 @@ def enrich(root, src, source_url):
     added=matched=0
     for ch in root.findall("channel"):
         cid=ch.attrib.get("id","")
-        # L1/L1 MAX: no importar parrillas de terceros ni hacer matching por nombre.
-        if cid in {"movistar.lch7217", "movistar.lch7216"}:
-            print(f"EPG propia pendiente: se omiten fuentes externas para {cid}")
-            continue
+        # L1/L1 MAX: buscar programación real en fuentes secundarias mediante ID exacto,
+        # alias verificado o coincidencia inequívoca de nombre, igual que otros canales.
+        # Solo se copian programas existentes; no se generan horarios ficticios.
         current=existing_prog.get(cid,[])
         if current and any(not generic(p) for p in current):
             continue
