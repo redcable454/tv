@@ -46,8 +46,6 @@ SOURCE_ID_ALIASES = {
     # IDs usados por la lista M3U de Teleclub TV; se vinculan solo a IDs
     # de fuentes XMLTV conocidas para sustituir programación genérica.
     "mitv.america-television": ["AMERICA.TELEVISION.HD.(America.HD).pe", "AMERICA.TELEVISION.(America).pe"],
-    "movistar.lch7217": ["LIGA1.HD.(Liga1.HD).pe", "LIGA1.(Liga1).pe", "LIGA.1.(Liga.1).pe"],
-    "movistar.lch7216": ["LIGA1.MAX.HD.(Liga1Max.HD).pe", "LIGA1.MAX.(Liga1Max).pe", "LIGA.1.MAX.(Liga.1.Max).pe"],
     "movistar.lch2201": ["LATINA.HD.(Latina.HD).pe", "LATINA.(Latina).pe"],
     "movistar.lch2203": ["PANAMERICANA.TELEVISION.HD.(Panamericana.HD).pe", "PANAMERICANA.TELEVISION.(Panamericana).pe"],
     "movistar.lch2205": ["ATV.HD.(ATV.HD).pe", "ATV.(ATV).pe"],
@@ -132,6 +130,10 @@ def enrich(root, src, source_url):
     added=matched=0
     for ch in root.findall("channel"):
         cid=ch.attrib.get("id","")
+        # L1/L1 MAX: no importar parrillas de terceros ni hacer matching por nombre.
+        if cid in {"movistar.lch7217", "movistar.lch7216"}:
+            print(f"EPG propia pendiente: se omiten fuentes externas para {cid}")
+            continue
         current=existing_prog.get(cid,[])
         if current and any(not generic(p) for p in current):
             continue
