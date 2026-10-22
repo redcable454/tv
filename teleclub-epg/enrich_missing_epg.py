@@ -56,6 +56,8 @@ SOURCE_ID_ALIASES = {
     "movistar.lch2459": ["RPP.HD.(RPP.HD).pe", "RPP.(RPP).pe"],
     "movistar.lch6309": ["GLOBAL.TV.(Global).pe", "GLOBAL.(Global).pe"],
     "movistar.lch2318": ["CANAL.N.(CanalN).pe", "CANAL.N.HD.(CanalN.HD).pe"],
+    "movistar.lch7217": ["Liga1.pe", "Liga1HD.pe", "L1.pe", "L1HD.pe", "Liga1.pe (L1)"],
+    "movistar.lch7216": ["Liga1Max.pe", "Liga1MaxHD.pe", "L1Max.pe", "L1MaxHD.pe"],
     "custom-1109": ["SEXTREME.(Sextreme).pe", "Sextreme.(SEXTR).[962].cr", "Sextreme.-.Premium.(SEXTR).[1033].cr"],
     "custom-1233": ["DIRECTV.SPORTS.HD(DTVSHD).co", "DSPORTS.(COL).(DTSC).co", "DSPORTS.HD.(COL)(DTSCHD).co"],
     "590": ["Pago.Por.Evento.//.Venus.International.(VENUS).[960].cr", "Pago.Por.Evento.//.Venus.1.International.(VENUS1).[1006].cr", "VENUS.(Venus).pe"],
@@ -156,15 +158,22 @@ def enrich(root, src, source_url):
                 if not source_id or not src_prog.get(source_id):
                     continue
                 for source_name in names(srcch):
-                    tokens = set(norm(source_name).split())
+                    normalized = norm(source_name)
+                    compact = normalized.replace(" ", "")
+                    tokens = set(normalized.split())
+                    # Reconoce tanto "Liga 1 Max" como IDs/nombres compactos
+                    # como "Liga1Max.pe", que norm() deja como LIGA1MAX.
                     is_liga1 = (
-                        "L1" in tokens
-                        or "LIGA1" in tokens
+                        "L1" in tokens or "L1" in compact
+                        or "LIGA1" in compact
                         or ("LIGA" in tokens and "1" in tokens)
+                    )
+                    is_max = (
+                        "MAX" in tokens or "MAX" in compact
                     )
                     if not is_liga1:
                         continue
-                    if ("MAX" in tokens) != wants_max:
+                    if is_max != wants_max:
                         continue
                     candidates.append(source_id)
                     break
