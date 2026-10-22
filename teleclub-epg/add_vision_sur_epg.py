@@ -75,12 +75,15 @@ def ensure_channel(root):
         first_programme = next((i for i, item in enumerate(list(root)) if item.tag == "programme"), len(root))
         root.insert(first_programme, channel)
 
-    # Publica ambos nombres para que reproductores que usan el nombre visible
-    # "Visión Sur TV en vivo" puedan asociarlo al mismo tvg-id.
+    # Mantiene el nombre canónico del canal en la guía. El nombre alternativo
+    # "Visión Sur TV en vivo" se resuelve en la app por alias, no como otro
+    # display-name del canal EPG, para que la guía se identifique como Visión Sur TV.
+    for item in list(channel.findall("display-name")):
+        if (item.text or "").strip().casefold() == "visión sur tv en vivo":
+            channel.remove(item)
     existing_names = {(x.text or "").strip().casefold() for x in channel.findall("display-name")}
-    for name in (CHANNEL_NAME, "Visión Sur TV en vivo"):
-        if name.casefold() not in existing_names:
-            ET.SubElement(channel, "display-name", {"lang": "es"}).text = name
+    if CHANNEL_NAME.casefold() not in existing_names:
+        ET.SubElement(channel, "display-name", {"lang": "es"}).text = CHANNEL_NAME
 
 def main():
     if not EPG.exists():
