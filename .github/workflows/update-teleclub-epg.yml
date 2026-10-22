@@ -68,11 +68,19 @@ jobs:
           with_programmes={p.attrib.get('channel') for p in root.findall('programme')}
           missing=[ch.attrib.get('id') for ch in root.findall('channel') if ch.attrib.get('id') not in with_programmes]
           import json
-          generic=set()
+          # Un canal cuenta como genérico solo si TODOS sus programas son
+          # marcadores genéricos "- en vivo". Si tiene al menos un programa
+          # detallado, se clasifica como EPG real/disponible.
+          programmes_by_channel={}
           for p in root.findall('programme'):
-              title=(p.findtext('title') or '').strip()
-              if title.lower().endswith(' - en vivo'):
-                  generic.add(p.attrib.get('channel'))
+              cid=p.attrib.get('channel')
+              if cid:
+                  programmes_by_channel.setdefault(cid, []).append(p)
+          generic=set()
+          for cid, items in programmes_by_channel.items():
+              titles=[(p.findtext('title') or '').strip().lower() for p in items]
+              if titles and all(title.endswith(' - en vivo') for title in titles):
+                  generic.add(cid)
           real=sorted(x for x in with_programmes if x and x not in generic)
           status={
               'channels': channels,
