@@ -145,6 +145,34 @@ def enrich(root, src, source_url):
                 if alias in exact and src_prog.get(alias):
                     sid=alias
                     break
+        # Matching específico para los IDs de Teleclub de L1 y L1 MAX.
+        # Algunas fuentes publican estos canales como "Liga1", "Liga 1 HD",
+        # "L1 MAX HD", etc., aunque el display-name de Teleclub incluya calidad.
+        if not sid and cid in {"movistar.lch7217", "movistar.lch7216"}:
+            wants_max = cid == "movistar.lch7216"
+            candidates = []
+            for srcch in src_channels:
+                source_id = srcch.attrib.get("id", "")
+                if not source_id or not src_prog.get(source_id):
+                    continue
+                for source_name in names(srcch):
+                    tokens = set(norm(source_name).split())
+                    is_liga1 = (
+                        "L1" in tokens
+                        or "LIGA1" in tokens
+                        or ("LIGA" in tokens and "1" in tokens)
+                    )
+                    if not is_liga1:
+                        continue
+                    if ("MAX" in tokens) != wants_max:
+                        continue
+                    candidates.append(source_id)
+                    break
+            candidates = sorted(set(candidates))
+            if len(candidates) == 1:
+                sid = candidates[0]
+            elif len(candidates) > 1:
+                print(f"EPG diagnóstico ambiguo {cid} en {source_url}: " + ", ".join(candidates))
         if not sid:
             for n in names(ch):
                 hits=[x for x in byname.get(norm(n),[]) if src_prog.get(x[0])]
