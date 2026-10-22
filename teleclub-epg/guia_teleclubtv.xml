@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-22T14:39:55.211129+00:00" radio-la-zona-updated-at="2026-10-22T14:39:55.387199+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-22T17:22:25.134967+00:00" radio-la-zona-updated-at="2026-10-22T17:22:25.437101+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -116,13 +116,21 @@
     <display-name lang="es">La tele</display-name>
     <icon src="http://panel.digo.net.pe:80/images/0fbc53864ac8d078edee533f7ecfdc2f.png" />
   </channel>
-  <channel id="custom-5">
-    <display-name lang="es">A1</display-name>
-    <icon src="https://radioa1fmperu.com/wp-content/uploads/2026/09/logoradioa1.webp" />
+  <channel id="ipe.teleclub">
+    <display-name lang="es">CANAL IPE SD</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4zKLBI6di-V09Q-dyIv67cNXWwao90kkLRsgRVkZ1AA&amp;s=10" />
+  </channel>
+  <channel id="nacional-tv.teleclub">
+    <display-name lang="es">Nacional tv</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5h6_x3vDbiY_b6zaSBJOl-sw-0tBfVaXnWlUNHRC7eA&amp;s=10" />
   </channel>
   <channel id="custom-8">
     <display-name lang="es">Lo nuestro tv</display-name>
     <icon src="https://radioa1fmperu.com/wp-content/uploads/elementor/thumbs/nuestrotv-rsqzad631ez33z83ij3zf6ipqv7s3ih5nwqct5rn7c.jpg" />
+  </channel>
+  <channel id="custom-5">
+    <display-name lang="es">A1</display-name>
+    <icon src="https://radioa1fmperu.com/wp-content/uploads/2026/09/logoradioa1.webp" />
   </channel>
   <channel id="custom-7">
     <display-name lang="es">Canal39</display-name>
@@ -199,14 +207,6 @@
   <channel id="custom-32">
     <display-name lang="es">Radio studio 92</display-name>
     <icon src="https://i.imgur.com/m5yoRgH.png" />
-  </channel>
-  <channel id="nacional-tv.teleclub">
-    <display-name lang="es">Nacional tv</display-name>
-    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5h6_x3vDbiY_b6zaSBJOl-sw-0tBfVaXnWlUNHRC7eA&amp;s=10" />
-  </channel>
-  <channel id="ipe.teleclub">
-    <display-name lang="es">CANAL IPE SD</display-name>
-    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4zKLBI6di-V09Q-dyIv67cNXWwao90kkLRsgRVkZ1AA&amp;s=10" />
   </channel>
   <channel id="latina-podcast.teleclub">
     <display-name lang="es">Latina podcast</display-name>
@@ -369,6 +369,13 @@
   <channel id="movistar.lch7217">
     <display-name lang="es">L1</display-name>
     <icon src="https://github.com/teleclubxyz/teleclub/blob/main/liga1.png?raw=true" />
+  </channel>
+  <channel id="custom-1249">
+    <display-name lang="es">BICOLOR+</display-name>
+  </channel>
+  <channel id="solar-tv.teleclub">
+    <display-name lang="es">BICOLOR+ PREMIUM</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuloIUPJiDTemMuGjm0aEQWHbx4-m865do8uiNubcpeA&amp;s" />
   </channel>
   <channel id="custom-1040">
     <display-name lang="es">ADRENALINA TV</display-name>
@@ -786,11 +793,11 @@
   <channel id="food-network.teleclub">
     <display-name lang="es">CARTOON NETWORK</display-name>
   </channel>
-  <channel id="custom-1214">
-    <display-name lang="es">CINEMAX</display-name>
-  </channel>
   <channel id="custom-1215">
     <display-name lang="es">AMC</display-name>
+  </channel>
+  <channel id="custom-1214">
+    <display-name lang="es">CINEMAX</display-name>
   </channel>
   <channel id="custom-1216">
     <display-name lang="es">TNT SPORTS</display-name>
@@ -813,11 +820,11 @@
   <channel id="cineclub-tv.teleclub">
     <display-name lang="es">Cuba tv Ayacucho</display-name>
   </channel>
-  <channel id="custom-1224">
-    <display-name lang="es">TNT NOVELAS</display-name>
-  </channel>
   <channel id="custom-1225">
     <display-name lang="es">HBO</display-name>
+  </channel>
+  <channel id="custom-1224">
+    <display-name lang="es">TNT NOVELAS</display-name>
   </channel>
   <channel id="custom-1226">
     <display-name lang="es">HBO 2</display-name>
@@ -864,10 +871,6 @@
   <channel id="radio-exitosa.teleclub">
     <display-name lang="es">Radio éxito</display-name>
   </channel>
-  <channel id="solar-tv.teleclub">
-    <display-name lang="es">BICOLOR+ PREMIUM</display-name>
-    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuloIUPJiDTemMuGjm0aEQWHbx4-m865do8uiNubcpeA&amp;s" />
-  </channel>
   <channel id="custom-1243">
     <display-name lang="es">TOONCAST</display-name>
     <icon src="http://panel.digo.net.pe:80/images/1b09d3d87c3ea38f746e78d842d91408.png" />
@@ -883,9 +886,6 @@
   </channel>
   <channel id="https://i.ibb.co/Nd3595Jp/1e57475a9a6b-640-360.png">
     <display-name lang="es">BICOLOR+ PREMIUM 2</display-name>
-  </channel>
-  <channel id="custom-1249">
-    <display-name lang="es">BICOLOR+</display-name>
   </channel>
   <channel id="movistar.lch2318">
     <display-name lang="es">Canal N</display-name>
