@@ -206,6 +206,11 @@ def mirror_channel_programmes(root, source_id, target_id, name):
 
 def fill_channel_gaps(root, cid, name, days=8):
     """Añade bloques informativos solo donde no exista otro programa, para que la guía no quede vacía."""
+    # Elimina los bloques de continuidad anteriores y vuelve a calcular los huecos
+    # para que una programación nueva nunca quede tapada por relleno antiguo.
+    for p in list(root.findall("programme")):
+        if p.attrib.get("channel") == cid and "Bloque informativo de continuidad" in (p.findtext("desc") or ""):
+            root.remove(p)
     now = datetime.now(LIMA)
     day_start = datetime.combine(now.date(), datetime.min.time(), tzinfo=LIMA)
     range_start = day_start
