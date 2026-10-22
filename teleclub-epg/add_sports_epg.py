@@ -268,11 +268,18 @@ def main():
     ensure_channel(root, "movistar.lch7216", "L1 MAX")
     remove_programmes(root, "movistar.lch7216")
 
+    # Eliminar los bloques genéricos de ejecuciones anteriores.
+    # No inventar nombres de programas: conservar la guía fuente disponible y
+    # añadir únicamente partidos con horario publicado.
+    for p in list(root.findall("programme")):
+        if p.attrib.get("channel") == "movistar.lch7216":
+            desc = (p.findtext("desc") or "").lower()
+            title = (p.findtext("title") or "").lower()
+            if "bloque informativo de continuidad" in desc or title == "programación de l1 max":
+                root.remove(p)
+
     ligamax_count = add_liga_programming(root, "movistar.lch7216")
-    # Evitar que L1 MAX y L1 queden sin ninguna franja visible entre partidos.
-    # Los bloques de continuidad solo ocupan huecos y no se solapan con eventos existentes.
-    fill_channel_gaps(root, "movistar.lch7216", "L1 MAX", days=8)
-    # Publicar la misma guía en el tvg-id exacto de L1.
+    # Publicar la misma guía con el tvg-id exacto que usa la lista M3U de L1.
     l1_count = mirror_channel_programmes(root, "movistar.lch7216", "movistar.lch7217", "L1")
     ovacion_count = add_ovacion_programming(root)
 
