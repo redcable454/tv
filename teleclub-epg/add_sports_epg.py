@@ -185,20 +185,46 @@ def add_ovacion_programming(root):
     return added
 
 
+def mirror_channel_programmes(root, source_id, target_id, name):
+    """Publica la misma guía con el tvg-id que usa la lista M3U de Teleclub."""
+    ensure_channel(root, target_id, name)
+    # Quita el espejo anterior para que las ejecuciones diarias sean idempotentes.
+    for p in list(root.findall("programme")):
+        if p.attrib.get("channel") == target_id:
+            root.remove(p)
+    source_programmes = [
+        p for p in root.findall("programme")
+        if p.attrib.get("channel") == source_id
+    ]
+    for p in source_programmes:
+        clone = ET.fromstring(ET.tostring(p, encoding="utf-8"))
+        clone.set("channel", target_id)
+        root.append(clone)
+    return len(source_programmes)
+
+
 def main():
     root = ET.parse(EPG).getroot()
-    # Solo hay fuente pública verificada para la cartelera de L1 MAX.
-    # No copiamos esos partidos a L1 sin confirmar que también los emite.
+    # IDs internos del panel y tvg-id exactos de teleclubtv_con_epg.m3u.
     ensure_channel(root, "movistar.lch7217", "L1")
     ensure_channel(root, "movistar.lch7216", "L1 MAX")
     remove_programmes(root, "movistar.lch7216")
 
     ligamax_count = add_liga_programming(root, "movistar.lch7216")
+    # La lista M3U publicada usa L1.pe@SD y L1Max.pe@SD, no los IDs
+    # movistar.lch7217 / movistar.lch7216. Crear canales espejo con esos IDs
+    # para que los reproductores puedan asociar los programas por tvg-id.
+    l1_count = mirror_channel_programmes(root, "movistar.lch7217", "L1.pe@SD", "L1")
+    l1max_alias_count = mirror_channel_programmes(root, "movistar.lch7216", "L1Max.pe@SD", "L1 MAX")
     ovacion_count = add_ovacion_programming(root)
 
     ET.indent(root, space="  ")
     ET.ElementTree(root).write(EPG, encoding="utf-8", xml_declaration=True)
-    print(f"EPG deportiva verificada: L1 Max={ligamax_count}, L1 sin parrilla inventada, Ovación TV={ovacion_count}")
+    print(
+        f"EPG deportiva: L1 MAX={ligamax_count}, "
+        f"tvg-id L1.pe@SD={l1_count}, tvg-id L1Max.pe@SD={l1max_alias_count}, "
+        f"L1 sin parrilla inventada, Ovación TV={ovacion_count}"
+    )
 
 
 if __name__ == "__main__":
