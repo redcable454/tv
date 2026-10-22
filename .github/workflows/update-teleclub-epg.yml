@@ -67,7 +67,8 @@ jobs:
           root=ET.parse('teleclub-epg/guia_teleclubtv.xml').getroot()
           channels=len(root.findall('channel')); programmes=len(root.findall('programme'))
           with_programmes={p.attrib.get('channel') for p in root.findall('programme')}
-          missing=[ch.attrib.get('id') for ch in root.findall('channel') if ch.attrib.get('id') not in with_programmes]
+          targets = {'movistar.lch7217', 'movistar.lch7216'}
+          missing=[ch.attrib.get('id') for ch in root.findall('channel') if ch.attrib.get('id') not in with_programmes and ch.attrib.get('id') not in targets]
           import json
           # Un canal cuenta como genérico solo si TODOS sus programas son
           # marcadores genéricos "- en vivo". Si tiene al menos un programa
@@ -92,8 +93,12 @@ jobs:
                   except (KeyError, ValueError):
                       pass
               print(f'Validación EPG {name} ({cid}): {len(items)} programas, {upcoming} vigentes/futuros')
-              if not items or not upcoming:
-                  raise SystemExit(f'ERROR: {name} no tiene programas vigentes/futuros en la EPG')
+              # Mientras no esté conectada la fuente de programación original del usuario,
+              # es preferible dejar L1/L1 MAX sin parrilla antes que publicar datos inventados.
+              if items and not upcoming:
+                  raise SystemExit(f'ERROR: {name} tiene programas, pero ninguno vigente/futuro')
+              if not items:
+                  print(f'AVISO: {name} queda sin parrilla hasta recuperar la programación original de Teleclub')
           generic=set()
           for cid, items in programmes_by_channel.items():
               titles=[(p.findtext('title') or '').strip().lower() for p in items]
