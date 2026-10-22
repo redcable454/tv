@@ -43,6 +43,19 @@ def generic(p):
 # Alias exactos verificados contra EPGShare PE1. Se usan solo cuando el ID
 # de Teleclub difiere del ID XMLTV de la fuente; no afectan el matching general.
 SOURCE_ID_ALIASES = {
+    # IDs usados por la lista M3U de Teleclub TV; se vinculan solo a IDs
+    # de fuentes XMLTV conocidas para sustituir programación genérica.
+    "mitv.america-television": ["AMERICA.TELEVISION.HD.(America.HD).pe", "AMERICA.TELEVISION.(America).pe"],
+    "movistar.lch2201": ["LATINA.HD.(Latina.HD).pe", "LATINA.(Latina).pe"],
+    "movistar.lch2203": ["PANAMERICANA.TELEVISION.HD.(Panamericana.HD).pe", "PANAMERICANA.TELEVISION.(Panamericana).pe"],
+    "movistar.lch2205": ["ATV.HD.(ATV.HD).pe", "ATV.(ATV).pe"],
+    "movistar.lch2204": ["TV.PERU.HD.(TVPeru.HD).pe", "TV.PERU.(TVPeru).pe"],
+    "movistar.lch2219": ["WILLAX.(Willax).pe", "WILLAX.HD.(Willax.HD).pe"],
+    "movistar.lch6307": ["ATV.MAS.(ATVMas).pe", "ATV.MAS.HD.(ATVMas.HD).pe"],
+    "movistar.lch6311": ["EXITOSA.TV.(Exitosa).pe", "EXITOSA.(Exitosa).pe"],
+    "movistar.lch2459": ["RPP.HD.(RPP.HD).pe", "RPP.(RPP).pe"],
+    "movistar.lch6309": ["GLOBAL.TV.(Global).pe", "GLOBAL.(Global).pe"],
+    "movistar.lch2318": ["CANAL.N.(CanalN).pe", "CANAL.N.HD.(CanalN.HD).pe"],
     "custom-1109": ["SEXTREME.(Sextreme).pe", "Sextreme.(SEXTR).[962].cr", "Sextreme.-.Premium.(SEXTR).[1033].cr"],
     "custom-1233": ["DIRECTV.SPORTS.HD(DTVSHD).co", "DSPORTS.(COL).(DTSC).co", "DSPORTS.HD.(COL)(DTSCHD).co"],
     "590": ["Pago.Por.Evento.//.Venus.International.(VENUS).[960].cr", "Pago.Por.Evento.//.Venus.1.International.(VENUS1).[1006].cr", "VENUS.(Venus).pe"],
