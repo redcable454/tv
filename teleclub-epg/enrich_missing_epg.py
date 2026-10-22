@@ -164,7 +164,7 @@ def enrich(root, src, source_url):
                     # Reconoce tanto "Liga 1 Max" como IDs/nombres compactos
                     # como "Liga1Max.pe", que norm() deja como LIGA1MAX.
                     is_liga1 = (
-                        "L1" in tokens or "L1" in compact
+                        "L1" in tokens or compact.startswith("L1")
                         or "LIGA1" in compact
                         or ("LIGA" in tokens and "1" in tokens)
                     )
