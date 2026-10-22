@@ -72,11 +72,15 @@ def ensure_channel(root):
     channel = next((c for c in root.findall("channel") if c.attrib.get("id") == CHANNEL_ID), None)
     if channel is None:
         channel = ET.Element("channel", {"id": CHANNEL_ID})
-        ET.SubElement(channel, "display-name", {"lang": "es"}).text = CHANNEL_NAME
         first_programme = next((i for i, item in enumerate(list(root)) if item.tag == "programme"), len(root))
         root.insert(first_programme, channel)
-    elif not any((x.text or "").strip() == CHANNEL_NAME for x in channel.findall("display-name")):
-        ET.SubElement(channel, "display-name", {"lang": "es"}).text = CHANNEL_NAME
+
+    # Publica ambos nombres para que reproductores que usan el nombre visible
+    # "Visión Sur TV en vivo" puedan asociarlo al mismo tvg-id.
+    existing_names = {(x.text or "").strip().casefold() for x in channel.findall("display-name")}
+    for name in (CHANNEL_NAME, "Visión Sur TV en vivo"):
+        if name.casefold() not in existing_names:
+            ET.SubElement(channel, "display-name", {"lang": "es"}).text = name
 
 def main():
     if not EPG.exists():
