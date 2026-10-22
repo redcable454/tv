@@ -182,6 +182,11 @@ def enrich(root, src, source_url):
                 sid = candidates[0]
             elif len(candidates) > 1:
                 print(f"EPG diagnóstico ambiguo {cid} en {source_url}: " + ", ".join(candidates))
+        # Para L1/L1 MAX no se permite el fallback genérico por similitud:
+        # puede confundir "L1" con canales ajenos como Caracol/Canal 1.
+        # Si una fuente no identifica explícitamente Liga 1, no copiar su parrilla.
+        if not sid and cid in {"movistar.lch7217", "movistar.lch7216"}:
+            continue
         if not sid:
             for n in names(ch):
                 hits=[x for x in byname.get(norm(n),[]) if src_prog.get(x[0])]
