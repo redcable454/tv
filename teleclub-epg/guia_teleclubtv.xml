@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-22T14:16:48.823384+00:00" radio-la-zona-updated-at="2026-10-22T14:16:48.980865+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-22T14:39:55.211129+00:00" radio-la-zona-updated-at="2026-10-22T14:39:55.387199+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -53214,6 +53214,9 @@ Religiosas de la Cruz en Monterrey, en el DF la espiritualidad de Don Bosco para
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261022051000 +0000" stop="20261022053000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
   <programme start="20261022051000 +0000" stop="20261022053000 +0000" channel="comedi-central.teleclub">
     <title lang="es">South Park</title>
     <sub-title lang="es">Los pequeños detectives</sub-title>
@@ -53544,7 +53547,7 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     </rating>
   </programme>
   <programme start="20261022053000 +0000" stop="20261022063000 +0000" channel="america-television.teleclub">
-    <title lang="es">Los Hilos del Pasado</title>
+    <title lang="es">America espectaculos</title>
   </programme>
   <programme start="20261022053000 +0000" stop="20261022060000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -55429,8 +55432,8 @@ Convierte tu hogar en una pista de baile, con las mezclas de los DJs latinoameri
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261022063000 +0000" stop="20261022071000 +0000" channel="america-television.teleclub">
-    <title lang="es">Destilando amor</title>
+  <programme start="20261022063000 +0000" stop="20261022080000 +0000" channel="america-television.teleclub">
+    <title lang="es">Mande quien mande</title>
   </programme>
   <programme start="20261022063000 +0000" stop="20261022070000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -56984,9 +56987,6 @@ Los legendarios tesoros del Rollo de Cobre, las minas del poderoso Rey Salomón 
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261022071000 +0000" stop="20261022073000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
   <programme start="20261022071000 +0000" stop="20261022074000 +0000" channel="custom-1016">
     <title lang="es">My Wife and Kids</title>
     <sub-title lang="es">Silence Is Golden</sub-title>
@@ -57386,9 +57386,6 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261022073000 +0000" stop="20261022083000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
   </programme>
   <programme start="20261022073000 +0000" stop="20261022080000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -58253,6 +58250,9 @@ En este episodio exploramos los orígenes de los juegos más mortíferos de la h
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261022080000 +0000" stop="20261022081600 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Primera Edición</title>
+  </programme>
   <programme start="20261022080000 +0000" stop="20261022083000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
     <desc>Un programa para ayudar a mejorar la salud.</desc>
@@ -59084,6 +59084,9 @@ Un programa que presenta los temas musicales más destadacados y que son tendenc
       <value>+-1</value>
     </rating>
   </programme>
+  <programme start="20261022081600 +0000" stop="20261022100000 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Primera Edición</title>
+  </programme>
   <programme start="20261022081600 +0000" stop="20261022090000 +0000" channel="custom-1054">
     <title lang="es">Mi casa en los suburbios</title>
     <sub-title lang="es">El arte de la búsqueda de casas</sub-title>
@@ -59271,9 +59274,6 @@ Sigue a una exitosa empresaria solitaria en su matrimonio, mientras su hija y jo
     <video>
       <quality>HDTV</quality>
     </video>
-  </programme>
-  <programme start="20261022083000 +0000" stop="20261022100000 +0000" channel="america-television.teleclub">
-    <title lang="es">Mande quien mande</title>
   </programme>
   <programme start="20261022083000 +0000" stop="20261022090000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -61923,7 +61923,7 @@ Corey se vuelve loco cuando se topa con una serie de motocicletas Indian raras y
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261022100000 +0000" stop="20261022101600 +0000" channel="america-television.teleclub">
+  <programme start="20261022100000 +0000" stop="20261022115000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
   <programme start="20261022100000 +0000" stop="20261022110000 +0000" channel="atv-sur.teleclub">
@@ -62749,9 +62749,6 @@ Veracidad, agilidad y carisma. El primer contacto del público con la informaci�
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261022101600 +0000" stop="20261022120000 +0000" channel="america-television.teleclub">
-    <title lang="es">América Noticias Primera Edición</title>
   </programme>
   <programme start="20261022101600 +0000" stop="20261022102200 +0000" channel="custom-1220">
     <title lang="es">Bienvenidos a la isla</title>
@@ -65378,6 +65375,9 @@ En María se da y se encuentra todo, es por eso que por medio de ella se nos ha 
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261022115000 +0000" stop="20261022121000 +0000" channel="america-television.teleclub">
+    <title lang="es">América Deportes</title>
+  </programme>
   <programme start="20261022115000 +0000" stop="20261022115700 +0000" channel="custom-1220">
     <title lang="es">Charlie y los números</title>
     <desc lang="es">Contar y los números se convierten en una gran aventura cuando Charlie visita el Reino de los Números, un mundo mágico donde ellos reinan; Charlie se hace amigo de un nuevo número en cada episodio y cuenta, canta y baila por el camino.</desc>
@@ -65662,9 +65662,6 @@ Noticias del mundo musical con nuestros mejores conductores.</desc>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261022120000 +0000" stop="20261022135000 +0000" channel="america-television.teleclub">
-    <title lang="es">América Noticias Primera Edición</title>
   </programme>
   <programme start="20261022120000 +0000" stop="20261022153000 +0000" channel="atv.teleclub-2">
     <title lang="es">ATV noticias edición matinal</title>
@@ -66283,6 +66280,9 @@ Veracidad, agilidad y carisma. El primer contacto del público con la informaci�
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261022121000 +0000" stop="20261022123000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
   <programme start="20261022121000 +0000" stop="20261022121500 +0000" channel="custom-1220">
     <title lang="es">Charlie y las figuras</title>
     <desc lang="es">Charlie es un chico de cabello castaño al que le encanta bailar. Junto con sus amigos, que se asemejan a diferentes formas geométricas, bailan y se divierten.</desc>
@@ -66702,6 +66702,9 @@ Convierte tu hogar en una pista de baile, con las mezclas de los DJs latinoameri
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261022123000 +0000" stop="20261022140000 +0000" channel="america-television.teleclub">
+    <title lang="es">América hoy</title>
   </programme>
   <programme start="20261022123000 +0000" stop="20261022130000 +0000" channel="bethel.teleclub">
     <title>Melodías de vida</title>
@@ -69358,9 +69361,6 @@ Toda la cobertura de las noticias e historias más importantes del día, con el 
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261022135000 +0000" stop="20261022141000 +0000" channel="america-television.teleclub">
-    <title lang="es">América Deportes</title>
-  </programme>
   <programme start="20261022135000 +0000" stop="20261022142000 +0000" channel="comedi-central.teleclub">
     <title lang="es">Frasier</title>
     <sub-title lang="es">El desliz de Frasier</sub-title>
@@ -69627,6 +69627,9 @@ Edna y Francisco recientemente quedaron viudos y asisten a un grupo de terapia p
 Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
     <icon src="https://iptv-epg.org/images/gYGJpZIDP1wlTbWNb47q1GFibYfJStOd7oyENZbUtZIOEYwuggLmR7amS6cNdweLWQcLBn4lsk76hYSWnagbd3NA3fjxYrV50WzX_gu1bNYynf0mNDDGzg" />
     <title lang="es">Infomerciales</title>
+  </programme>
+  <programme start="20261022140000 +0000" stop="20261022150000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
   </programme>
   <programme start="20261022140000 +0000" stop="20261022170000 +0000" channel="atv-sur.teleclub">
     <title>Nuevo Día</title>
@@ -70340,9 +70343,6 @@ Una simpática biografía en dibujos animados sobre Juan Pablo II, que presenta 
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261022141000 +0000" stop="20261022143000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
   <programme start="20261022141000 +0000" stop="20261022143000 +0000" channel="mitv.america-television">
     <desc lang="es">Espectáculo
 Lo último de la información del mundo del espectáculo nacional e internacional. Las entrevistas más entretenidas con música en vivo la encontrarás aquí en América Espectáculos.</desc>
@@ -70733,9 +70733,6 @@ Un programa que presenta los temas musicales más destadacados y que son tendenc
     <rating system="MPAA">
       <value>TV14</value>
     </rating>
-  </programme>
-  <programme start="20261022143000 +0000" stop="20261022160000 +0000" channel="america-television.teleclub">
-    <title lang="es">América hoy</title>
   </programme>
   <programme start="20261022143000 +0000" stop="20261022150000 +0000" channel="bethel.teleclub">
     <title>Mi Casa Feliz</title>
@@ -71646,6 +71643,9 @@ Un descubrimiento mortal, escondido debajo de uno de los parques nacionales más
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261022150000 +0000" stop="20261022153500 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Edición Mediodía</title>
   </programme>
   <programme start="20261022150000 +0000" stop="20261022153000 +0000" channel="bethel.teleclub">
     <title>Aprendo en casa</title>
@@ -72955,6 +72955,9 @@ Este programa cubre las noticias más recientes en el ámbito de los desarrollos
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261022153500 +0000" stop="20261022154500 +0000" channel="america-television.teleclub">
+    <title lang="es">América Deportes</title>
+  </programme>
   <programme start="20261022153500 +0000" stop="20261022172500 +0000" channel="custom-1215">
     <category lang="es">Comedia</category>
     <credits>
@@ -73078,6 +73081,9 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261022154500 +0000" stop="20261022160000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
   </programme>
   <programme start="20261022154500 +0000" stop="20261022155500 +0000" channel="custom-1065">
     <desc lang="es">Noticiero
@@ -73493,8 +73499,8 @@ Tom Brook presenta todas las últimas noticias y comentarios de la escena del ci
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261022160000 +0000" stop="20261022170000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
+  <programme start="20261022160000 +0000" stop="20261022164000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
   </programme>
   <programme start="20261022160000 +0000" stop="20261022163000 +0000" channel="bethel.teleclub">
     <title>Impacto evangelístico</title>
@@ -74956,6 +74962,9 @@ Los milagros de la virgen de Guadalupe se traducen en historias de amor, esperan
       <value>AGE228</value>
     </rating>
   </programme>
+  <programme start="20261022164000 +0000" stop="20261022181000 +0000" channel="america-television.teleclub">
+    <title lang="es">Mande quien mande</title>
+  </programme>
   <programme start="20261022164000 +0000" stop="20261022171500 +0000" channel="custom-1016">
     <title lang="es">Vecinos</title>
     <sub-title lang="es">Una pareja real</sub-title>
@@ -75392,9 +75401,6 @@ Los milagros de la virgen de Guadalupe se traducen en historias de amor, esperan
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261022170000 +0000" stop="20261022173500 +0000" channel="america-television.teleclub">
-    <title lang="es">América Noticias Edición Mediodía</title>
   </programme>
   <programme start="20261022170000 +0000" stop="20261022180000 +0000" channel="atv-sur.teleclub">
     <title>Los animales más graciosos del planeta</title>
@@ -76751,9 +76757,6 @@ En María se da y se encuentra todo, es por eso que por medio de ella se nos ha 
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261022173500 +0000" stop="20261022174500 +0000" channel="america-television.teleclub">
-    <title lang="es">América Deportes</title>
-  </programme>
   <programme start="20261022173500 +0000" stop="20261022174100 +0000" channel="custom-1220">
     <title lang="es">LaLe Ki LoLu</title>
     <desc lang="es">Lale y Lolu se embarcan en una divertida aventura por el mundo mágico de los cuentos de hadas, interactuando entre sí a través del sonido.</desc>
@@ -76861,9 +76864,6 @@ En María se da y se encuentra todo, es por eso que por medio de ella se nos ha 
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261022174500 +0000" stop="20261022180000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
   </programme>
   <programme start="20261022174500 +0000" stop="20261022181000 +0000" channel="comedi-central.teleclub">
     <title lang="es">Becker</title>
@@ -77196,9 +77196,6 @@ Noticias del mundo musical con nuestros mejores conductores.</desc>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261022180000 +0000" stop="20261022184000 +0000" channel="america-television.teleclub">
-    <title lang="es">Destilando amor</title>
   </programme>
   <programme start="20261022180000 +0000" stop="20261022190000 +0000" channel="atv-sur.teleclub">
     <title>TV Noticias</title>
@@ -77776,6 +77773,9 @@ En el hermoso pueblo de Tequila, Jalisco, surge un amor ardiente, puro y fuerte,
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261022181000 +0000" stop="20261022190000 +0000" channel="america-television.teleclub">
+    <title lang="es">Al fondo hay sitio</title>
   </programme>
   <programme start="20261022181000 +0000" stop="20261022183000 +0000" channel="comedi-central.teleclub">
     <title lang="es">Spin City</title>
@@ -78475,9 +78475,6 @@ El Santo Sacrificio de la Misa desde la Capilla de EWTN, con los cantos gregoria
       <quality>HDTV</quality>
     </video>
   </programme>
-  <programme start="20261022184000 +0000" stop="20261022201000 +0000" channel="america-television.teleclub">
-    <title lang="es">Mande quien mande</title>
-  </programme>
   <programme start="20261022184000 +0000" stop="20261022193000 +0000" channel="custom-1000">
     <title lang="es">Chicago P.D.</title>
     <sub-title lang="es">Nueva escolta</sub-title>
@@ -78963,6 +78960,9 @@ Tom Brook presenta todas las últimas noticias y comentarios de la escena del ci
     <rating system="MPAA">
       <value>TVPG</value>
     </rating>
+  </programme>
+  <programme start="20261022190000 +0000" stop="20261022200000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los hilos del pasado</title>
   </programme>
   <programme start="20261022190000 +0000" stop="20261022193000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -81421,9 +81421,6 @@ Ya sea escondidos en galpones, enterrados en patios abandonados o encontrados en
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261022201000 +0000" stop="20261022210000 +0000" channel="america-television.teleclub">
-    <title lang="es">Al fondo hay sitio</title>
-  </programme>
   <programme start="20261022201000 +0000" stop="20261022223500 +0000" channel="custom-1008">
     <title lang="es">La caída de la Casa Blanca</title>
     <desc lang="es">El policía del Capitolio John Cale debe pasar una entrevista para entrar en el Servicio Secreto. Sin saber el resultado, lleva a su hija a visitar la Casa Blanca, pero, durante el recorrido, un grupo paramilitar asalta el edificio.</desc>
@@ -82532,8 +82529,8 @@ Los aviones y los trenes, han achicado las distancias del mundo, pero en situaci
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261022210000 +0000" stop="20261022220000 +0000" channel="america-television.teleclub">
-    <title lang="es">Los hilos del pasado</title>
+  <programme start="20261022210000 +0000" stop="20261022215000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
   <programme start="20261022210000 +0000" stop="20261022220000 +0000" channel="atv-sur.teleclub">
     <title>A otro nivel</title>
@@ -84161,6 +84158,9 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261022215000 +0000" stop="20261022223000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los milagros de la rosa, Perú</title>
+  </programme>
   <programme start="20261022215000 +0000" stop="20261023001500 +0000" channel="cine-canal.teleclub">
     <title lang="es">Una nueva eternidad</title>
     <desc lang="es">Después de la repentina muerte de su esposo, Libby se ve obligada a mudarse a la granja de su tía en Texas. Mientras lucha por adaptarse a la vida en el campo, la joven viuda comienza a enamorarse del administrador de la granja.</desc>
@@ -85367,6 +85367,9 @@ La historia de un niño que vive en una vecindad. En cada alocado episodio, el C
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261022223000 +0000" stop="20261023000000 +0000" channel="america-television.teleclub">
+    <title lang="es">Esto es guerra</title>
+  </programme>
   <programme start="20261022223000 +0000" stop="20261022230000 +0000" channel="bethel.teleclub">
     <title>Hablemos de Salud</title>
     <desc>Diversos especialistas de la salud brindan consejos de manera dinámica, espontánea e informativa generando conciencia de prevención y mejora en la calidad de vida de las personas.</desc>
@@ -86298,9 +86301,6 @@ Existe una extensa lista sobre fenómenos extraterrestres y encubrimientos de lo
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261022230000 +0000" stop="20261022235000 +0000" channel="america-television.teleclub">
-    <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
   <programme start="20261022230000 +0000" stop="20261023000000 +0000" channel="atv-sur.teleclub">
     <title>Soy Luna</title>
@@ -87995,9 +87995,6 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261022235000 +0000" stop="20261023003000 +0000" channel="america-television.teleclub">
-    <title lang="es">Los milagros de la rosa, Perú</title>
-  </programme>
   <programme start="20261022235000 +0000" stop="20261023001000 +0000" channel="comedi-central.teleclub">
     <title lang="es">The Exes</title>
     <sub-title lang="es">Lutz and the Real Girl</sub-title>
@@ -88153,6 +88150,9 @@ Noticias del mundo musical con nuestros mejores conductores.</desc>
     <rating system="MJColombia">
       <value>AGE228</value>
     </rating>
+  </programme>
+  <programme start="20261023000000 +0000" stop="20261023010000 +0000" channel="america-television.teleclub">
+    <title lang="es">Al fondo hay sitio</title>
   </programme>
   <programme start="20261023000000 +0000" stop="20261023010000 +0000" channel="atv-sur.teleclub">
     <title>Violetta</title>
@@ -89356,9 +89356,6 @@ Un programa que presenta los temas musicales más destadacados y que son tendenc
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261023003000 +0000" stop="20261023020000 +0000" channel="america-television.teleclub">
-    <title lang="es">Esto es guerra</title>
-  </programme>
   <programme start="20261023003000 +0000" stop="20261023010000 +0000" channel="bethel.teleclub">
     <title>La lista de Erick</title>
     <desc>Lo más interesante y atractivo de Rusia es presentado por Erick, un personaje de idiosincrasia latinoamericana que llega a Rusia para descubrir el país tal como es, sin prejuicios.</desc>
@@ -90190,6 +90187,9 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261023010000 +0000" stop="20261023020000 +0000" channel="america-television.teleclub">
+    <title lang="es">La vida que me robaste</title>
   </programme>
   <programme start="20261023010000 +0000" stop="20261023020000 +0000" channel="atv-sur.teleclub">
     <title>Revenge</title>
@@ -92357,8 +92357,8 @@ La mejor playlist que puedes escuchar, un poco de todo de tus canciones y artist
       <quality>HDTV</quality>
     </video>
   </programme>
-  <programme start="20261023020000 +0000" stop="20261023030000 +0000" channel="america-television.teleclub">
-    <title lang="es">Al fondo hay sitio</title>
+  <programme start="20261023020000 +0000" stop="20261023021700 +0000" channel="america-television.teleclub">
+    <title lang="es">América noticias Edición central</title>
   </programme>
   <programme start="20261023020000 +0000" stop="20261023033000 +0000" channel="atv-sur.teleclub">
     <title>TV Noticias Central</title>
@@ -93084,6 +93084,9 @@ Sigue a una exitosa empresaria solitaria en su matrimonio, mientras su hija y jo
     <icon src="https://ebyl.tmsimg.com/assets/p182355_v_v8_ac.jpg" />
     <episode-num system="dd_progid">MV00272097.0000</episode-num>
   </programme>
+  <programme start="20261023021700 +0000" stop="20261023022400 +0000" channel="america-television.teleclub">
+    <title lang="es">América Deportes</title>
+  </programme>
   <programme start="20261023021700 +0000" stop="20261023022000 +0000" channel="custom-1220">
     <title lang="es">Cierra tus ojos</title>
     <desc lang="es">Cierra tus ojos, recuéstate y relájate. Es hora de dormir.</desc>
@@ -93233,6 +93236,9 @@ Sigue a una exitosa empresaria solitaria en su matrimonio, mientras su hija y jo
     <episode-num system="original-air-date">2010-11-22 00:00:00</episode-num>
     <previously-shown start="20101122000000" />
   </programme>
+  <programme start="20261023022400 +0000" stop="20261023022700 +0000" channel="america-television.teleclub">
+    <title lang="es">América noticias Edición central</title>
+  </programme>
   <programme start="20261023022500 +0000" stop="20261023025000 +0000" channel="nick.teleclub">
     <title lang="es">iCarly</title>
     <sub-title lang="es">Acepto</sub-title>
@@ -93242,6 +93248,9 @@ Sigue a una exitosa empresaria solitaria en su matrimonio, mientras su hija y jo
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261023022700 +0000" stop="20261023024500 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
   </programme>
   <programme start="20261023022700 +0000" stop="20261023023100 +0000" channel="custom-1220">
     <title lang="es">Cierra tus ojos</title>
@@ -93875,6 +93884,9 @@ Lo mejor de los himnos, canciones emblemáticas y los más colorido de videos de
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">Rainbowlist</title>
   </programme>
+  <programme start="20261023024500 +0000" stop="20261023033000 +0000" channel="america-television.teleclub">
+    <title lang="es">Desvelados</title>
+  </programme>
   <programme start="20261023024500 +0000" stop="20261023030000 +0000" channel="custom-1065">
     <desc lang="es">Un repaso a la acción deportiva del día, acompañado de análisis, puntos de discusión y periodismo original. Todo lo que necesitas para mantenerte informado en un solo lugar.</desc>
     <icon src="https://iptv-epg.org/images/1bBwvR-Dc9S4wV0aJALPqiRr-M2FJrVSGwMHtKZvrMBgixW5xi7emP1_BbqaKmf4LHBv2F3dEOBMGi5DxSNYhpM8NRjH_6_F_il_ARWa1Tn362AkY0c" />
@@ -94273,9 +94285,6 @@ Lo mejor de los himnos, canciones emblemáticas y los más colorido de videos de
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261023030000 +0000" stop="20261023040000 +0000" channel="america-television.teleclub">
-    <title lang="es">La vida que me robaste</title>
   </programme>
   <programme start="20261023030000 +0000" stop="20261023033000 +0000" channel="bethel.teleclub">
     <title>Biblia 360</title>
@@ -95311,6 +95320,9 @@ A lo largo de la historia, muchas personas aseguraron poseer poderes mentales po
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261023033000 +0000" stop="20261023043000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los Hilos del Pasado</title>
+  </programme>
   <programme start="20261023033000 +0000" stop="20261023043000 +0000" channel="atv-sur.teleclub">
     <title>Grey's Anatomy</title>
     <desc>Drama médico centrado en un grupo de doctores que trabaja en el hospital Grey Sloan Memorial de Seattle. Allí empezaron sus carreras como residentes y allí forjaron sus amistades. Una mirada a sus relaciones a nivel profesional y personal.</desc>
@@ -96241,9 +96253,6 @@ Escalofriantes encuentros de personas que se adentraron en lo inexplicable y pag
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261023040000 +0000" stop="20261023041700 +0000" channel="america-television.teleclub">
-    <title lang="es">América noticias Edición central</title>
-  </programme>
   <programme start="20261023040000 +0000" stop="20261023045000 +0000" channel="atv.teleclub-2">
     <title lang="es">ATV noticias edición central</title>
     <desc lang="es">Un completo resumen informativo con lo más destacado de la jornada.</desc>
@@ -96988,9 +96997,6 @@ Sinónimo de objetividad, credibilidad y experiencia, Un espacio que presenta la
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261023041700 +0000" stop="20261023042400 +0000" channel="america-television.teleclub">
-    <title lang="es">América Deportes</title>
-  </programme>
   <programme start="20261023041700 +0000" stop="20261023042400 +0000" channel="mitv.america-television">
     <desc lang="es">Descubre los acontecimientos más importantes en el mundo del deporte.</desc>
     <icon src="https://iptv-epg.org/images/CidX82F0G8GFFdfalSJVlc5g1yq2ghrSoZyq1u6Ad5KkzjaBRpIeEhLL5RrkRcgzbE-0Qs7-6R25WF_Zvs8AQlAsL6rpxndflTlJFvYAs1R-_NkYj4jGBKBxR4NIYIMxW1Ycshs" />
@@ -97134,9 +97140,6 @@ Sinónimo de objetividad, credibilidad y experiencia, Un espacio que presenta la
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261023042400 +0000" stop="20261023042700 +0000" channel="america-television.teleclub">
-    <title lang="es">América noticias Edición central</title>
-  </programme>
   <programme start="20261023042400 +0000" stop="20261023050700 +0000" channel="custom-1058">
     <title lang="es">Campeonato de reposteros: Delicias de primavera</title>
     <sub-title lang="es">Equipo soñado de primavera</sub-title>
@@ -97210,9 +97213,6 @@ Sinónimo de objetividad, credibilidad y experiencia, Un espacio que presenta la
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261023042700 +0000" stop="20261023044500 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
   <programme start="20261023042700 +0000" stop="20261023044500 +0000" channel="mitv.america-television">
     <desc lang="es">Espectáculo
 Lo último de la información del mundo del espectáculo nacional e internacional. Las entrevistas más entretenidas con música en vivo la encontrarás aquí en América Espectáculos.</desc>
@@ -97250,6 +97250,12 @@ Lo último de la información del mundo del espectáculo nacional e internaciona
 Entérate de los sucesos más relevantes de la actualidad en este segmento especial que te brinda un resumen general sobre los últimos acontecimientos ocurridos en México y el mundo.</desc>
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">En punto con Enrique Acevedo</title>
+  </programme>
+  <programme start="20261023043000 +0000" stop="20261023051000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
+  </programme>
+  <programme start="20261023043000 +0000" stop="20261023051000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
   </programme>
   <programme start="20261023043000 +0000" stop="20261023050000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -97801,12 +97807,6 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261023044500 +0000" stop="20261023053000 +0000" channel="america-television.teleclub">
-    <title lang="es">Desvelados</title>
-  </programme>
-  <programme start="20261023044500 +0000" stop="20261023053000 +0000" channel="america-television.teleclub">
-    <title lang="es">Desvelados</title>
   </programme>
   <programme start="20261023044500 +0000" stop="20261023051000 +0000" channel="comedi-central.teleclub">
     <title lang="es">Ugly Americans</title>
@@ -99386,6 +99386,9 @@ La dramatización de las estaciones de la pasión y muerte de Cristo acompañan 
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261023051000 +0000" stop="20261023053000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
   <programme start="20261023051000 +0000" stop="20261023053000 +0000" channel="comedi-central.teleclub">
     <title lang="es">South Park</title>
     <sub-title lang="es">Preescolar</sub-title>
@@ -99693,7 +99696,7 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     </rating>
   </programme>
   <programme start="20261023053000 +0000" stop="20261023063000 +0000" channel="america-television.teleclub">
-    <title lang="es">Los Hilos del Pasado</title>
+    <title lang="es">America espectaculos</title>
   </programme>
   <programme start="20261023053000 +0000" stop="20261023060000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -101521,8 +101524,8 @@ Tony Harris analiza los momentos más impactantes captados en cámara: un padre 
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261023063000 +0000" stop="20261023071000 +0000" channel="america-television.teleclub">
-    <title lang="es">Destilando amor</title>
+  <programme start="20261023063000 +0000" stop="20261023080000 +0000" channel="america-television.teleclub">
+    <title lang="es">Mande quien mande</title>
   </programme>
   <programme start="20261023063000 +0000" stop="20261023070000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -103022,9 +103025,6 @@ El primer paso para una verdadera conversión es reconciliarnos con Dios, recono
       <value>TVMA</value>
     </rating>
   </programme>
-  <programme start="20261023071000 +0000" stop="20261023073000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
   <programme start="20261023071000 +0000" stop="20261023080000 +0000" channel="custom-1000">
     <title lang="es">Chicago Fire</title>
     <sub-title lang="es">No fue suficiente</sub-title>
@@ -103434,9 +103434,6 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261023073000 +0000" stop="20261023083000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
   </programme>
   <programme start="20261023073000 +0000" stop="20261023080000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -104290,6 +104287,9 @@ En la nevada y blanca Finlandia, al norte del Círculo Polar Ártico, en medio d
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261023080000 +0000" stop="20261023081600 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Primera Edición</title>
+  </programme>
   <programme start="20261023080000 +0000" stop="20261023083000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
     <desc>Un programa para ayudar a mejorar la salud.</desc>
@@ -105075,6 +105075,9 @@ Vive el detrás de escena de las mejores películas de acción. Desde tiroteos d
       <value>+-1</value>
     </rating>
   </programme>
+  <programme start="20261023081600 +0000" stop="20261023100000 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Primera Edición</title>
+  </programme>
   <programme start="20261023081600 +0000" stop="20261023090000 +0000" channel="custom-1054">
     <title lang="es">Mi casa en los suburbios</title>
     <sub-title lang="es">Todo entre familia</sub-title>
@@ -105296,9 +105299,6 @@ Sigue a una exitosa empresaria solitaria en su matrimonio, mientras su hija y jo
     <video>
       <quality>HDTV</quality>
     </video>
-  </programme>
-  <programme start="20261023083000 +0000" stop="20261023100000 +0000" channel="america-television.teleclub">
-    <title lang="es">Mande quien mande</title>
   </programme>
   <programme start="20261023083000 +0000" stop="20261023090000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -107909,7 +107909,7 @@ La mejor playlist que puedes escuchar, un poco de todo de tus canciones y artist
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261023100000 +0000" stop="20261023101600 +0000" channel="america-television.teleclub">
+  <programme start="20261023100000 +0000" stop="20261023115000 +0000" channel="america-television.teleclub">
     <title lang="es">América Noticias Primera Edición</title>
   </programme>
   <programme start="20261023100000 +0000" stop="20261023110000 +0000" channel="atv-sur.teleclub">
@@ -108751,9 +108751,6 @@ Veracidad, agilidad y carisma. El primer contacto del público con la informaci�
     <video>
       <quality>HDTV</quality>
     </video>
-  </programme>
-  <programme start="20261023101600 +0000" stop="20261023120000 +0000" channel="america-television.teleclub">
-    <title lang="es">América Noticias Primera Edición</title>
   </programme>
   <programme start="20261023101800 +0000" stop="20261023110000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
     <desc lang="es">S2 E18 — Innovaciones extrañas
@@ -111346,6 +111343,9 @@ La dramatización de las estaciones de la pasión y muerte de Cristo acompañan 
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261023115000 +0000" stop="20261023121000 +0000" channel="america-television.teleclub">
+    <title lang="es">América Deportes</title>
+  </programme>
   <programme start="20261023115000 +0000" stop="20261023120000 +0000" channel="france-24-espanol.ar">
     <title>Cultura</title>
     <desc>¿Cómo explican el mundo los cineastas, los novelistas o los artistas? France 24 sale al encuentro de una cultura comprometida con su época.</desc>
@@ -111567,9 +111567,6 @@ Noticias del mundo musical con nuestros mejores conductores.</desc>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261023120000 +0000" stop="20261023135000 +0000" channel="america-television.teleclub">
-    <title lang="es">América Noticias Primera Edición</title>
   </programme>
   <programme start="20261023120000 +0000" stop="20261023153000 +0000" channel="atv.teleclub-2">
     <title lang="es">ATV noticias edición matinal</title>
@@ -112211,6 +112208,9 @@ Veracidad, agilidad y carisma. El primer contacto del público con la informaci�
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261023121000 +0000" stop="20261023123000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
   <programme start="20261023121000 +0000" stop="20261023121500 +0000" channel="disney-jr.teleclub">
     <title lang="es">CoComelon Playdates with Sanrio Friends</title>
     <date>2026</date>
@@ -112609,6 +112609,9 @@ Disfrute de los mejores videos musicales.</desc>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261023123000 +0000" stop="20261023140000 +0000" channel="america-television.teleclub">
+    <title lang="es">América Hoy</title>
   </programme>
   <programme start="20261023123000 +0000" stop="20261023130000 +0000" channel="bethel.teleclub">
     <title>Melodías de vida</title>
@@ -115407,9 +115410,6 @@ Toda la cobertura de las noticias e historias más importantes del día, con el 
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261023135000 +0000" stop="20261023141000 +0000" channel="america-television.teleclub">
-    <title lang="es">América Deportes</title>
-  </programme>
   <programme start="20261023135000 +0000" stop="20261023142000 +0000" channel="comedi-central.teleclub">
     <title lang="es">Frasier</title>
     <sub-title lang="es">Se necesitan dos para pelear</sub-title>
@@ -115645,6 +115645,9 @@ Adela está embarazada y llena de dicha, pero tras unos análisis de ADN su vida
 Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
     <icon src="https://iptv-epg.org/images/gYGJpZIDP1wlTbWNb47q1GFibYfJStOd7oyENZbUtZIOEYwuggLmR7amS6cNdweLWQcLBn4lsk76hYSWnagbd3NA3fjxYrV50WzX_gu1bNYynf0mNDDGzg" />
     <title lang="es">Infomerciales</title>
+  </programme>
+  <programme start="20261023140000 +0000" stop="20261023150000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
   </programme>
   <programme start="20261023140000 +0000" stop="20261023170000 +0000" channel="atv-sur.teleclub">
     <title>Nuevo Día</title>
@@ -116302,9 +116305,6 @@ Santa Faustina enseña a sus amiguitos Kristin, Eva, Enrique y Joseph los oríge
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261023141000 +0000" stop="20261023143000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
   <programme start="20261023141000 +0000" stop="20261023141500 +0000" channel="disney-jr.teleclub">
     <title lang="es">Pequeñas historias de Bluey</title>
     <sub-title lang="es">Batería</sub-title>
@@ -116677,9 +116677,6 @@ Un programa que presenta los temas musicales más destadacados y que son tendenc
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261023143000 +0000" stop="20261023160000 +0000" channel="america-television.teleclub">
-    <title lang="es">América Hoy</title>
   </programme>
   <programme start="20261023143000 +0000" stop="20261023150000 +0000" channel="bethel.teleclub">
     <title>Mi Casa Feliz</title>
@@ -117589,6 +117586,9 @@ Rick, Corey y Chum visitan San Francisco junto a su grupo de expertos. Navegan p
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261023150000 +0000" stop="20261023153500 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Edición Mediodía</title>
   </programme>
   <programme start="20261023150000 +0000" stop="20261023153000 +0000" channel="bethel.teleclub">
     <title>Aprendo en casa</title>
@@ -118828,6 +118828,9 @@ Matthew Amroliwala presenta las últimas noticias globales y del Reino Unido, en
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261023153500 +0000" stop="20261023154500 +0000" channel="america-television.teleclub">
+    <title lang="es">América Deportes</title>
+  </programme>
   <programme start="20261023153600 +0000" stop="20261023162200 +0000" channel="DISCOVERY.TURBO.(Disc.Turbo).pe">
     <title lang="es">Mexicánicos</title>
     <desc lang="es">Día a día en un taller de Guadalajara en donde todos usan su talento para crear vehículos con formas imposibles. Martín Vaca es un soñador que materializa cada una de sus locas invenciones y las de sus clientes.</desc>
@@ -118960,6 +118963,9 @@ La mejor playlist que puedes escuchar, un poco de todo de tus canciones y artist
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261023154500 +0000" stop="20261023160000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
   </programme>
   <programme channel="custom-1089" start="20261023154500 +0000" stop="20261023160000 +0000">
     <title lang="en">PSI Cops!</title>
@@ -119357,8 +119363,8 @@ Descubra cómo se prepara el Día de Muertos, a través de encuentros con famili
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023170000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
+  <programme start="20261023160000 +0000" stop="20261023164000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
   </programme>
   <programme start="20261023160000 +0000" stop="20261023163000 +0000" channel="bethel.teleclub">
     <title>Héroes de la Fe</title>
@@ -120693,6 +120699,9 @@ Los milagros de la virgen de Guadalupe se traducen en historias de amor, esperan
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261023164000 +0000" stop="20261023181000 +0000" channel="america-television.teleclub">
+    <title lang="es">Mande quien mande</title>
+  </programme>
   <programme start="20261023164000 +0000" stop="20261023164500 +0000" channel="france-24-espanol.ar">
     <title>En foco</title>
     <desc>Un reportaje breve que aborda temas que frecuentemente son obviados en las noticias.</desc>
@@ -121112,9 +121121,6 @@ Los milagros de la virgen de Guadalupe se traducen en historias de amor, esperan
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261023170000 +0000" stop="20261023173500 +0000" channel="america-television.teleclub">
-    <title lang="es">América Noticias Edición Mediodía</title>
   </programme>
   <programme start="20261023170000 +0000" stop="20261023180000 +0000" channel="atv-sur.teleclub">
     <title>Los animales más graciosos del planeta</title>
@@ -122537,9 +122543,6 @@ La dramatización de las estaciones de la pasión y muerte de Cristo acompañan 
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261023173500 +0000" stop="20261023174500 +0000" channel="america-television.teleclub">
-    <title lang="es">América Deportes</title>
-  </programme>
   <programme start="20261023173500 +0000" stop="20261023174500 +0000" channel="mitv.america-television">
     <desc lang="es">Descubre los acontecimientos más importantes en el mundo del deporte.</desc>
     <icon src="https://iptv-epg.org/images/CidX82F0G8GFFdfalSJVlc5g1yq2ghrSoZyq1u6Ad5KkzjaBRpIeEhLL5RrkRcgzbE-0Qs7-6R25WF_Zvs8AQlAsL6rpxndflTlJFvYAs1R-_NkYj4jGBKBxR4NIYIMxW1Ycshs" />
@@ -122646,9 +122649,6 @@ La dramatización de las estaciones de la pasión y muerte de Cristo acompañan 
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261023174500 +0000" stop="20261023180000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
   </programme>
   <programme start="20261023174500 +0000" stop="20261023181000 +0000" channel="comedi-central.teleclub">
     <title lang="es">Becker</title>
@@ -123009,9 +123009,6 @@ Noticias del mundo musical con nuestros mejores conductores.</desc>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261023180000 +0000" stop="20261023184000 +0000" channel="america-television.teleclub">
-    <title lang="es">Destilando amor</title>
   </programme>
   <programme start="20261023180000 +0000" stop="20261023190000 +0000" channel="atv-sur.teleclub">
     <title>TV Noticias</title>
@@ -123565,6 +123562,9 @@ El equipo recluta dispositivos especiales para su búsqueda más peligrosa hasta
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261023181000 +0000" stop="20261023190000 +0000" channel="america-television.teleclub">
+    <title lang="es">Al fondo hay sitio</title>
   </programme>
   <programme start="20261023181000 +0000" stop="20261023183000 +0000" channel="comedi-central.teleclub">
     <title lang="es">Spin City</title>
@@ -124294,9 +124294,6 @@ El Santo Sacrificio de la Misa desde la Capilla de EWTN, con los cantos gregoria
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261023184000 +0000" stop="20261023201000 +0000" channel="america-television.teleclub">
-    <title lang="es">Mande quien mande</title>
-  </programme>
   <programme start="20261023184000 +0000" stop="20261023193000 +0000" channel="custom-1000">
     <title lang="es">Chicago P.D.</title>
     <desc lang="es">El equipo está cerca de capturar al narco Javier Escaño, pero Voight debe mentirle a Anna, su informante encubierta, para que la operación no falle. Sin embargo, la pérdida de confianza entre ambos deteriora el proyecto.</desc>
@@ -124736,6 +124733,9 @@ La temporada 2017 de huracanes fue la más terrible en el continente desde 1935.
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261023190000 +0000" stop="20261023200000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los hilos del pasado</title>
   </programme>
   <programme start="20261023190000 +0000" stop="20261023193000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -127164,9 +127164,6 @@ Una oración del Santo Rosario desde el Santuario de Nuestra Señora de Lourdes,
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261023201000 +0000" stop="20261023210000 +0000" channel="america-television.teleclub">
-    <title lang="es">Al fondo hay sitio</title>
-  </programme>
   <programme start="20261023201000 +0000" stop="20261023201500 +0000" channel="custom-1220">
     <title lang="es">Charlie y las figuras</title>
     <desc lang="es">Charlie es un chico de cabello castaño al que le encanta bailar. Junto con sus amigos, que se asemejan a diferentes formas geométricas, bailan y se divierten.</desc>
@@ -128334,8 +128331,8 @@ Los aztecas construyeron uno de los imperios más poderosos y temidos del mundo,
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261023210000 +0000" stop="20261023220000 +0000" channel="america-television.teleclub">
-    <title lang="es">Los hilos del pasado</title>
+  <programme start="20261023210000 +0000" stop="20261023223000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
   <programme start="20261023210000 +0000" stop="20261023220000 +0000" channel="atv-sur.teleclub">
     <title>A otro nivel</title>
@@ -131128,6 +131125,9 @@ Desde 2013, el teniente Ryan Graves revela encuentros diarios con objetos Tic ta
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261023223000 +0000" stop="20261024000000 +0000" channel="america-television.teleclub">
+    <title lang="es">Esto es guerra</title>
+  </programme>
   <programme start="20261023223000 +0000" stop="20261023230000 +0000" channel="bethel.teleclub">
     <title>Cámara en mano</title>
     <desc>Programa que sigue a los cristianos y las actividades que realizan día a día para difundir la Palabra de Dios.</desc>
@@ -132101,9 +132101,6 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261023230000 +0000" stop="20261024003000 +0000" channel="america-television.teleclub">
-    <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
   <programme start="20261023230000 +0000" stop="20261024000000 +0000" channel="atv-sur.teleclub">
     <title>Soy Luna</title>
@@ -133835,6 +133832,9 @@ Noticias del mundo musical con nuestros mejores conductores.</desc>
       <quality>HDTV</quality>
     </video>
   </programme>
+  <programme start="20261024000000 +0000" stop="20261024010000 +0000" channel="america-television.teleclub">
+    <title lang="es">Al fondo hay sitio</title>
+  </programme>
   <programme start="20261024000000 +0000" stop="20261024010000 +0000" channel="atv-sur.teleclub">
     <title>Violetta</title>
     <desc>Luego de muchos años en Europa, una joven llamada Violeta regresa a Buenos Aires, donde encuentra amigos y el amor, y descubre su pasión por la música.</desc>
@@ -134404,9 +134404,6 @@ Un programa que presenta los temas musicales más destadacados y que son tendenc
       <value>TV14</value>
     </rating>
   </programme>
-  <programme start="20261024003000 +0000" stop="20261024020000 +0000" channel="america-television.teleclub">
-    <title lang="es">Esto es guerra</title>
-  </programme>
   <programme start="20261024003000 +0000" stop="20261024010000 +0000" channel="bethel.teleclub">
     <title>La lista de Erick</title>
     <desc>Lo más interesante y atractivo de Rusia es presentado por Erick, un personaje de idiosincrasia latinoamericana que llega a Rusia para descubrir el país tal como es, sin prejuicios.</desc>
@@ -134742,6 +134739,9 @@ Lo más cool del k pop actual.</desc>
     <video>
       <quality>HDTV</quality>
     </video>
+  </programme>
+  <programme start="20261024010000 +0000" stop="20261024020000 +0000" channel="america-television.teleclub">
+    <title lang="es">La vida que me robaste</title>
   </programme>
   <programme start="20261024010000 +0000" stop="20261024020000 +0000" channel="atv-sur.teleclub">
     <title>Revenge</title>
@@ -135954,8 +135954,8 @@ Disfrute de los mejores videos musicales.</desc>
       <quality>HDTV</quality>
     </video>
   </programme>
-  <programme start="20261024020000 +0000" stop="20261024030000 +0000" channel="america-television.teleclub">
-    <title lang="es">Al fondo hay sitio</title>
+  <programme start="20261024020000 +0000" stop="20261024021700 +0000" channel="america-television.teleclub">
+    <title lang="es">América noticias Edición central</title>
   </programme>
   <programme start="20261024020000 +0000" stop="20261024033000 +0000" channel="atv-sur.teleclub">
     <title>TV Noticias Central</title>
@@ -136353,6 +136353,9 @@ Sigue a una exitosa empresaria solitaria en su matrimonio, mientras su hija y jo
       <value>TVPG</value>
     </rating>
   </programme>
+  <programme start="20261024021700 +0000" stop="20261024022400 +0000" channel="america-television.teleclub">
+    <title lang="es">América Deportes</title>
+  </programme>
   <programme start="20261024022200 +0000" stop="20261024023200 +0000" channel="custom-1243">
     <title>Los pequeños Looney Tunes</title>
     <desc>Los bebés Bugs Bunny, el Pato Lucas, Silvestre y sus amigos viven grandes aventuras y aprenden un montón de lecciones sobre la amistad, el comportamiento y el respeto de la forma más divertida: jugando.</desc>
@@ -136383,6 +136386,9 @@ Sigue a una exitosa empresaria solitaria en su matrimonio, mientras su hija y jo
       <value>TVY</value>
     </rating>
   </programme>
+  <programme start="20261024022400 +0000" stop="20261024022700 +0000" channel="america-television.teleclub">
+    <title lang="es">América noticias Edición central</title>
+  </programme>
   <programme start="20261024022400 +0000" stop="20261024023000 +0000" channel="france-24-espanol.ar">
     <title>En foco</title>
     <desc>Un reportaje breve que aborda temas que frecuentemente son obviados en las noticias.</desc>
@@ -136397,6 +136403,9 @@ Sigue a una exitosa empresaria solitaria en su matrimonio, mientras su hija y jo
     <episode-num system="xmltv_ns">2025.1022.</episode-num>
     <episode-num system="original-air-date">2010-11-22 00:00:00</episode-num>
     <previously-shown start="20101122000000" />
+  </programme>
+  <programme start="20261024022700 +0000" stop="20261024024500 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
   </programme>
   <programme start="20261024023000 +0000" stop="20261024030000 +0000" channel="bethel.teleclub">
     <title>Llamados</title>
@@ -136713,6 +136722,9 @@ La mejor playlist que puedes escuchar, un poco de todo de tus canciones y artist
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">Dale Play</title>
   </programme>
+  <programme start="20261024024500 +0000" stop="20261024033000 +0000" channel="america-television.teleclub">
+    <title lang="es">Desvelados</title>
+  </programme>
   <programme start="20261024024500 +0000" stop="20261024030000 +0000" channel="custom-1065">
     <desc lang="es">Variedades
 Programación a confirmar.</desc>
@@ -136839,9 +136851,6 @@ Programación a confirmar.</desc>
     <rating system="MPAA">
       <value>TVMA</value>
     </rating>
-  </programme>
-  <programme start="20261024030000 +0000" stop="20261024040000 +0000" channel="america-television.teleclub">
-    <title lang="es">La vida que me robaste</title>
   </programme>
   <programme start="20261024030000 +0000" stop="20261024033000 +0000" channel="bethel.teleclub">
     <title>Plan B</title>
@@ -137413,6 +137422,9 @@ Mariana es encarcelada y pasa diez años en prisión tras recibir una condena in
     <icon src="https://ebyl.tmsimg.com/assets/p9957455_v_v12_ah.jpg" />
     <episode-num system="dd_progid">MV00606800.0000</episode-num>
   </programme>
+  <programme start="20261024033000 +0000" stop="20261024043000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los Hilos del Pasado</title>
+  </programme>
   <programme start="20261024033000 +0000" stop="20261024043000 +0000" channel="atv-sur.teleclub">
     <title>Grey's Anatomy</title>
     <desc>Drama médico centrado en un grupo de doctores que trabaja en el hospital Grey Sloan Memorial de Seattle. Allí empezaron sus carreras como residentes y allí forjaron sus amistades. Una mirada a sus relaciones a nivel profesional y personal.</desc>
@@ -137845,9 +137857,6 @@ Las leyendas urbanas mezclan realidad y ficción en historias inquietantes que s
       <quality>HDTV</quality>
     </video>
   </programme>
-  <programme start="20261024040000 +0000" stop="20261024041700 +0000" channel="america-television.teleclub">
-    <title lang="es">América noticias Edición central</title>
-  </programme>
   <programme start="20261024040000 +0000" stop="20261024043000 +0000" channel="bethel.teleclub">
     <title>Historias Reales</title>
     <desc>Los espacios incluyen temas como La Historia de Miguel Argandoña y Raquel: Fui Sanado de Sida.</desc>
@@ -138192,16 +138201,10 @@ Sinónimo de objetividad, credibilidad y experiencia, Un espacio que presenta la
       <value>TVY7</value>
     </rating>
   </programme>
-  <programme start="20261024041700 +0000" stop="20261024042400 +0000" channel="america-television.teleclub">
-    <title lang="es">América Deportes</title>
-  </programme>
   <programme start="20261024041700 +0000" stop="20261024042400 +0000" channel="mitv.america-television">
     <desc lang="es">Descubre los acontecimientos más importantes en el mundo del deporte.</desc>
     <icon src="https://iptv-epg.org/images/CidX82F0G8GFFdfalSJVlc5g1yq2ghrSoZyq1u6Ad5KkzjaBRpIeEhLL5RrkRcgzbE-0Qs7-6R25WF_Zvs8AQlAsL6rpxndflTlJFvYAs1R-_NkYj4jGBKBxR4NIYIMxW1Ycshs" />
     <title lang="es">América deportes</title>
-  </programme>
-  <programme start="20261024042400 +0000" stop="20261024042700 +0000" channel="america-television.teleclub">
-    <title lang="es">América noticias Edición central</title>
   </programme>
   <programme start="20261024042400 +0000" stop="20261024043000 +0000" channel="france-24-espanol.ar">
     <title>Des-informando</title>
@@ -138225,9 +138228,6 @@ Sinónimo de objetividad, credibilidad y experiencia, Un espacio que presenta la
     <icon src="https://iptv-epg.org/images/Jm2zdhHEMJ6jL0ZI5eGqov9VYUKu7xNCoCSIkMKeo_iqQz_2DO6rxjY4s3Unrt3qe0YckmlNUgrvg348X8KEMvyu1rhuhDT7MbE0WafeXTTUO_Ui-HdeWYUJhBAcCcTHtXBG4AEnhJEqDQYSGg" />
     <title lang="es">América noticias - Edición central</title>
   </programme>
-  <programme start="20261024042700 +0000" stop="20261024044500 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
   <programme start="20261024042700 +0000" stop="20261024044500 +0000" channel="mitv.america-television">
     <desc lang="es">Espectáculo
 Lo último de la información del mundo del espectáculo nacional e internacional. Las entrevistas más entretenidas con música en vivo la encontrarás aquí en América Espectáculos.</desc>
@@ -138239,6 +138239,12 @@ Lo último de la información del mundo del espectáculo nacional e internaciona
 Entérate de los sucesos más relevantes de la actualidad en este segmento especial que te brinda un resumen general sobre los últimos acontecimientos ocurridos en México y el mundo.</desc>
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">En punto con Enrique Acevedo</title>
+  </programme>
+  <programme start="20261024043000 +0000" stop="20261024051000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
+  </programme>
+  <programme start="20261024043000 +0000" stop="20261024051000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
   </programme>
   <programme start="20261024043000 +0000" stop="20261024050000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -138597,12 +138603,6 @@ Cuando el secreto puede ser la clave para la supervivencia, el descifrado de có
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Expedientes desclasificados</title>
     <title lang="en">Secrets Declassified with David Duchovny</title>
-  </programme>
-  <programme start="20261024044500 +0000" stop="20261024053000 +0000" channel="america-television.teleclub">
-    <title lang="es">Desvelados</title>
-  </programme>
-  <programme start="20261024044500 +0000" stop="20261024053000 +0000" channel="america-television.teleclub">
-    <title lang="es">Desvelados</title>
   </programme>
   <programme start="20261024044500 +0000" stop="20261024053000 +0000" channel="mitv.america-television">
     <desc lang="es">Entretenimientos
@@ -139515,6 +139515,9 @@ Este capítulo reúne los testimonios de todas las familias, mostrando cómo el 
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/1996375948.jpg" />
     <country lang="es">Rumania</country>
   </programme>
+  <programme start="20261024051000 +0000" stop="20261024053000 +0000" channel="america-television.teleclub">
+    <title lang="es">America espectaculos</title>
+  </programme>
   <programme start="20261024051000 +0000" stop="20261024051600 +0000" channel="france-24-espanol.ar">
     <title>En foco</title>
     <desc>Un reportaje breve que aborda temas que frecuentemente son obviados en las noticias.</desc>
@@ -139653,7 +139656,7 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     </rating>
   </programme>
   <programme start="20261024053000 +0000" stop="20261024063000 +0000" channel="america-television.teleclub">
-    <title lang="es">Los Hilos del Pasado</title>
+    <title lang="es">America espectaculos</title>
   </programme>
   <programme start="20261024053000 +0000" stop="20261024060000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -140369,8 +140372,8 @@ Lo más cool del k pop actual.</desc>
     <icon src="https://iptv-epg.org/images/-OFvSn0u5MZCH0JFwyJBJmdGU-kTAKD7Nb6oFTFxHTEmvpglD3BvZCw_HJuyVl1ULWntMJLuM9vroDbuxfTWUM-BYWuPCJ6Tb4hhjUx5KQQHxGWEjBgr" />
     <title lang="es">Daebak K-pop</title>
   </programme>
-  <programme start="20261024063000 +0000" stop="20261024071000 +0000" channel="america-television.teleclub">
-    <title lang="es">Destilando amor</title>
+  <programme start="20261024063000 +0000" stop="20261024073000 +0000" channel="america-television.teleclub">
+    <title lang="es">América noticias Edición central</title>
   </programme>
   <programme start="20261024063000 +0000" stop="20261024070000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -141018,9 +141021,6 @@ Oculta en el desierto de Nevada, el Área 51 sigue siendo una de las bases milit
       <value>TVMA</value>
     </rating>
   </programme>
-  <programme start="20261024071000 +0000" stop="20261024073000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
-  </programme>
   <programme start="20261024071000 +0000" stop="20261024073000 +0000" channel="mitv.america-television">
     <desc lang="es">Espectáculo
 Lo último de la información del mundo del espectáculo nacional e internacional. Las entrevistas más entretenidas con música en vivo la encontrarás aquí en América Espectáculos.</desc>
@@ -141120,8 +141120,8 @@ Disfrute de los mejores videos musicales.</desc>
       <value>TVG</value>
     </rating>
   </programme>
-  <programme start="20261024073000 +0000" stop="20261024083000 +0000" channel="america-television.teleclub">
-    <title lang="es">America espectaculos</title>
+  <programme start="20261024073000 +0000" stop="20261024081600 +0000" channel="america-television.teleclub">
+    <title lang="es">Mande quien mande</title>
   </programme>
   <programme start="20261024073000 +0000" stop="20261024080000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -141760,6 +141760,9 @@ Convierte tu hogar en una pista de baile, con las mezclas de los DJs latinoameri
     <episode-num system="original-air-date">2024-09-29 00:00:00</episode-num>
     <previously-shown start="20240929000000" />
   </programme>
+  <programme start="20261024081600 +0000" stop="20261024090000 +0000" channel="america-television.teleclub">
+    <title lang="es">Mande quien mande</title>
+  </programme>
   <programme start="20261024082000 +0000" stop="20261024085000 +0000" channel="custom-1215">
     <desc lang="es">S1 E490 — Temporada 1 Episodio 490
 Making the Movies te cuenta todo lo que hay que saber sobre cómo cobran vida las películas. Con todas las cosas emocionantes... técnicas geniales, temas atractivos y todas las tendencias de producción de Hollywood.</desc>
@@ -141818,9 +141821,6 @@ Bajo tierra se esconden algunos de los secretos mejor guardados de la historia. 
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Expedientes desclasificados</title>
     <title lang="en">Secrets Declassified with David Duchovny</title>
-  </programme>
-  <programme start="20261024083000 +0000" stop="20261024093000 +0000" channel="america-television.teleclub">
-    <title lang="es">América noticias Edición central</title>
   </programme>
   <programme start="20261024083000 +0000" stop="20261024090000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -142129,6 +142129,9 @@ Making the Movies te cuenta todo lo que hay que saber sobre cómo cobran vida la
     <video>
       <quality>HDTV</quality>
     </video>
+  </programme>
+  <programme start="20261024090000 +0000" stop="20261024100000 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Edición sabatina matutino</title>
   </programme>
   <programme start="20261024090000 +0000" stop="20261024093000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
@@ -142507,9 +142510,6 @@ Making the Movies te cuenta todo lo que hay que saber sobre cómo cobran vida la
       <value>TVG</value>
     </rating>
   </programme>
-  <programme start="20261024093000 +0000" stop="20261024101600 +0000" channel="america-television.teleclub">
-    <title lang="es">Mande quien mande</title>
-  </programme>
   <programme start="20261024093000 +0000" stop="20261024100000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
     <desc>Un programa para ayudar a mejorar la salud.</desc>
@@ -142805,6 +142805,9 @@ En este episodio exploramos los orígenes de los juegos más mortíferos de la h
     <video>
       <quality>HDTV</quality>
     </video>
+  </programme>
+  <programme start="20261024100000 +0000" stop="20261024120000 +0000" channel="america-television.teleclub">
+    <title lang="es">América Noticias Edición sabatina</title>
   </programme>
   <programme start="20261024100000 +0000" stop="20261024110000 +0000" channel="atv-sur.teleclub">
     <title>Tropimix</title>
@@ -143181,9 +143184,6 @@ En su nuevo trabajo, Fabiola conoce a Charly, un importante ejecutivo y sin prop
     <episode-num>S2 E11</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Amores que engañan</title>
-  </programme>
-  <programme start="20261024101600 +0000" stop="20261024110000 +0000" channel="america-television.teleclub">
-    <title lang="es">Mande quien mande</title>
   </programme>
   <programme start="20261024102000 -0500" stop="20261024122000 -0500" channel="custom-1231">
     <title lang="es">The Choral</title>
@@ -143666,9 +143666,6 @@ El santo grial de los Hot Wheels, un motor de Nikola Tesla. Además de la oferta
     <icon src="https://iptv-epg.org/images/x2uKbEJ8lTqFEkCsTwooa7E04mpCfWy4T6A9MUNZQKafvtedKVd6AWH6ilwblubX5rVWGFXuZAVhCGNJn6wdh4cpHz-ObtsPzrhLYHPJaowH5GrB3lAt0CwgDohvC9Cfvx8QXymWSzvknfSRluKiZ5uJR9mUGCAqT4HlsjC2Ldh8VkPwIcf2" />
     <title lang="es">Lo mejor de El precio de la historia</title>
     <title lang="en">Best of Pawn Stars</title>
-  </programme>
-  <programme start="20261024110000 +0000" stop="20261024120000 +0000" channel="america-television.teleclub">
-    <title lang="es">América Noticias Edición sabatina matutino</title>
   </programme>
   <programme start="20261024110000 +0000" stop="20261024133000 +0000" channel="atv-sur.teleclub">
     <title>Nuevo Día</title>
@@ -144471,7 +144468,7 @@ Disfrute de los mejores videos musicales.</desc>
     </rating>
   </programme>
   <programme start="20261024120000 +0000" stop="20261024140000 +0000" channel="america-television.teleclub">
-    <title lang="es">América Noticias Edición sabatina</title>
+    <title lang="es">¡Estás en todas!</title>
   </programme>
   <programme start="20261024120000 +0000" stop="20261024123000 +0000" channel="bethel.teleclub">
     <title>The Power of God's Word</title>
@@ -146222,9 +146219,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
     <icon src="https://iptv-epg.org/images/gYGJpZIDP1wlTbWNb47q1GFibYfJStOd7oyENZbUtZIOEYwuggLmR7amS6cNdweLWQcLBn4lsk76hYSWnagbd3NA3fjxYrV50WzX_gu1bNYynf0mNDDGzg" />
     <title lang="es">Infomerciales</title>
   </programme>
-  <programme start="20261024140000 +0000" stop="20261024160000 +0000" channel="america-television.teleclub">
-    <title lang="es">¡Estás en todas!</title>
-  </programme>
   <programme start="20261024140000 +0000" stop="20261024143000 +0000" channel="bethel.teleclub">
     <title>El súper libro</title>
     <desc>Aventuras que capturan la imaginación de niños alrededor del mundo con Anita, Luis y su simpático robot, Tuercas. Junto con ellos, niños de todas las edades aprenden sobre las asombrosas historias de la Biblia.</desc>
@@ -147061,6 +147055,9 @@ Llegan a la tienda: una espada samurai del siglo XVII, un viejo Jeep de 1973, un
     <title lang="es">Lo mejor de El precio de la historia</title>
     <title lang="en">Best of Pawn Stars</title>
   </programme>
+  <programme start="20261024150000 +0000" stop="20261024160000 +0000" channel="america-television.teleclub">
+    <title lang="es">Como dice el dicho</title>
+  </programme>
   <programme start="20261024150000 +0000" stop="20261024153000 +0000" channel="bethel.teleclub">
     <title>Llamados</title>
     <desc>Programa sobre hombres salvados y escogidos por Dios para llevar su palabra a diversas naciones. Los misioneros relatan su conversión, llamado, labor misionera y experiencias, incentivando en los panelistas la pasión por las misiones.</desc>
@@ -147836,6 +147833,9 @@ Programación a confirmar.</desc>
       <quality>HDTV</quality>
     </video>
   </programme>
+  <programme start="20261024160000 +0000" stop="20261024173000 +0000" channel="america-television.teleclub">
+    <title lang="es">Solamente milagros</title>
+  </programme>
   <programme start="20261024160000 +0000" stop="20261024163000 +0000" channel="bethel.teleclub">
     <title>Héroes de la Fe</title>
     <desc>Historias de personas que tienen un lugar en la historia porque su fe les otorgó la victoria y lograron grandes hazañas.</desc>
@@ -148497,9 +148497,6 @@ Lo mejor de los himnos, canciones emblemáticas y los más colorido de videos de
     <video>
       <quality>HDTV</quality>
     </video>
-  </programme>
-  <programme start="20261024170000 +0000" stop="20261024180000 +0000" channel="america-television.teleclub">
-    <title lang="es">Como dice el dicho</title>
   </programme>
   <programme start="20261024170000 +0000" stop="20261024180000 +0000" channel="atv-sur.teleclub">
     <title>Desafío Marruecos</title>
@@ -149247,9 +149244,6 @@ Corey aprende sobre Criaturas Mágicas cuando un elfo en tamaño real del film H
     <video>
       <quality>HDTV</quality>
     </video>
-  </programme>
-  <programme start="20261024180000 +0000" stop="20261024193000 +0000" channel="america-television.teleclub">
-    <title lang="es">Solamente milagros</title>
   </programme>
   <programme start="20261024180000 +0000" stop="20261024190000 +0000" channel="atv-sur.teleclub">
     <title>Desafío Marruecos</title>
@@ -151702,6 +151696,9 @@ Disfrute de los mejores videos musicales.</desc>
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">Double Play</title>
   </programme>
+  <programme start="20261024211500 +0000" stop="20261024221500 +0000" channel="america-television.teleclub">
+    <title lang="es">Los milagros de la rosa, Perú</title>
+  </programme>
   <programme start="20261024212000 +0000" stop="20261024232000 +0000" channel="custom-1215">
     <category lang="es">Acción</category>
     <credits>
@@ -152460,6 +152457,9 @@ La mejor playlist que puedes escuchar, un poco de todo de tus canciones y artist
       <value>TVY7</value>
     </rating>
   </programme>
+  <programme start="20261024221500 +0000" stop="20261024230000 +0000" channel="america-television.teleclub">
+    <title lang="es">Los milagros de la rosa, Perú</title>
+  </programme>
   <programme start="20261024222500 +0000" stop="20261024223700 +0000" channel="custom-1243">
     <title>El campamento de Lazlo</title>
     <desc>El Campamento Kidney no sabe qué hacer con su nuevo scout. Lazlo es un mono de espíritu libre que junto a sus amigos, Clam el rinoceronte albino y Raj el elefante, tratarán de molestar a Lumpus, el estricto jefe de la tropa.</desc>
@@ -152829,6 +152829,9 @@ Descubra cómo se prepara el Día de Muertos, a través de encuentros con famili
     <rating system="MPAA">
       <value>TV14</value>
     </rating>
+  </programme>
+  <programme start="20261024230000 +0000" stop="20261025010000 +0000" channel="america-television.teleclub">
+    <title lang="es">El reventonazo de la Chola</title>
   </programme>
   <programme start="20261024230000 +0000" stop="20261025000000 +0000" channel="atv-sur.teleclub">
     <title>Desafío África</title>
@@ -153228,9 +153231,6 @@ Disfrute de los mejores videos musicales.</desc>
     <rating system="MPAA">
       <value>TVY7</value>
     </rating>
-  </programme>
-  <programme start="20261024231500 +0000" stop="20261025001500 +0000" channel="america-television.teleclub">
-    <title lang="es">Los milagros de la rosa, Perú</title>
   </programme>
   <programme start="20261024231500 +0000" stop="20261025001500 +0000" channel="mitv.america-television">
     <desc lang="es">Telenovela
@@ -153926,9 +153926,6 @@ Rick, Corey y Chum se ven obligados a sacar los mejores trucos bajo sus mangas, 
       <value>TVY7</value>
     </rating>
   </programme>
-  <programme start="20261025001500 +0000" stop="20261025010000 +0000" channel="america-television.teleclub">
-    <title lang="es">Los milagros de la rosa, Perú</title>
-  </programme>
   <programme start="20261025001500 +0000" stop="20261025010000 +0000" channel="mitv.america-television">
     <desc lang="es">Telenovela
 Diversas historias que siguen la línea de la gran producción mexicana, adaptándose al contexto y las costumbres peruanas. Se cuentan historias dramáticas cuyos protagonistas experimentan milagros provenientes de la Virgen de Guadalupe.</desc>
@@ -154276,8 +154273,8 @@ Este documental es sobre la vida de San Rafael Guízar y Valencia quien sirvió 
       <quality>HDTV</quality>
     </video>
   </programme>
-  <programme start="20261025010000 +0000" stop="20261025030000 +0000" channel="america-television.teleclub">
-    <title lang="es">El reventonazo de la Chola</title>
+  <programme start="20261025010000 +0000" stop="20261025013000 +0000" channel="america-television.teleclub">
+    <title lang="es">La alameda de la Chola Chabuca</title>
   </programme>
   <programme start="20261025010000 +0000" stop="20261025020000 +0000" channel="atv-sur.teleclub">
     <title>Fear Factor</title>
@@ -155019,6 +155016,9 @@ Disfrute de los mejores videos musicales.</desc>
     <video>
       <quality>HDTV</quality>
     </video>
+  </programme>
+  <programme start="20261025013000 +0000" stop="20261025030000 +0000" channel="america-television.teleclub">
+    <title lang="es">Amores que Matan</title>
   </programme>
   <programme start="20261025013000 +0000" stop="20261025020000 +0000" channel="bethel.teleclub">
     <title>Héroes de la Fe</title>
@@ -156061,8 +156061,8 @@ Rick analiza unas zapatillas supuestamente usadas por la estrella de la NBA, Sha
       <value>TVPG</value>
     </rating>
   </programme>
-  <programme start="20261025030000 +0000" stop="20261025033000 +0000" channel="america-television.teleclub">
-    <title lang="es">La alameda de la Chola Chabuca</title>
+  <programme start="20261025030000 +0000" stop="20261025040000 +0000" channel="america-television.teleclub">
+    <title lang="es">BKFC 60 Campeonato de Lucha a Puño Limpio</title>
   </programme>
   <programme start="20261025030000 +0000" stop="20261025040000 +0000" channel="atv-sur.teleclub">
     <title>Grey's Anatomy</title>
@@ -156531,9 +156531,6 @@ Convierte tu hogar en una pista de baile, con las mezclas de los DJs latinoameri
       <value>TVG</value>
     </rating>
   </programme>
-  <programme start="20261025033000 +0000" stop="20261025050000 +0000" channel="america-television.teleclub">
-    <title lang="es">Amores que Matan</title>
-  </programme>
   <programme start="20261025033000 +0000" stop="20261025040000 +0000" channel="bethel.teleclub">
     <title>Hechos de fe</title>
     <desc>Un programa en el que los invitados dan testimonio de experiencias que los acercaron a Dios, con dramatizaciones.</desc>
@@ -156796,6 +156793,9 @@ Rick, Chuck y Chum Lee se encuentran cara a cara a la señora suerte y deciden a
 Relatos enviados por el público y seleccionados por Silvia Pinal, para ser dramatizados para su transmisión por artistas de primer orden. Por lo general tratan problemas relacionados con la mujer.</desc>
     <icon src="https://iptv-epg.org/images/yP8feQwSq05dyLkP4ebHrTWKUKkBRi9BVnkhdFu0ubIS4RWNdhcOeyR2JX7EIwbr40Hl8PeNHikJ8aUGo3NAl5J3G9vUEjRYtmXTP6Tk6Yp_2tNt5ZbS7v-RFlAB41BsDGb8e8st" />
     <title lang="es">Mujer, casos de la vida real</title>
+  </programme>
+  <programme start="20261025040000 +0000" stop="20261025053000 +0000" channel="america-television.teleclub">
+    <title lang="es">La chica y el dragón</title>
   </programme>
   <programme start="20261025040000 +0000" stop="20261025050000 +0000" channel="atv-sur.teleclub">
     <title>Sin límites</title>
@@ -157118,6 +157118,9 @@ La mejor playlist que puedes escuchar, un poco de todo de tus canciones y artist
       <quality>HDTV</quality>
     </video>
   </programme>
+  <programme start="20261025043000 +0000" stop="20261025051000 +0000" channel="america-television.teleclub">
+    <title lang="es">Destilando amor</title>
+  </programme>
   <programme start="20261025043000 +0000" stop="20261025050000 +0000" channel="bethel.teleclub">
     <title>Llamados</title>
     <desc>Programa sobre hombres salvados y escogidos por Dios para llevar su palabra a diversas naciones. Los misioneros relatan su conversión, llamado, labor misionera y experiencias, incentivando en los panelistas la pasión por las misiones.</desc>
@@ -157337,9 +157340,6 @@ Un cliente llega a la casa de empeño con una serie de accesorios pertenecientes
     <episode-num system="xmltv_ns">2025.1024.</episode-num>
     <episode-num system="original-air-date">2011-04-04 00:00:00</episode-num>
     <previously-shown start="20110404000000" />
-  </programme>
-  <programme start="20261025044500 +0000" stop="20261025053000 +0000" channel="america-television.teleclub">
-    <title lang="es">Desvelados</title>
   </programme>
   <programme start="20261025045300 +0000" stop="20261025050000 +0000" channel="france-24-espanol.ar">
     <title>En foco</title>
