@@ -214,22 +214,36 @@ def normalized_channel_name(value):
 
 
 def find_schedule_source(root, target_id, accepted_names):
-    """Busca en el propio XMLTV la parrilla por nombre, aunque el ID de origen sea distinto."""
+    """Busca la parrilla del mismo XMLTV por nombre, admitiendo sufijos como HD/Perú."""
     accepted = {normalized_channel_name(n) for n in accepted_names}
+    wants_max = target_id == "movistar.lch7216"
     channels_with_programmes = {
         p.attrib.get("channel")
         for p in root.findall("programme")
         if (p.findtext("title") or "").strip()
         and not (p.findtext("title") or "").strip().lower().endswith(" - en vivo")
     }
+    matches = []
     for ch in root.findall("channel"):
         source_id = ch.attrib.get("id", "")
         if not source_id or source_id == target_id or source_id not in channels_with_programmes:
             continue
         display_names = [x.text or "" for x in ch.findall("display-name")]
-        if any(normalized_channel_name(n) in accepted for n in display_names):
-            return source_id
-    return None
+        for raw_name in display_names:
+            name = normalized_channel_name(raw_name)
+            tokens = set(name.split())
+            # No confundir L1 con L1 MAX: MAX debe coincidir con el canal destino.
+            has_max = "max" in tokens
+            if has_max != wants_max:
+                continue
+            if name in accepted or any(
+                name.startswith(alias + " ") or (" " + alias + " ") in (" " + name + " ")
+                for alias in accepted
+            ):
+                matches.append(source_id)
+                break
+    # Si hay más de un canal coincidente, no adivinar cuál es la fuente correcta.
+    return matches[0] if len(set(matches)) == 1 else None
 
 
 
