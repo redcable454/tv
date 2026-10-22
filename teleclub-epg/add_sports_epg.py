@@ -242,6 +242,17 @@ def find_schedule_source(root, target_id, accepted_names):
             ):
                 matches.append(source_id)
                 break
+    # Dejar evidencia en Actions cuando el XML no tenga un nombre coincidente.
+    if not matches:
+        for ch in root.findall("channel"):
+            sid = ch.attrib.get("id", "")
+            if sid not in channels_with_programmes:
+                continue
+            names = [x.text or "" for x in ch.findall("display-name")]
+            joined = " | ".join(names)
+            normalized = normalized_channel_name(joined)
+            if any(token in normalized.split() for token in ("l1", "liga", "max", "futbol", "fútbol")):
+                print(f"EPG diagnóstico candidato {target_id}: {sid} | {joined}")
     # Si hay más de un canal coincidente, no adivinar cuál es la fuente correcta.
     return matches[0] if len(set(matches)) == 1 else None
 
