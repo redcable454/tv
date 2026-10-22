@@ -8,8 +8,8 @@ EPG = Path(__file__).with_name("guia_teleclubtv.xml")
 LIMA = ZoneInfo("America/Lima")
 
 TARGETS = {
-    "liga1.teleclub": "Liga1",
-    "liga-max.teleclub": "L1 Max",
+    "movistar.lch7217": "L1",
+    "movistar.lch7216": "L1 MAX",
     "ovacion-tv.teleclub": "Ovación TV",
 }
 
@@ -191,8 +191,8 @@ def main():
         ensure_channel(root, cid, name)
         remove_programmes(root, cid)
 
-    liga1_count = add_liga_programming(root, "liga1.teleclub")
-    ligamax_count = add_liga_programming(root, "liga-max.teleclub")
+    liga1_count = add_liga_programming(root, "movistar.lch7217")
+    ligamax_count = add_liga_programming(root, "movistar.lch7216")
     ovacion_count = add_ovacion_programming(root)
 
     ET.indent(root, space="  ")
