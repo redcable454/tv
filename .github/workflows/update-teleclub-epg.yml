@@ -9,6 +9,7 @@ on:
       - ".github/workflows/update-teleclub-epg.yml"
       - "teleclub-epg/update_epg.py"
       - "teleclub-epg/add_sports_epg.py"
+      - "teleclub-epg/add_vision_sur_epg.py"
       - "teleclub-epg/add_radio_la_zona.py"
       - "teleclub-epg/add_radio_inolvidable.py"
       - "teleclub-epg/add_radio_programming_extra.py"
@@ -53,6 +54,8 @@ jobs:
         run: python teleclub-epg/enrich_missing_epg.py
       - name: Agregar EPG deportiva Liga1 Liga Max y Ovación TV
         run: python teleclub-epg/add_sports_epg.py
+      - name: Agregar programación oficial de Visión Sur TV
+        run: python teleclub-epg/add_vision_sur_epg.py
       - name: Agregar programación real de Radio La Inolvidable
         run: python teleclub-epg/add_radio_inolvidable.py
       - name: Agregar EPG de Felicidad Oxigeno Corazon Disney Studio92 y Planeta
