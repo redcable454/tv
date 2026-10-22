@@ -1,14 +1,15 @@
 {
-  "channels": 276,
-  "programmes": 18247,
-  "channels_with_programmes": 277,
-  "real_epg_channels": 140,
-  "generic_epg_channels": 137,
+  "channels": 278,
+  "programmes": 18270,
+  "channels_with_programmes": 279,
+  "real_epg_channels": 141,
+  "generic_epg_channels": 138,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "589",
     "590",
     "Juntos-tv.teleclub",
+    "L1.pe@SD",
     "Primeratelevisión.teleclub",
     "Tv+-teleclub",
     "Unitel-huancayo-teleclub",
@@ -352,6 +353,10 @@
     {
       "id": "custom-1108",
       "name": "KARIBEÑA TV"
+    },
+    {
+      "id": "L1.pe@SD",
+      "name": "L1"
     },
     {
       "id": "movistar.lch7217",
