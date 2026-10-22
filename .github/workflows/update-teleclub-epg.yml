@@ -15,6 +15,7 @@ on:
       - "teleclub-epg/add_all_panel_channels.py"
       - "teleclub-epg/enrich_missing_epg.py"
       - "teleclub-epg/seed_channels.tsv"
+      - "teleclubtv_con_epg.m3u"
 
 permissions:
   contents: write
@@ -76,6 +77,23 @@ jobs:
               cid=p.attrib.get('channel')
               if cid:
                   programmes_by_channel.setdefault(cid, []).append(p)
+          # Validación explícita de los dos tvg-id que consume Teleclub TV.
+          from datetime import datetime, timezone
+          targets = {'movistar.lch7217': 'L1', 'movistar.lch7216': 'L1 MAX'}
+          now = datetime.now(timezone.utc)
+          for cid, name in targets.items():
+              items = programmes_by_channel.get(cid, [])
+              upcoming = 0
+              for p in items:
+                  try:
+                      stop = datetime.strptime(p.attrib['stop'], '%Y%m%d%H%M%S %z').astimezone(timezone.utc)
+                      if stop > now:
+                          upcoming += 1
+                  except (KeyError, ValueError):
+                      pass
+              print(f'Validación EPG {name} ({cid}): {len(items)} programas, {upcoming} vigentes/futuros')
+              if not items or not upcoming:
+                  raise SystemExit(f'ERROR: {name} no tiene programas vigentes/futuros en la EPG')
           generic=set()
           for cid, items in programmes_by_channel.items():
               titles=[(p.findtext('title') or '').strip().lower() for p in items]
