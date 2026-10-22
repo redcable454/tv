@@ -17,22 +17,25 @@ TARGETS = {
 # Horarios en hora peruana. La duración del bloque de partido se fija en 2h
 # para que la guía muestre correctamente el evento actual y el siguiente.
 LIGA1_MATCHES = [
-    # Fecha 7 - Clausura 2026
-    ("2026-08-30", "11:00", "CD Moquegua vs Alianza Atlético", "Fecha 7 - Torneo Clausura 2026"),
-    ("2026-08-30", "13:15", "ADT vs Sport Huancayo", "Fecha 7 - Torneo Clausura 2026"),
-    ("2026-08-30", "15:30", "Sport Boys vs Sporting Cristal", "Fecha 7 - Torneo Clausura 2026"),
-    ("2026-08-30", "19:00", "Cienciano vs Cusco FC", "Fecha 7 - Torneo Clausura 2026"),
-    ("2026-08-31", "15:00", "Atlético Grau vs FBC Melgar", "Fecha 7 - Torneo Clausura 2026"),
-    # Fecha 8 - Clausura 2026
-    ("2026-09-04", "13:00", "FC Cajamarca vs Cienciano", "Fecha 8 - Torneo Clausura 2026"),
-    ("2026-09-04", "15:15", "Alianza Atlético vs UTC", "Fecha 8 - Torneo Clausura 2026"),
-    ("2026-09-05", "15:00", "Sport Huancayo vs Sport Boys", "Fecha 8 - Torneo Clausura 2026"),
-    ("2026-09-05", "18:00", "Cusco FC vs CD Moquegua", "Fecha 8 - Torneo Clausura 2026"),
-    ("2026-09-05", "20:30", "Universitario vs Comerciantes Unidos", "Fecha 8 - Torneo Clausura 2026"),
-    ("2026-09-06", "11:00", "Sporting Cristal vs Los Chankas", "Fecha 8 - Torneo Clausura 2026"),
-    ("2026-09-06", "13:30", "Deportivo Garcilaso vs Atlético Grau", "Fecha 8 - Torneo Clausura 2026"),
-    ("2026-09-06", "15:45", "Juan Pablo II vs Alianza Lima", "Fecha 8 - Torneo Clausura 2026"),
-    ("2026-09-06", "19:00", "FBC Melgar vs ADT", "Fecha 8 - Torneo Clausura 2026"),
+    # Fecha 13 - Clausura 2026. Horarios publicados para L1 MAX (hora peruana).
+    ("2026-10-23", "13:00", "UTC Cajamarca vs FBC Melgar", "Fecha 13 - Torneo Clausura 2026"),
+    ("2026-10-23", "15:15", "Atlético Grau vs ADT", "Fecha 13 - Torneo Clausura 2026"),
+    ("2026-10-24", "12:45", "Sport Huancayo vs Alianza Atlético", "Fecha 13 - Torneo Clausura 2026"),
+    ("2026-10-24", "15:15", "Cusco FC vs Sporting Cristal", "Fecha 13 - Torneo Clausura 2026"),
+    ("2026-10-24", "20:30", "Universitario vs Juan Pablo II", "Fecha 13 - Torneo Clausura 2026"),
+    ("2026-10-25", "11:00", "Comerciantes Unidos vs Cienciano", "Fecha 13 - Torneo Clausura 2026"),
+    ("2026-10-25", "13:15", "CD Moquegua vs Alianza Lima", "Fecha 13 - Torneo Clausura 2026"),
+    ("2026-10-25", "15:30", "Sport Boys vs FC Cajamarca", "Fecha 13 - Torneo Clausura 2026"),
+    ("2026-10-25", "18:00", "Deportivo Garcilaso vs Los Chankas", "Fecha 13 - Torneo Clausura 2026"),
+    # Partidos entre semana publicados para el 27-29 de octubre.
+    ("2026-10-27", "14:00", "Juan Pablo II vs Sport Huancayo", "Torneo Clausura 2026"),
+    ("2026-10-28", "12:00", "ADT vs CD Moquegua", "Torneo Clausura 2026"),
+    ("2026-10-28", "14:15", "FC Cajamarca vs UTC Cajamarca", "Torneo Clausura 2026"),
+    ("2026-10-28", "16:30", "Alianza Atlético vs Deportivo Garcilaso", "Torneo Clausura 2026"),
+    ("2026-10-28", "20:00", "Cienciano vs Atlético Grau", "Torneo Clausura 2026"),
+    ("2026-10-29", "14:00", "Los Chankas vs Cusco FC", "Torneo Clausura 2026"),
+    ("2026-10-29", "16:30", "Sporting Cristal vs Alianza Lima", "Torneo Clausura 2026"),
+    ("2026-10-29", "20:30", "Melgar vs Comerciantes Unidos", "Torneo Clausura 2026"),
 ]
 
 # Parrilla de Ovación publicada para 2026. La señal TV de Ovación usa esta
@@ -94,18 +97,15 @@ def ensure_channel(root, cid, name):
     root.insert(first_programme, ch)
 
 
-def remove_programmes(root, cid, start_day="2026-08-29", end_day="2026-09-07"):
-    start = local_dt(start_day, "00:00").astimezone(timezone.utc)
-    end = local_dt(end_day, "23:59").astimezone(timezone.utc)
+def remove_programmes(root, cid, start_day=None, end_day=None):
+    # Quita únicamente los eventos deportivos generados por esta rutina,
+    # incluidos los eventos de fechas pasadas, y conserva el resto del EPG.
     for p in list(root.findall("programme")):
         if p.attrib.get("channel") != cid:
             continue
-        raw = p.attrib.get("start", "")[:14]
-        try:
-            dt = datetime.strptime(raw, "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc)
-        except Exception:
-            continue
-        if start <= dt <= end:
+        category = " ".join((x.text or "") for x in p.findall("category")).lower()
+        desc = (p.findtext("desc") or "").lower()
+        if "torneo clausura 2026" in desc or "torneo clausura 2026" in category:
             root.remove(p)
 
 
@@ -187,17 +187,18 @@ def add_ovacion_programming(root):
 
 def main():
     root = ET.parse(EPG).getroot()
-    for cid, name in TARGETS.items():
-        ensure_channel(root, cid, name)
-        remove_programmes(root, cid)
+    # Solo hay fuente pública verificada para la cartelera de L1 MAX.
+    # No copiamos esos partidos a L1 sin confirmar que también los emite.
+    ensure_channel(root, "movistar.lch7217", "L1")
+    ensure_channel(root, "movistar.lch7216", "L1 MAX")
+    remove_programmes(root, "movistar.lch7216")
 
-    liga1_count = add_liga_programming(root, "movistar.lch7217")
     ligamax_count = add_liga_programming(root, "movistar.lch7216")
     ovacion_count = add_ovacion_programming(root)
 
     ET.indent(root, space="  ")
     ET.ElementTree(root).write(EPG, encoding="utf-8", xml_declaration=True)
-    print(f"EPG deportiva detallada: Liga1={liga1_count}, L1 Max={ligamax_count}, Ovación TV={ovacion_count}")
+    print(f"EPG deportiva verificada: L1 Max={ligamax_count}, L1 sin parrilla inventada, Ovación TV={ovacion_count}")
 
 
 if __name__ == "__main__":
