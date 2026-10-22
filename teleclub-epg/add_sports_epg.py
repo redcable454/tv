@@ -211,19 +211,16 @@ def main():
     remove_programmes(root, "movistar.lch7216")
 
     ligamax_count = add_liga_programming(root, "movistar.lch7216")
-    # La lista M3U publicada usa L1.pe@SD y L1Max.pe@SD, no los IDs
-    # movistar.lch7217 / movistar.lch7216. Crear canales espejo con esos IDs
-    # para que los reproductores puedan asociar los programas por tvg-id.
-    l1_count = mirror_channel_programmes(root, "movistar.lch7217", "L1.pe@SD", "L1")
-    l1max_alias_count = mirror_channel_programmes(root, "movistar.lch7216", "L1Max.pe@SD", "L1 MAX")
+    # Publicar la programación de partidos directamente en los IDs solicitados.
+    # L1 y L1 MAX comparten aquí los eventos de Liga1 para que ambos muestren guía.
+    l1_count = mirror_channel_programmes(root, "movistar.lch7216", "movistar.lch7217", "L1")
     ovacion_count = add_ovacion_programming(root)
 
     ET.indent(root, space="  ")
     ET.ElementTree(root).write(EPG, encoding="utf-8", xml_declaration=True)
     print(
         f"EPG deportiva: L1 MAX={ligamax_count}, "
-        f"tvg-id L1.pe@SD={l1_count}, tvg-id L1Max.pe@SD={l1max_alias_count}, "
-        f"L1 sin parrilla inventada, Ovación TV={ovacion_count}"
+        f"movistar.lch7217={l1_count}, Ovación TV={ovacion_count}"
     )
 
 
