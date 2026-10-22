@@ -203,6 +203,59 @@ def mirror_channel_programmes(root, source_id, target_id, name):
     return len(source_programmes)
 
 
+
+def fill_channel_gaps(root, cid, name, days=8):
+    """Añade bloques informativos solo donde no exista otro programa, para que la guía no quede vacía."""
+    now = datetime.now(LIMA)
+    day_start = datetime.combine(now.date(), datetime.min.time(), tzinfo=LIMA)
+    range_start = day_start
+    range_end = day_start + timedelta(days=days)
+
+    existing = []
+    for p in root.findall("programme"):
+        if p.attrib.get("channel") != cid:
+            continue
+        try:
+            start = datetime.strptime(p.attrib["start"], "%Y%m%d%H%M%S %z").astimezone(LIMA)
+            stop = datetime.strptime(p.attrib["stop"], "%Y%m%d%H%M%S %z").astimezone(LIMA)
+        except (KeyError, ValueError):
+            continue
+        if stop > range_start and start < range_end and stop > start:
+            existing.append((start, stop))
+
+    existing.sort(key=lambda pair: pair[0])
+    merged = []
+    for start, stop in existing:
+        start = max(start, range_start)
+        stop = min(stop, range_end)
+        if merged and start <= merged[-1][1]:
+            merged[-1] = (merged[-1][0], max(merged[-1][1], stop))
+        else:
+            merged.append((start, stop))
+
+    gaps = []
+    cursor = range_start
+    for start, stop in merged:
+        while cursor < start:
+            gap_stop = min(start, cursor + timedelta(hours=4))
+            gaps.append((cursor, gap_stop))
+            cursor = gap_stop
+        cursor = max(cursor, stop)
+    while cursor < range_end:
+        gap_stop = min(range_end, cursor + timedelta(hours=4))
+        gaps.append((cursor, gap_stop))
+        cursor = gap_stop
+
+    for start, stop in gaps:
+        add_programme(
+            root, cid, start, stop,
+            f"Programación de {name}",
+            f"Bloque informativo de continuidad de {name}; la guía detallada puede variar según la emisión.",
+            "Programación",
+        )
+    print(f"EPG continuidad {cid}: {len(gaps)} bloques de relleno sin solapar programas existentes")
+    return len(gaps)
+
 def main():
     root = ET.parse(EPG).getroot()
     # IDs internos del panel y tvg-id exactos de teleclubtv_con_epg.m3u.
@@ -211,8 +264,10 @@ def main():
     remove_programmes(root, "movistar.lch7216")
 
     ligamax_count = add_liga_programming(root, "movistar.lch7216")
-    # Publicar la programación de partidos directamente en los IDs solicitados.
-    # L1 y L1 MAX comparten aquí los eventos de Liga1 para que ambos muestren guía.
+    # Evitar que L1 MAX y L1 queden sin ninguna franja visible entre partidos.
+    # Los bloques de continuidad solo ocupan huecos y no se solapan con eventos existentes.
+    fill_channel_gaps(root, "movistar.lch7216", "L1 MAX", days=8)
+    # Publicar la misma guía en el tvg-id exacto de L1.
     l1_count = mirror_channel_programmes(root, "movistar.lch7216", "movistar.lch7217", "L1")
     ovacion_count = add_ovacion_programming(root)
 
