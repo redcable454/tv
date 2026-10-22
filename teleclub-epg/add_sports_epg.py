@@ -186,21 +186,50 @@ def add_ovacion_programming(root):
 
 
 def mirror_channel_programmes(root, source_id, target_id, name):
-    """Publica la misma guía con el tvg-id que usa la lista M3U de Teleclub."""
+    """Copia una parrilla XMLTV existente al tvg-id de Teleclub sin inventar programas."""
     ensure_channel(root, target_id, name)
-    # Quita el espejo anterior para que las ejecuciones diarias sean idempotentes.
-    for p in list(root.findall("programme")):
-        if p.attrib.get("channel") == target_id:
-            root.remove(p)
     source_programmes = [
         p for p in root.findall("programme")
         if p.attrib.get("channel") == source_id
     ]
+    # No reemplazar una parrilla ya asociada correctamente al ID destino.
+    if any(p.attrib.get("channel") == target_id for p in root.findall("programme")):
+        return 0
     for p in source_programmes:
+        title = (p.findtext("title") or "").strip().lower()
+        desc = (p.findtext("desc") or "").strip().lower()
+        if title.endswith(" - en vivo") or "bloque informativo de continuidad" in desc:
+            continue
         clone = ET.fromstring(ET.tostring(p, encoding="utf-8"))
         clone.set("channel", target_id)
         root.append(clone)
-    return len(source_programmes)
+    return sum(1 for p in root.findall("programme") if p.attrib.get("channel") == target_id)
+
+
+def normalized_channel_name(value):
+    value = (value or "").strip().lower()
+    value = value.replace("á", "a").replace("é", "e").replace("í", "i").replace("ó", "o").replace("ú", "u")
+    value = value.replace("+", " plus ")
+    return " ".join("".join(ch if ch.isalnum() else " " for ch in value).split())
+
+
+def find_schedule_source(root, target_id, accepted_names):
+    """Busca en el propio XMLTV la parrilla por nombre, aunque el ID de origen sea distinto."""
+    accepted = {normalized_channel_name(n) for n in accepted_names}
+    channels_with_programmes = {
+        p.attrib.get("channel")
+        for p in root.findall("programme")
+        if (p.findtext("title") or "").strip()
+        and not (p.findtext("title") or "").strip().lower().endswith(" - en vivo")
+    }
+    for ch in root.findall("channel"):
+        source_id = ch.attrib.get("id", "")
+        if not source_id or source_id == target_id or source_id not in channels_with_programmes:
+            continue
+        display_names = [x.text or "" for x in ch.findall("display-name")]
+        if any(normalized_channel_name(n) in accepted for n in display_names):
+            return source_id
+    return None
 
 
 
@@ -263,10 +292,29 @@ def fill_channel_gaps(root, cid, name, days=8):
 
 def main():
     root = ET.parse(EPG).getroot()
-    # L1 y L1 MAX deben conservar la programación que venga en el XMLTV fuente
-    # que entrega el panel/usuario. No se usan parrillas de páginas externas.
+    # La URL XMLTV de Teleclub puede contener la parrilla con otro channel ID.
+    # Detectar el canal por su nombre dentro del MISMO XML y copiar sus programas
+    # al tvg-id usado por la M3U; no descargar ni inventar horarios externos.
     ensure_channel(root, "movistar.lch7217", "L1")
     ensure_channel(root, "movistar.lch7216", "L1 MAX")
+    l1_source = find_schedule_source(
+        root, "movistar.lch7217",
+        {"L1", "L1 HD", "Liga 1", "Liga1", "Liga 1 HD", "Liga1 HD"},
+    )
+    l1max_source = find_schedule_source(
+        root, "movistar.lch7216",
+        {"L1 MAX", "L1 MAX HD", "Liga 1 Max", "Liga1 Max", "Liga 1 Max HD", "Liga1 Max HD"},
+    )
+    if l1_source:
+        copied = mirror_channel_programmes(root, l1_source, "movistar.lch7217", "L1")
+        print(f"EPG L1: copiados {copied} programas desde ID fuente {l1_source}")
+    else:
+        print("EPG L1: no se encontró una parrilla fuente con nombre coincidente en el XMLTV")
+    if l1max_source:
+        copied = mirror_channel_programmes(root, l1max_source, "movistar.lch7216", "L1 MAX")
+        print(f"EPG L1 MAX: copiados {copied} programas desde ID fuente {l1max_source}")
+    else:
+        print("EPG L1 MAX: no se encontró una parrilla fuente con nombre coincidente en el XMLTV")
 
     # Retirar solamente los bloques genéricos que el propio generador antiguo
     # creó; no sustituir la programación fuente ni espejar un canal sobre otro.
