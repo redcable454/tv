@@ -64,7 +64,15 @@ def has_programmes(root, cid):
     return any(p.attrib.get("channel") == cid for p in root.findall("programme"))
 
 
+# L1 y L1 MAX deben usar exclusivamente la programación proporcionada por Teleclub.
+# No generar relleno genérico para estos canales.
+USER_SCHEDULE_ONLY = {"movistar.lch7217", "movistar.lch7216"}
+
+
 def add_generic_programmes(root, cid, name, category, days=3):
+    if cid in USER_SCHEDULE_ONLY:
+        print(f"EPG propia pendiente: no se genera programación genérica para {cid}")
+        return 0
     if has_programmes(root, cid):
         return 0
     today = datetime.now(LIMA).date()
