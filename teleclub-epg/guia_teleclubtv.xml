@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-23T17:32:17.474751+00:00" radio-la-zona-updated-at="2026-10-23T17:32:17.681718+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-23T20:42:23.564507+00:00" radio-la-zona-updated-at="2026-10-23T20:42:23.737869+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -983,17 +983,8 @@
   <channel id="custom-1309">
     <display-name lang="es">CANAL CPN</display-name>
   </channel>
-  <channel id="custom-1312">
-    <display-name lang="es">CINE FAMILIAR</display-name>
-  </channel>
-  <channel id="custom-1313">
-    <display-name lang="es">CINE HISPANO</display-name>
-  </channel>
   <channel id="custom-1314">
     <display-name lang="es">CANELA TV NOVELAS TURCAS</display-name>
-  </channel>
-  <channel id="custom-1316">
-    <display-name lang="es">RAKUTEN TV ACCION</display-name>
   </channel>
   <channel id="custom-1317">
     <display-name lang="es">RAKUTEN TV SCI-FI</display-name>
@@ -78624,21 +78615,9 @@ Un viejo amigo, el Sr. Sterling, le revela a Troy la historia de un cofre perdid
     <title lang="es">CANAL CPN - En vivo</title>
     <desc lang="es">Programación en vivo de CANAL CPN. Categoría: Cable.</desc>
   </programme>
-  <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="custom-1312">
-    <title lang="es">CINE FAMILIAR - En vivo</title>
-    <desc lang="es">Programación en vivo de CINE FAMILIAR. Categoría: Cable.</desc>
-  </programme>
-  <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="custom-1313">
-    <title lang="es">CINE HISPANO - En vivo</title>
-    <desc lang="es">Programación en vivo de CINE HISPANO. Categoría: Cable.</desc>
-  </programme>
   <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="custom-1314">
     <title lang="es">CANELA TV NOVELAS TURCAS - En vivo</title>
     <desc lang="es">Programación en vivo de CANELA TV NOVELAS TURCAS. Categoría: Cable.</desc>
-  </programme>
-  <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="custom-1316">
-    <title lang="es">RAKUTEN TV ACCION - En vivo</title>
-    <desc lang="es">Programación en vivo de RAKUTEN TV ACCION. Categoría: Cable.</desc>
   </programme>
   <programme start="20261023050000 +0000" stop="20261024050000 +0000" channel="custom-1317">
     <title lang="es">RAKUTEN TV SCI-FI - En vivo</title>
@@ -99195,11 +99174,6 @@ Descubra cómo se prepara el Día de Muertos, a través de encuentros con famili
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023170000 +0000" channel="custom-1056">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261023160000 +0000" stop="20261023163000 +0000" channel="custom-1059">
     <title lang="es">Amigos con mucho gusto</title>
     <sub-title lang="es">Cofradía El Desarme de Oviedo, de los esteros, del relleno de Navarra</sub-title>
@@ -100961,11 +100935,6 @@ Los milagros de la virgen de Guadalupe se traducen en historias de amor, esperan
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261023170000 +0000" stop="20261023180000 +0000" channel="custom-1056">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261023170000 +0000" stop="20261023173000 +0000" channel="custom-1059">
     <title lang="es">El pan nuestro de cada día</title>
@@ -102827,11 +102796,6 @@ Noticias del mundo musical con nuestros mejores conductores.</desc>
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261023180000 +0000" stop="20261023190000 +0000" channel="custom-1056">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261023180000 +0000" stop="20261023183000 +0000" channel="custom-1059">
     <title lang="es">Productos de mi tierra, México</title>
     <sub-title lang="es">Maguey</sub-title>
@@ -104526,11 +104490,6 @@ La temporada 2017 de huracanes fue la más terrible en el continente desde 1935.
     <rating system="MJColombia">
       <value>AGE228</value>
     </rating>
-  </programme>
-  <programme start="20261023190000 +0000" stop="20261023200000 +0000" channel="custom-1056">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261023190000 +0000" stop="20261023200000 +0000" channel="custom-1059">
     <title lang="es">Celebrando juntos con Jamie</title>
@@ -118844,21 +118803,9 @@ Vive los partidos de la 72º edición de la UEFA Champions League, la competici�
     <title lang="es">CANAL CPN - En vivo</title>
     <desc lang="es">Programación en vivo de CANAL CPN. Categoría: Cable.</desc>
   </programme>
-  <programme start="20261024050000 +0000" stop="20261025050000 +0000" channel="custom-1312">
-    <title lang="es">CINE FAMILIAR - En vivo</title>
-    <desc lang="es">Programación en vivo de CINE FAMILIAR. Categoría: Cable.</desc>
-  </programme>
-  <programme start="20261024050000 +0000" stop="20261025050000 +0000" channel="custom-1313">
-    <title lang="es">CINE HISPANO - En vivo</title>
-    <desc lang="es">Programación en vivo de CINE HISPANO. Categoría: Cable.</desc>
-  </programme>
   <programme start="20261024050000 +0000" stop="20261025050000 +0000" channel="custom-1314">
     <title lang="es">CANELA TV NOVELAS TURCAS - En vivo</title>
     <desc lang="es">Programación en vivo de CANELA TV NOVELAS TURCAS. Categoría: Cable.</desc>
-  </programme>
-  <programme start="20261024050000 +0000" stop="20261025050000 +0000" channel="custom-1316">
-    <title lang="es">RAKUTEN TV ACCION - En vivo</title>
-    <desc lang="es">Programación en vivo de RAKUTEN TV ACCION. Categoría: Cable.</desc>
   </programme>
   <programme start="20261024050000 +0000" stop="20261025050000 +0000" channel="custom-1317">
     <title lang="es">RAKUTEN TV SCI-FI - En vivo</title>
@@ -137538,21 +137485,9 @@ Vive los partidos de la 25º edición de la segunda división de Inglaterra, la 
     <title lang="es">CANAL CPN - En vivo</title>
     <desc lang="es">Programación en vivo de CANAL CPN. Categoría: Cable.</desc>
   </programme>
-  <programme start="20261025050000 +0000" stop="20261026050000 +0000" channel="custom-1312">
-    <title lang="es">CINE FAMILIAR - En vivo</title>
-    <desc lang="es">Programación en vivo de CINE FAMILIAR. Categoría: Cable.</desc>
-  </programme>
-  <programme start="20261025050000 +0000" stop="20261026050000 +0000" channel="custom-1313">
-    <title lang="es">CINE HISPANO - En vivo</title>
-    <desc lang="es">Programación en vivo de CINE HISPANO. Categoría: Cable.</desc>
-  </programme>
   <programme start="20261025050000 +0000" stop="20261026050000 +0000" channel="custom-1314">
     <title lang="es">CANELA TV NOVELAS TURCAS - En vivo</title>
     <desc lang="es">Programación en vivo de CANELA TV NOVELAS TURCAS. Categoría: Cable.</desc>
-  </programme>
-  <programme start="20261025050000 +0000" stop="20261026050000 +0000" channel="custom-1316">
-    <title lang="es">RAKUTEN TV ACCION - En vivo</title>
-    <desc lang="es">Programación en vivo de RAKUTEN TV ACCION. Categoría: Cable.</desc>
   </programme>
   <programme start="20261025050000 +0000" stop="20261026050000 +0000" channel="custom-1317">
     <title lang="es">RAKUTEN TV SCI-FI - En vivo</title>
@@ -163598,6 +163533,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="original-air-date">2007-12-20 00:00:00</episode-num>
     <previously-shown start="20071220000000" />
   </programme>
+  <programme start="20261026160000 +0000" stop="20261026170000 +0000" channel="custom-1056">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261026160000 +0000" stop="20261026163000 +0000" channel="custom-1065">
     <desc lang="es">Noticiero
 Matthew Amroliwala presenta las últimas noticias globales y del Reino Unido, en vivo desde Londres.</desc>
@@ -164196,6 +164136,11 @@ Matthew Amroliwala presenta las últimas noticias globales y del Reino Unido, en
     <episode-num system="xmltv_ns">2025.1025.</episode-num>
     <episode-num system="original-air-date">2013-07-28 00:00:00</episode-num>
     <previously-shown start="20130728000000" />
+  </programme>
+  <programme start="20261026170000 +0000" stop="20261026180000 +0000" channel="custom-1056">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261026170000 +0000" stop="20261026173000 +0000" channel="custom-1065">
     <desc lang="es">Noticiero
@@ -165060,6 +165005,11 @@ Noticias del mundo musical con nuestros mejores conductores.</desc>
     <episode-num system="original-air-date">2012-10-27 00:00:00</episode-num>
     <previously-shown start="20121027000000" />
   </programme>
+  <programme start="20261026180000 +0000" stop="20261026190000 +0000" channel="custom-1056">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261026180000 +0000" stop="20261026183000 +0000" channel="custom-1065">
     <desc lang="es">Político
 Una interpretación de la política mundial actual de la mano de Maryam Moshiri, desde Londres. El público escuchará reportajes de los servicios lingüísticos globales de la BBC y de especialistas en sus respectivas regiones.</desc>
@@ -165731,6 +165681,11 @@ Un magazine conducido por María Pía y Carlota, quienes abordan novedades, chis
     <episode-num system="xmltv_ns">2025.1025.</episode-num>
     <episode-num system="original-air-date">2013-07-31 00:00:00</episode-num>
     <previously-shown start="20130731000000" />
+  </programme>
+  <programme start="20261026190000 +0000" stop="20261026200000 +0000" channel="custom-1056">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261026190000 +0000" stop="20261026193000 +0000" channel="custom-1065">
     <desc lang="es">Político
