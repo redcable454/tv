@@ -95,7 +95,7 @@ def main():
 
         parser = TextExtractor()
         parser.feed(page)
-        lines = [x.strip() for x in "\\n".join(parser.parts).splitlines() if x.strip()]
+        lines = [x.strip() for x in "\n".join(parser.parts).splitlines() if x.strip()]
         events = []
         for i, line in enumerate(lines):
             minute = parse_time(line)
@@ -103,7 +103,7 @@ def main():
                 continue
             title = None
             for candidate in lines[i + 1:i + 8]:
-                normalized = re.sub(r"\\s+", " ", candidate).strip()
+                normalized = re.sub(r"\s+", " ", candidate).strip()
                 low = normalized.casefold()
                 if low in SKIP_LINES or low.startswith("disponible en:"):
                     continue
