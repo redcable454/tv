@@ -1,11 +1,12 @@
 {
   "channels": 276,
-  "programmes": 18430,
+  "programmes": 18161,
   "channels_with_programmes": 275,
-  "real_epg_channels": 140,
-  "generic_epg_channels": 135,
+  "real_epg_channels": 139,
+  "generic_epg_channels": 136,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
+    "208dtv.cl",
     "589",
     "590",
     "Juntos-tv.teleclub",
@@ -534,6 +535,10 @@
     {
       "id": "cositel-tv-ica.teleclub",
       "name": "Sillustani tv"
+    },
+    {
+      "id": "208dtv.cl",
+      "name": "SONY MOVIES"
     },
     {
       "id": "malu-tv.teleclub",
