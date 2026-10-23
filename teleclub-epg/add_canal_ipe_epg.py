@@ -118,7 +118,12 @@ def main():
         ET.SubElement(channel, "display-name", {"lang":"es"}).text = CHANNEL_NAME
 
     for item in list(root.findall("programme")):
-        if item.get("channel") == CHANNEL_ID and MARKER in (item.findtext("desc") or ""):
+        if item.get("channel") != CHANNEL_ID:
+            continue
+        title = (item.findtext("title") or "").strip().casefold()
+        description = item.findtext("desc") or ""
+        # Al importar datos oficiales, sustituye el fallback genérico del canal.
+        if MARKER in description or title.endswith(" - en vivo"):
             root.remove(item)
 
     # Schedule page can expose one or more weekday tabs. Use the official
