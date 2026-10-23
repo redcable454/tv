@@ -57,7 +57,7 @@ jobs:
         run: python teleclub-epg/add_sports_epg.py
       - name: Agregar programación oficial de Visión Sur TV
         run: python teleclub-epg/add_vision_sur_epg.py
-      - name: Agregar programación oficial de Canal IPe desde IRTP Play
+      - name: Agregar programación oficial de Canal IPe desde canalipe.gob.pe
         run: python teleclub-epg/add_canal_ipe_epg.py
       - name: Agregar programación real de Radio La Inolvidable
         run: python teleclub-epg/add_radio_inolvidable.py
