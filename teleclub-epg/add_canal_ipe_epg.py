@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-"""Importa la parrilla visible de Canal IPe desde su página oficial de horarios.
-
-Usa canalipe.gob.pe/horarios porque IRTP Play puede devolver 403 a los bots.
+"""Importa la parrilla semanal de Canal IPe desde la página oficial de programación de IRTP Play.
 No inventa una semana completa: publica solo las fichas horarias que logra leer
 de la página oficial y conserva la guía existente si la extracción no es fiable.
 """
@@ -14,11 +12,11 @@ from zoneinfo import ZoneInfo
 import re
 import html as html_lib
 
-URL = "https://www.canalipe.gob.pe/horarios"
+URL = "https://www.irtpplay.gob.pe/canalipe/programacion"
 EPG = Path(__file__).with_name("guia_teleclubtv.xml")
 CHANNEL_ID = "ipe.teleclub"
 CHANNEL_NAME = "CANAL IPE SD"
-MARKER = "Fuente oficial: https://www.canalipe.gob.pe/horarios"
+MARKER = "Fuente oficial: https://www.irtpplay.gob.pe/canalipe/programacion"
 LIMA = ZoneInfo("America/Lima")
 TIME_RE = re.compile(r"^\s*(\d{1,2}):(\d{2})(?:\s*([AP])\.?\s*M\.?)?\s*$", re.I)
 SKIP_LINES = {
