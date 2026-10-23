@@ -16,7 +16,7 @@ URL = "https://www.irtpplay.gob.pe/canalipe/programacion"
 EPG = Path(__file__).with_name("guia_teleclubtv.xml")
 CHANNEL_ID = "ipe.teleclub"
 CHANNEL_NAME = "CANAL IPE SD"
-MARKER = "Fuente oficial: https://www.irtpplay.gob.pe/canalipe/programacion"
+MARKER = "Fuente oficial de programación de Canal IPe"
 LIMA = ZoneInfo("America/Lima")
 TIME_RE = re.compile(r"^\s*(\d{1,2}):(\d{2})(?:\s*([AP])\.?\s*M\.?)?\s*$", re.I)
 SKIP_LINES = {
@@ -70,66 +70,72 @@ def main():
     if not EPG.exists():
         raise SystemExit(f"No existe XMLTV: {EPG}")
 
-    request = Request(URL, headers={
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36",
+    urls = [
+        "https://www.canalipe.gob.pe/horarios",
+        "https://www.irtpplay.gob.pe/canalipe/programacion",
+    ]
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml",
         "Accept-Language": "es-PE,es;q=0.9,en;q=0.8",
-    })
-    try:
-        with urlopen(request, timeout=35) as response:
-            page = response.read().decode("utf-8", errors="replace")
-    except Exception as exc:
-        print(f"AVISO: no se pudo leer la parrilla oficial de Canal IPe ({exc}); se conserva la guía actual.")
-        return
-
-    parser = TextExtractor()
-    parser.feed(page)
-    lines = [x.strip() for x in "\n".join(parser.parts).splitlines() if x.strip()]
-    events = []
-    for i, line in enumerate(lines):
-        minute = parse_time(line)
-        if minute is None:
-            continue
-
-        # En la página oficial, cada ficha presenta hora, etiqueta "Ahora",
-        # nombre del programa y luego su descripción. Busca el primer texto
-        # plausible tras la hora, ignorando etiquetas de interfaz.
-        title = None
-        for candidate in lines[i + 1:i + 7]:
-            normalized = re.sub(r"\s+", " ", candidate).strip()
-            low = normalized.casefold()
-            if low in SKIP_LINES or low.startswith("disponible en:"):
-                continue
-            if parse_time(normalized) is not None:
-                break
-            if len(normalized) > 140:
-                continue
-            if low.startswith(("programación", "horarios", "canal ipe", "image:", "ver más")):
-                continue
-            title = normalized
-            break
-        if not title:
-            continue
-        # Evita tomar las descripciones largas como si fueran títulos.
-        if title.endswith(".") and len(title) > 80:
-            continue
-        events.append({"minute": minute, "title": title})
+    }
 
     unique = []
-    seen = set()
-    for event in events:
-        key = (event["minute"], event["title"].casefold())
-        if key not in seen:
-            seen.add(key)
-            unique.append(event)
-    unique.sort(key=lambda e: e["minute"])
+    source_url = None
+    failures = []
+    for url in urls:
+        request = Request(url, headers=headers)
+        try:
+            with urlopen(request, timeout=35) as response:
+                page = response.read().decode("utf-8", errors="replace")
+        except Exception as exc:
+            failures.append(f"{url}: {exc}")
+            print(f"AVISO: no se pudo leer {url}: {exc}")
+            continue
 
-    # Rechaza extracción incompleta o texto de navegación para no publicar
-    # una parrilla falsa. Se requiere un mínimo de cinco horarios oficiales.
-    if len(unique) < 5:
-        print(f"AVISO: solo se detectaron {len(unique)} horarios válidos en {URL}; no se modifica el EPG.")
-        return
+        parser = TextExtractor()
+        parser.feed(page)
+        lines = [x.strip() for x in "\\n".join(parser.parts).splitlines() if x.strip()]
+        events = []
+        for i, line in enumerate(lines):
+            minute = parse_time(line)
+            if minute is None:
+                continue
+            title = None
+            for candidate in lines[i + 1:i + 8]:
+                normalized = re.sub(r"\\s+", " ", candidate).strip()
+                low = normalized.casefold()
+                if low in SKIP_LINES or low.startswith("disponible en:"):
+                    continue
+                if parse_time(normalized) is not None:
+                    break
+                if len(normalized) > 140:
+                    continue
+                if low.startswith(("programación", "programacion", "horarios", "canal ipe", "image:", "ver más")):
+                    continue
+                title = normalized
+                break
+            if title and not (title.endswith(".") and len(title) > 80):
+                events.append({"minute": minute, "title": title})
 
+        seen = set()
+        unique = []
+        for event in events:
+            key = (event["minute"], event["title"].casefold())
+            if key not in seen:
+                seen.add(key)
+                unique.append(event)
+        unique.sort(key=lambda e: e["minute"])
+        if len(unique) >= 5:
+            source_url = url
+            break
+        print(f"AVISO: {url} respondió, pero solo se detectaron {len(unique)} horarios; probando fuente alternativa.")
+
+    if not source_url or len(unique) < 5:
+        details = "; ".join(failures) if failures else "las páginas no entregaron suficientes horarios legibles"
+        raise SystemExit(f"ERROR: no se pudo importar el EPG real de Canal IPe. {details}")
+
+    marker = f"Fuente oficial: {source_url}"
     tree = ET.parse(EPG)
     root = tree.getroot()
     channel = next((c for c in root.findall("channel") if c.get("id") == CHANNEL_ID), None)
@@ -164,7 +170,7 @@ def main():
             "start": xml_time(start), "stop": xml_time(stop), "channel": CHANNEL_ID
         })
         ET.SubElement(p, "title", {"lang": "es"}).text = event["title"]
-        ET.SubElement(p, "desc", {"lang": "es"}).text = MARKER + " Horario local de Perú (America/Lima)."
+        ET.SubElement(p, "desc", {"lang": "es"}).text = marker + " Horario local de Perú (America/Lima)."
         ET.SubElement(p, "category", {"lang": "es"}).text = "Infantil"
 
     programmes = root.findall("programme")
@@ -175,7 +181,7 @@ def main():
     for index, item in enumerate(programmes):
         root.insert(first_programme + index, item)
     tree.write(EPG, encoding="utf-8", xml_declaration=True)
-    print(f"Canal IPe: {len(unique)} fichas importadas de la fuente oficial; canal={CHANNEL_ID}; fecha={today}; URL={URL}")
+    print(f"Canal IPe: {len(unique)} fichas importadas de la fuente oficial; canal={CHANNEL_ID}; fecha={today}; URL={source_url}")
 
 if __name__ == "__main__":
     main()
