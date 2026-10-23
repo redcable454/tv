@@ -143,14 +143,11 @@ def main():
     if CHANNEL_NAME.casefold() not in names:
         ET.SubElement(channel, "display-name", {"lang": "es"}).text = CHANNEL_NAME
 
-    # Solo reemplaza programas genéricos de este canal cuando la fuente oficial
-    # entregó suficientes fichas; no toca ningún otro canal.
+    # La extracción ya pasó el mínimo de validación. Reemplaza todas las
+    # entradas anteriores de este canal para evitar que la programación genérica
+    # quede mezclada con la oficial. Los demás canales permanecen intactos.
     for item in list(root.findall("programme")):
-        if item.get("channel") != CHANNEL_ID:
-            continue
-        title = (item.findtext("title") or "").strip().casefold()
-        desc = item.findtext("desc") or ""
-        if MARKER in desc or title.endswith(" - en vivo"):
+        if item.get("channel") == CHANNEL_ID:
             root.remove(item)
 
     today = datetime.now(LIMA).date()
