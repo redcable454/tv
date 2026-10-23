@@ -1,9 +1,9 @@
 {
-  "channels": 276,
-  "programmes": 18161,
-  "channels_with_programmes": 275,
+  "channels": 281,
+  "programmes": 18073,
+  "channels_with_programmes": 280,
   "real_epg_channels": 139,
-  "generic_epg_channels": 136,
+  "generic_epg_channels": 141,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "208dtv.cl",
@@ -80,6 +80,11 @@
     "custom-1303",
     "custom-1304",
     "custom-1309",
+    "custom-1312",
+    "custom-1313",
+    "custom-1314",
+    "custom-1316",
+    "custom-1317",
     "custom-27",
     "custom-31",
     "custom-5",
@@ -245,6 +250,10 @@
       "name": "Canal39"
     },
     {
+      "id": "custom-1314",
+      "name": "CANELA TV NOVELAS TURCAS"
+    },
+    {
       "id": "custom-1221",
       "name": "CARTONITO"
     },
@@ -259,6 +268,14 @@
     {
       "id": "custom-1255",
       "name": "CHV"
+    },
+    {
+      "id": "custom-1312",
+      "name": "CINE FAMILIAR"
+    },
+    {
+      "id": "custom-1313",
+      "name": "CINE HISPANO"
     },
     {
       "id": "custom-1299",
@@ -511,6 +528,14 @@
     {
       "id": "radio-exitosa.teleclub",
       "name": "Radio éxito"
+    },
+    {
+      "id": "custom-1316",
+      "name": "RAKUTEN TV ACCION"
+    },
+    {
+      "id": "custom-1317",
+      "name": "RAKUTEN TV SCI-FI"
     },
     {
       "id": "regional-innova-fm-tv-bagua-grande.teleclub",
