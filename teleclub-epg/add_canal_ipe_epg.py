@@ -1,45 +1,52 @@
 #!/usr/bin/env python3
-"""Importa la programación de Canal IPe desde la página oficial de IRTP al XMLTV.
+"""Importa la parrilla visible de Canal IPe desde su página oficial de horarios.
 
-No inventa horarios: si IRTP cambia el HTML y no se pueden identificar eventos,
-conserva la guía actual y termina sin alterar los demás canales.
+Usa canalipe.gob.pe/horarios porque IRTP Play puede devolver 403 a los bots.
+No inventa una semana completa: publica solo las fichas horarias que logra leer
+de la página oficial y conserva la guía existente si la extracción no es fiable.
 """
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta, timezone, time
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
-import json
+from zoneinfo import ZoneInfo
 import re
+import html as html_lib
 
-URL = "https://www.irtpplay.gob.pe/canalipe/programacion"
+URL = "https://www.canalipe.gob.pe/horarios"
 EPG = Path(__file__).with_name("guia_teleclubtv.xml")
 CHANNEL_ID = "ipe.teleclub"
 CHANNEL_NAME = "CANAL IPE SD"
-MARKER = "Fuente oficial: https://www.irtpplay.gob.pe/canalipe/programacion"
-TIME_RE = re.compile(r"^\s*(\d{1,2})[:.]([0-5]\d)\s*(A\.?\s*M\.?|P\.?\s*M\.?)\s*$", re.I)
-DAY_RE = re.compile(r"^(lun(?:es)?|mar(?:tes)?|mi[eé](?:rcoles)?|jue(?:ves)?|vie(?:rnes)?|s[aá]b(?:ado)?|dom(?:ingo)?)(?:\s*[,|:]?\s*\d{1,2})?$", re.I)
-DAYS = {"lun":0,"mar":1,"mié":2,"mie":2,"jue":3,"vie":4,"sáb":5,"sab":5,"dom":6}
+MARKER = "Fuente oficial: https://www.canalipe.gob.pe/horarios"
+LIMA = ZoneInfo("America/Lima")
+TIME_RE = re.compile(r"^\s*(\d{1,2}):(\d{2})(?:\s*([AP])\.?\s*M\.?)?\s*$", re.I)
+SKIP_LINES = {
+    "ahora", "image", "imagen", "disponible en: ipe play", "disponible en ipe play",
+    "lunes", "martes", "miércoles", "miercoles", "jueves", "viernes", "sábado", "sabado", "domingo",
+}
 
 class TextExtractor(HTMLParser):
     def __init__(self):
-        super().__init__()
+        super().__init__(convert_charrefs=True)
         self.parts = []
         self.skip = 0
+
     def handle_starttag(self, tag, attrs):
-        attrs = dict(attrs)
-        if tag in ("script", "style", "noscript"):
+        if tag in ("script", "style", "noscript", "svg"):
             self.skip += 1
-        if tag in ("br", "p", "div", "li", "article", "section", "h1", "h2", "h3"):
+        if tag in ("br", "p", "div", "li", "article", "section", "h1", "h2", "h3", "h4", "tr", "td", "th"):
             self.parts.append("\n")
+
     def handle_endtag(self, tag):
-        if tag in ("script", "style", "noscript") and self.skip:
+        if tag in ("script", "style", "noscript", "svg") and self.skip:
             self.skip -= 1
-        if tag in ("p", "div", "li", "article", "section", "h1", "h2", "h3"):
+        if tag in ("p", "div", "li", "article", "section", "h1", "h2", "h3", "h4", "tr", "td", "th"):
             self.parts.append("\n")
+
     def handle_data(self, data):
         if not self.skip:
-            value = " ".join(data.split())
+            value = " ".join(html_lib.unescape(data).split())
             if value:
                 self.parts.append(value)
 
@@ -48,11 +55,14 @@ def parse_time(text):
     if not m:
         return None
     hour, minute = int(m.group(1)), int(m.group(2))
-    pm = m.group(3).upper().startswith("P")
-    if hour == 12:
-        hour = 0
-    if pm:
-        hour += 12
+    suffix = (m.group(3) or "").upper()
+    if suffix:
+        if hour == 12:
+            hour = 0
+        if suffix == "P":
+            hour += 12
+    if hour > 23 or minute > 59:
+        return None
     return hour * 60 + minute
 
 def xml_time(dt):
@@ -61,49 +71,65 @@ def xml_time(dt):
 def main():
     if not EPG.exists():
         raise SystemExit(f"No existe XMLTV: {EPG}")
-    request = Request(URL, headers={"User-Agent":"Mozilla/5.0 (compatible; TeleclubTV-EPG/1.0)", "Accept":"text/html,application/xhtml+xml"})
+
+    request = Request(URL, headers={
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml",
+        "Accept-Language": "es-PE,es;q=0.9,en;q=0.8",
+    })
     try:
-        with urlopen(request, timeout=30) as response:
-            html = response.read().decode("utf-8", errors="replace")
+        with urlopen(request, timeout=35) as response:
+            page = response.read().decode("utf-8", errors="replace")
     except Exception as exc:
-        print(f"AVISO: IRTP no permitió descargar la programación de Canal IPe ({exc}); se conserva la guía actual.")
+        print(f"AVISO: no se pudo leer la parrilla oficial de Canal IPe ({exc}); se conserva la guía actual.")
         return
 
     parser = TextExtractor()
-    parser.feed(html)
+    parser.feed(page)
     lines = [x.strip() for x in "\n".join(parser.parts).splitlines() if x.strip()]
-
-    # La página oficial presenta cada ficha como título, hora y descripción.
-    # Solo aceptamos una ficha si se identifica una hora explícita junto a un título.
     events = []
-    current_day = None
     for i, line in enumerate(lines):
-        day_match = DAY_RE.match(line)
-        if day_match:
-            prefix = re.match(r"^(lun|mar|mié|mie|jue|vie|sáb|sab|dom)", line.lower())
-            if prefix:
-                current_day = DAYS.get(prefix.group(1))
         minute = parse_time(line)
-        if minute is None or i == 0:
+        if minute is None:
             continue
-        title = lines[i - 1].strip()
-        if not title or len(title) > 120 or title.lower() in {"programación", "canal ipe", "en vivo"}:
-            continue
-        if title.lower().startswith(("lun", "mar", "mié", "mie", "jue", "vie", "sáb", "sab", "dom")):
-            continue
-        events.append({"title": title, "minute": minute, "day": current_day})
 
-    # Remove duplicate card text while preserving order. Never publish a fabricated
-    # full-day schedule when the official page structure cannot be parsed.
+        # En la página oficial, cada ficha presenta hora, etiqueta "Ahora",
+        # nombre del programa y luego su descripción. Busca el primer texto
+        # plausible tras la hora, ignorando etiquetas de interfaz.
+        title = None
+        for candidate in lines[i + 1:i + 7]:
+            normalized = re.sub(r"\s+", " ", candidate).strip()
+            low = normalized.casefold()
+            if low in SKIP_LINES or low.startswith("disponible en:"):
+                continue
+            if parse_time(normalized) is not None:
+                break
+            if len(normalized) > 140:
+                continue
+            if low.startswith(("programación", "horarios", "canal ipe", "image:", "ver más")):
+                continue
+            title = normalized
+            break
+        if not title:
+            continue
+        # Evita tomar las descripciones largas como si fueran títulos.
+        if title.endswith(".") and len(title) > 80:
+            continue
+        events.append({"minute": minute, "title": title})
+
     unique = []
     seen = set()
     for event in events:
-        key = (event["day"], event["minute"], event["title"].casefold())
+        key = (event["minute"], event["title"].casefold())
         if key not in seen:
             seen.add(key)
             unique.append(event)
+    unique.sort(key=lambda e: e["minute"])
+
+    # Rechaza extracción incompleta o texto de navegación para no publicar
+    # una parrilla falsa. Se requiere un mínimo de cinco horarios oficiales.
     if len(unique) < 5:
-        print(f"AVISO: solo se detectaron {len(unique)} fichas de Canal IPe en la página oficial; no se modifica su EPG para evitar horarios inventados.")
+        print(f"AVISO: solo se detectaron {len(unique)} horarios válidos en {URL}; no se modifica el EPG.")
         return
 
     tree = ET.parse(EPG)
@@ -115,53 +141,46 @@ def main():
         root.insert(first_programme, channel)
     names = {(x.text or "").strip().casefold() for x in channel.findall("display-name")}
     if CHANNEL_NAME.casefold() not in names:
-        ET.SubElement(channel, "display-name", {"lang":"es"}).text = CHANNEL_NAME
+        ET.SubElement(channel, "display-name", {"lang": "es"}).text = CHANNEL_NAME
 
+    # Solo reemplaza programas genéricos de este canal cuando la fuente oficial
+    # entregó suficientes fichas; no toca ningún otro canal.
     for item in list(root.findall("programme")):
         if item.get("channel") != CHANNEL_ID:
             continue
         title = (item.findtext("title") or "").strip().casefold()
-        description = item.findtext("desc") or ""
-        # Al importar datos oficiales, sustituye el fallback genérico del canal.
-        if MARKER in description or title.endswith(" - en vivo"):
+        desc = item.findtext("desc") or ""
+        if MARKER in desc or title.endswith(" - en vivo"):
             root.remove(item)
 
-    # Schedule page can expose one or more weekday tabs. Use the official
-    # day labels when available; if no day is exposed, apply the listed sequence
-    # only to today's date, rather than assuming a weekly repeat.
-    from datetime import date, time
-    from zoneinfo import ZoneInfo
-    lima = ZoneInfo("America/Lima")
-    today = datetime.now(lima).date()
-    has_days = any(e["day"] is not None for e in unique)
-    days_to_generate = 7 if has_days else 1
-    for offset in range(days_to_generate):
-        day = today + timedelta(days=offset)
-        day_events = [e for e in unique if (e["day"] == day.weekday() if has_days else True)]
-        day_events.sort(key=lambda e:e["minute"])
-        for n, event in enumerate(day_events):
-            start = datetime.combine(day, time(event["minute"]//60, event["minute"]%60), tzinfo=lima)
-            if n + 1 < len(day_events):
-                stop_minute = day_events[n+1]["minute"]
-                stop = datetime.combine(day, time(stop_minute//60, stop_minute%60), tzinfo=lima)
-            else:
-                stop = start + timedelta(minutes=30)
+    today = datetime.now(LIMA).date()
+    for index, event in enumerate(unique):
+        start = datetime.combine(today, time(event["minute"] // 60, event["minute"] % 60), tzinfo=LIMA)
+        if index + 1 < len(unique):
+            next_minute = unique[index + 1]["minute"]
+            stop = datetime.combine(today, time(next_minute // 60, next_minute % 60), tzinfo=LIMA)
             if stop <= start:
-                continue
-            programme = ET.SubElement(root, "programme", {"start":xml_time(start), "stop":xml_time(stop), "channel":CHANNEL_ID})
-            ET.SubElement(programme, "title", {"lang":"es"}).text = event["title"]
-            ET.SubElement(programme, "desc", {"lang":"es"}).text = MARKER
-            ET.SubElement(programme, "category", {"lang":"es"}).text = "Infantil"
+                stop += timedelta(days=1)
+        else:
+            stop = start + timedelta(minutes=30)
+        if stop <= start:
+            continue
+        p = ET.SubElement(root, "programme", {
+            "start": xml_time(start), "stop": xml_time(stop), "channel": CHANNEL_ID
+        })
+        ET.SubElement(p, "title", {"lang": "es"}).text = event["title"]
+        ET.SubElement(p, "desc", {"lang": "es"}).text = MARKER + " Horario local de Perú (America/Lima)."
+        ET.SubElement(p, "category", {"lang": "es"}).text = "Infantil"
 
     programmes = root.findall("programme")
-    programmes.sort(key=lambda p:(p.get("start",""), p.get("channel","")))
+    programmes.sort(key=lambda p: (p.get("start", ""), p.get("channel", "")))
     first_programme = next((i for i, item in enumerate(list(root)) if item.tag == "programme"), len(root))
     for item in programmes:
         root.remove(item)
-    for i, item in enumerate(programmes):
-        root.insert(first_programme+i, item)
+    for index, item in enumerate(programmes):
+        root.insert(first_programme + index, item)
     tree.write(EPG, encoding="utf-8", xml_declaration=True)
-    print(f"Canal IPe: añadidas fichas oficiales detectadas={len(unique)}; id={CHANNEL_ID}; días generados={days_to_generate}")
+    print(f"Canal IPe: {len(unique)} fichas importadas de la fuente oficial; canal={CHANNEL_ID}; fecha={today}; URL={URL}")
 
 if __name__ == "__main__":
     main()
