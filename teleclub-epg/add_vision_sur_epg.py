@@ -5,6 +5,7 @@ from pathlib import Path
 from xml.etree import ElementTree as ET
 from zoneinfo import ZoneInfo
 
+# Este generador modifica exclusivamente el XMLTV del repositorio; no escribe en el panel.
 EPG = Path(__file__).with_name("guia_teleclubtv.xml")
 LIMA = ZoneInfo("America/Lima")
 CHANNEL_ID = "vision-sur-arequipa.teleclub"
