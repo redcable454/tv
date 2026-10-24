@@ -1,9 +1,9 @@
 {
   "channels": 285,
-  "programmes": 18002,
+  "programmes": 17572,
   "channels_with_programmes": 285,
-  "real_epg_channels": 140,
-  "generic_epg_channels": 145,
+  "real_epg_channels": 139,
+  "generic_epg_channels": 146,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "208dtv.cl",
@@ -60,6 +60,7 @@
     "custom-1218",
     "custom-1219",
     "custom-1221",
+    "custom-1233",
     "custom-1235",
     "custom-1238",
     "custom-1245",
@@ -300,6 +301,10 @@
     {
       "id": "custom-1013",
       "name": "D PELICULA"
+    },
+    {
+      "id": "custom-1233",
+      "name": "Directv sports"
     },
     {
       "id": "movistar.lch2357",
