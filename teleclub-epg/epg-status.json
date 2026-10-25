@@ -1,14 +1,15 @@
 {
   "channels": 285,
-  "programmes": 17572,
+  "programmes": 17512,
   "channels_with_programmes": 285,
-  "real_epg_channels": 139,
-  "generic_epg_channels": 146,
+  "real_epg_channels": 138,
+  "generic_epg_channels": 147,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "208dtv.cl",
     "589",
     "590",
+    "760dtv.cl",
     "Juntos-tv.teleclub",
     "Primeratelevisión.teleclub",
     "Tv+-teleclub",
@@ -483,12 +484,12 @@
       "name": "Radio 1160"
     },
     {
-      "id": "radio-la-zona.teleclub",
-      "name": "Radio campesina"
-    },
-    {
       "id": "radio-contacto-sur.teleclub",
       "name": "Radio contacto sur"
+    },
+    {
+      "id": "radio-la-zona.teleclub",
+      "name": "Radio fans"
     },
     {
       "id": "custom-1319",
@@ -701,6 +702,10 @@
     {
       "id": "Unitel-huancayo-teleclub",
       "name": "Unitel tv Huancayo"
+    },
+    {
+      "id": "760dtv.cl",
+      "name": "UNIVISION"
     },
     {
       "id": "uranio-tv.teleclub",
