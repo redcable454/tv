@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-26T13:26:23.550766+00:00" radio-la-zona-updated-at="2026-10-26T13:26:23.842286+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-26T19:27:13.367394+00:00" radio-la-zona-updated-at="2026-10-26T19:27:13.548901+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -3450,13 +3450,6 @@
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El Maraton De Londres</sub-title>
   </programme>
-  <programme start="20261025081000 +0000" stop="20261025083500 +0000" channel="custom-1215">
-    <desc lang="es">S1 E495 — Temporada 1 Episodio 495
-Making the Movies te cuenta todo lo que hay que saber sobre cómo cobran vida las películas. Con todas las cosas emocionantes... técnicas geniales, temas atractivos y todas las tendencias de producción de Hollywood.</desc>
-    <episode-num>S1 E495</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Making the Movies</title>
-  </programme>
   <programme start="20261025081000 -0300" stop="20261025082000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">Exploramundos</title>
     <title lang="xx">Figura humana</title>
@@ -3469,12 +3462,6 @@ Making the Movies te cuenta todo lo que hay que saber sobre cómo cobran vida la
   <programme start="20261025081300 -0600" stop="20261025083600 -0600" channel="330dtv.co">
     <title lang="es">Jorge, el curioso</title>
     <sub-title lang="es">¡Perro acalorado! / Jorge y el ritmo</sub-title>
-  </programme>
-  <programme start="20261025081500 +0000" stop="20261025084500 +0000" channel="627">
-    <desc lang="es">Musical
-Un programa que presenta los temas musicales más destadacados y que son tendencia. El público podrá disfrutar de los lanzamientos más actuales mientras baila y canta con los artistas más importantes.</desc>
-    <icon src="https://iptv-epg.org/images/q0lTdlIAbxIS1n4DBaTV4zTM3nZtfi6lU5v3cDPjtfq8imYsJKIBjRQq13cr8VittE5HSQzG5thx_yAVsf-uIyit2y0RzZCuvX0kh2nR5u4GgYf2GJo" />
-    <title lang="es">Mood: Perreo</title>
   </programme>
   <programme start="20261025081500 +0100" stop="20261025083000 +0100" channel="custom-1063">
     <title lang="es">Shift</title>
@@ -3497,20 +3484,6 @@ Un programa que presenta los temas musicales más destadacados y que son tendenc
     <title lang="es">Leyendas perdidas con Megan Fox</title>
     <sub-title lang="es">Stonehenge: La rocas curativas</sub-title>
     <episode-num system="onscreen">S1 E2</episode-num>
-  </programme>
-  <programme start="20261025082700 +0000" stop="20261025091100 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <desc lang="es">S24 E83 — Extraño y extravagante
-A la casa de empeño llegan algunos artículos verdaderamente extraños, aunque muy interesantes. Rick se ve absolutamente cautivado por una momia del Antiguo Egipto.</desc>
-    <episode-num>S24 E83</episode-num>
-    <icon src="https://iptv-epg.org/images/SUY87q4Fo3sAlPYuT7E6Q7yuaA1v_1POW3xSLvif_rVB630fEqTbx0dQ1Uf2ipefQjsEax7M276pss_exiqZnBTVgLBso6kDYjTxyyrkUK_JezmIWJYNoaWIowGjJZ3sMJuhSSO7SNaqTHLdCgswOs1J-MIu3g-8KgFpelj-wYptc7gsJcUsQHpDEJZG" />
-    <title lang="es">Lo mejor de El precio de la historia</title>
-    <title lang="en">Best of Pawn Stars</title>
-  </programme>
-  <programme start="20261025083000 +0000" stop="20261025084500 +0000" channel="custom-1065">
-    <desc lang="es">Variedades
-Programación a confirmar.</desc>
-    <icon src="https://iptv-epg.org/images/oUJpKNGqBMYeEjjbYVowG2WvhFSWCH4pbvt5rkQC4WvMezEN_AEafhf3AVsPuj8d7VWVf_vVmJNIl5C_93Caq_KkYmdfHgJBJRnxdQ1ms7mdw7W5fNU" />
-    <title lang="es">A confirmar</title>
   </programme>
   <programme start="20261025083000 +0100" stop="20261025090000 +0100" channel="custom-1063">
     <title lang="es">Arts Unveiled</title>
@@ -3571,13 +3544,6 @@ Programación a confirmar.</desc>
   <programme start="20261025083000 -0600" stop="20261025090000 -0600" channel="custom-1302">
     <title lang="es">Próxima parada</title>
   </programme>
-  <programme start="20261025083500 +0000" stop="20261025090000 +0000" channel="custom-1215">
-    <desc lang="es">S1 E496 — Temporada 1 Episodio 496
-Making the Movies te cuenta todo lo que hay que saber sobre cómo cobran vida las películas. Con todas las cosas emocionantes... técnicas geniales, temas atractivos y todas las tendencias de producción de Hollywood.</desc>
-    <episode-num>S1 E496</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Making the Movies</title>
-  </programme>
   <programme start="20261025083600 -0600" stop="20261025085000 -0600" channel="330dtv.co">
     <title lang="es">44 gatos</title>
     <sub-title lang="es">Una Chica muy Especial</sub-title>
@@ -3600,18 +3566,6 @@ Making the Movies te cuenta todo lo que hay que saber sobre cómo cobran vida la
     <title lang="es">Estado de fúria</title>
     <episode-num system="onscreen">S2 E3</episode-num>
   </programme>
-  <programme start="20261025084500 +0000" stop="20261025094000 +0000" channel="627">
-    <desc lang="es">Musical
-Dedicado a la onda astrológica que está muy de moda, dando datos de los signos y aprovechando la temática para sumar a artistas del signo en cuestión.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Horoscopía</title>
-  </programme>
-  <programme start="20261025084500 +0000" stop="20261025090000 +0000" channel="custom-1065">
-    <desc lang="es">Variedades
-Programación a confirmar.</desc>
-    <icon src="https://iptv-epg.org/images/oUJpKNGqBMYeEjjbYVowG2WvhFSWCH4pbvt5rkQC4WvMezEN_AEafhf3AVsPuj8d7VWVf_vVmJNIl5C_93Caq_KkYmdfHgJBJRnxdQ1ms7mdw7W5fNU" />
-    <title lang="es">A confirmar</title>
-  </programme>
   <programme start="20261025085000 -0300" stop="20261025090000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">Las aventuras de Medialuna</title>
     <title lang="xx">Chacabuco el valiente</title>
@@ -3633,37 +3587,9 @@ Programación a confirmar.</desc>
   <programme start="20261025085900 -0500" stop="20261025102000 -0500" channel="custom-1228">
     <title lang="es">Juega o muere</title>
   </programme>
-  <programme start="20261025090000 +0000" stop="20261025100000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
-  </programme>
-  <programme start="20261025090000 +0000" stop="20261025093000 +0000" channel="custom-1215">
-    <desc lang="es">S1 E497 — Temporada 1 Episodio 497
-Making the Movies te cuenta todo lo que hay que saber sobre cómo cobran vida las películas. Con todas las cosas emocionantes... técnicas geniales, temas atractivos y todas las tendencias de producción de Hollywood.</desc>
-    <episode-num>S1 E497</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Making the Movies</title>
-  </programme>
-  <programme start="20261025090000 +0000" stop="20261025105900 +0000" channel="custom-1237">
-    <desc lang="es">ESPN Knockout
-Los mejores combates de boxeo y MMA.</desc>
-    <icon src="https://iptv-epg.org/images/1bBwvR-Dc9S4wV0aJALPqiRr-M2FJrVSGwMHtKZvrMBgixW5xi7emP1_BbqaKmf4LHBv2F3dEOBMGi5DxSNYhpM8NRjH_6_F_il_ARWa1Tn362AkY0c" />
-    <title lang="es">Legacy Fighting Alliance: 244</title>
-  </programme>
   <programme start="20261025090000 +0000" stop="20261025110000 +0000" channel="custom-28">
     <title lang="es">Radio La Zona, Te enciende</title>
     <desc lang="es">Lo mejor de la música de Radio La Zona sin interrupciones.</desc>
-  </programme>
-  <programme start="20261025090000 +0000" stop="20261025100000 +0000" channel="ewtn.pe">
-    <desc lang="es">¿Qué o quién es dios?
-La vida está llena de preguntas fundamentales: ¿qué, quién o cómo es Dios? Belén Perales nos acompaña en la búsqueda de respuestas a partir de su propia historia, un camino que la llevó del ateísmo a fundar El Rosario de las 11PM,.</desc>
-    <icon src="https://iptv-epg.org/images/fSH3mauXg22TYumt8ujja03Cd1Qo3j8yMorC1zxSWpVM1OYL3OWqU2Tqh7VYwdPUdZf1b1Ci9swM51G7R3hSIPULQdMcIpt8w2BSZhz-Hg8j7Da5wuO8rYHLswZ6slxrxVrjcH7TrTdbpgkVwmbh-7sxdA" />
-    <title lang="es">Perspectiva católica</title>
-  </programme>
-  <programme start="20261025090000 +0000" stop="20261025093000 +0000" channel="movistar.lch7217">
-    <desc lang="en">Desde Estadio Monumental, en Ate, Lima, Perú.</desc>
-    <icon src="https://iptv-epg.org/images/SyU5X9wbqgjjv2uGP04nUN7YiZ-tL7fUHj7J0x7_YCiSRU1Gab17hBQxNys0ey3WAGcpuMuqVWqZgU_fkomjMG2tEBC-Latx0xl14RUwqUqpofgfRWbfZFhLS_mmUnbLxdMfx_wwqgRS1gtBuyXtnZ9MZdbpgmJR8DhfELNrGAAVq-pWy1I" />
-    <title lang="en">Fútbol Peruano Primera División : Universitario vs. Juan Pablo II College</title>
   </programme>
   <programme start="20261025090000 +0100" stop="20261025090200 +0100" channel="custom-1063">
     <title lang="es">DW News</title>
@@ -3744,14 +3670,6 @@ La vida está llena de preguntas fundamentales: ¿qué, quién o cómo es Dios? 
   <programme start="20261025091000 -0500" stop="20261025110500 -0500" channel="custom-1231">
     <title lang="es">Scarlet</title>
   </programme>
-  <programme start="20261025091100 +0000" stop="20261025095500 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <desc lang="es">S24 E84 — Lo que se empeña en Las Vegas..
-Las Estrellas del Empeño tiran los dados y apuestan por recuerdos únicos de Las Vegas. ¿Conseguirán una escalera real o se retirarán bajo presión?</desc>
-    <episode-num>S24 E84</episode-num>
-    <icon src="https://iptv-epg.org/images/6eVeUwnrh2P6n9gL1d2f5_uckw0i-fRMkScTy57Lo_YFsDny7Ib7vdaV4aoLkxN4Osu-iJdHU_VhhAll4EvpAKND0yDP2-Pv2vTjURLZok7g0J6YQ4Pwz17RWC5Lcr_Or5FsgeYNdfJu-j8EQyOIwZBHje6_MrY78558BMll7qr9pFSOEI-c8M5R5jexKAxTosFyLQ" />
-    <title lang="es">Lo mejor de El precio de la historia</title>
-    <title lang="en">Best of Pawn Stars</title>
-  </programme>
   <programme start="20261025091200 -0600" stop="20261025100000 -0600" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
     <title lang="es">Tesoro en el espacio: el secreto del astronauta</title>
     <sub-title lang="es">En la tormenta</sub-title>
@@ -3780,18 +3698,6 @@ Las Estrellas del Empeño tiran los dados y apuestan por recuerdos únicos de La
   <programme start="20261025092400 -0600" stop="20261025094700 -0600" channel="330dtv.co">
     <title lang="es">Academia Unicornio</title>
     <sub-title lang="es">El año del unicornio</sub-title>
-  </programme>
-  <programme start="20261025093000 +0000" stop="20261025100000 +0000" channel="custom-1215">
-    <desc lang="es">S1 E498 — Temporada 1 Episodio 498
-Making the Movies te cuenta todo lo que hay que saber sobre cómo cobran vida las películas. Con todas las cosas emocionantes... técnicas geniales, temas atractivos y todas las tendencias de producción de Hollywood.</desc>
-    <episode-num>S1 E498</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Making the Movies</title>
-  </programme>
-  <programme start="20261025093000 +0000" stop="20261025114500 +0000" channel="movistar.lch7217">
-    <desc lang="en">Desde el Estadio Huancayo, en Junín, Perú.</desc>
-    <icon src="https://iptv-epg.org/images/1KaTygFXDJAzvVsWoIc5BgMLCnW5Aw4MnClYlHbm2UGKgcB-J17JqbJhpe3eA-lE9t_UwD31lTjenzdDh_QQ9mEjWCmomQYHIC-IMIBiFKffV4QQhqC7JpC5hnRncSV8edS0IUsGMvmt0o2k-WMJ-cornOZ_1v9Ut_TgTaS0B-b3jiXq6ZY" />
-    <title lang="en">Fútbol Peruano Primera División : Sport Huancayo vs. Alianza Atlético</title>
   </programme>
   <programme start="20261025093000 +0200" stop="20261025100000 +0200" channel="527">
     <title lang="es">Ronda Artística</title>
@@ -3835,20 +3741,6 @@ Making the Movies te cuenta todo lo que hay que saber sobre cómo cobran vida la
   </programme>
   <programme start="20261025093000 -0600" stop="20261025103000 -0600" channel="custom-1295">
     <title lang="es">Encantadas</title>
-  </programme>
-  <programme start="20261025093400 +0000" stop="20261025101700 +0000" channel="228dtv.pe">
-    <desc lang="es">S1 E6 — Influencias oscuras
-Relatos impactantes de primera mano de personas que fueron manipuladas, abusadas y que pudieron liberarse, antes de que fuera demasiado tarde.</desc>
-    <episode-num>S1 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Más allá de las noticias</title>
-    <title lang="en">Beyond the Headlines: The Series</title>
-  </programme>
-  <programme start="20261025094000 +0000" stop="20261025103500 +0000" channel="627">
-    <desc lang="es">Musical
-Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, hoy o lo más nuevo.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Rocool-A</title>
   </programme>
   <programme start="20261025094300 -0300" stop="20261025114300 -0300" channel="custom-1232">
     <title lang="es">El palacio de Joe</title>
@@ -3933,18 +3825,6 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
       <value>9.0</value>
     </star-rating>
   </programme>
-  <programme start="20261025095500 +0000" stop="20261025103800 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <desc lang="es">S24 E85 — Ruedas y alas
-La tienda hace negocios con todo tipo de transportes. Chum idea un plan para ser conductor de su propio tren. Mientras tanto, Corey surca los cielos en un viaje de negocios.</desc>
-    <episode-num>S24 E85</episode-num>
-    <icon src="https://iptv-epg.org/images/MrLUG77qlfcypc8t5E7x4lFzT1sCeXj100JLirDyR-2-Bz-qF83kr2-3p6v62oO_fa6IV0u6Dx3-pRPs1_lhpHGCQPlwB2_sOQegsKjtwts5qBfVs0L2OnSHhjgmFZD6NISuzqtpM8x1gXo_DBwwjTM9H8354BSchM-5c-QIMs2Tzd94" />
-    <title lang="es">Lo mejor de El precio de la historia</title>
-    <title lang="en">Best of Pawn Stars</title>
-  </programme>
-  <programme start="20261025100000 +0000" stop="20261025103000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
-  </programme>
   <programme channel="custom-1089" start="20261025100000 +0000" stop="20261025103000 +0000">
     <title lang="en">Bob and Margaret</title>
     <sub-title lang="en">For Peter's Sake</sub-title>
@@ -3973,18 +3853,6 @@ La tienda hace negocios con todo tipo de transportes. Chum idea un plan para ser
     <rating system="Freiwillige Selbstkontrolle der Filmwirtschaft">
       <value>6</value>
     </rating>
-  </programme>
-  <programme start="20261025100000 +0000" stop="20261025103000 +0000" channel="custom-1215">
-    <desc lang="es">Publicidad
-Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
-    <icon src="https://iptv-epg.org/images/gYGJpZIDP1wlTbWNb47q1GFibYfJStOd7oyENZbUtZIOEYwuggLmR7amS6cNdweLWQcLBn4lsk76hYSWnagbd3NA3fjxYrV50WzX_gu1bNYynf0mNDDGzg" />
-    <title lang="es">Infomerciales</title>
-  </programme>
-  <programme start="20261025100000 +0000" stop="20261025110000 +0000" channel="ewtn.pe">
-    <desc lang="es">Religioso
-El Papa León XIV reza el Ángelus desde Roma. Esta oración especial, acompañada del toque de la campana del Ángelus, conmemora la Encarnación de Cristo.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Ángelus con el Papa León XIV</title>
   </programme>
   <programme channel="regional-sol-stereo-tv-casma.teleclub" start="20261025100000 +0000" stop="20261025140000 +0000">
     <title lang="fr">Radio - Canal M, Radio de Vues et Voix</title>
@@ -4049,14 +3917,6 @@ El Papa León XIV reza el Ángelus desde Roma. Esta oración especial, acompaña
   <programme start="20261025101500 +0100" stop="20261025103000 +0100" channel="custom-1063">
     <title lang="es">Shift</title>
   </programme>
-  <programme start="20261025101700 +0000" stop="20261025110000 +0000" channel="228dtv.pe">
-    <desc lang="es">S1 E1 — Sobreviviendo al secuestro
-Cinco mujeres comparten sus desgarradores relatos de secuestros y encarcelamientos. Hablan de lo que sucede cuando la cobertura mediática se termina. Además, conocemos cómo se han recuperado del trauma que han experimentado.</desc>
-    <episode-num>S1 E1</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Más allá de las noticias</title>
-    <title lang="en">Beyond the Headlines: The Series</title>
-  </programme>
   <programme start="20261025102000 -0500" stop="20261025121300 -0500" channel="custom-1228">
     <title lang="es">Annabelle 2: La Creación</title>
     <desc lang="es">Tras la muerte de su hija Annabelle Mullins (Samara Lee), Samuel (Anthony LaPaglia) un fabricante de muñecas y su esposa Esther (Miranda Otto) deciden prestar su casa a una monja y varias niñas de un orfanato recién cerrado para evitar que las niñas se queden sin hogar, pero pronto se convertirán en el blanco de la muñeca demoniaca llamada Annabelle.</desc>
@@ -4088,12 +3948,6 @@ Cinco mujeres comparten sus desgarradores relatos de secuestros y encarcelamient
       <value>7.0</value>
     </star-rating>
   </programme>
-  <programme start="20261025103000 +0000" stop="20261025110000 +0000" channel="custom-1065">
-    <desc lang="es">Periodístico
-Redes sociales, redes antisociales, noticias de última hora, noticias falsas: este es el programa sobre una revolución en los medios.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">The Media Show</title>
-  </programme>
   <programme channel="custom-1089" start="20261025103000 +0000" stop="20261025110000 +0000">
     <title lang="en">Bob and Margaret</title>
     <sub-title lang="en">Shopping</sub-title>
@@ -4122,12 +3976,6 @@ Redes sociales, redes antisociales, noticias de última hora, noticias falsas: e
     <rating system="Freiwillige Selbstkontrolle der Filmwirtschaft">
       <value>6</value>
     </rating>
-  </programme>
-  <programme start="20261025103000 +0000" stop="20261025110000 +0000" channel="custom-1215">
-    <desc lang="es">Publicidad
-Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
-    <icon src="https://iptv-epg.org/images/gYGJpZIDP1wlTbWNb47q1GFibYfJStOd7oyENZbUtZIOEYwuggLmR7amS6cNdweLWQcLBn4lsk76hYSWnagbd3NA3fjxYrV50WzX_gu1bNYynf0mNDDGzg" />
-    <title lang="es">Infomerciales</title>
   </programme>
   <programme start="20261025103000 +0100" stop="20261025110000 +0100" channel="custom-1063">
     <title lang="es">The 77 Percent</title>
@@ -4168,20 +4016,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
   <programme start="20261025103000 -0600" stop="20261025123000 -0600" channel="custom-1295">
     <title lang="es">Zona de Estrellas</title>
   </programme>
-  <programme start="20261025103500 +0000" stop="20261025113000 +0000" channel="627">
-    <desc lang="es">Musical
-Lo mejor de los himnos, canciones emblemáticas y los más colorido de videos de la comunidad LGBT+.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Rainbowlist</title>
-  </programme>
-  <programme start="20261025103800 +0000" stop="20261025110000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <desc lang="es">S12 E20 — Compras caras
-Asómbrate nuevamente con algunos de los artículos más caros en la trayectoria del programa. Una moneda de oro Panama Pacific de $70,000 dólares. Un Hidro Jetpack que hace volar a Corey.</desc>
-    <episode-num>S12 E20</episode-num>
-    <icon src="https://iptv-epg.org/images/_jtjDYDfsW_8vCTyr6t26p4di7rGAqymVyiXhhUy4gmZZTiVv2KsYBQhDl9WcrstUI1Hpfy_EhYVOgVYBTDpb4uvMl2YjuzBk2ZIvN8r4-yW--XQvf8jkccmZEUIYuaulxDPC0l1f_1UggkvLKs5sCLT52yzjDQkfrXhdJKvybUbMeWH" />
-    <title lang="es">Lo mejor de El precio de la historia</title>
-    <title lang="en">Best of Pawn Stars</title>
-  </programme>
   <programme start="20261025104800 -0600" stop="20261025113600 -0600" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
     <title lang="es">Houdini's Last Secrets</title>
     <sub-title lang="es">The Torture Escape</sub-title>
@@ -4189,31 +4023,6 @@ Asómbrate nuevamente con algunos de los artículos más caros en la trayectoria
   </programme>
   <programme start="20261025104800 -0600" stop="20261025113600 -0600" channel="custom-1026">
     <title lang="es">Mujer de Judas</title>
-  </programme>
-  <programme start="20261025105900 +0000" stop="20261025125800 +0000" channel="custom-1237">
-    <desc lang="es">Fecha 12, Toughsheet Community Stadium
-Vive los partidos de la 25º edición de la segunda división de Inglaterra, la English Football League Championship con un total de 24 equipos que competirán por el trofeo y el ascenso a la Primera división.</desc>
-    <icon src="https://iptv-epg.org/images/1bBwvR-Dc9S4wV0aJALPqiRr-M2FJrVSGwMHtKZvrMBgixW5xi7emP1_BbqaKmf4LHBv2F3dEOBMGi5DxSNYhpM8NRjH_6_F_il_ARWa1Tn362AkY0c" />
-    <title lang="es">Bolton vs. Middlesbrough</title>
-  </programme>
-  <programme start="20261025110000 +0000" stop="20261025113000 +0000" channel="228dtv.pe">
-    <desc lang="es">S1 E3 — Small Spaces, Big Flavor
-Buddy visita el restaurant DiFara Pizza, en Brooklyn. Allí buscará descubrir el secreto de la legendaria porción. Más tarde, viaja a Glendale, California, para aprender a hacer kebabs armenios tradicionales en Mini Kabob.</desc>
-    <episode-num>S1 E3</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Legends of the Fork</title>
-  </programme>
-  <programme start="20261025110000 +0000" stop="20261025112400 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <desc lang="es">S14 E27 — Super trato
-Una primera edición de la autobiografía de P. T. Barnum aparece en la tienda, Rick intenta resolver el misterio que podría ser un raro Dodge Charger 1966 con un motor Hemi, y una espada de la era napoleónica cae en manos de Chumlee.</desc>
-    <episode-num>S14 E27</episode-num>
-    <icon src="https://iptv-epg.org/images/4Ti4J2U3DbO9f_BAWUm5tnAGKKHZso1OrRvfSPh5J3k5UwkYNXiXrF31PcWoSq3UHW4O464ig_C7q6jX1mABo9E4ljnK0oiF1eOk7e-GaHdyo54KIN0NP-fKIIoD2sU1FKWIEAR7kqxTfmhXOv4DTp7PHqPx9g" />
-    <title lang="es">El precio de la historia</title>
-    <title lang="en">Pawn Stars</title>
-  </programme>
-  <programme start="20261025110000 +0000" stop="20261025113000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
   </programme>
   <programme channel="custom-1089" start="20261025110000 +0000" stop="20261025113000 +0000">
     <title lang="en">Super Dave</title>
@@ -4236,21 +4045,9 @@ Una primera edición de la autobiografía de P. T. Barnum aparece en la tienda, 
       <value>PG</value>
     </rating>
   </programme>
-  <programme start="20261025110000 +0000" stop="20261025113000 +0000" channel="custom-1215">
-    <desc lang="es">Publicidad
-Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
-    <icon src="https://iptv-epg.org/images/gYGJpZIDP1wlTbWNb47q1GFibYfJStOd7oyENZbUtZIOEYwuggLmR7amS6cNdweLWQcLBn4lsk76hYSWnagbd3NA3fjxYrV50WzX_gu1bNYynf0mNDDGzg" />
-    <title lang="es">Infomerciales</title>
-  </programme>
   <programme start="20261025110000 +0000" stop="20261025180000 +0000" channel="custom-28">
     <title lang="es">El Flow</title>
     <desc lang="es">Música, actualidad y entretenimiento para empezar el día con energía.</desc>
-  </programme>
-  <programme start="20261025110000 +0000" stop="20261025113000 +0000" channel="ewtn.pe">
-    <desc lang="es">Hora santa por la vida
-En este programa abordaremos la realidad de las madres que, en medio de la desesperación, sienten que no tienen salida, y de los bebés recién nacidos que son abandonados.</desc>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Informe Pro Vida</title>
   </programme>
   <programme start="20261025110000 +0100" stop="20261025110200 +0100" channel="custom-1063">
     <title lang="es">DW News</title>
@@ -4311,34 +4108,9 @@ En este programa abordaremos la realidad de las madres que, en medio de la deses
     <title lang="es">Hello Kitty Super Style!</title>
     <sub-title lang="es">El fantasma de Ciudad Cereza</sub-title>
   </programme>
-  <programme start="20261025112400 +0000" stop="20261025121200 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <desc lang="es">S24 E83 — Extraño y extravagante
-A la casa de empeño llegan algunos artículos verdaderamente extraños, aunque muy interesantes. Rick se ve absolutamente cautivado por una momia del Antiguo Egipto.</desc>
-    <episode-num>S24 E83</episode-num>
-    <icon src="https://iptv-epg.org/images/SUY87q4Fo3sAlPYuT7E6Q7yuaA1v_1POW3xSLvif_rVB630fEqTbx0dQ1Uf2ipefQjsEax7M276pss_exiqZnBTVgLBso6kDYjTxyyrkUK_JezmIWJYNoaWIowGjJZ3sMJuhSSO7SNaqTHLdCgswOs1J-MIu3g-8KgFpelj-wYptc7gsJcUsQHpDEJZG" />
-    <title lang="es">Lo mejor de El precio de la historia</title>
-    <title lang="en">Best of Pawn Stars</title>
-  </programme>
   <programme start="20261025112900 -0600" stop="20261025114100 -0600" channel="330dtv.co">
     <title lang="es">Hello Kitty Super Style!</title>
     <sub-title lang="es">¡Hola, Haroshee</sub-title>
-  </programme>
-  <programme start="20261025113000 +0000" stop="20261025120000 +0000" channel="228dtv.pe">
-    <desc lang="es">S1 E4 — Comida e entretenimento
-En Filadelfia, Buddy visita el Victor Café, un lugar famoso por aparecer en las películas Rocky y Creed. Allí, prueba ñoquis y saltimbocca de ternera. Más tarde, en Los Ángeles, visita El Coyote, un lugar emblemático de Hollywood.</desc>
-    <episode-num>S1 E4</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Legends of the Fork</title>
-  </programme>
-  <programme start="20261025113000 +0000" stop="20261025120000 +0000" channel="627">
-    <desc lang="es">Musical
-La mejor selección de videoclips para todos los gamers de parte de PlayHit.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">PlayHit</title>
-  </programme>
-  <programme start="20261025113000 +0000" stop="20261025114500 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
   </programme>
   <programme channel="custom-1089" start="20261025113000 +0000" stop="20261025120000 +0000">
     <title lang="en">Super Dave</title>
@@ -4360,18 +4132,6 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <rating system="Canadian Parental Rating">
       <value>PG</value>
     </rating>
-  </programme>
-  <programme start="20261025113000 +0000" stop="20261025120000 +0000" channel="custom-1215">
-    <desc lang="es">Publicidad
-Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
-    <icon src="https://iptv-epg.org/images/gYGJpZIDP1wlTbWNb47q1GFibYfJStOd7oyENZbUtZIOEYwuggLmR7amS6cNdweLWQcLBn4lsk76hYSWnagbd3NA3fjxYrV50WzX_gu1bNYynf0mNDDGzg" />
-    <title lang="es">Infomerciales</title>
-  </programme>
-  <programme start="20261025113000 +0000" stop="20261025120000 +0000" channel="ewtn.pe">
-    <desc lang="es">Contemplación para alcanzar el amor
-¿Cómo podemos amar más plenamente? La Contemplación para Alcanzar Amor de San Ignacio de Loyola nos guía a descubrir el amor de Dios en cada aspecto de la vida y a responder con un corazón lleno de..</desc>
-    <icon src="https://iptv-epg.org/images/6C7QmarwNqEY6-wZA0fsDF6ONAHI-7Wwitoe7DB06DTlhZJ6MCX5eX0NGyO9jZ5vaurlSgoT-r-0eM61vRo7SQ4yYZSlCLCuiQNl4jqAeDRVly4Lyq4XnkgekSHLSh_PDsOEoWpXb60bcPH4JVefMt8Ix9kiiMfLgPdHvg" />
-    <title lang="es">De dos en dos</title>
   </programme>
   <programme start="20261025113000 +0100" stop="20261025120000 +0100" channel="custom-1063">
     <title lang="es">REV</title>
@@ -4440,29 +4200,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/7474752.jpg" />
     <country lang="es">EE. UU</country>
   </programme>
-  <programme start="20261025114500 +0000" stop="20261025120000 +0000" channel="custom-1065">
-    <desc lang="es">Político
-Únase a Caitríona Perry y Sumi Somaskanda para una discusión semanal dinámica sobre la presidencia de Estados Unidos.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">The President's Path</title>
-  </programme>
-  <programme start="20261025114500 +0000" stop="20261025120000 +0000" channel="movistar.lch7217">
-    <desc lang="en">Recopilación de los mejores goles de la fecha 12 del Torneo Clausura 2026 de la Liga 1.</desc>
-    <icon src="https://iptv-epg.org/images/SyU5X9wbqgjjv2uGP04nUN7YiZ-tL7fUHj7J0x7_YCiSRU1Gab17hBQxNys0ey3WAGcpuMuqVWqZgU_fkomjMG2tEBC-Latx0xl14RUwqUqpofgfRWbfZFhLS_mmUnbLxdMfx_wwqgRS1gtBuyXtnZ9MZdbpgmJR8DhfELNrGAAVq-pWy1I" />
-    <title lang="en">Fillers L1 : Show de goles Liga 1: Torneo Clausura, fecha 12</title>
-  </programme>
-  <programme start="20261025120000 +0000" stop="20261025130000 +0000" channel="228dtv.pe">
-    <desc lang="es">Publicidad
-Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
-    <icon src="https://iptv-epg.org/images/gYGJpZIDP1wlTbWNb47q1GFibYfJStOd7oyENZbUtZIOEYwuggLmR7amS6cNdweLWQcLBn4lsk76hYSWnagbd3NA3fjxYrV50WzX_gu1bNYynf0mNDDGzg" />
-    <title lang="es">Infomerciales</title>
-  </programme>
-  <programme start="20261025120000 +0000" stop="20261025122500 +0000" channel="627">
-    <desc lang="es">Musical
-Disfrute de los mejores videos musicales.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Double Play</title>
-  </programme>
   <programme start="20261025120000 +0000" stop="20261025160000 +0000" channel="custom-1011">
     <title lang="es">Canal no disponible</title>
     <desc lang="es">Este canal ya no está disponible.</desc>
@@ -4474,10 +4211,6 @@ Disfrute de los mejores videos musicales.</desc>
     <rating system="UK Content Provider">
       <value>U</value>
     </rating>
-  </programme>
-  <programme start="20261025120000 +0000" stop="20261025123000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
   </programme>
   <programme channel="custom-1089" start="20261025120000 +0000" stop="20261025123000 +0000">
     <title lang="en">Bravest Warriors</title>
@@ -4505,23 +4238,6 @@ Disfrute de los mejores videos musicales.</desc>
     <rating system="Departamento de Justiça, Classificação, Títulos e Qualificação">
       <value>A12</value>
     </rating>
-  </programme>
-  <programme start="20261025120000 +0000" stop="20261025123000 +0000" channel="custom-1215">
-    <desc lang="es">Publicidad
-Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
-    <icon src="https://iptv-epg.org/images/gYGJpZIDP1wlTbWNb47q1GFibYfJStOd7oyENZbUtZIOEYwuggLmR7amS6cNdweLWQcLBn4lsk76hYSWnagbd3NA3fjxYrV50WzX_gu1bNYynf0mNDDGzg" />
-    <title lang="es">Infomerciales</title>
-  </programme>
-  <programme start="20261025120000 +0000" stop="20261025123000 +0000" channel="ewtn.pe">
-    <desc lang="es">Religioso
-Realicemos una plegaria popular a la Virgen María que contempla los misterios de nuestra fe.</desc>
-    <icon src="https://iptv-epg.org/images/hTKZe_JoLKU3qLoYtMsTjItkOMNXXtJDNufaru6SbyETr5ubeMVcU-6LgaHhA-cr18-yiq4mGgCTHRpDw055BMMHhCvZjicB3azHXMl5Bbtjxj5bWrB5DcUtKYAYBvGtf9rmX70TOdEj1Qye" />
-    <title lang="es">Santo Rosario - Misterios gloriosos</title>
-  </programme>
-  <programme start="20261025120000 +0000" stop="20261025143000 +0000" channel="movistar.lch7217">
-    <desc lang="en">Fecha 13 del Torneo Clausura 2026 de la Liga 1. Universitario de Deportes se enfrenta a Juan Pablo II College. Desde el Estadio Monumental U, en Lima.</desc>
-    <icon src="https://iptv-epg.org/images/SyU5X9wbqgjjv2uGP04nUN7YiZ-tL7fUHj7J0x7_YCiSRU1Gab17hBQxNys0ey3WAGcpuMuqVWqZgU_fkomjMG2tEBC-Latx0xl14RUwqUqpofgfRWbfZFhLS_mmUnbLxdMfx_wwqgRS1gtBuyXtnZ9MZdbpgmJR8DhfELNrGAAVq-pWy1I" />
-    <title lang="en">Fútbol Peruano Primera División : Universitario vs. Juan Pablo II College</title>
   </programme>
   <programme start="20261025120000 +0100" stop="20261025120200 +0100" channel="custom-1063">
     <title lang="es">DW News</title>
@@ -4570,29 +4286,6 @@ Realicemos una plegaria popular a la Virgen María que contempla los misterios d
     <title lang="es">Bubble's Hotel</title>
     <sub-title lang="es">Dando giros</sub-title>
   </programme>
-  <programme start="20261025120500 +0000" stop="20261025135500 +0000" channel="226dtv.cl">
-    <category lang="es">Musical</category>
-    <credits>
-      <director>Sergio Véjar</director>
-      <actor>Pedro Fernández</actor>
-      <actor>Nuria Bages</actor>
-      <actor>Arturo Alegría</actor>
-      <actor>Alma Delfina</actor>
-      <actor>Clarissa Ahuet</actor>
-    </credits>
-    <date>1986</date>
-    <desc lang="es">Un niño sucio y harapiento que vive en la calle recibe la ayuda de tres estudiantes que pasan siempre por allí. El niño está pasando una mala situación hasta que se enamora de una chica de mucho dinero e intenta conquistar su corazón.</desc>
-    <icon src="https://iptv-epg.org/images/ytj-Omkvy6ncLxyb52iFXsOcND3Ptpn00mAON5J02ngXeExPFe2Q0HbIzsBArVJD6J0sacvZH_rFV8TgZjCh6Gdi6CBzTfjNRjqhFKjFTyHQNoYXALXp" />
-    <title lang="es">Delincuente</title>
-  </programme>
-  <programme start="20261025121200 +0000" stop="20261025130000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <desc lang="es">S25 E115 — Empeño de cómics
-Una avalancha de cómics y superhéroes llega a la tienda, como una figura de Superman de 1939, que entra volando. Luego, un vendedor saca una edición especial de Stan Lee, al estilo Funko Pop.</desc>
-    <episode-num>S25 E115</episode-num>
-    <icon src="https://iptv-epg.org/images/G1rDC9q9gQ46D7B-LYNKVcSe-zblgaD306Se3YZ43MUeanrstfw7ql38HwnPkXh9vgPa-q_0PXCvMOIwx1uBW3AW4jbDBgOQs5oslDR49eY7Gb0NXLzYPmgMbl7Ehx3JBms0TMkz1OAdmNxgmHoZHSP2OBE5knETsLhe-Ua5SJraZQKonf_LeA" />
-    <title lang="es">Lo mejor de El precio de la historia</title>
-    <title lang="en">Best of Pawn Stars</title>
-  </programme>
   <programme start="20261025121300 -0500" stop="20261025135400 -0500" channel="custom-1228">
     <title lang="es">Annabelle</title>
   </programme>
@@ -4618,21 +4311,9 @@ Una avalancha de cómics y superhéroes llega a la tienda, como una figura de Su
   <programme start="20261025122400 -0600" stop="20261025131200 -0600" channel="custom-1026">
     <title lang="es">Mujer de Judas</title>
   </programme>
-  <programme start="20261025122500 +0000" stop="20261025132000 +0000" channel="627">
-    <desc lang="es">Musical
-Convierte tu hogar en una pista de baile, con las mezclas de los DJs latinoamericanos más talentosos y creativos, a través de este espacio que convierte los éxitos del momento de tus estrellas favoritas en soundtrack de tus fiestas.</desc>
-    <icon src="https://iptv-epg.org/images/vwqsQDyzCU0Xg2ydfdumbv_Bq69KnbGlYov_wTvHaQ3LXB-_KBVZrAQVvdP3L1D-0VOlDO6kUxq0nmg6xI0d22PRIictpDJ75Zf8WWgiHg9HS_VsyrE" />
-    <title lang="es">Super Beats</title>
-  </programme>
   <programme start="20261025122800 -0600" stop="20261025125400 -0600" channel="330dtv.co">
     <title lang="es">Mini beat power rockers</title>
     <sub-title lang="es">Solas tu y yo / Música enmascarada / ¡Adios, osito! / Melodía inolvidable / Un día de rodeo</sub-title>
-  </programme>
-  <programme start="20261025123000 +0000" stop="20261025130000 +0000" channel="custom-1065">
-    <desc lang="es">Turismo
-Exploraremos varios destinos alrededor del planeta para descubrir el lado escondido de algunos de los sitios más populares del mundo.</desc>
-    <icon src="https://iptv-epg.org/images/bq4qI6fGbYX4X37EfwGMJ_NBcJ63LeSkleePAoKQnYUsANVxgx0y2GhfWM9XGAm8lOYmirkYQVhL5WMC8Ug4X-ZP9U1RC91X3ovIewZRxB6NK5W9ZjPlxbWN" />
-    <title lang="es">The Travel Show</title>
   </programme>
   <programme channel="custom-1089" start="20261025123000 +0000" stop="20261025124500 +0000">
     <title lang="en">PSI Cops!</title>
@@ -4658,18 +4339,6 @@ Exploraremos varios destinos alrededor del planeta para descubrir el lado escond
     <rating system="USA Parental Rating">
       <value>TVMA</value>
     </rating>
-  </programme>
-  <programme start="20261025123000 +0000" stop="20261025130000 +0000" channel="custom-1215">
-    <desc lang="es">Publicidad
-Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
-    <icon src="https://iptv-epg.org/images/gYGJpZIDP1wlTbWNb47q1GFibYfJStOd7oyENZbUtZIOEYwuggLmR7amS6cNdweLWQcLBn4lsk76hYSWnagbd3NA3fjxYrV50WzX_gu1bNYynf0mNDDGzg" />
-    <title lang="es">Infomerciales</title>
-  </programme>
-  <programme start="20261025123000 +0000" stop="20261025125000 +0000" channel="ewtn.pe">
-    <desc lang="es">Religioso
-El Padre Luís Eduardo Rodríguez realizará un viaje alrededor de los 5 continentes, rezando la Divina Misericordia.</desc>
-    <icon src="https://iptv-epg.org/images/s9I4fjW1QcwX6KWSbR03Kiwk3DgPK_7KbqZiIpCBSt_StqD3KvrFZbl9OkL1yg6m7tSivZipb3FDSGi2xk7y7Bg5LTUDvmAQp_IxkRwtrqfuPalEpr5HtsTI2cIpJ5c5-2V7Tu9KSpZJoyMF4DCHItl38NH0HA" />
-    <title lang="es">Coronilla de la Divina Misericordia - Mundo</title>
   </programme>
   <programme start="20261025123000 +0100" stop="20261025130000 +0100" channel="custom-1063">
     <title lang="es">The Doctors of the Aegean</title>
@@ -4712,12 +4381,6 @@ El Padre Luís Eduardo Rodríguez realizará un viaje alrededor de los 5 contine
       <value>TVMA</value>
     </rating>
   </programme>
-  <programme start="20261025125000 +0000" stop="20261025130000 +0000" channel="ewtn.pe">
-    <desc lang="es">Letanía al santísimo nombre de Jesús
-Espacio de oración.</desc>
-    <icon src="https://iptv-epg.org/images/i6wgnnEkAAG7pQ6xVu0o2OUOnPLqN3DAV4g9Q-dY5bnNA3GLGA44Xv-11K-Al5fEhKMCBhGZ7IEQW91Vz-mLFKqcg6PgZUWBRcRERNKJRrp9DJEM69NjXca8jHZU4mmT-vJVBDF8zTcNUBsQX0rznNQ9A-sDuGHYgVyI7w" />
-    <title lang="es">Las letanías</title>
-  </programme>
   <programme start="20261025125400 -0600" stop="20261025125900 -0600" channel="330dtv.co">
     <title lang="es">Mini beat power rockers</title>
     <sub-title lang="es">La niñera durmiente</sub-title>
@@ -4725,31 +4388,9 @@ Espacio de oración.</desc>
   <programme start="20261025125500 -0600" stop="20261025130000 -0600" channel="custom-1254">
     <title lang="es">El tiempo</title>
   </programme>
-  <programme start="20261025125800 +0000" stop="20261025145700 +0000" channel="custom-1237">
-    <desc lang="es">Fase de Liga, Santiago Bernabéu Stadium
-Vive los partidos de la 72º edición de la UEFA Champions League, la competición internacional de fútbol más prestigiosa a nivel de clubes de Europa.</desc>
-    <icon src="https://iptv-epg.org/images/1bBwvR-Dc9S4wV0aJALPqiRr-M2FJrVSGwMHtKZvrMBgixW5xi7emP1_BbqaKmf4LHBv2F3dEOBMGi5DxSNYhpM8NRjH_6_F_il_ARWa1Tn362AkY0c" />
-    <title lang="es">Real Madrid (Esp) vs. RB Leipzig (Ale)</title>
-  </programme>
   <programme start="20261025125900 -0600" stop="20261025132200 -0600" channel="330dtv.co">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">¡Aventura espacial! / La estación de bomberos / Sr. Toribio, el profesor / El juego de busc</sub-title>
-  </programme>
-  <programme start="20261025130000 +0000" stop="20261025140000 +0000" channel="228dtv.pe">
-    <desc lang="es">Publicidad
-Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
-    <icon src="https://iptv-epg.org/images/gYGJpZIDP1wlTbWNb47q1GFibYfJStOd7oyENZbUtZIOEYwuggLmR7amS6cNdweLWQcLBn4lsk76hYSWnagbd3NA3fjxYrV50WzX_gu1bNYynf0mNDDGzg" />
-    <title lang="es">Infomerciales</title>
-  </programme>
-  <programme start="20261025130000 +0000" stop="20261025140000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <desc lang="es">Publicidad
-Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
-    <icon src="https://iptv-epg.org/images/gYGJpZIDP1wlTbWNb47q1GFibYfJStOd7oyENZbUtZIOEYwuggLmR7amS6cNdweLWQcLBn4lsk76hYSWnagbd3NA3fjxYrV50WzX_gu1bNYynf0mNDDGzg" />
-    <title lang="es">Infomerciales</title>
-  </programme>
-  <programme start="20261025130000 +0000" stop="20261025133000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
   </programme>
   <programme channel="custom-1089" start="20261025130000 +0000" stop="20261025133000 +0000">
     <title lang="en">Bob's Burgers</title>
@@ -4799,21 +4440,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
       <value>12</value>
     </rating>
   </programme>
-  <programme start="20261025130000 +0000" stop="20261025143500 +0000" channel="custom-1215">
-    <category lang="es">Acción</category>
-    <credits>
-      <director>Sylvester Stallone</director>
-      <actor>Sylvester Stallone</actor>
-      <actor>Talia Shire</actor>
-      <actor>Tony Burton</actor>
-      <actor>Burt Young</actor>
-      <actor>Michael Pataki</actor>
-    </credits>
-    <date>1985</date>
-    <desc lang="es">Rocky Balboa se siente culpable de la muerte de su amigo Apollo Creed a manos del campeón ruso, Iván Drago, ya que estando en el rincón del campeón durante la pelea, no arrojó la toalla en tan crucial momento.</desc>
-    <icon src="https://iptv-epg.org/images/7Q7wUFkSg3F06kdj0BbmVlclUTStM7euFDuPhimAdg0SVA3sVbWkoYDTOWRCZPF3sI5W3D2KMMBGdOLmaWhBSazf80aSinmE4OYOc-DqGw81W5kIAzutmQ" />
-    <title lang="es">Rocky IV</title>
-  </programme>
   <programme start="20261025130000 +0000" stop="20261025180000 +0000" channel="custom-1277">
     <title lang="es">Francisco el matemático</title>
     <desc lang="es">La historia de un profesor de matemáticas que es contratado por un colegio en el que debe enfrentarse a las actitudes rebeldes de algunos estudiantes.</desc>
@@ -4821,12 +4447,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261025130000 +0000" stop="20261025133000 +0000" channel="ewtn.pe">
-    <desc lang="es">Santa Teresa de Jesús
-Tomás y su esposa Sara comparte la historia de esta gran santa española, escritora de muchos libros espirituales y fundadora de muchos conventos.</desc>
-    <icon src="https://iptv-epg.org/images/YQo_6VB3WdQs6TViKKzuy92EPxsOBPD8O7bEa5mZY7Ck5awLPd2RbMv2ZI2U8iNvGoKC9PQ8IY90sMCzxeED0xwRehqxAgx-Ey_0hjze9JjUODuOVstf1Phw9stftO6KPXqScDnHiJRQOHOwOsnYCGLJ-7E" />
-    <title lang="es">Mi familia católica</title>
   </programme>
   <programme start="20261025130000 +0100" stop="20261025130200 +0100" channel="custom-1063">
     <title lang="es">DW News</title>
@@ -4916,21 +4536,9 @@ Tomás y su esposa Sara comparte la historia de esta gran santa española, escri
     <title lang="es">Reporter: On Location</title>
     <sub-title lang="es">Reporter</sub-title>
   </programme>
-  <programme start="20261025132000 +0000" stop="20261025141500 +0000" channel="627">
-    <desc lang="es">Musical
-Lo más cool del k pop actual.</desc>
-    <icon src="https://iptv-epg.org/images/-OFvSn0u5MZCH0JFwyJBJmdGU-kTAKD7Nb6oFTFxHTEmvpglD3BvZCw_HJuyVl1ULWntMJLuM9vroDbuxfTWUM-BYWuPCJ6Tb4hhjUx5KQQHxGWEjBgr" />
-    <title lang="es">Daebak K-pop</title>
-  </programme>
   <programme start="20261025132200 -0600" stop="20261025134500 -0600" channel="330dtv.co">
     <title lang="es">LEGO DREAMZzz</title>
     <sub-title lang="es">La anomalía</sub-title>
-  </programme>
-  <programme start="20261025133000 +0000" stop="20261025140000 +0000" channel="custom-1065">
-    <desc lang="es">Tecnología
-Un programa en el que se explora las últimas innovaciones y tecnologías que dan forma a la vida cotidiana y que logran adaptarse rápidamente en las sociedades y en las rutinas. Información, debates, entrevistas y novedades sorprendentes.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Tech Now</title>
   </programme>
   <programme channel="custom-1089" start="20261025133000 +0000" stop="20261025140000 +0000">
     <title lang="en">Bob's Burgers</title>
@@ -4973,12 +4581,6 @@ Un programa en el que se explora las últimas innovaciones y tecnologías que da
     <rating system="방송통신심의위원회">
       <value>12</value>
     </rating>
-  </programme>
-  <programme start="20261025133000 +0000" stop="20261025140000 +0000" channel="ewtn.pe">
-    <desc lang="es">Los santos
-En el pueblo de San Pablo, el padre Francisco, la madre superiora y las hermanas del convento, tienen la gran tarea de evangelizar a los pequeños. Los santos son personas a imitar pues ellos han encontrado la forma de agradar a Dios.</desc>
-    <icon src="https://iptv-epg.org/images/YKHmM2l5ugl_lKFpGDCJCbHQRnvK51FGwbJXu3TZyh3G1wSgfkPkt9VTTzgHoiE0vIfYxLM9Lhas3jFtObJCKyEdEF0VVW38xcOHpbgBqTSKyGBKF6ZGIniVta2ardXZAXpq" />
-    <title lang="es">Mis angelitos</title>
   </programme>
   <programme start="20261025133000 +0100" stop="20261025140000 +0100" channel="custom-1063">
     <title lang="es">Arts Unveiled</title>
@@ -5073,39 +4675,6 @@ En el pueblo de San Pablo, el padre Francisco, la madre superiora y las hermanas
       <value>7.0</value>
     </star-rating>
   </programme>
-  <programme start="20261025135500 +0000" stop="20261025171000 +0000" channel="226dtv.cl">
-    <category lang="es">Comedia</category>
-    <credits>
-      <director>Alfredo Zacarías</director>
-      <actor>Gaspar "Capulina" Henaine</actor>
-      <actor>Alicia Bonet</actor>
-      <actor>Roberto Gómez Bolaños</actor>
-      <actor>Gaspar Henaine</actor>
-      <actor>Amadee Chabot</actor>
-    </credits>
-    <date>1968</date>
-    <desc lang="es">Un muchacho es contratado por un ladrón, quien se hace pasar por un agente de seguridad. Sin embargo, con el tiempo, el joven se dará cuenta de que en realidad es la carnada del criminal, por lo que intentará detenerlo.</desc>
-    <icon src="https://iptv-epg.org/images/ytj-Omkvy6ncLxyb52iFXsOcND3Ptpn00mAON5J02ngXeExPFe2Q0HbIzsBArVJD6J0sacvZH_rFV8TgZjCh6Gdi6CBzTfjNRjqhFKjFTyHQNoYXALXp" />
-    <title lang="es">Operación carambola</title>
-    <title lang="en">Operación Carambola</title>
-  </programme>
-  <programme start="20261025140000 +0000" stop="20261025150300 +0000" channel="228dtv.pe">
-    <desc lang="es">S1 E6 — Sobreviviente
-Dulce vive en una familia con una madre que la maltrata y castiga. Cuando conoce a Ernesto cree haber encontrado a un príncipe azul, aunque ella es menor de edad, decide fugarse de todas formas con él. Pero luego se da cuenta de su error.</desc>
-    <episode-num>S1 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Amores que engañan</title>
-  </programme>
-  <programme start="20261025140000 +0000" stop="20261025150000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <desc lang="es">Publicidad
-Observa todos los productos electrodomésticos que dominan el mercado actual y que más se adaptan a tus necesidades. Además, conoce cómo obtenerlos de la manera más rápida y sencilla posible.</desc>
-    <icon src="https://iptv-epg.org/images/gYGJpZIDP1wlTbWNb47q1GFibYfJStOd7oyENZbUtZIOEYwuggLmR7amS6cNdweLWQcLBn4lsk76hYSWnagbd3NA3fjxYrV50WzX_gu1bNYynf0mNDDGzg" />
-    <title lang="es">Infomerciales</title>
-  </programme>
-  <programme start="20261025140000 +0000" stop="20261025143000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
-  </programme>
   <programme channel="custom-1089" start="20261025140000 +0000" stop="20261025143000 +0000">
     <title lang="en">Family Guy</title>
     <sub-title lang="en">Must Love Dogs</sub-title>
@@ -5163,12 +4732,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
     <rating system="Freiwillige Selbstkontrolle der Filmwirtschaft">
       <value>12</value>
     </rating>
-  </programme>
-  <programme start="20261025140000 +0000" stop="20261025143000 +0000" channel="ewtn.pe">
-    <desc lang="es">Los santos
-Enrique quiere escribir en el periódico local, pero es difícil conseguirlo. Cristín le dice que su padre conoce al director y puede interceder por él. Eso mismo hacen los santos: nos dan ejemplo de vida e interceden por nosotros ante Dios.</desc>
-    <icon src="https://iptv-epg.org/images/EY-lD-cVEc9DJnoA9OGaNRtAgTl2IGKZzL_9DPH6TJZrmpvtH70CB4iY8hJNvTaPpsn86XdmzUcaD3n3nwJu7yzA7dSQss6itodw6jPFddEm3ZiNcCFgSZWuNPAxhRTxMZgt_VHAvbCz" />
-    <title lang="es">Mi ratito con Jesús</title>
   </programme>
   <programme channel="regional-sol-stereo-tv-casma.teleclub" start="20261025140000 +0000" stop="20261025180000 +0000">
     <title lang="fr">Radio - Canal M, Radio de Vues et Voix</title>
@@ -5238,18 +4801,6 @@ Enrique quiere escribir en el periódico local, pero es difícil conseguirlo. Cr
     <title lang="es">100% Lobo La leyenda del anillo lunar</title>
     <sub-title lang="es">Fuera de tiempo</sub-title>
   </programme>
-  <programme start="20261025141500 +0000" stop="20261025144500 +0000" channel="627">
-    <desc lang="es">Musical
-Un programa que presenta los temas musicales más destadacados y que son tendencia. El público podrá disfrutar de los lanzamientos más actuales mientras baila y canta con los artistas más importantes.</desc>
-    <icon src="https://iptv-epg.org/images/q0lTdlIAbxIS1n4DBaTV4zTM3nZtfi6lU5v3cDPjtfq8imYsJKIBjRQq13cr8VittE5HSQzG5thx_yAVsf-uIyit2y0RzZCuvX0kh2nR5u4GgYf2GJo" />
-    <title lang="es">Mood: Perreo</title>
-  </programme>
-  <programme start="20261025143000 +0000" stop="20261025150000 +0000" channel="custom-1065">
-    <desc lang="es">Accra
-Clive Myrie viaja por África, visitando lugares poco vistos y sumergiéndose en diversas culturas.</desc>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Clive Myrie's African Adventure</title>
-  </programme>
   <programme channel="custom-1089" start="20261025143000 +0000" stop="20261025150000 +0000">
     <title lang="en">Family Guy</title>
     <sub-title lang="en">Mr. Griffin Goes to Washington</sub-title>
@@ -5304,17 +4855,6 @@ Clive Myrie viaja por África, visitando lugares poco vistos y sumergiéndose en
       <value>14</value>
     </rating>
   </programme>
-  <programme start="20261025143000 +0000" stop="20261025150000 +0000" channel="ewtn.pe">
-    <desc lang="es">Religioso
-Los niños se exponen de forma amena y dinámica a la oración a través de lecturas cortas que contemplan los misterios gozosos, gloriosos, dolorosos y luminosos, despertando su fe en el amor de Dios.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Rosario de niños - Misterios gloriosos</title>
-  </programme>
-  <programme start="20261025143000 +0000" stop="20261025153000 +0000" channel="movistar.lch7217">
-    <desc lang="en">Entrevista a Juan Cominges, reconocido por los títulos obtenidos con Sporting Cristal y Estudiantes de la Plata.</desc>
-    <icon src="https://iptv-epg.org/images/Qop78Llk3d8HAHSzwAzD9nShFsbFCLcAq25pODIr7ESbBxFaE4DSqu8NsA30QJ_TZ27h23d06Jy2khdxHfNTWhtkYlF7svaI9swwsCBqCV4ZDPlMuEdjVXohykvjAGC24-19EsCYIts0ozpx8kP7gGe0nisfKPDFVVAKJQ420Pt-iw7TQYE" />
-    <title lang="en">La palabra en juego : Juan Cominges</title>
-  </programme>
   <programme start="20261025143000 +0200" stop="20261025150000 +0200" channel="527">
     <title lang="es">Así es China</title>
     <desc lang="es">Descubre para el televidente el gran legado cultural e histórico de las distintas regiones y etnias de China. También le acerca a la vida y las costumbres de la gente común y le muestra la evolución del país en aspectos como educación, sociedad y protección del medio ambiente y del patrimonio histórico y natural.</desc>
@@ -5342,22 +4882,6 @@ Los niños se exponen de forma amena y dinámica a la oración a través de lect
     <title lang="es">Shasha y Milo cortos</title>
     <sub-title lang="es">La curiosidad de los gatos</sub-title>
   </programme>
-  <programme start="20261025143500 +0000" stop="20261025164000 +0000" channel="custom-1215">
-    <category lang="es">Comedia</category>
-    <credits>
-      <director>Andy Tennant</director>
-      <actor>Gerard Butler</actor>
-      <actor>Jennifer Aniston</actor>
-      <actor>Gio Perez</actor>
-      <actor>Jason Kolotouros</actor>
-      <actor>Matt Malloy</actor>
-    </credits>
-    <date>2010</date>
-    <desc lang="es">Milo Boyd es un cazarrecompensas que está viviendo una mala racha, hasta que le asignan el encargo de sus sueños: capturar a su ex-mujer, la periodista Nicole Hurley, que ha violado su libertad condicional.</desc>
-    <icon src="https://iptv-epg.org/images/1TXYxRzexSmZOh8FLm0MU6gZJVsbJPDng0MJRnQ2Q6XwW_uzIHYlHVW8TiK9f6lwjpkscoVVvmw1a9Z1_9fKv_rxwdM_BRWpj-TVIXTqH0oLRbc4NC-scB4w7bR1cyGagFiv" />
-    <title lang="es">El cazarrecompensas</title>
-    <title lang="en">The Bounty Hunter</title>
-  </programme>
   <programme start="20261025143900 -0300" stop="20261025154700 -0300" channel="custom-1232">
     <title lang="es">It: Welcome to Derry</title>
     <title lang="xx">The Thing in the Dark</title>
@@ -5381,12 +4905,6 @@ Los niños se exponen de forma amena y dinámica a la oración a través de lect
     <country lang="es">EE. UU</country>
     <episode-num system="onscreen">S1 E2</episode-num>
   </programme>
-  <programme start="20261025144500 +0000" stop="20261025154000 +0000" channel="627">
-    <desc lang="es">Musical
-Dedicado a la onda astrológica que está muy de moda, dando datos de los signos y aprovechando la temática para sumar a artistas del signo en cuestión.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Horoscopía</title>
-  </programme>
   <programme start="20261025144800 -0600" stop="20261025153600 -0600" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
     <title lang="es">Mitos del Universo</title>
     <sub-title lang="es">Asteroides Mortales</sub-title>
@@ -5398,27 +4916,9 @@ Dedicado a la onda astrológica que está muy de moda, dando datos de los signos
   <programme start="20261025145000 -0500" stop="20261025170100 -0500" channel="custom-1231">
     <title lang="es">Bugonia</title>
   </programme>
-  <programme start="20261025145700 +0000" stop="20261025155600 +0000" channel="custom-1237">
-    <desc lang="es">Final femenina
-Mira los momentos más destacados de los partidos del torneo Milán P1 de Premier Padel 2026.</desc>
-    <icon src="https://iptv-epg.org/images/1bBwvR-Dc9S4wV0aJALPqiRr-M2FJrVSGwMHtKZvrMBgixW5xi7emP1_BbqaKmf4LHBv2F3dEOBMGi5DxSNYhpM8NRjH_6_F_il_ARWa1Tn362AkY0c" />
-    <title lang="es">Sánchez / Ustero vs. Josemaria / Gonzalez</title>
-  </programme>
   <programme start="20261025145700 -0600" stop="20261025150200 -0600" channel="330dtv.co">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Peppa y la granja</sub-title>
-  </programme>
-  <programme start="20261025150000 +0000" stop="20261025152600 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <desc lang="es">S1 E2 — Johnstown: la inundación más mortal
-Theo Wilson viaja a orillas del río Johnstown, Pensilvania, en 1889, donde está a punto de desencadenarse la mayor inundación de la historia de Estados Unidos.</desc>
-    <episode-num>S1 E2</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Testigo de la historia</title>
-    <title lang="en">I Was There</title>
-  </programme>
-  <programme start="20261025150000 +0000" stop="20261025153000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
   </programme>
   <programme channel="custom-1089" start="20261025150000 +0000" stop="20261025153000 +0000">
     <title lang="en">Family Guy</title>
@@ -5473,12 +4973,6 @@ Theo Wilson viaja a orillas del río Johnstown, Pensilvania, en 1889, donde est�
     <rating system="Kijkwijzer">
       <value>14</value>
     </rating>
-  </programme>
-  <programme start="20261025150000 +0000" stop="20261025153000 +0000" channel="ewtn.pe">
-    <desc lang="es">La generosidad
-Nina y Juan el molinero por medio de conversaciones y diversas situaciones explican y hablan sobre la importancia de los valores.</desc>
-    <icon src="https://iptv-epg.org/images/mUYLVutxiGK-AD9kYpB-omVgAXso-gJ5uUTXF5yQjwdfD_DLlvmzcCdke3bVYD7jWr8WKyhJpq76jE9IvHvS8Q7SWqlXIVTLF6dtLlM2x5EEuNs7KAuboz6P6BgTbvfrYaOcQjgFh_sLVYzjKe4jcAI2EPQGvUDkaw" />
-    <title lang="es">Los cuentos de Juan El molinero</title>
   </programme>
   <programme start="20261025150000 +0100" stop="20261025150200 +0100" channel="custom-1063">
     <title lang="es">DW News</title>
@@ -5538,22 +5032,6 @@ Nina y Juan el molinero por medio de conversaciones y diversas situaciones expli
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Aviones de papel /La ropa nueva de George / Casa de Madame Gazelle / Viaje en tren</sub-title>
   </programme>
-  <programme start="20261025150300 +0000" stop="20261025163800 +0000" channel="228dtv.pe">
-    <category lang="es">Drama</category>
-    <credits>
-      <director>Troy Scott</director>
-      <actor>Sherilyn Allen</actor>
-      <actor>Jamall Johnson</actor>
-      <actor>Tamara McGregory</actor>
-      <actor>Navid Soofi</actor>
-      <actor>Satacy Mandelberg</actor>
-    </credits>
-    <date>2024</date>
-    <desc lang="es">Lola Winters, una futura madre, parece tenerlo todo: una hermosa casa, un apuesto esposo llamado Leo y un próspero negocio. Su mundo pronto se derrumba cuando una mujer aparece en su puerta afirmando que está casada con su esposo.</desc>
-    <icon src="https://iptv-epg.org/images/ytj-Omkvy6ncLxyb52iFXsOcND3Ptpn00mAON5J02ngXeExPFe2Q0HbIzsBArVJD6J0sacvZH_rFV8TgZjCh6Gdi6CBzTfjNRjqhFKjFTyHQNoYXALXp" />
-    <title lang="es">Pensé que estaba muerta</title>
-    <title lang="en">I Thought My Husband's Wife Was Dead</title>
-  </programme>
   <programme start="20261025151500 +0100" stop="20261025153000 +0100" channel="custom-1063">
     <title lang="es">Shift</title>
   </programme>
@@ -5565,14 +5043,6 @@ Nina y Juan el molinero por medio de conversaciones y diversas situaciones expli
     <rating system="MJColombia">
       <value>AGE227</value>
     </rating>
-  </programme>
-  <programme start="20261025152600 +0000" stop="20261025162300 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <desc lang="es">S1 E1 — Parte 1
-En 1939, el mundo estaba al borde de la guerra. Un enigmático hombre de negocios canadiense, William Stephenson, se embarcó en una misión que cambiaría la historia. Sus adversarios eran formidables.</desc>
-    <episode-num>S1 E1</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Operación de espionaje</title>
-    <title lang="en">Shadow Man</title>
   </programme>
   <programme start="20261025152600 -0600" stop="20261025170100 -0600" channel="330dtv.co">
     <title lang="es">Cómo Entrenar a tu Dragón 2</title>
@@ -5601,12 +5071,6 @@ En 1939, el mundo estaba al borde de la guerra. Un enigmático hombre de negocio
     <star-rating system="MX">
       <value>9.0</value>
     </star-rating>
-  </programme>
-  <programme start="20261025153000 +0000" stop="20261025160000 +0000" channel="custom-1065">
-    <desc lang="es">Interés general
-Un programa semanal del Servicio Mundial de la BBC, que ofrece periodismo forense de todos los rincones del mundo.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Global Eye</title>
   </programme>
   <programme channel="custom-1089" start="20261025153000 +0000" stop="20261025160000 +0000">
     <title lang="en">King of the Hill</title>
@@ -5643,17 +5107,6 @@ Un programa semanal del Servicio Mundial de la BBC, que ofrece periodismo forens
     <rating system="방송통신심의위원회">
       <value>15</value>
     </rating>
-  </programme>
-  <programme start="20261025153000 +0000" stop="20261025160000 +0000" channel="ewtn.pe">
-    <desc lang="es">El amigo inoportuno
-El monje pierde su rosario, sus amigos rezan para que Dios les mande una pelota, la confusión viene acompañada de una sorpresa y de la parábola del amigo inoportuno. El monje cuenta sobre la vida de Santa Mónica.</desc>
-    <icon src="https://iptv-epg.org/images/7SUuyHm6ap-UObrzVgzcVZZ3B6jxzte07dSDT9vMfr3FsrJdcgvLrRob9o6jlc56_3WJWmOOuSdSkD99wD0ZM7-uoEOBnpfWX8jds2-7CgOKkdZ4DzD_DUizTnBRRqjTfA0pjQDF9cYfJIyz3pEDpxD70uk76A" />
-    <title lang="es">La casita sobre la roca</title>
-  </programme>
-  <programme start="20261025153000 +0000" stop="20261025154500 +0000" channel="movistar.lch7217">
-    <desc lang="en">Antesala con la información más detallada de la Liga 1, Primera División del fútbol peruano.</desc>
-    <icon src="https://iptv-epg.org/images/_xvNLnIfw8FnlrRDwvfLGS6-G_qE7IRYuwknUtP3YOMBeVdomKqM0jJ-siPw-I-U4i0UV1kOvncjoS2E-rFS8fjDzg8Dp1oZiY1angdtgVlka-j93fQP5TQ1aeen_nRQAzKh6ELiExuSjEChqaDGwbDpj9Yy-9_1DVVO5yxqs3WBwEbt7uQ" />
-    <title lang="en">Liga 1, la previa : Comerciantes Unidos vs. Cienciano</title>
   </programme>
   <programme start="20261025153000 +0100" stop="20261025160000 +0100" channel="custom-1063">
     <title lang="es">Best of DW Vodcasts</title>
@@ -5700,12 +5153,6 @@ El monje pierde su rosario, sus amigos rezan para que Dios les mande una pelota,
   <programme start="20261025153600 -0600" stop="20261025162400 -0600" channel="custom-1026">
     <title lang="es">Maratón Quererte asi</title>
   </programme>
-  <programme start="20261025154000 +0000" stop="20261025163500 +0000" channel="627">
-    <desc lang="es">Musical
-Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, hoy o lo más nuevo.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Rocool-A</title>
-  </programme>
   <programme start="20261025154400 -0500" stop="20261025173900 -0500" channel="custom-1228">
     <title lang="es">El Conjuro</title>
     <desc lang="es">"The Conjuring". Ed (Patrick Wilson) y Lorraine Warren (Vera Farmiga) son dos investigadores de actividad paranormal que trabajan para ayudar a una familia que se encuentra aterrorizada por una presencia oscura en la casa de su granja.Forzados a enfrentarse a este ente poderoso, los Warren se ven a sí mismos atrapados en el caso más terrorífico de sus vidas.</desc>
@@ -5728,11 +5175,6 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <star-rating system="MX">
       <value>8.0</value>
     </star-rating>
-  </programme>
-  <programme start="20261025154500 +0000" stop="20261025180000 +0000" channel="movistar.lch7217">
-    <desc lang="en">Desde el Estadio Juan Maldonado Gamarra en Cutervo, Perú.</desc>
-    <icon src="https://iptv-epg.org/images/Rbtp_eji4WB5ZptgoolmOxuFuYj8dkliep9Lf921IJIwK7tD83roOoj6D4nj1se7rjxdeAmJlmxlpQ_m1BAO2jy0GYgTpLoZINpb2xh8cNqlWj1eux0O2u6gFC86at-LttjBbAzCUITJVRhwS6lRFE-yP3861P-HYCzHL566U_m0O1gaN50" />
-    <title lang="en">Fútbol Peruano Primera División : Comerciantes Unidos vs. Cienciano</title>
   </programme>
   <programme start="20261025154700 -0300" stop="20261025164800 -0300" channel="custom-1232">
     <title lang="es">It: Welcome to Derry</title>
@@ -5757,12 +5199,6 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <country lang="es">EE. UU</country>
     <episode-num system="onscreen">S1 E3</episode-num>
   </programme>
-  <programme start="20261025155600 +0000" stop="20261025165500 +0000" channel="custom-1237">
-    <desc lang="es">Final masculina
-Mira los momentos más destacados de los partidos del torneo Milán P1 de Premier Padel 2026.</desc>
-    <icon src="https://iptv-epg.org/images/1bBwvR-Dc9S4wV0aJALPqiRr-M2FJrVSGwMHtKZvrMBgixW5xi7emP1_BbqaKmf4LHBv2F3dEOBMGi5DxSNYhpM8NRjH_6_F_il_ARWa1Tn362AkY0c" />
-    <title lang="es">Tapia / Coello vs. Lebrón / Augsburger</title>
-  </programme>
   <programme start="20261025160000 +0000" stop="20261025200000 +0000" channel="custom-1011">
     <title lang="es">Canal no disponible</title>
     <desc lang="es">Este canal ya no está disponible.</desc>
@@ -5774,10 +5210,6 @@ Mira los momentos más destacados de los partidos del torneo Milán P1 de Premie
     <rating system="UK Content Provider">
       <value>U</value>
     </rating>
-  </programme>
-  <programme start="20261025160000 +0000" stop="20261025163000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
   </programme>
   <programme channel="custom-1089" start="20261025160000 +0000" stop="20261025163000 +0000">
     <title lang="en">King of the Hill</title>
@@ -5814,12 +5246,6 @@ Mira los momentos más destacados de los partidos del torneo Milán P1 de Premie
     <rating system="방송통신심의위원회">
       <value>15</value>
     </rating>
-  </programme>
-  <programme start="20261025160000 +0000" stop="20261025163000 +0000" channel="ewtn.pe">
-    <desc lang="es">Episodio 6
-En Guadalajara visitamos a las Misioneras De Jesús Resucitado, en el DF el apostolado, El Verdadero Amor Espera y en Monterrey la devoción a la madre de Dios en la Parroquia María Auxiliadora.</desc>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">México católico</title>
   </programme>
   <programme start="20261025160000 +0100" stop="20261025161500 +0100" channel="custom-1063">
     <title lang="es">DW News</title>
@@ -28782,11 +28208,6 @@ Tony Harris analiza los momentos más impactantes jamás capturados en cámara: 
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261026070000 +0000" stop="20261026080000 +0000" channel="custom-1056">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261026070000 +0000" stop="20261026073000 +0000" channel="custom-1059">
     <title lang="es">Tapeo español</title>
     <date>2026</date>
@@ -28904,11 +28325,6 @@ Tony Harris analiza los momentos más impactantes jamás capturados en cámara: 
     <icon src="https://iptv-epg.org/images/T4J6B7nAaRfw2dGRQZwzonLuNVDWT2MBWlq-MG5PoOgO7q8_hUYLiCL4Quh7799zKx9JJgvbLGRmGU-aFzUZqB67LuB8ZW8Xf7OY9DDRg80GDFWdOyoLc1m5DpuGT6GaGIg1tRsf" />
     <title lang="es">ESPN Knockout, el show</title>
   </programme>
-  <programme start="20261026070000 +0000" stop="20261026080000 +0000" channel="custom-1292">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261026070000 +0000" stop="20261026073000 +0000" channel="custom-1293">
     <title>Recuerdos de Cocina</title>
     <desc>Una reconocida chef prepara diversos platos y recetas haciendo acopio de sus más gratos y entrañables recuerdos que motivaron su pasión por la cocina.</desc>
@@ -29007,11 +28423,6 @@ Mediante un análisis práctico de la historia, no tan infantil, de Pinocho reco
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261026070000 +0000" stop="20261026080000 +0000" channel="movistar.lch7216">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261026070000 +0000" stop="20261026080000 +0000" channel="peru-internacional.teleclub">
     <title>Séptimo día</title>
@@ -30535,11 +29946,6 @@ Descubrimos los oficios más peligrosos de la historia: sombrereros envenenados 
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261026080000 +0000" stop="20261026090000 +0000" channel="custom-1056">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261026080000 +0000" stop="20261026083000 +0000" channel="custom-1059">
     <title lang="es">Maestros del ceviche</title>
     <sub-title lang="es">Lima y sus cevicherías de barrio</sub-title>
@@ -30635,11 +30041,6 @@ Los mejores combates de boxeo y MMA.</desc>
     <icon src="https://iptv-epg.org/images/1bBwvR-Dc9S4wV0aJALPqiRr-M2FJrVSGwMHtKZvrMBgixW5xi7emP1_BbqaKmf4LHBv2F3dEOBMGi5DxSNYhpM8NRjH_6_F_il_ARWa1Tn362AkY0c" />
     <title lang="es">Legacy Fighting Alliance: 244</title>
   </programme>
-  <programme start="20261026080000 +0000" stop="20261026090000 +0000" channel="custom-1292">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261026080000 +0000" stop="20261026083000 +0000" channel="custom-1293">
     <title>Más rico</title>
     <desc>Programa donde un reconocido chef y promotor gastronómico toma el reto de encontrar los 100 platos que mejor definen a los peruanos y, además, encontrar la forma de que estos sean sostenibles en el tiempo.</desc>
@@ -30713,11 +30114,6 @@ La Madre Angélica comparte su alegría y amor a Dios con el público. Junto a s
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261026080000 +0000" stop="20261026090000 +0000" channel="movistar.lch7216">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261026080000 +0000" stop="20261026090000 +0000" channel="peru-internacional.teleclub">
     <title>Se dice de mí</title>
@@ -32136,11 +31532,6 @@ La Mafia de Cleveland hace una apuesta fuerte en Las Vegas, participando de la c
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261026090000 +0000" stop="20261026100000 +0000" channel="custom-1056">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261026090000 +0000" stop="20261026094300 +0000" channel="custom-1058">
     <title lang="es">Cocina en la granja</title>
     <sub-title lang="es">Asado de bienvenida para mamá</sub-title>
@@ -32393,11 +31784,6 @@ Vive el detrás de escena de las mejores películas de acción. Desde tiroteos d
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261026090000 +0000" stop="20261026100000 +0000" channel="custom-1292">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261026090000 +0000" stop="20261026093000 +0000" channel="custom-1293">
     <title>Entre cuchillos y fuego</title>
     <desc>Un reconocido carnicero decide recorrer el mundo en busca de los maestros que lo llevaron a convertirse en el gran chef que es. Toda la información sobre la carne, comida congelada y los embutidos, para preparar deliciosos platos.</desc>
@@ -32494,11 +31880,6 @@ Espacio que aborda las informaciones católicas del mundo, incluye también repo
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261026090000 +0000" stop="20261026100000 +0000" channel="movistar.lch7216">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261026090000 +0000" stop="20261026093000 +0000" channel="movistar.lch7217">
     <desc lang="en">Análisis de todo lo que dejó la Liga 1, Primera División del fútbol peruano.</desc>
@@ -33852,11 +33233,6 @@ A través de los cielos de Europa, se llevó a cabo una batalla feroz y extremad
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261026100000 +0000" stop="20261026110000 +0000" channel="custom-1056">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261026100000 +0000" stop="20261026103000 +0000" channel="custom-1059">
     <title lang="es">Mapa de los sabores de México</title>
     <sub-title lang="es">Ensalada turula; Sopa de gota; Conejo en sihuamonte</sub-title>
@@ -33968,11 +33344,6 @@ Vive las emociones y toda la adrenalina de las carreras de la 78º edición de l
     <rating system="MJColombia">
       <value>AGE228</value>
     </rating>
-  </programme>
-  <programme start="20261026100000 +0000" stop="20261026110000 +0000" channel="custom-1292">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261026100000 +0000" stop="20261026103000 +0000" channel="custom-1293">
     <title>Diario de carretera</title>
@@ -34102,11 +33473,6 @@ En este programa abordaremos la realidad de las madres que, en medio de la deses
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261026100000 +0000" stop="20261026110000 +0000" channel="movistar.lch7216">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261026100000 +0000" stop="20261026123000 +0000" channel="movistar.lch7217">
     <desc lang="en">Programación deportiva que abarca toda la información reciente acerca de los equipos de fútbol español.</desc>
@@ -35883,11 +35249,6 @@ Un par de botas de Elton John, una moneda del Imperio Romano, un libro de Isaac 
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261026110000 +0000" stop="20261026120000 +0000" channel="custom-1056">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261026110000 +0000" stop="20261026113000 +0000" channel="custom-1059">
     <title lang="es">Menú para todos los días</title>
     <sub-title lang="es">Ragú de hongos y pollo gratinado, ensalada tipo César con kale y queso Chiapas</sub-title>
@@ -36037,11 +35398,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261026110000 +0000" stop="20261026120000 +0000" channel="custom-1292">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261026110000 +0000" stop="20261026113000 +0000" channel="custom-1293">
     <title>Entre cuchillos y fuego</title>
@@ -36195,11 +35551,6 @@ El Santo Grial que buscaban los Caballeros de la Tabla Redonda ¿es el mismo que
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261026110000 +0000" stop="20261026120000 +0000" channel="movistar.lch7216">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261026110000 +0000" stop="20261026120300 +0000" channel="national-geographic.teleclub">
     <title lang="es">Secreto en los océanos</title>
@@ -37670,11 +37021,6 @@ Noticias del mundo musical con nuestros mejores conductores.</desc>
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261026120000 +0000" stop="20261026130000 +0000" channel="custom-1056">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261026120000 +0000" stop="20261026123000 +0000" channel="custom-1059">
     <title lang="es">Con pocos ingredientes</title>
     <sub-title lang="es">Shawarma criollo, torta rogel, ensalada de papas</sub-title>
@@ -37829,11 +37175,6 @@ Vive los partidos del segundo torneo de la 97º edición de la Primera División
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261026120000 +0000" stop="20261026130000 +0000" channel="custom-1292">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261026120000 +0000" stop="20261026123000 +0000" channel="custom-1293">
     <title>+ 20 mil kilómetros: Historias del camino</title>
     <desc>Las historias más conmovedoras e impactantes del Perú a través de un recorrido por las ocho rutas más importantes del camino inca, Qhapac Ñan, junto a un famoso acompañante que ayude a develar todos sus secretos.</desc>
@@ -37985,11 +37326,6 @@ El Santo Sacrificio de la Misa desde la Capilla de EWTN, con los cantos gregoria
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261026120000 +0000" stop="20261026130000 +0000" channel="movistar.lch7216">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261026120000 +0000" stop="20261026122000 +0000" channel="nick.teleclub">
     <title lang="es">Una casa de locos</title>
@@ -39487,11 +38823,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261026130000 +0000" stop="20261026140000 +0000" channel="custom-1056">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261026130000 +0000" stop="20261026133000 +0000" channel="custom-1059">
     <title lang="es">Abuelita linda</title>
     <sub-title lang="es">San Blás</sub-title>
@@ -39617,11 +38948,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261026130000 +0000" stop="20261026140000 +0000" channel="custom-1292">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261026130000 +0000" stop="20261026133000 +0000" channel="custom-1293">
     <title>Sabe a Perú</title>
@@ -39765,11 +39091,6 @@ En los Misterios Gozosos meditamos sobre la vida de Jesús, desde la anunciació
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261026130000 +0000" stop="20261026140000 +0000" channel="movistar.lch7216">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261026130000 +0000" stop="20261026150000 +0000" channel="rpp-tv.teleclub">
     <title lang="es">Ampliación de noticias</title>
@@ -41450,11 +40771,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261026140000 +0000" stop="20261026150000 +0000" channel="custom-1056">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261026140000 +0000" stop="20261026143000 +0000" channel="custom-1059">
     <title lang="es">Blanca cocina con air fryer</title>
     <sub-title lang="es">Torrezno con salsa brava</sub-title>
@@ -41585,11 +40901,6 @@ Vive el detrás de escena de las mejores películas de acción. Desde tiroteos d
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261026140000 +0000" stop="20261026150000 +0000" channel="custom-1292">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261026140000 +0000" stop="20261026143000 +0000" channel="custom-1293">
     <title>Recuerdos de Cocina</title>
     <desc>Una reconocida chef prepara diversos platos y recetas haciendo acopio de sus más gratos y entrañables recuerdos que motivaron su pasión por la cocina.</desc>
@@ -41706,11 +41017,6 @@ Manuel y Felipe ganan un ticket al campeonato de baloncesto en mismo día que el
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261026140000 +0000" stop="20261026150000 +0000" channel="movistar.lch7216">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261026140000 +0000" stop="20261026142500 +0000" channel="nick.teleclub">
     <title lang="es">El show de Patricio Estrella</title>
@@ -155249,6 +154555,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="original-air-date">2006-10-28 00:00:00</episode-num>
     <previously-shown start="20061028000000" />
   </programme>
+  <programme start="20261029070000 +0000" stop="20261029080000 +0000" channel="custom-1056">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261029070000 +0000" stop="20261029073000 +0000" channel="custom-1069">
     <title>En los pasos del maestro</title>
     <desc>Ray Comfort y su equipo abordan algunas de las preguntas más difíciles sobre Dios, la Biblia y temas candentes que tanto los escépticos como los creyentes enfrentan, de una manera profunda y a menudo humorística.</desc>
@@ -155309,6 +154620,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="xmltv_ns">2025.1028.</episode-num>
     <episode-num system="original-air-date">2025-06-11 00:00:00</episode-num>
     <previously-shown start="20250611000000" />
+  </programme>
+  <programme start="20261029070000 +0000" stop="20261029080000 +0000" channel="custom-1292">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261029070000 +0000" stop="20261029073000 +0000" channel="custom-1293">
     <title>Recuerdos de Cocina</title>
@@ -155384,6 +154700,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="xmltv_ns">2025.1028.</episode-num>
     <episode-num system="original-air-date">2002-12-28 00:00:00</episode-num>
     <previously-shown start="20021228000000" />
+  </programme>
+  <programme start="20261029070000 +0000" stop="20261029080000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261029070000 +0000" stop="20261029073000 +0000" channel="peru-internacional.teleclub">
     <title>Travesía</title>
@@ -155978,6 +155299,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="original-air-date">2016-02-06 00:00:00</episode-num>
     <previously-shown start="20160206000000" />
   </programme>
+  <programme start="20261029080000 +0000" stop="20261029090000 +0000" channel="custom-1056">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261029080000 +0000" stop="20261029083000 +0000" channel="custom-1084">
     <title>Mi Casa Feliz</title>
     <desc>La historia de Joel y Ruth dentro de su hogar, donde vivirán experiencias divertidas que van acompañadas de una historia bíblica narrada especialmente para los niños.</desc>
@@ -156038,6 +155364,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <rating system="MPAA">
       <value>TVY7</value>
     </rating>
+  </programme>
+  <programme start="20261029080000 +0000" stop="20261029090000 +0000" channel="custom-1292">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261029080000 +0000" stop="20261029083000 +0000" channel="custom-1293">
     <title>Más rico</title>
@@ -156105,6 +155436,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="xmltv_ns">2025.1028.</episode-num>
     <episode-num system="original-air-date">2002-12-28 00:00:00</episode-num>
     <previously-shown start="20021228000000" />
+  </programme>
+  <programme start="20261029080000 +0000" stop="20261029090000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261029080000 +0000" stop="20261029090000 +0000" channel="movistar.lch7217">
     <desc lang="en">Desde el estadio Campeones del 36 en Sullana, Perú.</desc>
@@ -156579,6 +155915,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="original-air-date">2013-07-28 00:00:00</episode-num>
     <previously-shown start="20130728000000" />
   </programme>
+  <programme start="20261029090000 +0000" stop="20261029100000 +0000" channel="custom-1056">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261029090000 +0000" stop="20261029110000 +0000" channel="custom-1061">
     <title>Montalbano</title>
     <sub-title>El sentido del tacto</sub-title>
@@ -156678,6 +156019,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TVG</value>
     </rating>
   </programme>
+  <programme start="20261029090000 +0000" stop="20261029100000 +0000" channel="custom-1292">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261029090000 +0000" stop="20261029093000 +0000" channel="custom-1293">
     <title>Entre cuchillos y fuego</title>
     <desc>Un reconocido carnicero decide recorrer el mundo en busca de los maestros que lo llevaron a convertirse en el gran chef que es. Toda la información sobre la carne, comida congelada y los embutidos, para preparar deliciosos platos.</desc>
@@ -156745,6 +156091,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="xmltv_ns">2025.1028.</episode-num>
     <episode-num system="original-air-date">2002-12-28 00:00:00</episode-num>
     <previously-shown start="20021228000000" />
+  </programme>
+  <programme start="20261029090000 +0000" stop="20261029100000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261029090000 +0000" stop="20261029103000 +0000" channel="movistar.lch7217">
     <desc lang="en">Desde el estadio Campeones del 36 en Sullana, Perú.</desc>
@@ -157203,6 +156554,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="original-air-date">2016-08-04 00:00:00</episode-num>
     <previously-shown start="20160804000000" />
   </programme>
+  <programme start="20261029100000 +0000" stop="20261029110000 +0000" channel="custom-1056">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261029100000 +0000" stop="20261029103000 +0000" channel="custom-1069">
     <title>En contacto con Charles Stanley</title>
     <desc>El Dr. Charles Stanley, pastor de la primera iglesia bautista de Atlanta, comparte sus ideas sobre la fe cristiana e instruye a los espectadores con motivación espiritual.</desc>
@@ -157242,6 +156598,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="xmltv_ns">2025.1028.</episode-num>
     <episode-num system="original-air-date">2016-08-04 00:00:00</episode-num>
     <previously-shown start="20160804000000" />
+  </programme>
+  <programme start="20261029100000 +0000" stop="20261029110000 +0000" channel="custom-1292">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261029100000 +0000" stop="20261029103000 +0000" channel="custom-1293">
     <title>Diario de carretera</title>
@@ -157329,6 +156690,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="xmltv_ns">2025.1028.</episode-num>
     <episode-num system="original-air-date">2002-12-28 00:00:00</episode-num>
     <previously-shown start="20021228000000" />
+  </programme>
+  <programme start="20261029100000 +0000" stop="20261029110000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261029100000 +0000" stop="20261029101500 +0000" channel="peru-internacional.teleclub">
     <title>La finca de hoy</title>
@@ -158021,6 +157387,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="original-air-date">2015-09-25 00:00:00</episode-num>
     <previously-shown start="20150925000000" />
   </programme>
+  <programme start="20261029110000 +0000" stop="20261029120000 +0000" channel="custom-1056">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261029110000 +0000" stop="20261029125000 +0000" channel="custom-1061">
     <title>El jugador de ajedrez</title>
     <desc>Diego Padilla, un campeón de ajedrez español que reside en Francia por amor, es acusado de espía por los nazis y encerrado en una prisión de las SS. Allí sobrevivirá en un entorno hostil gracias a la afición al ajedrez de uno de los coroneles.</desc>
@@ -158102,6 +157473,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="original-air-date">2012-11-16 00:00:00</episode-num>
     <previously-shown start="20121116000000" />
   </programme>
+  <programme start="20261029110000 +0000" stop="20261029120000 +0000" channel="custom-1292">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261029110000 +0000" stop="20261029113000 +0000" channel="custom-1293">
     <title>Entre cuchillos y fuego</title>
     <desc>Un reconocido carnicero decide recorrer el mundo en busca de los maestros que lo llevaron a convertirse en el gran chef que es. Toda la información sobre la carne, comida congelada y los embutidos, para preparar deliciosos platos.</desc>
@@ -158168,6 +157544,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="xmltv_ns">2025.1028.</episode-num>
     <episode-num system="original-air-date">2002-12-28 00:00:00</episode-num>
     <previously-shown start="20021228000000" />
+  </programme>
+  <programme start="20261029110000 +0000" stop="20261029120000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261029110000 +0000" stop="20261029133000 +0000" channel="peru.teleclub">
     <title>Primera hora</title>
@@ -158652,6 +158033,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="original-air-date">2015-08-03 00:00:00</episode-num>
     <previously-shown start="20150803000000" />
   </programme>
+  <programme start="20261029120000 +0000" stop="20261029130000 +0000" channel="custom-1056">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261029120000 +0000" stop="20261029123000 +0000" channel="custom-1069">
     <title>Casa de Dios</title>
     <desc>Espacio con un mensaje de fe, renovador y lleno de presencia del Espíritu Santo.</desc>
@@ -158704,6 +158090,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <length units="minutes">80</length>
     <icon src="https://ebyl.tmsimg.com/assets/p13052466_v_v8_aa.jpg" />
     <episode-num system="dd_progid">MV00908164.0000</episode-num>
+  </programme>
+  <programme start="20261029120000 +0000" stop="20261029130000 +0000" channel="custom-1292">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261029120000 +0000" stop="20261029123000 +0000" channel="custom-1293">
     <title>+ 20 mil kilómetros: Historias del camino</title>
@@ -158792,6 +158183,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="xmltv_ns">2025.1028.</episode-num>
     <episode-num system="original-air-date">2002-12-28 00:00:00</episode-num>
     <previously-shown start="20021228000000" />
+  </programme>
+  <programme start="20261029120000 +0000" stop="20261029130000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261029120000 +0000" stop="20261029123000 +0000" channel="telesur.ar">
     <title>Impacto económico - Emisión matutina</title>
@@ -159343,6 +158739,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="original-air-date">2015-08-03 00:00:00</episode-num>
     <previously-shown start="20150803000000" />
   </programme>
+  <programme start="20261029130000 +0000" stop="20261029140000 +0000" channel="custom-1056">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261029130000 +0000" stop="20261029133000 +0000" channel="custom-1069">
     <title>Enlace Ora</title>
     <desc>Programa que comparte la Palabra de Dios con oraciones por peticiones y necesidades de personas y por temas específicos.</desc>
@@ -159398,6 +158799,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="xmltv_ns">2025.1028.</episode-num>
     <episode-num system="original-air-date">2021-11-15 00:00:00</episode-num>
     <previously-shown start="20211115000000" />
+  </programme>
+  <programme start="20261029130000 +0000" stop="20261029140000 +0000" channel="custom-1292">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261029130000 +0000" stop="20261029133000 +0000" channel="custom-1293">
     <title>Sabe a Perú</title>
@@ -159504,6 +158910,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <rating system="MPAA">
       <value>TVY</value>
     </rating>
+  </programme>
+  <programme start="20261029130000 +0000" stop="20261029140000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261029130000 +0000" stop="20261029143000 +0000" channel="movistar.lch7217">
     <desc lang="en">Cobertura de la Liga 1 de Perú con reconocidos periodistas que aportan sus análisis y comentarios del fútbol.</desc>
@@ -160143,6 +159554,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="original-air-date">2016-02-06 00:00:00</episode-num>
     <previously-shown start="20160206000000" />
   </programme>
+  <programme start="20261029140000 +0000" stop="20261029150000 +0000" channel="custom-1056">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261029140000 +0000" stop="20261029143000 +0000" channel="custom-1069">
     <title>Otoniel Font</title>
     <desc>La idea de Dios del huerto del Edén siempre fue una idea de conquista y de dominio, una idea de multiplicación en la Tierra. El paraíso restaurado en la vida de una persona comienza con el conocimiento de la salvación.</desc>
@@ -160195,6 +159611,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="xmltv_ns">2025.1028.</episode-num>
     <episode-num system="original-air-date">2012-09-07 00:00:00</episode-num>
     <previously-shown start="20120907000000" />
+  </programme>
+  <programme start="20261029140000 +0000" stop="20261029150000 +0000" channel="custom-1292">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261029140000 +0000" stop="20261029143000 +0000" channel="custom-1293">
     <title>Recuerdos de Cocina</title>
@@ -160265,6 +159686,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <rating system="MPAA">
       <value>TVY7</value>
     </rating>
+  </programme>
+  <programme start="20261029140000 +0000" stop="20261029150000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261029140000 +0000" stop="20261029163000 +0000" channel="peru-internacional.teleclub">
     <title>Día a día</title>
