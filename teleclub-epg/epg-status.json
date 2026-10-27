@@ -1,15 +1,14 @@
 {
-  "channels": 288,
-  "programmes": 17439,
-  "channels_with_programmes": 288,
-  "real_epg_channels": 138,
-  "generic_epg_channels": 150,
+  "channels": 287,
+  "programmes": 17250,
+  "channels_with_programmes": 287,
+  "real_epg_channels": 139,
+  "generic_epg_channels": 148,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "208dtv.cl",
     "589",
     "590",
-    "760dtv.cl",
     "Juntos-tv.teleclub",
     "Primeratelevisión.teleclub",
     "Tv+-teleclub",
@@ -21,6 +20,7 @@
     "cadena-tv.teleclub",
     "cbn-tv.teleclub",
     "chincha.teleclub",
+    "chv-noticias.teleclub",
     "chv-teleclub",
     "cineclub-tv.teleclub",
     "cositel-tv-ica.teleclub",
@@ -68,7 +68,6 @@
     "custom-1247",
     "custom-1249",
     "custom-1252",
-    "custom-1255",
     "custom-1273",
     "custom-1278",
     "custom-1279",
@@ -113,7 +112,6 @@
     "movistar.lch6519",
     "movistar.lch7110",
     "movistar.lch7202",
-    "nacional-tv.teleclub",
     "nativa-tv.teleclub",
     "nzk-tv.teleclub",
     "onda-tv.teleclub",
@@ -279,7 +277,7 @@
       "name": "CHV"
     },
     {
-      "id": "custom-1255",
+      "id": "chv-noticias.teleclub",
       "name": "CHV NOTICIAS"
     },
     {
@@ -425,10 +423,6 @@
     {
       "id": "regional-telesur-camana.teleclub",
       "name": "Monterrico tv"
-    },
-    {
-      "id": "nacional-tv.teleclub",
-      "name": "Nacional tv"
     },
     {
       "id": "movistar.lch6519",
@@ -717,10 +711,6 @@
     {
       "id": "Unitel-huancayo-teleclub",
       "name": "Unitel tv Huancayo"
-    },
-    {
-      "id": "760dtv.cl",
-      "name": "UNIVISION"
     },
     {
       "id": "uranio-tv.teleclub",
