@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-26T23:13:23.271186+00:00" radio-la-zona-updated-at="2026-10-26T23:13:23.437082+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-27T02:11:07.616916+00:00" radio-la-zona-updated-at="2026-10-27T02:11:07.989225+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -821,11 +821,11 @@
   <channel id="cineclub-tv.teleclub">
     <display-name lang="es">Cuba tv Ayacucho</display-name>
   </channel>
-  <channel id="custom-1225">
-    <display-name lang="es">HBO</display-name>
-  </channel>
   <channel id="custom-1224">
     <display-name lang="es">TNT NOVELAS</display-name>
+  </channel>
+  <channel id="custom-1225">
+    <display-name lang="es">HBO</display-name>
   </channel>
   <channel id="custom-1226">
     <display-name lang="es">HBO 2</display-name>
@@ -895,11 +895,14 @@
   <channel id="custom-1252">
     <display-name lang="es">TELEFE</display-name>
   </channel>
+  <channel id="mtv.teleclub-2">
+    <display-name lang="es">MTV</display-name>
+  </channel>
   <channel id="custom-1254">
     <display-name lang="es">MEGA CHILE</display-name>
   </channel>
   <channel id="custom-1255">
-    <display-name lang="es">CHV</display-name>
+    <display-name lang="es">CHV NOTICIAS</display-name>
   </channel>
   <channel id="custom-1273">
     <display-name lang="es">TELERITMO</display-name>
@@ -984,6 +987,9 @@
   <channel id="custom-1309">
     <display-name lang="es">CANAL CPN</display-name>
   </channel>
+  <channel id="latin-tv-huararaz.teleclub">
+    <display-name lang="es">LATIN TV HUARAZ</display-name>
+  </channel>
   <channel id="custom-1314">
     <display-name lang="es">CANELA TV NOVELAS TURCAS</display-name>
   </channel>
@@ -1010,6 +1016,9 @@
   </channel>
   <channel id="custom-1327">
     <display-name lang="es">Radio Que buena ayacucho</display-name>
+  </channel>
+  <channel id="custom-1329">
+    <display-name lang="es">HTV MUSICA</display-name>
   </channel>
   <programme start="20261024000200 +0100" stop="20261024003000 +0100" channel="custom-1063">
     <title lang="es">The Day</title>
@@ -16258,8 +16267,8 @@ Descubra cómo se prepara el Día de Muertos, a través de encuentros con famili
     <desc lang="es">Programación en vivo de TELEFE. Categoría: Cable.</desc>
   </programme>
   <programme start="20261026050000 +0000" stop="20261027050000 +0000" channel="custom-1255">
-    <title lang="es">CHV - En vivo</title>
-    <desc lang="es">Programación en vivo de CHV. Categoría: Premium.</desc>
+    <title lang="es">CHV NOTICIAS - En vivo</title>
+    <desc lang="es">Programación en vivo de CHV NOTICIAS. Categoría: Premium.</desc>
   </programme>
   <programme start="20261026050000 +0000" stop="20261027050000 +0000" channel="custom-1273">
     <title lang="es">TELERITMO - En vivo</title>
@@ -16354,6 +16363,10 @@ Descubra cómo se prepara el Día de Muertos, a través de encuentros con famili
   <programme start="20261026050000 +0000" stop="20261027050000 +0000" channel="custom-1327">
     <title lang="es">Radio Que buena ayacucho - En vivo</title>
     <desc lang="es">Programación en vivo de Radio Que buena ayacucho. Categoría: Radios.</desc>
+  </programme>
+  <programme start="20261026050000 +0000" stop="20261027050000 +0000" channel="custom-1329">
+    <title lang="es">HTV MUSICA - En vivo</title>
+    <desc lang="es">Programación en vivo de HTV MUSICA. Categoría: Cable.</desc>
   </programme>
   <programme start="20261026050000 +0000" stop="20261026060000 +0000" channel="custom-24">
     <title>La Resolana</title>
@@ -16467,6 +16480,10 @@ El Papa León XIV reza el Ángelus desde Roma. Esta oración especial, acompaña
     <episode-num system="xmltv_ns">2025.1025.</episode-num>
     <episode-num system="original-air-date">2002-12-28 00:00:00</episode-num>
     <previously-shown start="20021228000000" />
+  </programme>
+  <programme start="20261026050000 +0000" stop="20261027050000 +0000" channel="latin-tv-huararaz.teleclub">
+    <title lang="es">LATIN TV HUARAZ - En vivo</title>
+    <desc lang="es">Programación en vivo de LATIN TV HUARAZ. Categoría: Cable.</desc>
   </programme>
   <programme start="20261026050000 +0000" stop="20261027050000 +0000" channel="latina-clasicos.teleclub">
     <title lang="es">Latina clásicos - En vivo</title>
@@ -32018,6 +32035,16 @@ Descubra cómo se prepara el Día de Muertos, a través de encuentros con famili
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">México entre 2 mundos</title>
   </programme>
+  <programme start="20261026170500 +0000" stop="20261026174500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Caught in the Act: Unfaithful</title>
+    <sub-title lang="es">Just Girls Being Girls</sub-title>
+    <desc lang="es">Gianni siempre supo que era el primer amor de Alondra, pero después de que Tami le revelara la verdad, es posible que pronto se dé cuenta de que podría ser el último.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E25</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261026170500 +0000" stop="20261026173000 +0000" channel="telesur.ar">
     <title>Impacto económico - Emisión matutina</title>
     <desc>Las noticias más relevantes del acontecer económico de América Latina y el mundo.</desc>
@@ -33038,6 +33065,16 @@ Muchas victorias se gestaron en operaciones secretas. Una agente de la Resistenc
     <desc lang="es">Una breve sección para conocer las últimas y más destacadas noticias del ámbito deportivo.</desc>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261026174500 +0000" stop="20261026183000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Caught in the Act: Unfaithful</title>
+    <sub-title lang="es">You Gotta Run Faster Than That, Ken</sub-title>
+    <desc lang="es">Lisa sospecha que su pareja en el amor y los negocios, Joseph, podría estar engañándola a ella y su mascota, Chloe. Él asegura que los negocios lo mantienen lejos de casa, pero Lisa cree que son puros cuentos.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E26</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261026174500 -0600" stop="20261026175000 -0600" channel="330dtv.co">
@@ -34441,6 +34478,16 @@ El Santo Sacrificio de la Misa desde la Capilla de EWTN, con los cantos gregoria
     <episode-num system="original-air-date">2014-01-08 00:00:00</episode-num>
     <previously-shown start="20140108000000" />
   </programme>
+  <programme start="20261026183000 +0000" stop="20261026191000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Caught in the Act: Unfaithful</title>
+    <sub-title lang="es">He Don't Even Have a Car</sub-title>
+    <desc lang="es">Marvin recurre a Tami para exponer la verdad sobre su relación. Él cree que Tashi, su novia y conductora de una aplicación de transportes, podría estar bailando a otro son.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E27</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261026183000 +0000" stop="20261026190000 +0000" channel="telesur.ar">
     <title>Lenguaje de señas</title>
     <date>20041128</date>
@@ -35603,6 +35650,16 @@ Espacio en el que se darán a conocer historias conmovedoras y divertidas con un
     <icon src="https://iptv-epg.org/images/wWnTbX31oFvY5YEQIhyPLKFI3YZZBCbm-8KURXxR2Qh3z_rIlkc-HFNwd_s9dWQdTKgeV2bYdxO3y_CJg1RII5K-wmchTmSLP5aH42lxsqaIhds007qyRPEvRiQ9" />
     <title lang="es">Como dice el dicho</title>
   </programme>
+  <programme start="20261026191000 +0000" stop="20261026195000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Storytellers</title>
+    <sub-title lang="es">No Doubt</sub-title>
+    <desc lang="es">"Sunday Morning"; "Just a Girl"; "Don't Speak"; "Ex-Girlfriend"; "Simple Kind of Life"; "Spiderwebs"; "Trapped in a Box".</desc>
+    <date>2000</date>
+    <episode-num system="onscreen">E9</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261026191000 +0000" stop="20261026193000 +0000" channel="nick.teleclub">
     <title lang="es">Una casa de locos</title>
     <sub-title lang="es">Colas de terror; El útimo Loud sobre la Tierra</sub-title>
@@ -36630,6 +36687,16 @@ Espacio de oración.</desc>
     <date>2026</date>
     <rating system="MJColombia">
       <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261026195000 +0000" stop="20261026203500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master</title>
+    <sub-title lang="es">OGs vs. Young Gun</sub-title>
+    <desc lang="es">Los tres finalistas revelan sus tatuajes de Master Canvas. Rostros conocidos regresan en un giro final inesperado. Una sorpresa inesperada conmueve a los artistas hasta las lágrimas.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E10</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
     </rating>
   </programme>
   <programme start="20261026195000 +0000" stop="20261026202000 +0000" channel="usmp-tv.teleclub">
@@ -38245,6 +38312,16 @@ El contexto que enmarca la vida y la acción de Anacleto González está ligado 
     <icon src="https://ebyl.tmsimg.com/assets/p18879577_v_v8_aa.jpg" />
     <episode-num system="dd_progid">MV01525456.0000</episode-num>
   </programme>
+  <programme start="20261026203500 +0000" stop="20261026212000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master</title>
+    <sub-title lang="es">Fire &amp; Ice</sub-title>
+    <desc lang="es">Tatuar se convierte en un deporte de equipos y artistas de las mejores nueve tiendas de EE.UU. se preparan para luchar por el premio de $200.000 y por el primer título de "Master Shop".</desc>
+    <date>2017</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261026203600 +0000" stop="20261026212400 +0000" channel="DISCOVERY.HD.THEATER.(Disc.TheaterHD).pe">
     <title>Moonshiners: Master Distiller</title>
     <sub-title>Outlaw Grudge Match</sub-title>
@@ -39552,6 +39629,16 @@ La expedición de Franklin partió en busca del Paso del Noroeste, aunque desapa
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261026212000 +0000" stop="20261026214000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master: Redención</title>
+    <sub-title lang="es">El coach Cleen</sub-title>
+    <desc lang="es">Los artistas Ashley Velázquez y Tim Lees vuelven para sus pinchazos de redención con la ayuda del admirador favorito Cleen Rock One.</desc>
+    <date>2017</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261026212000 +0000" stop="20261026215000 +0000" channel="usmp-tv.teleclub">
     <title lang="es">Matemáticas 4.°</title>
     <desc lang="es">Un espacio para restar aburrimiento, sumar aprendizaje y diversión mientras se aprende y refuerzan conocimientos sobre las matemáticas.</desc>
@@ -40051,6 +40138,16 @@ La mejor playlist que puedes escuchar, un poco de todo de tus canciones y artist
     <date>2020</date>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261026214000 +0000" stop="20261026222000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: The TV Show</title>
+    <sub-title lang="es">Jasmine &amp; Mike</sub-title>
+    <desc lang="es">Jasmine le ha estado enviando mensajes de texto a Mike durante dos años y piensa que él sería el padrastro perfecto para su hijo. A pesar de que solo viven a 15 minutos de distancia, Jasmine y Mike aún no se han conocido en persona.</desc>
+    <date>2012</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261026214000 +0000" stop="20261026220000 +0000" channel="nick.teleclub">
@@ -41275,6 +41372,16 @@ Descubra cómo se prepara el Día de Muertos, a través de encuentros con famili
     <desc lang="es">Cuando el exmarido de Melanie llega para cortejarla, Joy y Victoria no pueden evitar involucrarse; Elka debe decidir entre dos pretendientes mayores.</desc>
     <date>2010</date>
     <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261026222000 +0000" stop="20261026230500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: The TV Show</title>
+    <sub-title lang="es">Cassie &amp; Steve</sub-title>
+    <desc lang="es">Una solicitud de amigo de un rapero ayuda a Cassie a transformar su vida.</desc>
+    <date>2013</date>
+    <episode-num system="onscreen">E1</episode-num>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
@@ -42897,6 +43004,16 @@ El Santo Grial que buscaban los Caballeros de la Tabla Redonda ¿es el mismo que
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261026230500 +0000" stop="20261026234500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: The TV Show</title>
+    <sub-title lang="es">Aaliyah &amp; Alicia</sub-title>
+    <desc lang="es">Alicia rehúsa reunirse con Aaliyah porque ella no le ha dicho la verdad a sus amigos y familia sobre su relación.</desc>
+    <date>2013</date>
+    <episode-num system="onscreen">E11</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261026230600 +0000" stop="20261026231000 +0000" channel="custom-1220">
     <title lang="es">La Pequeña Pandilla</title>
     <desc lang="es">El bebé mariposa y sus amigos animales recuerdan momentos divertidos que han compartido. Juntos consiguen superar cualquier dificultad porque saben que seguir siendo amigos es lo más importante del mundo.</desc>
@@ -43855,6 +43972,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <date>2008</date>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261026234500 +0000" stop="20261027002500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: The TV Show</title>
+    <sub-title lang="es">Tony y Tiana</sub-title>
+    <desc lang="es">Tony conoció a Tiana hace dos años y se enamoró de ella, pero sospecha de ella y recurre al programa tras varias alertas rojas. Nev y Kamie se embarcan en una larga persecución con la esperanza de que Tony responda.</desc>
+    <date>2020</date>
+    <episode-num system="onscreen">E24</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261026234600 +0000" stop="20261027003500 +0000" channel="732dtv.cl">
@@ -45172,6 +45299,16 @@ A lo largo de la historia, muchas personas aseguraron poseer poderes mentales po
     <episode-num system="onscreen">E7</episode-num>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261027002500 +0000" stop="20261027011500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: Mentiras en la red</title>
+    <sub-title lang="es">John y Kelsey</sub-title>
+    <desc lang="es">A John solo lo detiene una sola cosa para irse de la ciudad y es Kelsey, con quien ha estado hablando por un tiempo por chat en línea y está completamente seguro de que ella es la chica indicada.</desc>
+    <date>2014</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261027002500 +0000" stop="20261027005000 +0000" channel="nick.teleclub">
@@ -46978,6 +47115,16 @@ Mientras hacemos planes para viajar más allá de la Luna, hacia nuevos mundos. 
     <title lang="es">Inexplicable: misterios del universo con William Shatner</title>
     <title lang="en">The UnXplained: Mysteries of the Universe</title>
   </programme>
+  <programme start="20261027011500 +0000" stop="20261027020000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Love &amp; Hip Hop: Atlanta</title>
+    <sub-title lang="es">Non-Sense &amp; Sensibility</sub-title>
+    <desc lang="es">La lucha por la fama en el mundo de hip hop mientras tratan de sobrevivir luchas de relación y familia.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E13</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261027011500 +0000" stop="20261027013500 +0000" channel="nick.teleclub">
     <title lang="es">Henry Danger</title>
     <sub-title lang="es">Los diamantes son para Heather</sub-title>
@@ -48606,6 +48753,14 @@ La Madre Angélica comparte su alegría y amor a Dios con el público. Junto a s
     <icon src="https://iptv-epg.org/images/Qop78Llk3d8HAHSzwAzD9nShFsbFCLcAq25pODIr7ESbBxFaE4DSqu8NsA30QJ_TZ27h23d06Jy2khdxHfNTWhtkYlF7svaI9swwsCBqCV4ZDPlMuEdjVXohykvjAGC24-19EsCYIts0ozpx8kP7gGe0nisfKPDFVVAKJQ420Pt-iw7TQYE" />
     <title lang="en">La palabra en juego : Sammy Sandovik</title>
   </programme>
+  <programme start="20261027020000 +0000" stop="20261027024000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Atrapados en el acto: Infieles</title>
+    <desc lang="es">Personas que fueron víctimas de infidelidad hacen pagar a esos desleales en sus vidas y obtienen justicia para sus corazones rotos, con un poco de ayuda de Tami Roman, Kevin Carr y Brianne Joseph.</desc>
+    <date>2022</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261027020000 +0000" stop="20261027022500 +0000" channel="nick.teleclub">
     <title lang="es">iCarly</title>
     <sub-title lang="es">La cita de Sam y Freddie</sub-title>
@@ -49725,6 +49880,16 @@ Este programa cubre las noticias más recientes en el ámbito de los desarrollos
     <previously-shown start="20071008000000" />
     <rating system="MPAA">
       <value>TVG</value>
+    </rating>
+  </programme>
+  <programme start="20261027024000 +0000" stop="20261027032000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ghosted: Fuera de línea</title>
+    <sub-title lang="es">Andi y Dade</sub-title>
+    <desc lang="es">En una clásica historia de amor del siglo 21, Andi pensó que Dade era lindo y deslizó el dedo hacia la derecha. En lugar de una agradable cita o una aventura, los dos texanos conectaron instantáneamente e iniciaron un vínculo casi de inmediato.</desc>
+    <date>2021</date>
+    <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261027024000 +0000" stop="20261027025000 +0000" channel="usmp-tv.teleclub">
@@ -51163,6 +51328,16 @@ Durante la Guerra Civil, una audaz fuga libera a cientos de soldados de la Unió
     <desc lang="es">En un drive thru de comida rápida, el tono de un cliente cuando intenta recuperar su tarjeta de débito genera un tenso conflicto con los empleados. En una tienda de Wisconsin, la policía se enfrenta a un hombre sospechoso de robar.</desc>
     <date>2024</date>
     <episode-num system="onscreen">E11</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261027032000 +0000" stop="20261027040000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Just Tattoo of Us USA</title>
+    <sub-title lang="es">Libera el pezón</sub-title>
+    <desc lang="es">Se conversa sobre las inseguridades de cada uno y sus posibles consecuencias. Las hermanas alcanzan un momento crítico en su relación.</desc>
+    <date>2019</date>
+    <episode-num system="onscreen">E6</episode-num>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
@@ -52617,6 +52792,14 @@ Espacio que aborda las informaciones católicas del mundo, incluye también repo
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
+  <programme start="20261027040000 +0000" stop="20261027044500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Geordie Shore</title>
+    <desc lang="es">La vida cotidiana de ocho jóvenes que pasan el verano viviendo juntos durante seis semanas en la costa de Newcastle.</desc>
+    <date>2011</date>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
   <programme start="20261027040000 +0000" stop="20261027042000 +0000" channel="nick.teleclub">
     <title lang="es">Tortugas ninja: Historias mutantes</title>
     <sub-title lang="es">Arena de batalla mutante</sub-title>
@@ -53961,6 +54144,16 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261027044500 +0000" stop="20261027052500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">The Challenge All Stars: Rivals</title>
+    <sub-title lang="es">Star-Crossed Rivals</sub-title>
+    <desc lang="es">Las estrellas de "The Real World" y "Road Rules" enfrentan desafíos ambientados en la Cordillera de los Andes de Argentina mientras compiten por la oportunidad de ganar un gran premio.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E9</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
   <programme start="20261027044500 +0000" stop="20261027051000 +0000" channel="nick.teleclub">
     <title lang="es">Bob Esponja</title>
     <sub-title lang="es">Locura sanitaria</sub-title>
@@ -54666,8 +54859,8 @@ Vive las emociones de los partidos de la edición número 45 del principal campe
     <desc lang="es">Programación en vivo de TELEFE. Categoría: Cable.</desc>
   </programme>
   <programme start="20261027050000 +0000" stop="20261028050000 +0000" channel="custom-1255">
-    <title lang="es">CHV - En vivo</title>
-    <desc lang="es">Programación en vivo de CHV. Categoría: Premium.</desc>
+    <title lang="es">CHV NOTICIAS - En vivo</title>
+    <desc lang="es">Programación en vivo de CHV NOTICIAS. Categoría: Premium.</desc>
   </programme>
   <programme start="20261027050000 +0000" stop="20261028050000 +0000" channel="custom-1273">
     <title lang="es">TELERITMO - En vivo</title>
@@ -54774,6 +54967,10 @@ Vive las emociones de los partidos de la edición número 45 del principal campe
     <title lang="es">Radio Que buena ayacucho - En vivo</title>
     <desc lang="es">Programación en vivo de Radio Que buena ayacucho. Categoría: Radios.</desc>
   </programme>
+  <programme start="20261027050000 +0000" stop="20261028050000 +0000" channel="custom-1329">
+    <title lang="es">HTV MUSICA - En vivo</title>
+    <desc lang="es">Programación en vivo de HTV MUSICA. Categoría: Cable.</desc>
+  </programme>
   <programme start="20261027050000 +0000" stop="20261028050000 +0000" channel="custom-27">
     <title lang="es">Dud tv - En vivo</title>
     <desc lang="es">Programación en vivo de Dud tv. Categoría: Nacionales.</desc>
@@ -54868,6 +55065,10 @@ Se ve la influencia del calvinismo en la Reforma protestante. Se ve cómo los pr
     <episode-num system="xmltv_ns">2025.1026.</episode-num>
     <episode-num system="original-air-date">2002-12-28 00:00:00</episode-num>
     <previously-shown start="20021228000000" />
+  </programme>
+  <programme start="20261027050000 +0000" stop="20261028050000 +0000" channel="latin-tv-huararaz.teleclub">
+    <title lang="es">LATIN TV HUARAZ - En vivo</title>
+    <desc lang="es">Programación en vivo de LATIN TV HUARAZ. Categoría: Cable.</desc>
   </programme>
   <programme start="20261027050000 +0000" stop="20261028050000 +0000" channel="latina-clasicos.teleclub">
     <title lang="es">Latina clásicos - En vivo</title>
@@ -55750,6 +55951,16 @@ Se ve la influencia del calvinismo en la Reforma protestante. Se ve cómo los pr
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261027052500 +0000" stop="20261027055000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXIV</sub-title>
+    <desc lang="es">Rob Dyrdek, Steelo Brim y Nina Agdal se enfrentan a acomodarse con algo de Caos en hamacas, son engañados por Entrometidos maratónicos, y observan cómo las mejores intenciones salen mal con Eres pésimo ayudando.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E19</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261027052600 +0000" stop="20261027053000 +0000" channel="custom-1220">
     <title lang="es">Cierra tus ojos</title>
     <desc lang="es">Cierra tus ojos, recuéstate y relájate. Es hora de dormir.</desc>
@@ -56496,6 +56707,16 @@ Conoceremos casos que desafían la razón y muestran el poder del mal, como el d
     <icon src="https://iptv-epg.org/images/Fct-02TI-QGWFs2Izgx9AxKQwOTXTpE4T0ffeMSkPJUItSTqhhlMYYvTVN_cef7FzVQzvbY2VtR1zFAUMu1Av56Yx5saHx2c9JZUQZ4fS1gE8a0T-nN_HTBO46UR8y8d4GmnMZz7" />
     <title lang="es">Crank, muerte anunciada</title>
     <title lang="en">Crank</title>
+  </programme>
+  <programme start="20261027055000 +0000" stop="20261027061000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXV</sub-title>
+    <desc lang="es">Nina Agdal le revela a Rob y Steelo qué es una "Motomami", luego descubren el amor de Rob por saltar, antes de terminar con escaleras traicioneras.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E20</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
   </programme>
   <programme start="20261027055100 +0000" stop="20261027055500 +0000" channel="custom-1220">
     <title lang="es">Cierra tus ojos</title>
@@ -57355,6 +57576,16 @@ El Padre Gerardo Mendoza es un sacerdote de la Diócesis de San Bernardino que f
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261027061000 +0000" stop="20261027063500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXVI</sub-title>
+    <desc lang="es">Rob, Steelo y Nina Agdal se dirigen a la cancha para aprender "Pickleball". Observan a las personas darse una vuelta en "Love Tumbles" y descubren por qué a veces es mejor "simplemente unirse a un gimnasio".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E21</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261027061100 +0000" stop="20261027080200 +0000" channel="503dtv.cl">
     <title lang="es">Amores asesinos</title>
     <desc lang="es">En 1944, el joven Allen Ginsberg tiene un rival en su búsqueda por el amor de su carismático compañero de clases, Lucien Carr. Cuando el hombre es hallado muerto, Carr, William Burroughs y Jack Kerouac son arrestados por homicidio.</desc>
@@ -58063,6 +58294,16 @@ Este programa cubre las noticias más recientes en el ámbito de los desarrollos
     <episode-num system="onscreen">E12</episode-num>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261027063500 +0000" stop="20261027072500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Storytellers</title>
+    <sub-title lang="es">Goo Goo Dolls</sub-title>
+    <desc lang="es">El repertorio incluye las interpretaciones de Name, Slide, Here is Gone, Iris, Black Balloon, Big Machine, What a Scene, Broadway y Lucky Star.</desc>
+    <date>2002</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261027063700 +0000" stop="20261027065900 +0000" channel="207dtv">
@@ -59505,6 +59746,16 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <episode-num system="onscreen">E19</episode-num>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261027072500 +0000" stop="20261027081000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master</title>
+    <sub-title lang="es">A Sin in Tattooing</sub-title>
+    <desc lang="es">Los murales masivos hacen que los equipos luchen por mantener la compostura en el Flash Challenge. La batalla por el título de Ink Master continúa con tatuajes de samuráis japoneses. Una mano al revés provoca un acalorado debate.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
     </rating>
   </programme>
   <programme start="20261027072600 +0000" stop="20261027085700 +0000" channel="202dtv.pe">
@@ -61045,6 +61296,16 @@ La Madre Angélica responde preguntas sobre confiar en Dios, por qué lo necesit
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261027081000 +0000" stop="20261027084500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master</title>
+    <sub-title lang="es">A tu servicio</sub-title>
+    <desc lang="es">Los artistas deben tatuar retratos precisos de perros de servicio. Un giro asombroso hace que la competencia se descontrole. Los artistas unen fuerzas para tratar de eliminar al mejor mientras luchan por 250 000 dólares y el título de "Ink Master".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
   <programme start="20261027081100 +0000" stop="20261027085500 +0000" channel="NAT.GEO.HD.(Nat.Geo.HD).pe">
     <title lang="es">Alerta Aeropuerto: Madrid</title>
     <sub-title lang="es">Un encargo de película</sub-title>
@@ -61983,6 +62244,16 @@ Una serie que explora y revela evidencia recientemente disponible sobre activida
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261027084500 +0000" stop="20261027090500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Kristy Sarah VIII</sub-title>
+    <desc lang="es">Rob, Steelo y Kristy Sarah no pueden bajar la pendiente a salvo en "Snowboard Assaults", son ridiculizados por niños en "Innocent Insults", y tienen cuidado con la suciedad en "Germ Lovers".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E14</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261027084600 +0000" stop="20261027091000 +0000" channel="custom-1212">
     <title lang="es">Two and a Half Men</title>
     <sub-title lang="es">A Lungful of Alan</sub-title>
@@ -62822,6 +63093,16 @@ Espacio que aborda las informaciones católicas del mundo, incluye también repo
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261027090500 +0000" stop="20261027092500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Kristy Sarah IX</sub-title>
+    <desc lang="es">Rob Dyrdek, Steelo Brim y Kristy Sarah echan un vistazo a algunos ciclistas tontos en Wheelie Dumb.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E15</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261027090500 +0000" stop="20261027093000 +0000" channel="telesur.ar">
     <title>El mapa</title>
     <desc>Un espacio para el análisis, con la finalidad de profundizar y expandir la geopolítica global en un mundo que evoluciona constantemente.</desc>
@@ -63197,6 +63478,16 @@ Relatos enviados por el público y seleccionados por Silvia Pinal, para ser dram
     <country lang="es">China</country>
     <rating system="MJColombia">
       <value>+18</value>
+    </rating>
+  </programme>
+  <programme start="20261027092500 +0000" stop="20261027095000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Lolo Wood XCVIII</sub-title>
+    <desc lang="es">Rob Dyrdek, Steelo Brim y Lolo Wood levantan jarras pesadas con borrachos experimentados y arman jaleo en el campo de golf.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E34</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261027092600 +0000" stop="20261027105700 +0000" channel="517dtv.cl">
@@ -63905,6 +64196,14 @@ Dulce vive en una familia con una madre que la maltrata y castiga. Cuando conoce
     <previously-shown start="20050708000000" />
     <rating system="MPAA">
       <value>TVY7</value>
+    </rating>
+  </programme>
+  <programme start="20261027095000 +0000" stop="20261027102500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Geordie Shore</title>
+    <desc lang="es">La vida cotidiana de ocho jóvenes que pasan el verano viviendo juntos durante seis semanas en la costa de Newcastle.</desc>
+    <date>2011</date>
+    <rating system="MJColombia">
+      <value>+18</value>
     </rating>
   </programme>
   <programme start="20261027095400 +0000" stop="20261027103800 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
@@ -65059,6 +65358,16 @@ Rick prueba un Bricklin SV-1 con mucho estilo. Mientras tanto, Chumlee examina u
     <episode-num system="onscreen">E4</episode-num>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261027102500 +0000" stop="20261027111000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">La Venganza De Los Ex Uk</title>
+    <sub-title lang="es">La escapada de quien se escapó</sub-title>
+    <desc lang="es">Es el momento decisivo para las exparejas, ya que los envían a una escapada romántica. O los volverá a unir o todo terminará en lágrimas.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
     </rating>
   </programme>
   <programme start="20261027102500 +0000" stop="20261027104500 +0000" channel="nick.teleclub">
@@ -66886,6 +67195,16 @@ Los milagros de la virgen de Guadalupe se traducen en historias de amor, esperan
     <icon src="https://ebyl.tmsimg.com/assets/p5530_b_v8_ad.jpg" />
     <episode-num system="dd_progid">MV00278472.0000</episode-num>
   </programme>
+  <programme start="20261027111000 +0000" stop="20261027120000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Geordie Shore</title>
+    <sub-title lang="es">¡Nos vemos, Nat!</sub-title>
+    <desc lang="es">Nat no se ha estado sintiendo bien y decide borrar el tatuaje con el nombre de su ex para sentirse mejor. Después de hacer un examen de conciencia, ella decide irse para siempre. Beau y Bethan tienen una conversación por su relación complicada.</desc>
+    <date>2020</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
   <programme start="20261027111100 +0000" stop="20261027112200 +0000" channel="custom-1243">
     <title>Mi compañero de clase es un mono</title>
     <desc>Adam Lyon es inscrito por error en una escuela de puros animales, la Secundaria Charles Darwin; el zoológico local y chicos del acuario son sus compañeros de clases: gorilas, jirafas, serpientes, aves, murciélagos y peces.</desc>
@@ -68463,6 +68782,16 @@ El Santo Sacrificio de la Misa desde la Capilla de EWTN, con los cantos gregoria
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
+  <programme start="20261027120000 +0000" stop="20261027122000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LIX</sub-title>
+    <desc lang="es">Rob, Steelo y Nina Agdal se ponen ridículos en la peluquería, deberían haber celebrado sus cumpleaños en casa y no tienen control del balón.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E17</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261027120000 +0000" stop="20261027122000 +0000" channel="nick.teleclub">
     <title lang="es">Una casa de locos</title>
     <sub-title lang="es">La ciencia no miente; Siempre juntos</sub-title>
@@ -68845,6 +69174,14 @@ Chumlee toma la iniciativa e invita a Rick a un viaje de negocios. Durante su vi
     <episode-num system="onscreen">E5</episode-num>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261027122000 +0000" stop="20261027124500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <desc lang="es">Un programa que presenta, analiza y crítica los más increíbles, divertidos, estrafalarios y peligrosos videos realizados por novatos y que son difundidos en la red de Internet.</desc>
+    <date>2011</date>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261027122000 +0000" stop="20261027124500 +0000" channel="nick.teleclub">
@@ -69540,6 +69877,16 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
     <date>2024</date>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261027124500 +0000" stop="20261027130500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXII</sub-title>
+    <desc lang="es">Rob, Steelo y Nina Agdal se ven envueltos en unos "Great Yanks", se inclinan hacia unos divertidísimos "Porch Rail Fails" y se divierten engañando a sus propios ojos con "Perspective Play".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E27</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261027124500 +0000" stop="20261027131000 +0000" channel="nick.teleclub">
@@ -70398,6 +70745,16 @@ Sé parte de esta meditación sobre la vida de Jesús desde su oración en el Hu
       <value>TVY7</value>
     </rating>
   </programme>
+  <programme start="20261027130500 +0000" stop="20261027133000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Jenni JWOWW Farley</sub-title>
+    <desc lang="es">Rob, Steelo y Nina Agdal dan la bienvenida a Jenni "JWoww" Farley de "Jersey Shore" para ir al lago en "Damas del muelle", observan a unos "Lectores aleatorios" y viajan en "Transporte público de la basura".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261027130700 +0000" stop="20261027142400 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
     <title lang="es">Protagonistas de la historia</title>
     <desc lang="es">Se narra la vida y legado de personajes que han dejado huella en la historia. La vida y legado de líderes, artistas, científicos y figuras sociales que han dejado huella en la memoria colectiva.</desc>
@@ -71186,6 +71543,16 @@ El Padre Luís Eduardo Rodríguez Rodríguez, nos lleva por un viaje alrededor d
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261027133000 +0000" stop="20261027135000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Lolo Wood XXX</sub-title>
+    <desc lang="es">Lolo Wood siente el terror del viento, da golpes en la cancha y descubre que los bolos son más divertidos con algunos trucos.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E21</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261027133000 +0000" stop="20261027135000 +0000" channel="nick.teleclub">
     <title lang="es">Bob Esponja</title>
     <sub-title lang="es">Cuidado con la brecha; La burbuja sucia regresa</sub-title>
@@ -71635,6 +72002,16 @@ Espacio de oración.</desc>
     <title lang="es">América Deportes</title>
     <desc lang="es">La mejor información deportiva con noticias actuales, las principales ligas, torneos y más.</desc>
     <date>2013</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261027135000 +0000" stop="20261027141000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Lolo Wood XXXI</sub-title>
+    <desc lang="es">Lolo Wood experimenta el dolor de una repentina parada de bicicleta en "bike locks". Ve algo de dolor real en "virtual violence". Descubre quién no es "leap frog material".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E22</episode-num>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
@@ -72490,6 +72867,16 @@ En el pueblo de San Pablo, el padre Francisco, la madre superiora y las hermanas
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261027141000 +0000" stop="20261027143500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Jenni JWoww Farley III</sub-title>
+    <desc lang="es">Rob, Steelo, Nina Agdal y Jenni "JWoww" Farley ven a unos borrachos simpáticos en "Agradablemente enlucido".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E11</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261027141100 +0000" stop="20261027141700 +0000" channel="custom-1220">
     <title lang="es">La agencia de detectives de Zeina</title>
     <desc lang="es">Un objeto cotidiano llega a la puerta de Zeina, pero olvida para qué sirve. Para buscar la respuesta, Zeina y su mejor amigo Roy idean un nuevo y divertidísimo uso para el objeto sorpresa.</desc>
@@ -73207,6 +73594,16 @@ Meditación con dramatizaciones de los misterios Dolorosos sobre los momentos m�
     <date>2016</date>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261027143500 +0000" stop="20261027150000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Lolo Wood XXXII</sub-title>
+    <desc lang="es">Rob, Steelo, y Lolo Wood se rompen las espaldas, dejan caer a algunos niños pequeños y los atrapan robando.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E23</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261027143700 +0000" stop="20261027145900 +0000" channel="custom-1058">
@@ -74174,6 +74571,15 @@ El Padre Gerardo Mendoza es un sacerdote de la Diócesis de San Bernardino que f
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261027150000 +0000" stop="20261027154000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Teen Mom: Reunión familiar</title>
+    <desc lang="es">El grupo afronta el trauma al que les expuso ver de nuevo a Farrah, quien pone en peligro toda la reunión. Los chicos zarpan en un bote para pasar un rato entre hombres, dejando a las chicas relajarse junto al entrenador Bryant.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
   </programme>
   <programme start="20261027150000 +0000" stop="20261027151500 +0000" channel="nick.teleclub">
     <title lang="es">Una casa de locos</title>
@@ -75222,6 +75628,15 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <date>2025</date>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261027154000 +0000" stop="20261027162000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Teen Mom: Reunión familiar</title>
+    <desc lang="es">Maci y Farrah tienen una charla tensa. El grupo hace un curso de formación de equipos, y Ashley se congela. El grupo enloquece por el disco cuando Briana organiza una fiesta. Chey se sincera.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261027154200 +0000" stop="20261027180000 +0000" channel="custom-1214">
@@ -76363,6 +76778,15 @@ En 1986, 2,5 millones de alumnos vieron por televisión cómo el transbordador e
     <sub-title lang="es">Camaro</sub-title>
     <desc lang="es">Richard decide hacer algo agradable para Aarón y los Monkeys: compra un Camaro '67 montado sobre un chasis K5.</desc>
     <date>2016</date>
+    <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261027162000 +0000" stop="20261027170500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Teen Mom: Reunión familiar</title>
+    <desc lang="es">Padres y madres se separan por una tarde. Mientras debaten sobre cómo mantener viva la pasión en sus relaciones, las mamás notan que Leah se rehúsa a participar. Mientras tanto, Bar corteja a Ashley en el jacuzzi.</desc>
+    <date>2022</date>
     <episode-num system="onscreen">E7</episode-num>
     <rating system="MJColombia">
       <value>+14</value>
@@ -78021,6 +78445,16 @@ Espacio que aborda las informaciones católicas del mundo, incluye también repo
     <title lang="es">Con la frente en alto</title>
     <title lang="en">Walking Tall</title>
   </programme>
+  <programme start="20261027170500 +0000" stop="20261027174500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Caught in the Act: Unfaithful</title>
+    <sub-title lang="es">Kriss Kross, You Can Have Her</sub-title>
+    <desc lang="es">Mientras intenta reparar su relación de cinco años tras haberla abandonado, Bryce se pregunta si su novia le está aplicando una dosis de karma a sus espaldas.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E28</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261027170500 +0000" stop="20261027173000 +0000" channel="telesur.ar">
     <title>Impacto económico - Emisión matutina</title>
     <desc>Las noticias más relevantes del acontecer económico de América Latina y el mundo.</desc>
@@ -78992,6 +79426,16 @@ Exploramos la riqueza espiritual de San Pablo y su legado a la Iglesia universal
     <desc lang="es">Una breve sección para conocer las últimas y más destacadas noticias del ámbito deportivo.</desc>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261027174500 +0000" stop="20261027183000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Caught in the Act: Unfaithful</title>
+    <sub-title lang="es">I'm Royalty, This Is Beyond Me</sub-title>
+    <desc lang="es">La cantante colombiana Kat sospecha que su novio Andre, productor musical, hace más que música con otras artistas.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E29</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261027174500 -0300" stop="20261027183900 -0300" channel="custom-1232">
@@ -80430,6 +80874,16 @@ El Santo Sacrificio de la Misa desde la Capilla de EWTN, con los cantos gregoria
     <episode-num system="original-air-date">2014-01-08 00:00:00</episode-num>
     <previously-shown start="20140108000000" />
   </programme>
+  <programme start="20261027183000 +0000" stop="20261027191000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Caught in the Act: Unfaithful</title>
+    <sub-title lang="es">My Man, My Man, My Man</sub-title>
+    <desc lang="es">Nunu creía haber encontrado en Caleb a la pareja perfecta para ella y sus dos hijos. Sin embargo, los cambios recientes en su relación y una vida sexual inexistente hacen que Nunu se pregunte si Caleb es realmente el hombre de sus sueños.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E30</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261027183000 +0000" stop="20261027190000 +0000" channel="telesur.ar">
     <title>Lenguaje de señas</title>
     <date>20041128</date>
@@ -81567,6 +82021,16 @@ Espacio en el que se darán a conocer historias conmovedoras y divertidas con un
     <icon src="https://ebyl.tmsimg.com/assets/p24547152_b_v12_ab.jpg" />
     <episode-num system="dd_progid">MV02815900.0000</episode-num>
   </programme>
+  <programme start="20261027191000 +0000" stop="20261027195000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Love &amp; Hip Hop: Atlanta</title>
+    <sub-title lang="es">Pride &amp; Precedents</sub-title>
+    <desc lang="es">Una invasión del hogar hace que Spice cuestione su seguridad. Lil' Zane está renovando su sonido, pero cuando se trata de su esposa, Ashley, sus versos caen en saco roto.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261027191000 +0000" stop="20261027193000 +0000" channel="nick.teleclub">
     <title lang="es">Una casa de locos</title>
     <sub-title lang="es">No tanta suerte; Ranas libres</sub-title>
@@ -82604,6 +83068,16 @@ Espacio de oración.</desc>
     <sub-title lang="es">Fleetwood Town vs. Arsenal</sub-title>
     <desc lang="es">Acción del partido de la cuarta ronda de la EFL Cup 2026-27. Desde el Highbury Stadium, en Fleetwood.</desc>
     <date>2026</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261027195000 +0000" stop="20261027203500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master</title>
+    <sub-title lang="es">Crossing the Line</sub-title>
+    <desc lang="es">Un giro masivo sacude a la competencia y un Desafío Flash hecho con cuidado pone las relaciones a prueba.</desc>
+    <date>2017</date>
+    <episode-num system="onscreen">E2</episode-num>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
@@ -84197,6 +84671,16 @@ El contexto que enmarca la vida y la acción de Anacleto González está ligado 
     <title lang="es">Jumanji: El siguiente nivel</title>
     <title lang="en">Jumanji: The Next Level</title>
   </programme>
+  <programme start="20261027203500 +0000" stop="20261027212000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master</title>
+    <sub-title lang="es">Unnatural Disasters</sub-title>
+    <desc lang="es">Un vehemente y veterano artista regresa para tomar una competencia bien en serio; un desafío difícil de Flash expone las debilidades en las tiendas.</desc>
+    <date>2017</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261027203600 +0000" stop="20261027212400 +0000" channel="ANIMAL.PLANET.HD.(Animal.Planet.HD).pe">
     <title lang="es">Veterinarios de Texas</title>
     <sub-title lang="es">Operación ópera</sub-title>
@@ -85538,6 +86022,16 @@ La Madre Angélica responde preguntas sobre confiar en Dios, por qué lo necesit
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261027212000 +0000" stop="20261027214000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master: Redención</title>
+    <sub-title lang="es">Redención: Gira en carretera</sub-title>
+    <desc lang="es">Tatu Baby busca gente insatisfecha con sus tatuajes para solucionar sus problemas, para ello se desplaza hasta las localidades de los afectados.</desc>
+    <date>2016</date>
+    <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261027212000 +0000" stop="20261027215000 +0000" channel="usmp-tv.teleclub">
     <title lang="es">Historia, geografía y economía 5.°</title>
     <desc lang="es">Un espacio para sorprenderse, divertirse y reforzar sobre la historia, geografía y economía.</desc>
@@ -86023,6 +86517,16 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <episode-num system="onscreen">E7</episode-num>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261027214000 +0000" stop="20261027222000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: Mentiras en la red</title>
+    <sub-title lang="es">Courtney y Isaak</sub-title>
+    <desc lang="es">Después de que una muchacha cortara sus lazos con su novio de internet, él se niega a darse por vencido tratando de volver con ella; Cassidy Wolf.</desc>
+    <date>2015</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261027214000 +0000" stop="20261027220000 +0000" channel="nick.teleclub">
@@ -87203,6 +87707,16 @@ Testimonio de la opción por la vida de los esposos Herbert y Alejandra Díaz, f
     <desc lang="es">Cuando el hijo de Melanie viene de visita, ella invade su privacidad; Victoria es nominada por un Emmy.</desc>
     <date>2010</date>
     <episode-num system="onscreen">E9</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261027222000 +0000" stop="20261027230500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: Mentiras en la red</title>
+    <sub-title lang="es">Tiana y James</sub-title>
+    <desc lang="es">Tras tres años de relación por Internet, James está finalmente dispuesto a conocer en persona a Tiana, su gran amor.</desc>
+    <date>2015</date>
+    <episode-num system="onscreen">E12</episode-num>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
@@ -88960,6 +89474,16 @@ Vive las emociones de los partidos de la 69º temporada de la Superliga de Turqu
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261027230500 +0000" stop="20261027234500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: Mentiras en la red</title>
+    <sub-title lang="es">Joanna &amp; Bo</sub-title>
+    <desc lang="es">Un modelo del mundo de los tatuajes está a punto de conocer a su amor en línea, pero una noche loca en Las Vegas altera radicalmente sus planes.</desc>
+    <date>2016</date>
+    <episode-num system="onscreen">E8</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261027230600 +0000" stop="20261028010300 +0000" channel="custom-1212">
     <title lang="es">El protector</title>
     <desc lang="es">Jim, un antiguo marine reconvertido en ranchero en la frontera de Arizona, trata de proteger a un niño al que persiguen los violentos integrantes de un cartel de narcotraficantes mexicanos.</desc>
@@ -89867,6 +90391,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="onscreen">E7</episode-num>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261027234500 +0000" stop="20261028002500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: Mentiras en la red</title>
+    <sub-title lang="es">Lucas y Many</sub-title>
+    <desc lang="es">Cuando Jayme se entera de que su novio de la web es falso y que está engatusando a otra mujer, ella le pide ayuda a Nev y Max para detenerlo.</desc>
+    <date>2016</date>
+    <episode-num system="onscreen">E13</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261027234600 +0000" stop="20261028004100 +0000" channel="custom-1224">
@@ -91174,6 +91708,16 @@ Debate sobre si el genio nace o se hace; si se pueden encontrar pistas o no exam
     <episode-num system="onscreen">E5</episode-num>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261028002500 +0000" stop="20261028011500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: Mentiras en la red</title>
+    <sub-title lang="es">Candic y Titus</sub-title>
+    <desc lang="es">Candic decide aclarar las cosas con su esposo sobre los mensajes que ha estado enviando y recibiendo de un hombre llamado Titus. Pero Candic necesita que Nev y Max la ayuden a desvelar quién es realmente ese tal Titus.</desc>
+    <date>2016</date>
+    <episode-num system="onscreen">E16</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261028002500 +0000" stop="20261028005000 +0000" channel="nick.teleclub">
@@ -92959,6 +93503,16 @@ El padre Willie Peña nos explica de una manera clara y sencilla cómo las ense�
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261028011500 +0000" stop="20261028020000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Love &amp; Hip Hop: Atlanta</title>
+    <sub-title lang="es">Disstopia</sub-title>
+    <desc lang="es">Kirk encuentra la manera de salir del problema y trata de poner fin a los rumores de Jasmine. Yandy pone a Mendeecees en una situación difícil para ver si su compromiso con sus votos matrimoniales sigue siendo verdadero.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E14</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028011500 +0000" stop="20261028013500 +0000" channel="nick.teleclub">
     <title lang="es">Henry Danger</title>
     <sub-title lang="es">Deletrear es difícil</sub-title>
@@ -94534,6 +95088,16 @@ La Madre Angélica responde preguntas sobre confiar en Dios, por qué lo necesit
     <icon src="https://iptv-epg.org/images/Qop78Llk3d8HAHSzwAzD9nShFsbFCLcAq25pODIr7ESbBxFaE4DSqu8NsA30QJ_TZ27h23d06Jy2khdxHfNTWhtkYlF7svaI9swwsCBqCV4ZDPlMuEdjVXohykvjAGC24-19EsCYIts0ozpx8kP7gGe0nisfKPDFVVAKJQ420Pt-iw7TQYE" />
     <title lang="en">La palabra en juego : Juan Cominges</title>
   </programme>
+  <programme start="20261028020000 +0000" stop="20261028024000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Caught in the Act: Unfaithful</title>
+    <sub-title lang="es">Not Her Cousin!</sub-title>
+    <desc lang="es">Nico y Leighann han sostenido un noviazgo estable, pero ahora Nico sospecha que ella le está siendo infiel y ella le ha dado largas.</desc>
+    <date>2022</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028020000 +0000" stop="20261028022500 +0000" channel="nick.teleclub">
     <title lang="es">iCarly</title>
     <sub-title lang="es">La cita de Sam y Freddie</sub-title>
@@ -95568,6 +96132,16 @@ Mother looks at Luke 7:36-50- where the sinful woman with the perfume jar showed
     <episode-num system="xmltv_ns">2025.1026.</episode-num>
     <episode-num system="original-air-date">2013-12-21 00:00:00</episode-num>
     <previously-shown start="20131221000000" />
+  </programme>
+  <programme start="20261028024000 +0000" stop="20261028032500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ghosted: Fuera de línea</title>
+    <sub-title lang="es">Trey y Austin</sub-title>
+    <desc lang="es">Trey y Austin se convierten instantáneamente en mejores amigos tras conocerse. Pronto se convierten en miembros honorarios de la familia del otro, pero todo eso cambia cuando Austin cancela sus planes con Trey.</desc>
+    <date>2021</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
   </programme>
   <programme start="20261028024000 +0000" stop="20261028025000 +0000" channel="usmp-tv.teleclub">
     <title lang="es">Buenas noticias</title>
@@ -96991,6 +97565,16 @@ Repasamos 10 tecnologías históricas inexplicables: orbes dorados hallados en M
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261028032500 +0000" stop="20261028040000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Just Tattoo of Us USA</title>
+    <sub-title lang="es">Una propuesta permanente</sub-title>
+    <desc lang="es">Una esposa molesta le da un ultimátum a su esposo con un tatuaje revelador. Una madre en una relación turbulenta se tatúa una pregunta sobre el compromiso de su hombre.</desc>
+    <date>2019</date>
+    <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028032800 +0000" stop="20261028033100 +0000" channel="custom-1220">
     <title lang="es">Cierra tus ojos</title>
     <desc lang="es">Cierra tus ojos, recuéstate y relájate. Es hora de dormir.</desc>
@@ -98309,6 +98893,15 @@ Diez de los símbolos y códigos misteriosos, que se han encontrado alrededor de
     <icon src="https://iptv-epg.org/images/NhqV0RlK6kJqRXLR9mGmPIAM42CvrVG53M2jWcHKnQFTf64hV9Dx5bZUQZ8uhXxKnqFtWH52YiaTnfNVuWaVglDq71J0paJE0JsiSKXienbc0Uic0xIvo38b6b9uIpx6-NHHPdoCsYQtOKcEoD2--nXVr18qoeSrpiCJX0uQ3-tjvjUY7Hg" />
     <title lang="en">El Chiringuito</title>
   </programme>
+  <programme start="20261028040000 +0000" stop="20261028044500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Teen Mom: Nueva etapa</title>
+    <desc lang="es">Maci, Cate, Tyler, Leah y Gary se reúnen en Nueva York con sus hijos adolescentes para celebrar los 16 años del programa. Además, Cate encuentra su sitio sin Carly. Leah Shirley habla abiertamente sobre su relación con Amber.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E29</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028040000 +0000" stop="20261028042000 +0000" channel="nick.teleclub">
     <title lang="es">Tortugas ninja: Historias mutantes</title>
     <sub-title lang="es">Arena de batalla mutante</sub-title>
@@ -99607,6 +100200,15 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261028044500 +0000" stop="20261028052500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Teen Mom: Nueva etapa</title>
+    <desc lang="es">Maci y Bentley conocen a Presley, la nueva hija de Ryan. Cate y Tyler buscan la orientación del Dr. Drew. Cheyenne y Zach consultan a un terapeuta de pareja.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E30</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028044500 +0000" stop="20261028051000 +0000" channel="nick.teleclub">
     <title lang="es">Bob Esponja</title>
     <sub-title lang="es">Locura sanitaria</sub-title>
@@ -100262,8 +100864,8 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <desc lang="es">Programación en vivo de TELEFE. Categoría: Cable.</desc>
   </programme>
   <programme start="20261028050000 +0000" stop="20261029050000 +0000" channel="custom-1255">
-    <title lang="es">CHV - En vivo</title>
-    <desc lang="es">Programación en vivo de CHV. Categoría: Premium.</desc>
+    <title lang="es">CHV NOTICIAS - En vivo</title>
+    <desc lang="es">Programación en vivo de CHV NOTICIAS. Categoría: Premium.</desc>
   </programme>
   <programme start="20261028050000 +0000" stop="20261029050000 +0000" channel="custom-1273">
     <title lang="es">TELERITMO - En vivo</title>
@@ -100372,6 +100974,10 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <title lang="es">Radio Que buena ayacucho - En vivo</title>
     <desc lang="es">Programación en vivo de Radio Que buena ayacucho. Categoría: Radios.</desc>
   </programme>
+  <programme start="20261028050000 +0000" stop="20261029050000 +0000" channel="custom-1329">
+    <title lang="es">HTV MUSICA - En vivo</title>
+    <desc lang="es">Programación en vivo de HTV MUSICA. Categoría: Cable.</desc>
+  </programme>
   <programme start="20261028050000 +0000" stop="20261029050000 +0000" channel="custom-27">
     <title lang="es">Dud tv - En vivo</title>
     <desc lang="es">Programación en vivo de Dud tv. Categoría: Nacionales.</desc>
@@ -100479,6 +101085,10 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <episode-num system="xmltv_ns">2025.1027.</episode-num>
     <episode-num system="original-air-date">2002-12-28 00:00:00</episode-num>
     <previously-shown start="20021228000000" />
+  </programme>
+  <programme start="20261028050000 +0000" stop="20261029050000 +0000" channel="latin-tv-huararaz.teleclub">
+    <title lang="es">LATIN TV HUARAZ - En vivo</title>
+    <desc lang="es">Programación en vivo de LATIN TV HUARAZ. Categoría: Cable.</desc>
   </programme>
   <programme start="20261028050000 +0000" stop="20261029050000 +0000" channel="latina-clasicos.teleclub">
     <title lang="es">Latina clásicos - En vivo</title>
@@ -101312,6 +101922,16 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261028052500 +0000" stop="20261028055000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXVIII</sub-title>
+    <desc lang="es">Rob, Steelo y Nina Agdal se enfrentan a las olas en "Rapid Wrecked". Lanzan sus líneas en "Freestyle Fishing". Prueban un bocado en "Deranged Dips".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E23</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028052600 +0000" stop="20261028061800 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
     <title lang="es">La Primera Guerra Mundial</title>
     <sub-title lang="es">Asesinos submarinos</sub-title>
@@ -102033,6 +102653,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <date>2021</date>
     <rating system="MJColombia">
       <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261028055000 +0000" stop="20261028061000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXIX</sub-title>
+    <desc lang="es">Rob, Steelo y la invitada especial Nina Agdal se ensucian en el lodo, conocen a unos niños bocones y aprenden a hacer dos cosas a la vez.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E24</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261028055100 +0000" stop="20261028063700 +0000" channel="custom-1058">
@@ -102807,6 +103437,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261028061000 +0000" stop="20261028063500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXX</sub-title>
+    <desc lang="es">Rob, Steelo y Nina Agdal tienen problemas para aferrarse, accidentalmente rompen algunas luces y dan un salto en paracaídas.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E29</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028061100 +0000" stop="20261028061600 +0000" channel="custom-1220">
     <title lang="es">Cierra tus ojos</title>
     <desc lang="es">Cierra tus ojos, recuéstate y relájate. Es hora de dormir.</desc>
@@ -103534,6 +104174,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="onscreen">E12</episode-num>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261028063500 +0000" stop="20261028072500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Storytellers</title>
+    <sub-title lang="es">Green Day: American Idiot: Uncut</sub-title>
+    <desc lang="es">El trío punk formado por Billie Joe Armstrong, Mike Dirnt y Tre Cool interpreta canciones de su álbum ganador de un premio Grammy, "American Idiot".</desc>
+    <date>2005</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261028063600 +0000" stop="20261028080400 +0000" channel="217dtv.cl">
@@ -104867,6 +105517,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="onscreen">E20</episode-num>
     <rating system="MJColombia">
       <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261028072500 +0000" stop="20261028081000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master</title>
+    <sub-title lang="es">Fábrica de montruos</sub-title>
+    <desc lang="es">Las herramientas eléctricas y un cambio de equipo hacen que los artistas sientan la presión en el Flash Challenge. Las lealtades se ponen a prueba en un monstruoso tatuaje de eliminación y la batalla por el título de Ink Master se calienta.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
     </rating>
   </programme>
   <programme start="20261028072600 +0000" stop="20261028074800 +0000" channel="207dtv">
@@ -106331,6 +106991,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261028081000 +0000" stop="20261028084500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master</title>
+    <sub-title lang="es">Afronta tus miedos</sub-title>
+    <desc lang="es">La lealtad de los artistas se hace transparente en un desafío relámpago de pintura sobre vidrio. Los artistas deben tatuar rostros en un tatuaje de eliminación de alto riesgo.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E8</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
   <programme start="20261028081200 +0000" stop="20261028094700 +0000" channel="custom-1214">
     <title lang="es">Pesadilla en la calle del infierno</title>
     <desc lang="es">Un grupo de adolescentes sufre unas pesadillas horribles en las que un ser deforme con garras de acero les persigue. Lo más inquietante es que los hechos sugieren que lo que ocurre mientras sueñan tiene repercusiones en la vida real.</desc>
@@ -107139,6 +107809,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261028084500 +0000" stop="20261028090500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Lolo Wood XCIX</sub-title>
+    <desc lang="es">Rob Dyrdek, Steelo Brim y Lolo Wood encuentran un uso para su embarcación cuando el lago está helado en "Snow Boaters" y conocen a unas cuantas personas que necesitan un cinturón en "Trouser Downers".</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E35</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028084600 +0000" stop="20261028090000 +0000" channel="custom-1243">
     <title>Hermano de Jorel</title>
     <desc>Un chico tímido y sin nombre es siempre llamado hermano de Jorel. Siendo casi siempre ofuscado por la fama y la popularidad de su hermano mayor, él intenta ganar su propia identidad y ser alguien importante en la familia.</desc>
@@ -107904,6 +108584,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261028090500 +0000" stop="20261028092500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Kristy Sarah X</sub-title>
+    <desc lang="es">Rob, Steelo y Kristy Sarah sienten el dolor de desmayarse profundamente, descubren que después de beber, uno necesita algo de comida en estado de ebriedad y se dan cuenta de que flatulencias aparecen en bocinazos sorpresivos.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E16</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028090500 +0000" stop="20261028093000 +0000" channel="telesur.ar">
     <title>El mapa</title>
     <desc>Un espacio para el análisis, con la finalidad de profundizar y expandir la geopolítica global en un mundo que evoluciona constantemente.</desc>
@@ -108312,6 +109002,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <previously-shown start="20040813000000" />
     <rating system="MPAA">
       <value>TVG</value>
+    </rating>
+  </programme>
+  <programme start="20261028092500 +0000" stop="20261028095000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Lolo Wood C</sub-title>
+    <desc lang="es">Rob, Steelo y Lolo Wood animan a los "Silver Skaters", ven quién se ha dado un mal golpe en "Upside-Down Bad" y ven videos de gente en "Shoulda Deleted It".</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E36</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261028092600 +0000" stop="20261028101300 +0000" channel="732dtv.cl">
@@ -108936,6 +109636,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <desc lang="es">Alec e Hilaria intentan educar a sus perros, que han destrozado sus alfombras. Después de años de lucha o huida, llega el momento de divertirse y la pareja empieza a bailar salsa.</desc>
     <date>2025</date>
     <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261028095000 +0000" stop="20261028101000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Lolo Wood LXXXV</sub-title>
+    <desc lang="es">Rob, Steelo y Lolo Wood comparan cicatrices en el mentón en "Taking it on the Chin". Aprenden que beber perjudica más que conducir en "Chug and Suck". Observan algunos saltadores salvajes en "Lep".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E8</episode-num>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
@@ -109729,6 +110439,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TVY7</value>
     </rating>
   </programme>
+  <programme start="20261028101000 +0000" stop="20261028102500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Brooke Schofield</sub-title>
+    <desc lang="es">Rob, Steelo y Brooke Schofield presentan "Dude Smart," "Strange Pups" y "Head to Head.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028101000 +0000" stop="20261028104000 +0000" channel="usmp-tv.teleclub">
     <title lang="es">Comunicación 5.°</title>
     <desc lang="es">Un espacio para reforzar cursos de lenguaje, literatura y razonamiento verbal.</desc>
@@ -110010,6 +110730,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="onscreen">E4</episode-num>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261028102500 +0000" stop="20261028111000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">La Venganza De Los Ex Uk</title>
+    <sub-title lang="es">Tentación, lágrimas y berrinches</sub-title>
+    <desc lang="es">Una de las parejas de One That Got Away es enviada a casa antes de que una nueva bomba caliente sacuda la villa y un ex enojado aparezca sin intención de reavivar.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261028102500 +0000" stop="20261028104500 +0000" channel="nick.teleclub">
@@ -111620,6 +112350,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261028111000 +0000" stop="20261028120000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Geordie Shore</title>
+    <sub-title lang="es">Chloe cambia sus métodos</sub-title>
+    <desc lang="es">Bethan decide que necesita irse para trabajar en ella misma, pero Beau se queda con la familia. Durante una fiesta en la casa, Ant genera algunos problemas entre Louis y Chloe, lo que causa líos entre los muchachos.</desc>
+    <date>2020</date>
+    <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
   <programme start="20261028111000 -0500" stop="20261028131500 -0500" channel="custom-1231">
     <title lang="es">Anémona</title>
   </programme>
@@ -113053,6 +113793,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
+  <programme start="20261028120000 +0000" stop="20261028122000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Symone</sub-title>
+    <desc lang="es">Rob, Steelo y Lolo Wood dan la bienvenida a Symone de "RuPaul's Drag Race" y se lanzan al agua con algunos amarres de barcos, se hunden de cabeza en algunos bares de mala muerte y aprenden de los jóvenes con generación.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E15</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028120000 +0000" stop="20261028122000 +0000" channel="nick.teleclub">
     <title lang="es">Una casa de locos</title>
     <sub-title lang="es">La ciencia no miente; Siempre juntos</sub-title>
@@ -113451,6 +114201,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="onscreen">E6</episode-num>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261028122000 +0000" stop="20261028124500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXVII</sub-title>
+    <desc lang="es">Rob, Steelo y Nina Agdal son testigos de los peligros al hacer acrobacias con madera en mal estado en "Weak Ramps". Descubren las mascotas más tontas en "Hilarious Hamsters", y bailan con fuerza en la pista en "Subpar Swingin".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E22</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261028122000 +0000" stop="20261028124500 +0000" channel="nick.teleclub">
@@ -114117,6 +114877,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <date>2024</date>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261028124500 +0000" stop="20261028130500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXVIII</sub-title>
+    <desc lang="es">Rob, Steelo y Nina Agdal se enfrentan a las olas en "Rapid Wrecked". Lanzan sus líneas en "Freestyle Fishing". Prueban un bocado en "Deranged Dips".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E23</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261028124500 +0000" stop="20261028131000 +0000" channel="nick.teleclub">
@@ -114885,6 +115655,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261028130500 +0000" stop="20261028133000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXIX</sub-title>
+    <desc lang="es">Rob, Steelo y la invitada especial Nina Agdal se ensucian en el lodo, conocen a unos niños bocones y aprenden a hacer dos cosas a la vez.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E24</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028130700 +0000" stop="20261028131300 +0000" channel="custom-1220">
     <title lang="es">La pequeña Lola visita la ciudad</title>
     <desc lang="es">Lola tiene divertidas aventuras en la ciudad mientras descubre patinetas y camiones de bomberos, aprende a cruzar la calle y más. Gracias a sus amigos, explica de forma sencilla el entorno urbano y las actividades que allí se desarrollan.</desc>
@@ -115633,6 +116413,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <icon src="https://iptv-epg.org/images/u3cGeRAPd0z4D4k2ZJzNuV5XOR0rs4TUYbvXggGGI8Xvnzx0rkKt5V8ITarcZevO4pxnGWMHFbiL5vwhuX0Q3aEDO2IYbTKdBbuZ1-21FYFXZ5Se1Z8Sy9Y93qlfZHfZaeDXxHmVgeAYWZ7bCGpJlOtzPwPir52e_YH7EEngf0vDOsCw6V8" />
     <title lang="en">Hablemos de Max</title>
   </programme>
+  <programme start="20261028133000 +0000" stop="20261028135000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXX</sub-title>
+    <desc lang="es">Rob, Steelo y Nina Agdal tienen problemas para aferrarse, accidentalmente rompen algunas luces y dan un salto en paracaídas.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E29</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028133000 +0000" stop="20261028135000 +0000" channel="nick.teleclub">
     <title lang="es">Bob Esponja</title>
     <sub-title lang="es">Alarma rota; El bebé de Karen</sub-title>
@@ -116032,6 +116822,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <title lang="es">América Deportes</title>
     <desc lang="es">La mejor información deportiva con noticias actuales, las principales ligas, torneos y más.</desc>
     <date>2013</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261028135000 +0000" stop="20261028141000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXXVI</sub-title>
+    <desc lang="es">Rob, Steelo y Nina Agdal conocen a algunos entrenadores en apuros que están colgando el silbato. Se divierten en la lluvia y presencian a algunos niños traumatizados por huevos.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E37</episode-num>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
@@ -116811,6 +117611,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261028141000 +0000" stop="20261028143500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXXVII</sub-title>
+    <desc lang="es">Rob, Steelo y Nina Agdal vuelan en "Homemade Helis", hacen limpieza en "Chore Sore" y ven quién deja su trabajo en "Last Food Jobs".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E38</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028141200 +0000" stop="20261028150000 +0000" channel="ANIMAL.PLANET.HD.(Animal.Planet.HD).pe">
     <title lang="es">Expedición a lo desconocido: Megalodón</title>
     <desc lang="es">Josh Gates se sumerge en un mar repleto de tiburones para develar el misterio de la desaparición del megalodón, uno de los peces más grandes que ha existido.</desc>
@@ -117401,6 +118211,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <date>2022</date>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261028143500 +0000" stop="20261028150000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXXVIII</sub-title>
+    <desc lang="es">Rob, Steelo y la invitada especial Nina Agdal sueñan con golpear el suelo con "Sleep Falls", limpian algunos desastres de "Doggie Doo Doo" y se vuelven locos con algunos "Beach Gymnasts".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E39</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261028143600 +0000" stop="20261028144700 +0000" channel="custom-1243">
@@ -118319,6 +119139,14 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261028150000 +0000" stop="20261028154000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Teen Mom: Reunión familiar</title>
+    <desc lang="es">Las diferentes mamás de la franquicia "Teen Mom" se reúnen en un multitudinario encuentro familiar para conectarse entre ellas y celebrar sus singulares vínculos.</desc>
+    <date>2022</date>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
   </programme>
   <programme start="20261028150000 +0000" stop="20261028151500 +0000" channel="nick.teleclub">
     <title lang="es">Una casa de locos</title>
@@ -119272,6 +120100,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <date>2025</date>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261028154000 +0000" stop="20261028162000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Teen Mom: Reunión familiar</title>
+    <sub-title lang="es">La abuela de todas las reuniones</sub-title>
+    <desc lang="es">Las madres adolescentes y sus madres se reúnen por primera vez. La tensión aumenta entre Briana y Roxanne. Lo mismo ocurre entre Ashley y Tea. Esto sucede debido a una horrible pelea en redes sociales. Cate sorprende a todos.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261028154100 -0500" stop="20261028180100 -0500" channel="custom-1228">
@@ -120266,6 +121104,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <date>2017</date>
     <rating system="MJColombia">
       <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261028162000 +0000" stop="20261028170500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Teen Mom: Reunión familiar</title>
+    <sub-title lang="es">Fosa de barro</sub-title>
+    <desc lang="es">Briana y Roxanne junto a Ashley y Tea enfrentan conflictos. Conocen a Kiaya y Kayla. Ashley se entera de que podrían extraditar a su esposo Bar de Nevada a California.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261028162200 +0000" stop="20261028162800 +0000" channel="custom-1220">
@@ -121820,6 +122668,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="original-air-date">2006-10-01 00:00:00</episode-num>
     <previously-shown start="20061001000000" />
   </programme>
+  <programme start="20261028170500 +0000" stop="20261028174500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Caught in the Act: Unfaithful</title>
+    <sub-title lang="es">My Dream House</sub-title>
+    <desc lang="es">Quinn cree que Deonta es su alma gemela, pero nota que toma distancia, por lo que intenta descubrir qué pasa.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028170500 +0000" stop="20261028173000 +0000" channel="telesur.ar">
     <title>Impacto económico - Emisión matutina</title>
     <desc>Las noticias más relevantes del acontecer económico de América Latina y el mundo.</desc>
@@ -122796,6 +123654,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <desc lang="es">Una breve sección para conocer las últimas y más destacadas noticias del ámbito deportivo.</desc>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261028174500 +0000" stop="20261028183000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Caught in the Act: Unfaithful</title>
+    <sub-title lang="es">Crash Out or Pass Out</sub-title>
+    <desc lang="es">Dashaye busca la ayuda de Tami cuando sospecha que su novia de toda la vida, Danielle, le está siendo infiel. Cuando Dashaye se enfrenta a Danielle, se revela otro giro en la trama: Dashaye también ha estado guardando un secreto.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261028174500 -0300" stop="20261028183900 -0300" channel="custom-1232">
@@ -124034,6 +124902,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="original-air-date">2014-01-08 00:00:00</episode-num>
     <previously-shown start="20140108000000" />
   </programme>
+  <programme start="20261028183000 +0000" stop="20261028191000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Caught in the Act: Unfaithful</title>
+    <sub-title lang="es">El cinturón no es de mi talla</sub-title>
+    <desc lang="es">Melik es el novio más comprensivo de Izzy y ha estado soñando con una elaborada propuesta de matrimonio para ella. De repente, encuentra accesorios extraños en su casa. ¿La verdad que Tami descubra cambiará sus planes de matrimonio.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028183000 +0000" stop="20261028190000 +0000" channel="telesur.ar">
     <title>Lenguaje de señas</title>
     <date>20041128</date>
@@ -125162,6 +126040,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261028191000 +0000" stop="20261028195000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Love &amp; Hip Hop: Atlanta</title>
+    <sub-title lang="es">Astral Projecting</sub-title>
+    <desc lang="es">Bambi interroga a Zell sobre su reciente diversión bajo el sol y él revela algo de su nuevo romance. Yandy y Mendeecees intentan reparar su vínculo.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028191000 +0000" stop="20261028193000 +0000" channel="nick.teleclub">
     <title lang="es">Una casa de locos</title>
     <sub-title lang="es">No tanta suerte; Ranas libres</sub-title>
@@ -126158,6 +127046,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <country lang="es">Estados Unidos</country>
     <rating system="MJColombia">
       <value>AGE229</value>
+    </rating>
+  </programme>
+  <programme start="20261028195000 +0000" stop="20261028203500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master</title>
+    <sub-title lang="es">Lend Me Your Ear</sub-title>
+    <desc lang="es">La competición se vuelve más compleja, dura y técnica para los artistas. Dos tatuadores veteranos regresan al programa.</desc>
+    <date>2017</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261028195000 +0000" stop="20261028202000 +0000" channel="usmp-tv.teleclub">
@@ -127615,6 +128513,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>AGE227</value>
     </rating>
   </programme>
+  <programme start="20261028203500 +0000" stop="20261028212000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master</title>
+    <sub-title lang="es">Lucha y tinta</sub-title>
+    <desc lang="es">Algunos negocios pierden la compostura después de que se pelean durante una extenuante eliminación de tatuajes.</desc>
+    <date>2017</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028203600 +0000" stop="20261028212400 +0000" channel="ANIMAL.PLANET.HD.(Animal.Planet.HD).pe">
     <title lang="es">Pesca mortal</title>
     <sub-title lang="es">No hay puerto seguro</sub-title>
@@ -128783,6 +129691,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261028212000 +0000" stop="20261028214000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master: Redención</title>
+    <sub-title lang="es">Maestro del horror</sub-title>
+    <desc lang="es">Los artistas Don Peddicord y Sebastián Murphy arreglan tatuajes de temática de horror con la ayuda del ganador anterior y el maestro del horror, Steve Teft.</desc>
+    <date>2016</date>
+    <episode-num system="onscreen">E8</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028212000 +0000" stop="20261028215000 +0000" channel="usmp-tv.teleclub">
     <title lang="es">Matemáticas 4.°</title>
     <desc lang="es">Un espacio para restar aburrimiento, sumar aprendizaje y diversión mientras se aprende y refuerzan conocimientos sobre las matemáticas.</desc>
@@ -129271,6 +130189,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="onscreen">E7</episode-num>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261028214000 +0000" stop="20261028222000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: Mentiras en la red</title>
+    <sub-title lang="es">Shawny y Jack</sub-title>
+    <desc lang="es">Una mujer recién soltera quiere ayuda para revelar la identidad de su nuevo amor, pero ella puede tener sus propios secretos.</desc>
+    <date>2017</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261028214000 +0000" stop="20261028220000 +0000" channel="nick.teleclub">
@@ -130435,6 +131363,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <date>2022</date>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261028222000 +0000" stop="20261028230500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: Mentiras en la red</title>
+    <sub-title lang="es">Marvin y Austin</sub-title>
+    <desc lang="es">Después de meses de mensajes sexuales con una modelo que conoció en una aplicación de citas, Marvin está ansioso por conocerla en persona. Max y su compañera, la cantante Chantal Claret, están de acuerdo en ayudar a Marvin a hallar a su enamorada.</desc>
+    <date>2017</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261028222000 +0000" stop="20261028223000 +0000" channel="usmp-tv.teleclub">
@@ -132091,6 +133029,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <icon src="https://ebyl.tmsimg.com/assets/p20352876_v_v11_ac.jpg" />
     <episode-num system="dd_progid">MV01741622.0000</episode-num>
   </programme>
+  <programme start="20261028230500 +0000" stop="20261028234500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: The TV Show</title>
+    <sub-title lang="es">Eric y Lianna</sub-title>
+    <desc lang="es">Eric se enamoró por completo de Lianna. Sin embargo, aunque vive cerca, ella no se presentó ninguna de las 3 veces que se citaron para conocerse. Nev y Kamie intentan ayudar a Eric a encontrar respuestas.</desc>
+    <date>2020</date>
+    <episode-num system="onscreen">E25</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261028230600 +0000" stop="20261028231100 +0000" channel="custom-1220">
     <title lang="es">La Pequeña Pandilla</title>
     <desc lang="es">El bebé mariposa y sus amigos animales recuerdan momentos divertidos que han compartido. Juntos consiguen superar cualquier dificultad porque saben que seguir siendo amigos es lo más importante del mundo.</desc>
@@ -132959,6 +133907,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <desc lang="en">Desde el Estadio Inca Garcilaso de la Vega, en Cusco, Perú.</desc>
     <icon src="https://iptv-epg.org/images/Cm0qHa-NVntdD5az3ZEs0dgMdYY7aiRrprQVe5TzoYGu_ZrWbLxrT_4_g-A5WybxaaU7Vq7AfvN5fZkOaWzSVgpzpz6p6N6Rs7J8zAnLIacFAFGiBF6Wve-Z1GnQBnpXYCv29TuDrHgjH8r-D-dr5MS0NZsVa4klC3wO1OUTNfzUFkmhGqo" />
     <title lang="en">Fútbol Peruano Primera División : Cienciano vs. Atlético Grau</title>
+  </programme>
+  <programme start="20261028234500 +0000" stop="20261029003000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: The TV Show</title>
+    <sub-title lang="es">DeJuan y Tynea</sub-title>
+    <desc lang="es">Nev y Kamie descubren un misterio que involucra a unas hermanas gemelas, que amenaza con acabar el amor de DeJuan por Tynea para siempre.</desc>
+    <date>2020</date>
+    <episode-num system="onscreen">E27</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
   </programme>
   <programme start="20261028234600 +0000" stop="20261028235900 +0000" channel="custom-1243">
     <title>Mi compañero de clase es un mono</title>
@@ -134190,6 +135148,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="original-air-date">1996-01-22 00:00:00</episode-num>
     <previously-shown start="19960122000000" />
   </programme>
+  <programme start="20261029003000 +0000" stop="20261029011500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: Mentiras en la red</title>
+    <sub-title lang="es">Sheklia y Talli</sub-title>
+    <desc lang="es">Un hijo está preocupado por la relación que su madre tiene con un hombre misterioso que conoció en internet. Sin embargo, su madre está ocultando sus propios secretos.</desc>
+    <date>2018</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029003000 +0000" stop="20261029010000 +0000" channel="peru.teleclub">
     <title>¿Y tú, tú qué vas a hacer?</title>
     <desc>Un viaje por la cultura del estado de Guanajuato.</desc>
@@ -135257,6 +136225,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <previously-shown start="20001117000000" />
     <rating system="MPAA">
       <value>TVY7</value>
+    </rating>
+  </programme>
+  <programme start="20261029011500 +0000" stop="20261029020000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Love &amp; Hip Hop: Atlanta</title>
+    <sub-title lang="es">It's All About The Big Benjamins, Baby!</sub-title>
+    <desc lang="es">Spice lleva a parte del equipo al otro lado del océano para presentar el álbum del elenco en Unruly Fest. Sin embargo, deja al grupo en una situación complicada.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E15</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261029011600 +0000" stop="20261029012000 +0000" channel="custom-1220">
@@ -136514,6 +137492,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
+  <programme start="20261029020000 +0000" stop="20261029024000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Caught in the Act: Unfaithful</title>
+    <sub-title lang="es">He Proposed to Both of Us</sub-title>
+    <desc lang="es">Leila, una modelo suiza, quedó enamorada de West cuatro años atrás. Últimamente, West se comporta diferente y Leila cree que podría estar a punto de abandonarla.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029020000 +0000" stop="20261029030000 +0000" channel="peru.teleclub">
     <title>En pared</title>
     <desc>Un espacio en el que se brinda información sobre el mundo deportivo.</desc>
@@ -137321,6 +138309,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <previously-shown start="20130409000000" />
     <rating system="MPAA">
       <value>TVG</value>
+    </rating>
+  </programme>
+  <programme start="20261029024000 +0000" stop="20261029032500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ghosted: Fuera de línea</title>
+    <sub-title lang="es">Naimah y Maher</sub-title>
+    <desc lang="es">Naimah y Maher, los payasos de la clase, se convierten instantáneamente en mejores amigos. Cuando Naimah se une a la Fuerza Aérea, sus intentos de mantener viva la amistad disminuyen.</desc>
+    <date>2021</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261029024300 +0000" stop="20261029024600 +0000" channel="custom-1220">
@@ -138445,6 +139443,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261029032500 +0000" stop="20261029040000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Just Tattoo of Us USA</title>
+    <sub-title lang="es">El máximo desafío de Tony</sub-title>
+    <desc lang="es">La experimentada de "The Challenge", Tony, va al estudio con una pregunta que le cambia la vida a su prometido. El código de chicas es dejado de lado y se revela una dolorosa traición del pasado.</desc>
+    <date>2019</date>
+    <episode-num system="onscreen">E8</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029032900 +0000" stop="20261029033300 +0000" channel="custom-1220">
     <title lang="es">Cierra tus ojos</title>
     <desc lang="es">Cierra tus ojos, recuéstate y relájate. Es hora de dormir.</desc>
@@ -139525,6 +140533,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <icon src="https://iptv-epg.org/images/NhqV0RlK6kJqRXLR9mGmPIAM42CvrVG53M2jWcHKnQFTf64hV9Dx5bZUQZ8uhXxKnqFtWH52YiaTnfNVuWaVglDq71J0paJE0JsiSKXienbc0Uic0xIvo38b6b9uIpx6-NHHPdoCsYQtOKcEoD2--nXVr18qoeSrpiCJX0uQ3-tjvjUY7Hg" />
     <title lang="en">El Chiringuito</title>
   </programme>
+  <programme start="20261029040000 +0000" stop="20261029044500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">The Challenge All Stars: Rivals</title>
+    <sub-title lang="es">This Is Why We're Rivals</sub-title>
+    <desc lang="es">Las estrellas de "The Real World" y "Road Rules" enfrentan desafíos ambientados en la Cordillera de los Andes de Argentina mientras compiten por la oportunidad de ganar un gran premio.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E10</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
   <programme start="20261029040000 +0000" stop="20261029043000 +0000" channel="peru-internacional.teleclub">
     <title>Travesía</title>
     <desc>Programa de turismo y aventuras lleno de adrenalina que presenta las travesías más impactantes alrededor del mundo.</desc>
@@ -140376,6 +141394,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <length units="minutes">95</length>
     <icon src="https://ebyl.tmsimg.com/assets/p19635688_v_v8_aa.jpg" />
     <episode-num system="dd_progid">MV01604783.0000</episode-num>
+  </programme>
+  <programme start="20261029044500 +0000" stop="20261029053000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master</title>
+    <sub-title lang="es">Competencia de ciudades</sub-title>
+    <desc lang="es">Diez de los mejores artistas del tatuaje de Estados Unidos compiten por convertir cuerpos en auténticos lienzos y así ser el mejor tatuador del país.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
   </programme>
   <programme start="20261029044600 +0000" stop="20261029064200 +0000" channel="custom-1008">
     <title lang="es">La monja 2</title>
@@ -141479,6 +142507,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="original-air-date">2002-12-28 00:00:00</episode-num>
     <previously-shown start="20021228000000" />
   </programme>
+  <programme start="20261029053000 +0000" stop="20261029055000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXXI</sub-title>
+    <desc lang="es">Rob, Steelo y Nina Agdal vuelan alto en "Tube Launched", se lanzan a las pistas con demasiada intensidad en "Last Time Skiing" y destacan mientras hacen ejercicio en "Exercising Individuality".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E30</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029053000 +0000" stop="20261029060000 +0000" channel="telesur.ar">
     <title>Telesur Noticias</title>
     <desc>Las noticias más importantes de América Latina y el resto del mundo integrados en una sola voz informativa.</desc>
@@ -141678,6 +142716,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <date>2021</date>
     <rating system="MJColombia">
       <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261029055000 +0000" stop="20261029061000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXXII</sub-title>
+    <desc lang="es">Rob, Steelo y Nina Agdal tienen una puntería terrible en "Way Off Target", experimentan la agonía de la derrota en "Sports Heartbreak" y deben estar atentos en "Danger Sneaking Up".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E31</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261029055100 +0000" stop="20261029061800 +0000" channel="custom-1243">
@@ -142211,6 +143259,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261029061000 +0000" stop="20261029063500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXXIII</sub-title>
+    <desc lang="es">Rob, Steelo y Nina Agdal protegen sus cuellos de "Vehicular Clothesline", apuntan en el escandaloso juego "Kid Ball Bash" y desatan un caos total en "Picnic Peril".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E32</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029061100 +0000" stop="20261029062300 +0000" channel="food-network.teleclub">
     <title lang="es">El increíble mundo de Gumball</title>
     <sub-title lang="es">El tonto</sub-title>
@@ -142730,6 +143788,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="onscreen">E12</episode-num>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261029063500 +0000" stop="20261029072500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Storytellers</title>
+    <sub-title lang="es">Mary J. Blige</sub-title>
+    <desc lang="es">Mary J. Blige interpreta canciones y revela las historias detrás de algunos de sus éxitos y sus canciones favoritas entre las que se incluyen "Real Love", "No More Drama" y "Just Fine".</desc>
+    <date>2008</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261029063600 +0000" stop="20261029063900 +0000" channel="custom-1220">
@@ -143732,6 +144800,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <date>2021</date>
     <rating system="MJColombia">
       <value>AGE228</value>
+    </rating>
+  </programme>
+  <programme start="20261029072500 +0000" stop="20261029081000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master</title>
+    <sub-title lang="es">Mash Up Mayhem</sub-title>
+    <desc lang="es">En la épica lucha por llegar a la final, los cinco últimos artistas se enfrentan con tatuajes que combinan diferentes técnicas. Un giro asombroso pone a prueba su versatilidad.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E9</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
     </rating>
   </programme>
   <programme start="20261029072600 +0000" stop="20261029073800 +0000" channel="custom-1243">
@@ -144818,6 +145896,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261029081000 +0000" stop="20261029084500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master</title>
+    <sub-title lang="es">OGs vs. Young Gun</sub-title>
+    <desc lang="es">Los tres finalistas revelan sus tatuajes de Master Canvas. Rostros conocidos regresan en un giro final inesperado. Una sorpresa inesperada conmueve a los artistas hasta las lágrimas.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E10</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
   <programme start="20261029081400 +0000" stop="20261029095200 +0000" channel="custom-1008">
     <title lang="es">Evil Dead: El despertar</title>
     <desc lang="es">En un edificio de apartamentos de Los Ángeles, dos hermanas luchan contra los demonios sedientos de sangre que han salido de un libro antiguo.</desc>
@@ -145423,6 +146511,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261029084500 +0000" stop="20261029090500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Lolo Wood CI</sub-title>
+    <desc lang="es">Rob, Steelo y Lolo Wood intentan protegerse, pero siguen siendo destrozados por los "Desastres defensivos" y corren a cubrirse para evitar los "Ataques aéreos".</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E37</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029084600 +0000" stop="20261029085100 +0000" channel="custom-1220">
     <title lang="es">Rastro de caracol</title>
     <desc lang="es">El Sr. Caracol aprende mucho cuando emprende sus increíbles aventuras con sus amigos y vecinos.</desc>
@@ -145977,6 +147075,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261029090500 +0000" stop="20261029092500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Lolo Wood CII</sub-title>
+    <desc lang="es">Rob, Steelo y Lolo Wood luchan contra los estornudos y conocen a unos niños pequeños muy enojados que no paran de tener rabietas infantiles.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E38</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029090500 +0000" stop="20261029093000 +0000" channel="telesur.ar">
     <title>El mapa</title>
     <desc>Un espacio para el análisis, con la finalidad de profundizar y expandir la geopolítica global en un mundo que evoluciona constantemente.</desc>
@@ -146290,6 +147398,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <previously-shown start="20040813000000" />
     <rating system="MPAA">
       <value>TVG</value>
+    </rating>
+  </programme>
+  <programme start="20261029092500 +0000" stop="20261029095000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Lolo Wood CIII</sub-title>
+    <desc lang="es">Rob, Steelo y Lolo Wood se ponen las espinilleras para "Youth Soccer Rocked", preferirían estar en casa en "Hardly Party People" y romper todas las reglas de baño en "Urinal Outlaws".</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E39</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261029092600 +0000" stop="20261029101300 +0000" channel="732dtv.cl">
@@ -146729,6 +147847,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <previously-shown start="20050708000000" />
     <rating system="MPAA">
       <value>TVY7</value>
+    </rating>
+  </programme>
+  <programme start="20261029095000 +0000" stop="20261029102500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">The Challenge All Stars: Rivals</title>
+    <sub-title lang="es">This Is Why We're Rivals</sub-title>
+    <desc lang="es">Las estrellas de "The Real World" y "Road Rules" enfrentan desafíos ambientados en la Cordillera de los Andes de Argentina mientras compiten por la oportunidad de ganar un gran premio.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E10</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
     </rating>
   </programme>
   <programme start="20261029095200 +0000" stop="20261029110000 +0000" channel="custom-1008">
@@ -147540,6 +148668,15 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <date>2025</date>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261029102500 +0000" stop="20261029111000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">La Venganza De Los Ex Uk</title>
+    <desc lang="es">Charlie intenta salir de los malos libros de dos ex enojados. Las inseguridades de Chloe se apoderan de ella y el tiempo de tres personas en la villa está amenazado.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261029102700 +0000" stop="20261029104900 +0000" channel="custom-1058">
@@ -148785,6 +149922,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261029111000 +0000" stop="20261029120000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Geordie Shore</title>
+    <sub-title lang="es">¡Geordi-cioso!</sub-title>
+    <desc lang="es">Durante la noche final, los participantes tienen un evento llamado Geordelicioso. Con la presión de organizar una fiesta para el recuerdo, Amelia canta, Nathan muestra su talento y las mujeres hacen un baile sensual.</desc>
+    <date>2020</date>
+    <episode-num system="onscreen">E8</episode-num>
+    <rating system="MJColombia">
+      <value>+18</value>
+    </rating>
+  </programme>
   <programme start="20261029111100 +0000" stop="20261029112200 +0000" channel="custom-1243">
     <title>Mi compañero de clase es un mono</title>
     <desc>Adam Lyon es inscrito por error en una escuela de puros animales, la Secundaria Charles Darwin; el zoológico local y chicos del acuario son sus compañeros de clases: gorilas, jirafas, serpientes, aves, murciélagos y peces.</desc>
@@ -149861,6 +151008,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
+  <programme start="20261029120000 +0000" stop="20261029122000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Carly Aquilino LXXXVII</sub-title>
+    <desc lang="es">Junto a Carly Aquilino se toman el juego demasiado en serio en "Adult League Intensity", se sinceran demasiado en "Super Honest" y trabajan hasta altas horas de la noche en "Night Shift Nightmares".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E36</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029120000 +0000" stop="20261029123000 +0000" channel="telesur.ar">
     <title>Impacto económico - Emisión matutina</title>
     <desc>Las noticias más relevantes del acontecer económico de América Latina y el mundo.</desc>
@@ -150101,6 +151258,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="onscreen">E2</episode-num>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261029122000 +0000" stop="20261029124500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Carly Aquilino LXXXVIII</sub-title>
+    <desc lang="es">Rob Dyrdek, Steelo Brim y Carly Aquilino se mantienen al tanto del caos de "Chest Attacks", se ríen de los tropiezos en "Big Trippin'" e intentan seguir el rastro de un muy escurridizo "Escape K".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E40</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261029122200 +0000" stop="20261029122700 +0000" channel="custom-1220">
@@ -150586,6 +151753,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <date>2024</date>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261029124500 +0000" stop="20261029130500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Karrueche Tran LVII</sub-title>
+    <desc lang="es">Steelo y su invitada Karrueche Tran se llenan de adrenalina con algunos "Extreme Geezers", no comen en la mesa porque mantienen "Fridge Feasting" y festejan antes de la meta con "Premature Celebration".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261029124600 +0000" stop="20261029125900 +0000" channel="custom-1243">
@@ -151246,6 +152423,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TVY7</value>
     </rating>
   </programme>
+  <programme start="20261029130500 +0000" stop="20261029133000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Karrueche Tran LVIII</sub-title>
+    <desc lang="es">Steelo y Karrueche Tran cometen algunos fallos flexibles en "Kitchen Gymnasts", son los que más les sirven con "Excessive Serving" y participan en una paternidad extrema con "Daredevil Dads".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029130600 +0000" stop="20261029151000 +0000" channel="custom-1225">
     <title lang="es">M3GAN 2.0</title>
     <desc lang="es">Un arma robótica de grado militar conocida como Amelia se vuelve una amenaza y Gemma decide resucitar M3GAN para hacerle frente.</desc>
@@ -151834,6 +153021,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="original-air-date">2012-12-30 00:00:00</episode-num>
     <previously-shown start="20121230000000" />
   </programme>
+  <programme start="20261029133000 +0000" stop="20261029135000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Karrueche Tran LIX</sub-title>
+    <desc lang="es">Rob, Steelo y Karrueche Tran atraviesan el muro de yeso en "Patching Time". Ven héroes absolutos en "Baby Saviors". Observan descuidos en montañas rusas en "Unsecured Valuable".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E13</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029133000 +0000" stop="20261029140000 +0000" channel="peru.teleclub">
     <title>Deporte express</title>
     <desc>Las novedades diarias del mundo del deporte, fútbol nacional e internacional, y el seguimiento a los deportistas más destacados del país.</desc>
@@ -152141,6 +153338,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="onscreen">E52</episode-num>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261029135000 +0000" stop="20261029141000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Karrueche Tran LX</sub-title>
+    <desc lang="es">Rob, Steelo y Karrueche Tran descubren cómo no deslizarse por una barandilla en "Rail Wreckled". Por qué el golf debe practicarse en un campo de golf en "City Golf". Cómo deslizarse con fuerza hasta la meta en "Pain Skids".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E14</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261029135100 +0000" stop="20261029140300 +0000" channel="custom-1243">
@@ -152698,6 +153905,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261029141000 +0000" stop="20261029143500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Karrueche Tran LXII</sub-title>
+    <desc lang="es">Rob, Steelo y Karrueche Tran prueban "Big Cheesin'". Comprobar quién es "demasiado joven para un teléfono". Rockeando con "Concert Props".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E16</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029141200 +0000" stop="20261029150000 +0000" channel="ANIMAL.PLANET.HD.(Animal.Planet.HD).pe">
     <title lang="es">Guardianes del pantano</title>
     <sub-title lang="es">Muchas serpientes</sub-title>
@@ -153207,6 +154424,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <country lang="es">Estados Unidos</country>
     <rating system="MJColombia">
       <value>AGE229</value>
+    </rating>
+  </programme>
+  <programme start="20261029143500 +0000" stop="20261029150000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Rocsi Diaz XXI</sub-title>
+    <desc lang="es">Rob, Steelo y Rocsi Díaz no dejan ningún vaso sin romper en "Complete Shatters". Además, tienen un mal día jugando al golf en "Sand Trap Sadness".</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E25</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261029143600 +0000" stop="20261029150000 +0000" channel="DISCOVERY.HD.THEATER.(Disc.TheaterHD).pe">
@@ -153879,6 +155106,15 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
+  <programme start="20261029150000 +0000" stop="20261029154000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Teen Mom: Reunión familiar</title>
+    <desc lang="es">La tensión llega a su punto cuando estallan varias peleas y discusiones a lo largo de la noche. A April le prohíben beber, se extiende un rumor de embarazo por la casa y las cosas se descontrolan entre el equipo de Ashley y el equipo de Briana.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029150000 +0000" stop="20261029150500 +0000" channel="telesur.ar">
     <title>Titulares</title>
     <desc>Información minuto a minuto sobre todos los acontecimientos nacionales e internacionales del interés público.</desc>
@@ -154548,6 +155784,15 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <date>2026</date>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261029154000 +0000" stop="20261029162000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Teen Mom: Reunión familiar</title>
+    <desc lang="es">Las chicas están agotadas emocionalmente después de la gran pelea que tuvo lugar la noche anterior. Cate y April tienen una sesión emotiva con el entrenador B.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261029154100 +0000" stop="20261029154200 +0000" channel="custom-1220">
@@ -155292,6 +156537,15 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <country lang="es">Estados Unidos</country>
     <rating system="MJColombia">
       <value>+18</value>
+    </rating>
+  </programme>
+  <programme start="20261029162000 +0000" stop="20261029170500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Teen Mom: Reunión familiar</title>
+    <desc lang="es">Cuando al grupo le faltan cinco miembros, las madres y las abuelas trabajan juntas para que la reunión sea todo un éxito, literalmente.</desc>
+    <date>2023</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261029162100 +0000" stop="20261029162700 +0000" channel="custom-1220">
@@ -156451,6 +157705,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <quality>HDTV</quality>
     </video>
   </programme>
+  <programme start="20261029170500 +0000" stop="20261029174500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Atrapados en el acto: Infieles</title>
+    <sub-title lang="es">Capitán Salvador</sub-title>
+    <desc lang="es">Chris, Tula y Grace tienen una relación poliamorosa, pero Chris tiene dudas sobre los afectos de Grace. ¿Podrá la pareja sobrevivir a los resultados de la investigación de Tami.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E4</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029170500 +0000" stop="20261029173000 +0000" channel="telesur.ar">
     <title>Impacto económico - Emisión matutina</title>
     <desc>Las noticias más relevantes del acontecer económico de América Latina y el mundo.</desc>
@@ -157144,6 +158408,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <desc lang="en">Desde el estadio Los Chankas, en Andahuaylas, Perú.</desc>
     <icon src="https://iptv-epg.org/images/H2Zcg_vyfGIii9_R6s4uSAHo3mmh4sTdBAcwxvrzA2zBQilZJgo2QeEvUNbFRU6sfsM1Y_2o-Lbl69_jEMqvH6cuvKgZO6mSeXpTO9MBxUJfGM89v_Q9rFfKTywVgfJwF96z3Di9XMTOZ3IuInqAP0OUj2upftbpjKG78Bd48FGR5Y79Z4o" />
     <title lang="en">Fútbol Peruano Primera División : Los Chankas vs. Cusco FC</title>
+  </programme>
+  <programme start="20261029174500 +0000" stop="20261029183000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Atrapados en el acto: Infieles</title>
+    <sub-title lang="es">Trabajando duro</sub-title>
+    <desc lang="es">Después de 10 años y dos hijos, Alexia sospecha que su prometido, Israel, ya no está comprometido. Con su compromiso roto, recurre a Tami preguntándose si Israel sigue haciendo la compra con ella, o si está llenando el carrito de otra persona.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E5</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
   </programme>
   <programme start="20261029174600 +0000" stop="20261029175200 +0000" channel="custom-1220">
     <title lang="es">Viajeros</title>
@@ -158088,6 +159362,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <episode-num system="original-air-date">2014-01-08 00:00:00</episode-num>
     <previously-shown start="20140108000000" />
   </programme>
+  <programme start="20261029183000 +0000" stop="20261029191000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Atrapados en el acto: Infieles</title>
+    <sub-title lang="es">Gemelas</sub-title>
+    <desc lang="es">Shay trabaja muchas horas para mantener a su novio Tommy, pero ahora teme que él esté pasando ese tiempo con alguien nuevo. Las señales de alarma se están acumulando, y Shay empieza a preguntarse si él le está ocultando algo mucho más grave.</desc>
+    <date>2025</date>
+    <episode-num system="onscreen">E6</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029183000 +0000" stop="20261029190000 +0000" channel="telesur.ar">
     <title>Lenguaje de señas</title>
     <date>20041128</date>
@@ -158898,6 +160182,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <icon src="https://ebyl.tmsimg.com/assets/p15791706_v_v8_ag.jpg" />
     <episode-num system="dd_progid">MV01315694.0000</episode-num>
   </programme>
+  <programme start="20261029191000 +0000" stop="20261029195000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Love &amp; Hip Hop: Atlanta</title>
+    <sub-title lang="es">Contextual Relations</sub-title>
+    <desc lang="es">Jasmine aparece en el evento de Kirk e intenta frenar las dudas de Rasheeda. Sierra pasa de soñar con la felicidad conyugal a una pesadilla en vivo por Instagram con su familia.</desc>
+    <date>2024</date>
+    <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029191000 -0300" stop="20261029200500 -0300" channel="custom-1232">
     <title lang="es">El jardín de bronce</title>
     <title lang="xx">Bersa Piccola 22</title>
@@ -159668,6 +160962,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <desc lang="es">El equipo viaja a Denver para investigar una serie de asesinatos. Durante la misión, Prentiss se ve obligada a reexaminar su relación con el agente especial Andrew Mendoza.</desc>
     <date>2020</date>
     <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261029195000 +0000" stop="20261029203500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master</title>
+    <sub-title lang="es">Batalla de flocado</sub-title>
+    <desc lang="es">La tensión entre los compañeros de equipo se intensifica y dificulta el trabajo.</desc>
+    <date>2017</date>
+    <episode-num system="onscreen">E6</episode-num>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
@@ -160650,6 +161954,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261029203500 +0000" stop="20261029212000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master</title>
+    <sub-title lang="es">On the Bubble</sub-title>
+    <desc lang="es">Uno de los veteranos que peor recuerdo dejaron regresa al programa para convulsionar la situación.</desc>
+    <date>2017</date>
+    <episode-num system="onscreen">E7</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029203600 +0000" stop="20261029212400 +0000" channel="ANIMAL.PLANET.HD.(Animal.Planet.HD).pe">
     <title lang="es">Tiburones y volcanes</title>
     <desc lang="es">En todo el mundo, tiburones de varias especies parecen concentrarse alrededor de volcanes e islas volcánicas. El Dr. Mike Heithaus se sumerge en varias de estas zonas para descubrir qué es lo que las hace tan atractivas para estos animales.</desc>
@@ -161620,6 +162934,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261029212000 +0000" stop="20261029214000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Ink Master: Redención</title>
+    <sub-title lang="es">No destroces a mi bebé</sub-title>
+    <desc lang="es">Las emociones aumentan cuando molestas situaciones retornan con un padre sobreprotector; Keith Diffenderfer y Aaron Is regresan.</desc>
+    <date>2016</date>
+    <episode-num system="onscreen">E9</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029212200 +0000" stop="20261030001200 +0000" channel="517dtv.cl">
     <title>Gladiador</title>
     <desc>Máximo, general romano, desea volver a casa, pero el emperador Marco Aurelio quiere que herede el imperio. Esto hace que Cómodo ordene matar a su familia. Máximo escapa de la muerte y regresa a Roma como gladiador para vengar la muerte de su familia.</desc>
@@ -161957,6 +163281,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <date>2020</date>
     <rating system="MJColombia">
       <value>TE</value>
+    </rating>
+  </programme>
+  <programme start="20261029214000 +0000" stop="20261029222000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: Mentiras en la red</title>
+    <sub-title lang="es">Kiaira y Cortney</sub-title>
+    <desc lang="es">Kiara y Cortney tuvieron un hijo sin haberse visto nunca. Nev y Max tienen que reunir a la familia, pero sospechan que tal vez se hayan topado con el mayor caso de estafa a través de Internet de su dilatada experiencia.</desc>
+    <date>2018</date>
+    <episode-num system="onscreen">E11</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
     </rating>
   </programme>
   <programme start="20261029214300 +0000" stop="20261029214900 +0000" channel="custom-1220">
@@ -162872,6 +164206,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <length units="minutes">125</length>
     <icon src="https://ebyl.tmsimg.com/assets/p19787673_v_v12_aa.jpg" />
     <episode-num system="dd_progid">MV01623393.0000</episode-num>
+  </programme>
+  <programme start="20261029222000 +0000" stop="20261029230000 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: Mentiras en la red</title>
+    <sub-title lang="es">Angel y Jordan</sub-title>
+    <desc lang="es">Jordan puso fin a una relación sentimental en la vida real por un flechazo en Tinder. Nev y Laura investigan su caso y destapan un secreto muy perverso.</desc>
+    <date>2018</date>
+    <episode-num system="onscreen">E13</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
   </programme>
   <programme start="20261029222200 +0000" stop="20261029222700 +0000" channel="custom-1220">
     <title lang="es">La bici de Mike</title>
@@ -163824,6 +165168,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261029230000 +0000" stop="20261029234500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: The TV Show</title>
+    <sub-title lang="es">Sheila y Rich Dollaz</sub-title>
+    <desc lang="es">Nev y Nick Young buscan ayudar a Sheila a descubrir si el reconocido Rich Dollaz intenta conquistarla.</desc>
+    <date>2018</date>
+    <episode-num system="onscreen">E21</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
   <programme start="20261029230000 +0000" stop="20261029233000 +0000" channel="peru-internacional.teleclub">
     <title>Una mirada al mundo</title>
     <desc>Programa donde especialistas analizan los hechos más importantes de la actualidad mundial y su incidencia en la realidad cotidiana.</desc>
@@ -164635,6 +165989,16 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <desc lang="es">Ferit Korhan es un joven heredero mujeriego e irresponsable. Al ver su comportamiento, su abuelo Halis arregla su matrimonio con una joven adecuada.</desc>
     <date>2025</date>
     <episode-num system="onscreen">E3</episode-num>
+    <rating system="MJColombia">
+      <value>+14</value>
+    </rating>
+  </programme>
+  <programme start="20261029234500 +0000" stop="20261030002500 +0000" channel="mtv.teleclub-2">
+    <title lang="es">Catfish: Mentiras en la red</title>
+    <sub-title lang="es">Mathan y Leah</sub-title>
+    <desc lang="es">Con la ayuda de Kamie Crawford, Nev ayuda a Mathan a encontrar a Leah, una joven con la que estuvo hablando durante una década, pero aún no conoce. Sin embargo, Leah esconde secretos que superan la imaginación de Mathan.</desc>
+    <date>2019</date>
+    <episode-num system="onscreen">E29</episode-num>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>

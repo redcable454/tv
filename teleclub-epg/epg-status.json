@@ -1,9 +1,9 @@
 {
-  "channels": 285,
-  "programmes": 17349,
-  "channels_with_programmes": 285,
-  "real_epg_channels": 137,
-  "generic_epg_channels": 148,
+  "channels": 288,
+  "programmes": 17490,
+  "channels_with_programmes": 288,
+  "real_epg_channels": 138,
+  "generic_epg_channels": 150,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "208dtv.cl",
@@ -87,6 +87,7 @@
     "custom-1319",
     "custom-1325",
     "custom-1327",
+    "custom-1329",
     "custom-27",
     "custom-31",
     "custom-5",
@@ -97,6 +98,7 @@
     "https://i.ibb.co/Nd3595Jp/1e57475a9a6b-640-360.png",
     "huacho.teleclub",
     "ipe.teleclub",
+    "latin-tv-huararaz.teleclub",
     "latina-clasicos.teleclub",
     "latina-noticias.teleclub",
     "latina-podcast.teleclub",
@@ -278,7 +280,7 @@
     },
     {
       "id": "custom-1255",
-      "name": "CHV"
+      "name": "CHV NOTICIAS"
     },
     {
       "id": "custom-1299",
@@ -365,6 +367,10 @@
       "name": "Hoyperu tv"
     },
     {
+      "id": "custom-1329",
+      "name": "HTV MUSICA"
+    },
+    {
       "id": "regional-imperial-television-huancayo.teleclub",
       "name": "Imperial Televisión - Huancayo"
     },
@@ -375,6 +381,10 @@
     {
       "id": "custom-1108",
       "name": "KARIBEÑA TV"
+    },
+    {
+      "id": "latin-tv-huararaz.teleclub",
+      "name": "LATIN TV HUARAZ"
     },
     {
       "id": "latina-clasicos.teleclub",
