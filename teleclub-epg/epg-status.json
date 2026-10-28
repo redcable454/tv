@@ -1,9 +1,9 @@
 {
   "channels": 287,
-  "programmes": 17250,
+  "programmes": 17194,
   "channels_with_programmes": 287,
-  "real_epg_channels": 139,
-  "generic_epg_channels": 148,
+  "real_epg_channels": 138,
+  "generic_epg_channels": 149,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "208dtv.cl",
@@ -14,6 +14,7 @@
     "Tv+-teleclub",
     "Unitel-huancayo-teleclub",
     "amazonica.teleclub",
+    "anime.teleclub",
     "atv.teleclub",
     "auno-tv.teleclub",
     "aura-tv.teleclub",
@@ -21,7 +22,6 @@
     "cbn-tv.teleclub",
     "chincha.teleclub",
     "chv-noticias.teleclub",
-    "chv-teleclub",
     "cineclub-tv.teleclub",
     "cositel-tv-ica.teleclub",
     "custom-1",
@@ -33,6 +33,7 @@
     "custom-1025",
     "custom-1040",
     "custom-1041",
+    "custom-1065",
     "custom-1067",
     "custom-1085",
     "custom-1102",
@@ -161,6 +162,10 @@
       "name": "A1"
     },
     {
+      "id": "custom-1065",
+      "name": "A3 CINE"
+    },
+    {
       "id": "custom-1040",
       "name": "ADRENALINA TV"
     },
@@ -271,10 +276,6 @@
     {
       "id": "regional-casma-tv.teleclub",
       "name": "Casma tv"
-    },
-    {
-      "id": "chv-teleclub",
-      "name": "CHV"
     },
     {
       "id": "chv-noticias.teleclub",
@@ -403,6 +404,10 @@
     {
       "id": "master-tv.teleclub",
       "name": "Master tv"
+    },
+    {
+      "id": "anime.teleclub",
+      "name": "MAX ANIME"
     },
     {
       "id": "mega-tv-arequipa.teleclub",

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-27T23:16:42.686394+00:00" radio-la-zona-updated-at="2026-10-27T23:16:42.867869+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-28T02:26:09.120933+00:00" radio-la-zona-updated-at="2026-10-28T02:26:09.257636+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -472,7 +472,7 @@
     <icon src="https://i.imgur.com/O90XSe4_d.png" />
   </channel>
   <channel id="custom-1065">
-    <display-name lang="es">BBC WORLD</display-name>
+    <display-name lang="es">A3 CINE</display-name>
   </channel>
   <channel id="france-24-espanol.ar">
     <display-name lang="es">FRANCE 24</display-name>
@@ -482,8 +482,8 @@
     <display-name lang="es">RT SPAÑOL</display-name>
     <icon src="https://i.imgur.com/ry7kkP9_d.png" />
   </channel>
-  <channel id="chv-teleclub">
-    <display-name lang="es">CHV</display-name>
+  <channel id="anime.teleclub">
+    <display-name lang="es">MAX ANIME</display-name>
   </channel>
   <channel id="custom-1069">
     <display-name lang="es">ENLACE</display-name>
@@ -8787,12 +8787,6 @@ Un programa que presenta los temas musicales más destadacados y que son tendenc
     <episode-num system="original-air-date">2020-10-07 00:00:00</episode-num>
     <previously-shown start="20201007000000" />
   </programme>
-  <programme start="20261027003000 +0000" stop="20261027010000 +0000" channel="custom-1065">
-    <desc lang="es">Político
-Una discusión sobre los acontecimientos políticos de la semana.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Newscast</title>
-  </programme>
   <programme start="20261027003000 +0000" stop="20261027010000 +0000" channel="custom-1084">
     <title>Generación Bethel</title>
     <desc>Programa juvenil enfocado en la religión y la palabra de Dios.</desc>
@@ -9378,12 +9372,6 @@ Lo más cool del k pop actual.</desc>
     <rating system="MPAA">
       <value>TVPG</value>
     </rating>
-  </programme>
-  <programme start="20261027010000 +0000" stop="20261027013000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-En vivo desde Singapur, las últimas noticias internacionales de la BBC.</desc>
-    <icon src="https://iptv-epg.org/images/AsK3xkLXz7c40YZ1fSncxP5IuO0-Ga3gNLC00awCuJnIkDebfsq9Z6ZlVJeIOZZOfuSKf7NoFfLLVtIa6Cdk_L1hb0CHiJexj2u2EYXs3ORjbg" />
-    <title lang="es">Newsday</title>
   </programme>
   <programme start="20261027010000 +0000" stop="20261027013000 +0000" channel="custom-1069">
     <title>Él puede hacerlo de nuevo</title>
@@ -10128,12 +10116,6 @@ Después de un accidente que deja huérfanos a cuatro hermanos, Joaquín se conv
     <episode-num system="original-air-date">2018-03-18 00:00:00</episode-num>
     <previously-shown start="20180318000000" />
   </programme>
-  <programme start="20261027013000 +0000" stop="20261027020000 +0000" channel="custom-1065">
-    <desc lang="es">Economía
-Noticias empresariales globales, tanto de las salas de juntas como de los acontecimientos sobre el terreno.</desc>
-    <icon src="https://iptv-epg.org/images/e0P_kjzADLZ5RhcaLjA9Ogj1_TvvCXxbr4F7Ctq82sWngBlw5DXUDlSchp8PpweNFRFPPhfffv9zIc0LsRC9huoDHvOSmRfi1Xlfs7hx_hcj89eYCayksTaAew" />
-    <title lang="es">Talking Business</title>
-  </programme>
   <programme start="20261027013000 +0000" stop="20261027020000 +0000" channel="custom-1069">
     <title>Casa de Dios cielos abiertos</title>
     <desc>Una oportunidad para que te puedas conectar con Dios y con otros creyentes en una atmósfera llena de la presencia y libertad del Señor.</desc>
@@ -10776,12 +10758,6 @@ Disfrute de los mejores videos musicales.</desc>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261027020000 +0000" stop="20261027023000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-En vivo desde Singapur, las últimas noticias internacionales de la BBC.</desc>
-    <icon src="https://iptv-epg.org/images/AsK3xkLXz7c40YZ1fSncxP5IuO0-Ga3gNLC00awCuJnIkDebfsq9Z6ZlVJeIOZZOfuSKf7NoFfLLVtIa6Cdk_L1hb0CHiJexj2u2EYXs3ORjbg" />
-    <title lang="es">Newsday</title>
   </programme>
   <programme start="20261027020000 +0000" stop="20261027023000 +0000" channel="custom-1069">
     <title>Show de la fe</title>
@@ -11449,12 +11425,6 @@ Sigue a una exitosa empresaria solitaria en su matrimonio, mientras su hija y jo
       <value>+18</value>
     </rating>
   </programme>
-  <programme start="20261027023000 +0000" stop="20261027024500 +0000" channel="custom-1065">
-    <desc lang="es">Interés general
-Este programa cubre las noticias más recientes en el ámbito de los desarrollos económicos y políticos así como su efecto en la economía mundial. El show incluye un reporte en vivo acerca de la bolsa de valores de Wall Street.</desc>
-    <icon src="https://iptv-epg.org/images/NIJ9GXBuA0UcscjLqIOuHyeWfZ4zTEMnPq9Of3slP3XqVUFhJEN4cpb-WRq7I1DecDUY-HLwyVFMv5aBpW12zsbe3I0YwDVSIgsb9DuNmIifVK5XCDMKTD-bOjEZGU0" />
-    <title lang="es">World Business Today</title>
-  </programme>
   <programme start="20261027023000 +0000" stop="20261027030000 +0000" channel="custom-1069">
     <title>Casa de Dios</title>
     <desc>Espacio con un mensaje de fe, renovador y lleno de presencia del Espíritu Santo.</desc>
@@ -11765,11 +11735,6 @@ Lo mejor de los himnos, canciones emblemáticas y los más colorido de videos de
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">Rainbowlist</title>
   </programme>
-  <programme start="20261027024500 +0000" stop="20261027030000 +0000" channel="custom-1065">
-    <desc lang="es">Un repaso a la acción deportiva del día, acompañado de análisis, puntos de discusión y periodismo original. Todo lo que necesitas para mantenerte informado en un solo lugar.</desc>
-    <icon src="https://iptv-epg.org/images/1bBwvR-Dc9S4wV0aJALPqiRr-M2FJrVSGwMHtKZvrMBgixW5xi7emP1_BbqaKmf4LHBv2F3dEOBMGi5DxSNYhpM8NRjH_6_F_il_ARWa1Tn362AkY0c" />
-    <title lang="es">BBC Sport</title>
-  </programme>
   <programme start="20261027024600 +0000" stop="20261027025800 +0000" channel="custom-1243">
     <title>Los pequeños Looney Tunes</title>
     <desc>Los bebés Bugs Bunny, el Pato Lucas, Silvestre y sus amigos viven grandes aventuras y aprenden un montón de lecciones sobre la amistad, el comportamiento y el respeto de la forma más divertida: jugando.</desc>
@@ -12069,12 +12034,6 @@ Nuestra familia se saca un diez, pero en diversión, porque los López se las ti
     <length units="minutes">105</length>
     <icon src="https://ebyl.tmsimg.com/assets/p15366971_v_v11_al.jpg" />
     <episode-num system="dd_progid">MV01680993.0000</episode-num>
-  </programme>
-  <programme start="20261027030000 +0000" stop="20261027033000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-En vivo desde Singapur, las últimas noticias internacionales de la BBC.</desc>
-    <icon src="https://iptv-epg.org/images/AsK3xkLXz7c40YZ1fSncxP5IuO0-Ga3gNLC00awCuJnIkDebfsq9Z6ZlVJeIOZZOfuSKf7NoFfLLVtIa6Cdk_L1hb0CHiJexj2u2EYXs3ORjbg" />
-    <title lang="es">Newsday</title>
   </programme>
   <programme start="20261027030000 +0000" stop="20261027033000 +0000" channel="custom-1069">
     <title>Todo es posible</title>
@@ -12770,12 +12729,6 @@ Durante la Guerra Civil, una audaz fuga libera a cientos de soldados de la Unió
     <episode-num system="original-air-date">2021-04-25 00:00:00</episode-num>
     <previously-shown start="20210425000000" />
   </programme>
-  <programme start="20261027033000 +0000" stop="20261027034500 +0000" channel="custom-1065">
-    <desc lang="es">Interés general
-Este programa cubre las noticias más recientes en el ámbito de los desarrollos económicos y políticos así como su efecto en la economía mundial. El show incluye un reporte en vivo acerca de la bolsa de valores de Wall Street.</desc>
-    <icon src="https://iptv-epg.org/images/NIJ9GXBuA0UcscjLqIOuHyeWfZ4zTEMnPq9Of3slP3XqVUFhJEN4cpb-WRq7I1DecDUY-HLwyVFMv5aBpW12zsbe3I0YwDVSIgsb9DuNmIifVK5XCDMKTD-bOjEZGU0" />
-    <title lang="es">World Business Today</title>
-  </programme>
   <programme start="20261027033000 +0000" stop="20261027040000 +0000" channel="custom-1069">
     <title>Especial</title>
     <desc>Programas recomendados de ministerio para llevar la palabra divina, la fe y la esperanza a los seguidores.</desc>
@@ -13145,11 +13098,6 @@ Disfrute de los mejores videos musicales.</desc>
     <title lang="es">Mini beat power rockers</title>
     <sub-title lang="es">Baby Dolores / Demasiadas Dolores / Duelo de tango / El gong / Myo 2.0</sub-title>
   </programme>
-  <programme start="20261027034500 +0000" stop="20261027040000 +0000" channel="custom-1065">
-    <desc lang="es">Un repaso a la acción deportiva del día, acompañado de análisis, puntos de discusión y periodismo original. Todo lo que necesitas para mantenerte informado en un solo lugar.</desc>
-    <icon src="https://iptv-epg.org/images/1bBwvR-Dc9S4wV0aJALPqiRr-M2FJrVSGwMHtKZvrMBgixW5xi7emP1_BbqaKmf4LHBv2F3dEOBMGi5DxSNYhpM8NRjH_6_F_il_ARWa1Tn362AkY0c" />
-    <title lang="es">BBC Sport</title>
-  </programme>
   <programme start="20261027034500 +0000" stop="20261027040000 +0000" channel="custom-1086">
     <title>Grandes Verdades</title>
     <desc>Programa religioso en donde las grandes verdades llegan en pocas palabras.</desc>
@@ -13460,12 +13408,6 @@ Nuestra familia se saca un diez, pero en diversión, porque los López se las ti
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261027040000 +0000" stop="20261027043000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-En vivo desde Singapur, las últimas noticias internacionales de la BBC.</desc>
-    <icon src="https://iptv-epg.org/images/AsK3xkLXz7c40YZ1fSncxP5IuO0-Ga3gNLC00awCuJnIkDebfsq9Z6ZlVJeIOZZOfuSKf7NoFfLLVtIa6Cdk_L1hb0CHiJexj2u2EYXs3ORjbg" />
-    <title lang="es">Newsday</title>
   </programme>
   <programme start="20261027040000 +0000" stop="20261027043000 +0000" channel="custom-1069">
     <title>La voz de victoria del creyente</title>
@@ -14231,12 +14173,6 @@ Entérate de los sucesos más relevantes de la actualidad en este segmento espec
     <episode-num system="original-air-date">2013-07-28 00:00:00</episode-num>
     <previously-shown start="20130728000000" />
   </programme>
-  <programme start="20261027043000 +0000" stop="20261027044500 +0000" channel="custom-1065">
-    <desc lang="es">Interés general
-Este programa cubre las noticias más recientes en el ámbito de los desarrollos económicos y políticos así como su efecto en la economía mundial. El show incluye un reporte en vivo acerca de la bolsa de valores de Wall Street.</desc>
-    <icon src="https://iptv-epg.org/images/NIJ9GXBuA0UcscjLqIOuHyeWfZ4zTEMnPq9Of3slP3XqVUFhJEN4cpb-WRq7I1DecDUY-HLwyVFMv5aBpW12zsbe3I0YwDVSIgsb9DuNmIifVK5XCDMKTD-bOjEZGU0" />
-    <title lang="es">World Business Today</title>
-  </programme>
   <programme start="20261027043000 +0000" stop="20261027050000 +0000" channel="custom-1069">
     <title>Sexo divino</title>
     <desc>Guías prácticas para mejorar la comunicación y atacar las problemáticas comunes que enfrentan las parejas.</desc>
@@ -14655,11 +14591,6 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <icon src="https://ebyl.tmsimg.com/assets/p5530_b_v8_ad.jpg" />
     <episode-num system="dd_progid">MV00278472.0000</episode-num>
   </programme>
-  <programme start="20261027044500 +0000" stop="20261027050000 +0000" channel="custom-1065">
-    <desc lang="es">Un repaso a la acción deportiva del día, acompañado de análisis, puntos de discusión y periodismo original. Todo lo que necesitas para mantenerte informado en un solo lugar.</desc>
-    <icon src="https://iptv-epg.org/images/1bBwvR-Dc9S4wV0aJALPqiRr-M2FJrVSGwMHtKZvrMBgixW5xi7emP1_BbqaKmf4LHBv2F3dEOBMGi5DxSNYhpM8NRjH_6_F_il_ARWa1Tn362AkY0c" />
-    <title lang="es">BBC Sport</title>
-  </programme>
   <programme start="20261027044500 +0000" stop="20261027051500 +0000" channel="espn-3.teleclub">
     <title lang="es">Fútbol LaLiga</title>
     <sub-title lang="es">Goles de LaLiga 2026-27</sub-title>
@@ -14786,6 +14717,10 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <title lang="es">AMAZONICA TV - En vivo</title>
     <desc lang="es">Programación en vivo de AMAZONICA TV. Categoría: Regionales.</desc>
   </programme>
+  <programme start="20261027050000 +0000" stop="20261028050000 +0000" channel="anime.teleclub">
+    <title lang="es">MAX ANIME - En vivo</title>
+    <desc lang="es">Programación en vivo de MAX ANIME. Categoría: Cable.</desc>
+  </programme>
   <programme start="20261027050000 +0000" stop="20261027053000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
     <desc>Un programa para ayudar a mejorar la salud.</desc>
@@ -14852,10 +14787,6 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <title lang="es">CHV NOTICIAS - En vivo</title>
     <desc lang="es">Programación en vivo de CHV NOTICIAS. Categoría: Premium.</desc>
   </programme>
-  <programme start="20261027050000 +0000" stop="20261028050000 +0000" channel="chv-teleclub">
-    <title lang="es">CHV - En vivo</title>
-    <desc lang="es">Programación en vivo de CHV. Categoría: Cable.</desc>
-  </programme>
   <programme start="20261027050000 +0000" stop="20261028050000 +0000" channel="cineclub-tv.teleclub">
     <title lang="es">Cuba tv Ayacucho - En vivo</title>
     <desc lang="es">Programación en vivo de Cuba tv Ayacucho. Categoría: Regionales.</desc>
@@ -14908,9 +14839,9 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <title lang="es">TITAN CHANEL - En vivo</title>
     <desc lang="es">Programación en vivo de TITAN CHANEL. Categoría: Cable.</desc>
   </programme>
-  <programme start="20261027050000 +0000" stop="20261027053000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
+  <programme start="20261027050000 +0000" stop="20261028050000 +0000" channel="custom-1065">
+    <title lang="es">A3 CINE - En vivo</title>
+    <desc lang="es">Programación en vivo de A3 CINE. Categoría: Cable.</desc>
   </programme>
   <programme start="20261027050000 +0000" stop="20261028050000 +0000" channel="custom-1067">
     <title lang="es">RT SPAÑOL - En vivo</title>
@@ -16168,12 +16099,6 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261027053000 +0000" stop="20261027060000 +0000" channel="custom-1065">
-    <desc lang="es">Interés general
-Este programa cubre las noticias más recientes en el ámbito de los desarrollos económicos y políticos así como su efecto en la economía mundial. El show incluye un reporte en vivo acerca de la bolsa de valores de Wall Street.</desc>
-    <icon src="https://iptv-epg.org/images/NIJ9GXBuA0UcscjLqIOuHyeWfZ4zTEMnPq9Of3slP3XqVUFhJEN4cpb-WRq7I1DecDUY-HLwyVFMv5aBpW12zsbe3I0YwDVSIgsb9DuNmIifVK5XCDMKTD-bOjEZGU0" />
-    <title lang="es">World Business Today</title>
-  </programme>
   <programme start="20261027053000 +0000" stop="20261027060000 +0000" channel="custom-1084">
     <title>The Power of God's Word</title>
     <desc>Mensajes dedicados a fortalecer la fe a través de las Sagradas Escrituras y que buscan transformar los corazones de sus fieles.</desc>
@@ -16751,10 +16676,6 @@ Noticias del mundo musical con nuestros mejores conductores.</desc>
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261027060000 +0000" stop="20261027063000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
   </programme>
   <programme start="20261027060000 +0000" stop="20261027063000 +0000" channel="custom-1069">
     <title>Respuestas con Bayless Conley</title>
@@ -17387,12 +17308,6 @@ Convierte tu hogar en una pista de baile, con las mezclas de los DJs latinoameri
       <value>TVG</value>
     </rating>
   </programme>
-  <programme start="20261027063000 +0000" stop="20261027070000 +0000" channel="custom-1065">
-    <desc lang="es">Interés general
-Este programa cubre las noticias más recientes en el ámbito de los desarrollos económicos y políticos así como su efecto en la economía mundial. El show incluye un reporte en vivo acerca de la bolsa de valores de Wall Street.</desc>
-    <icon src="https://iptv-epg.org/images/NIJ9GXBuA0UcscjLqIOuHyeWfZ4zTEMnPq9Of3slP3XqVUFhJEN4cpb-WRq7I1DecDUY-HLwyVFMv5aBpW12zsbe3I0YwDVSIgsb9DuNmIifVK5XCDMKTD-bOjEZGU0" />
-    <title lang="es">World Business Today</title>
-  </programme>
   <programme start="20261027063000 +0000" stop="20261027070000 +0000" channel="custom-1069">
     <title>Proclamación</title>
     <desc>Principios y valores positivos que edifican vidas en el área espiritual, moral y personal.</desc>
@@ -17953,10 +17868,6 @@ Fernando Lascuráin es un hombre de negocios rico y viudo con siete hijos rebeld
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261027070000 +0000" stop="20261027073000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
   </programme>
   <programme start="20261027070000 +0000" stop="20261027073000 +0000" channel="custom-1069">
     <title>Cánticos de amor</title>
@@ -18684,12 +18595,6 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261027073000 +0000" stop="20261027080000 +0000" channel="custom-1065">
-    <desc lang="es">Interés general
-Este programa cubre las noticias más recientes en el ámbito de los desarrollos económicos y políticos así como su efecto en la economía mundial. El show incluye un reporte en vivo acerca de la bolsa de valores de Wall Street.</desc>
-    <icon src="https://iptv-epg.org/images/NIJ9GXBuA0UcscjLqIOuHyeWfZ4zTEMnPq9Of3slP3XqVUFhJEN4cpb-WRq7I1DecDUY-HLwyVFMv5aBpW12zsbe3I0YwDVSIgsb9DuNmIifVK5XCDMKTD-bOjEZGU0" />
-    <title lang="es">World Business Today</title>
-  </programme>
   <programme start="20261027073000 +0000" stop="20261027083000 +0000" channel="custom-1069">
     <title>Especial Infantil</title>
     <desc>Para los más chicos de la casa la programación infantil más divertida.</desc>
@@ -19294,10 +19199,6 @@ Viajamos al gigante y deslumbrante Brasil, el país con más católicos en el mu
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261027080000 +0000" stop="20261027083000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
-  </programme>
   <programme start="20261027080000 +0000" stop="20261027083000 +0000" channel="custom-1084">
     <title>Mi Casa Feliz</title>
     <desc>La historia de Joel y Ruth dentro de su hogar, donde vivirán experiencias divertidas que van acompañadas de una historia bíblica narrada especialmente para los niños.</desc>
@@ -19834,10 +19735,6 @@ Sigue a una exitosa empresaria solitaria en su matrimonio, mientras su hija y jo
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261027083000 +0000" stop="20261027090000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
   </programme>
   <programme start="20261027083000 +0000" stop="20261027090000 +0000" channel="custom-1069">
     <title>Tesoros</title>
@@ -20384,10 +20281,6 @@ Una serie que explora y revela evidencia recientemente disponible sobre activida
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261027090000 +0000" stop="20261027093000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
   </programme>
   <programme start="20261027090000 +0000" stop="20261027100000 +0000" channel="custom-1069">
     <title>La vida nueva para el mundo</title>
@@ -20970,10 +20863,6 @@ La navidad está muy cerca y es hora de celebrarla al estilo Las Vegas. Los inte
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261027093000 +0000" stop="20261027100000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
-  </programme>
   <programme start="20261027093000 +0000" stop="20261027100000 +0000" channel="custom-1084">
     <title>Héroes de la Fe</title>
     <desc>Historias de personas que tienen un lugar en la historia porque su fe les otorgó la victoria y lograron grandes hazañas.</desc>
@@ -21434,10 +21323,6 @@ Dulce vive en una familia con una madre que la maltrata y castiga. Cuando conoce
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261027100000 +0000" stop="20261027103000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
   </programme>
   <programme start="20261027100000 +0000" stop="20261027103000 +0000" channel="custom-1069">
     <title>Disfrutando la Vida Diaria</title>
@@ -22103,10 +21988,6 @@ Rick prueba un Bricklin SV-1 con mucho estilo. Mientras tanto, Chumlee examina u
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261027103000 +0000" stop="20261027110000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
-  </programme>
   <programme start="20261027103000 +0000" stop="20261027110000 +0000" channel="custom-1069">
     <title>Vida real</title>
     <desc>Desde la Iglesia, la familia, el lugar de trabajo y la vida personal, todo será afectado por el poder de la palabra de Dios que transforma, invita a crecer, desarrollar el verdadero potencial y cumplir propósitos.</desc>
@@ -22721,10 +22602,6 @@ Asómbrate nuevamente con algunos de los artículos más caros en la trayectoria
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261027110000 +0000" stop="20261027113000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
-  </programme>
   <programme start="20261027110000 +0000" stop="20261027113000 +0000" channel="custom-1069">
     <title>Toda la Biblia juntos</title>
     <desc>Un lugar para aceptar la palabra de Dios y comenzar a vivir en comunidad.</desc>
@@ -23313,12 +23190,6 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261027113000 +0000" stop="20261027114500 +0000" channel="custom-1065">
-    <desc lang="es">Interés general
-Este programa cubre las noticias más recientes en el ámbito de los desarrollos económicos y políticos así como su efecto en la economía mundial. El show incluye un reporte en vivo acerca de la bolsa de valores de Wall Street.</desc>
-    <icon src="https://iptv-epg.org/images/NIJ9GXBuA0UcscjLqIOuHyeWfZ4zTEMnPq9Of3slP3XqVUFhJEN4cpb-WRq7I1DecDUY-HLwyVFMv5aBpW12zsbe3I0YwDVSIgsb9DuNmIifVK5XCDMKTD-bOjEZGU0" />
-    <title lang="es">World Business Today</title>
-  </programme>
   <programme start="20261027113000 +0000" stop="20261027120000 +0000" channel="custom-1069">
     <title>En buena ora</title>
     <desc>Un programa juvenil de oración, donde se interactúa con el público y se ora por diferentes temas de la vida y por peticiones de la audiencia.</desc>
@@ -23574,10 +23445,6 @@ Conversación con Gerardo Gautier sobre el presupuesto familiar, una herramienta
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261027114500 +0000" stop="20261027120000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
-  </programme>
   <programme start="20261027114500 +0000" stop="20261027120000 +0000" channel="nick.teleclub">
     <title lang="es">El show de Patricio Estrella</title>
     <sub-title lang="es">Demasiados Patricios</sub-title>
@@ -23813,12 +23680,6 @@ Noticias del mundo musical con nuestros mejores conductores.</desc>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261027120000 +0000" stop="20261027123000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-Toda la cobertura de las noticias e historias más importantes del día, con el estilo ágil y versátil de Lucy Hockins.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">BBC News Now</title>
   </programme>
   <programme start="20261027120000 +0000" stop="20261027123000 +0000" channel="custom-1069">
     <title>Casa de Dios</title>
@@ -24439,12 +24300,6 @@ Convierte tu hogar en una pista de baile, con las mezclas de los DJs latinoameri
     <episode-num system="original-air-date">2015-09-25 00:00:00</episode-num>
     <previously-shown start="20150925000000" />
   </programme>
-  <programme start="20261027123000 +0000" stop="20261027130000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-Toda la cobertura de las noticias e historias más importantes del día, con el estilo ágil y versátil de Lucy Hockins.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">BBC News Now</title>
-  </programme>
   <programme start="20261027123000 +0000" stop="20261027130000 +0000" channel="custom-1069">
     <title>Joel</title>
     <desc>Desde la Iglesia Lakewood en Houston, Texas, Joel Osteen comparte el mensaje más importante para individuos, familias y comunidades en el mundo. Conozca la fe y esperanza que solo Jesucristo puede dar.</desc>
@@ -24952,12 +24807,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261027130000 +0000" stop="20261027133000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-Toda la cobertura de las noticias e historias más importantes del día, con el estilo ágil y versátil de Lucy Hockins.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">BBC News Now</title>
   </programme>
   <programme start="20261027130000 +0000" stop="20261027133000 +0000" channel="custom-1069">
     <title>Enlace Ora</title>
@@ -25730,12 +25579,6 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261027133000 +0000" stop="20261027134500 +0000" channel="custom-1065">
-    <desc lang="es">Economía
-Un espacio informativo sobre las últimas noticias de negocios y análisis actualizados de Nueva York y el mundo. Entérate de lo más relevante sobre finanzas y economía mundial en un solo lugar.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Business Today - NYSE Opening Bell</title>
-  </programme>
   <programme start="20261027133000 +0000" stop="20261027140000 +0000" channel="custom-1069">
     <title>Camino a la victoria</title>
     <desc>Se defiende la verdad y se trata de perforar la oscuridad con la luz de la Palabra de Dios.</desc>
@@ -26063,12 +25906,6 @@ El Padre Luís Eduardo Rodríguez Rodríguez, nos lleva por un viaje alrededor d
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">La calabaza más grande</sub-title>
   </programme>
-  <programme start="20261027134500 +0000" stop="20261027140000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-Toda la cobertura de las noticias e historias más importantes del día, con el estilo ágil y versátil de Lucy Hockins.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">BBC News Now</title>
-  </programme>
   <programme start="20261027134500 +0000" stop="20261027140000 +0000" channel="france-24-espanol.ar">
     <title>La entrevista</title>
     <desc>Entrevistas con una personalidad francesa o internacional del mundo de la economía, la política, cultura o relaciones internacionales.</desc>
@@ -26327,12 +26164,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261027140000 +0000" stop="20261027143000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-Toda la cobertura de las noticias e historias más importantes del día, con el estilo ágil y versátil de Lucy Hockins.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">BBC News Now</title>
   </programme>
   <programme start="20261027140000 +0000" stop="20261027143000 +0000" channel="custom-1069">
     <title>Otoniel Font</title>
@@ -27142,12 +26973,6 @@ Un programa que presenta los temas musicales más destadacados y que son tendenc
     <episode-num system="original-air-date">2016-02-06 00:00:00</episode-num>
     <previously-shown start="20160206000000" />
   </programme>
-  <programme start="20261027143000 +0000" stop="20261027150000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-Toda la cobertura de las noticias e historias más importantes del día, con el estilo ágil y versátil de Lucy Hockins.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">BBC News Now</title>
-  </programme>
   <programme start="20261027143000 +0000" stop="20261027150000 +0000" channel="custom-1069">
     <title>Especial</title>
     <desc>Programas recomendados de ministerio para llevar la palabra divina, la fe y la esperanza a los seguidores.</desc>
@@ -27750,12 +27575,6 @@ Un manuscrito olvidado en un baúl. Una pintura inestimable descubierta a plena 
     <rating system="MPAA">
       <value>TVPG</value>
     </rating>
-  </programme>
-  <programme start="20261027150000 +0000" stop="20261027153000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-Matthew Amroliwala presenta las últimas noticias globales y del Reino Unido, en vivo desde Londres.</desc>
-    <icon src="https://iptv-epg.org/images/KsORIFuF-74U5P79-DPzsUjEEextSM2N2ZpKaKzjbjVOnc6VALnJKA8wVQf3dB6g5CgzLmwmARLDDIVY3ZH7V73mPZzlduw3NQ2N0b6nlg-aRcT86gu54w" />
-    <title lang="es">Verified Live</title>
   </programme>
   <programme start="20261027150000 +0000" stop="20261027160000 +0000" channel="custom-1069">
     <title>Aquí entre nos</title>
@@ -28415,12 +28234,6 @@ El Padre Gerardo Mendoza es un sacerdote de la Diócesis de San Bernardino que f
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261027153000 +0000" stop="20261027160000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-Matthew Amroliwala presenta las últimas noticias globales y del Reino Unido, en vivo desde Londres.</desc>
-    <icon src="https://iptv-epg.org/images/KsORIFuF-74U5P79-DPzsUjEEextSM2N2ZpKaKzjbjVOnc6VALnJKA8wVQf3dB6g5CgzLmwmARLDDIVY3ZH7V73mPZzlduw3NQ2N0b6nlg-aRcT86gu54w" />
-    <title lang="es">Verified Live</title>
-  </programme>
   <programme start="20261027153000 +0000" stop="20261027160000 +0000" channel="custom-1084">
     <title>Hablemos de Salud</title>
     <desc>Diversos especialistas de la salud brindan consejos de manera dinámica, espontánea e informativa generando conciencia de prevención y mejora en la calidad de vida de las personas.</desc>
@@ -29026,12 +28839,6 @@ Theo Wilson viaja a mediados del siglo XIX, para encontrarse con el joven Jesse 
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261027160000 +0000" stop="20261027163000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-Matthew Amroliwala presenta las últimas noticias globales y del Reino Unido, en vivo desde Londres.</desc>
-    <icon src="https://iptv-epg.org/images/KsORIFuF-74U5P79-DPzsUjEEextSM2N2ZpKaKzjbjVOnc6VALnJKA8wVQf3dB6g5CgzLmwmARLDDIVY3ZH7V73mPZzlduw3NQ2N0b6nlg-aRcT86gu54w" />
-    <title lang="es">Verified Live</title>
-  </programme>
   <programme start="20261027160000 +0000" stop="20261027163000 +0000" channel="custom-1069">
     <title>Esperanza hoy</title>
     <desc>Un programa que promueve valores espirituales que dan frutos eternos.</desc>
@@ -29620,12 +29427,6 @@ En 1986, 2,5 millones de alumnos vieron por televisión cómo el transbordador e
     <episode-num system="original-air-date">2020-05-23 00:00:00</episode-num>
     <previously-shown start="20200523000000" />
   </programme>
-  <programme start="20261027163000 +0000" stop="20261027164500 +0000" channel="custom-1065">
-    <desc lang="es">Interés general
-Este programa cubre las noticias más recientes en el ámbito de los desarrollos económicos y políticos así como su efecto en la economía mundial. El show incluye un reporte en vivo acerca de la bolsa de valores de Wall Street.</desc>
-    <icon src="https://iptv-epg.org/images/NIJ9GXBuA0UcscjLqIOuHyeWfZ4zTEMnPq9Of3slP3XqVUFhJEN4cpb-WRq7I1DecDUY-HLwyVFMv5aBpW12zsbe3I0YwDVSIgsb9DuNmIifVK5XCDMKTD-bOjEZGU0" />
-    <title lang="es">World Business Today</title>
-  </programme>
   <programme start="20261027163000 +0000" stop="20261027170000 +0000" channel="custom-1069">
     <title>Reporte vida</title>
     <desc>Temas controvertidos como los extraterrestres, vida después de la vida y testimonios religiosos.</desc>
@@ -30025,12 +29826,6 @@ En 1962, los hermanos Anglin se escaparon de Alcatraz y nunca más se supo de el
       <value>TVY7</value>
     </rating>
   </programme>
-  <programme start="20261027164500 +0000" stop="20261027170000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-Matthew Amroliwala presenta las últimas noticias globales y del Reino Unido, en vivo desde Londres.</desc>
-    <icon src="https://iptv-epg.org/images/KsORIFuF-74U5P79-DPzsUjEEextSM2N2ZpKaKzjbjVOnc6VALnJKA8wVQf3dB6g5CgzLmwmARLDDIVY3ZH7V73mPZzlduw3NQ2N0b6nlg-aRcT86gu54w" />
-    <title lang="es">Verified Live</title>
-  </programme>
   <programme start="20261027164500 +0000" stop="20261027170000 +0000" channel="france-24-espanol.ar">
     <title>Reporteros</title>
     <desc>Un equipo de reporteros de France 24 aborda un tema en profundidad o analiza un hecho destacado de la actualidad.</desc>
@@ -30392,12 +30187,6 @@ Matthew Amroliwala presenta las últimas noticias globales y del Reino Unido, en
     <rating system="MJColombia">
       <value>+18</value>
     </rating>
-  </programme>
-  <programme start="20261027170000 +0000" stop="20261027173000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-Matthew Amroliwala presenta las últimas noticias globales y del Reino Unido, en vivo desde Londres.</desc>
-    <icon src="https://iptv-epg.org/images/KsORIFuF-74U5P79-DPzsUjEEextSM2N2ZpKaKzjbjVOnc6VALnJKA8wVQf3dB6g5CgzLmwmARLDDIVY3ZH7V73mPZzlduw3NQ2N0b6nlg-aRcT86gu54w" />
-    <title lang="es">Verified Live</title>
   </programme>
   <programme start="20261027170000 +0000" stop="20261027173000 +0000" channel="custom-1069">
     <title>Disruptivas</title>
@@ -31324,12 +31113,6 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <rating system="MJColombia">
       <value>AGE228</value>
     </rating>
-  </programme>
-  <programme start="20261027173000 +0000" stop="20261027180000 +0000" channel="custom-1065">
-    <desc lang="es">Interés general
-Las más grandes historias africanas e internacionales de la cadena de televisión BBC son presentadas en este espacio.</desc>
-    <icon src="https://iptv-epg.org/images/-aQbSLB29bXcUgtZBNliFOdtxYk0dZIMWHCrREfLBuCnpIKnkITp0GriG2qr_WNmv0AVW9qBpTZO_4DOrk1iD6tEB0UTQX1vOAVzebhAxh3DfQyc8PRmjeXe" />
-    <title lang="es">Focus on Africa</title>
   </programme>
   <programme start="20261027173000 +0000" stop="20261027180000 +0000" channel="custom-1069">
     <title>Él puede hacerlo de nuevo</title>
@@ -32272,12 +32055,6 @@ Noticias del mundo musical con nuestros mejores conductores.</desc>
       <value>+18</value>
     </rating>
   </programme>
-  <programme start="20261027180000 +0000" stop="20261027183000 +0000" channel="custom-1065">
-    <desc lang="es">Político
-Una interpretación de la política mundial actual de la mano de Maryam Moshiri, desde Londres. El público escuchará reportajes de los servicios lingüísticos globales de la BBC y de especialistas en sus respectivas regiones.</desc>
-    <icon src="https://iptv-epg.org/images/2Fo49t69JEK07uYsBwAAQQnwyPX2NYQbzCPus5-4Mb4dzzd-TSjy_NzS7cyGvlwIOIFSKZW7Ch2H9ejc0bvkQ67wBB8xdHHYbQr2mFnR6kjekXnbcGtIgGJk7n3BwkIe2fShF2rVDMHo8c89Ijk" />
-    <title lang="es">The World Today with Maryam Moshiri</title>
-  </programme>
   <programme start="20261027180000 +0000" stop="20261027183000 +0000" channel="custom-1069">
     <title>En casa con...</title>
     <desc>Un programa donde la familia es la prioridad. Un espacio para hablar del amor de Jesús acompañada de la maravillosa palabra de Dios.</desc>
@@ -33112,12 +32889,6 @@ Convierte tu hogar en una pista de baile, con las mezclas de los DJs latinoameri
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261027183000 +0000" stop="20261027190000 +0000" channel="custom-1065">
-    <desc lang="es">Político
-Una interpretación de la política mundial actual de la mano de Maryam Moshiri, desde Londres. El público escuchará reportajes de los servicios lingüísticos globales de la BBC y de especialistas en sus respectivas regiones.</desc>
-    <icon src="https://iptv-epg.org/images/2Fo49t69JEK07uYsBwAAQQnwyPX2NYQbzCPus5-4Mb4dzzd-TSjy_NzS7cyGvlwIOIFSKZW7Ch2H9ejc0bvkQ67wBB8xdHHYbQr2mFnR6kjekXnbcGtIgGJk7n3BwkIe2fShF2rVDMHo8c89Ijk" />
-    <title lang="es">The World Today with Maryam Moshiri</title>
-  </programme>
   <programme start="20261027183000 +0000" stop="20261027190000 +0000" channel="custom-1069">
     <title>El lugar de su presencia</title>
     <desc>Se presentan prédicas relevantes, prácticas y claras.</desc>
@@ -33914,12 +33685,6 @@ El Santo Sacrificio de la Misa desde la Capilla de EWTN, con los cantos gregoria
     <rating system="MJColombia">
       <value>AGE228</value>
     </rating>
-  </programme>
-  <programme start="20261027190000 +0000" stop="20261027193000 +0000" channel="custom-1065">
-    <desc lang="es">Político
-Una interpretación de la política mundial actual de la mano de Maryam Moshiri, desde Londres. El público escuchará reportajes de los servicios lingüísticos globales de la BBC y de especialistas en sus respectivas regiones.</desc>
-    <icon src="https://iptv-epg.org/images/2Fo49t69JEK07uYsBwAAQQnwyPX2NYQbzCPus5-4Mb4dzzd-TSjy_NzS7cyGvlwIOIFSKZW7Ch2H9ejc0bvkQ67wBB8xdHHYbQr2mFnR6kjekXnbcGtIgGJk7n3BwkIe2fShF2rVDMHo8c89Ijk" />
-    <title lang="es">The World Today with Maryam Moshiri</title>
   </programme>
   <programme start="20261027190000 +0000" stop="20261027193000 +0000" channel="custom-1069">
     <title>The mercy ships</title>
@@ -34830,12 +34595,6 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261027193000 +0000" stop="20261027200000 +0000" channel="custom-1065">
-    <desc lang="es">Político
-Una interpretación de la política mundial actual de la mano de Maryam Moshiri, desde Londres. El público escuchará reportajes de los servicios lingüísticos globales de la BBC y de especialistas en sus respectivas regiones.</desc>
-    <icon src="https://iptv-epg.org/images/2Fo49t69JEK07uYsBwAAQQnwyPX2NYQbzCPus5-4Mb4dzzd-TSjy_NzS7cyGvlwIOIFSKZW7Ch2H9ejc0bvkQ67wBB8xdHHYbQr2mFnR6kjekXnbcGtIgGJk7n3BwkIe2fShF2rVDMHo8c89Ijk" />
-    <title lang="es">The World Today with Maryam Moshiri</title>
-  </programme>
   <programme start="20261027193000 +0000" stop="20261027200000 +0000" channel="custom-1069">
     <title>En contacto con Charles Stanley</title>
     <desc>El Dr. Charles Stanley, pastor de la primera iglesia bautista de Atlanta, comparte sus ideas sobre la fe cristiana e instruye a los espectadores con motivación espiritual.</desc>
@@ -35676,12 +35435,6 @@ La historia de un niño que vive en una vecindad. En cada alocado episodio, el C
     <rating system="MJColombia">
       <value>AGE228</value>
     </rating>
-  </programme>
-  <programme start="20261027200000 +0000" stop="20261027203000 +0000" channel="custom-1065">
-    <desc lang="es">Político
-Ofrecemos una cobertura especial desde Washington DC y Londres, centrándonos en el segundo mandato del presidente Trump.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">The Context USA</title>
   </programme>
   <programme start="20261027200000 +0000" stop="20261027203000 +0000" channel="custom-1069">
     <title>Más que vencedores</title>
@@ -36685,12 +36438,6 @@ Un programa que presenta los temas musicales más destadacados y que son tendenc
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261027203000 +0000" stop="20261027210000 +0000" channel="custom-1065">
-    <desc lang="es">Político
-Ofrecemos una cobertura especial desde Washington DC y Londres, centrándonos en el segundo mandato del presidente Trump.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">The Context USA</title>
-  </programme>
   <programme start="20261027203000 +0000" stop="20261027210000 +0000" channel="custom-1069">
     <title>Guardianes del muro</title>
     <desc>Programa dirigido a intercesores, su objetivo es enseñar cómo pelear la Guerra Espiritual y cómo conquistar la tierra prometida.</desc>
@@ -37581,12 +37328,6 @@ La arquitectura de la capital de EE. UU. tiene una clara influencia del mundo an
     <rating system="MJColombia">
       <value>+18</value>
     </rating>
-  </programme>
-  <programme start="20261027210000 +0000" stop="20261027213000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-Informes detallados sobre las principales noticias internacionales y estadounidenses del día presentados desde Washington DC.</desc>
-    <icon src="https://iptv-epg.org/images/m6ZGzKpP6P8WQGiqbmANfLpM7S92xMDbpOiI8aYrQdp_hhBjY_-BfFzQUspbqrnARz8ja_WkIdFAPuH1hij7lwyiPBHk2uvNwwGquA5UQb3ZfqZzeyevZwGzkeYMJ-skvg" />
-    <title lang="es">BBC World News America</title>
   </programme>
   <programme start="20261027210000 +0000" stop="20261027213000 +0000" channel="custom-1069">
     <title>Ministración del Espíritu Santo</title>
@@ -38521,12 +38262,6 @@ La Madre Angélica responde preguntas sobre confiar en Dios, por qué lo necesit
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261027213000 +0000" stop="20261027220000 +0000" channel="custom-1065">
-    <desc lang="es">Político
-Ofrecemos una cobertura especial desde Washington DC y Londres, centrándonos en el segundo mandato del presidente Trump.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">The Context USA</title>
-  </programme>
   <programme start="20261027213000 +0000" stop="20261027220000 +0000" channel="custom-1069">
     <title>Dios de milagros</title>
     <desc>Experimenta el poder sanador de Dios, con las palabras ungidas del pastor Hernán Castaño en Dios de Milagros. ¡Desata el mover de Dios en tu familia!</desc>
@@ -39351,10 +39086,6 @@ Rubí Pérez es una bella pero pobre estudiante universitaria a quien sólo le i
     <rating system="MJColombia">
       <value>+18</value>
     </rating>
-  </programme>
-  <programme start="20261027220000 +0000" stop="20261027223000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
   </programme>
   <programme start="20261027220000 +0000" stop="20261027223000 +0000" channel="custom-1069">
     <title>La voz de victoria del creyente</title>
@@ -40278,12 +40009,6 @@ Testimonio de la opción por la vida de los esposos Herbert y Alejandra Díaz, f
     <rating system="MJColombia">
       <value>AGE228</value>
     </rating>
-  </programme>
-  <programme start="20261027223000 +0000" stop="20261027230000 +0000" channel="custom-1065">
-    <desc lang="es">Periodístico
-Acompaña a Laura Kuenssberg y Evan Davis en esta ronda informativa donde podrás conocer los principales asuntos de actualidad, además de ver impactantes entrevistas con formadores de opinión y documentales globales.</desc>
-    <icon src="https://iptv-epg.org/images/g2JwbmfBBhswrOuYsM8qanPd6FvjS2uVEmh-ufUt8b9QOHasZMiB-uhSMSrNdMvoGo2XTAefgj22GMBwZE7sPnO4UeLgWl8zR2eW6ipupgspKGFe" />
-    <title lang="es">Newsnight</title>
   </programme>
   <programme start="20261027223000 +0000" stop="20261027230000 +0000" channel="custom-1069">
     <title>En Dios Confiamos</title>
@@ -41246,12 +40971,6 @@ Fernando Lascuráin es un hombre de negocios rico y viudo con siete hijos rebeld
     <rating system="MJColombia">
       <value>AGE228</value>
     </rating>
-  </programme>
-  <programme start="20261027230000 +0000" stop="20261028000000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-Informes detallados sobre las principales noticias internacionales y estadounidenses del día presentados desde Washington DC.</desc>
-    <icon src="https://iptv-epg.org/images/m6ZGzKpP6P8WQGiqbmANfLpM7S92xMDbpOiI8aYrQdp_hhBjY_-BfFzQUspbqrnARz8ja_WkIdFAPuH1hij7lwyiPBHk2uvNwwGquA5UQb3ZfqZzeyevZwGzkeYMJ-skvg" />
-    <title lang="es">BBC World News America</title>
   </programme>
   <programme start="20261027230000 +0000" stop="20261027233000 +0000" channel="custom-1069">
     <title>Otoniel Font</title>
@@ -43182,10 +42901,6 @@ Noticias del mundo musical con nuestros mejores conductores.</desc>
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261028000000 +0000" stop="20261028003000 +0000" channel="custom-1065">
-    <icon src="https://iptv-epg.org/images/2EY1O4vYGLzKm0eWlf2pbMrSOEG2jAZwSD-LxyftEObEWFHllS6jFd6YTp8RZPuIWnwfEJEl-r6A9NolFLiWcxq3mH2912kBR8zVyApS-c4h7s0" />
-    <title lang="es">BBC News</title>
-  </programme>
   <programme start="20261028000000 +0000" stop="20261028010000 +0000" channel="custom-1069">
     <title>Aquí entre nos</title>
     <desc>Ventana informativa en donde se podrán ver testimonios, avances y noticias sobre la cadena de televisión Enlace y la actualidad mundial, además de entrevistas con invitados especiales.</desc>
@@ -44349,12 +44064,6 @@ Un programa que presenta los temas musicales más destadacados y que son tendenc
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261028003000 +0000" stop="20261028010000 +0000" channel="custom-1065">
-    <desc lang="es">Político
-Una discusión sobre los acontecimientos políticos de la semana.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Newscast</title>
-  </programme>
   <programme start="20261028003000 +0000" stop="20261028010000 +0000" channel="custom-1084">
     <title>La lista de Erick</title>
     <desc>Lo más interesante y atractivo de Rusia es presentado por Erick, un personaje de idiosincrasia latinoamericana que llega a Rusia para descubrir el país tal como es, sin prejuicios.</desc>
@@ -45273,12 +44982,6 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <rating system="MPAA">
       <value>TV14</value>
     </rating>
-  </programme>
-  <programme start="20261028010000 +0000" stop="20261028013000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-En vivo desde Singapur, las últimas noticias internacionales de la BBC.</desc>
-    <icon src="https://iptv-epg.org/images/AsK3xkLXz7c40YZ1fSncxP5IuO0-Ga3gNLC00awCuJnIkDebfsq9Z6ZlVJeIOZZOfuSKf7NoFfLLVtIa6Cdk_L1hb0CHiJexj2u2EYXs3ORjbg" />
-    <title lang="es">Newsday</title>
   </programme>
   <programme start="20261028010000 +0000" stop="20261028013000 +0000" channel="custom-1069">
     <title>Él puede hacerlo de nuevo</title>
@@ -46421,12 +46124,6 @@ Después de un accidente que deja huérfanos a cuatro hermanos, Joaquín se conv
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261028013000 +0000" stop="20261028020000 +0000" channel="custom-1065">
-    <desc lang="es">Periodístico
-Redes sociales, redes antisociales, noticias de última hora, noticias falsas: este es el programa sobre una revolución en los medios.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">The Media Show</title>
-  </programme>
   <programme start="20261028013000 +0000" stop="20261028020000 +0000" channel="custom-1069">
     <title>Palabra pura</title>
     <desc>La Iglesia Palabra Pura es una iglesia de Gracia, pionera en Colombia en la enseñanza y posicionamiento del creyente en el Evangelio, en la verdad de Jesucristo.</desc>
@@ -47375,12 +47072,6 @@ La mejor playlist que puedes escuchar, un poco de todo de tus canciones y artist
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261028020000 +0000" stop="20261028023000 +0000" channel="custom-1065">
-    <desc lang="es">Noticiero
-En vivo desde Singapur, las últimas noticias internacionales de la BBC.</desc>
-    <icon src="https://iptv-epg.org/images/AsK3xkLXz7c40YZ1fSncxP5IuO0-Ga3gNLC00awCuJnIkDebfsq9Z6ZlVJeIOZZOfuSKf7NoFfLLVtIa6Cdk_L1hb0CHiJexj2u2EYXs3ORjbg" />
-    <title lang="es">Newsday</title>
-  </programme>
   <programme start="20261028020000 +0000" stop="20261028023000 +0000" channel="custom-1069">
     <title>Show de la fe</title>
     <desc>Declaraciones, testimonios e historias asombrosas que tienen un elemento en común: la muestra de amor y superación. Todo ello, desde una perspectiva cristiana que difunde la palabra de Jesucristo.</desc>
@@ -48323,12 +48014,6 @@ Sigue a una exitosa empresaria solitaria en su matrimonio, mientras su hija y jo
       <value>+18</value>
     </rating>
   </programme>
-  <programme start="20261028023000 +0000" stop="20261028024500 +0000" channel="custom-1065">
-    <desc lang="es">Interés general
-Este programa cubre las noticias más recientes en el ámbito de los desarrollos económicos y políticos así como su efecto en la economía mundial. El show incluye un reporte en vivo acerca de la bolsa de valores de Wall Street.</desc>
-    <icon src="https://iptv-epg.org/images/NIJ9GXBuA0UcscjLqIOuHyeWfZ4zTEMnPq9Of3slP3XqVUFhJEN4cpb-WRq7I1DecDUY-HLwyVFMv5aBpW12zsbe3I0YwDVSIgsb9DuNmIifVK5XCDMKTD-bOjEZGU0" />
-    <title lang="es">World Business Today</title>
-  </programme>
   <programme start="20261028023000 +0000" stop="20261028030000 +0000" channel="custom-1069">
     <title>Casa de Dios</title>
     <desc>Espacio con un mensaje de fe, renovador y lleno de presencia del Espíritu Santo.</desc>
@@ -48813,11 +48498,6 @@ Mother looks at Luke 7:36-50- where the sinful woman with the perfume jar showed
 Lo mejor de los himnos, canciones emblemáticas y los más colorido de videos de la comunidad LGBT+.</desc>
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">Rainbowlist</title>
-  </programme>
-  <programme start="20261028024500 +0000" stop="20261028030000 +0000" channel="custom-1065">
-    <desc lang="es">Un repaso a la acción deportiva del día, acompañado de análisis, puntos de discusión y periodismo original. Todo lo que necesitas para mantenerte informado en un solo lugar.</desc>
-    <icon src="https://iptv-epg.org/images/1bBwvR-Dc9S4wV0aJALPqiRr-M2FJrVSGwMHtKZvrMBgixW5xi7emP1_BbqaKmf4LHBv2F3dEOBMGi5DxSNYhpM8NRjH_6_F_il_ARWa1Tn362AkY0c" />
-    <title lang="es">BBC Sport</title>
   </programme>
   <programme start="20261028024500 +0000" stop="20261028024900 +0000" channel="custom-1220">
     <title lang="es">Cierra tus ojos</title>
@@ -53215,6 +52895,10 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <title lang="es">AMAZONICA TV - En vivo</title>
     <desc lang="es">Programación en vivo de AMAZONICA TV. Categoría: Regionales.</desc>
   </programme>
+  <programme start="20261028050000 +0000" stop="20261029050000 +0000" channel="anime.teleclub">
+    <title lang="es">MAX ANIME - En vivo</title>
+    <desc lang="es">Programación en vivo de MAX ANIME. Categoría: Cable.</desc>
+  </programme>
   <programme start="20261028050000 +0000" stop="20261028053000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
     <desc>Un programa para ayudar a mejorar la salud.</desc>
@@ -53280,10 +52964,6 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
   <programme start="20261028050000 +0000" stop="20261029050000 +0000" channel="chv-noticias.teleclub">
     <title lang="es">CHV NOTICIAS - En vivo</title>
     <desc lang="es">Programación en vivo de CHV NOTICIAS. Categoría: Premium.</desc>
-  </programme>
-  <programme start="20261028050000 +0000" stop="20261029050000 +0000" channel="chv-teleclub">
-    <title lang="es">CHV - En vivo</title>
-    <desc lang="es">Programación en vivo de CHV. Categoría: Cable.</desc>
   </programme>
   <programme start="20261028050000 +0000" stop="20261029050000 +0000" channel="cineclub-tv.teleclub">
     <title lang="es">Cuba tv Ayacucho - En vivo</title>
@@ -53393,6 +53073,10 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261028050000 +0000" stop="20261029050000 +0000" channel="custom-1065">
+    <title lang="es">A3 CINE - En vivo</title>
+    <desc lang="es">Programación en vivo de A3 CINE. Categoría: Cable.</desc>
   </programme>
   <programme start="20261028050000 +0000" stop="20261029050000 +0000" channel="custom-1067">
     <title lang="es">RT SPAÑOL - En vivo</title>
@@ -97323,6 +97007,10 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <title lang="es">AMAZONICA TV - En vivo</title>
     <desc lang="es">Programación en vivo de AMAZONICA TV. Categoría: Regionales.</desc>
   </programme>
+  <programme start="20261029050000 +0000" stop="20261030050000 +0000" channel="anime.teleclub">
+    <title lang="es">MAX ANIME - En vivo</title>
+    <desc lang="es">Programación en vivo de MAX ANIME. Categoría: Cable.</desc>
+  </programme>
   <programme start="20261029050000 +0000" stop="20261029053000 +0000" channel="atv-sur.teleclub">
     <title>Nutri salud</title>
     <desc>Un programa para ayudar a mejorar la salud.</desc>
@@ -97388,10 +97076,6 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
   <programme start="20261029050000 +0000" stop="20261030050000 +0000" channel="chv-noticias.teleclub">
     <title lang="es">CHV NOTICIAS - En vivo</title>
     <desc lang="es">Programación en vivo de CHV NOTICIAS. Categoría: Premium.</desc>
-  </programme>
-  <programme start="20261029050000 +0000" stop="20261030050000 +0000" channel="chv-teleclub">
-    <title lang="es">CHV - En vivo</title>
-    <desc lang="es">Programación en vivo de CHV. Categoría: Cable.</desc>
   </programme>
   <programme start="20261029050000 +0000" stop="20261030050000 +0000" channel="cineclub-tv.teleclub">
     <title lang="es">Cuba tv Ayacucho - En vivo</title>
@@ -97509,6 +97193,10 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
     <rating system="MJColombia">
       <value>+18</value>
     </rating>
+  </programme>
+  <programme start="20261029050000 +0000" stop="20261030050000 +0000" channel="custom-1065">
+    <title lang="es">A3 CINE - En vivo</title>
+    <desc lang="es">Programación en vivo de A3 CINE. Categoría: Cable.</desc>
   </programme>
   <programme start="20261029050000 +0000" stop="20261030050000 +0000" channel="custom-1067">
     <title lang="es">RT SPAÑOL - En vivo</title>
