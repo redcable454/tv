@@ -1,9 +1,9 @@
 {
-  "channels": 287,
-  "programmes": 17722,
-  "channels_with_programmes": 287,
-  "real_epg_channels": 138,
-  "generic_epg_channels": 149,
+  "channels": 299,
+  "programmes": 17931,
+  "channels_with_programmes": 299,
+  "real_epg_channels": 140,
+  "generic_epg_channels": 159,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "208dtv.cl",
@@ -88,12 +88,22 @@
     "custom-1325",
     "custom-1327",
     "custom-1329",
+    "custom-1332",
+    "custom-1334",
+    "custom-1336",
+    "custom-1338",
+    "custom-1340",
+    "custom-1342",
+    "custom-1343",
+    "custom-1344",
     "custom-27",
     "custom-31",
     "custom-5",
     "custom-6",
     "custom-7",
     "custom-8",
+    "fmh-family.teleclub",
+    "fmh-movies.teleclub",
     "hoy-peru-tv-jaen.teleclub",
     "https://i.ibb.co/Nd3595Jp/1e57475a9a6b-640-360.png",
     "huacho.teleclub",
@@ -178,8 +188,20 @@
       "name": "AMC SERIES"
     },
     {
+      "id": "custom-1342",
+      "name": "ANIMOTION"
+    },
+    {
+      "id": "custom-1338",
+      "name": "ATLAS"
+    },
+    {
       "id": "custom-1280",
       "name": "AZTECA 7"
+    },
+    {
+      "id": "custom-1344",
+      "name": "AZTECA CINEMA"
     },
     {
       "id": "custom-1025",
@@ -282,6 +304,14 @@
       "name": "CHV NOTICIAS"
     },
     {
+      "id": "custom-1343",
+      "name": "CINE FAMILIAR"
+    },
+    {
+      "id": "custom-1332",
+      "name": "CINE HISPANO"
+    },
+    {
       "id": "custom-1299",
       "name": "CONEC2"
     },
@@ -350,6 +380,18 @@
       "name": "Exitosa tv"
     },
     {
+      "id": "fmh-family.teleclub",
+      "name": "FMH FAMILY"
+    },
+    {
+      "id": "custom-1334",
+      "name": "FMH KIDS"
+    },
+    {
+      "id": "fmh-movies.teleclub",
+      "name": "FMH MOVIES"
+    },
+    {
       "id": "auno-tv.teleclub",
       "name": "Fuego tv"
     },
@@ -380,6 +422,10 @@
     {
       "id": "custom-1108",
       "name": "KARIBEÑA TV"
+    },
+    {
+      "id": "custom-1340",
+      "name": "KIZZY"
     },
     {
       "id": "latin-tv-huararaz.teleclub",
@@ -576,6 +622,10 @@
     {
       "id": "custom-1317",
       "name": "RAKUTEN TV SCI-FI"
+    },
+    {
+      "id": "custom-1336",
+      "name": "REDWIND"
     },
     {
       "id": "regional-innova-fm-tv-bagua-grande.teleclub",
