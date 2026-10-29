@@ -1,9 +1,9 @@
 {
-  "channels": 299,
-  "programmes": 17931,
-  "channels_with_programmes": 299,
+  "channels": 307,
+  "programmes": 17925,
+  "channels_with_programmes": 307,
   "real_epg_channels": 140,
-  "generic_epg_channels": 159,
+  "generic_epg_channels": 167,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "208dtv.cl",
@@ -96,6 +96,11 @@
     "custom-1342",
     "custom-1343",
     "custom-1344",
+    "custom-1346",
+    "custom-1348",
+    "custom-1349",
+    "custom-1351",
+    "custom-1354",
     "custom-27",
     "custom-31",
     "custom-5",
@@ -156,6 +161,8 @@
     "regional-telesur-moquegua.teleclub",
     "regional-tropical-tv-puerto-maldonado.teleclub",
     "regional-tvenlinea-cusco.teleclub",
+    "sanjuanera-tv.teleclub",
+    "santa-rosa-tv.teleclub",
     "solar-tv.teleclub",
     "top-tv.teleclub",
     "trivu-tv.teleclub",
@@ -163,6 +170,7 @@
     "tv-peru-teleclub",
     "uranio-tv.teleclub",
     "vivaQuillabamba.teleclub",
+    "wanka-tv.teleclub",
     "xtv-jaen.teleclub",
     "yuri-vision-tv.teleclub"
   ],
@@ -276,6 +284,14 @@
       "name": "CANAL LA NUEVA FM TV JAEN"
     },
     {
+      "id": "custom-1351",
+      "name": "CANAL RD MARAÑON"
+    },
+    {
+      "id": "custom-1346",
+      "name": "CANAL STEREO TV"
+    },
+    {
       "id": "custom-1173",
       "name": "canal tv en linia cusco"
     },
@@ -354,6 +370,10 @@
     {
       "id": "aura-tv.teleclub",
       "name": "DUNAS TV"
+    },
+    {
+      "id": "custom-1349",
+      "name": "E! INTERTAINMENT"
     },
     {
       "id": "custom-1303",
@@ -624,6 +644,10 @@
       "name": "RAKUTEN TV SCI-FI"
     },
     {
+      "id": "custom-1348",
+      "name": "RED TV HUARAZ"
+    },
+    {
       "id": "custom-1336",
       "name": "REDWIND"
     },
@@ -642,6 +666,14 @@
     {
       "id": "custom-1219",
       "name": "RV jaen"
+    },
+    {
+      "id": "sanjuanera-tv.teleclub",
+      "name": "SANJUANERA TV"
+    },
+    {
+      "id": "santa-rosa-tv.teleclub",
+      "name": "SANTA ROSA TV"
     },
     {
       "id": "custom-1109",
@@ -748,6 +780,10 @@
       "name": "TV COSMOS"
     },
     {
+      "id": "custom-1354",
+      "name": "TV MUNDO CUSCO"
+    },
+    {
       "id": "tv-peru-teleclub",
       "name": "TV Peru"
     },
@@ -786,6 +822,10 @@
     {
       "id": "regional-dmj-cusco.teleclub",
       "name": "VR canal 21 nazca"
+    },
+    {
+      "id": "wanka-tv.teleclub",
+      "name": "WAYNA TV"
     },
     {
       "id": "custom-1017",
