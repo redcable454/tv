@@ -1,9 +1,9 @@
 {
-  "channels": 307,
-  "programmes": 17966,
-  "channels_with_programmes": 307,
+  "channels": 308,
+  "programmes": 18418,
+  "channels_with_programmes": 308,
   "real_epg_channels": 140,
-  "generic_epg_channels": 167,
+  "generic_epg_channels": 168,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "208dtv.cl",
@@ -119,6 +119,7 @@
     "latina-podcast.teleclub",
     "malu-tv.teleclub",
     "master-tv.teleclub",
+    "mayna-tv.teleclub",
     "mega-tv-arequipa.teleclub",
     "mega-tv-jaen.teleclub",
     "movistar.lch2357",
@@ -352,6 +353,10 @@
       "name": "D PELICULA"
     },
     {
+      "id": "wanka-tv.teleclub",
+      "name": "DATA TV"
+    },
+    {
       "id": "custom-1233",
       "name": "Directv sports"
     },
@@ -474,6 +479,10 @@
     {
       "id": "anime.teleclub",
       "name": "MAX ANIME"
+    },
+    {
+      "id": "mayna-tv.teleclub",
+      "name": "MAYNA TV"
     },
     {
       "id": "mega-tv-arequipa.teleclub",
@@ -822,10 +831,6 @@
     {
       "id": "regional-dmj-cusco.teleclub",
       "name": "VR canal 21 nazca"
-    },
-    {
-      "id": "wanka-tv.teleclub",
-      "name": "WAYNA TV"
     },
     {
       "id": "custom-1017",
