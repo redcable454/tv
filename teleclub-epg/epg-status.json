@@ -1,9 +1,9 @@
 {
-  "channels": 308,
-  "programmes": 17911,
-  "channels_with_programmes": 308,
-  "real_epg_channels": 140,
-  "generic_epg_channels": 168,
+  "channels": 311,
+  "programmes": 18075,
+  "channels_with_programmes": 311,
+  "real_epg_channels": 141,
+  "generic_epg_channels": 170,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "208dtv.cl",
@@ -64,7 +64,6 @@
     "custom-1221",
     "custom-1233",
     "custom-1235",
-    "custom-1238",
     "custom-1245",
     "custom-1247",
     "custom-1249",
@@ -101,6 +100,8 @@
     "custom-1349",
     "custom-1351",
     "custom-1354",
+    "custom-1355",
+    "custom-1356",
     "custom-27",
     "custom-31",
     "custom-5",
@@ -170,6 +171,7 @@
     "turbo-mix-tv-cajamarca.teleclub",
     "tv-peru-teleclub",
     "uranio-tv.teleclub",
+    "viaxsports-tv.teleclub",
     "vivaQuillabamba.teleclub",
     "wanka-tv.teleclub",
     "xtv-jaen.teleclub",
@@ -355,6 +357,10 @@
     {
       "id": "wanka-tv.teleclub",
       "name": "DATA TV"
+    },
+    {
+      "id": "custom-1356",
+      "name": "DIREC TV SPORTS PLUS"
     },
     {
       "id": "custom-1233",
@@ -753,6 +759,10 @@
       "name": "TNT SPORTS"
     },
     {
+      "id": "custom-1355",
+      "name": "TNT SPORTS PREMIUM"
+    },
+    {
       "id": "custom-1282",
       "name": "TODO CINE"
     },
@@ -771,10 +781,6 @@
     {
       "id": "regional-tropical-tv-puerto-maldonado.teleclub",
       "name": "Tropical TV"
-    },
-    {
-      "id": "custom-1238",
-      "name": "TUDN"
     },
     {
       "id": "turbo-mix-tv-cajamarca.teleclub",
@@ -819,6 +825,10 @@
     {
       "id": "590",
       "name": "VENUS TV +18"
+    },
+    {
+      "id": "viaxsports-tv.teleclub",
+      "name": "VIA X SPORTS"
     },
     {
       "id": "custom-1127",
