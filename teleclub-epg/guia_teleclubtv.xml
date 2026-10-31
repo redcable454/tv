@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-31T16:23:45.043545+00:00" radio-la-zona-updated-at="2026-10-31T16:23:45.303934+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-31T20:07:27.114130+00:00" radio-la-zona-updated-at="2026-10-31T20:07:27.329201+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -148,6 +148,38 @@
     <display-name lang="es">STAR CHANNEL</display-name>
     <icon src="https://i.imgur.com/hHd3J9h.png" />
   </channel>
+  <channel id="208dtv.cl">
+    <display-name lang="es">SONY MOVIES</display-name>
+    <icon src="https://i.imgur.com/0OpKA6g.jpg" />
+  </channel>
+  <channel id="custom-1004">
+    <display-name lang="es">CINE CANAL</display-name>
+    <icon src="https://i.imgur.com/PhGmc9h.jpg" />
+  </channel>
+  <channel id="217dtv.cl">
+    <display-name lang="es">FX TV</display-name>
+    <icon src="https://i.imgur.com/tGc5z3B.jpg" />
+  </channel>
+  <channel id="503dtv.cl">
+    <display-name lang="es">GOLDEN TV</display-name>
+    <icon src="https://i.imgur.com/nx4RIpb.png" />
+  </channel>
+  <channel id="custom-1008">
+    <display-name lang="es">SPACE</display-name>
+    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/1518.png" />
+  </channel>
+  <channel id="517dtv.cl">
+    <display-name lang="es">GOLDEN EDGE</display-name>
+    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/517.png" />
+  </channel>
+  <channel id="custom-1009">
+    <display-name lang="es">CANAL USA</display-name>
+    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/219.png" />
+  </channel>
+  <channel id="209dtv.co">
+    <display-name lang="es">AXN</display-name>
+    <icon src="https://i.imgur.com/nq8OQer_d.png" />
+  </channel>
   <channel id="custom-8">
     <display-name lang="es">Lo nuestro tv</display-name>
     <icon src="https://radioa1fmperu.com/wp-content/uploads/elementor/thumbs/nuestrotv-rsqzad631ez33z83ij3zf6ipqv7s3ih5nwqct5rn7c.jpg" />
@@ -196,21 +228,21 @@
     <display-name lang="es">Mega tv Arequipa</display-name>
     <icon src="https://i.imgur.com/nikozfw.jpg" />
   </channel>
-  <channel id="custom-24">
-    <display-name lang="es">Azteca internacional</display-name>
-    <icon src="https://telelibre.st/img/azteca-internacional.png" />
-  </channel>
   <channel id="orbit-tv.teleclub">
     <display-name lang="es">Orbit tv</display-name>
     <icon src="https://i.imgur.com/73rxsZi_d.png" />
   </channel>
-  <channel id="custom-27">
-    <display-name lang="es">Dud tv</display-name>
-    <icon src="https://i.imgur.com/OH9QABG_d.png" />
+  <channel id="custom-24">
+    <display-name lang="es">Azteca internacional</display-name>
+    <icon src="https://telelibre.st/img/azteca-internacional.png" />
   </channel>
   <channel id="custom-30">
     <display-name lang="es">Radio felicidad</display-name>
     <icon src="https://i.imgur.com/0a1d8UI.png" />
+  </channel>
+  <channel id="custom-27">
+    <display-name lang="es">Dud tv</display-name>
+    <icon src="https://i.imgur.com/OH9QABG_d.png" />
   </channel>
   <channel id="custom-29">
     <display-name lang="es">Radio inolvidable</display-name>
@@ -223,38 +255,6 @@
   <channel id="custom-32">
     <display-name lang="es">Radio studio 92</display-name>
     <icon src="https://i.imgur.com/m5yoRgH.png" />
-  </channel>
-  <channel id="208dtv.cl">
-    <display-name lang="es">SONY MOVIES</display-name>
-    <icon src="https://i.imgur.com/0OpKA6g.jpg" />
-  </channel>
-  <channel id="custom-1004">
-    <display-name lang="es">CINE CANAL</display-name>
-    <icon src="https://i.imgur.com/PhGmc9h.jpg" />
-  </channel>
-  <channel id="217dtv.cl">
-    <display-name lang="es">FX TV</display-name>
-    <icon src="https://i.imgur.com/tGc5z3B.jpg" />
-  </channel>
-  <channel id="503dtv.cl">
-    <display-name lang="es">GOLDEN TV</display-name>
-    <icon src="https://i.imgur.com/nx4RIpb.png" />
-  </channel>
-  <channel id="517dtv.cl">
-    <display-name lang="es">GOLDEN EDGE</display-name>
-    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/517.png" />
-  </channel>
-  <channel id="custom-1008">
-    <display-name lang="es">SPACE</display-name>
-    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/1518.png" />
-  </channel>
-  <channel id="custom-1009">
-    <display-name lang="es">CANAL USA</display-name>
-    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/219.png" />
-  </channel>
-  <channel id="209dtv.co">
-    <display-name lang="es">AXN</display-name>
-    <icon src="https://i.imgur.com/nq8OQer_d.png" />
   </channel>
   <channel id="custom-1011">
     <display-name lang="es">CINE PREMIUM</display-name>
@@ -510,7 +510,7 @@
   </channel>
   <channel id="custom-1076">
     <display-name lang="es">CNN SPAÑOL</display-name>
-    <icon src="https://i.imgur.com/MBX59E3_d.png" />
+    <icon src="http://panel.digo.net.pe:80/images/653aac63976acfdddd0bb8c373447d75.png" />
   </channel>
   <channel id="tv-peru-teleclub">
     <display-name lang="es">TV Peru</display-name>
