@@ -1,9 +1,9 @@
 {
-  "channels": 311,
-  "programmes": 17949,
-  "channels_with_programmes": 311,
-  "real_epg_channels": 141,
-  "generic_epg_channels": 170,
+  "channels": 313,
+  "programmes": 18092,
+  "channels_with_programmes": 313,
+  "real_epg_channels": 142,
+  "generic_epg_channels": 171,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "208dtv.cl",
@@ -170,6 +170,7 @@
     "trivu-tv.teleclub",
     "turbo-mix-tv-cajamarca.teleclub",
     "tv-peru-teleclub",
+    "tvnorte-tv.teleclub",
     "uranio-tv.teleclub",
     "viaxsports-tv.teleclub",
     "vivaQuillabamba.teleclub",
@@ -797,6 +798,10 @@
     {
       "id": "custom-1354",
       "name": "TV MUNDO CUSCO"
+    },
+    {
+      "id": "tvnorte-tv.teleclub",
+      "name": "TV NORTE CHICLAYO"
     },
     {
       "id": "tv-peru-teleclub",
