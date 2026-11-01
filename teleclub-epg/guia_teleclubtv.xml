@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-10-31T23:29:26.165306+00:00" radio-la-zona-updated-at="2026-10-31T23:29:26.355136+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-01T02:26:05.796570+00:00" radio-la-zona-updated-at="2026-11-01T02:26:06.071490+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -180,6 +180,85 @@
     <display-name lang="es">AXN</display-name>
     <icon src="https://i.imgur.com/nq8OQer_d.png" />
   </channel>
+  <channel id="207dtv">
+    <display-name lang="es">A&amp;E</display-name>
+    <icon src="https://i.imgur.com/hVLNmcs_d.png" />
+  </channel>
+  <channel id="custom-1011">
+    <display-name lang="es">CINE PREMIUM</display-name>
+  </channel>
+  <channel id="custom-1013">
+    <display-name lang="es">D PELICULA</display-name>
+    <icon src="https://i.imgur.com/dUqijPv_d.png" />
+  </channel>
+  <channel id="custom-1016">
+    <display-name lang="es">SONY CHANNEL</display-name>
+    <icon src="https://i.imgur.com/YuDbuV7_d.png" />
+  </channel>
+  <channel id="1513dtv.cl">
+    <display-name lang="es">DHE</display-name>
+    <icon src="https://i.imgur.com/ML4SrL4_d.png" />
+  </channel>
+  <channel id="mitv.tnt">
+    <display-name lang="es">TNT</display-name>
+    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/502.png" />
+  </channel>
+  <channel id="custom-1017">
+    <display-name lang="es">WEST</display-name>
+    <icon src="https://i.imgur.com/Usjp53C_d.png" />
+  </channel>
+  <channel id="orbit-tv.teleclub">
+    <display-name lang="es">Orbit tv</display-name>
+    <icon src="https://i.imgur.com/73rxsZi_d.png" />
+  </channel>
+  <channel id="movistar.lch2358">
+    <display-name lang="es">NICK</display-name>
+    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/308.png" />
+  </channel>
+  <channel id="NICK.JR.OTT.(Nick.Jr).pe">
+    <display-name lang="es">NICK JR</display-name>
+    <icon src="https://i.imgur.com/Gf1k6qO_d.png" />
+  </channel>
+  <channel id="movistar.lch2357">
+    <display-name lang="es">DISNEY CHANEL</display-name>
+    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/312.png" />
+  </channel>
+  <channel id="DISNEY.JUNIOR.(DisneyJunior).pe">
+    <display-name lang="es">DISNEY JR</display-name>
+    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/315.png" />
+  </channel>
+  <channel id="330dtv.co">
+    <display-name lang="es">DISCOVERY KISD</display-name>
+    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/330.png" />
+  </channel>
+  <channel id="custom-1023">
+    <display-name lang="es">CANAL INFANTIL</display-name>
+    <icon src="https://i.imgur.com/1SOarBv_d.png" />
+  </channel>
+  <channel id="custom-1024">
+    <display-name lang="es">PLIN PLIN TV</display-name>
+    <icon src="https://i.imgur.com/prNI0fi_d.png" />
+  </channel>
+  <channel id="custom-1025">
+    <display-name lang="es">AZTECA CLICK</display-name>
+    <icon src="https://telelibre.st/img/azteca-clic.png" />
+  </channel>
+  <channel id="custom-1026">
+    <display-name lang="es">AZTECA CORAZÓN</display-name>
+    <icon src="https://telelibre.st/img/azteca-corazon.png" />
+  </channel>
+  <channel id="custom-24">
+    <display-name lang="es">Azteca internacional</display-name>
+    <icon src="https://telelibre.st/img/azteca-internacional.png" />
+  </channel>
+  <channel id="movistar.lch6518">
+    <display-name lang="es">TELENOVELAS</display-name>
+    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/227.png" />
+  </channel>
+  <channel id="TELEMUNDO.(Telemundo).pe">
+    <display-name lang="es">TELEMUNDO</display-name>
+    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/231.png" />
+  </channel>
   <channel id="custom-8">
     <display-name lang="es">Lo nuestro tv</display-name>
     <icon src="https://radioa1fmperu.com/wp-content/uploads/elementor/thumbs/nuestrotv-rsqzad631ez33z83ij3zf6ipqv7s3ih5nwqct5rn7c.jpg" />
@@ -212,13 +291,13 @@
     <display-name lang="es">Unitel tv Huancayo</display-name>
     <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIgCT3Ye0b-YuzgYBO9I1WS2q2jSBrTb--pv5CkV7LFw&amp;s=10" />
   </channel>
-  <channel id="hoy-peru-tv-jaen.teleclub">
-    <display-name lang="es">Hoyperu tv</display-name>
-    <icon src="https://i.imgur.com/tKyvPXf.jpg" />
-  </channel>
   <channel id="mega-tv-jaen.teleclub">
     <display-name lang="es">Mega tv jaen</display-name>
     <icon src="https://cdn.m3u.cl/logo/1491_Mega_TV_Jaen.png" />
+  </channel>
+  <channel id="hoy-peru-tv-jaen.teleclub">
+    <display-name lang="es">Hoyperu tv</display-name>
+    <icon src="https://i.imgur.com/tKyvPXf.jpg" />
   </channel>
   <channel id="xtv-jaen.teleclub">
     <display-name lang="es">Xtv</display-name>
@@ -228,14 +307,6 @@
     <display-name lang="es">Mega tv Arequipa</display-name>
     <icon src="https://i.imgur.com/nikozfw.jpg" />
   </channel>
-  <channel id="orbit-tv.teleclub">
-    <display-name lang="es">Orbit tv</display-name>
-    <icon src="https://i.imgur.com/73rxsZi_d.png" />
-  </channel>
-  <channel id="custom-24">
-    <display-name lang="es">Azteca internacional</display-name>
-    <icon src="https://telelibre.st/img/azteca-internacional.png" />
-  </channel>
   <channel id="custom-30">
     <display-name lang="es">Radio felicidad</display-name>
     <icon src="https://i.imgur.com/0a1d8UI.png" />
@@ -244,6 +315,10 @@
     <display-name lang="es">Dud tv</display-name>
     <icon src="https://i.imgur.com/OH9QABG_d.png" />
   </channel>
+  <channel id="custom-32">
+    <display-name lang="es">Radio studio 92</display-name>
+    <icon src="https://i.imgur.com/m5yoRgH.png" />
+  </channel>
   <channel id="custom-29">
     <display-name lang="es">Radio inolvidable</display-name>
     <icon src="https://i.imgur.com/OOa9ru5.png" />
@@ -251,81 +326,6 @@
   <channel id="custom-31">
     <display-name lang="es">Radio moda</display-name>
     <icon src="https://i.imgur.com/3gGNYwN.png" />
-  </channel>
-  <channel id="custom-32">
-    <display-name lang="es">Radio studio 92</display-name>
-    <icon src="https://i.imgur.com/m5yoRgH.png" />
-  </channel>
-  <channel id="custom-1011">
-    <display-name lang="es">CINE PREMIUM</display-name>
-  </channel>
-  <channel id="207dtv">
-    <display-name lang="es">A&amp;E</display-name>
-    <icon src="https://i.imgur.com/hVLNmcs_d.png" />
-  </channel>
-  <channel id="custom-1013">
-    <display-name lang="es">D PELICULA</display-name>
-    <icon src="https://i.imgur.com/dUqijPv_d.png" />
-  </channel>
-  <channel id="1513dtv.cl">
-    <display-name lang="es">DHE</display-name>
-    <icon src="https://i.imgur.com/ML4SrL4_d.png" />
-  </channel>
-  <channel id="custom-1016">
-    <display-name lang="es">SONY CHANNEL</display-name>
-    <icon src="https://i.imgur.com/YuDbuV7_d.png" />
-  </channel>
-  <channel id="mitv.tnt">
-    <display-name lang="es">TNT</display-name>
-    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/502.png" />
-  </channel>
-  <channel id="custom-1017">
-    <display-name lang="es">WEST</display-name>
-    <icon src="https://i.imgur.com/Usjp53C_d.png" />
-  </channel>
-  <channel id="movistar.lch2358">
-    <display-name lang="es">NICK</display-name>
-    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/308.png" />
-  </channel>
-  <channel id="movistar.lch2357">
-    <display-name lang="es">DISNEY CHANEL</display-name>
-    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/312.png" />
-  </channel>
-  <channel id="330dtv.co">
-    <display-name lang="es">DISCOVERY KISD</display-name>
-    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/330.png" />
-  </channel>
-  <channel id="NICK.JR.OTT.(Nick.Jr).pe">
-    <display-name lang="es">NICK JR</display-name>
-    <icon src="https://i.imgur.com/Gf1k6qO_d.png" />
-  </channel>
-  <channel id="DISNEY.JUNIOR.(DisneyJunior).pe">
-    <display-name lang="es">DISNEY JR</display-name>
-    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/315.png" />
-  </channel>
-  <channel id="custom-1023">
-    <display-name lang="es">CANAL INFANTIL</display-name>
-    <icon src="https://i.imgur.com/1SOarBv_d.png" />
-  </channel>
-  <channel id="custom-1024">
-    <display-name lang="es">PLIN PLIN TV</display-name>
-    <icon src="https://i.imgur.com/prNI0fi_d.png" />
-  </channel>
-  <channel id="custom-1025">
-    <display-name lang="es">AZTECA CLICK</display-name>
-    <icon src="https://telelibre.st/img/azteca-clic.png" />
-  </channel>
-  <channel id="custom-1026">
-    <display-name lang="es">AZTECA CORAZÓN</display-name>
-    <icon src="https://telelibre.st/img/azteca-corazon.png" />
-  </channel>
-  <channel id="TELEMUNDO.(Telemundo).pe">
-    <display-name lang="es">TELEMUNDO</display-name>
-    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/231.png" />
-  </channel>
-  <channel id="movistar.lch6518">
-    <display-name lang="es">TELENOVELAS</display-name>
-    <icon src="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/PE/227.png" />
   </channel>
   <channel id="226dtv.cl">
     <display-name lang="es">LAS ESTRELLAS</display-name>
