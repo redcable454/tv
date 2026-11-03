@@ -1,9 +1,9 @@
 {
-  "channels": 313,
-  "programmes": 19004,
-  "channels_with_programmes": 313,
-  "real_epg_channels": 142,
-  "generic_epg_channels": 171,
+  "channels": 315,
+  "programmes": 19081,
+  "channels_with_programmes": 315,
+  "real_epg_channels": 143,
+  "generic_epg_channels": 172,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "208dtv.cl",
@@ -102,6 +102,7 @@
     "custom-1354",
     "custom-1355",
     "custom-1356",
+    "custom-1358",
     "custom-27",
     "custom-31",
     "custom-5",
@@ -422,6 +423,10 @@
     {
       "id": "fmh-movies.teleclub",
       "name": "FMH MOVIES"
+    },
+    {
+      "id": "custom-1358",
+      "name": "FOX SPORTS 1"
     },
     {
       "id": "auno-tv.teleclub",
