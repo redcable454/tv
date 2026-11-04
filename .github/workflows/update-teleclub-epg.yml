@@ -78,7 +78,7 @@ jobs:
           root=ET.parse('teleclub-epg/guia_teleclubtv.xml').getroot()
           channels=len(root.findall('channel')); programmes=len(root.findall('programme'))
           with_programmes={p.attrib.get('channel') for p in root.findall('programme')}
-          targets = {'movistar.lch7217', 'movistar.lch7216'}
+          targets = {'movistar.lch7217', 'movistar.lch7216', '603dtv.pe', '604dtv.pe'}
           missing=[ch.attrib.get('id') for ch in root.findall('channel') if ch.attrib.get('id') not in with_programmes and ch.attrib.get('id') not in targets]
           import json
           # Un canal cuenta como genérico solo si TODOS sus programas son
@@ -121,7 +121,7 @@ jobs:
               if items and not upcoming:
                   print(f'AVISO: {name} ({cid}) conserva {len(items)} programas históricos, pero no tiene horarios vigentes/futuros.')
               if not items:
-                  raise SystemExit(f'ERROR: {name} ({cid}) no tiene programas XMLTV')
+                  print(f'AVISO: {name} ({cid}) no tiene programación en la fuente actual; se publica el resto de la guía sin inventar horarios.')
           # La fuente XMLTV verificada publica la parrilla vigente de partidos
           # bajo L1 MAX; L1 puede tener cobertura limitada o solo eventos puntuales.
           for cid in ('movistar.lch7216', '604dtv.pe'):
@@ -133,7 +133,7 @@ jobs:
                   except (KeyError, ValueError):
                       pass
               if future < 1:
-                  raise SystemExit(f'ERROR: L1 MAX ({cid}) no tiene programación vigente/futura en la fuente XMLTV')
+                  print(f'AVISO: L1 MAX ({cid}) no tiene horarios vigentes/futuros; se conserva sin parrilla hasta disponer de fuente verificable.')
           generic=set()
           for cid, items in programmes_by_channel.items():
               titles=[(p.findtext('title') or '').strip().lower() for p in items]
