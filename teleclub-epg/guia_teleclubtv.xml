@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T22:12:27.730515+00:00" radio-la-zona-updated-at="2026-11-04T22:12:27.931681+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T22:14:55.711086+00:00" radio-la-zona-updated-at="2026-11-04T22:14:55.950483+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -48177,24 +48177,6 @@ Tomas y Elena son los padres de Alex y Sara, una familia de nuestro tiempo, con 
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261104141246 -0300" stop="20261104142500 -0300" channel="208dtv.cl">
-    <title>Vecinos : Quédate en casa</title>
-  </programme>
-  <programme start="20261104141246 -0300" stop="20261104142000 -0300" channel="589">
-    <title>Secret Sessions</title>
-  </programme>
-  <programme start="20261104141246 -0300" stop="20261104150100 -0300" channel="590">
-    <title>Sneaking Around and Getting Down 2</title>
-  </programme>
-  <programme start="20261104141246 -0300" stop="20261104142500 -0300" channel="custom-1233">
-    <title>Shanghai</title>
-  </programme>
-  <programme start="20261104141246 -0300" stop="20261104151043 -0300" channel="fmh-family.teleclub">
-    <title>Monster Buster</title>
-  </programme>
-  <programme start="20261104141246 -0300" stop="20261104143251 -0300" channel="fmh-movies.teleclub">
-    <title>Zona Mortal</title>
-  </programme>
   <programme start="20261104141400 +0000" stop="20261104143600 +0000" channel="custom-1058">
     <title lang="es">Derrota a Bobby Flay</title>
     <sub-title lang="es">Por tierra o por mar</sub-title>
@@ -48245,6 +48227,24 @@ Un programa que presenta los temas musicales más destadacados y que son tendenc
     <rating system="ES">
       <value>+-1</value>
     </rating>
+  </programme>
+  <programme start="20261104141516 -0300" stop="20261104142500 -0300" channel="208dtv.cl">
+    <title>Vecinos : Quédate en casa</title>
+  </programme>
+  <programme start="20261104141516 -0300" stop="20261104142000 -0300" channel="589">
+    <title>Secret Sessions</title>
+  </programme>
+  <programme start="20261104141516 -0300" stop="20261104150100 -0300" channel="590">
+    <title>Sneaking Around and Getting Down 2</title>
+  </programme>
+  <programme start="20261104141516 -0300" stop="20261104142500 -0300" channel="custom-1233">
+    <title>Shanghai</title>
+  </programme>
+  <programme start="20261104141516 -0300" stop="20261104151043 -0300" channel="fmh-family.teleclub">
+    <title>Monster Buster</title>
+  </programme>
+  <programme start="20261104141516 -0300" stop="20261104143251 -0300" channel="fmh-movies.teleclub">
+    <title>Zona Mortal</title>
   </programme>
   <programme start="20261104141600 +0000" stop="20261104161300 +0000" channel="517dtv.cl">
     <title>Vértigo</title>
@@ -135007,7 +135007,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106120000 -0300" stop="20261106130000 -0300" channel="custom-1085">
     <title>Sin información</title>
   </programme>
-  <programme start="20261106120000 -0300" stop="20261106141246 -0300" channel="custom-1233">
+  <programme start="20261106120000 -0300" stop="20261106141516 -0300" channel="custom-1233">
     <title>Power Slap 26: Riyadh</title>
   </programme>
   <programme start="20261106120000 -0300" stop="20261106130000 -0300" channel="custom-1334">
@@ -137204,7 +137204,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106132600 -0300" stop="20261106141246 -0300" channel="590">
+  <programme start="20261106132600 -0300" stop="20261106141516 -0300" channel="590">
     <title>Sensual Older Couples 2</title>
   </programme>
   <programme start="20261106132800 +0000" stop="20261106135100 +0000" channel="custom-1212">
@@ -138633,7 +138633,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106140000 -0300" stop="20261106141246 -0300" channel="208dtv.cl">
+  <programme start="20261106140000 -0300" stop="20261106141516 -0300" channel="208dtv.cl">
     <title>Vecinos : Los quince años</title>
   </programme>
   <programme start="20261106140000 -0300" stop="20261106160000 -0300" channel="nacional-tv.teleclub">
@@ -138740,10 +138740,10 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106140500 -0600" stop="20261106150000 -0600" channel="custom-1339">
     <title lang="es">Posthumans</title>
   </programme>
-  <programme start="20261106140600 -0300" stop="20261106141246 -0300" channel="589">
+  <programme start="20261106140600 -0300" stop="20261106141516 -0300" channel="589">
     <title>Secret Sessions</title>
   </programme>
-  <programme start="20261106140704 -0300" stop="20261106141246 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106140704 -0300" stop="20261106141516 -0300" channel="fmh-family.teleclub">
     <title>La Vida Secreta de Walter Mitty</title>
   </programme>
   <programme start="20261106140800 +0000" stop="20261106143000 +0000" channel="custom-1058">
@@ -138799,7 +138799,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVY7</value>
     </rating>
   </programme>
-  <programme start="20261106140952 -0300" stop="20261106141246 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106140952 -0300" stop="20261106141516 -0300" channel="fmh-movies.teleclub">
     <title>Aquellos Viejos Tiempos</title>
   </programme>
   <programme start="20261106141000 +0000" stop="20261106150500 +0000" channel="865mvstr.cl">
