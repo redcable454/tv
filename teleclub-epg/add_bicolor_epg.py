@@ -177,8 +177,8 @@ def main():
         try:
             events = read_events(url)
         except Exception as exc:
-            print(f"AVISO: no se pudo leer {label} desde TV360 ({exc}); se conserva su XML actual.")
-            continue
+            print(f"AVISO: no se pudo leer {label} desde TV360 ({exc}); se intentará respaldo oficial si existe.")
+            events = []
         if len(events) < 2 and label == "Bicolor+" and today.isoformat() == "2026-11-04":
             events = [(0, "LIGA2 - PIRATA FC VS UNION MINAS"), (150, "LIGA FEMENINA - UNSAAC VS YANAPUMA CD"), (300, "LIGA3 - UNIVERSITARIO VS UNION HUARAL"), (450, "LIGA2 - SANTOS FC VS DEP BINACIONAL"), (600, "LIGA FEMENINA - UNSAAC VS YANAPUMA CD"), (750, "LIGA2 - ALIANZA UDH VS BENTIN TACNA"), (900, "LIGA3 - UNIVERSITARIO VS UNION HUARAL"), (1050, "LIGA2 - COMERCIANTES FC VS ADA JAEN"), (1200, "LIGA FEMENINA - ATLETICO ANDAHUAYLAS VS DEF. DEL ILUCAN"), (1350, "FUTSAL - REHAFA VS UNIVERSITARIO")]
             print("EPG Bicolor+: respaldo puntual de parrilla oficial TV360 2026-11-04.")
