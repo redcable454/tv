@@ -319,6 +319,13 @@ def main():
     ensure_channel(root, "movistar.lch7216", "L1 MAX")
     ensure_channel(root, "603dtv.pe", "L1")
     ensure_channel(root, "604dtv.pe", "L1 MAX")
+    # L1MAXMOVIL y L1 MAX transmiten los partidos de Liga 1; usar solo
+    # encuentros con fecha/hora publicados, sin inventar bloques de estudio.
+    remove_programmes(root, "movistar.lch7217")
+    remove_programmes(root, "movistar.lch7216")
+    added_l1 = add_liga_programming(root, "movistar.lch7217")
+    added_l1max = add_liga_programming(root, "movistar.lch7216")
+    print(f"EPG partidos verificados: L1={added_l1}; L1 MAX={added_l1max}")
     l1_alias = mirror_channel_programmes(root, "movistar.lch7217", "603dtv.pe", "L1")
     l1max_alias = mirror_channel_programmes(root, "movistar.lch7216", "604dtv.pe", "L1 MAX")
     print(f"EPG L1 (movistar.lch7217): {sum(1 for p in root.findall('programme') if p.attrib.get('channel') == 'movistar.lch7217')} programas")
