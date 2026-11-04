@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T17:41:20.878019+00:00" radio-la-zona-updated-at="2026-11-04T17:41:21.219186+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T18:56:09.303376+00:00" radio-la-zona-updated-at="2026-11-04T18:56:09.547343+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -38269,15 +38269,6 @@ Espacio que aborda las informaciones católicas del mundo, incluye también repo
     <category lang="es">Especial</category>
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/1997015174.jpg" />
   </programme>
-  <programme start="20261104090000 -0300" stop="20261104100000 -0300" channel="custom-1085">
-    <title>Sin información</title>
-  </programme>
-  <programme start="20261104090000 -0300" stop="20261104100000 -0300" channel="custom-1334">
-    <title>Programación Infantil</title>
-  </programme>
-  <programme start="20261104090000 -0300" stop="20261104100000 -0300" channel="movistar.lch7110">
-    <title>Sin información</title>
-  </programme>
   <programme start="20261104090000 -0300" stop="20261104103000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">Deportes 5</title>
     <desc lang="es">Un programa de difusión, profundización e intercambio sobre el deporte uruguayo Con criterios que promueven la visibilización de todas las competencias y sus protagonistas, colocando a las y los deportistas en el centro.</desc>
@@ -39239,33 +39230,6 @@ La mejor playlist que puedes escuchar, un poco de todo de tus canciones y artist
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261104094145 -0300" stop="20261104100000 -0300" channel="208dtv.cl">
-    <title>The Town Doctor</title>
-  </programme>
-  <programme start="20261104094145 -0300" stop="20261104100200 -0300" channel="589">
-    <title>Racing Curves</title>
-  </programme>
-  <programme start="20261104094145 -0300" stop="20261104103000 -0300" channel="590">
-    <title>Big Racks Meet Monster Black Dongs</title>
-  </programme>
-  <programme start="20261104094145 -0300" stop="20261104110000 -0300" channel="603dtv.pe">
-    <title>Liga 1 Radio</title>
-  </programme>
-  <programme start="20261104094145 -0300" stop="20261104100000 -0300" channel="604dtv.pe">
-    <title>Liga 1 Radio</title>
-  </programme>
-  <programme start="20261104094145 -0300" stop="20261104110000 -0300" channel="custom-1233">
-    <title>Casa Pia vs. Sporting Club de Portugal</title>
-  </programme>
-  <programme start="20261104094145 -0300" stop="20261104103102 -0300" channel="fmh-family.teleclub">
-    <title>De Mendigo A Millonario</title>
-  </programme>
-  <programme start="20261104094145 -0300" stop="20261104100000 -0300" channel="movistar.lch7216">
-    <title>Liga 1 Radio</title>
-  </programme>
-  <programme start="20261104094145 -0300" stop="20261104110000 -0300" channel="movistar.lch7217">
-    <title>Liga 1 Radio</title>
-  </programme>
   <programme start="20261104094200 +0000" stop="20261104094400 +0000" channel="custom-1220">
     <title lang="es">Canciones &amp; rimas</title>
     <desc lang="es">Divertidos videos animados de canciones infantiles populares de todo el mundo cantadas por niños.</desc>
@@ -39342,9 +39306,6 @@ La mejor playlist que puedes escuchar, un poco de todo de tus canciones y artist
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261104094536 -0300" stop="20261104112339 -0300" channel="fmh-movies.teleclub">
-    <title>Zapatero a tus Zapatos</title>
   </programme>
   <programme start="20261104094600 +0000" stop="20261104103400 +0000" channel="custom-1246">
     <title lang="es">CSI: Miami</title>
@@ -40084,12 +40045,6 @@ El padre Willie Peña nos explica de una manera clara y sencilla cómo las ense�
       <value>+-1</value>
     </rating>
   </programme>
-  <programme start="20261104100000 -0300" stop="20261104110000 -0300" channel="208dtv.cl">
-    <title>Betty's Call : Qualitäten</title>
-  </programme>
-  <programme start="20261104100000 -0300" stop="20261104120000 -0300" channel="604dtv.pe">
-    <title>Hablemos de Max</title>
-  </programme>
   <programme start="20261104100000 -0300" stop="20261104130000 -0300" channel="760dtv.cl">
     <title lang="es">Despierta América</title>
     <desc lang="es">Revista matutina con noticias, temas de actualidad, reportajes de farándula y música.</desc>
@@ -40118,9 +40073,6 @@ El padre Willie Peña nos explica de una manera clara y sencilla cómo las ense�
   </programme>
   <programme start="20261104100000 -0300" stop="20261104110000 -0300" channel="movistar.lch7110">
     <title>Sin información</title>
-  </programme>
-  <programme start="20261104100000 -0300" stop="20261104120000 -0300" channel="movistar.lch7216">
-    <title>Hablemos de Max</title>
   </programme>
   <programme start="20261104100000 -0600" stop="20261104110000 -0600" channel="arpegio-tv.teleclub">
     <title lang="es">Región más noticias - Estelar</title>
@@ -40169,9 +40121,6 @@ El padre Willie Peña nos explica de una manera clara y sencilla cómo las ense�
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261104100200 -0300" stop="20261104112100 -0300" channel="589">
-    <title>My Hot Wife</title>
   </programme>
   <programme start="20261104100300 +0100" stop="20261104110000 +0100" channel="custom-1063">
     <title lang="es">Cheap But Deadly - on the Trail of Product Counterfeiters</title>
@@ -41029,9 +40978,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
       <value>+-1</value>
     </rating>
   </programme>
-  <programme start="20261104103000 -0300" stop="20261104120000 -0300" channel="590">
-    <title>Esposas reales, tríos reales, realmente agradables</title>
-  </programme>
   <programme start="20261104103000 -0300" stop="20261104120000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">El recreo</title>
     <desc lang="es">Ana Laura Barreto y Leo Lorenzo presentan las recetas más ricas y los tips para una alimentación saludable A su vez, el público recibe tips para mejorar lacalidad de vida y los mejores recorridos por la capital junto a Virna Castelli.</desc>
@@ -41059,9 +41005,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261104103217 -0300" stop="20261104121930 -0300" channel="fmh-family.teleclub">
-    <title>Legendary</title>
   </programme>
   <programme start="20261104103400 +0000" stop="20261104112400 +0000" channel="custom-1246">
     <title lang="es">CSI: Miami</title>
@@ -41576,6 +41519,36 @@ Espacio músical para poner de todo, siempre éxitos, pero pueden ser de ayer, h
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261104105629 -0300" stop="20261104110000 -0300" channel="208dtv.cl">
+    <title>Betty's Call : Qualitäten</title>
+  </programme>
+  <programme start="20261104105629 -0300" stop="20261104112100 -0300" channel="589">
+    <title>My Hot Wife</title>
+  </programme>
+  <programme start="20261104105629 -0300" stop="20261104120000 -0300" channel="590">
+    <title>Esposas reales, tríos reales, realmente agradables</title>
+  </programme>
+  <programme start="20261104105629 -0300" stop="20261104110000 -0300" channel="603dtv.pe">
+    <title>Liga 1 Radio</title>
+  </programme>
+  <programme start="20261104105629 -0300" stop="20261104120000 -0300" channel="604dtv.pe">
+    <title>Hablemos de Max</title>
+  </programme>
+  <programme start="20261104105629 -0300" stop="20261104110000 -0300" channel="custom-1233">
+    <title>Casa Pia vs. Sporting Club de Portugal</title>
+  </programme>
+  <programme start="20261104105629 -0300" stop="20261104121930 -0300" channel="fmh-family.teleclub">
+    <title>Legendary</title>
+  </programme>
+  <programme start="20261104105629 -0300" stop="20261104112339 -0300" channel="fmh-movies.teleclub">
+    <title>Zapatero a tus Zapatos</title>
+  </programme>
+  <programme start="20261104105629 -0300" stop="20261104120000 -0300" channel="movistar.lch7216">
+    <title>Hablemos de Max</title>
+  </programme>
+  <programme start="20261104105629 -0300" stop="20261104110000 -0300" channel="movistar.lch7217">
+    <title>Liga 1 Radio</title>
   </programme>
   <programme start="20261104105700 +0000" stop="20261104110000 +0000" channel="custom-1212">
     <title lang="es">TNT Buzz</title>
@@ -52296,7 +52269,7 @@ Es el 14 de febrero de 1929: en un garaje de Chicago durante el apogeo de la Pro
   <programme start="20261104162100 -0300" stop="20261104164500 -0300" channel="589">
     <title>SexArt</title>
   </programme>
-  <programme start="20261104162137 -0300" stop="20261104181030 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261104162137 -0300" stop="20261104181029 -0300" channel="fmh-movies.teleclub">
     <title>10000 BC</title>
   </programme>
   <programme start="20261104162300 +0000" stop="20261104163600 +0000" channel="HOME.&amp;amp;.HEALTH.HD.(Home&amp;amp;HealthHD).pe">
@@ -56005,7 +55978,7 @@ El rezo, en su versión cantada, de la oración inspirada por Nuestro Señor a S
   <programme start="20261104181000 -0600" stop="20261104191000 -0600" channel="custom-1254">
     <title lang="es">Reunión de superados</title>
   </programme>
-  <programme start="20261104181030 -0300" stop="20261104204819 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261104181029 -0300" stop="20261104204819 -0300" channel="fmh-movies.teleclub">
     <title>2012</title>
   </programme>
   <programme start="20261104181100 +0000" stop="20261104181200 +0000" channel="custom-1220">
@@ -123338,7 +123311,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106051114 -0300" stop="20261106064850 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106051114 -0300" stop="20261106064849 -0300" channel="fmh-movies.teleclub">
     <title>Amor De Vinilo</title>
   </programme>
   <programme start="20261106051400 +0000" stop="20261106051800 +0000" channel="custom-1220">
@@ -125952,7 +125925,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVG</value>
     </rating>
   </programme>
-  <programme start="20261106064850 -0300" stop="20261106082947 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106064849 -0300" stop="20261106082947 -0300" channel="fmh-movies.teleclub">
     <title>Amor En Linea</title>
   </programme>
   <programme start="20261106064900 +0000" stop="20261106072100 +0000" channel="custom-1229">
@@ -128850,7 +128823,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106082500 -0600" stop="20261106095000 -0600" channel="custom-1337">
     <title lang="es">Las imperdibles BDX</title>
   </programme>
-  <programme start="20261106082947 -0300" stop="20261106094145 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106082947 -0300" stop="20261106102210 -0300" channel="fmh-movies.teleclub">
     <title>Amor y tesoro </title>
   </programme>
   <programme start="20261106083000 +0000" stop="20261106090000 +0000" channel="2047mvstr.pe">
@@ -129173,7 +129146,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106083000 -0300" stop="20261106093000 -0300" channel="604dtv.pe">
     <title>Liga 1 Radio</title>
   </programme>
-  <programme start="20261106083000 -0300" stop="20261106094145 -0300" channel="custom-1233">
+  <programme start="20261106083000 -0300" stop="20261106105629 -0300" channel="custom-1233">
     <title>ONE Friday Fights 177</title>
   </programme>
   <programme start="20261106083000 -0300" stop="20261106093000 -0300" channel="movistar.lch7216">
@@ -129461,7 +129434,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106084622 -0300" stop="20261106094145 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106084622 -0300" stop="20261106102803 -0300" channel="fmh-family.teleclub">
     <title>Ellas Mandan</title>
   </programme>
   <programme start="20261106085000 +0000" stop="20261106094000 +0000" channel="892mvstr.cl">
@@ -129550,7 +129523,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261106085800 -0300" stop="20261106094145 -0300" channel="590">
+  <programme start="20261106085800 -0300" stop="20261106102800 -0300" channel="590">
     <title>MILF hambrientas de Dong</title>
   </programme>
   <programme start="20261106090000 +0000" stop="20261106093000 +0000" channel="2047mvstr.pe">
@@ -130168,7 +130141,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106090000 -0300" stop="20261106094145 -0300" channel="208dtv.cl">
+  <programme start="20261106090000 -0300" stop="20261106100000 -0300" channel="208dtv.cl">
     <title>The Town Doctor</title>
   </programme>
   <programme start="20261106090000 -0300" stop="20261106130000 -0300" channel="760dtv.cl">
@@ -130190,6 +130163,15 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <category lang="es">Magazine</category>
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/12750563.jpg" />
     <country lang="es">EE. UU</country>
+  </programme>
+  <programme start="20261106090000 -0300" stop="20261106100000 -0300" channel="custom-1085">
+    <title>Sin información</title>
+  </programme>
+  <programme start="20261106090000 -0300" stop="20261106100000 -0300" channel="custom-1334">
+    <title>Programación Infantil</title>
+  </programme>
+  <programme start="20261106090000 -0300" stop="20261106100000 -0300" channel="movistar.lch7110">
+    <title>Sin información</title>
   </programme>
   <programme start="20261106090000 -0300" stop="20261106103000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">Deportes 5</title>
@@ -130901,19 +130883,19 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106093000 -0300" stop="20261106094145 -0300" channel="589">
+  <programme start="20261106093000 -0300" stop="20261106095400 -0300" channel="589">
     <title>Racing Curves</title>
   </programme>
-  <programme start="20261106093000 -0300" stop="20261106094145 -0300" channel="603dtv.pe">
+  <programme start="20261106093000 -0300" stop="20261106103000 -0300" channel="603dtv.pe">
     <title>Liga 1 Radio</title>
   </programme>
-  <programme start="20261106093000 -0300" stop="20261106094145 -0300" channel="604dtv.pe">
+  <programme start="20261106093000 -0300" stop="20261106105629 -0300" channel="604dtv.pe">
     <title>Hablemos de Max</title>
   </programme>
-  <programme start="20261106093000 -0300" stop="20261106094145 -0300" channel="movistar.lch7216">
+  <programme start="20261106093000 -0300" stop="20261106105629 -0300" channel="movistar.lch7216">
     <title>Hablemos de Max</title>
   </programme>
-  <programme start="20261106093000 -0300" stop="20261106094145 -0300" channel="movistar.lch7217">
+  <programme start="20261106093000 -0300" stop="20261106103000 -0300" channel="movistar.lch7217">
     <title>Liga 1 Radio</title>
   </programme>
   <programme start="20261106093000 -0600" stop="20261106100000 -0600" channel="arpegio-tv.teleclub">
@@ -131197,6 +131179,9 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261106095400 -0300" stop="20261106105629 -0300" channel="589">
+    <title>Dirty South Hos Net</title>
   </programme>
   <programme start="20261106095500 +0000" stop="20261106100000 +0000" channel="disney-chanel.teleclub">
     <title lang="es">Star vs. las fuerzas del mal</title>
@@ -131794,6 +131779,9 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <desc lang="es">Programación oficial publicada en visionsurtv.pe/programacion/ Horario de Perú (America/Lima). La programación puede cambiar sin previo aviso.</desc>
     <category lang="es">Magazine</category>
   </programme>
+  <programme start="20261106100000 -0300" stop="20261106105629 -0300" channel="208dtv.cl">
+    <title>Betty's Call : Richtungswechsel</title>
+  </programme>
   <programme start="20261106100000 -0600" stop="20261106110000 -0600" channel="arpegio-tv.teleclub">
     <title lang="es">Región más noticias - Estelar</title>
   </programme>
@@ -132204,6 +132192,9 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261106102210 -0300" stop="20261106105629 -0300" channel="fmh-movies.teleclub">
+    <title>Anaconda</title>
+  </programme>
   <programme start="20261106102400 +0000" stop="20261106110000 +0000" channel="DISCOVERY.TURBO.(Disc.Turbo).pe">
     <title lang="es">Al estilo Kindig: El entrenamiento</title>
     <sub-title lang="es">Quedan cuatro</sub-title>
@@ -132320,6 +132311,12 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>+18</value>
     </rating>
+  </programme>
+  <programme start="20261106102800 -0300" stop="20261106105629 -0300" channel="590">
+    <title>Cállate y C...</title>
+  </programme>
+  <programme start="20261106102908 -0300" stop="20261106105629 -0300" channel="fmh-family.teleclub">
+    <title>Mas Barato Por Docena</title>
   </programme>
   <programme start="20261106103000 +0000" stop="20261106105500 +0000" channel="215dtv.cl">
     <title lang="es">Idiotas por accidente</title>
@@ -132708,6 +132705,12 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261106103000 -0300" stop="20261106105629 -0300" channel="603dtv.pe">
+    <title>Hablemos de Max</title>
+  </programme>
+  <programme start="20261106103000 -0300" stop="20261106105629 -0300" channel="movistar.lch7217">
+    <title>Hablemos de Max</title>
   </programme>
   <programme start="20261106103000 -0300" stop="20261106120000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">El recreo</title>
