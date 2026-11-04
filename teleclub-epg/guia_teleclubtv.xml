@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T21:01:30.201662+00:00" radio-la-zona-updated-at="2026-11-04T21:01:30.539639+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T21:13:31.060184+00:00" radio-la-zona-updated-at="2026-11-04T21:13:31.400215+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -45873,24 +45873,6 @@ Realicemos una plegaria popular a la Virgen María que contempla los misterios d
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261104130154 -0300" stop="20261104132500 -0300" channel="208dtv.cl">
-    <title>The Nanny : The Finale</title>
-  </programme>
-  <programme start="20261104130154 -0300" stop="20261104130800 -0300" channel="589">
-    <title>Racing Curves</title>
-  </programme>
-  <programme start="20261104130154 -0300" stop="20261104133100 -0300" channel="590">
-    <title>Primero cojo, luego existo</title>
-  </programme>
-  <programme start="20261104130154 -0300" stop="20261104133000 -0300" channel="custom-1233">
-    <title>Los Tarcos vs. Huirapuca</title>
-  </programme>
-  <programme start="20261104130154 -0300" stop="20261104134517 -0300" channel="fmh-family.teleclub">
-    <title>Los Thornberrys</title>
-  </programme>
-  <programme start="20261104130154 -0300" stop="20261104143251 -0300" channel="fmh-movies.teleclub">
-    <title>Zona Mortal</title>
-  </programme>
   <programme start="20261104130200 +0000" stop="20261104130700 +0000" channel="custom-1243">
     <title>Sheep en la gran ciudad</title>
     <desc>Una oveja a la fuga se esconde en la gran ciudad.</desc>
@@ -46024,9 +46006,6 @@ Realicemos una plegaria popular a la Virgen María que contempla los misterios d
     <rating system="MPAA">
       <value>TVY7</value>
     </rating>
-  </programme>
-  <programme start="20261104130800 -0300" stop="20261104133200 -0300" channel="589">
-    <title>Passion Diaries</title>
   </programme>
   <programme start="20261104130900 +0000" stop="20261104132100 +0000" channel="HOME.&amp;amp;.HEALTH.HD.(Home&amp;amp;HealthHD).pe">
     <title lang="es">Programa pagado</title>
@@ -46162,6 +46141,24 @@ Realicemos una plegaria popular a la Virgen María que contempla los misterios d
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261104131354 -0300" stop="20261104132500 -0300" channel="208dtv.cl">
+    <title>The Nanny : The Finale</title>
+  </programme>
+  <programme start="20261104131354 -0300" stop="20261104133200 -0300" channel="589">
+    <title>Passion Diaries</title>
+  </programme>
+  <programme start="20261104131354 -0300" stop="20261104133100 -0300" channel="590">
+    <title>Primero cojo, luego existo</title>
+  </programme>
+  <programme start="20261104131354 -0300" stop="20261104133000 -0300" channel="custom-1233">
+    <title>Los Tarcos vs. Huirapuca</title>
+  </programme>
+  <programme start="20261104131354 -0300" stop="20261104134517 -0300" channel="fmh-family.teleclub">
+    <title>Los Thornberrys</title>
+  </programme>
+  <programme start="20261104131354 -0300" stop="20261104143251 -0300" channel="fmh-movies.teleclub">
+    <title>Zona Mortal</title>
   </programme>
   <programme start="20261104131500 +0000" stop="20261104141000 +0000" channel="865mvstr.cl">
     <title lang="es">La supervivencia de la bestia</title>
@@ -134822,7 +134819,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106115130 -0300" stop="20261106130154 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106115130 -0300" stop="20261106131354 -0300" channel="fmh-movies.teleclub">
     <title>Apocalypto</title>
   </programme>
   <programme start="20261106115400 +0000" stop="20261106120000 +0000" channel="custom-1220">
@@ -134851,7 +134848,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106115500 -0600" stop="20261106120000 -0600" channel="custom-1254">
     <title lang="es">El tiempo</title>
   </programme>
-  <programme start="20261106115600 -0300" stop="20261106130154 -0300" channel="590">
+  <programme start="20261106115600 -0300" stop="20261106131354 -0300" channel="590">
     <title>A... Beginners Luck</title>
   </programme>
   <programme start="20261106115700 +0000" stop="20261106135200 +0000" channel="custom-1230">
@@ -135545,7 +135542,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106120000 -0300" stop="20261106130000 -0300" channel="custom-1085">
     <title>Sin información</title>
   </programme>
-  <programme start="20261106120000 -0300" stop="20261106130154 -0300" channel="custom-1233">
+  <programme start="20261106120000 -0300" stop="20261106131354 -0300" channel="custom-1233">
     <title>Power Slap 26: Riyadh</title>
   </programme>
   <programme start="20261106120000 -0300" stop="20261106130000 -0300" channel="custom-1334">
@@ -135649,7 +135646,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVY7</value>
     </rating>
   </programme>
-  <programme start="20261106120903 -0300" stop="20261106130154 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106120903 -0300" stop="20261106131354 -0300" channel="fmh-family.teleclub">
     <title>9 Dias</title>
   </programme>
   <programme start="20261106121000 +0000" stop="20261106121500 +0000" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
@@ -136680,7 +136677,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106125400 -0300" stop="20261106130154 -0300" channel="589">
+  <programme start="20261106125400 -0300" stop="20261106131354 -0300" channel="589">
     <title>Racing Curves</title>
   </programme>
   <programme start="20261106125500 +0000" stop="20261106125700 +0000" channel="custom-1220">
@@ -137185,7 +137182,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <desc lang="es">Programación oficial publicada en visionsurtv.pe/programacion/ Horario de Perú (America/Lima). La programación puede cambiar sin previo aviso.</desc>
     <category lang="es">Política</category>
   </programme>
-  <programme start="20261106130000 -0300" stop="20261106130154 -0300" channel="208dtv.cl">
+  <programme start="20261106130000 -0300" stop="20261106131354 -0300" channel="208dtv.cl">
     <title>Vecinos : El huerto de Vanessa</title>
   </programme>
   <programme start="20261106130000 -0300" stop="20261106143500 -0300" channel="760dtv.cl">
