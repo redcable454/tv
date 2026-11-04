@@ -8,8 +8,8 @@ EPG = Path(__file__).with_name("guia_teleclubtv.xml")
 LIMA = ZoneInfo("America/Lima")
 
 TARGETS = {
-    "603dtv.pe": "L1",
-    "604dtv.pe": "L1 MAX",
+    "movistar.lch7217": "L1",
+    "movistar.lch7216": "L1 MAX",
     "ovacion-tv.teleclub": "Ovación TV",
 }
 
@@ -216,7 +216,7 @@ def normalized_channel_name(value):
 def find_schedule_source(root, target_id, accepted_names):
     """Busca la parrilla del mismo XMLTV por nombre, admitiendo sufijos como HD/Perú."""
     accepted = {normalized_channel_name(n) for n in accepted_names}
-    wants_max = target_id == "604dtv.pe"
+    wants_max = target_id == "movistar.lch7216"
     channels_with_programmes = {
         p.attrib.get("channel")
         for p in root.findall("programme")
@@ -320,23 +320,23 @@ def main():
     # La URL XMLTV de Teleclub puede contener la parrilla con otro channel ID.
     # Detectar el canal por su nombre dentro del MISMO XML y copiar sus programas
     # al tvg-id usado por la M3U; no descargar ni inventar horarios externos.
-    ensure_channel(root, "603dtv.pe", "L1")
-    ensure_channel(root, "604dtv.pe", "L1 MAX")
+    ensure_channel(root, "movistar.lch7217", "L1")
+    ensure_channel(root, "movistar.lch7216", "L1 MAX")
     l1_source = find_schedule_source(
-        root, "603dtv.pe",
+        root, "movistar.lch7217",
         {"L1", "L1 HD", "Liga 1", "Liga1", "Liga 1 HD", "Liga1 HD"},
     )
     l1max_source = find_schedule_source(
-        root, "604dtv.pe",
+        root, "movistar.lch7216",
         {"L1 MAX", "L1 MAX HD", "Liga 1 Max", "Liga1 Max", "Liga 1 Max HD", "Liga1 Max HD"},
     )
     if l1_source:
-        copied = mirror_channel_programmes(root, l1_source, "603dtv.pe", "L1")
+        copied = mirror_channel_programmes(root, l1_source, "movistar.lch7217", "L1")
         print(f"EPG L1: copiados {copied} programas desde ID fuente {l1_source}")
     else:
         print("EPG L1: no se encontró una parrilla fuente con nombre coincidente en el XMLTV")
     if l1max_source:
-        copied = mirror_channel_programmes(root, l1max_source, "604dtv.pe", "L1 MAX")
+        copied = mirror_channel_programmes(root, l1max_source, "movistar.lch7216", "L1 MAX")
         print(f"EPG L1 MAX: copiados {copied} programas desde ID fuente {l1max_source}")
     else:
         print("EPG L1 MAX: no se encontró una parrilla fuente con nombre coincidente en el XMLTV")
@@ -345,7 +345,7 @@ def main():
     # creó; no sustituir la programación fuente ni espejar un canal sobre otro.
     for p in list(root.findall("programme")):
         cid = p.attrib.get("channel")
-        if cid not in ("603dtv.pe", "604dtv.pe"):
+        if cid not in ("movistar.lch7217", "movistar.lch7216"):
             continue
         desc = (p.findtext("desc") or "").lower()
         title = (p.findtext("title") or "").lower()
