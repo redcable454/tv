@@ -60,6 +60,8 @@ SOURCE_ID_ALIASES = {
     "movistar.lch2318": ["CANAL.N.(CanalN).pe", "CANAL.N.HD.(CanalN.HD).pe"],
     "movistar.lch7217": ["Liga1.pe", "Liga1HD.pe", "L1.pe", "L1HD.pe", "Liga1.pe (L1)"],
     "movistar.lch7216": ["Liga1Max.pe", "Liga1MaxHD.pe", "L1Max.pe", "L1MaxHD.pe"],
+    "603dtv.pe": ["Liga1.pe", "Liga1HD.pe", "L1.pe", "L1HD.pe", "Liga1.pe (L1)"],
+    "604dtv.pe": ["Liga1Max.pe", "Liga1MaxHD.pe", "L1Max.pe", "L1MaxHD.pe"],
     "custom-1109": ["SEXTREME.(Sextreme).pe", "Sextreme.(SEXTR).[962].cr", "Sextreme.-.Premium.(SEXTR).[1033].cr"],
     "custom-1233": ["DIRECTV.SPORTS.HD(DTVSHD).co", "DSPORTS.(COL).(DTSC).co", "DSPORTS.HD.(COL)(DTSCHD).co"],
     "590": ["Pago.Por.Evento.//.Venus.International.(VENUS).[960].cr", "Pago.Por.Evento.//.Venus.1.International.(VENUS1).[1006].cr", "VENUS.(Venus).pe"],
@@ -152,8 +154,8 @@ def enrich(root, src, source_url):
         # Matching específico para los IDs de Teleclub de L1 y L1 MAX.
         # Algunas fuentes publican estos canales como "Liga1", "Liga 1 HD",
         # "L1 MAX HD", etc., aunque el display-name de Teleclub incluya calidad.
-        if not sid and cid in {"movistar.lch7217", "movistar.lch7216"}:
-            wants_max = cid == "movistar.lch7216"
+        if not sid and cid in {"movistar.lch7217", "movistar.lch7216", "603dtv.pe", "604dtv.pe"}:
+            wants_max = cid in {"movistar.lch7216", "604dtv.pe"}
             candidates = []
             for srcch in src_channels:
                 source_id = srcch.attrib.get("id", "")
@@ -187,7 +189,7 @@ def enrich(root, src, source_url):
         # Para L1/L1 MAX no se permite el fallback genérico por similitud:
         # puede confundir "L1" con canales ajenos como Caracol/Canal 1.
         # Si una fuente no identifica explícitamente Liga 1, no copiar su parrilla.
-        if not sid and cid in {"movistar.lch7217", "movistar.lch7216"}:
+        if not sid and cid in {"movistar.lch7217", "movistar.lch7216", "603dtv.pe", "604dtv.pe"}:
             continue
         if not sid:
             for n in names(ch):
