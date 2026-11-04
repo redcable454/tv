@@ -17,6 +17,8 @@ SOURCES = [
     "https://epgshare01.online/epgshare01/epg_ripper_CR1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
+    # Fuente XMLTV adicional de respaldo; solo completa canales sin EPG real.
+    "https://epg.programadorx.cl/mdiaz/gratis.xml",
     # US1 temporalmente desactivado: su descarga puede superar el timeout del workflow.
     # "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz",
 ]
