@@ -13,6 +13,7 @@ CHANNELS = (
     ("https://tv360.bitel.com.pe/tv/bicolor?ch=709", ("bicolor-teleclub",), "Bicolor+", False),
     ("https://tv360.bitel.com.pe/tv/bicolor-premium?ch=704", ("bicolor-premium.teleclub",), "Bicolor+ Premium", False),
     ("https://tv360.bitel.com.pe/tv/l1max?ch=329", ("movistar.lch7216", "604dtv.pe"), "L1 MAX", True),
+    ("https://tv360.bitel.com.pe/tv/l1maxmovil?ch=372", ("movistar.lch7217", "603dtv.pe"), "L1", True),
 )
 TZ = ZoneInfo("America/Lima")
 
