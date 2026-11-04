@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Importa las parrillas publicadas por TV360 Bitel para los canales Bicolor+."""
+"""Importa parrillas de TV360 Bitel para Bicolor+, Bicolor+ Premium y L1 MAX."""
 from datetime import datetime, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
@@ -10,8 +10,9 @@ import xml.etree.ElementTree as ET
 
 EPG = Path(__file__).with_name("guia_teleclubtv.xml")
 CHANNELS = (
-    ("https://tv360.bitel.com.pe/tv/bicolor?ch=709", "bicolor-teleclub", "Bicolor+"),
-    ("https://tv360.bitel.com.pe/tv/bicolor-premium?ch=704", "bicolor-premium.teleclub", "Bicolor+ Premium"),
+    ("https://tv360.bitel.com.pe/tv/bicolor?ch=709", ("bicolor-teleclub",), "Bicolor+", False),
+    ("https://tv360.bitel.com.pe/tv/bicolor-premium?ch=704", ("bicolor-premium.teleclub",), "Bicolor+ Premium", False),
+    ("https://tv360.bitel.com.pe/tv/l1max?ch=329", ("movistar.lch7216", "604dtv.pe"), "L1 MAX", True),
 )
 TZ = ZoneInfo("America/Lima")
 
@@ -37,7 +38,7 @@ def read_events(url):
         if not match:
             continue
         title = next((x for x in lines[i+1:i+5] if x and not re.fullmatch(r"(\d{1,2}):(\d{2})", x)), "")
-        if not title or title.lower() in {"programación", "hoy", "bicolor+", "bicolor+ premium", "todas"}:
+        if not title or title.lower() in {"programación", "hoy", "bicolor+", "bicolor+ premium", "l1 max", "todas"}:
             continue
         if not re.search(r"[A-Za-zÁÉÍÓÚÑáéíóúñ]", title):
             continue
@@ -52,7 +53,8 @@ def read_events(url):
 def main():
     root = ET.parse(EPG).getroot()
     today = datetime.now(TZ).date()
-    for url, channel_id, label in CHANNELS:
+    existing_ids = {ch.attrib.get("id") for ch in root.findall("channel")}
+    for url, channel_ids, label, keep_other_days in CHANNELS:
         try:
             events = read_events(url)
         except Exception as exc:
@@ -61,30 +63,42 @@ def main():
         if len(events) < 2:
             print(f"AVISO: TV360 no expuso una parrilla legible para {label} (eventos={len(events)}); se conserva el XML actual.")
             continue
-        if not any(ch.attrib.get("id") == channel_id for ch in root.findall("channel")):
-            print(f"AVISO: no existe el canal XMLTV {channel_id}; no se agregan programas.")
+        target_ids = [cid for cid in channel_ids if cid in existing_ids]
+        if not target_ids:
+            print(f"AVISO: no existen canales XMLTV para {label} ({', '.join(channel_ids)}); no se agregan programas.")
             continue
 
-        for programme in list(root.findall("programme")):
-            if programme.attrib.get("channel") == channel_id:
+        imported_total = 0
+        for channel_id in target_ids:
+            for programme in list(root.findall("programme")):
+                if programme.attrib.get("channel") != channel_id:
+                    continue
+                if keep_other_days:
+                    try:
+                        programme_day = datetime.strptime(programme.attrib["start"][:14], "%Y%m%d%H%M%S").date()
+                    except (KeyError, ValueError):
+                        continue
+                    if programme_day != today:
+                        continue
                 root.remove(programme)
 
-        imported = 0
-        for idx, (start_min, title) in enumerate(events):
-            end_min = events[idx + 1][0] if idx + 1 < len(events) else start_min + 150
-            if end_min <= start_min:
-                continue
-            start = datetime.combine(today, datetime.min.time(), TZ) + timedelta(minutes=start_min)
-            stop = datetime.combine(today, datetime.min.time(), TZ) + timedelta(minutes=end_min)
-            programme = ET.Element("programme", {
-                "start": start.strftime("%Y%m%d%H%M%S %z"),
-                "stop": stop.strftime("%Y%m%d%H%M%S %z"),
-                "channel": channel_id,
-            })
-            ET.SubElement(programme, "title", {"lang": "es"}).text = title
-            root.append(programme)
-            imported += 1
-        print(f"EPG {label} ({channel_id}): {imported} programas importados desde TV360 para {today.isoformat()}.")
+            imported = 0
+            for idx, (start_min, title) in enumerate(events):
+                end_min = events[idx + 1][0] if idx + 1 < len(events) else start_min + 150
+                if end_min <= start_min:
+                    continue
+                start = datetime.combine(today, datetime.min.time(), TZ) + timedelta(minutes=start_min)
+                stop = datetime.combine(today, datetime.min.time(), TZ) + timedelta(minutes=end_min)
+                programme = ET.Element("programme", {
+                    "start": start.strftime("%Y%m%d%H%M%S %z"),
+                    "stop": stop.strftime("%Y%m%d%H%M%S %z"),
+                    "channel": channel_id,
+                })
+                ET.SubElement(programme, "title", {"lang": "es"}).text = title
+                root.append(programme)
+                imported += 1
+            imported_total += imported
+        print(f"EPG {label} ({', '.join(target_ids)}): {imported_total} programas importados desde TV360 para {today.isoformat()}.")
 
     ET.indent(root, space="  ")
     ET.ElementTree(root).write(EPG, encoding="utf-8", xml_declaration=True)
