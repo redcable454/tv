@@ -79,7 +79,7 @@ def main():
             "channel": CHANNEL_ID,
         })
         ET.SubElement(p, "title", {"lang": "es"}).text = title
-        ET.SubElement(p, "category", {" lang": "es"}).text = "Deportes"
+        ET.SubElement(p, "category", {"lang": "es"}).text = "Deportes"
         root.append(p)
 
     ET.indent(root, space="  ")
