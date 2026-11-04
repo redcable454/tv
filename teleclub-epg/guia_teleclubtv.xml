@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T22:21:09.600320+00:00" radio-la-zona-updated-at="2026-11-04T22:21:09.848109+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T22:44:34.684662+00:00" radio-la-zona-updated-at="2026-11-04T22:44:34.999482+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -48404,24 +48404,6 @@ Un programa que presenta los temas musicales más destadacados y que son tendenc
     <episode-num system="original-air-date">2022-05-16 00:00:00</episode-num>
     <previously-shown start="20220516000000" />
   </programme>
-  <programme start="20261104142130 -0300" stop="20261104142500 -0300" channel="208dtv.cl">
-    <title>Vecinos : Quédate en casa</title>
-  </programme>
-  <programme start="20261104142130 -0300" stop="20261104144400 -0300" channel="589">
-    <title>SexArt</title>
-  </programme>
-  <programme start="20261104142130 -0300" stop="20261104150100 -0300" channel="590">
-    <title>Sneaking Around and Getting Down 2</title>
-  </programme>
-  <programme start="20261104142130 -0300" stop="20261104142500 -0300" channel="custom-1233">
-    <title>Shanghai</title>
-  </programme>
-  <programme start="20261104142130 -0300" stop="20261104151043 -0300" channel="fmh-family.teleclub">
-    <title>Monster Buster</title>
-  </programme>
-  <programme start="20261104142130 -0300" stop="20261104143251 -0300" channel="fmh-movies.teleclub">
-    <title>Zona Mortal</title>
-  </programme>
   <programme start="20261104142400 +0000" stop="20261104143000 +0000" channel="custom-1220">
     <title lang="es">La bici de Mike</title>
     <desc lang="es">Mikey es el dueño de una tienda de bicicletas local donde repara las bicis de sus amigos. Siempre sabe qué hacer, aunque a veces necesite un par de intentos para lograrlo, y en el proceso se le ocurren ideas únicas y divertidas.</desc>
@@ -48456,12 +48438,6 @@ Un programa que presenta los temas musicales más destadacados y que son tendenc
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261104142500 -0300" stop="20261104145500 -0300" channel="208dtv.cl">
-    <title>Vecinos : El huerto de Vanessa</title>
-  </programme>
-  <programme start="20261104142500 -0300" stop="20261104163000 -0300" channel="custom-1233">
-    <title>Itas Trentino vs. Gas Sales Bluenergy Piacenza</title>
   </programme>
   <programme start="20261104142600 +0000" stop="20261104165800 +0000" channel="503dtv.cl">
     <title lang="es">Hulk</title>
@@ -48908,9 +48884,6 @@ Los niños se exponen de forma amena y dinámica a la oración a través de lect
   <programme start="20261104143000 -0600" stop="20261104150000 -0600" channel="custom-1339">
     <title lang="es">Banda chilanga</title>
   </programme>
-  <programme start="20261104143251 -0300" stop="20261104162137 -0300" channel="fmh-movies.teleclub">
-    <title>100 Metros</title>
-  </programme>
   <programme start="20261104143400 +0000" stop="20261104150000 +0000" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
     <title lang="es">La casa de Mickey Mouse +</title>
     <sub-title lang="es">Buscando la calceta de Goofy</sub-title>
@@ -49127,8 +49100,23 @@ Los niños se exponen de forma amena y dinámica a la oración a través de lect
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261104144400 -0300" stop="20261104150800 -0300" channel="589">
+  <programme start="20261104144457 -0300" stop="20261104145500 -0300" channel="208dtv.cl">
+    <title>Vecinos : El huerto de Vanessa</title>
+  </programme>
+  <programme start="20261104144457 -0300" stop="20261104150800 -0300" channel="589">
     <title>Lights, Camera, Play</title>
+  </programme>
+  <programme start="20261104144457 -0300" stop="20261104150100 -0300" channel="590">
+    <title>Sneaking Around and Getting Down 2</title>
+  </programme>
+  <programme start="20261104144457 -0300" stop="20261104163000 -0300" channel="custom-1233">
+    <title>Itas Trentino vs. Gas Sales Bluenergy Piacenza</title>
+  </programme>
+  <programme start="20261104144457 -0300" stop="20261104151043 -0300" channel="fmh-family.teleclub">
+    <title>Monster Buster</title>
+  </programme>
+  <programme start="20261104144457 -0300" stop="20261104162137 -0300" channel="fmh-movies.teleclub">
+    <title>100 Metros</title>
   </programme>
   <programme start="20261104144500 +0000" stop="20261104165000 +0000" channel="1513dtv.cl">
     <title lang="es">Red social</title>
@@ -135004,7 +134992,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106120000 -0300" stop="20261106130000 -0300" channel="custom-1085">
     <title>Sin información</title>
   </programme>
-  <programme start="20261106120000 -0300" stop="20261106142130 -0300" channel="custom-1233">
+  <programme start="20261106120000 -0300" stop="20261106143000 -0300" channel="custom-1233">
     <title>Power Slap 26: Riyadh</title>
   </programme>
   <programme start="20261106120000 -0300" stop="20261106130000 -0300" channel="custom-1334">
@@ -137201,7 +137189,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106132600 -0300" stop="20261106142130 -0300" channel="590">
+  <programme start="20261106132600 -0300" stop="20261106144457 -0300" channel="590">
     <title>Sensual Older Couples 2</title>
   </programme>
   <programme start="20261106132800 +0000" stop="20261106135100 +0000" channel="custom-1212">
@@ -138630,7 +138618,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106140000 -0300" stop="20261106142130 -0300" channel="208dtv.cl">
+  <programme start="20261106140000 -0300" stop="20261106143000 -0300" channel="208dtv.cl">
     <title>Vecinos : Los quince años</title>
   </programme>
   <programme start="20261106140000 -0300" stop="20261106160000 -0300" channel="nacional-tv.teleclub">
@@ -138737,10 +138725,10 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106140500 -0600" stop="20261106150000 -0600" channel="custom-1339">
     <title lang="es">Posthumans</title>
   </programme>
-  <programme start="20261106140600 -0300" stop="20261106142130 -0300" channel="589">
+  <programme start="20261106140600 -0300" stop="20261106143000 -0300" channel="589">
     <title>Secret Sessions</title>
   </programme>
-  <programme start="20261106140704 -0300" stop="20261106142130 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106140704 -0300" stop="20261106144457 -0300" channel="fmh-family.teleclub">
     <title>La Vida Secreta de Walter Mitty</title>
   </programme>
   <programme start="20261106140800 +0000" stop="20261106143000 +0000" channel="custom-1058">
@@ -138796,7 +138784,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVY7</value>
     </rating>
   </programme>
-  <programme start="20261106140952 -0300" stop="20261106142130 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106140952 -0300" stop="20261106144457 -0300" channel="fmh-movies.teleclub">
     <title>Aquellos Viejos Tiempos</title>
   </programme>
   <programme start="20261106141000 +0000" stop="20261106150500 +0000" channel="865mvstr.cl">
@@ -139483,6 +139471,15 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261106143000 -0300" stop="20261106144457 -0300" channel="208dtv.cl">
+    <title>My Wife and Kids : Pilot</title>
+  </programme>
+  <programme start="20261106143000 -0300" stop="20261106144457 -0300" channel="589">
+    <title>SexArt</title>
+  </programme>
+  <programme start="20261106143000 -0300" stop="20261106144457 -0300" channel="custom-1233">
+    <title>Valentina Roa</title>
   </programme>
   <programme start="20261106143000 -0600" stop="20261106150000 -0600" channel="custom-1074">
     <title lang="es">Notas Destacadas</title>
