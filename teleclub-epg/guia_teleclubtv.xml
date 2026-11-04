@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T23:21:32.321401+00:00" radio-la-zona-updated-at="2026-11-04T23:21:32.675126+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T23:22:48.528888+00:00" radio-la-zona-updated-at="2026-11-04T23:22:48.851680+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -49873,6 +49873,24 @@ El padre Willie Peña nos explica de una manera clara y sencilla cómo las ense�
     <rating system="MPAA">
       <value>TVY</value>
     </rating>
+  </programme>
+  <programme start="20261104152312 -0300" stop="20261104152500 -0300" channel="208dtv.cl">
+    <title>My Wife and Kids : Michael's Sandwich</title>
+  </programme>
+  <programme start="20261104152312 -0300" stop="20261104153200 -0300" channel="589">
+    <title>Secret Sessions</title>
+  </programme>
+  <programme start="20261104152312 -0300" stop="20261104162900 -0300" channel="590">
+    <title>Hermosas en lencería</title>
+  </programme>
+  <programme start="20261104152312 -0300" stop="20261104163000 -0300" channel="custom-1233">
+    <title>Itas Trentino vs. Gas Sales Bluenergy Piacenza</title>
+  </programme>
+  <programme start="20261104152312 -0300" stop="20261104170641 -0300" channel="fmh-family.teleclub">
+    <title>Y Donde Estan Las Rubias</title>
+  </programme>
+  <programme start="20261104152312 -0300" stop="20261104162137 -0300" channel="fmh-movies.teleclub">
+    <title>100 Metros</title>
   </programme>
   <programme start="20261104152400 -0600" stop="20261104161200 -0600" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
     <title lang="es">Ojo Crítico</title>
@@ -138251,7 +138269,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106140600 -0300" stop="20261106143000 -0300" channel="589">
     <title>Secret Sessions</title>
   </programme>
-  <programme start="20261106140704 -0300" stop="20261106152154 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106140704 -0300" stop="20261106152312 -0300" channel="fmh-family.teleclub">
     <title>La Vida Secreta de Walter Mitty</title>
   </programme>
   <programme start="20261106140800 +0000" stop="20261106143000 +0000" channel="custom-1058">
@@ -138307,7 +138325,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVY7</value>
     </rating>
   </programme>
-  <programme start="20261106140952 -0300" stop="20261106152154 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106140952 -0300" stop="20261106152312 -0300" channel="fmh-movies.teleclub">
     <title>Aquellos Viejos Tiempos</title>
   </programme>
   <programme start="20261106141000 +0000" stop="20261106150500 +0000" channel="865mvstr.cl">
@@ -139479,7 +139497,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVY</value>
     </rating>
   </programme>
-  <programme start="20261106145300 -0300" stop="20261106152154 -0300" channel="590">
+  <programme start="20261106145300 -0300" stop="20261106152312 -0300" channel="590">
     <title>10 mamis c...</title>
   </programme>
   <programme start="20261106145400 -0300" stop="20261106151800 -0300" channel="589">
@@ -140077,10 +140095,10 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <desc lang="es">Programación oficial publicada en visionsurtv.pe/programacion/ Horario de Perú (America/Lima). La programación puede cambiar sin previo aviso.</desc>
     <category lang="es">Magazine</category>
   </programme>
-  <programme start="20261106150000 -0300" stop="20261106152154 -0300" channel="208dtv.cl">
+  <programme start="20261106150000 -0300" stop="20261106152312 -0300" channel="208dtv.cl">
     <title>My Wife and Kids : The Truth Hurts</title>
   </programme>
-  <programme start="20261106150000 -0300" stop="20261106152154 -0300" channel="custom-1233">
+  <programme start="20261106150000 -0300" stop="20261106152312 -0300" channel="custom-1233">
     <title>Itas Trentino vs. Gas Sales Bluenergy Piacenza</title>
   </programme>
   <programme start="20261106150000 -0600" stop="20261106160000 -0600" channel="arpegio-tv.teleclub">
@@ -140376,7 +140394,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106151800 -0300" stop="20261106152154 -0300" channel="589">
+  <programme start="20261106151800 -0300" stop="20261106152312 -0300" channel="589">
     <title>Secret Sessions</title>
   </programme>
   <programme start="20261106152000 +0000" stop="20261106161000 +0000" channel="892mvstr.cl">
