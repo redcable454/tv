@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T23:16:47.759423+00:00" radio-la-zona-updated-at="2026-11-04T23:16:48.064831+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T23:21:32.321401+00:00" radio-la-zona-updated-at="2026-11-04T23:21:32.675126+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -49780,24 +49780,6 @@ El padre Willie Peña nos explica de una manera clara y sencilla cómo las ense�
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261104151707 -0300" stop="20261104152500 -0300" channel="208dtv.cl">
-    <title>My Wife and Kids : Michael's Sandwich</title>
-  </programme>
-  <programme start="20261104151707 -0300" stop="20261104153200 -0300" channel="589">
-    <title>Secret Sessions</title>
-  </programme>
-  <programme start="20261104151707 -0300" stop="20261104162900 -0300" channel="590">
-    <title>Hermosas en lencería</title>
-  </programme>
-  <programme start="20261104151707 -0300" stop="20261104163000 -0300" channel="custom-1233">
-    <title>Itas Trentino vs. Gas Sales Bluenergy Piacenza</title>
-  </programme>
-  <programme start="20261104151707 -0300" stop="20261104170641 -0300" channel="fmh-family.teleclub">
-    <title>Y Donde Estan Las Rubias</title>
-  </programme>
-  <programme start="20261104151707 -0300" stop="20261104162137 -0300" channel="fmh-movies.teleclub">
-    <title>100 Metros</title>
-  </programme>
   <programme start="20261104151900 +0000" stop="20261104152200 +0000" channel="custom-1220">
     <title lang="es">Las Lollipops</title>
     <desc lang="es">Tres pequeñas amigas forman una banda de chicas y convierten los altibajos del día a día en diversión.</desc>
@@ -49835,6 +49817,24 @@ El padre Willie Peña nos explica de una manera clara y sencilla cómo las ense�
     <rating system="MPAA">
       <value>TV14</value>
     </rating>
+  </programme>
+  <programme start="20261104152154 -0300" stop="20261104152500 -0300" channel="208dtv.cl">
+    <title>My Wife and Kids : Michael's Sandwich</title>
+  </programme>
+  <programme start="20261104152154 -0300" stop="20261104153200 -0300" channel="589">
+    <title>Secret Sessions</title>
+  </programme>
+  <programme start="20261104152154 -0300" stop="20261104162900 -0300" channel="590">
+    <title>Hermosas en lencería</title>
+  </programme>
+  <programme start="20261104152154 -0300" stop="20261104163000 -0300" channel="custom-1233">
+    <title>Itas Trentino vs. Gas Sales Bluenergy Piacenza</title>
+  </programme>
+  <programme start="20261104152154 -0300" stop="20261104170641 -0300" channel="fmh-family.teleclub">
+    <title>Y Donde Estan Las Rubias</title>
+  </programme>
+  <programme start="20261104152154 -0300" stop="20261104162137 -0300" channel="fmh-movies.teleclub">
+    <title>100 Metros</title>
   </programme>
   <programme start="20261104152200 +0000" stop="20261104152500 +0000" channel="custom-1220">
     <title lang="es">Giggle Wiggle</title>
@@ -68942,6 +68942,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>AGE228</value>
     </rating>
   </programme>
+  <programme start="20261105013000 +0000" stop="20261105033000 +0000" channel="603dtv.pe">
+    <title lang="es">Universitario vs Sport Boys</title>
+    <desc lang="es">Fecha 15 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261105013000 +0000" stop="20261105033000 +0000" channel="604dtv.pe">
+    <title lang="es">Universitario vs Sport Boys</title>
+    <desc lang="es">Fecha 15 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
   <programme start="20261105013000 +0000" stop="20261105020000 +0000" channel="8577mvstr.pe">
     <title>Intenciones del Padre Manuel</title>
     <desc>El Padre Manuel Rodríguez deja un poderoso mensaje para todos sus seguidores.</desc>
@@ -69218,6 +69228,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261105013000 +0000" stop="20261105033000 +0000" channel="movistar.lch7216">
+    <title lang="es">Universitario vs Sport Boys</title>
+    <desc lang="es">Fecha 15 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261105013000 +0000" stop="20261105033000 +0000" channel="movistar.lch7217">
+    <title lang="es">Universitario vs Sport Boys</title>
+    <desc lang="es">Fecha 15 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
   </programme>
   <programme start="20261105013000 +0000" stop="20261105030000 +0000" channel="panamericana-television.teleclub">
     <title lang="es">24 horas</title>
@@ -138231,7 +138251,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106140600 -0300" stop="20261106143000 -0300" channel="589">
     <title>Secret Sessions</title>
   </programme>
-  <programme start="20261106140704 -0300" stop="20261106151707 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106140704 -0300" stop="20261106152154 -0300" channel="fmh-family.teleclub">
     <title>La Vida Secreta de Walter Mitty</title>
   </programme>
   <programme start="20261106140800 +0000" stop="20261106143000 +0000" channel="custom-1058">
@@ -138287,7 +138307,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVY7</value>
     </rating>
   </programme>
-  <programme start="20261106140952 -0300" stop="20261106151707 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106140952 -0300" stop="20261106152154 -0300" channel="fmh-movies.teleclub">
     <title>Aquellos Viejos Tiempos</title>
   </programme>
   <programme start="20261106141000 +0000" stop="20261106150500 +0000" channel="865mvstr.cl">
@@ -139459,10 +139479,10 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVY</value>
     </rating>
   </programme>
-  <programme start="20261106145300 -0300" stop="20261106151707 -0300" channel="590">
+  <programme start="20261106145300 -0300" stop="20261106152154 -0300" channel="590">
     <title>10 mamis c...</title>
   </programme>
-  <programme start="20261106145400 -0300" stop="20261106151707 -0300" channel="589">
+  <programme start="20261106145400 -0300" stop="20261106151800 -0300" channel="589">
     <title>Lights, Camera, Play</title>
   </programme>
   <programme start="20261106145500 +0000" stop="20261106162500 +0000" channel="movistar.lch2219">
@@ -140057,10 +140077,10 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <desc lang="es">Programación oficial publicada en visionsurtv.pe/programacion/ Horario de Perú (America/Lima). La programación puede cambiar sin previo aviso.</desc>
     <category lang="es">Magazine</category>
   </programme>
-  <programme start="20261106150000 -0300" stop="20261106151707 -0300" channel="208dtv.cl">
+  <programme start="20261106150000 -0300" stop="20261106152154 -0300" channel="208dtv.cl">
     <title>My Wife and Kids : The Truth Hurts</title>
   </programme>
-  <programme start="20261106150000 -0300" stop="20261106151707 -0300" channel="custom-1233">
+  <programme start="20261106150000 -0300" stop="20261106152154 -0300" channel="custom-1233">
     <title>Itas Trentino vs. Gas Sales Bluenergy Piacenza</title>
   </programme>
   <programme start="20261106150000 -0600" stop="20261106160000 -0600" channel="arpegio-tv.teleclub">
@@ -140355,6 +140375,9 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261106151800 -0300" stop="20261106152154 -0300" channel="589">
+    <title>Secret Sessions</title>
   </programme>
   <programme start="20261106152000 +0000" stop="20261106161000 +0000" channel="892mvstr.cl">
     <title>Toma mi mano</title>
@@ -148026,6 +148049,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261106200000 +0000" stop="20261106220000 +0000" channel="603dtv.pe">
+    <title lang="es">Atlético Grau vs Cusco FC</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261106200000 +0000" stop="20261106220000 +0000" channel="604dtv.pe">
+    <title lang="es">Atlético Grau vs Cusco FC</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
   <programme start="20261106200000 +0000" stop="20261106201500 +0000" channel="8577mvstr.pe">
     <title>Coronilla de la Divina Misericordia</title>
     <desc>Un espacio diario para la espiritualidad y para seguir el camino de Jesús.</desc>
@@ -148422,6 +148455,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261106200000 +0000" stop="20261106220000 +0000" channel="movistar.lch7216">
+    <title lang="es">Atlético Grau vs Cusco FC</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261106200000 +0000" stop="20261106220000 +0000" channel="movistar.lch7217">
+    <title lang="es">Atlético Grau vs Cusco FC</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
   </programme>
   <programme start="20261106200000 +0000" stop="20261106213000 +0000" channel="panamericana-television.teleclub">
     <title lang="es">La calle no calla</title>
@@ -169143,6 +169186,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <icon src="https://ebyl.tmsimg.com/assets/p23_v_v8_ad.jpg" />
     <episode-num system="dd_progid">MV00052889.0000</episode-num>
   </programme>
+  <programme start="20261107180000 +0000" stop="20261107200000 +0000" channel="603dtv.pe">
+    <title lang="es">ADT vs Sporting Cristal</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261107180000 +0000" stop="20261107200000 +0000" channel="604dtv.pe">
+    <title lang="es">ADT vs Sporting Cristal</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
   <programme start="20261107180000 +0000" stop="20261107190000 +0000" channel="8577mvstr.pe">
     <title>Matrimonio y familia</title>
     <date>20250709</date>
@@ -169416,6 +169469,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="xmltv_ns">2025.1106.</episode-num>
     <episode-num system="original-air-date">2007-06-27 00:00:00</episode-num>
     <previously-shown start="20070627000000" />
+  </programme>
+  <programme start="20261107180000 +0000" stop="20261107200000 +0000" channel="movistar.lch7216">
+    <title lang="es">ADT vs Sporting Cristal</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261107180000 +0000" stop="20261107200000 +0000" channel="movistar.lch7217">
+    <title lang="es">ADT vs Sporting Cristal</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
   </programme>
   <programme start="20261107180000 +0000" stop="20261107190000 +0000" channel="peru.teleclub">
     <title>Sin barreras</title>
@@ -171110,6 +171173,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="original-air-date">2013-03-21 00:00:00</episode-num>
     <previously-shown start="20130321000000" />
   </programme>
+  <programme start="20261107203000 +0000" stop="20261107223000 +0000" channel="603dtv.pe">
+    <title lang="es">FC Cajamarca vs Alianza Atlético</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261107203000 +0000" stop="20261107223000 +0000" channel="604dtv.pe">
+    <title lang="es">FC Cajamarca vs Alianza Atlético</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
   <programme start="20261107203000 +0000" stop="20261107210000 +0000" channel="bethel.teleclub">
     <title>Melodías de vida</title>
     <desc>Un espacio con mucha música y artistas.</desc>
@@ -171296,6 +171369,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="xmltv_ns">2025.1106.</episode-num>
     <episode-num system="original-air-date">2010-07-09 00:00:00</episode-num>
     <previously-shown start="20100709000000" />
+  </programme>
+  <programme start="20261107203000 +0000" stop="20261107223000 +0000" channel="movistar.lch7216">
+    <title lang="es">FC Cajamarca vs Alianza Atlético</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261107203000 +0000" stop="20261107223000 +0000" channel="movistar.lch7217">
+    <title lang="es">FC Cajamarca vs Alianza Atlético</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
   </programme>
   <programme start="20261107203000 +0000" stop="20261107210000 +0000" channel="telesur.ar">
     <title>Telesur Noticias</title>
@@ -172854,6 +172937,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="original-air-date">2010-11-22 00:00:00</episode-num>
     <previously-shown start="20101122000000" />
   </programme>
+  <programme start="20261107230000 +0000" stop="20261108010000 +0000" channel="603dtv.pe">
+    <title lang="es">FBC Melgar vs Juan Pablo II</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261107230000 +0000" stop="20261108010000 +0000" channel="604dtv.pe">
+    <title lang="es">FBC Melgar vs Juan Pablo II</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
   <programme start="20261107230000 +0000" stop="20261107230500 +0000" channel="8577mvstr.pe">
     <title>Asociados Angelus</title>
     <desc>Un momento de agradecimiento a todas las personas que colaboran en esta obra de evangelización y unión en oración en el rezo del Ángelus.</desc>
@@ -173101,6 +173194,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MPAA">
       <value>TVPG</value>
     </rating>
+  </programme>
+  <programme start="20261107230000 +0000" stop="20261108010000 +0000" channel="movistar.lch7216">
+    <title lang="es">FBC Melgar vs Juan Pablo II</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261107230000 +0000" stop="20261108010000 +0000" channel="movistar.lch7217">
+    <title lang="es">FBC Melgar vs Juan Pablo II</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
   </programme>
   <programme start="20261107230000 +0000" stop="20261108000000 +0000" channel="peru-internacional.teleclub">
     <title>Se dice de mí</title>
@@ -175165,6 +175268,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVY7</value>
     </rating>
   </programme>
+  <programme start="20261108013000 +0000" stop="20261108033000 +0000" channel="603dtv.pe">
+    <title lang="es">Cienciano vs Sport Huancayo</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261108013000 +0000" stop="20261108033000 +0000" channel="604dtv.pe">
+    <title lang="es">Cienciano vs Sport Huancayo</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
   <programme start="20261108013000 +0000" stop="20261108020000 +0000" channel="8577mvstr.pe">
     <title>Diálogo de fe</title>
     <desc>La reflexión sobre el Evangelio y la palabra de Dios.</desc>
@@ -175331,6 +175444,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="xmltv_ns">2025.1106.</episode-num>
     <episode-num system="original-air-date">2019-06-27 00:00:00</episode-num>
     <previously-shown start="20190627000000" />
+  </programme>
+  <programme start="20261108013000 +0000" stop="20261108033000 +0000" channel="movistar.lch7216">
+    <title lang="es">Cienciano vs Sport Huancayo</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261108013000 +0000" stop="20261108033000 +0000" channel="movistar.lch7217">
+    <title lang="es">Cienciano vs Sport Huancayo</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
   </programme>
   <programme start="20261108013000 +0000" stop="20261108020000 +0000" channel="telesur.ar">
     <title>Realidades</title>
@@ -186430,6 +186553,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVG</value>
     </rating>
   </programme>
+  <programme start="20261108180000 +0000" stop="20261108200000 +0000" channel="603dtv.pe">
+    <title lang="es">Los Chankas vs Alianza Lima</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261108180000 +0000" stop="20261108200000 +0000" channel="604dtv.pe">
+    <title lang="es">Los Chankas vs Alianza Lima</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
   <programme start="20261108180000 +0000" stop="20261108190000 +0000" channel="8577mvstr.pe">
     <title>Protagonistas</title>
     <desc>Un programa con espacio para los musicales y el entretenimiento, junto a invitados, novedades, entrevistas y mucho más.</desc>
@@ -186613,6 +186746,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="xmltv_ns">2025.1107.</episode-num>
     <episode-num system="original-air-date">2007-06-27 00:00:00</episode-num>
     <previously-shown start="20070627000000" />
+  </programme>
+  <programme start="20261108180000 +0000" stop="20261108200000 +0000" channel="movistar.lch7216">
+    <title lang="es">Los Chankas vs Alianza Lima</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261108180000 +0000" stop="20261108200000 +0000" channel="movistar.lch7217">
+    <title lang="es">Los Chankas vs Alianza Lima</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
   </programme>
   <programme start="20261108180000 +0000" stop="20261108193000 +0000" channel="peru.teleclub">
     <title>Abramos el corazón</title>
@@ -188050,6 +188193,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="original-air-date">2024-09-29 00:00:00</episode-num>
     <previously-shown start="20240929000000" />
   </programme>
+  <programme start="20261108203000 +0000" stop="20261108223000 +0000" channel="603dtv.pe">
+    <title lang="es">Sport Boys vs UTC Cajamarca</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261108203000 +0000" stop="20261108223000 +0000" channel="604dtv.pe">
+    <title lang="es">Sport Boys vs UTC Cajamarca</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
   <programme start="20261108203000 +0000" stop="20261108210000 +0000" channel="bethel.teleclub">
     <title>El súper libro</title>
     <desc>Aventuras que capturan la imaginación de niños alrededor del mundo con Anita, Luis y su simpático robot, Tuercas. Junto con ellos, niños de todas las edades aprenden sobre las asombrosas historias de la Biblia.</desc>
@@ -188207,6 +188360,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="xmltv_ns">2025.1107.</episode-num>
     <episode-num system="original-air-date">2010-07-09 00:00:00</episode-num>
     <previously-shown start="20100709000000" />
+  </programme>
+  <programme start="20261108203000 +0000" stop="20261108223000 +0000" channel="movistar.lch7216">
+    <title lang="es">Sport Boys vs UTC Cajamarca</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261108203000 +0000" stop="20261108223000 +0000" channel="movistar.lch7217">
+    <title lang="es">Sport Boys vs UTC Cajamarca</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
   </programme>
   <programme start="20261108203000 +0000" stop="20261108210000 +0000" channel="telesur.ar">
     <title>Telesur Noticias</title>
@@ -189637,6 +189800,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <icon src="https://ebyl.tmsimg.com/assets/p98355_v_v8_ae.jpg" />
     <episode-num system="dd_progid">MV00924043.0000</episode-num>
   </programme>
+  <programme start="20261108230000 +0000" stop="20261109010000 +0000" channel="603dtv.pe">
+    <title lang="es">Deportivo Garcilaso vs Comerciantes Unidos</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261108230000 +0000" stop="20261109010000 +0000" channel="604dtv.pe">
+    <title lang="es">Deportivo Garcilaso vs Comerciantes Unidos</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
   <programme start="20261108230000 +0000" stop="20261108230500 +0000" channel="8577mvstr.pe">
     <title>Asociados Angelus</title>
     <desc>Un momento de agradecimiento a todas las personas que colaboran en esta obra de evangelización y unión en oración en el rezo del Ángelus.</desc>
@@ -189865,6 +190038,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MPAA">
       <value>TVPG</value>
     </rating>
+  </programme>
+  <programme start="20261108230000 +0000" stop="20261109010000 +0000" channel="movistar.lch7216">
+    <title lang="es">Deportivo Garcilaso vs Comerciantes Unidos</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261108230000 +0000" stop="20261109010000 +0000" channel="movistar.lch7217">
+    <title lang="es">Deportivo Garcilaso vs Comerciantes Unidos</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
   </programme>
   <programme start="20261108230000 +0000" stop="20261109000000 +0000" channel="peru-internacional.teleclub">
     <title>Expediente final</title>
@@ -191562,6 +191745,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVY7</value>
     </rating>
   </programme>
+  <programme start="20261109013000 +0000" stop="20261109033000 +0000" channel="603dtv.pe">
+    <title lang="es">Universitario vs Deportivo Moquegua</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261109013000 +0000" stop="20261109033000 +0000" channel="604dtv.pe">
+    <title lang="es">Universitario vs Deportivo Moquegua</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
   <programme start="20261109013000 +0000" stop="20261109020000 +0000" channel="bethel.teleclub">
     <title>Héroes de la Fe</title>
     <desc>Historias de personas que tienen un lugar en la historia porque su fe les otorgó la victoria y lograron grandes hazañas.</desc>
@@ -191683,6 +191876,16 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="xmltv_ns">2025.1107.</episode-num>
     <episode-num system="original-air-date">2019-06-28 00:00:00</episode-num>
     <previously-shown start="20190628000000" />
+  </programme>
+  <programme start="20261109013000 +0000" stop="20261109033000 +0000" channel="movistar.lch7216">
+    <title lang="es">Universitario vs Deportivo Moquegua</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
+  </programme>
+  <programme start="20261109013000 +0000" stop="20261109033000 +0000" channel="movistar.lch7217">
+    <title lang="es">Universitario vs Deportivo Moquegua</title>
+    <desc lang="es">Fecha 16 - Torneo Clausura 2026. Partido de Liga1 Te Apuesto 2026. Transmisión deportiva en vivo.</desc>
+    <category lang="es">Fútbol</category>
   </programme>
   <programme start="20261109013000 +0000" stop="20261109023000 +0000" channel="peru-internacional.teleclub">
     <title>Los informantes</title>
