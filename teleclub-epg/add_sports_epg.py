@@ -322,6 +322,10 @@ def main():
     # al tvg-id usado por la M3U; no descargar ni inventar horarios externos.
     ensure_channel(root, "movistar.lch7217", "L1")
     ensure_channel(root, "movistar.lch7216", "L1 MAX")
+    # IDs alternativos usados por listas M3U/DTV: mantenerlos sincronizados
+    # con los IDs Movistar para que ambas variantes encuentren la misma guía.
+    ensure_channel(root, "603dtv.pe", "L1")
+    ensure_channel(root, "604dtv.pe", "L1 MAX")
     l1_source = find_schedule_source(
         root, "movistar.lch7217",
         {"L1", "L1 HD", "Liga 1", "Liga1", "Liga 1 HD", "Liga1 HD"},
@@ -340,6 +344,12 @@ def main():
         print(f"EPG L1 MAX: copiados {copied} programas desde ID fuente {l1max_source}")
     else:
         print("EPG L1 MAX: no se encontró una parrilla fuente con nombre coincidente en el XMLTV")
+
+    # Replicar la programación verificada a los tvg-id alternativos de la M3U.
+    l1_alias = mirror_channel_programmes(root, "movistar.lch7217", "603dtv.pe", "L1")
+    l1max_alias = mirror_channel_programmes(root, "movistar.lch7216", "604dtv.pe", "L1 MAX")
+    print(f"EPG alias 603dtv.pe (L1): {l1_alias} programas")
+    print(f"EPG alias 604dtv.pe (L1 MAX): {l1max_alias} programas")
 
     # Retirar solamente los bloques genéricos que el propio generador antiguo
     # creó; no sustituir la programación fuente ni espejar un canal sobre otro.
