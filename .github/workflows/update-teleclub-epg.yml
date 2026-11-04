@@ -119,9 +119,9 @@ jobs:
                   print(f'AVISO: {name} ({cid}) conserva {len(items)} programas históricos, pero no tiene horarios vigentes/futuros.')
               if not items:
                   raise SystemExit(f'ERROR: {name} ({cid}) no tiene programas XMLTV')
-          # Tras el intercambio solicitado, la parrilla con más horarios vigentes
-          # queda asignada a L1 (Movistar y alias DTV).
-          for cid in ('movistar.lch7217', '603dtv.pe'):
+          # La fuente XMLTV verificada publica la parrilla vigente de partidos
+          # bajo L1 MAX; L1 puede tener cobertura limitada o solo eventos puntuales.
+          for cid in ('movistar.lch7216', '604dtv.pe'):
               future = 0
               for p in programmes_by_channel.get(cid, []):
                   try:
@@ -130,7 +130,7 @@ jobs:
                   except (KeyError, ValueError):
                       pass
               if future < 1:
-                  raise SystemExit(f'ERROR: L1 ({cid}) no tiene programación vigente/futura tras el intercambio')
+                  raise SystemExit(f'ERROR: L1 MAX ({cid}) no tiene programación vigente/futura en la fuente XMLTV')
           generic=set()
           for cid, items in programmes_by_channel.items():
               titles=[(p.findtext('title') or '').strip().lower() for p in items]
