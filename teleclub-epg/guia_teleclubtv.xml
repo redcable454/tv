@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T20:37:59.140766+00:00" radio-la-zona-updated-at="2026-11-04T20:37:59.359798+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T20:43:51.920774+00:00" radio-la-zona-updated-at="2026-11-04T20:43:52.148129+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -1098,6 +1098,12 @@
   </channel>
   <channel id="custom-1359">
     <display-name lang="es">FOX SPORTS 2</display-name>
+  </channel>
+  <channel id="movistar.lch7217">
+    <display-name lang="es">L1</display-name>
+  </channel>
+  <channel id="movistar.lch7216">
+    <display-name lang="es">L1 MAX</display-name>
   </channel>
   <programme start="20261102000200 +0100" stop="20261102001500 +0100" channel="custom-1063">
     <title lang="es">DW News Focus</title>
@@ -11349,6 +11355,11 @@ La mejor selección de videoclips para todos los gamers de parte de PlayHit.</de
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261103173000 +0000" stop="20261103193000 +0000" channel="movistar.lch7217">
+    <desc lang="en">La información más relevante de la Liga 1 con noticias, exclusivas y figuras del fútbol nacional.</desc>
+    <icon src="https://iptv-epg.org/images/u3cGeRAPd0z4D4k2ZJzNuV5XOR0rs4TUYbvXggGGI8Xvnzx0rkKt5V8ITarcZevO4pxnGWMHFbiL5vwhuX0Q3aEDO2IYbTKdBbuZ1-21FYFXZ5Se1Z8Sy9Y93qlfZHfZaeDXxHmVgeAYWZ7bCGpJlOtzPwPir52e_YH7EEngf0vDOsCw6V8" />
+    <title lang="en">Hablemos de Max</title>
+  </programme>
   <programme start="20261103173000 +0100" stop="20261103180000 +0100" channel="527">
     <title lang="es">Documental</title>
     <desc lang="es">Presentapersonajes y acontecimientos típicos, avances y descubrimientos tecnológicos y científicos, y la civilización social de China.</desc>
@@ -13441,6 +13452,11 @@ Espacio de oración.</desc>
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261103193000 +0000" stop="20261103194500 +0000" channel="movistar.lch7217">
+    <desc lang="en">Análisis previo del partido de la fecha 15 del Torneo Clausura 2026 de la Liga 1 entre Comerciantes Unidos y ADT. Desde el estadio Juan Maldonado Gamarra, en Cutervo.</desc>
+    <icon src="https://iptv-epg.org/images/_xvNLnIfw8FnlrRDwvfLGS6-G_qE7IRYuwknUtP3YOMBeVdomKqM0jJ-siPw-I-U4i0UV1kOvncjoS2E-rFS8fjDzg8Dp1oZiY1angdtgVlka-j93fQP5TQ1aeen_nRQAzKh6ELiExuSjEChqaDGwbDpj9Yy-9_1DVVO5yxqs3WBwEbt7uQ" />
+    <title lang="en">Liga 1, la previa : Comerciantes Unidos vs. ADT</title>
+  </programme>
   <programme start="20261103193000 +0000" stop="20261103195500 +0000" channel="nick.teleclub">
     <title lang="es">El show de Patricio Estrella</title>
     <sub-title lang="es">El show de Patricio Estrella da dividendos; Los juegos Estrella</sub-title>
@@ -13746,6 +13762,11 @@ Vive los partidos de la 72º edición de la UEFA Champions League, la competici�
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261103194500 +0000" stop="20261103221500 +0000" channel="movistar.lch7217">
+    <desc lang="en">Jornada 15 del Torneo Clausura 2026 de la Liga 1. Comerciantes Unidos enfrenta a ADT. Desde el Estadio Juan Maldonado Gamarra.</desc>
+    <icon src="https://iptv-epg.org/images/cHoYaFqnC4HW9dr4h5l7V0DWioomA0Cmi8rxq6Bu_GntvnMmwUhfO0HR1kxYHWjweUTtvq5uRUTzQckckSLisamC1KHkAL4LeubF0Q0tEW8eTCCOiQmkprEl0eL_8llCYUqD7IONcbCRvJybVQWG3MQuQ_YIncMl4uqC7vne58AyTg3d4dA" />
+    <title lang="en">Fútbol Peruano Primera División : Comerciantes Unidos vs. ADT</title>
   </programme>
   <programme start="20261103194500 +0100" stop="20261103200000 +0100" channel="527">
     <title lang="es">Nihao China</title>
@@ -17112,6 +17133,11 @@ Serie de entrevistas testimoniales sobre temas médicos y las luchas personales 
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261103221500 +0000" stop="20261103223000 +0000" channel="movistar.lch7217">
+    <desc lang="en">Análisis posterior del partido de la fecha 15 del Torneo Clausura 2026 de la Liga 1 entre Comerciantes Unidos y ADT. Desde el estadio Juan Maldonado Gamarra, en Cutervo.</desc>
+    <icon src="https://iptv-epg.org/images/98ARBOXJ0mzPO8x6WrAb5tvR13GWRcJAOFa6ZQDYQj-WUQbzBbt0SxyEL0eESouxyGo84o77ttEhKE_AjFyphMK97JYC0gHu3rqYPW8-ySc-k6VlXgcIcwfnsNBgzWBT0JnNLNh_DQFNwNzxrCbe82PpUQr_bRWC2_vsMym8jFk6Eq-XoDg" />
+    <title lang="en">Liga 1, el post : Comerciantes Unidos vs. ADT</title>
+  </programme>
   <programme start="20261103221500 +0100" stop="20261103224500 +0100" channel="custom-1063">
     <title lang="es">Close up</title>
   </programme>
@@ -17557,6 +17583,11 @@ Un ciclo que presenta a doce cantautores y a los artistas más destacados del pa
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261103223000 +0000" stop="20261103230000 +0000" channel="movistar.lch7217">
+    <desc lang="en">Resumen completo de los partidos y los mejores goles del fin de semana del campeonato peruano Liga 1.</desc>
+    <icon src="https://iptv-epg.org/images/KG-dWn2ahRZ1MimDTxieiHhRLHJpwqB7k0rE7Va6sgNP1-pUTgpkPosncm-vfgHo4EtrFc3j66w6--2fEhomqKJ5OA2M9jXNkhmkzTPNlXygsug-e0QShuEJzMefqgBnzjzYf7ASR8FvhivrCcFjFr_T9ryewE7HA0z604X7xAe0bCz_Gk8" />
+    <title lang="en">Match gol</title>
   </programme>
   <programme start="20261103223000 +0000" stop="20261103225000 +0000" channel="nick.teleclub">
     <title lang="es">Bob Esponja</title>
@@ -18566,6 +18597,11 @@ Fernando Lascuráin es un hombre de negocios rico y viudo con siete hijos rebeld
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261103230000 +0000" stop="20261104000000 +0000" channel="movistar.lch7217">
+    <desc lang="en">Entrevista a Júlio César de Andrade Moura, mejor conocido como Julinho. Destacado por su trayectoria en Sporting Cristal, donde consiguió cuatro títulos.</desc>
+    <icon src="https://iptv-epg.org/images/Qop78Llk3d8HAHSzwAzD9nShFsbFCLcAq25pODIr7ESbBxFaE4DSqu8NsA30QJ_TZ27h23d06Jy2khdxHfNTWhtkYlF7svaI9swwsCBqCV4ZDPlMuEdjVXohykvjAGC24-19EsCYIts0ozpx8kP7gGe0nisfKPDFVVAKJQ420Pt-iw7TQYE" />
+    <title lang="en">La palabra en juego : Júlio César de Andrade Moura</title>
   </programme>
   <programme start="20261103230000 +0000" stop="20261103233000 +0000" channel="peru-internacional.teleclub">
     <title>De moda con Ericka</title>
@@ -44913,24 +44949,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261104123816 -0300" stop="20261104125500 -0300" channel="208dtv.cl">
-    <title>The Nanny : The Finale</title>
-  </programme>
-  <programme start="20261104123816 -0300" stop="20261104124400 -0300" channel="589">
-    <title>The Pulse</title>
-  </programme>
-  <programme start="20261104123816 -0300" stop="20261104133100 -0300" channel="590">
-    <title>Primero cojo, luego existo</title>
-  </programme>
-  <programme start="20261104123816 -0300" stop="20261104133000 -0300" channel="custom-1233">
-    <title>Los Tarcos vs. Huirapuca</title>
-  </programme>
-  <programme start="20261104123816 -0300" stop="20261104134517 -0300" channel="fmh-family.teleclub">
-    <title>Los Thornberrys</title>
-  </programme>
-  <programme start="20261104123816 -0300" stop="20261104125121 -0300" channel="fmh-movies.teleclub">
-    <title>Zombieland</title>
-  </programme>
   <programme start="20261104124000 +0000" stop="20261104125000 +0000" channel="8577mvstr.pe">
     <title>Intenciones del Padre Manuel</title>
     <desc>El Padre Manuel Rodríguez deja un poderoso mensaje para todos sus seguidores.</desc>
@@ -44975,8 +44993,23 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261104124400 -0300" stop="20261104130800 -0300" channel="589">
+  <programme start="20261104124410 -0300" stop="20261104125500 -0300" channel="208dtv.cl">
+    <title>The Nanny : The Finale</title>
+  </programme>
+  <programme start="20261104124410 -0300" stop="20261104130800 -0300" channel="589">
     <title>Racing Curves</title>
+  </programme>
+  <programme start="20261104124410 -0300" stop="20261104133100 -0300" channel="590">
+    <title>Primero cojo, luego existo</title>
+  </programme>
+  <programme start="20261104124410 -0300" stop="20261104133000 -0300" channel="custom-1233">
+    <title>Los Tarcos vs. Huirapuca</title>
+  </programme>
+  <programme start="20261104124410 -0300" stop="20261104134517 -0300" channel="fmh-family.teleclub">
+    <title>Los Thornberrys</title>
+  </programme>
+  <programme start="20261104124410 -0300" stop="20261104125121 -0300" channel="fmh-movies.teleclub">
+    <title>Zombieland</title>
   </programme>
   <programme start="20261104124500 +0000" stop="20261104130500 +0000" channel="215dtv.cl">
     <title lang="es">Frasier</title>
@@ -49971,6 +50004,11 @@ El padre Willie Peña nos explica de una manera clara y sencilla cómo las ense�
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261104150000 +0000" stop="20261104160000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261104150000 +0000" stop="20261104151500 +0000" channel="nick.teleclub">
     <title lang="es">Una casa de locos</title>
     <sub-title lang="es">Mi bella dama científica</sub-title>
@@ -51772,6 +51810,11 @@ Programación a confirmar.</desc>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261104160000 +0000" stop="20261104170000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261104160000 +0000" stop="20261104163000 +0000" channel="nick.teleclub">
     <title lang="es">Bob Esponja</title>
@@ -53706,6 +53749,11 @@ Espacio que aborda las informaciones católicas del mundo, incluye también repo
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261104170000 +0000" stop="20261104180000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261104170000 +0000" stop="20261104180000 +0000" channel="panamericana-television.teleclub">
     <title lang="es">24 horas</title>
@@ -55654,6 +55702,11 @@ El rezo, en su versión cantada, de la oración inspirada por Nuestro Señor a S
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261104180000 +0000" stop="20261104190000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261104180000 +0000" stop="20261104182000 +0000" channel="nick.teleclub">
     <title lang="es">That Girl Lay Lay</title>
     <sub-title lang="es">Lay Lay tiene una mascota</sub-title>
@@ -57370,6 +57423,11 @@ Revive los mejores momentos de los partidos de la 26º edición de la UEFA Champ
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261104190000 +0000" stop="20261104200000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261104190000 +0000" stop="20261104193000 +0000" channel="peru.teleclub">
     <title>Jiwasanaka</title>
@@ -59249,6 +59307,11 @@ Una oración del Santo Rosario desde el Santuario de Nuestra Señora de Lourdes,
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261104200000 +0000" stop="20261104210000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261104200000 +0000" stop="20261104213000 +0000" channel="panamericana-television.teleclub">
     <title lang="es">La calle no calla</title>
@@ -61195,6 +61258,11 @@ La audiencia Papal, comentario catequético semanal que imparte Papa León XIV d
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261104210000 +0000" stop="20261104220000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261104210000 +0000" stop="20261104220000 +0000" channel="peru-internacional.teleclub">
     <title>Lo que diga el corazón: Niche</title>
     <desc>La historia de Iván Cuero, quien es toda una descarga de energía salsera, mientras busca su anhelado sueño de consagrarse como salsero en los grandes escenarios neoyorkinos donde solo han triunfado las verdaderas estrellas.</desc>
@@ -62988,6 +63056,11 @@ Rubí Pérez es una bella pero pobre estudiante universitaria a quien sólo le i
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261104220000 +0000" stop="20261104230000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261104220000 +0000" stop="20261104223000 +0000" channel="nick.teleclub">
     <title lang="es">El show de Patricio Estrella</title>
@@ -64936,6 +65009,11 @@ Programación a confirmar.</desc>
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261104230000 +0000" stop="20261105000000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261104230000 +0000" stop="20261104235900 +0000" channel="national-geographic.teleclub">
     <title lang="es">Alerta aeropuerto</title>
     <desc lang="es">La policía del Aeropuerto Internacional El Dorado, en Bogotá, Colombia enfrenta los más osados delitos: drogas escondidas con métodos ingeniosos, deportaciones y falsificación de documentos son algunos de sus desafíos.</desc>
@@ -66850,6 +66928,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261105000000 +0000" stop="20261105010000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261105000000 +0000" stop="20261105002500 +0000" channel="nick.teleclub">
     <title lang="es">That Girl Lay Lay</title>
@@ -68803,6 +68886,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261105010000 +0000" stop="20261105020000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261105010000 +0000" stop="20261105020000 +0000" channel="peru.teleclub">
     <title>Hora central</title>
@@ -70866,6 +70954,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261105020000 +0000" stop="20261105030000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261105020000 +0000" stop="20261105024000 +0000" channel="mtv.teleclub-2">
     <title lang="es">Caught in the Act: Unfaithful</title>
     <sub-title lang="es">What Is the Gardener Doing Here?</sub-title>
@@ -72862,6 +72955,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261105030000 +0000" stop="20261105040000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261105030000 +0000" stop="20261105040000 +0000" channel="panamericana-television.teleclub">
     <title lang="es">Esta noche</title>
     <desc lang="es">Espacio periodístico enfocado en la actualidad, política nacional, debate y entrevistas profundas cara a cara con los protagonistas de la agenda peruana.</desc>
@@ -74799,6 +74897,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261105040000 +0000" stop="20261105050000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261105040000 +0000" stop="20261105044500 +0000" channel="mtv.teleclub-2">
     <title lang="es">The Challenge: All Stars</title>
@@ -77249,6 +77352,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <title lang="es">Ovación tv - En vivo</title>
     <desc lang="es">Programación en vivo de Ovación tv. Categoría: Deportes.</desc>
   </programme>
+  <programme start="20261105050000 +0000" stop="20261105060000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261105050000 +0000" stop="20261106050000 +0000" channel="nativa-tv.teleclub">
     <title lang="es">Nativa tv - En vivo</title>
     <desc lang="es">Programación en vivo de Nativa tv. Categoría: Regionales.</desc>
@@ -79375,6 +79483,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261105060000 +0000" stop="20261105070000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261105060000 +0000" stop="20261105070000 +0000" channel="peru-internacional.teleclub">
     <title>Lo que diga el corazón: Niche</title>
     <desc>La historia de Iván Cuero, quien es toda una descarga de energía salsera, mientras busca su anhelado sueño de consagrarse como salsero en los grandes escenarios neoyorkinos donde solo han triunfado las verdaderas estrellas.</desc>
@@ -81192,6 +81305,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261105070000 +0000" stop="20261105080000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261105070000 +0000" stop="20261105072000 +0000" channel="mtv.teleclub-2">
     <title lang="es">Unplugged</title>
@@ -83201,6 +83319,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261105080000 +0000" stop="20261105090000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261105080000 +0000" stop="20261105083000 +0000" channel="peru-internacional.teleclub">
     <title>La Dolce Vita</title>
     <desc>En cada programa, una invitación a conocer una variedad de personas muy particulares, lugares placenteros y estilos de vida.</desc>
@@ -85042,6 +85165,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261105090000 +0000" stop="20261105100000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261105090000 +0000" stop="20261105100000 +0000" channel="peru.teleclub">
     <title>En pared</title>
     <desc>Un espacio en el que se brinda información sobre el mundo deportivo.</desc>
@@ -86630,6 +86758,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261105100000 +0000" stop="20261105110000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261105100000 +0000" stop="20261105104900 +0000" channel="national-geographic.teleclub">
     <title lang="es">Tesoros perdidos de Egipto</title>
@@ -88812,6 +88945,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261105110000 +0000" stop="20261105120000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261105110000 +0000" stop="20261105112500 +0000" channel="nick.teleclub">
     <title lang="es">El show de Patricio Estrella</title>
     <sub-title lang="es">Racha de cortes; Robot solitario</sub-title>
@@ -90574,6 +90712,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261105120000 +0000" stop="20261105130000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261105120000 +0000" stop="20261105122000 +0000" channel="mtv.teleclub-2">
     <title lang="es">Ridiculousness</title>
@@ -92346,6 +92489,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261105130000 +0000" stop="20261105140000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261105130000 +0000" stop="20261105150000 +0000" channel="rpp-tv.teleclub">
     <title lang="es">Ampliación de noticias</title>
@@ -94352,6 +94500,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261105140000 +0000" stop="20261105150000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261105140000 +0000" stop="20261105142500 +0000" channel="nick.teleclub">
     <title lang="es">El show de Patricio Estrella</title>
     <sub-title lang="es">Racha de cortes; Robot solitario</sub-title>
@@ -96347,6 +96500,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261105150000 +0000" stop="20261105160000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261105150000 +0000" stop="20261105151500 +0000" channel="nick.teleclub">
     <title lang="es">Una casa de locos</title>
     <sub-title lang="es">La ciencia no miente; Siempre juntos</sub-title>
@@ -98091,6 +98249,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261105160000 +0000" stop="20261105170000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261105160000 +0000" stop="20261105163000 +0000" channel="nick.teleclub">
     <title lang="es">Bob Esponja</title>
@@ -99903,6 +100066,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261105170000 +0000" stop="20261105180000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261105170000 +0000" stop="20261105180000 +0000" channel="panamericana-television.teleclub">
     <title lang="es">24 horas</title>
@@ -101773,6 +101941,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261105180000 +0000" stop="20261105190000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261105180000 +0000" stop="20261105182000 +0000" channel="nick.teleclub">
     <title lang="es">That Girl Lay Lay</title>
     <sub-title lang="es">Lay Lay tiene una mascota</sub-title>
@@ -103350,6 +103523,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261105190000 +0000" stop="20261105200000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261105190000 +0000" stop="20261105193000 +0000" channel="peru.teleclub">
     <title>Jiwasanaka</title>
@@ -105091,6 +105269,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261105200000 +0000" stop="20261105210000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261105200000 +0000" stop="20261105213000 +0000" channel="panamericana-television.teleclub">
     <title lang="es">La calle no calla</title>
@@ -106962,6 +107145,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261105210000 +0000" stop="20261105220000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261105210000 +0000" stop="20261105220000 +0000" channel="peru-internacional.teleclub">
     <title>Lo que diga el corazón: Niche</title>
     <desc>La historia de Iván Cuero, quien es toda una descarga de energía salsera, mientras busca su anhelado sueño de consagrarse como salsero en los grandes escenarios neoyorkinos donde solo han triunfado las verdaderas estrellas.</desc>
@@ -108764,6 +108952,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261105220000 +0000" stop="20261105230000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261105220000 +0000" stop="20261105223000 +0000" channel="nick.teleclub">
     <title lang="es">El show de Patricio Estrella</title>
@@ -110649,6 +110842,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261105230000 +0000" stop="20261106000000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261105230000 +0000" stop="20261105231500 +0000" channel="nick.teleclub">
     <title lang="es">Una casa de locos</title>
     <sub-title lang="es">La ciencia no miente; Siempre juntos</sub-title>
@@ -112503,6 +112701,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261106010000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106000000 +0000" stop="20261106010100 +0000" channel="national-geographic.teleclub">
     <title lang="es">Tucci en Italia</title>
@@ -114464,6 +114667,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261106010000 +0000" stop="20261106020000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106010000 +0000" stop="20261106020000 +0000" channel="peru.teleclub">
     <title>Hora central</title>
@@ -116432,6 +116640,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261106020000 +0000" stop="20261106030000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261106020000 +0000" stop="20261106024000 +0000" channel="mtv.teleclub-2">
     <title lang="es">Caught in the Act: Unfaithful</title>
     <sub-title lang="es">She Has Two Phones!</sub-title>
@@ -118334,6 +118547,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261106030000 +0000" stop="20261106040000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261106030000 +0000" stop="20261106040000 +0000" channel="panamericana-television.teleclub">
     <title lang="es">Esta noche</title>
     <desc lang="es">Espacio periodístico enfocado en la actualidad, política nacional, debate y entrevistas profundas cara a cara con los protagonistas de la agenda peruana.</desc>
@@ -120162,6 +120380,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261106040000 +0000" stop="20261106050000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106040000 +0000" stop="20261106044500 +0000" channel="mtv.teleclub-2">
     <title lang="es">Ink Master</title>
@@ -122612,6 +122835,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <title lang="es">Ovación tv - En vivo</title>
     <desc lang="es">Programación en vivo de Ovación tv. Categoría: Deportes.</desc>
   </programme>
+  <programme start="20261106050000 +0000" stop="20261106060000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261106050000 +0000" stop="20261107050000 +0000" channel="nativa-tv.teleclub">
     <title lang="es">Nativa tv - En vivo</title>
     <desc lang="es">Programación en vivo de Nativa tv. Categoría: Regionales.</desc>
@@ -124548,6 +124776,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261106060000 +0000" stop="20261106070000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261106060000 +0000" stop="20261106070000 +0000" channel="peru-internacional.teleclub">
     <title>Lo que diga el corazón: Niche</title>
     <desc>La historia de Iván Cuero, quien es toda una descarga de energía salsera, mientras busca su anhelado sueño de consagrarse como salsero en los grandes escenarios neoyorkinos donde solo han triunfado las verdaderas estrellas.</desc>
@@ -126337,6 +126570,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261106070000 +0000" stop="20261106080000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106070000 +0000" stop="20261106073000 +0000" channel="peru-internacional.teleclub">
     <title>Testigo directo</title>
@@ -128168,6 +128406,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261106080000 +0000" stop="20261106090000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261106080000 +0000" stop="20261106083000 +0000" channel="peru-internacional.teleclub">
     <title>De moda con Ericka</title>
     <desc>Programa de entretenimiento que muestra lo mejor de la vida social, eventos, gastronomía y otros de la región del Caribe.</desc>
@@ -129903,6 +130146,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261106090000 +0000" stop="20261106100000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261106090000 +0000" stop="20261106100000 +0000" channel="peru.teleclub">
     <title>En pared</title>
     <desc>Un espacio en el que se brinda información sobre el mundo deportivo.</desc>
@@ -131482,6 +131730,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261106100000 +0000" stop="20261106110000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106100000 +0000" stop="20261106104800 +0000" channel="national-geographic.teleclub">
     <title lang="es">Tesoros perdidos de Egipto</title>
@@ -133535,6 +133788,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261106110000 +0000" stop="20261106120000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261106110000 +0000" stop="20261106112000 +0000" channel="nick.teleclub">
     <title lang="es">El show de Patricio Estrella</title>
     <sub-title lang="es">La maldición de la Casa Flim Flam; Rubetube translated</sub-title>
@@ -133905,7 +134163,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106112400 -0300" stop="20261106123816 -0300" channel="589">
+  <programme start="20261106112400 -0300" stop="20261106124410 -0300" channel="589">
     <title>A... Office Sex</title>
   </programme>
   <programme start="20261106112400 -0600" stop="20261106121200 -0600" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
@@ -134579,7 +134837,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106115130 -0300" stop="20261106123816 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106115130 -0300" stop="20261106124410 -0300" channel="fmh-movies.teleclub">
     <title>Apocalypto</title>
   </programme>
   <programme start="20261106115400 +0000" stop="20261106120000 +0000" channel="custom-1220">
@@ -134608,7 +134866,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106115500 -0600" stop="20261106120000 -0600" channel="custom-1254">
     <title lang="es">El tiempo</title>
   </programme>
-  <programme start="20261106115600 -0300" stop="20261106123816 -0300" channel="590">
+  <programme start="20261106115600 -0300" stop="20261106124410 -0300" channel="590">
     <title>A... Beginners Luck</title>
   </programme>
   <programme start="20261106115700 +0000" stop="20261106135200 +0000" channel="custom-1230">
@@ -135236,6 +135494,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261106120000 +0000" stop="20261106130000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261106120000 +0000" stop="20261106122000 +0000" channel="mtv.teleclub-2">
     <title lang="es">Ridiculousness</title>
     <sub-title lang="es">Sterling and Kristy Sarah</sub-title>
@@ -135294,7 +135557,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106120000 -0300" stop="20261106123000 -0300" channel="208dtv.cl">
     <title>The Nanny : Pilot</title>
   </programme>
-  <programme start="20261106120000 -0300" stop="20261106123816 -0300" channel="custom-1233">
+  <programme start="20261106120000 -0300" stop="20261106124410 -0300" channel="custom-1233">
     <title>Power Slap 26: Riyadh</title>
   </programme>
   <programme start="20261106120000 -0300" stop="20261106140000 -0300" channel="nacional-tv.teleclub">
@@ -135392,7 +135655,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVY7</value>
     </rating>
   </programme>
-  <programme start="20261106120903 -0300" stop="20261106123816 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106120903 -0300" stop="20261106124410 -0300" channel="fmh-family.teleclub">
     <title>9 Dias</title>
   </programme>
   <programme start="20261106121000 +0000" stop="20261106121500 +0000" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
@@ -135992,7 +136255,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106123000 -0300" stop="20261106123816 -0300" channel="208dtv.cl">
+  <programme start="20261106123000 -0300" stop="20261106124410 -0300" channel="208dtv.cl">
     <title>The Nanny : The Nuchshlep</title>
   </programme>
   <programme start="20261106123000 -0600" stop="20261106124500 -0600" channel="custom-1042">
@@ -136900,6 +137163,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106130000 +0000" stop="20261106150000 +0000" channel="rpp-tv.teleclub">
     <title lang="es">Ampliación de noticias</title>
@@ -138810,6 +139078,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106140000 +0000" stop="20261106142500 +0000" channel="nick.teleclub">
     <title lang="es">El show de Patricio Estrella</title>
@@ -140734,6 +141007,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261106150000 +0000" stop="20261106160000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261106150000 +0000" stop="20261106151500 +0000" channel="nick.teleclub">
     <title lang="es">Una casa de locos</title>
     <sub-title lang="es">La ciencia no miente; Siempre juntos</sub-title>
@@ -142379,6 +142657,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261106160000 +0000" stop="20261106170000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106160000 +0000" stop="20261106163000 +0000" channel="nick.teleclub">
     <title lang="es">Bob Esponja</title>
@@ -144186,6 +144469,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261106170000 +0000" stop="20261106180000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261106170000 +0000" stop="20261106180000 +0000" channel="panamericana-television.teleclub">
     <title lang="es">24 horas</title>
     <desc lang="es">Las noticias más temprano, con la objetividad y veracidad que se busca en el Perú. El noticiero decano de la televisión peruana.</desc>
@@ -145981,6 +146269,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261106180000 +0000" stop="20261106190000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261106180000 +0000" stop="20261106182000 +0000" channel="nick.teleclub">
     <title lang="es">That Girl Lay Lay</title>
     <sub-title lang="es">Lay Lay tiene una mascota</sub-title>
@@ -147620,6 +147913,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261106190000 +0000" stop="20261106200000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261106190000 +0000" stop="20261106230000 +0000" channel="peru.teleclub">
     <title>Abramos el corazón</title>
     <date>20261011</date>
@@ -149195,6 +149493,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261106200000 +0000" stop="20261106210000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106200000 +0000" stop="20261106213000 +0000" channel="panamericana-television.teleclub">
     <title lang="es">La calle no calla</title>
@@ -151056,6 +151359,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261106210000 +0000" stop="20261106220000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261106210000 +0000" stop="20261106220000 +0000" channel="peru-internacional.teleclub">
     <title>Lo que diga el corazón: Niche</title>
     <desc>La historia de Iván Cuero, quien es toda una descarga de energía salsera, mientras busca su anhelado sueño de consagrarse como salsero en los grandes escenarios neoyorkinos donde solo han triunfado las verdaderas estrellas.</desc>
@@ -152656,6 +152964,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261106220000 +0000" stop="20261106230000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261106220000 +0000" stop="20261106223000 +0000" channel="nick.teleclub">
     <title lang="es">El show de Patricio Estrella</title>
     <sub-title lang="es">Racha de cortes; Robot solitario</sub-title>
@@ -154176,6 +154489,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261106230000 +0000" stop="20261107000000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261106230000 +0000" stop="20261106233000 +0000" channel="peru-internacional.teleclub">
     <title>Deportes 360</title>
     <desc>Un recorrido por el deporte mundial y el desempeño de los deportistas colombianos en eventos internacionales.</desc>
@@ -155537,6 +155855,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="original-air-date">2016-03-14 00:00:00</episode-num>
     <previously-shown start="20160314000000" />
   </programme>
+  <programme start="20261107000000 +0000" stop="20261107010000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261107000000 +0000" stop="20261107013000 +0000" channel="peru-internacional.teleclub">
     <title>Noticias Caracol: Edición central</title>
     <desc>Los hechos que son noticia, en compañía de un excelente equipo periodístico.</desc>
@@ -156344,6 +156667,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MPAA">
       <value>TVPG</value>
     </rating>
+  </programme>
+  <programme start="20261107010000 +0000" stop="20261107020000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261107010000 +0000" stop="20261107020000 +0000" channel="peru.teleclub">
     <title>Hora central</title>
@@ -157333,6 +157661,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVPG</value>
     </rating>
   </programme>
+  <programme start="20261107020000 +0000" stop="20261107030000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261107020000 +0000" stop="20261107023000 +0000" channel="peru.teleclub">
     <title>León XIV: De regreso a casa</title>
     <sub-title>Perú</sub-title>
@@ -158241,6 +158574,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="original-air-date">2011-01-10 00:00:00</episode-num>
     <previously-shown start="20110110000000" />
   </programme>
+  <programme start="20261107030000 +0000" stop="20261107040000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261107030000 +0000" stop="20261107040000 +0000" channel="peru.teleclub">
     <title>Abramos el corazón</title>
     <date>20261011</date>
@@ -159126,6 +159464,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TV14</value>
     </rating>
   </programme>
+  <programme start="20261107040000 +0000" stop="20261107050000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261107040000 +0000" stop="20261107050000 +0000" channel="peru.teleclub">
     <title>TV Perú norte</title>
     <desc>Manténgase informado con las noticias más importantes de Perú y del acontecer mundial.</desc>
@@ -159907,6 +160250,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="original-air-date">2024-02-26 00:00:00</episode-num>
     <previously-shown start="20240226000000" />
   </programme>
+  <programme start="20261107050000 +0000" stop="20261107060000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261107050000 +0000" stop="20261107060000 +0000" channel="peru-internacional.teleclub">
     <title>Sobreviviendo a Escobar - Alias JJ</title>
     <desc>La vida de Alias JJ después de convertirse en el único sobreviviente del Cartel de Medellín. Alias JJ decide entregarse a la justicia en la decadencia de Pablo Escobar y en la cárcel debe enfrentarse a sus enemigos y sobrevivir.</desc>
@@ -160670,6 +161018,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="xmltv_ns">2025.1106.</episode-num>
     <episode-num system="original-air-date">2024-02-26 00:00:00</episode-num>
     <previously-shown start="20240226000000" />
+  </programme>
+  <programme start="20261107060000 +0000" stop="20261107070000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261107060000 +0000" stop="20261107070000 +0000" channel="peru-internacional.teleclub">
     <title>Lo que diga el corazón: Niche</title>
@@ -161451,6 +161804,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="xmltv_ns">2025.1106.</episode-num>
     <episode-num system="original-air-date">2024-02-26 00:00:00</episode-num>
     <previously-shown start="20240226000000" />
+  </programme>
+  <programme start="20261107070000 +0000" stop="20261107080000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261107070000 +0000" stop="20261107073000 +0000" channel="peru-internacional.teleclub">
     <title>De moda con Ericka</title>
@@ -162251,6 +162609,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="original-air-date">2024-02-26 00:00:00</episode-num>
     <previously-shown start="20240226000000" />
   </programme>
+  <programme start="20261107080000 +0000" stop="20261107090000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261107080000 +0000" stop="20261107083000 +0000" channel="peru.teleclub">
     <title>León XIV: De regreso a casa</title>
     <sub-title>Cusco</sub-title>
@@ -162982,6 +163345,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="original-air-date">2024-02-26 00:00:00</episode-num>
     <previously-shown start="20240226000000" />
   </programme>
+  <programme start="20261107090000 +0000" stop="20261107100000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261107090000 +0000" stop="20261107100000 +0000" channel="peru.teleclub">
     <title>En pared</title>
     <desc>Un espacio en el que se brinda información sobre el mundo deportivo.</desc>
@@ -163619,6 +163987,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="xmltv_ns">2025.1106.</episode-num>
     <episode-num system="original-air-date">2024-02-26 00:00:00</episode-num>
     <previously-shown start="20240226000000" />
+  </programme>
+  <programme start="20261107100000 +0000" stop="20261107110000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261107100000 +0000" stop="20261107103000 +0000" channel="peru-internacional.teleclub">
     <title>La sartén por el mango</title>
@@ -164458,6 +164831,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="original-air-date">2024-02-26 00:00:00</episode-num>
     <previously-shown start="20240226000000" />
   </programme>
+  <programme start="20261107110000 +0000" stop="20261107120000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261107110000 +0000" stop="20261107120000 +0000" channel="peru.teleclub">
     <title>Ashi Añane</title>
     <desc>Ashi Añane es el primer magazine intercultural bilingüe en lengua asháninka hecho por y para peruanos amazónicos, que aborda temas relacionados con su desarrollo social, cultural, musical y sabiduría ancestral.</desc>
@@ -165272,6 +165650,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <episode-num system="original-air-date">2024-02-26 00:00:00</episode-num>
     <previously-shown start="20240226000000" />
   </programme>
+  <programme start="20261107120000 +0000" stop="20261107130000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261107120000 +0000" stop="20261107130000 +0000" channel="peru-internacional.teleclub">
     <title>La finca de hoy</title>
     <desc>Programa dedicado a la producción agropecuaria, economía campesina, tecnología, investigación, sanidad y muchos temas más, relacionados con el campo y su gente.</desc>
@@ -166054,6 +166437,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MPAA">
       <value>TVG</value>
     </rating>
+  </programme>
+  <programme start="20261107130000 +0000" stop="20261107140000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261107130000 +0000" stop="20261107140000 +0000" channel="peru-internacional.teleclub">
     <title>Sábados felices</title>
@@ -167004,6 +167392,11 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MPAA">
       <value>TVY7</value>
     </rating>
+  </programme>
+  <programme start="20261107140000 +0000" stop="20261107150000 +0000" channel="movistar.lch7216">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261107140000 +0000" stop="20261107143000 +0000" channel="peru-internacional.teleclub">
     <title>Deportes 360</title>
