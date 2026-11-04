@@ -58,10 +58,10 @@ SOURCE_ID_ALIASES = {
     "movistar.lch2459": ["RPP.HD.(RPP.HD).pe", "RPP.(RPP).pe"],
     "movistar.lch6309": ["GLOBAL.TV.(Global).pe", "GLOBAL.(Global).pe"],
     "movistar.lch2318": ["CANAL.N.(CanalN).pe", "CANAL.N.HD.(CanalN.HD).pe"],
-    "movistar.lch7217": ["Liga1.pe", "Liga1HD.pe", "L1.pe", "L1HD.pe", "Liga1.pe (L1)"],
-    "movistar.lch7216": ["Liga1Max.pe", "Liga1MaxHD.pe", "L1Max.pe", "L1MaxHD.pe"],
-    "603dtv.pe": ["Liga1.pe", "Liga1HD.pe", "L1.pe", "L1HD.pe", "Liga1.pe (L1)"],
-    "604dtv.pe": ["Liga1Max.pe", "Liga1MaxHD.pe", "L1Max.pe", "L1MaxHD.pe"],
+    "movistar.lch7217": ["LIGA1.pe", "Liga1.pe", "Liga1HD.pe", "L1.pe", "L1HD.pe", "Liga1.pe (L1)"],
+    "movistar.lch7216": ["Liga1Max.pe", "Liga1MaxHD.pe", "L1Max.pe", "L1MaxHD.pe", "L1.MAX.pe"],
+    "603dtv.pe": ["LIGA1.pe", "Liga1.pe", "Liga1HD.pe", "L1.pe", "L1HD.pe", "Liga1.pe (L1)"],
+    "604dtv.pe": ["Liga1Max.pe", "Liga1MaxHD.pe", "L1Max.pe", "L1MaxHD.pe", "L1.MAX.pe"],
     "custom-1109": ["SEXTREME.(Sextreme).pe", "Sextreme.(SEXTR).[962].cr", "Sextreme.-.Premium.(SEXTR).[1033].cr"],
     "custom-1233": ["DIRECTV.SPORTS.HD(DTVSHD).co", "DSPORTS.(COL).(DTSC).co", "DSPORTS.HD.(COL)(DTSCHD).co"],
     "590": ["Pago.Por.Evento.//.Venus.International.(VENUS).[960].cr", "Pago.Por.Evento.//.Venus.1.International.(VENUS1).[1006].cr", "VENUS.(Venus).pe"],
@@ -134,13 +134,17 @@ def enrich(root, src, source_url):
         existing_prog.setdefault(p.attrib.get("channel",""),[]).append(p)
 
     added=matched=0
+    refreshed_liga_channels=set()
     for ch in root.findall("channel"):
         cid=ch.attrib.get("id","")
-        # L1/L1 MAX: buscar programación real en fuentes secundarias mediante ID exacto,
-        # alias verificado o coincidencia inequívoca de nombre, igual que otros canales.
-        # Solo se copian programas existentes; no se generan horarios ficticios.
+        # Para L1/L1 MAX se vuelve a consultar la fuente aunque el XML base
+        # tenga programas antiguos: conservarlos provocaba que nunca se renovaran.
+        # Cada canal se actualiza una sola vez por ejecución, con un ID explícito.
         current=existing_prog.get(cid,[])
-        if current and any(not generic(p) for p in current):
+        is_liga_target = cid in {"movistar.lch7217", "movistar.lch7216"}
+        if is_liga_target and cid in refreshed_liga_channels:
+            continue
+        if current and any(not generic(p) for p in current) and not is_liga_target:
             continue
         sid=""
         # 1) ID exacto; 2) alias exacto verificado; 3) nombre seguro.
@@ -209,11 +213,13 @@ def enrich(root, src, source_url):
         if not sid:
             continue
         for p in list(current):
-            if generic(p): root.remove(p)
+            root.remove(p)
         for p in src_prog[sid]:
             clone=ET.fromstring(ET.tostring(p,encoding="utf-8"))
             clone.set("channel",cid)
             root.append(clone); added+=1
+        if is_liga_target:
+            refreshed_liga_channels.add(cid)
         matched+=1
         print(f"EPG secundaria {source_url}: {cid} <- {sid} ({len(src_prog[sid])} programas)")
     return matched,added
