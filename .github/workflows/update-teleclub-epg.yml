@@ -15,7 +15,7 @@ on:
       - "teleclub-epg/add_radio_inolvidable.py"
       - "teleclub-epg/add_radio_programming_extra.py"
       - "teleclub-epg/add_all_panel_channels.py"
-      - "teleclub-epg/enrich_missing_epg.py"
+      - "teleclub-epg/enrich_missing_epg.py"\n      - "teleclub-epg/add_bicolor_epg.py"
       - "teleclub-epg/seed_channels.tsv"
       - "teleclubtv_con_epg.m3u"
 
@@ -65,7 +65,7 @@ jobs:
         run: python teleclub-epg/add_radio_inolvidable.py
       - name: Agregar EPG de Felicidad Oxigeno Corazon Disney Studio92 y Planeta
         run: python teleclub-epg/add_radio_programming_extra.py
-      - name: Validar guía antes de publicar
+      - name: Importar programación oficial de Bicolor+ desde TV360 Bitel\n        run: python teleclub-epg/add_bicolor_epg.py\n      - name: Validar guía antes de publicar
         run: |
           test -s teleclub-epg/guia_teleclubtv.xml
           grep -q '<channel ' teleclub-epg/guia_teleclubtv.xml
