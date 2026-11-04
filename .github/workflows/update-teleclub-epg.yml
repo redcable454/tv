@@ -15,7 +15,8 @@ on:
       - "teleclub-epg/add_radio_inolvidable.py"
       - "teleclub-epg/add_radio_programming_extra.py"
       - "teleclub-epg/add_all_panel_channels.py"
-      - "teleclub-epg/enrich_missing_epg.py"\n      - "teleclub-epg/add_bicolor_epg.py"
+      - "teleclub-epg/enrich_missing_epg.py"
+      - "teleclub-epg/add_bicolor_epg.py"
       - "teleclub-epg/seed_channels.tsv"
       - "teleclubtv_con_epg.m3u"
 
@@ -65,7 +66,9 @@ jobs:
         run: python teleclub-epg/add_radio_inolvidable.py
       - name: Agregar EPG de Felicidad Oxigeno Corazon Disney Studio92 y Planeta
         run: python teleclub-epg/add_radio_programming_extra.py
-      - name: Importar programación oficial de Bicolor+ desde TV360 Bitel\n        run: python teleclub-epg/add_bicolor_epg.py\n      - name: Validar guía antes de publicar
+      - name: Importar programación oficial de Bicolor+ desde TV360 Bitel
+        run: python teleclub-epg/add_bicolor_epg.py
+      - name: Validar guía antes de publicar
         run: |
           test -s teleclub-epg/guia_teleclubtv.xml
           grep -q '<channel ' teleclub-epg/guia_teleclubtv.xml
@@ -160,7 +163,8 @@ jobs:
           }
           with open('teleclub-epg/epg-status.json','w',encoding='utf-8') as fh:
               json.dump(status,fh,ensure_ascii=False,indent=2)
-              fh.write('\\n')
+              fh.write('\
+')
           print(f'EPG válida: {channels} canales/radios, {programmes} programas; real={len(real)}, generica={len(generic)}, sin_programacion={len(missing)}')
           if channels < 1 or programmes < 1 or missing: raise SystemExit(f'EPG incompleta: {missing[:20]}')
           PY
