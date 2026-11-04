@@ -17,25 +17,18 @@ TARGETS = {
 # Horarios en hora peruana. La duración del bloque de partido se fija en 2h
 # para que la guía muestre correctamente el evento actual y el siguiente.
 LIGA1_MATCHES = [
-    # Fecha 13 - Clausura 2026. Horarios publicados para L1 MAX (hora peruana).
-    ("2026-10-23", "13:00", "UTC Cajamarca vs FBC Melgar", "Fecha 13 - Torneo Clausura 2026"),
-    ("2026-10-23", "15:15", "Atlético Grau vs ADT", "Fecha 13 - Torneo Clausura 2026"),
-    ("2026-10-24", "12:45", "Sport Huancayo vs Alianza Atlético", "Fecha 13 - Torneo Clausura 2026"),
-    ("2026-10-24", "15:15", "Cusco FC vs Sporting Cristal", "Fecha 13 - Torneo Clausura 2026"),
-    ("2026-10-24", "20:30", "Universitario vs Juan Pablo II", "Fecha 13 - Torneo Clausura 2026"),
-    ("2026-10-25", "11:00", "Comerciantes Unidos vs Cienciano", "Fecha 13 - Torneo Clausura 2026"),
-    ("2026-10-25", "13:15", "CD Moquegua vs Alianza Lima", "Fecha 13 - Torneo Clausura 2026"),
-    ("2026-10-25", "15:30", "Sport Boys vs FC Cajamarca", "Fecha 13 - Torneo Clausura 2026"),
-    ("2026-10-25", "18:00", "Deportivo Garcilaso vs Los Chankas", "Fecha 13 - Torneo Clausura 2026"),
-    # Partidos entre semana publicados para el 27-29 de octubre.
-    ("2026-10-27", "14:00", "Juan Pablo II vs Sport Huancayo", "Torneo Clausura 2026"),
-    ("2026-10-28", "12:00", "ADT vs CD Moquegua", "Torneo Clausura 2026"),
-    ("2026-10-28", "14:15", "FC Cajamarca vs UTC Cajamarca", "Torneo Clausura 2026"),
-    ("2026-10-28", "16:30", "Alianza Atlético vs Deportivo Garcilaso", "Torneo Clausura 2026"),
-    ("2026-10-28", "20:00", "Cienciano vs Atlético Grau", "Torneo Clausura 2026"),
-    ("2026-10-29", "14:00", "Los Chankas vs Cusco FC", "Torneo Clausura 2026"),
-    ("2026-10-29", "16:30", "Sporting Cristal vs Alianza Lima", "Torneo Clausura 2026"),
-    ("2026-10-29", "20:30", "Melgar vs Comerciantes Unidos", "Torneo Clausura 2026"),
+    # Calendario próximo publicado el 04/11/2026. Horarios de Perú.
+    # La fuente asigna estos encuentros a L1 MAX; no se atribuyen a L1 sin confirmación.
+    ("2026-11-04", "20:30", "Universitario vs Sport Boys", "Fecha 15 - Torneo Clausura 2026"),
+    ("2026-11-06", "15:00", "Atlético Grau vs Cusco FC", "Fecha 16 - Torneo Clausura 2026"),
+    ("2026-11-07", "13:00", "ADT vs Sporting Cristal", "Fecha 16 - Torneo Clausura 2026"),
+    ("2026-11-07", "15:30", "FC Cajamarca vs Alianza Atlético", "Fecha 16 - Torneo Clausura 2026"),
+    ("2026-11-07", "18:00", "FBC Melgar vs Juan Pablo II", "Fecha 16 - Torneo Clausura 2026"),
+    ("2026-11-07", "20:30", "Cienciano vs Sport Huancayo", "Fecha 16 - Torneo Clausura 2026"),
+    ("2026-11-08", "13:00", "Los Chankas vs Alianza Lima", "Fecha 16 - Torneo Clausura 2026"),
+    ("2026-11-08", "15:30", "Sport Boys vs UTC Cajamarca", "Fecha 16 - Torneo Clausura 2026"),
+    ("2026-11-08", "18:00", "Deportivo Garcilaso vs Comerciantes Unidos", "Fecha 16 - Torneo Clausura 2026"),
+    ("2026-11-08", "20:30", "Universitario vs Deportivo Moquegua", "Fecha 16 - Torneo Clausura 2026"),
 ]
 
 # Parrilla de Ovación publicada para 2026. La señal TV de Ovación usa esta
@@ -192,9 +185,11 @@ def mirror_channel_programmes(root, source_id, target_id, name):
         p for p in root.findall("programme")
         if p.attrib.get("channel") == source_id
     ]
-    # No reemplazar una parrilla ya asociada correctamente al ID destino.
-    if any(p.attrib.get("channel") == target_id for p in root.findall("programme")):
-        return 0
+    # El destino es un alias generado: reemplazarlo para no conservar horarios
+    # caducados de ejecuciones anteriores.
+    for old in list(root.findall("programme")):
+        if old.attrib.get("channel") == target_id:
+            root.remove(old)
     for p in source_programmes:
         title = (p.findtext("title") or "").strip().lower()
         desc = (p.findtext("desc") or "").strip().lower()
@@ -344,6 +339,12 @@ def main():
         print(f"EPG L1 MAX: copiados {copied} programas desde ID fuente {l1max_source}")
     else:
         print("EPG L1 MAX: no se encontró una parrilla fuente con nombre coincidente en el XMLTV")
+
+    # Añadir los partidos próximos confirmados para L1 MAX. No asignarlos a L1,
+    # ya que las fuentes consultadas no confirman emisiones futuras en ese canal.
+    remove_programmes(root, "movistar.lch7216")
+    generated = add_liga_programming(root, "movistar.lch7216")
+    print(f"EPG L1 MAX: {generated} partidos próximos añadidos desde calendario publicado")
 
     # Replicar la programación verificada a los tvg-id alternativos de la M3U.
     l1_alias = mirror_channel_programmes(root, "movistar.lch7217", "603dtv.pe", "L1")
