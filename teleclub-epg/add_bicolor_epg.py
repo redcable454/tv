@@ -39,7 +39,7 @@ def read_events(url):
 
     # TV360 puede cargar la parrilla desde JavaScript/API. Inspeccionar bundles
     # para descubrir endpoints reales; nunca imprimir query strings ni tokens.
-    scripts = re.findall(r'<script[^>]+src=["\\']([^"\\']+)', html, re.I)
+    scripts = re.findall(r"<script[^>]+src=[\"']([^\"']+)", html, re.I)
     candidates = set()
     for script in scripts[:20]:
         script_url = urljoin(page_url, script)
@@ -47,7 +47,7 @@ def read_events(url):
             req = Request(script_url, headers={"User-Agent": "Mozilla/5.0"})
             with urlopen(req, timeout=20) as response:
                 source = response.read(2000000).decode("utf-8", "replace")
-            for value in re.findall(r'["\\']([^"\\']{1,300})["\\']', source):
+            for value in re.findall(r"[\"']([^\"']{1,300})[\"']", source):
                 low = value.lower()
                 if any(k in low for k in ("api", "epg", "program", "schedule", "guide", "graphql", "channel")):
                     if value.startswith(("http://", "https://", "/")):
