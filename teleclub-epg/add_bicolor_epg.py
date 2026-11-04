@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.request import Request, urlopen
+from urllib.parse import urljoin
 from zoneinfo import ZoneInfo
 import re
 import xml.etree.ElementTree as ET
@@ -27,9 +28,39 @@ class TextExtractor(HTMLParser):
             self.lines.append(value)
 
 def read_events(url):
-    req = Request(url, headers={"User-Agent": "Mozilla/5.0 TeleclubTV-EPG/1.0"})
+    req = Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/131.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "es-PE,es;q=0.9,en;q=0.8",
+    })
     with urlopen(req, timeout=45) as response:
         html = response.read().decode("utf-8", "replace")
+        page_url = response.geturl()
+
+    # TV360 puede cargar la parrilla desde JavaScript/API. Inspeccionar bundles
+    # para descubrir endpoints reales; nunca imprimir query strings ni tokens.
+    scripts = re.findall(r'<script[^>]+src=["\\']([^"\\']+)', html, re.I)
+    candidates = set()
+    for script in scripts[:20]:
+        script_url = urljoin(page_url, script)
+        try:
+            req = Request(script_url, headers={"User-Agent": "Mozilla/5.0"})
+            with urlopen(req, timeout=20) as response:
+                source = response.read(2000000).decode("utf-8", "replace")
+            for value in re.findall(r'["\\']([^"\\']{1,300})["\\']', source):
+                low = value.lower()
+                if any(k in low for k in ("api", "epg", "program", "schedule", "guide", "graphql", "channel")):
+                    if value.startswith(("http://", "https://", "/")):
+                        candidates.add(urljoin(script_url, value))
+        except Exception as exc:
+            print(f"DIAG TV360: bundle no inspeccionado ({type(exc).__name__})")
+    print(f"DIAG TV360: HTML={len(html)} bytes; scripts={len(scripts)}; endpoints candidatos={len(candidates)}")
+    for value in sorted(candidates)[:30]:
+        from urllib.parse import urlparse
+        parsed = urlparse(value)
+        print(f"DIAG TV360 endpoint: {parsed.scheme}://{parsed.netloc}{parsed.path}")
+
+    parser = TextExtractor()
     parser = TextExtractor()
     parser.feed(html)
     lines = parser.lines
