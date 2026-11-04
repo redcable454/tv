@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T20:47:14.574736+00:00" radio-la-zona-updated-at="2026-11-04T20:47:14.869765+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T20:53:13.943645+00:00" radio-la-zona-updated-at="2026-11-04T20:53:14.264233+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -45072,24 +45072,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
   <programme start="20261104124500 -0600" stop="20261104130000 -0600" channel="custom-1339">
     <title lang="es">Fundación BAT</title>
   </programme>
-  <programme start="20261104124735 -0300" stop="20261104125500 -0300" channel="208dtv.cl">
-    <title>The Nanny : The Finale</title>
-  </programme>
-  <programme start="20261104124735 -0300" stop="20261104130800 -0300" channel="589">
-    <title>Racing Curves</title>
-  </programme>
-  <programme start="20261104124735 -0300" stop="20261104133100 -0300" channel="590">
-    <title>Primero cojo, luego existo</title>
-  </programme>
-  <programme start="20261104124735 -0300" stop="20261104133000 -0300" channel="custom-1233">
-    <title>Los Tarcos vs. Huirapuca</title>
-  </programme>
-  <programme start="20261104124735 -0300" stop="20261104134517 -0300" channel="fmh-family.teleclub">
-    <title>Los Thornberrys</title>
-  </programme>
-  <programme start="20261104124735 -0300" stop="20261104125121 -0300" channel="fmh-movies.teleclub">
-    <title>Zombieland</title>
-  </programme>
   <programme start="20261104124800 +0000" stop="20261104130100 +0000" channel="custom-1243">
     <title>Mike, Lu y Og</title>
     <desc>Un estudiante de intercambio buscando aventura llega a una isla apartada.</desc>
@@ -45209,9 +45191,6 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261104125121 -0300" stop="20261104143251 -0300" channel="fmh-movies.teleclub">
-    <title>Zona Mortal</title>
-  </programme>
   <programme start="20261104125200 +0000" stop="20261104134400 +0000" channel="custom-1224">
     <title lang="es">Sueños de libertad</title>
     <desc lang="es">Marta se pone de acuerdo con Fina para ir a Madrid y poder expresar su amor de manera libre. Jesús empieza a tratar de forma diferente a Julia después enterarse de la verdad.</desc>
@@ -45238,6 +45217,24 @@ Observa todos los productos electrodomésticos que dominan el mercado actual y q
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261104125335 -0300" stop="20261104125500 -0300" channel="208dtv.cl">
+    <title>The Nanny : The Finale</title>
+  </programme>
+  <programme start="20261104125335 -0300" stop="20261104130800 -0300" channel="589">
+    <title>Racing Curves</title>
+  </programme>
+  <programme start="20261104125335 -0300" stop="20261104133100 -0300" channel="590">
+    <title>Primero cojo, luego existo</title>
+  </programme>
+  <programme start="20261104125335 -0300" stop="20261104133000 -0300" channel="custom-1233">
+    <title>Los Tarcos vs. Huirapuca</title>
+  </programme>
+  <programme start="20261104125335 -0300" stop="20261104134517 -0300" channel="fmh-family.teleclub">
+    <title>Los Thornberrys</title>
+  </programme>
+  <programme start="20261104125335 -0300" stop="20261104143251 -0300" channel="fmh-movies.teleclub">
+    <title>Zona Mortal</title>
   </programme>
   <programme start="20261104125400 +0000" stop="20261104125600 +0000" channel="custom-1220">
     <title lang="es">Canciones &amp; rimas</title>
@@ -134163,7 +134160,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106112400 -0300" stop="20261106124735 -0300" channel="589">
+  <programme start="20261106112400 -0300" stop="20261106125335 -0300" channel="589">
     <title>A... Office Sex</title>
   </programme>
   <programme start="20261106112400 -0600" stop="20261106121200 -0600" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
@@ -134837,7 +134834,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106115130 -0300" stop="20261106124735 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106115130 -0300" stop="20261106125335 -0300" channel="fmh-movies.teleclub">
     <title>Apocalypto</title>
   </programme>
   <programme start="20261106115400 +0000" stop="20261106120000 +0000" channel="custom-1220">
@@ -134866,7 +134863,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106115500 -0600" stop="20261106120000 -0600" channel="custom-1254">
     <title lang="es">El tiempo</title>
   </programme>
-  <programme start="20261106115600 -0300" stop="20261106124735 -0300" channel="590">
+  <programme start="20261106115600 -0300" stop="20261106125335 -0300" channel="590">
     <title>A... Beginners Luck</title>
   </programme>
   <programme start="20261106115700 +0000" stop="20261106135200 +0000" channel="custom-1230">
@@ -135557,7 +135554,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106120000 -0300" stop="20261106123000 -0300" channel="208dtv.cl">
     <title>The Nanny : Pilot</title>
   </programme>
-  <programme start="20261106120000 -0300" stop="20261106124735 -0300" channel="custom-1233">
+  <programme start="20261106120000 -0300" stop="20261106125335 -0300" channel="custom-1233">
     <title>Power Slap 26: Riyadh</title>
   </programme>
   <programme start="20261106120000 -0300" stop="20261106140000 -0300" channel="nacional-tv.teleclub">
@@ -135655,7 +135652,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVY7</value>
     </rating>
   </programme>
-  <programme start="20261106120903 -0300" stop="20261106124735 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106120903 -0300" stop="20261106125335 -0300" channel="fmh-family.teleclub">
     <title>9 Dias</title>
   </programme>
   <programme start="20261106121000 +0000" stop="20261106121500 +0000" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
@@ -136255,7 +136252,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106123000 -0300" stop="20261106124735 -0300" channel="208dtv.cl">
+  <programme start="20261106123000 -0300" stop="20261106125335 -0300" channel="208dtv.cl">
     <title>The Nanny : The Nuchshlep</title>
   </programme>
   <programme start="20261106123000 -0600" stop="20261106124500 -0600" channel="custom-1042">
