@@ -37,7 +37,7 @@ def read_events(url):
         html = response.read().decode("utf-8", "replace")
         page_url = response.geturl()
 
-    # TV360 puede cargar la parrilla desde JavaScript/API. Inspeccionar bundles
+    # Diagnóstico del HTML renderizado: la guía puede venir en los datos SSR de Next.js.\n    for marker in ("Programación", "__NEXT_DATA__", "get-live-schedule", "channel_schedule"):\n        pos = html.find(marker)\n        if pos >= 0:\n            print(f"DIAG TV360 HTML {marker}: {html[max(0, pos-500):pos+1800]}")\n\n    # TV360 puede cargar la parrilla desde JavaScript/API. Inspeccionar bundles
     # para descubrir endpoints reales; nunca imprimir query strings ni tokens.
     scripts = re.findall(r"<script[^>]+src=[\"']([^\"']+)", html, re.I)
     candidates = set()
