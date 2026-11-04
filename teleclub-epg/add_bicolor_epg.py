@@ -118,7 +118,30 @@ def read_events(url):
         except Exception as exc:
             print(f"DIAG TV360 GET {parsed.path}: {type(exc).__name__}")
 
-    parser = TextExtractor()
+    # La API JSON de TV360 se sirve desde img-evg2, no desde el host de la web.
+    api_base = "https://img-evg2.tv360.bitel.com.pe"
+    api_headers = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/131.0 Safari/537.36",
+        "Accept": "application/json, text/plain, */*",
+        "Origin": "https://tv360.bitel.com.pe",
+        "Referer": page_url,
+    }
+    for route, params in (
+        ("/public/v1/live/get-list-channel", {}),
+        ("/public/v1/live/get-more-content", {"id": "channel_schedule_now_v2"}),
+    ):
+        try:
+            from urllib.parse import urlencode
+            probe_url = api_base + route + ("?" + urlencode(params) if params else "")
+            req = Request(probe_url, headers=api_headers)
+            with urlopen(req, timeout=20) as response:
+                body = response.read(500000).decode("utf-8", "replace")
+                print(f"DIAG TV360 API {route}: HTTP={response.status}; bytes={len(body)}; content-type={response.headers.get('Content-Type', '')}")
+                print(f"DIAG TV360 API JSON {route}: {body[:1800]}")
+        except Exception as exc:
+            status = getattr(exc, "code", "")
+            print(f"DIAG TV360 API {route}: {type(exc).__name__}; status={status}")
+
     parser = TextExtractor()
     parser.feed(html)
     lines = parser.lines
