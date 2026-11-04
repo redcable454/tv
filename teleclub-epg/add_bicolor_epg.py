@@ -41,24 +41,69 @@ def read_events(url):
     # para descubrir endpoints reales; nunca imprimir query strings ni tokens.
     scripts = re.findall(r"<script[^>]+src=[\"']([^\"']+)", html, re.I)
     candidates = set()
-    for script in scripts[:20]:
+    contexts = []
+    keywords = ("epg", "schedule", "program", "programacion", "tvguide", "guide", "airing", "broadcast", "eventlist", "channelprogram", "getprogram", "getepg", "starttime", "endtime")
+    for script in scripts[:50]:
         script_url = urljoin(page_url, script)
         try:
             req = Request(script_url, headers={"User-Agent": "Mozilla/5.0"})
-            with urlopen(req, timeout=20) as response:
-                source = response.read(2000000).decode("utf-8", "replace")
-            for value in re.findall(r"[\"']([^\"']{1,300})[\"']", source):
+            with urlopen(req, timeout=25) as response:
+                source = response.read(5000000).decode("utf-8", "replace")
+            low_source = source.lower()
+            for keyword in keywords:
+                pos = 0
+                hits = 0
+                while hits < 4:
+                    pos = low_source.find(keyword, pos)
+                    if pos < 0:
+                        break
+                    snippet = re.sub(r"\\s+", " ", source[max(0, pos-180):pos+260])
+                    # Evitar imprimir credenciales, tokens o valores de autorización.
+                    snippet = re.sub(r"(?i)(token|authorization|password|passwd|secret|cookie)([\\s\"'=:]+)[^,; }]{1,180}", r"\\1\\2[REDACTED]", snippet)
+                    contexts.append((keyword, snippet[:420]))
+                    hits += 1
+                    pos += len(keyword)
+            for value in re.findall(r"[\"']([^\"']{1,500})[\"']", source):
                 low = value.lower()
-                if any(k in low for k in ("api", "epg", "program", "schedule", "guide", "graphql", "channel")):
-                    if value.startswith(("http://", "https://", "/")):
-                        candidates.add(urljoin(script_url, value))
+                if any(k in low for k in ("api", "epg", "program", "schedule", "guide", "graphql", "channel")) and value.startswith(("/", "https://")):
+                    candidates.add(urljoin(script_url, value))
         except Exception as exc:
             print(f"DIAG TV360: bundle no inspeccionado ({type(exc).__name__})")
     print(f"DIAG TV360: HTML={len(html)} bytes; scripts={len(scripts)}; endpoints candidatos={len(candidates)}")
-    for value in sorted(candidates)[:30]:
+    for value in sorted(candidates)[:50]:
         from urllib.parse import urlparse
         parsed = urlparse(value)
         print(f"DIAG TV360 endpoint: {parsed.scheme}://{parsed.netloc}{parsed.path}")
+    seen = set()
+    for keyword, snippet in contexts:
+        if snippet not in seen:
+            print(f"DIAG TV360 contexto [{keyword}]: {snippet}")
+            seen.add(snippet)
+        if len(seen) >= 35:
+            break
+    # Probar únicamente rutas GET cuyo nombre indique inequívocamente guía/parrilla.
+    from urllib.parse import urlparse
+    for value in sorted(candidates):
+        parsed = urlparse(value)
+        route = parsed.path.lower()
+        if not any(k in route for k in ("epg", "schedule", "program", "guide", "airing")):
+            continue
+        try:
+            req = Request(value, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json,text/plain,*/*"})
+            with urlopen(req, timeout=12) as response:
+                body = response.read(300000).decode("utf-8", "replace")
+                content_type = response.headers.get("Content-Type", "")
+                print(f"DIAG TV360 GET {parsed.path}: HTTP={response.status}; type={content_type}; bytes={len(body)}")
+                if "json" in content_type.lower() or body.lstrip().startswith(("{", "[")):
+                    try:
+                        import json
+                        data = json.loads(body)
+                        keys = list(data.keys())[:25] if isinstance(data, dict) else [type(data).__name__, f"items={len(data)}"]
+                        print(f"DIAG TV360 JSON {parsed.path}: keys={keys}")
+                    except Exception:
+                        pass
+        except Exception as exc:
+            print(f"DIAG TV360 GET {parsed.path}: {type(exc).__name__}")
 
     parser = TextExtractor()
     parser = TextExtractor()
