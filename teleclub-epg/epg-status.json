@@ -1,8 +1,8 @@
 {
   "channels": 317,
-  "programmes": 19143,
-  "channels_with_programmes": 317,
-  "real_epg_channels": 154,
+  "programmes": 18986,
+  "channels_with_programmes": 313,
+  "real_epg_channels": 150,
   "generic_epg_channels": 163,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
@@ -15,6 +15,7 @@
     "atv.teleclub",
     "auno-tv.teleclub",
     "aura-tv.teleclub",
+    "bicolor- teleclub",
     "cadena-tv.teleclub",
     "cbn-tv.teleclub",
     "chincha.teleclub",
@@ -61,7 +62,6 @@
     "custom-1235",
     "custom-1245",
     "custom-1247",
-    "custom-1249",
     "custom-1252",
     "custom-1273",
     "custom-1278",
@@ -220,7 +220,7 @@
       "name": "BHTV HD"
     },
     {
-      "id": "custom-1249",
+      "id": "bicolor- teleclub",
       "name": "BICOLOR+"
     },
     {
@@ -825,4 +825,4 @@
     }
   ],
   "missing_channel_ids": []
-}\n
+}
