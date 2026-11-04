@@ -95,7 +95,12 @@ jobs:
 
           # Validación explícita de los dos tvg-id que consume Teleclub TV.
           from datetime import datetime, timezone
-          targets = {'movistar.lch7217': 'L1', 'movistar.lch7216': 'L1 MAX'}
+          targets = {
+              'movistar.lch7217': 'L1 (Movistar)',
+              '603dtv.pe': 'L1 (alias DTV)',
+              'movistar.lch7216': 'L1 MAX (Movistar)',
+              '604dtv.pe': 'L1 MAX (alias DTV)',
+          }
           now = datetime.now(timezone.utc)
           for cid, name in targets.items():
               items = programmes_by_channel.get(cid, [])
@@ -111,9 +116,21 @@ jobs:
               # Mientras no esté conectada la fuente de programación original del usuario,
               # es preferible dejar L1/L1 MAX sin parrilla antes que publicar datos inventados.
               if items and not upcoming:
-                  print(f'AVISO: {name} ({cid}) conserva {len(items)} programas históricos, pero no tiene horarios vigentes/futuros; se publicará el resto de la guía.')
+                  print(f'AVISO: {name} ({cid}) conserva {len(items)} programas históricos, pero no tiene horarios vigentes/futuros.')
               if not items:
-                  print(f'AVISO: {name} queda sin parrilla hasta recuperar la programación original de Teleclub')
+                  raise SystemExit(f'ERROR: {name} ({cid}) no tiene programas XMLTV')
+          # L1 MAX debe tener al menos un evento futuro tanto en el ID Movistar
+          # como en su alias DTV. L1 no se fuerza a tener eventos futuros sin fuente.
+          for cid in ('movistar.lch7216', '604dtv.pe'):
+              future = 0
+              for p in programmes_by_channel.get(cid, []):
+                  try:
+                      if datetime.strptime(p.attrib['stop'], '%Y%m%d%H%M%S %z').astimezone(timezone.utc) > now:
+                          future += 1
+                  except (KeyError, ValueError):
+                      pass
+              if future < 1:
+                  raise SystemExit(f'ERROR: L1 MAX ({cid}) no tiene programación vigente/futura')
           generic=set()
           for cid, items in programmes_by_channel.items():
               titles=[(p.findtext('title') or '').strip().lower() for p in items]
