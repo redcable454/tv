@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T21:33:16.683576+00:00" radio-la-zona-updated-at="2026-11-04T21:33:16.868653+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T22:08:14.263926+00:00" radio-la-zona-updated-at="2026-11-04T22:08:14.499116+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -45718,15 +45718,6 @@ Realicemos una plegaria popular a la Virgen María que contempla los misterios d
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/22006538.jpg" />
     <country lang="es">México</country>
   </programme>
-  <programme start="20261104130000 -0300" stop="20261104140000 -0300" channel="custom-1085">
-    <title>Sin información</title>
-  </programme>
-  <programme start="20261104130000 -0300" stop="20261104140000 -0300" channel="custom-1334">
-    <title>Programación Infantil</title>
-  </programme>
-  <programme start="20261104130000 -0300" stop="20261104140000 -0300" channel="movistar.lch7110">
-    <title>Sin información</title>
-  </programme>
   <programme start="20261104130000 -0600" stop="20261104132400 -0600" channel="330dtv.co">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El diario de Peppa / Juguemos golf / El safari de insectos / Aros / Un día en el parque</sub-title>
@@ -46835,24 +46826,6 @@ El Padre Luís Eduardo Rodríguez Rodríguez, nos lleva por un viaje alrededor d
       <value>TVY7</value>
     </rating>
   </programme>
-  <programme start="20261104133335 -0300" stop="20261104135500 -0300" channel="208dtv.cl">
-    <title>Vecinos : Las palomas</title>
-  </programme>
-  <programme start="20261104133335 -0300" stop="20261104135600 -0300" channel="589">
-    <title>In Our Bed</title>
-  </programme>
-  <programme start="20261104133335 -0300" stop="20261104150100 -0300" channel="590">
-    <title>Sneaking Around and Getting Down 2</title>
-  </programme>
-  <programme start="20261104133335 -0300" stop="20261104142500 -0300" channel="custom-1233">
-    <title>Shanghai</title>
-  </programme>
-  <programme start="20261104133335 -0300" stop="20261104134517 -0300" channel="fmh-family.teleclub">
-    <title>Los Thornberrys</title>
-  </programme>
-  <programme start="20261104133335 -0300" stop="20261104143251 -0300" channel="fmh-movies.teleclub">
-    <title>Zona Mortal</title>
-  </programme>
   <programme start="20261104133800 +0000" stop="20261104133900 +0000" channel="custom-1220">
     <title lang="es">Canciones &amp; rimas</title>
     <desc lang="es">Divertidos videos animados de canciones infantiles populares de todo el mundo cantadas por niños.</desc>
@@ -47097,9 +47070,6 @@ El Padre Luís Eduardo Rodríguez Rodríguez, nos lleva por un viaje alrededor d
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261104134648 -0300" stop="20261104151043 -0300" channel="fmh-family.teleclub">
-    <title>Monster Buster</title>
-  </programme>
   <programme start="20261104134700 +0000" stop="20261104152700 +0000" channel="custom-1008">
     <title lang="es">Feliz día de tu muerte</title>
     <desc lang="es">Un asesino enmascarado mata a Tree Gelbman, una estudiante universitaria. A partir de entonces, ella revive el mismo día desde primera hora de la mañana, una y otra vez, sin lograr averiguar quién la asesina todos los días.</desc>
@@ -47314,18 +47284,12 @@ Espacio de oración.</desc>
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261104135500 -0300" stop="20261104142500 -0300" channel="208dtv.cl">
-    <title>Vecinos : Quédate en casa</title>
-  </programme>
   <programme start="20261104135600 +0000" stop="20261104140900 +0000" channel="HOME.&amp;amp;.HEALTH.HD.(Home&amp;amp;HealthHD).pe">
     <title lang="es">Programa pagado</title>
     <desc lang="es">Programa que muestra diversos productos para la venta.</desc>
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261104135600 -0300" stop="20261104142000 -0300" channel="589">
-    <title>Secret Sessions</title>
   </programme>
   <programme start="20261104135700 +0000" stop="20261104140900 +0000" channel="custom-1243">
     <title>Las maravillosas desventuras de Flapjack</title>
@@ -48092,6 +48056,24 @@ Tomas y Elena son los padres de Alex y Sara, una familia de nuestro tiempo, con 
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261104140834 -0300" stop="20261104142500 -0300" channel="208dtv.cl">
+    <title>Vecinos : Quédate en casa</title>
+  </programme>
+  <programme start="20261104140834 -0300" stop="20261104142000 -0300" channel="589">
+    <title>Secret Sessions</title>
+  </programme>
+  <programme start="20261104140834 -0300" stop="20261104150100 -0300" channel="590">
+    <title>Sneaking Around and Getting Down 2</title>
+  </programme>
+  <programme start="20261104140834 -0300" stop="20261104142500 -0300" channel="custom-1233">
+    <title>Shanghai</title>
+  </programme>
+  <programme start="20261104140834 -0300" stop="20261104151043 -0300" channel="fmh-family.teleclub">
+    <title>Monster Buster</title>
+  </programme>
+  <programme start="20261104140834 -0300" stop="20261104143251 -0300" channel="fmh-movies.teleclub">
+    <title>Zona Mortal</title>
   </programme>
   <programme start="20261104140900 +0000" stop="20261104144400 +0000" channel="HOME.&amp;amp;.HEALTH.HD.(Home&amp;amp;HealthHD).pe">
     <title lang="es">Programa pagado</title>
@@ -56487,7 +56469,7 @@ El Santo Sacrificio de la Misa desde la Capilla de EWTN, con los cantos gregoria
     <title lang="es">Academia Unicornio</title>
     <sub-title lang="es">Grimoria vuelve</sub-title>
   </programme>
-  <programme start="20261104183814 -0300" stop="20261104202011 -0300" channel="fmh-family.teleclub">
+  <programme start="20261104183818 -0300" stop="20261104202016 -0300" channel="fmh-family.teleclub">
     <title>Vecinos Cercanos Del 3er Tipo</title>
   </programme>
   <programme start="20261104183900 +0000" stop="20261104204900 +0000" channel="custom-1214">
@@ -59741,7 +59723,7 @@ Un programa que presenta los temas musicales más destadacados y que son tendenc
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261104202126 -0300" stop="20261104222612 -0300" channel="fmh-family.teleclub">
+  <programme start="20261104202130 -0300" stop="20261104222617 -0300" channel="fmh-family.teleclub">
     <title>Avion Presidencial</title>
   </programme>
   <programme start="20261104202500 +0000" stop="20261104212000 +0000" channel="865mvstr.cl">
@@ -63439,7 +63421,7 @@ Rubí Pérez es una bella pero pobre estudiante universitaria a quien sólo le i
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261104222650 -0300" stop="20261105000415 -0300" channel="fmh-family.teleclub">
+  <programme start="20261104222655 -0300" stop="20261105000420 -0300" channel="fmh-family.teleclub">
     <title>The Year</title>
   </programme>
   <programme start="20261104222700 +0000" stop="20261104225800 +0000" channel="custom-1033">
@@ -66991,7 +66973,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261105000500 -0300" stop="20261105021000 -0300" channel="208dtv.cl">
     <title>Ladrona de identidades</title>
   </programme>
-  <programme start="20261105000546 -0300" stop="20261105012745 -0300" channel="fmh-family.teleclub">
+  <programme start="20261105000551 -0300" stop="20261105012750 -0300" channel="fmh-family.teleclub">
     <title>Crumbs Up</title>
   </programme>
   <programme start="20261105000800 +0000" stop="20261105015800 +0000" channel="517dtv.cl">
@@ -69463,7 +69445,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVY7</value>
     </rating>
   </programme>
-  <programme start="20261105012854 -0300" stop="20261105030607 -0300" channel="fmh-family.teleclub">
+  <programme start="20261105012858 -0300" stop="20261105030612 -0300" channel="fmh-family.teleclub">
     <title>Ni idea</title>
   </programme>
   <programme start="20261105012900 +0000" stop="20261105013300 +0000" channel="custom-1220">
@@ -73075,7 +73057,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261105030712 -0300" stop="20261105043632 -0300" channel="fmh-family.teleclub">
+  <programme start="20261105030717 -0300" stop="20261105043637 -0300" channel="fmh-family.teleclub">
     <title>Cuarentena</title>
   </programme>
   <programme start="20261105031000 +0000" stop="20261105034000 +0000" channel="2047mvstr.pe">
@@ -75676,7 +75658,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Navidad en Australia / Los juegos de invierno / Fiesta submarina / La casa club / Club de de</sub-title>
   </programme>
-  <programme start="20261105043747 -0300" stop="20261105061628 -0300" channel="fmh-family.teleclub">
+  <programme start="20261105043752 -0300" stop="20261105061633 -0300" channel="fmh-family.teleclub">
     <title>Mas Barato Por Docena</title>
   </programme>
   <programme start="20261105043800 +0000" stop="20261105052700 +0000" channel="732dtv.cl">
@@ -79632,7 +79614,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261105061743 -0300" stop="20261105074807 -0300" channel="fmh-family.teleclub">
+  <programme start="20261105061748 -0300" stop="20261105074812 -0300" channel="fmh-family.teleclub">
     <title>Me Enamore De Un Maniqui</title>
   </programme>
   <programme start="20261105061900 +0000" stop="20261105063900 +0000" channel="custom-1212">
@@ -82477,7 +82459,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Aviones de papel /La ropa nueva de George / Casa de Madame Gazelle / Viaje en tren</sub-title>
   </programme>
-  <programme start="20261105074845 -0300" stop="20261105093317 -0300" channel="fmh-family.teleclub">
+  <programme start="20261105074850 -0300" stop="20261105093322 -0300" channel="fmh-family.teleclub">
     <title>Infierno al Volante </title>
   </programme>
   <programme start="20261105074900 +0000" stop="20261105075200 +0000" channel="custom-1220">
@@ -85772,7 +85754,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261105093421 -0300" stop="20261105113102 -0300" channel="fmh-movies.teleclub">
     <title>9 Dias</title>
   </programme>
-  <programme start="20261105093448 -0300" stop="20261105110958 -0300" channel="fmh-family.teleclub">
+  <programme start="20261105093453 -0300" stop="20261105111003 -0300" channel="fmh-family.teleclub">
     <title>El Profesor Chiflado</title>
   </programme>
   <programme start="20261105093700 +0000" stop="20261105110000 +0000" channel="custom-1212">
@@ -88923,7 +88905,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+18</value>
     </rating>
   </programme>
-  <programme start="20261105111107 -0300" stop="20261105134932 -0300" channel="fmh-family.teleclub">
+  <programme start="20261105111111 -0300" stop="20261105134937 -0300" channel="fmh-family.teleclub">
     <title>Petroleo Sangriento</title>
   </programme>
   <programme start="20261105111200 +0000" stop="20261105124500 +0000" channel="517dtv.cl">
@@ -92315,7 +92297,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVY7</value>
     </rating>
   </programme>
-  <programme start="20261105130108 -0300" stop="20261105142726 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261105130108 -0300" stop="20261105142725 -0300" channel="fmh-movies.teleclub">
     <title>Actividad Paranormal</title>
   </programme>
   <programme start="20261105130200 +0000" stop="20261105134700 +0000" channel="custom-1054">
@@ -93665,7 +93647,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261105135000 -0600" stop="20261105140000 -0600" channel="custom-1302">
     <title lang="es">Tierra y Mar</title>
   </programme>
-  <programme start="20261105135037 -0300" stop="20261105153805 -0300" channel="fmh-family.teleclub">
+  <programme start="20261105135042 -0300" stop="20261105153810 -0300" channel="fmh-family.teleclub">
     <title>Jamas Besada</title>
   </programme>
   <programme start="20261105135200 +0000" stop="20261105160500 +0000" channel="503dtv.cl">
@@ -94818,7 +94800,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261105142600 -0300" stop="20261105144800 -0300" channel="589">
     <title>Playboy's Amateur Girls</title>
   </programme>
-  <programme start="20261105142726 -0300" stop="20261105162830 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261105142725 -0300" stop="20261105162829 -0300" channel="fmh-movies.teleclub">
     <title>Agente Bajo Fuego</title>
   </programme>
   <programme start="20261105142800 +0000" stop="20261105143300 +0000" channel="custom-1220">
@@ -97184,7 +97166,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261105153920 -0300" stop="20261105172117 -0300" channel="fmh-family.teleclub">
+  <programme start="20261105153924 -0300" stop="20261105172122 -0300" channel="fmh-family.teleclub">
     <title>Vecinos Cercanos Del 3er Tipo</title>
   </programme>
   <programme start="20261105154000 +0000" stop="20261105162500 +0000" channel="ANIMAL.PLANET.HD.(Animal.Planet.HD).pe">
@@ -98365,7 +98347,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El bote salvavidas / La canasta de la suerte / Gelatina / George aprende a ir al baño</sub-title>
   </programme>
-  <programme start="20261105162830 -0300" stop="20261105181234 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261105162829 -0300" stop="20261105181234 -0300" channel="fmh-movies.teleclub">
     <title>Agente Salt </title>
   </programme>
   <programme start="20261105162900 +0000" stop="20261105172400 +0000" channel="custom-1246">
@@ -100183,7 +100165,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261105172232 -0300" stop="20261105185057 -0300" channel="fmh-family.teleclub">
+  <programme start="20261105172237 -0300" stop="20261105185102 -0300" channel="fmh-family.teleclub">
     <title>Cumbres Borrascosas</title>
   </programme>
   <programme start="20261105172300 +0000" stop="20261105180700 +0000" channel="custom-1058">
@@ -101836,7 +101818,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261105181234 -0300" stop="20261105194448 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261105181234 -0300" stop="20261105194447 -0300" channel="fmh-movies.teleclub">
     <title>Airheads</title>
   </programme>
   <programme start="20261105181300 +0000" stop="20261105190000 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
@@ -102673,7 +102655,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261105185135 -0300" stop="20261105204758 -0300" channel="fmh-family.teleclub">
+  <programme start="20261105185140 -0300" stop="20261105204803 -0300" channel="fmh-family.teleclub">
     <title>La Llegada</title>
   </programme>
   <programme start="20261105185200 +0000" stop="20261105185800 +0000" channel="custom-1220">
@@ -104244,7 +104226,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261105194448 -0300" stop="20261105215632 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261105194447 -0300" stop="20261105215632 -0300" channel="fmh-movies.teleclub">
     <title>Aislados</title>
   </programme>
   <programme channel="custom-1089" start="20261105194500 +0000" stop="20261105200000 +0000">
@@ -106092,7 +106074,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261105204929 -0300" stop="20261105222415 -0300" channel="fmh-family.teleclub">
+  <programme start="20261105204934 -0300" stop="20261105222420 -0300" channel="fmh-family.teleclub">
     <title>Ojala Fuera Cierto</title>
   </programme>
   <programme start="20261105205000 +0000" stop="20261105212000 +0000" channel="2047mvstr.pe">
@@ -109097,7 +109079,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261105222523 -0300" stop="20261105235931 -0300" channel="fmh-family.teleclub">
+  <programme start="20261105222528 -0300" stop="20261105235936 -0300" channel="fmh-family.teleclub">
     <title>De Ladron A Policia</title>
   </programme>
   <programme start="20261105222800 +0000" stop="20261105231700 +0000" channel="DISCOVERY.TURBO.(Disc.Turbo).pe">
@@ -112426,7 +112408,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106000000 -0600" stop="20261106012000 -0600" channel="custom-1337">
     <title lang="es">Las mas sonadas</title>
   </programme>
-  <programme start="20261106000036 -0300" stop="20261106013042 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106000041 -0300" stop="20261106013047 -0300" channel="fmh-family.teleclub">
     <title>Superbrother</title>
   </programme>
   <programme start="20261106000100 +0000" stop="20261106002700 +0000" channel="HOME.&amp;amp;.HEALTH.HD.(Home&amp;amp;HealthHD).pe">
@@ -115335,7 +115317,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106013156 -0300" stop="20261106032628 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106013201 -0300" stop="20261106032632 -0300" channel="fmh-family.teleclub">
     <title>La increíble vida de Walter Mitty</title>
   </programme>
   <programme start="20261106013300 +0000" stop="20261106013700 +0000" channel="custom-1220">
@@ -118614,7 +118596,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106032743 -0300" stop="20261106051711 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106032747 -0300" stop="20261106051716 -0300" channel="fmh-family.teleclub">
     <title>La Chica de al Lado</title>
   </programme>
   <programme start="20261106032900 +0000" stop="20261106033300 +0000" channel="custom-1220">
@@ -122947,7 +122929,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106051749 -0300" stop="20261106065537 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106051754 -0300" stop="20261106065542 -0300" channel="fmh-family.teleclub">
     <title>Si Tuviera 30</title>
   </programme>
   <programme start="20261106051800 +0000" stop="20261106060100 +0000" channel="custom-1058">
@@ -125469,7 +125451,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVG</value>
     </rating>
   </programme>
-  <programme start="20261106064849 -0300" stop="20261106082947 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106064849 -0300" stop="20261106082946 -0300" channel="fmh-movies.teleclub">
     <title>Amor En Linea</title>
   </programme>
   <programme start="20261106064900 +0000" stop="20261106072100 +0000" channel="custom-1229">
@@ -125592,7 +125574,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261106065708 -0300" stop="20261106084513 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106065713 -0300" stop="20261106084518 -0300" channel="fmh-family.teleclub">
     <title>Doraemon Y La Revolucion De Los Robots</title>
   </programme>
   <programme start="20261106065800 +0000" stop="20261106070700 +0000" channel="custom-1243">
@@ -128361,7 +128343,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106082500 -0600" stop="20261106095000 -0600" channel="custom-1337">
     <title lang="es">Las imperdibles BDX</title>
   </programme>
-  <programme start="20261106082947 -0300" stop="20261106102210 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106082946 -0300" stop="20261106102210 -0300" channel="fmh-movies.teleclub">
     <title>Amor y tesoro </title>
   </programme>
   <programme start="20261106083000 +0000" stop="20261106090000 +0000" channel="2047mvstr.pe">
@@ -128966,7 +128948,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106084622 -0300" stop="20261106102803 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106084626 -0300" stop="20261106102808 -0300" channel="fmh-family.teleclub">
     <title>Ellas Mandan</title>
   </programme>
   <programme start="20261106085000 +0000" stop="20261106094000 +0000" channel="892mvstr.cl">
@@ -131844,7 +131826,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106102800 -0300" stop="20261106115600 -0300" channel="590">
     <title>Cállate y C...</title>
   </programme>
-  <programme start="20261106102908 -0300" stop="20261106120749 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106102913 -0300" stop="20261106120754 -0300" channel="fmh-family.teleclub">
     <title>Mas Barato Por Docena</title>
   </programme>
   <programme start="20261106103000 +0000" stop="20261106105500 +0000" channel="215dtv.cl">
@@ -134297,7 +134279,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106115130 -0300" stop="20261106133335 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106115130 -0300" stop="20261106140834 -0300" channel="fmh-movies.teleclub">
     <title>Apocalypto</title>
   </programme>
   <programme start="20261106115400 +0000" stop="20261106120000 +0000" channel="custom-1220">
@@ -135010,7 +134992,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106120000 -0300" stop="20261106130000 -0300" channel="custom-1085">
     <title>Sin información</title>
   </programme>
-  <programme start="20261106120000 -0300" stop="20261106133335 -0300" channel="custom-1233">
+  <programme start="20261106120000 -0300" stop="20261106140834 -0300" channel="custom-1233">
     <title>Power Slap 26: Riyadh</title>
   </programme>
   <programme start="20261106120000 -0300" stop="20261106130000 -0300" channel="custom-1334">
@@ -135114,7 +135096,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>TVY7</value>
     </rating>
   </programme>
-  <programme start="20261106120903 -0300" stop="20261106133335 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106120908 -0300" stop="20261106140549 -0300" channel="fmh-family.teleclub">
     <title>9 Dias</title>
   </programme>
   <programme start="20261106121000 +0000" stop="20261106121500 +0000" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
@@ -136663,6 +136645,15 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/15282624.jpg" />
     <country lang="es">México</country>
   </programme>
+  <programme start="20261106130000 -0300" stop="20261106140000 -0300" channel="custom-1085">
+    <title>Sin información</title>
+  </programme>
+  <programme start="20261106130000 -0300" stop="20261106140000 -0300" channel="custom-1334">
+    <title>Programación Infantil</title>
+  </programme>
+  <programme start="20261106130000 -0300" stop="20261106140000 -0300" channel="movistar.lch7110">
+    <title>Sin información</title>
+  </programme>
   <programme start="20261106130000 -0600" stop="20261106134800 -0600" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
     <title lang="es">Moonshiners</title>
     <sub-title lang="es">Foraging for a Long Winter Ahead</sub-title>
@@ -137088,7 +137079,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106131800 -0300" stop="20261106133335 -0300" channel="589">
+  <programme start="20261106131800 -0300" stop="20261106134200 -0300" channel="589">
     <title>Passion Diaries</title>
   </programme>
   <programme start="20261106131900 +0000" stop="20261106132400 +0000" channel="custom-1220">
@@ -137198,7 +137189,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106132600 -0300" stop="20261106133335 -0300" channel="590">
+  <programme start="20261106132600 -0300" stop="20261106140834 -0300" channel="590">
     <title>Sensual Older Couples 2</title>
   </programme>
   <programme start="20261106132800 +0000" stop="20261106135100 +0000" channel="custom-1212">
@@ -137612,7 +137603,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106133000 -0300" stop="20261106133335 -0300" channel="208dtv.cl">
+  <programme start="20261106133000 -0300" stop="20261106140000 -0300" channel="208dtv.cl">
     <title>Vecinos : El colchón viejo</title>
   </programme>
   <programme start="20261106133000 -0600" stop="20261106140000 -0600" channel="arpegio-tv.teleclub">
@@ -137786,6 +137777,9 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261106134200 -0300" stop="20261106140600 -0300" channel="589">
+    <title>In Our Bed</title>
   </programme>
   <programme start="20261106134400 +0000" stop="20261106134900 +0000" channel="custom-1220">
     <title lang="es">Viajeros</title>
@@ -138624,6 +138618,9 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261106140000 -0300" stop="20261106140834 -0300" channel="208dtv.cl">
+    <title>Vecinos : Los quince años</title>
+  </programme>
   <programme start="20261106140000 -0300" stop="20261106160000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">Buscadores</title>
     <desc lang="es">Un panel de periodistas expertos presenta la mejor información de los hechos actuales, acompañada de sesiones de análisis y debates de cada tópico.</desc>
@@ -138727,6 +138724,12 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   </programme>
   <programme start="20261106140500 -0600" stop="20261106150000 -0600" channel="custom-1339">
     <title lang="es">Posthumans</title>
+  </programme>
+  <programme start="20261106140600 -0300" stop="20261106140834 -0300" channel="589">
+    <title>Secret Sessions</title>
+  </programme>
+  <programme start="20261106140704 -0300" stop="20261106140834 -0300" channel="fmh-family.teleclub">
+    <title>La Vida Secreta de Walter Mitty</title>
   </programme>
   <programme start="20261106140800 +0000" stop="20261106143000 +0000" channel="custom-1058">
     <title lang="es">Derrota a Bobby Flay</title>
