@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T22:09:08.511901+00:00" radio-la-zona-updated-at="2026-11-04T22:09:08.716347+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-04T22:12:27.730515+00:00" radio-la-zona-updated-at="2026-11-04T22:12:27.931681+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -373,7 +373,7 @@
   <channel id="bicolor- teleclub">
     <display-name lang="es">BICOLOR+</display-name>
   </channel>
-  <channel id="solar-tv.teleclub">
+  <channel id="bicolor-premium.teleclub">
     <display-name lang="es">BICOLOR+ PREMIUM</display-name>
     <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuloIUPJiDTemMuGjm0aEQWHbx4-m865do8uiNubcpeA&amp;s" />
   </channel>
@@ -1080,6 +1080,9 @@
   </channel>
   <channel id="wanka-tv.teleclub">
     <display-name lang="es">DATA TV</display-name>
+  </channel>
+  <channel id="solar-tv.teleclub">
+    <display-name lang="es">DAVAR TV</display-name>
   </channel>
   <channel id="custom-1354">
     <display-name lang="es">TV MUNDO CUSCO</display-name>
@@ -29683,6 +29686,10 @@ Una exploración a los diez dispositivos más misteriosos del mundo, que desconc
     <title lang="es">BICOLOR+ - En vivo</title>
     <desc lang="es">Programación en vivo de BICOLOR+. Categoría: Deportes.</desc>
   </programme>
+  <programme start="20261104050000 +0000" stop="20261105050000 +0000" channel="bicolor-premium.teleclub">
+    <title lang="es">BICOLOR+ PREMIUM - En vivo</title>
+    <desc lang="es">Programación en vivo de BICOLOR+ PREMIUM. Categoría: Deportes.</desc>
+  </programme>
   <programme start="20261104050000 +0000" stop="20261105050000 +0000" channel="cadena-tv.teleclub">
     <title lang="es">Cadena tv - En vivo</title>
     <desc lang="es">Programación en vivo de Cadena tv. Categoría: Regionales.</desc>
@@ -30645,8 +30652,8 @@ Un amplio recorrido que muestra en profundidad la vida de la virgen María, desd
     <desc lang="es">Programación en vivo de SANTA ROSA TV. Categoría: Nacionales.</desc>
   </programme>
   <programme start="20261104050000 +0000" stop="20261105050000 +0000" channel="solar-tv.teleclub">
-    <title lang="es">BICOLOR+ PREMIUM - En vivo</title>
-    <desc lang="es">Programación en vivo de BICOLOR+ PREMIUM. Categoría: Deportes.</desc>
+    <title lang="es">DAVAR TV - En vivo</title>
+    <desc lang="es">Programación en vivo de DAVAR TV. Categoría: Regionales.</desc>
   </programme>
   <programme start="20261104050000 +0000" stop="20261104053000 +0000" channel="telesur.ar">
     <title>El punto en la i</title>
@@ -48057,24 +48064,6 @@ Tomas y Elena son los padres de Alex y Sara, una familia de nuestro tiempo, con 
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261104140834 -0300" stop="20261104142500 -0300" channel="208dtv.cl">
-    <title>Vecinos : Quédate en casa</title>
-  </programme>
-  <programme start="20261104140834 -0300" stop="20261104142000 -0300" channel="589">
-    <title>Secret Sessions</title>
-  </programme>
-  <programme start="20261104140834 -0300" stop="20261104150100 -0300" channel="590">
-    <title>Sneaking Around and Getting Down 2</title>
-  </programme>
-  <programme start="20261104140834 -0300" stop="20261104142500 -0300" channel="custom-1233">
-    <title>Shanghai</title>
-  </programme>
-  <programme start="20261104140834 -0300" stop="20261104151043 -0300" channel="fmh-family.teleclub">
-    <title>Monster Buster</title>
-  </programme>
-  <programme start="20261104140834 -0300" stop="20261104143251 -0300" channel="fmh-movies.teleclub">
-    <title>Zona Mortal</title>
-  </programme>
   <programme start="20261104140900 +0000" stop="20261104144400 +0000" channel="HOME.&amp;amp;.HEALTH.HD.(Home&amp;amp;HealthHD).pe">
     <title lang="es">Programa pagado</title>
     <desc lang="es">Programa que muestra diversos productos para la venta.</desc>
@@ -48107,24 +48096,6 @@ Tomas y Elena son los padres de Alex y Sara, una familia de nuestro tiempo, con 
     <rating system="MPAA">
       <value>TVY7</value>
     </rating>
-  </programme>
-  <programme start="20261104140926 -0300" stop="20261104142500 -0300" channel="208dtv.cl">
-    <title>Vecinos : Quédate en casa</title>
-  </programme>
-  <programme start="20261104140926 -0300" stop="20261104142000 -0300" channel="589">
-    <title>Secret Sessions</title>
-  </programme>
-  <programme start="20261104140926 -0300" stop="20261104150100 -0300" channel="590">
-    <title>Sneaking Around and Getting Down 2</title>
-  </programme>
-  <programme start="20261104140926 -0300" stop="20261104142500 -0300" channel="custom-1233">
-    <title>Shanghai</title>
-  </programme>
-  <programme start="20261104140926 -0300" stop="20261104151043 -0300" channel="fmh-family.teleclub">
-    <title>Monster Buster</title>
-  </programme>
-  <programme start="20261104140926 -0300" stop="20261104143251 -0300" channel="fmh-movies.teleclub">
-    <title>Zona Mortal</title>
   </programme>
   <programme start="20261104141000 +0000" stop="20261104150500 +0000" channel="865mvstr.cl">
     <title lang="es">Temporadas salvajes de Estados Unidos</title>
@@ -48205,6 +48176,24 @@ Tomas y Elena son los padres de Alex y Sara, una familia de nuestro tiempo, con 
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261104141246 -0300" stop="20261104142500 -0300" channel="208dtv.cl">
+    <title>Vecinos : Quédate en casa</title>
+  </programme>
+  <programme start="20261104141246 -0300" stop="20261104142000 -0300" channel="589">
+    <title>Secret Sessions</title>
+  </programme>
+  <programme start="20261104141246 -0300" stop="20261104150100 -0300" channel="590">
+    <title>Sneaking Around and Getting Down 2</title>
+  </programme>
+  <programme start="20261104141246 -0300" stop="20261104142500 -0300" channel="custom-1233">
+    <title>Shanghai</title>
+  </programme>
+  <programme start="20261104141246 -0300" stop="20261104151043 -0300" channel="fmh-family.teleclub">
+    <title>Monster Buster</title>
+  </programme>
+  <programme start="20261104141246 -0300" stop="20261104143251 -0300" channel="fmh-movies.teleclub">
+    <title>Zona Mortal</title>
   </programme>
   <programme start="20261104141400 +0000" stop="20261104143600 +0000" channel="custom-1058">
     <title lang="es">Derrota a Bobby Flay</title>
@@ -76284,6 +76273,10 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <title lang="es">BICOLOR+ - En vivo</title>
     <desc lang="es">Programación en vivo de BICOLOR+. Categoría: Deportes.</desc>
   </programme>
+  <programme start="20261105050000 +0000" stop="20261106050000 +0000" channel="bicolor-premium.teleclub">
+    <title lang="es">BICOLOR+ PREMIUM - En vivo</title>
+    <desc lang="es">Programación en vivo de BICOLOR+ PREMIUM. Categoría: Deportes.</desc>
+  </programme>
   <programme start="20261105050000 +0000" stop="20261106050000 +0000" channel="cadena-tv.teleclub">
     <title lang="es">Cadena tv - En vivo</title>
     <desc lang="es">Programación en vivo de Cadena tv. Categoría: Regionales.</desc>
@@ -77317,8 +77310,8 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <desc lang="es">Programación en vivo de SANTA ROSA TV. Categoría: Nacionales.</desc>
   </programme>
   <programme start="20261105050000 +0000" stop="20261106050000 +0000" channel="solar-tv.teleclub">
-    <title lang="es">BICOLOR+ PREMIUM - En vivo</title>
-    <desc lang="es">Programación en vivo de BICOLOR+ PREMIUM. Categoría: Deportes.</desc>
+    <title lang="es">DAVAR TV - En vivo</title>
+    <desc lang="es">Programación en vivo de DAVAR TV. Categoría: Regionales.</desc>
   </programme>
   <programme start="20261105050000 +0000" stop="20261105053000 +0000" channel="telesur.ar">
     <title>SanaMente</title>
@@ -121492,6 +121485,10 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <title lang="es">BICOLOR+ - En vivo</title>
     <desc lang="es">Programación en vivo de BICOLOR+. Categoría: Deportes.</desc>
   </programme>
+  <programme start="20261106050000 +0000" stop="20261107050000 +0000" channel="bicolor-premium.teleclub">
+    <title lang="es">BICOLOR+ PREMIUM - En vivo</title>
+    <desc lang="es">Programación en vivo de BICOLOR+ PREMIUM. Categoría: Deportes.</desc>
+  </programme>
   <programme start="20261106050000 +0000" stop="20261107050000 +0000" channel="cadena-tv.teleclub">
     <title lang="es">Cadena tv - En vivo</title>
     <desc lang="es">Programación en vivo de Cadena tv. Categoría: Regionales.</desc>
@@ -122560,8 +122557,8 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <desc lang="es">Programación en vivo de SANTA ROSA TV. Categoría: Nacionales.</desc>
   </programme>
   <programme start="20261106050000 +0000" stop="20261107050000 +0000" channel="solar-tv.teleclub">
-    <title lang="es">BICOLOR+ PREMIUM - En vivo</title>
-    <desc lang="es">Programación en vivo de BICOLOR+ PREMIUM. Categoría: Deportes.</desc>
+    <title lang="es">DAVAR TV - En vivo</title>
+    <desc lang="es">Programación en vivo de DAVAR TV. Categoría: Regionales.</desc>
   </programme>
   <programme start="20261106050000 +0000" stop="20261106053000 +0000" channel="telesur.ar">
     <title>Latitud Brasil</title>
@@ -134297,7 +134294,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106115130 -0300" stop="20261106140926 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106115130 -0300" stop="20261106140952 -0300" channel="fmh-movies.teleclub">
     <title>Apocalypto</title>
   </programme>
   <programme start="20261106115400 +0000" stop="20261106120000 +0000" channel="custom-1220">
@@ -135010,7 +135007,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106120000 -0300" stop="20261106130000 -0300" channel="custom-1085">
     <title>Sin información</title>
   </programme>
-  <programme start="20261106120000 -0300" stop="20261106140926 -0300" channel="custom-1233">
+  <programme start="20261106120000 -0300" stop="20261106141246 -0300" channel="custom-1233">
     <title>Power Slap 26: Riyadh</title>
   </programme>
   <programme start="20261106120000 -0300" stop="20261106130000 -0300" channel="custom-1334">
@@ -137207,7 +137204,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106132600 -0300" stop="20261106140926 -0300" channel="590">
+  <programme start="20261106132600 -0300" stop="20261106141246 -0300" channel="590">
     <title>Sensual Older Couples 2</title>
   </programme>
   <programme start="20261106132800 +0000" stop="20261106135100 +0000" channel="custom-1212">
@@ -138636,7 +138633,7 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106140000 -0300" stop="20261106140926 -0300" channel="208dtv.cl">
+  <programme start="20261106140000 -0300" stop="20261106141246 -0300" channel="208dtv.cl">
     <title>Vecinos : Los quince años</title>
   </programme>
   <programme start="20261106140000 -0300" stop="20261106160000 -0300" channel="nacional-tv.teleclub">
@@ -138743,10 +138740,10 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
   <programme start="20261106140500 -0600" stop="20261106150000 -0600" channel="custom-1339">
     <title lang="es">Posthumans</title>
   </programme>
-  <programme start="20261106140600 -0300" stop="20261106140926 -0300" channel="589">
+  <programme start="20261106140600 -0300" stop="20261106141246 -0300" channel="589">
     <title>Secret Sessions</title>
   </programme>
-  <programme start="20261106140704 -0300" stop="20261106140926 -0300" channel="fmh-family.teleclub">
+  <programme start="20261106140704 -0300" stop="20261106141246 -0300" channel="fmh-family.teleclub">
     <title>La Vida Secreta de Walter Mitty</title>
   </programme>
   <programme start="20261106140800 +0000" stop="20261106143000 +0000" channel="custom-1058">
@@ -138801,6 +138798,9 @@ La historia sigue a Ariel, un hombre que va a la cárcel para proteger a su madr
     <rating system="MPAA">
       <value>TVY7</value>
     </rating>
+  </programme>
+  <programme start="20261106140952 -0300" stop="20261106141246 -0300" channel="fmh-movies.teleclub">
+    <title>Aquellos Viejos Tiempos</title>
   </programme>
   <programme start="20261106141000 +0000" stop="20261106150500 +0000" channel="865mvstr.cl">
     <title lang="es">Ciencia salvaje</title>

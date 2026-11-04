@@ -1,9 +1,9 @@
 {
-  "channels": 317,
-  "programmes": 18987,
-  "channels_with_programmes": 313,
+  "channels": 318,
+  "programmes": 18991,
+  "channels_with_programmes": 314,
   "real_epg_channels": 150,
-  "generic_epg_channels": 163,
+  "generic_epg_channels": 164,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "Juntos-tv.teleclub",
@@ -16,6 +16,7 @@
     "auno-tv.teleclub",
     "aura-tv.teleclub",
     "bicolor- teleclub",
+    "bicolor-premium.teleclub",
     "cadena-tv.teleclub",
     "cbn-tv.teleclub",
     "chincha.teleclub",
@@ -224,7 +225,7 @@
       "name": "BICOLOR+"
     },
     {
-      "id": "solar-tv.teleclub",
+      "id": "bicolor-premium.teleclub",
       "name": "BICOLOR+ PREMIUM"
     },
     {
@@ -350,6 +351,10 @@
     {
       "id": "wanka-tv.teleclub",
       "name": "DATA TV"
+    },
+    {
+      "id": "solar-tv.teleclub",
+      "name": "DAVAR TV"
     },
     {
       "id": "custom-1356",
