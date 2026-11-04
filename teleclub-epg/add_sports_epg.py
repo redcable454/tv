@@ -312,25 +312,17 @@ def fill_channel_gaps(root, cid, name, days=8):
 
 def main():
     root = ET.parse(EPG).getroot()
-    # Intercambio solicitado por el usuario: la parrilla que estaba en L1 MAX
-    # pasa a L1, y la que estaba en L1 pasa a L1 MAX. Las fuentes secundarias
-    # conservan ambas parrillas originales en 604dtv.pe y 603dtv.pe.
+    # Mantener cada parrilla en su canal correcto según los IDs XMLTV verificados:
+    # L1 <- LIGA1.pe / L1.pe; L1 MAX <- Liga1Max.pe / L1Max.pe.
+    # Los alias DTV se regeneran desde los IDs Movistar, sin intercambiar canales.
     ensure_channel(root, "movistar.lch7217", "L1")
     ensure_channel(root, "movistar.lch7216", "L1 MAX")
     ensure_channel(root, "603dtv.pe", "L1")
     ensure_channel(root, "604dtv.pe", "L1 MAX")
-
-    # IMPORTANTE: copiar ambas fuentes antes de regenerar los alias, porque los
-    # alias 603/604 se reutilizan como destinos después de completar el intercambio.
-    l1_count = mirror_channel_programmes(root, "604dtv.pe", "movistar.lch7217", "L1")
-    l1max_count = mirror_channel_programmes(root, "603dtv.pe", "movistar.lch7216", "L1 MAX")
-    print(f"EPG L1 (movistar.lch7217): {l1_count} programas intercambiados desde 604dtv.pe")
-    print(f"EPG L1 MAX (movistar.lch7216): {l1max_count} programas intercambiados desde 603dtv.pe")
-
-    # Mantener los IDs alternativos sincronizados con la nueva asignación:
-    # 603dtv.pe ahora recibe la parrilla intercambiada de L1; 604dtv.pe la de L1 MAX.
     l1_alias = mirror_channel_programmes(root, "movistar.lch7217", "603dtv.pe", "L1")
     l1max_alias = mirror_channel_programmes(root, "movistar.lch7216", "604dtv.pe", "L1 MAX")
+    print(f"EPG L1 (movistar.lch7217): {sum(1 for p in root.findall('programme') if p.attrib.get('channel') == 'movistar.lch7217')} programas")
+    print(f"EPG L1 MAX (movistar.lch7216): {sum(1 for p in root.findall('programme') if p.attrib.get('channel') == 'movistar.lch7216')} programas")
     print(f"EPG alias 603dtv.pe (L1): {l1_alias} programas")
     print(f"EPG alias 604dtv.pe (L1 MAX): {l1max_alias} programas")
 
