@@ -1,14 +1,16 @@
 {
-  "channels": 315,
-  "programmes": 19025,
+  "channels": 317,
+  "programmes": 18688,
   "channels_with_programmes": 315,
-  "real_epg_channels": 143,
-  "generic_epg_channels": 172,
+  "real_epg_channels": 141,
+  "generic_epg_channels": 174,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "208dtv.cl",
     "589",
     "590",
+    "603dtv.pe",
+    "604dtv.pe",
     "Juntos-tv.teleclub",
     "Primeratelevisión.teleclub",
     "Tv+-teleclub",
@@ -463,6 +465,14 @@
     {
       "id": "custom-1340",
       "name": "KIZZY"
+    },
+    {
+      "id": "603dtv.pe",
+      "name": "L1"
+    },
+    {
+      "id": "604dtv.pe",
+      "name": "L1 MAX"
     },
     {
       "id": "latin-tv-huararaz.teleclub",
