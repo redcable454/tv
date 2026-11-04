@@ -1,16 +1,11 @@
 {
   "channels": 317,
-  "programmes": 18688,
-  "channels_with_programmes": 315,
-  "real_epg_channels": 141,
-  "generic_epg_channels": 174,
+  "programmes": 19124,
+  "channels_with_programmes": 317,
+  "real_epg_channels": 154,
+  "generic_epg_channels": 163,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
-    "208dtv.cl",
-    "589",
-    "590",
-    "603dtv.pe",
-    "604dtv.pe",
     "Juntos-tv.teleclub",
     "Primeratelevisión.teleclub",
     "Tv+-teleclub",
@@ -37,7 +32,6 @@
     "custom-1041",
     "custom-1065",
     "custom-1067",
-    "custom-1085",
     "custom-1102",
     "custom-1103",
     "custom-1105",
@@ -64,7 +58,6 @@
     "custom-1218",
     "custom-1219",
     "custom-1221",
-    "custom-1233",
     "custom-1235",
     "custom-1245",
     "custom-1247",
@@ -90,7 +83,6 @@
     "custom-1327",
     "custom-1329",
     "custom-1332",
-    "custom-1334",
     "custom-1336",
     "custom-1338",
     "custom-1340",
@@ -111,8 +103,6 @@
     "custom-6",
     "custom-7",
     "custom-8",
-    "fmh-family.teleclub",
-    "fmh-movies.teleclub",
     "hoy-peru-tv-jaen.teleclub",
     "https://i.ibb.co/Nd3595Jp/1e57475a9a6b-640-360.png",
     "huacho.teleclub",
@@ -131,7 +121,6 @@
     "movistar.lch6311",
     "movistar.lch6518",
     "movistar.lch6519",
-    "movistar.lch7110",
     "movistar.lch7202",
     "nativa-tv.teleclub",
     "nzk-tv.teleclub",
@@ -367,10 +356,6 @@
       "name": "DIREC TV SPORTS PLUS"
     },
     {
-      "id": "custom-1233",
-      "name": "Directv sports"
-    },
-    {
       "id": "movistar.lch2357",
       "name": "DISNEY CHANEL"
     },
@@ -415,18 +400,6 @@
       "name": "Exitosa tv"
     },
     {
-      "id": "fmh-family.teleclub",
-      "name": "FMH FAMILY"
-    },
-    {
-      "id": "custom-1334",
-      "name": "FMH KIDS"
-    },
-    {
-      "id": "fmh-movies.teleclub",
-      "name": "FMH MOVIES"
-    },
-    {
       "id": "custom-1358",
       "name": "FOX SPORTS 1"
     },
@@ -465,14 +438,6 @@
     {
       "id": "custom-1340",
       "name": "KIZZY"
-    },
-    {
-      "id": "603dtv.pe",
-      "name": "L1"
-    },
-    {
-      "id": "604dtv.pe",
-      "name": "L1 MAX"
     },
     {
       "id": "latin-tv-huararaz.teleclub",
@@ -543,10 +508,6 @@
       "name": "NOVELISIMA TV"
     },
     {
-      "id": "custom-1085",
-      "name": "NUEVO TIEMPO TV"
-    },
-    {
       "id": "custom-1102",
       "name": "ONDA DIGITAL"
     },
@@ -559,16 +520,8 @@
       "name": "Ovación tv"
     },
     {
-      "id": "movistar.lch7110",
-      "name": "PBO"
-    },
-    {
       "id": "planea-tv.teleclub",
       "name": "Planea tv jaen"
-    },
-    {
-      "id": "589",
-      "name": "PLAYBOY TV +18"
     },
     {
       "id": "custom-1024",
@@ -715,10 +668,6 @@
       "name": "Sillustani tv"
     },
     {
-      "id": "208dtv.cl",
-      "name": "SONY MOVIES"
-    },
-    {
       "id": "malu-tv.teleclub",
       "name": "Sqala tv"
     },
@@ -841,10 +790,6 @@
     {
       "id": "uranio-tv.teleclub",
       "name": "Uranio tv"
-    },
-    {
-      "id": "590",
-      "name": "VENUS TV +18"
     },
     {
       "id": "viaxsports-tv.teleclub",
