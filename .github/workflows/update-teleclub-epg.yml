@@ -163,8 +163,7 @@ jobs:
           }
           with open('teleclub-epg/epg-status.json','w',encoding='utf-8') as fh:
               json.dump(status,fh,ensure_ascii=False,indent=2)
-              fh.write('\
-')
+              fh.write('\n')
           print(f'EPG válida: {channels} canales/radios, {programmes} programas; real={len(real)}, generica={len(generic)}, sin_programacion={len(missing)}')
           if channels < 1 or programmes < 1 or missing: raise SystemExit(f'EPG incompleta: {missing[:20]}')
           PY
