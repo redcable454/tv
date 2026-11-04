@@ -312,41 +312,23 @@ def fill_channel_gaps(root, cid, name, days=8):
 
 def main():
     root = ET.parse(EPG).getroot()
-    # La URL XMLTV de Teleclub puede contener la parrilla con otro channel ID.
-    # Detectar el canal por su nombre dentro del MISMO XML y copiar sus programas
-    # al tvg-id usado por la M3U; no descargar ni inventar horarios externos.
+    # Intercambio solicitado por el usuario: la parrilla que estaba en L1 MAX
+    # pasa a L1, y la que estaba en L1 pasa a L1 MAX. Las fuentes secundarias
+    # conservan ambas parrillas originales en 604dtv.pe y 603dtv.pe.
     ensure_channel(root, "movistar.lch7217", "L1")
     ensure_channel(root, "movistar.lch7216", "L1 MAX")
-    # IDs alternativos usados por listas M3U/DTV: mantenerlos sincronizados
-    # con los IDs Movistar para que ambas variantes encuentren la misma guía.
     ensure_channel(root, "603dtv.pe", "L1")
     ensure_channel(root, "604dtv.pe", "L1 MAX")
-    l1_source = find_schedule_source(
-        root, "movistar.lch7217",
-        {"L1", "L1 HD", "Liga 1", "Liga1", "Liga 1 HD", "Liga1 HD"},
-    )
-    l1max_source = find_schedule_source(
-        root, "movistar.lch7216",
-        {"L1 MAX", "L1 MAX HD", "Liga 1 Max", "Liga1 Max", "Liga 1 Max HD", "Liga1 Max HD"},
-    )
-    if l1_source:
-        copied = mirror_channel_programmes(root, l1_source, "movistar.lch7217", "L1")
-        print(f"EPG L1: copiados {copied} programas desde ID fuente {l1_source}")
-    else:
-        print("EPG L1: no se encontró una parrilla fuente con nombre coincidente en el XMLTV")
-    if l1max_source:
-        copied = mirror_channel_programmes(root, l1max_source, "movistar.lch7216", "L1 MAX")
-        print(f"EPG L1 MAX: copiados {copied} programas desde ID fuente {l1max_source}")
-    else:
-        print("EPG L1 MAX: no se encontró una parrilla fuente con nombre coincidente en el XMLTV")
 
-    # Añadir los partidos próximos confirmados para L1 MAX. No asignarlos a L1,
-    # ya que las fuentes consultadas no confirman emisiones futuras en ese canal.
-    remove_programmes(root, "movistar.lch7216")
-    generated = add_liga_programming(root, "movistar.lch7216")
-    print(f"EPG L1 MAX: {generated} partidos próximos añadidos desde calendario publicado")
+    # IMPORTANTE: copiar ambas fuentes antes de regenerar los alias, porque los
+    # alias 603/604 se reutilizan como destinos después de completar el intercambio.
+    l1_count = mirror_channel_programmes(root, "604dtv.pe", "movistar.lch7217", "L1")
+    l1max_count = mirror_channel_programmes(root, "603dtv.pe", "movistar.lch7216", "L1 MAX")
+    print(f"EPG L1 (movistar.lch7217): {l1_count} programas intercambiados desde 604dtv.pe")
+    print(f"EPG L1 MAX (movistar.lch7216): {l1max_count} programas intercambiados desde 603dtv.pe")
 
-    # Replicar la programación verificada a los tvg-id alternativos de la M3U.
+    # Mantener los IDs alternativos sincronizados con la nueva asignación:
+    # 603dtv.pe ahora recibe la parrilla intercambiada de L1; 604dtv.pe la de L1 MAX.
     l1_alias = mirror_channel_programmes(root, "movistar.lch7217", "603dtv.pe", "L1")
     l1max_alias = mirror_channel_programmes(root, "movistar.lch7216", "604dtv.pe", "L1 MAX")
     print(f"EPG alias 603dtv.pe (L1): {l1_alias} programas")
