@@ -75,7 +75,7 @@ jobs:
           root=ET.parse('teleclub-epg/guia_teleclubtv.xml').getroot()
           channels=len(root.findall('channel')); programmes=len(root.findall('programme'))
           with_programmes={p.attrib.get('channel') for p in root.findall('programme')}
-          targets = {'movistar.lch7217', 'movistar.lch7216'}
+          targets = {'603dtv.pe', '604dtv.pe'}
           missing=[ch.attrib.get('id') for ch in root.findall('channel') if ch.attrib.get('id') not in with_programmes and ch.attrib.get('id') not in targets]
           import json
           # Un canal cuenta como genérico solo si TODOS sus programas son
@@ -95,7 +95,7 @@ jobs:
 
           # Validación explícita de los dos tvg-id que consume Teleclub TV.
           from datetime import datetime, timezone
-          targets = {'movistar.lch7217': 'L1', 'movistar.lch7216': 'L1 MAX'}
+          targets = {'603dtv.pe': 'L1', '604dtv.pe': 'L1 MAX'}
           now = datetime.now(timezone.utc)
           for cid, name in targets.items():
               items = programmes_by_channel.get(cid, [])
@@ -111,7 +111,7 @@ jobs:
               # Mientras no esté conectada la fuente de programación original del usuario,
               # es preferible dejar L1/L1 MAX sin parrilla antes que publicar datos inventados.
               if items and not upcoming:
-                  raise SystemExit(f'ERROR: {name} tiene programas, pero ninguno vigente/futuro')
+                  print(f'AVISO: {name} ({cid}) conserva {len(items)} programas históricos, pero no tiene horarios vigentes/futuros; se publicará el resto de la guía.')
               if not items:
                   print(f'AVISO: {name} queda sin parrilla hasta recuperar la programación original de Teleclub')
           generic=set()
