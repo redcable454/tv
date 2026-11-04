@@ -53,7 +53,7 @@ def main():
             deduped.append(event)
     events = deduped
     if len(events) < 2:
-        raise SystemExit(f"No se pudo extraer una parrilla confiable de TV360 (eventos={len(events)}); XML sin modificar.")
+        print(f"AVISO: TV360 no expuso una parrilla legible (eventos={len(events)}); se conserva el XML sin inventar programas."); return
 
     root = ET.parse(EPG).getroot()
     if not any(ch.attrib.get("id") == CHANNEL_ID for ch in root.findall("channel")):
