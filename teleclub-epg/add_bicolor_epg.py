@@ -64,7 +64,7 @@ def read_events(url):
                     hits += 1
                     pos += len(keyword)
 
-            for target in ("get-live-schedule", "get-live-program-box-detail", "get-list-channel", "live-program"):
+            for target in ("get-live-schedule", "get-live-program-box-detail", "get-list-channel", "live-program", "getScheduleCategory", "getChannelCategory", "getQuickChannelList"):
                 pos = 0
                 found = 0
                 while found < 8:
