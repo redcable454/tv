@@ -63,6 +63,19 @@ def read_events(url):
                     contexts.append((keyword, snippet[:420]))
                     hits += 1
                     pos += len(keyword)
+
+            for target in ("get-live-schedule", "get-live-program-box-detail", "get-list-channel", "live-program"):
+                pos = 0
+                found = 0
+                while found < 8:
+                    pos = low_source.find(target, pos)
+                    if pos < 0:
+                        break
+                    snippet = re.sub(r"\\s+", " ", source[max(0, pos-700):pos+900])
+                    snippet = re.sub(r"(?i)(token|authorization|password|passwd|secret|cookie)([^,; }]{1,180})", r"\\1[REDACTED]", snippet)
+                    print(f"DIAG TV360 llamada {target}: {snippet[:1400]}")
+                    found += 1
+                    pos += len(target)
             for value in re.findall(r"[\"']([^\"']{1,500})[\"']", source):
                 low = value.lower()
                 if any(k in low for k in ("api", "epg", "program", "schedule", "guide", "graphql", "channel")) and value.startswith(("/", "https://")):
