@@ -1,9 +1,9 @@
 {
   "channels": 318,
-  "programmes": 18984,
+  "programmes": 18799,
   "channels_with_programmes": 318,
-  "real_epg_channels": 155,
-  "generic_epg_channels": 163,
+  "real_epg_channels": 154,
+  "generic_epg_channels": 164,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "Juntos-tv.teleclub",
@@ -122,6 +122,7 @@
     "movistar.lch6518",
     "movistar.lch6519",
     "movistar.lch7202",
+    "nacional-tv.teleclub",
     "nativa-tv.teleclub",
     "nzk-tv.teleclub",
     "onda-tv.teleclub",
@@ -490,6 +491,10 @@
     {
       "id": "regional-telesur-camana.teleclub",
       "name": "Monterrico tv"
+    },
+    {
+      "id": "nacional-tv.teleclub",
+      "name": "Nacional tv"
     },
     {
       "id": "movistar.lch6519",
