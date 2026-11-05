@@ -1,9 +1,9 @@
 {
-  "channels": 318,
-  "programmes": 18799,
-  "channels_with_programmes": 318,
-  "real_epg_channels": 154,
-  "generic_epg_channels": 164,
+  "channels": 320,
+  "programmes": 18484,
+  "channels_with_programmes": 320,
+  "real_epg_channels": 153,
+  "generic_epg_channels": 167,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "Juntos-tv.teleclub",
@@ -15,6 +15,7 @@
     "atv.teleclub",
     "auno-tv.teleclub",
     "aura-tv.teleclub",
+    "bicolor- teleclub",
     "bicolor-premium.teleclub",
     "cadena-tv.teleclub",
     "cbn-tv.teleclub",
@@ -97,6 +98,8 @@
     "custom-1355",
     "custom-1356",
     "custom-1358",
+    "custom-1360",
+    "custom-1361",
     "custom-27",
     "custom-31",
     "custom-5",
@@ -219,6 +222,10 @@
     {
       "id": "custom-1105",
       "name": "BHTV HD"
+    },
+    {
+      "id": "bicolor- teleclub",
+      "name": "BICOLOR+"
     },
     {
       "id": "bicolor-premium.teleclub",
@@ -365,6 +372,10 @@
       "name": "Doble c tv"
     },
     {
+      "id": "custom-1360",
+      "name": "DREAMWORKS TV"
+    },
+    {
       "id": "custom-27",
       "name": "Dud tv"
     },
@@ -507,6 +518,10 @@
     {
       "id": "nzk-tv.teleclub",
       "name": "Neo tv jaen"
+    },
+    {
+      "id": "custom-1361",
+      "name": "NETFLIX TV"
     },
     {
       "id": "custom-1301",
