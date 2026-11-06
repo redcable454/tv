@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-06T11:55:05.417796+00:00" radio-la-zona-updated-at="2026-11-06T11:55:05.746897+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
+<tv source-info-name="EPGShare01 PE1 + GatoTV fallback" source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz" generator-info-name="TeleclubTV Auto EPG" generated-at="2026-11-06T19:03:16.904565+00:00" radio-la-zona-updated-at="2026-11-06T19:03:17.096384+00:00" secondary-source-info-url="https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz https://cdn.epg.guru/7dayiptv/Peru.xml https://iptv-epg.org/files/epg-pe.xml https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz https://epg.programadorx.cl/mdiaz/gratis.xml">
   <channel id="latina.teleclub">
     <display-name lang="es">2 CABLE | LATINA HD</display-name>
     <icon src="https://i.imgur.com/nNgUzVM_d.png" />
@@ -17517,15 +17517,6 @@
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/15282624.jpg" />
     <country lang="es">México</country>
   </programme>
-  <programme start="20261106030000 -0300" stop="20261106040000 -0300" channel="custom-1085">
-    <title>Sin información</title>
-  </programme>
-  <programme start="20261106030000 -0300" stop="20261106040000 -0300" channel="custom-1334">
-    <title>Programación Infantil</title>
-  </programme>
-  <programme start="20261106030000 -0300" stop="20261106040000 -0300" channel="movistar.lch7110">
-    <title>Sin información</title>
-  </programme>
   <programme start="20261106030000 -0300" stop="20261106043000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">Deportes 5</title>
     <desc lang="es">Un programa de difusión, profundización e intercambio sobre el deporte uruguayo Con criterios que promueven la visibilización de todas las competencias y sus protagonistas, colocando a las y los deportistas en el centro.</desc>
@@ -18730,24 +18721,6 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106035526 -0300" stop="20261106040500 -0300" channel="208dtv.cl">
-    <title>My Wife and Kids : Jr.'s Cartoon</title>
-  </programme>
-  <programme start="20261106035526 -0300" stop="20261106041900 -0300" channel="589">
-    <title>7 Lives Xposed</title>
-  </programme>
-  <programme start="20261106035526 -0300" stop="20261106042000 -0300" channel="590">
-    <title>Sexo a... público sucio y atrevido</title>
-  </programme>
-  <programme start="20261106035526 -0300" stop="20261106040000 -0300" channel="custom-1233">
-    <title>PFL Africa: Main card</title>
-  </programme>
-  <programme start="20261106035526 -0300" stop="20261106051725 -0300" channel="fmh-family.teleclub">
-    <title>La Chica de al Lado</title>
-  </programme>
-  <programme start="20261106035526 -0300" stop="20261106051112 -0300" channel="fmh-movies.teleclub">
-    <title>Amigos, Música y Fiesta</title>
-  </programme>
   <programme start="20261106035600 +0000" stop="20261106044900 +0000" channel="custom-1224">
     <title lang="es">El chico de oro</title>
     <desc lang="es">Seyran y Ferit intentan llegar a un acuerdo sobre la posibilidad de tener hijos y sobre los estudios de Seyran, pero la situación no se ve bien.</desc>
@@ -19287,9 +19260,6 @@
       <value>+-1</value>
     </rating>
   </programme>
-  <programme start="20261106040000 -0300" stop="20261106050000 -0300" channel="custom-1085">
-    <title>Sin información</title>
-  </programme>
   <programme start="20261106040000 -0300" stop="20261106060000 -0300" channel="custom-1232">
     <title lang="es">Agentes del caos - Parte 01</title>
     <title lang="xx">Parte 01</title>
@@ -19303,15 +19273,6 @@
     <category lang="es">Documental</category>
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/12255668.jpg" />
     <country lang="es">EE. UU</country>
-  </programme>
-  <programme start="20261106040000 -0300" stop="20261106060000 -0300" channel="custom-1233">
-    <title>Gran Premio de Quebec</title>
-  </programme>
-  <programme start="20261106040000 -0300" stop="20261106050000 -0300" channel="custom-1334">
-    <title>Programación Infantil</title>
-  </programme>
-  <programme start="20261106040000 -0300" stop="20261106050000 -0300" channel="movistar.lch7110">
-    <title>Sin información</title>
   </programme>
   <programme start="20261106040000 -0600" stop="20261106050000 -0600" channel="arpegio-tv.teleclub">
     <title lang="es">Región más noticias - Occidente</title>
@@ -19434,9 +19395,6 @@
     <rating system="ES">
       <value>Apta</value>
     </rating>
-  </programme>
-  <programme start="20261106040500 -0300" stop="20261106043500 -0300" channel="208dtv.cl">
-    <title>My Wife and Kids : The V Story</title>
   </programme>
   <programme start="20261106040600 +0000" stop="20261106060000 +0000" channel="517dtv.cl">
     <title>Non stop: Sin escalas</title>
@@ -19645,9 +19603,6 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106041900 -0300" stop="20261106050800 -0300" channel="589">
-    <title>Hanna &amp; JJ</title>
-  </programme>
   <programme start="20261106042000 +0000" stop="20261106044500 +0000" channel="215dtv.cl">
     <title lang="es">South Park</title>
     <sub-title lang="es">Bájalo</sub-title>
@@ -19683,9 +19638,6 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261106042000 -0300" stop="20261106054900 -0300" channel="590">
-    <title>College Sex Tape Madness: Round 2 - Sex in Public</title>
   </programme>
   <programme start="20261106042200 +0000" stop="20261106042600 +0000" channel="custom-1220">
     <title lang="es">Cierra tus ojos</title>
@@ -20159,9 +20111,6 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261106043500 -0300" stop="20261106050500 -0300" channel="208dtv.cl">
-    <title>My Wife and Kids : Pilot</title>
   </programme>
   <programme start="20261106043500 -0600" stop="20261106050000 -0600" channel="330dtv.co">
     <title lang="es">Peppa Pig</title>
@@ -21925,15 +21874,6 @@
       <value>Apta</value>
     </rating>
   </programme>
-  <programme start="20261106050000 -0300" stop="20261106060000 -0300" channel="custom-1085">
-    <title>Sin información</title>
-  </programme>
-  <programme start="20261106050000 -0300" stop="20261106060000 -0300" channel="custom-1334">
-    <title>Programación Infantil</title>
-  </programme>
-  <programme start="20261106050000 -0300" stop="20261106060000 -0300" channel="movistar.lch7110">
-    <title>Sin información</title>
-  </programme>
   <programme start="20261106050000 -0600" stop="20261106052500 -0600" channel="330dtv.co">
     <title lang="es">Mini beat power rockers</title>
     <sub-title lang="es">¡Apágalo! / Fuz, el rebelde / Jugosa limonada / Pio-Pio / Rockeando el silencio</sub-title>
@@ -22057,9 +21997,6 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106050500 -0300" stop="20261106053500 -0300" channel="208dtv.cl">
-    <title>Vecinos : El huerto de Vanessa</title>
-  </programme>
   <programme start="20261106050500 -0600" stop="20261106051500 -0600" channel="custom-1339">
     <title lang="es">Lolalá, vamos a cantar</title>
   </programme>
@@ -22107,9 +22044,6 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261106050800 -0300" stop="20261106060000 -0300" channel="589">
-    <title>Jess &amp; Jon</title>
   </programme>
   <programme start="20261106050900 +0000" stop="20261106055300 +0000" channel="NAT.GEO.HD.(Nat.Geo.HD).pe">
     <title lang="es">Mayday: Catástrofes aéreas</title>
@@ -22212,9 +22146,6 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261106051112 -0300" stop="20261106064847 -0300" channel="fmh-movies.teleclub">
-    <title>Amor De Vinilo</title>
   </programme>
   <programme start="20261106051400 +0000" stop="20261106051800 +0000" channel="custom-1220">
     <title lang="es">Cierra tus ojos</title>
@@ -22328,9 +22259,6 @@
     <rating system="MJColombia">
       <value>AGE228</value>
     </rating>
-  </programme>
-  <programme start="20261106051803 -0300" stop="20261106065552 -0300" channel="fmh-family.teleclub">
-    <title>Si Tuviera 30</title>
   </programme>
   <programme start="20261106052000 +0000" stop="20261106061000 +0000" channel="custom-1000">
     <title lang="es">Chicago Fire</title>
@@ -22876,9 +22804,6 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106053500 -0300" stop="20261106060500 -0300" channel="208dtv.cl">
-    <title>Vecinos : El colchón viejo</title>
-  </programme>
   <programme start="20261106053600 +0000" stop="20261106073600 +0000" channel="cine-canal.teleclub">
     <title lang="es">The Menu</title>
     <desc lang="es">Una joven pareja viaja a una exclusiva isla para degustar el menú de un chef mundialmente aclamado. Sin embargo, el chef ha introducido un ingrediente secreto que sorprenderá a los comensales.</desc>
@@ -23088,9 +23013,6 @@
     <title lang="es">Megaconstrucciones</title>
     <sub-title lang="es">Túnel en California</sub-title>
     <episode-num system="onscreen">S6 E6</episode-num>
-  </programme>
-  <programme start="20261106054900 -0300" stop="20261106060000 -0300" channel="590">
-    <title>Addicted to Porn</title>
   </programme>
   <programme start="20261106055000 +0000" stop="20261106061000 +0000" channel="mtv.teleclub-2">
     <title lang="es">Ridiculousness</title>
@@ -23745,15 +23667,6 @@
       <value>Apta</value>
     </rating>
   </programme>
-  <programme start="20261106060000 -0300" stop="20261106073000 -0300" channel="589">
-    <title>Dean XXX: Teens Bent Over For A's</title>
-  </programme>
-  <programme start="20261106060000 -0300" stop="20261106073000 -0300" channel="590">
-    <title>Las ninfómanas aman las p... grandes</title>
-  </programme>
-  <programme start="20261106060000 -0300" stop="20261106070000 -0300" channel="custom-1085">
-    <title>Sin información</title>
-  </programme>
   <programme start="20261106060000 -0300" stop="20261106075800 -0300" channel="custom-1232">
     <title lang="es">Revista Ms.: una revolución editorial</title>
     <desc lang="es">Tres cineastas se sumergen en el legado histórico y complejo de la revista Ms a través de la lente de algunas de sus portadas más icónicas, presentando imágenes de archivo nunca antes vistas y entrevistas interesantes.</desc>
@@ -23773,15 +23686,6 @@
     <category lang="es">Documental</category>
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/54357059.jpg" />
     <country lang="es">EE. UU</country>
-  </programme>
-  <programme start="20261106060000 -0300" stop="20261106063000 -0300" channel="custom-1233">
-    <title>De ciclismo se habla así</title>
-  </programme>
-  <programme start="20261106060000 -0300" stop="20261106070000 -0300" channel="custom-1334">
-    <title>Programación Infantil</title>
-  </programme>
-  <programme start="20261106060000 -0300" stop="20261106070000 -0300" channel="movistar.lch7110">
-    <title>Sin información</title>
   </programme>
   <programme start="20261106060000 -0300" stop="20261106070000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">Patrimonio silencioso - Uruguay</title>
@@ -23920,9 +23824,6 @@
     <episode-num system="xmltv_ns">2025.1105.</episode-num>
     <episode-num system="original-air-date">2018-06-04 00:00:00</episode-num>
     <previously-shown start="20180604000000" />
-  </programme>
-  <programme start="20261106060500 -0300" stop="20261106070000 -0300" channel="208dtv.cl">
-    <title>Grey's Anatomy : Ridin' Solo</title>
   </programme>
   <programme start="20261106060500 -0600" stop="20261106061500 -0600" channel="custom-1339">
     <title lang="es">Espantijos</title>
@@ -24638,9 +24539,6 @@
       <value>+-1</value>
     </rating>
   </programme>
-  <programme start="20261106063000 -0300" stop="20261106083000 -0300" channel="custom-1233">
-    <title>Fenerbahçe Tarfin vs. Kosner Baskonia</title>
-  </programme>
   <programme start="20261106063000 -0600" stop="20261106070000 -0600" channel="arpegio-tv.teleclub">
     <title lang="es">100% Fitness</title>
   </programme>
@@ -25007,9 +24905,6 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106064847 -0300" stop="20261106082944 -0300" channel="fmh-movies.teleclub">
-    <title>Amor En Linea</title>
-  </programme>
   <programme start="20261106064900 +0000" stop="20261106072100 +0000" channel="custom-1229">
     <title lang="es">Youth</title>
     <desc lang="es">A pesar de sus problemas personales, Alex y Sam intentan superar una gala importante. Ruari le guarda rencor a Alex.</desc>
@@ -25137,9 +25032,6 @@
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261106065722 -0300" stop="20261106084527 -0300" channel="fmh-family.teleclub">
-    <title>Doraemon Y La Revolucion De Los Robots</title>
-  </programme>
   <programme start="20261106065800 +0000" stop="20261106070700 +0000" channel="custom-1243">
     <title>Los autos locos</title>
     <desc>Once extravagantes corredores de carreras compiten en sus coloridos vehículos por el título mundial de los Autos Locos.</desc>
@@ -25182,21 +25074,6 @@
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261106070000 +0000" stop="20261106080000 +0000" channel="226dtv.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106070000 +0000" stop="20261106080000 +0000" channel="228dtv.pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106070000 +0000" stop="20261106080000 +0000" channel="627">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106070000 +0000" stop="20261106075000 +0000" channel="8577mvstr.pe">
     <title>Prédicas</title>
     <desc>Un espacio destinado a la oración y la reflexión.</desc>
@@ -25213,11 +25090,6 @@
     <video>
       <quality>HDTV</quality>
     </video>
-  </programme>
-  <programme start="20261106070000 +0000" stop="20261106080000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106070000 +0000" stop="20261106072500 +0000" channel="NICK.JR.OTT.(Nick.Jr).pe">
     <title lang="es">PAW Patrol: Patrulla de cachorros</title>
@@ -25453,11 +25325,6 @@
       <value>14</value>
     </rating>
   </programme>
-  <programme start="20261106070000 +0000" stop="20261106080000 +0000" channel="custom-1215">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106070000 +0000" stop="20261106070400 +0000" channel="custom-1220">
     <title lang="es">Cierra tus ojos</title>
     <desc lang="es">Cierra tus ojos, recuéstate y relájate. Es hora de dormir.</desc>
@@ -25474,16 +25341,6 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106070000 +0000" stop="20261106080000 +0000" channel="custom-1237">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106070000 +0000" stop="20261106080000 +0000" channel="custom-1238">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106070000 +0000" stop="20261106080000 +0000" channel="custom-1277">
     <title lang="es">Francisco el matemático</title>
     <desc lang="es">La historia de un profesor de matemáticas que es contratado por un colegio en el que debe enfrentarse a las actitudes rebeldes de algunos estudiantes.</desc>
@@ -25491,11 +25348,6 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261106070000 +0000" stop="20261106080000 +0000" channel="custom-1292">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106070000 +0000" stop="20261106073000 +0000" channel="custom-1293">
     <title>Recuerdos de Cocina</title>
@@ -25543,11 +25395,6 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261106070000 +0000" stop="20261106080000 +0000" channel="ewtn.pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106070000 +0000" stop="20261106073000 +0000" channel="france-24-espanol.ar">
     <title>Directo América</title>
@@ -25706,18 +25553,6 @@
     <rating system="ES">
       <value>+-1</value>
     </rating>
-  </programme>
-  <programme start="20261106070000 -0300" stop="20261106080000 -0300" channel="208dtv.cl">
-    <title>The Good Doctor : Cheat Day</title>
-  </programme>
-  <programme start="20261106070000 -0300" stop="20261106080000 -0300" channel="custom-1085">
-    <title>Sin información</title>
-  </programme>
-  <programme start="20261106070000 -0300" stop="20261106080000 -0300" channel="custom-1334">
-    <title>Programación Infantil</title>
-  </programme>
-  <programme start="20261106070000 -0300" stop="20261106080000 -0300" channel="movistar.lch7110">
-    <title>Sin información</title>
   </programme>
   <programme start="20261106070000 -0300" stop="20261106080000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">Noticias 5 primera edición</title>
@@ -26686,12 +26521,6 @@
       <value>+-1</value>
     </rating>
   </programme>
-  <programme start="20261106073000 -0300" stop="20261106075400 -0300" channel="589">
-    <title>SexArt</title>
-  </programme>
-  <programme start="20261106073000 -0300" stop="20261106085800 -0300" channel="590">
-    <title>TSTV: A Hard Sell</title>
-  </programme>
   <programme start="20261106073000 -0300" stop="20261106080500 -0300" channel="760dtv.cl">
     <title lang="es">La cocina en los pueblos mágicos</title>
     <desc lang="es">A través de este espacio, encontrarás una gran variedad de platillos elaborados con el toque especial del chef Jesús Gibaja, quien recolectará los ingredientes típicos que distinguen a cada pueblo para cocinar ricas y originales recetas.</desc>
@@ -27098,9 +26927,6 @@
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261106075400 -0300" stop="20261106081800 -0300" channel="589">
-    <title>SexArt</title>
-  </programme>
   <programme start="20261106075500 +0000" stop="20261106081500 +0000" channel="215dtv.cl">
     <title lang="es">Frasier</title>
     <sub-title lang="es">No vayas a romper mi corazón</sub-title>
@@ -27224,21 +27050,6 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106080000 +0000" stop="20261106090000 +0000" channel="226dtv.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106080000 +0000" stop="20261106090000 +0000" channel="228dtv.pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106080000 +0000" stop="20261106090000 +0000" channel="627">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106080000 +0000" stop="20261106084600 +0000" channel="732dtv.cl">
     <title lang="es">Máxima seguridad: Cárceles extremas</title>
     <desc lang="es">Estas son seis de las más duras prisiones del mundo, a tal punto que hasta los jefes de las mafias y asesinos aprenden el significado del miedo.</desc>
@@ -27293,11 +27104,6 @@
     <rating system="MPAA">
       <value>TVMA</value>
     </rating>
-  </programme>
-  <programme start="20261106080000 +0000" stop="20261106090000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106080000 +0000" stop="20261106083000 +0000" channel="atv-sur.teleclub">
     <title>Geoherbal</title>
@@ -27466,11 +27272,6 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261106080000 +0000" stop="20261106090000 +0000" channel="custom-1215">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106080000 +0000" stop="20261106080400 +0000" channel="custom-1220">
     <title lang="es">La Pequeña Pandilla</title>
     <desc lang="es">El bebé mariposa y sus amigos animales recuerdan momentos divertidos que han compartido. Juntos consiguen superar cualquier dificultad porque saben que seguir siendo amigos es lo más importante del mundo.</desc>
@@ -27486,16 +27287,6 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261106080000 +0000" stop="20261106090000 +0000" channel="custom-1237">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106080000 +0000" stop="20261106090000 +0000" channel="custom-1238">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106080000 +0000" stop="20261106100000 +0000" channel="custom-1274">
     <title>Marcelo</title>
@@ -27521,11 +27312,6 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261106080000 +0000" stop="20261106090000 +0000" channel="custom-1292">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106080000 +0000" stop="20261106083000 +0000" channel="custom-1293">
     <title>Más rico</title>
@@ -27563,11 +27349,6 @@
     <episode-num system="xmltv_ns">2025.1105.</episode-num>
     <episode-num system="original-air-date">2017-03-13 00:00:00</episode-num>
     <previously-shown start="20170313000000" />
-  </programme>
-  <programme start="20261106080000 +0000" stop="20261106090000 +0000" channel="ewtn.pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106080000 +0000" stop="20261106081500 +0000" channel="france-24-espanol.ar">
     <title>Noticias</title>
@@ -27720,18 +27501,6 @@
     <rating system="ES">
       <value>+-1</value>
     </rating>
-  </programme>
-  <programme start="20261106080000 -0300" stop="20261106090000 -0300" channel="208dtv.cl">
-    <title>The Good Doctor : The Family</title>
-  </programme>
-  <programme start="20261106080000 -0300" stop="20261106090000 -0300" channel="custom-1085">
-    <title>Sin información</title>
-  </programme>
-  <programme start="20261106080000 -0300" stop="20261106090000 -0300" channel="custom-1334">
-    <title>Programación Infantil</title>
-  </programme>
-  <programme start="20261106080000 -0300" stop="20261106090000 -0300" channel="movistar.lch7110">
-    <title>Sin información</title>
   </programme>
   <programme start="20261106080000 -0300" stop="20261106090000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">5 sentidos</title>
@@ -28118,9 +27887,6 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106081800 -0300" stop="20261106084200 -0300" channel="589">
-    <title>Lights, Camera, Play</title>
-  </programme>
   <programme start="20261106081900 +0000" stop="20261106094600 +0000" channel="custom-1214">
     <title lang="es">La furia de Becky</title>
     <desc lang="es">Un grupo violento conocido como los Hombres Nobles irrumpe en la casa de Becky y se lleva a su amado perro. Ella vuelve a sus viejas costumbres para proteger a sus seres queridos y a sí misma.</desc>
@@ -28237,9 +28003,6 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261106082944 -0300" stop="20261106102207 -0300" channel="fmh-movies.teleclub">
-    <title>Amor y tesoro </title>
   </programme>
   <programme start="20261106083000 +0000" stop="20261106090000 +0000" channel="2047mvstr.pe">
     <title lang="es">Ciencia y tecnología 4.°</title>
@@ -28567,9 +28330,6 @@
       <value>Apta</value>
     </rating>
   </programme>
-  <programme start="20261106083000 -0300" stop="20261106113000 -0300" channel="custom-1233">
-    <title>ONE Friday Fights 177</title>
-  </programme>
   <programme start="20261106083000 -0600" stop="20261106090000 -0600" channel="custom-1074">
     <title lang="es">In Agro</title>
   </programme>
@@ -28773,9 +28533,6 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106084200 -0300" stop="20261106090600 -0300" channel="589">
-    <title>Secret Sessions</title>
-  </programme>
   <programme start="20261106084400 -0600" stop="20261106085500 -0600" channel="330dtv.co">
     <title lang="es">Zuk, la brujita</title>
     <sub-title lang="es">1,2,3 Merlín</sub-title>
@@ -28914,9 +28671,6 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106084635 -0300" stop="20261106102817 -0300" channel="fmh-family.teleclub">
-    <title>Ellas Mandan</title>
-  </programme>
   <programme start="20261106085000 +0000" stop="20261106094000 +0000" channel="892mvstr.cl">
     <title>Almas heridas</title>
     <desc>Los hermanos Safiye, Gülben y Han viven dedicados a cuidar a su padre enfermo. Han divide su vida entre el trabajo y su familia, hasta que conoce a İnci y se enamora, descubriendo por primera vez el deseo de buscar su propia felicidad.</desc>
@@ -29035,9 +28789,6 @@
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261106085800 -0300" stop="20261106102800 -0300" channel="590">
-    <title>MILF hambrientas de Dong</title>
-  </programme>
   <programme start="20261106090000 +0000" stop="20261106093000 +0000" channel="2047mvstr.pe">
     <title lang="es">Historia, geografía y economía 5.°</title>
     <desc lang="es">Un espacio para sorprenderse, divertirse y reforzar sobre la historia, geografía y economía.</desc>
@@ -29073,21 +28824,6 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106090000 +0000" stop="20261106100000 +0000" channel="226dtv.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106090000 +0000" stop="20261106100000 +0000" channel="228dtv.pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106090000 +0000" stop="20261106100000 +0000" channel="627">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106090000 +0000" stop="20261106100000 +0000" channel="8577mvstr.pe">
     <title>Bitácora</title>
     <desc>Espacio dedicado a la actualidad deportiva costarricense, con análisis y entrevistas a figuras del deporte, como directores técnicos y atletas.</desc>
@@ -29107,11 +28843,6 @@
     <video>
       <quality>HDTV</quality>
     </video>
-  </programme>
-  <programme start="20261106090000 +0000" stop="20261106100000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106090000 +0000" stop="20261106093000 +0000" channel="atv-sur.teleclub">
     <title>Geoherbal</title>
@@ -29346,11 +29077,6 @@
       <value>PG</value>
     </rating>
   </programme>
-  <programme start="20261106090000 +0000" stop="20261106100000 +0000" channel="custom-1215">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106090000 +0000" stop="20261106090600 +0000" channel="custom-1220">
     <title lang="es">¡Ahoy, Piratas!</title>
     <desc lang="es">Cuando uno juega a los piratas, lo más apasionante es la búsqueda del cofre del tesoro. Tres niñas piratas, a bordo de un barco corsario, exploran tierras desconocidas en busca del preciado botín.</desc>
@@ -29402,16 +29128,6 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106090000 +0000" stop="20261106100000 +0000" channel="custom-1237">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106090000 +0000" stop="20261106100000 +0000" channel="custom-1238">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106090000 +0000" stop="20261106092500 +0000" channel="custom-1243">
     <title>Mansión Foster para amigos imaginarios</title>
     <desc>Las divertidas y ocurrentes aventuras de Mac y sus amigos imaginarios, Bloo, Frankie, Wilt, Coco y Eduardo.</desc>
@@ -29454,11 +29170,6 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261106090000 +0000" stop="20261106100000 +0000" channel="custom-1292">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106090000 +0000" stop="20261106093000 +0000" channel="custom-1293">
     <title>Entre cuchillos y fuego</title>
@@ -29540,11 +29251,6 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261106090000 +0000" stop="20261106100000 +0000" channel="ewtn.pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106090000 +0000" stop="20261106091500 +0000" channel="france-24-espanol.ar">
     <title>Noticias</title>
@@ -29661,9 +29367,6 @@
       <value>+-1</value>
     </rating>
   </programme>
-  <programme start="20261106090000 -0300" stop="20261106100000 -0300" channel="208dtv.cl">
-    <title>The Town Doctor</title>
-  </programme>
   <programme start="20261106090000 -0300" stop="20261106130000 -0300" channel="760dtv.cl">
     <title lang="es">Despierta América</title>
     <desc lang="es">Revista matutina con noticias, temas de actualidad, reportajes de farándula y música.</desc>
@@ -29683,15 +29386,6 @@
     <category lang="es">Magazine</category>
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/12750563.jpg" />
     <country lang="es">EE. UU</country>
-  </programme>
-  <programme start="20261106090000 -0300" stop="20261106100000 -0300" channel="custom-1085">
-    <title>Sin información</title>
-  </programme>
-  <programme start="20261106090000 -0300" stop="20261106100000 -0300" channel="custom-1334">
-    <title>Programación Infantil</title>
-  </programme>
-  <programme start="20261106090000 -0300" stop="20261106100000 -0300" channel="movistar.lch7110">
-    <title>Sin información</title>
   </programme>
   <programme start="20261106090000 -0300" stop="20261106103000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">Deportes 5</title>
@@ -29862,9 +29556,6 @@
     <rating system="MJColombia">
       <value>AGE228</value>
     </rating>
-  </programme>
-  <programme start="20261106090600 -0300" stop="20261106093000 -0300" channel="589">
-    <title>Secret Sessions</title>
   </programme>
   <programme start="20261106090700 +0000" stop="20261106093100 +0000" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
     <title lang="es">Doctora Juguetes</title>
@@ -30458,9 +30149,6 @@
       <value>+-1</value>
     </rating>
   </programme>
-  <programme start="20261106093000 -0300" stop="20261106095400 -0300" channel="589">
-    <title>Racing Curves</title>
-  </programme>
   <programme start="20261106093000 -0600" stop="20261106094400 -0600" channel="330dtv.co">
     <title lang="es">El mundo de Luna</title>
     <sub-title lang="es">¡Qué perezoso</sub-title>
@@ -30847,9 +30535,6 @@
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/3243212.jpg" />
     <country lang="es">EE. UU</country>
   </programme>
-  <programme start="20261106095400 -0300" stop="20261106112400 -0300" channel="589">
-    <title>Dirty South Hos Net</title>
-  </programme>
   <programme start="20261106095500 +0000" stop="20261106102000 +0000" channel="movistar.lch2358">
     <title lang="es">Una casa de locos</title>
     <sub-title lang="es">La ciencia no miente; Siempre juntos</sub-title>
@@ -30916,21 +30601,6 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106100000 +0000" stop="20261106110000 +0000" channel="226dtv.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106100000 +0000" stop="20261106110000 +0000" channel="228dtv.pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106100000 +0000" stop="20261106110000 +0000" channel="627">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106100000 +0000" stop="20261106102500 +0000" channel="8577mvstr.pe">
     <title>Microprogramas</title>
     <desc>Un espacio dedicado a los habitantes más pequeños de la casa.</desc>
@@ -30957,11 +30627,6 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261106100000 +0000" stop="20261106110000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106100000 +0000" stop="20261106104800 +0000" channel="NAT.GEO.HD.(Nat.Geo.HD).pe">
     <title lang="es">Tesoros perdidos de Egipto</title>
@@ -31152,21 +30817,6 @@
       <value>16</value>
     </rating>
   </programme>
-  <programme start="20261106100000 +0000" stop="20261106110000 +0000" channel="custom-1215">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106100000 +0000" stop="20261106110000 +0000" channel="custom-1237">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106100000 +0000" stop="20261106110000 +0000" channel="custom-1238">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106100000 +0000" stop="20261106120000 +0000" channel="custom-1274">
     <title>Vico C: La vida del filósofo</title>
     <desc>La vida del cantante Vico C, pionero de la música urbana en español. Desde sus comienzos humildes hasta su salto al estrellato a nivel internacional.</desc>
@@ -31192,11 +30842,6 @@
     <rating system="MJColombia">
       <value>AGE228</value>
     </rating>
-  </programme>
-  <programme start="20261106100000 +0000" stop="20261106110000 +0000" channel="custom-1292">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106100000 +0000" stop="20261106103000 +0000" channel="custom-1293">
     <title>Diario de carretera</title>
@@ -31285,11 +30930,6 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261106100000 +0000" stop="20261106110000 +0000" channel="ewtn.pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106100000 +0000" stop="20261106101600 +0000" channel="france-24-espanol.ar">
     <title>Noticias</title>
@@ -31499,18 +31139,6 @@
     <rating system="ES">
       <value>+-1</value>
     </rating>
-  </programme>
-  <programme start="20261106100000 -0300" stop="20261106110000 -0300" channel="208dtv.cl">
-    <title>Betty's Call : Richtungswechsel</title>
-  </programme>
-  <programme start="20261106100000 -0300" stop="20261106110000 -0300" channel="custom-1085">
-    <title>Sin información</title>
-  </programme>
-  <programme start="20261106100000 -0300" stop="20261106110000 -0300" channel="custom-1334">
-    <title>Programación Infantil</title>
-  </programme>
-  <programme start="20261106100000 -0300" stop="20261106110000 -0300" channel="movistar.lch7110">
-    <title>Sin información</title>
   </programme>
   <programme start="20261106100000 -0600" stop="20261106110000 -0600" channel="arpegio-tv.teleclub">
     <title lang="es">Región más noticias - Estelar</title>
@@ -31982,9 +31610,6 @@
     <title lang="es">Bubble's Hotel</title>
     <sub-title lang="es">Caos robótico</sub-title>
   </programme>
-  <programme start="20261106102207 -0300" stop="20261106115128 -0300" channel="fmh-movies.teleclub">
-    <title>Anaconda</title>
-  </programme>
   <programme start="20261106102400 +0000" stop="20261106110000 +0000" channel="DISCOVERY.TURBO.(Disc.Turbo).pe">
     <title lang="es">Al estilo Kindig: El entrenamiento</title>
     <sub-title lang="es">Quedan cuatro</sub-title>
@@ -32103,9 +31728,6 @@
       <value>+18</value>
     </rating>
   </programme>
-  <programme start="20261106102800 -0300" stop="20261106115600 -0300" channel="590">
-    <title>Cállate y C...</title>
-  </programme>
   <programme start="20261106102900 +0000" stop="20261106115800 +0000" channel="custom-1230">
     <title lang="es">Amor Explosivo</title>
     <desc lang="es">La vida de Marvin, un agente inmobiliario de Milwaukee, da un giro absoluto tras recibir un misterioso sobre rojo de Rose, una antigua socia a la que creía muerta. Ahora, su día a día consiste en lidiar con sicarios, traiciones y venganzas.</desc>
@@ -32114,9 +31736,6 @@
     <rating system="MJColombia">
       <value>+18</value>
     </rating>
-  </programme>
-  <programme start="20261106102922 -0300" stop="20261106120803 -0300" channel="fmh-family.teleclub">
-    <title>Mas Barato Por Docena</title>
   </programme>
   <programme start="20261106103000 +0000" stop="20261106110000 +0000" channel="2047mvstr.pe">
     <title lang="es">Rompe cabezas</title>
@@ -32999,21 +32618,6 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106110000 +0000" stop="20261106120000 +0000" channel="226dtv.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106110000 +0000" stop="20261106120000 +0000" channel="228dtv.pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106110000 +0000" stop="20261106120000 +0000" channel="627">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106110000 +0000" stop="20261106112500 +0000" channel="732dtv.cl">
     <title lang="es">Aeropuerto de São Paulo</title>
     <sub-title lang="es">Mejor decir la verdad</sub-title>
@@ -33084,11 +32688,6 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261106110000 +0000" stop="20261106120000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106110000 +0000" stop="20261106112400 +0000" channel="HOME.&amp;amp;.HEALTH.HD.(Home&amp;amp;HealthHD).pe">
     <title lang="es">Novias XL: la boutique</title>
@@ -33370,11 +32969,6 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106110000 +0000" stop="20261106120000 +0000" channel="custom-1215">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106110000 +0000" stop="20261106110500 +0000" channel="custom-1220">
     <title lang="es">Bug'n'Play al rescate</title>
     <desc lang="es">Tres pequeños insectos juegan con un juguete que dejaron en el jardín y las cosas se salen de control. Con cada aventura, uno de los insectos se mete en problemas.</desc>
@@ -33391,16 +32985,6 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106110000 +0000" stop="20261106120000 +0000" channel="custom-1237">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106110000 +0000" stop="20261106120000 +0000" channel="custom-1238">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106110000 +0000" stop="20261106120000 +0000" channel="custom-1277">
     <title lang="es">Novia para dos</title>
     <desc lang="es">Margarita Vera es una arquitecta que vive con Adrián Zea, un hombre simpático pero impredecible. Pero llega a su vida Antonio Ríos, un hombre con los mismos ojos, la misma forma de caminar y sobre todo los mismos genes.</desc>
@@ -33408,11 +32992,6 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261106110000 +0000" stop="20261106120000 +0000" channel="custom-1292">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106110000 +0000" stop="20261106113000 +0000" channel="custom-1293">
     <title>Entre cuchillos y fuego</title>
@@ -33463,11 +33042,6 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261106110000 +0000" stop="20261106120000 +0000" channel="ewtn.pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106110000 +0000" stop="20261106111100 +0000" channel="food-network.teleclub">
     <title lang="es">El increíble mundo de Gumball</title>
@@ -33705,9 +33279,6 @@
       <value>+7</value>
     </rating>
   </programme>
-  <programme start="20261106110000 -0300" stop="20261106120000 -0300" channel="208dtv.cl">
-    <title>Betty's Call : Im Ende ein Anfang</title>
-  </programme>
   <programme start="20261106110000 -0300" stop="20261106120000 -0300" channel="custom-1085">
     <title>Sin información</title>
   </programme>
@@ -33844,6 +33415,24 @@
   <programme start="20261106110300 -0600" stop="20261106112700 -0600" channel="330dtv.co">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El tesoro pirata / La luna y las estrellas / El circo de Peppa / El estanque / Cuando eras chiq</sub-title>
+  </programme>
+  <programme start="20261106110337 -0300" stop="20261106120000 -0300" channel="208dtv.cl">
+    <title>Betty's Call : Im Ende ein Anfang</title>
+  </programme>
+  <programme start="20261106110337 -0300" stop="20261106112400 -0300" channel="589">
+    <title>Dirty South Hos Net</title>
+  </programme>
+  <programme start="20261106110337 -0300" stop="20261106115600 -0300" channel="590">
+    <title>Cállate y C...</title>
+  </programme>
+  <programme start="20261106110337 -0300" stop="20261106113000 -0300" channel="custom-1233">
+    <title>ONE Friday Fights 177</title>
+  </programme>
+  <programme start="20261106110337 -0300" stop="20261106120803 -0300" channel="fmh-family.teleclub">
+    <title>Mas Barato Por Docena</title>
+  </programme>
+  <programme start="20261106110337 -0300" stop="20261106115127 -0300" channel="fmh-movies.teleclub">
+    <title>Anaconda</title>
   </programme>
   <programme start="20261106110500 +0000" stop="20261106134200 +0000" channel="217dtv.cl">
     <title lang="es">Alerta Roja</title>
@@ -34916,7 +34505,7 @@
     <title lang="es">Mermaid Magic</title>
     <sub-title lang="es">El guardián de las perlas</sub-title>
   </programme>
-  <programme start="20261106115128 -0300" stop="20261106140949 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106115127 -0300" stop="20261106140949 -0300" channel="fmh-movies.teleclub">
     <title>Apocalypto</title>
   </programme>
   <programme start="20261106115400 +0000" stop="20261106120000 +0000" channel="custom-1220">
@@ -35034,21 +34623,6 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106120000 +0000" stop="20261106130000 +0000" channel="226dtv.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106120000 +0000" stop="20261106130000 +0000" channel="228dtv.pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106120000 +0000" stop="20261106130000 +0000" channel="627">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106120000 +0000" stop="20261106124000 +0000" channel="8577mvstr.pe">
     <title>La Santa Misa</title>
     <desc>Oficiada por el padre Manuel Rodríguez.</desc>
@@ -35104,11 +34678,6 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261106120000 +0000" stop="20261106130000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106120000 +0000" stop="20261106122000 +0000" channel="NICK.JR.OTT.(Nick.Jr).pe">
     <title lang="es">Tim Rex en el espacio</title>
@@ -35314,11 +34883,6 @@
       <value>PG</value>
     </rating>
   </programme>
-  <programme start="20261106120000 +0000" stop="20261106130000 +0000" channel="custom-1215">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106120000 +0000" stop="20261106120500 +0000" channel="custom-1220">
     <title lang="es">Charlie y las figuras</title>
     <desc lang="es">Charlie es un chico de cabello castaño al que le encanta bailar. Junto con sus amigos, que se asemejan a diferentes formas geométricas, bailan y se divierten.</desc>
@@ -35352,16 +34916,6 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261106120000 +0000" stop="20261106130000 +0000" channel="custom-1237">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106120000 +0000" stop="20261106130000 +0000" channel="custom-1238">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106120000 +0000" stop="20261106120800 +0000" channel="custom-1243">
     <title>Hi Hi Puffy AmiYumi</title>
@@ -35413,11 +34967,6 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261106120000 +0000" stop="20261106130000 +0000" channel="custom-1292">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106120000 +0000" stop="20261106123000 +0000" channel="custom-1293">
     <title>+ 20 mil kilómetros: Historias del camino</title>
@@ -35500,11 +35049,6 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261106120000 +0000" stop="20261106130000 +0000" channel="ewtn.pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106120000 +0000" stop="20261106123000 +0000" channel="france-24-espanol.ar">
     <title>El mundo ahora</title>
@@ -36967,21 +36511,6 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="226dtv.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="228dtv.pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="627">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106130000 +0000" stop="20261106133000 +0000" channel="8577mvstr.pe">
     <title>JN19 informa</title>
     <desc>Un espacio destinado a compartir las noticias más importantes para la comunidad.</desc>
@@ -37010,11 +36539,6 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106130000 +0000" stop="20261106135500 +0000" channel="TELEMUNDO.(Telemundo).pe">
     <title lang="es">Enemigo íntimo</title>
@@ -37216,11 +36740,6 @@
       <value>A12</value>
     </rating>
   </programme>
-  <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="custom-1215">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106130000 +0000" stop="20261106133000 +0000" channel="custom-1234">
     <title lang="es">Cleteros</title>
     <desc lang="es">El apasionante mundo de la bicicleta, incluyendo la escena urbana y de montaña.</desc>
@@ -37229,16 +36748,6 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="custom-1237">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="custom-1238">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="custom-1277">
     <title lang="es">Francisco el matemático</title>
     <desc lang="es">La historia de un profesor de matemáticas que es contratado por un colegio en el que debe enfrentarse a las actitudes rebeldes de algunos estudiantes.</desc>
@@ -37246,11 +36755,6 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="custom-1292">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106130000 +0000" stop="20261106133000 +0000" channel="custom-1293">
     <title>Sabe a Perú</title>
@@ -37335,11 +36839,6 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="ewtn.pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106130000 +0000" stop="20261106131500 +0000" channel="france-24-espanol.ar">
     <title>Noticias</title>
@@ -39166,21 +38665,6 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="226dtv.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="228dtv.pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="627">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106140000 +0000" stop="20261106145000 +0000" channel="8577mvstr.pe">
     <title>Prédicas</title>
     <desc>Un espacio destinado a la oración y la reflexión.</desc>
@@ -39207,11 +38691,6 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106140000 +0000" stop="20261106170000 +0000" channel="atv-sur.teleclub">
     <title>Nuevo Día</title>
@@ -39367,21 +38846,6 @@
       <value>G</value>
     </rating>
   </programme>
-  <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="custom-1215">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="custom-1237">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="custom-1238">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="custom-1277">
     <title lang="es">Chepe Fortuna</title>
     <desc lang="es">La historia de amor entre Chepe Fortuna, un humilde pescador que sueña con ser alcalde, y Nina Cabrales, descendiente de una acaudalada familia de la costa colombiana. Aunque ambos no se conocen personalmente, sueñan mutuamente el uno con el otro.</desc>
@@ -39389,11 +38853,6 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
-  </programme>
-  <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="custom-1292">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106140000 +0000" stop="20261106143000 +0000" channel="custom-1293">
     <title>Recuerdos de Cocina</title>
@@ -39460,11 +38919,6 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="ewtn.pe">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261106140000 +0000" stop="20261106142600 +0000" channel="food-network.teleclub">
     <title lang="es">Los Colorado</title>
@@ -42712,7 +42166,7 @@
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Cajas de cartón</sub-title>
   </programme>
-  <programme start="20261106154139 -0300" stop="20261106181229 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106154139 -0300" stop="20261106181228 -0300" channel="fmh-movies.teleclub">
     <title>Armageddon</title>
   </programme>
   <programme start="20261106154200 -0300" stop="20261106160600 -0300" channel="589">
@@ -47634,7 +47088,7 @@
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261106181229 -0300" stop="20261106195824 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106181228 -0300" stop="20261106195824 -0300" channel="fmh-movies.teleclub">
     <title>Asalto al tren Pelham 123</title>
   </programme>
   <programme start="20261106181400 +0000" stop="20261106185700 +0000" channel="custom-1058">
@@ -50492,7 +49946,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261106195824 -0300" stop="20261106221109 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106195824 -0300" stop="20261106221108 -0300" channel="fmh-movies.teleclub">
     <title>Asesinos</title>
   </programme>
   <programme start="20261106195900 +0000" stop="20261106204900 +0000" channel="custom-1224">
@@ -55121,7 +54575,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261106221109 -0300" stop="20261106235134 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261106221108 -0300" stop="20261106235134 -0300" channel="fmh-movies.teleclub">
     <title>Asesinos Con Estilo</title>
   </programme>
   <programme start="20261106221200 +0000" stop="20261106221800 +0000" channel="custom-1220">
@@ -62120,7 +61574,7 @@
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261107013927 -0300" stop="20261107032458 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261107013927 -0300" stop="20261107032457 -0300" channel="fmh-movies.teleclub">
     <title>Atelier Fontana parte 2</title>
   </programme>
   <programme start="20261107014000 +0000" stop="20261107014600 +0000" channel="france-24-espanol.ar">
@@ -65641,7 +65095,7 @@
     <sub-title lang="es">Campo de entrenamiento</sub-title>
     <episode-num system="onscreen">S6 E5</episode-num>
   </programme>
-  <programme start="20261107032458 -0300" stop="20261107054645 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261107032457 -0300" stop="20261107054645 -0300" channel="fmh-movies.teleclub">
     <title>Atrapame si puedes</title>
   </programme>
   <programme start="20261107032500 +0000" stop="20261107035000 +0000" channel="movistar.lch2358">
@@ -89682,7 +89136,7 @@
     <title>Sin información</title>
   </programme>
   <programme start="20261107150000 -0300" stop="20261107152500 -0300" channel="custom-1233">
-    <title>El clásico del Río de La Plata</title>
+    <title>El Inicio de La era post Maradona en 1994</title>
   </programme>
   <programme start="20261107150000 -0300" stop="20261107160000 -0300" channel="custom-1334">
     <title>Programación Infantil</title>
@@ -92681,7 +92135,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261107163727 -0300" stop="20261107183925 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261107163727 -0300" stop="20261107183924 -0300" channel="fmh-movies.teleclub">
     <title>Battle Angel La ultima gerrera</title>
   </programme>
   <programme start="20261107163800 +0000" stop="20261107170100 +0000" channel="custom-1243">
@@ -96586,7 +96040,7 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261107183925 -0300" stop="20261107201131 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261107183924 -0300" stop="20261107201131 -0300" channel="fmh-movies.teleclub">
     <title>Beetlejuice</title>
   </programme>
   <programme start="20261107184000 +0000" stop="20261107193000 +0000" channel="892mvstr.cl">
@@ -102365,8 +101819,8 @@
       <value>AGE227</value>
     </rating>
   </programme>
-  <programme start="20261107215500 -0300" stop="20261107225500 -0300" channel="208dtv.cl">
-    <title>Sin información</title>
+  <programme start="20261107215500 -0300" stop="20261108000000 -0300" channel="208dtv.cl">
+    <title>El protector</title>
   </programme>
   <programme start="20261107215600 +0000" stop="20261107224400 +0000" channel="732dtv.cl">
     <title lang="es">Máxima seguridad: Cárceles extremas</title>
@@ -104106,9 +103560,6 @@
     <episode-num system="original-air-date">2010-11-22 00:00:00</episode-num>
     <previously-shown start="20101122000000" />
   </programme>
-  <programme start="20261107225500 -0300" stop="20261107235500 -0300" channel="208dtv.cl">
-    <title>Sin información</title>
-  </programme>
   <programme start="20261107225600 +0000" stop="20261107225800 +0000" channel="custom-1220">
     <title lang="es">Canciones &amp; rimas</title>
     <desc lang="es">Divertidos videos animados de canciones infantiles populares de todo el mundo cantadas por niños.</desc>
@@ -105419,7 +104870,7 @@
     <icon src="https://ebyl.tmsimg.com/assets/p6526_v_v8_an.jpg" />
     <episode-num system="dd_progid">MV00362298.0000</episode-num>
   </programme>
-  <programme start="20261107232931 -0300" stop="20261108010548 -0300" channel="fmh-family.teleclub">
+  <programme start="20261107232931 -0300" stop="20261108010547 -0300" channel="fmh-family.teleclub">
     <title>La Llave Mágica</title>
   </programme>
   <programme start="20261107233000 +0000" stop="20261108000000 +0000" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
@@ -106075,9 +105526,6 @@
     <rating system="ES">
       <value>+7</value>
     </rating>
-  </programme>
-  <programme start="20261107235500 -0300" stop="20261108005500 -0300" channel="208dtv.cl">
-    <title>Sin información</title>
   </programme>
   <programme start="20261107235600 +0000" stop="20261108000000 +0000" channel="food-network.teleclub">
     <title lang="es">Los jóvenes titanes en acción</title>
@@ -106736,6 +106184,9 @@
     <rating system="ES">
       <value>+-1</value>
     </rating>
+  </programme>
+  <programme start="20261108000000 -0300" stop="20261108022500 -0300" channel="208dtv.cl">
+    <title>La caída de la Casa Blanca</title>
   </programme>
   <programme start="20261108000000 -0300" stop="20261108010000 -0300" channel="custom-1085">
     <title>Sin información</title>
@@ -108057,9 +107508,6 @@
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261108005500 -0300" stop="20261108015500 -0300" channel="208dtv.cl">
-    <title>Sin información</title>
-  </programme>
   <programme start="20261108005600 +0000" stop="20261108030000 +0000" channel="217dtv.cl">
     <title lang="es">El planeta de los simios(R)evolución</title>
     <desc lang="es">La búsqueda de una cura para la enfermedad de Alzheimer por parte de un científico tiene resultados inesperados: un chimpancé superinteligente, lo que podría provocar el fin del dominio de los humanos sobre la Tierra.</desc>
@@ -108805,7 +108253,7 @@
   <programme start="20261108010000 -0300" stop="20261108020000 -0300" channel="custom-1085">
     <title>Sin información</title>
   </programme>
-  <programme start="20261108010000 -0300" stop="20261108035526 -0300" channel="custom-1233">
+  <programme start="20261108010000 -0300" stop="20261108040000 -0300" channel="custom-1233">
     <title>ONE Friday Fights 177</title>
   </programme>
   <programme start="20261108010000 -0300" stop="20261108020000 -0300" channel="custom-1334">
@@ -110202,9 +109650,6 @@
       <value>+14</value>
     </rating>
   </programme>
-  <programme start="20261108015500 -0300" stop="20261108025500 -0300" channel="208dtv.cl">
-    <title>Sin información</title>
-  </programme>
   <programme start="20261108015500 -0300" stop="20261108032600 -0300" channel="590">
     <title>Las ninfómanas aman las p... grandes</title>
   </programme>
@@ -111282,6 +110727,9 @@
       <value>Apta</value>
     </rating>
   </programme>
+  <programme start="20261108022500 -0300" stop="20261108045500 -0300" channel="208dtv.cl">
+    <title>Ángeles y demonios</title>
+  </programme>
   <programme start="20261108022600 +0000" stop="20261108031400 +0000" channel="DISCOVERY.TURBO.(Disc.Turbo).pe">
     <title lang="es">Texas Metal</title>
     <desc lang="es">Bill Carlton y el equipo de Ekstensive Metal Works de Houston, especializados en diseños personalizados, se ocupan de clientes difíciles, proyectos desafiantes y plazos ajustados, construyendo desde vehículos poderosos hasta camionetas gigantes.</desc>
@@ -111993,9 +111441,6 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261108025500 -0300" stop="20261108035500 -0300" channel="208dtv.cl">
-    <title>Sin información</title>
   </programme>
   <programme start="20261108025600 +0000" stop="20261108025900 +0000" channel="custom-1220">
     <title lang="es">Kiku en casa</title>
@@ -112761,6 +112206,15 @@
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/15282624.jpg" />
     <country lang="es">México</country>
   </programme>
+  <programme start="20261108030000 -0300" stop="20261108040000 -0300" channel="custom-1085">
+    <title>Sin información</title>
+  </programme>
+  <programme start="20261108030000 -0300" stop="20261108040000 -0300" channel="custom-1334">
+    <title>Programación Infantil</title>
+  </programme>
+  <programme start="20261108030000 -0300" stop="20261108040000 -0300" channel="movistar.lch7110">
+    <title>Sin información</title>
+  </programme>
   <programme start="20261108030000 -0300" stop="20261108043000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">Deportes 5</title>
     <desc lang="es">Un programa de difusión, profundización e intercambio sobre el deporte uruguayo Con criterios que promueven la visibilización de todas las competencias y sus protagonistas, colocando a las y los deportistas en el centro.</desc>
@@ -112842,7 +112296,7 @@
       <value>+-1</value>
     </rating>
   </programme>
-  <programme start="20261108030217 -0300" stop="20261108035526 -0300" channel="fmh-family.teleclub">
+  <programme start="20261108030217 -0300" stop="20261108045141 -0300" channel="fmh-family.teleclub">
     <title>Ella Es Un Monstruo </title>
   </programme>
   <programme start="20261108030400 +0000" stop="20261108035700 +0000" channel="custom-1224">
@@ -113224,7 +112678,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261108032600 -0300" stop="20261108035526 -0300" channel="590">
+  <programme start="20261108032600 -0300" stop="20261108045400 -0300" channel="590">
     <title>10 mamis c...</title>
   </programme>
   <programme start="20261108032800 +0000" stop="20261108035300 +0000" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
@@ -113650,7 +113104,7 @@
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20261108033938 -0300" stop="20261108035526 -0300" channel="fmh-movies.teleclub">
+  <programme start="20261108033938 -0300" stop="20261108050326 -0300" channel="fmh-movies.teleclub">
     <title>Borat</title>
   </programme>
   <programme start="20261108034000 +0000" stop="20261108040000 +0000" channel="NICK.JR.OTT.(Nick.Jr).pe">
@@ -113870,7 +113324,7 @@
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20261108035200 -0300" stop="20261108035526 -0300" channel="589">
+  <programme start="20261108035200 -0300" stop="20261108043800 -0300" channel="589">
     <title>Sexcape</title>
   </programme>
   <programme start="20261108035300 +0000" stop="20261108041600 +0000" channel="DISNEY.JUNIOR.(DisneyJunior).pe">
@@ -113953,9 +113407,6 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
-  </programme>
-  <programme start="20261108035500 -0300" stop="20261108035526 -0300" channel="208dtv.cl">
-    <title>Sin información</title>
   </programme>
   <programme start="20261108035600 +0000" stop="20261108043900 +0000" channel="custom-1058">
     <title lang="es">Cupcake Wars</title>
@@ -114478,6 +113929,18 @@
     <rating system="ES">
       <value>+-1</value>
     </rating>
+  </programme>
+  <programme start="20261108040000 -0300" stop="20261108050000 -0300" channel="custom-1085">
+    <title>Sin información</title>
+  </programme>
+  <programme start="20261108040000 -0300" stop="20261108060000 -0300" channel="custom-1233">
+    <title>Tercer lugar: Corea del Norte Sub-17 vs. Brasil Sub-17</title>
+  </programme>
+  <programme start="20261108040000 -0300" stop="20261108050000 -0300" channel="custom-1334">
+    <title>Programación Infantil</title>
+  </programme>
+  <programme start="20261108040000 -0300" stop="20261108050000 -0300" channel="movistar.lch7110">
+    <title>Sin información</title>
   </programme>
   <programme start="20261108040000 -0600" stop="20261108060000 -0600" channel="custom-1026">
     <title lang="es">Cosas de la vida</title>
@@ -115250,6 +114713,9 @@
       <value>TVY7</value>
     </rating>
   </programme>
+  <programme start="20261108043800 -0300" stop="20261108060000 -0300" channel="589">
+    <title>Gianna Dior's Temptations</title>
+  </programme>
   <programme start="20261108043900 +0000" stop="20261108052900 +0000" channel="209dtv.co">
     <title lang="es">CSI</title>
     <sub-title lang="es">No Way Out</sub-title>
@@ -115592,6 +115058,9 @@
       <value>+18</value>
     </rating>
   </programme>
+  <programme start="20261108045256 -0300" stop="20261108062750 -0300" channel="fmh-family.teleclub">
+    <title>Temporada de Brujas</title>
+  </programme>
   <programme start="20261108045300 +0000" stop="20261108045600 +0000" channel="custom-1220">
     <title lang="es">Cierra tus ojos</title>
     <desc lang="es">Cierra tus ojos, recuéstate y relájate. Es hora de dormir.</desc>
@@ -115615,6 +115084,9 @@
     <episode-num system="original-air-date">2010-11-22 00:00:00</episode-num>
     <previously-shown start="20101122000000" />
   </programme>
+  <programme start="20261108045400 -0300" stop="20261108060000 -0300" channel="590">
+    <title>Rogando por una doble</title>
+  </programme>
   <programme start="20261108045500 +0000" stop="20261108052000 +0000" channel="207dtv">
     <title lang="es">¿Quién da má$?</title>
     <sub-title lang="es">Atrapados con salida</sub-title>
@@ -115624,6 +115096,9 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261108045500 -0300" stop="20261108053000 -0300" channel="208dtv.cl">
+    <title>Designing Women : Howard the Date</title>
   </programme>
   <programme start="20261108045600 +0000" stop="20261108045900 +0000" channel="custom-1220">
     <title lang="es">Cierra tus ojos</title>
@@ -117005,6 +116480,15 @@
       <value>Apta</value>
     </rating>
   </programme>
+  <programme start="20261108050000 -0300" stop="20261108060000 -0300" channel="custom-1085">
+    <title>Sin información</title>
+  </programme>
+  <programme start="20261108050000 -0300" stop="20261108060000 -0300" channel="custom-1334">
+    <title>Programación Infantil</title>
+  </programme>
+  <programme start="20261108050000 -0300" stop="20261108060000 -0300" channel="movistar.lch7110">
+    <title>Sin información</title>
+  </programme>
   <programme start="20261108050000 -0600" stop="20261108052400 -0600" channel="330dtv.co">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Lucas pasea en barco / Albina / El camión de bomberos / La princesa Peppa / Teddy visita a Pe</sub-title>
@@ -117111,6 +116595,9 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261108050326 -0300" stop="20261108065846 -0300" channel="fmh-movies.teleclub">
+    <title>Bourne- El ultimátum</title>
   </programme>
   <programme start="20261108050400 +0000" stop="20261108052700 +0000" channel="disney-chanel.teleclub">
     <title lang="es">Los vecinos Green</title>
@@ -117820,6 +117307,9 @@
     <rating system="ES">
       <value>Apta</value>
     </rating>
+  </programme>
+  <programme start="20261108053000 -0300" stop="20261108060000 -0300" channel="208dtv.cl">
+    <title>Designing Women : I'll Be Home for Christmas</title>
   </programme>
   <programme start="20261108053000 -0600" stop="20261108060000 -0600" channel="custom-1042">
     <title lang="es">FIBA 3X3 Macau</title>
@@ -118725,6 +118215,18 @@
       <value>Apta</value>
     </rating>
   </programme>
+  <programme start="20261108060000 -0300" stop="20261108070000 -0300" channel="208dtv.cl">
+    <title>Betty's Call : Ein neues Leben</title>
+  </programme>
+  <programme start="20261108060000 -0300" stop="20261108073000 -0300" channel="589">
+    <title>My First Sex Tape</title>
+  </programme>
+  <programme start="20261108060000 -0300" stop="20261108072800 -0300" channel="590">
+    <title>TSTV: A Hard Sell</title>
+  </programme>
+  <programme start="20261108060000 -0300" stop="20261108070000 -0300" channel="custom-1085">
+    <title>Sin información</title>
+  </programme>
   <programme start="20261108060000 -0300" stop="20261108070000 -0300" channel="custom-1232">
     <title lang="es">Jerrod Carmichael: 8</title>
     <desc lang="es">Jerrod Carmichael se presenta frente a una audiencia en vivo en el Masonic Hall de la ciudad de Nueva York, donde da un vistazo a distintos temas, desde la victoria de Trump y el cambio climático, hasta temas más amplios como la política.</desc>
@@ -118736,6 +118238,15 @@
     <category lang="es">Comedia</category>
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/7812839.jpg" />
     <country lang="es">EE. UU</country>
+  </programme>
+  <programme start="20261108060000 -0300" stop="20261108063000 -0300" channel="custom-1233">
+    <title>Paris - Tours</title>
+  </programme>
+  <programme start="20261108060000 -0300" stop="20261108070000 -0300" channel="custom-1334">
+    <title>Programación Infantil</title>
+  </programme>
+  <programme start="20261108060000 -0300" stop="20261108070000 -0300" channel="movistar.lch7110">
+    <title>Sin información</title>
   </programme>
   <programme start="20261108060000 -0300" stop="20261108070000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">Patrimonio silencioso - Uruguay</title>
@@ -119258,6 +118769,9 @@
       <value>AGE228</value>
     </rating>
   </programme>
+  <programme start="20261108062828 -0300" stop="20261108080909 -0300" channel="fmh-family.teleclub">
+    <title>Los Fantasmas De Mis Exnovias</title>
+  </programme>
   <programme start="20261108062900 +0000" stop="20261108071800 +0000" channel="custom-1224">
     <title lang="es">El chico de oro</title>
     <desc lang="es">Seyran se disculpa con Pelin. Por su parte, Kazim sospecha de las llamadas de Hattuç y Halis. Además, Orhan pone fin a su aventura.</desc>
@@ -119623,6 +119137,9 @@
     <category lang="es">Telenovela</category>
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/15282624.jpg" />
     <country lang="es">México</country>
+  </programme>
+  <programme start="20261108063000 -0300" stop="20261108090000 -0300" channel="custom-1233">
+    <title>Final: Japón Sub-17 vs. Nigeria Sub-17</title>
   </programme>
   <programme start="20261108063000 -0600" stop="20261108070000 -0600" channel="custom-1302">
     <title lang="es">Misa</title>
@@ -120154,6 +119671,9 @@
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261108065846 -0300" stop="20261108083527 -0300" channel="fmh-movies.teleclub">
+    <title>Buenos vecinos</title>
+  </programme>
   <programme start="20261108065900 +0000" stop="20261108072200 +0000" channel="disney-chanel.teleclub">
     <title lang="es">Amphibia</title>
     <sub-title lang="es">The New Normal</sub-title>
@@ -120613,6 +120133,12 @@
       <value>+-1</value>
     </rating>
   </programme>
+  <programme start="20261108070000 -0300" stop="20261108080000 -0300" channel="208dtv.cl">
+    <title>Betty's Call : Letzte Reise</title>
+  </programme>
+  <programme start="20261108070000 -0300" stop="20261108080000 -0300" channel="custom-1085">
+    <title>Sin información</title>
+  </programme>
   <programme start="20261108070000 -0300" stop="20261108085000 -0300" channel="custom-1232">
     <title lang="es">Mi supuesto ranking escolar</title>
     <desc lang="es">Una inmersión en las vidas de los estudiantes de tres comunidades dispares mientras sortean las presiones en torno a la universidad y ponen en marcha un musical, hasta que unos acontecimientos sísmicos ponen en peligro sus sueños.</desc>
@@ -120624,6 +120150,12 @@
     <category lang="es">Documental</category>
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/24506036.jpg" />
     <country lang="es">EE. UU</country>
+  </programme>
+  <programme start="20261108070000 -0300" stop="20261108080000 -0300" channel="custom-1334">
+    <title>Programación Infantil</title>
+  </programme>
+  <programme start="20261108070000 -0300" stop="20261108080000 -0300" channel="movistar.lch7110">
+    <title>Sin información</title>
   </programme>
   <programme start="20261108070000 -0300" stop="20261108080000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">Agroinforme</title>
@@ -121196,6 +120728,9 @@
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261108072800 -0300" stop="20261108085800 -0300" channel="590">
+    <title>Having Big Boobs Is Really Hard</title>
+  </programme>
   <programme start="20261108073000 +0000" stop="20261108080000 +0000" channel="2047mvstr.pe">
     <title lang="es">Leer para contarla</title>
     <desc lang="es">Las mejores historias de la literatura en un concepto fresco, juvenil y divertido.</desc>
@@ -121450,6 +120985,9 @@
     <rating system="ES">
       <value>+-1</value>
     </rating>
+  </programme>
+  <programme start="20261108073000 -0300" stop="20261108075600 -0300" channel="589">
+    <title>e-Rotic</title>
   </programme>
   <programme start="20261108073000 -0600" stop="20261108090000 -0600" channel="custom-1026">
     <title lang="es">Maratón Cosas de la vida</title>
@@ -121893,6 +121431,9 @@
       <value>AGE228</value>
     </rating>
   </programme>
+  <programme start="20261108075600 -0300" stop="20261108082200 -0300" channel="589">
+    <title>e-Rotic</title>
+  </programme>
   <programme start="20261108075900 +0000" stop="20261108080300 +0000" channel="custom-1220">
     <title lang="es">Cierra tus ojos</title>
     <desc lang="es">Cierra tus ojos, recuéstate y relájate. Es hora de dormir.</desc>
@@ -122330,6 +121871,18 @@
       <value>+-1</value>
     </rating>
   </programme>
+  <programme start="20261108080000 -0300" stop="20261108083000 -0300" channel="208dtv.cl">
+    <title>Designing Women : Howard the Date</title>
+  </programme>
+  <programme start="20261108080000 -0300" stop="20261108090000 -0300" channel="custom-1085">
+    <title>Sin información</title>
+  </programme>
+  <programme start="20261108080000 -0300" stop="20261108090000 -0300" channel="custom-1334">
+    <title>Programación Infantil</title>
+  </programme>
+  <programme start="20261108080000 -0300" stop="20261108090000 -0300" channel="movistar.lch7110">
+    <title>Sin información</title>
+  </programme>
   <programme start="20261108080000 -0300" stop="20261108080700 -0300" channel="nacional-tv.teleclub">
     <title lang="es">Exploramundos</title>
     <title lang="xx">La revolución neolítica</title>
@@ -122654,6 +122207,9 @@
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261108081040 -0300" stop="20261108093244 -0300" channel="fmh-family.teleclub">
+    <title>Una loca pelicula de Vampiros</title>
+  </programme>
   <programme start="20261108081100 +0000" stop="20261108085900 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
     <title lang="es">Desastres en tiempo real</title>
     <desc lang="es">Desastres en tiempo real, las peores catástrofes de Latinoamérica tomadas por los testigos directos, en medio de cada una de estas situaciones. Con celulares, cámaras caseras, de seguridad y otros elementos.</desc>
@@ -122809,6 +122365,9 @@
     <rating system="MPAA">
       <value>TVG</value>
     </rating>
+  </programme>
+  <programme start="20261108082200 -0300" stop="20261108084800 -0300" channel="589">
+    <title>e-Rotic</title>
   </programme>
   <programme start="20261108082200 -0300" stop="20261108083000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">¡No exageres, Enzo!</title>
@@ -123188,6 +122747,9 @@
       <value>Apta</value>
     </rating>
   </programme>
+  <programme start="20261108083000 -0300" stop="20261108090000 -0300" channel="208dtv.cl">
+    <title>Designing Women : I'll Be Home for Christmas</title>
+  </programme>
   <programme start="20261108083000 -0300" stop="20261108084300 -0300" channel="nacional-tv.teleclub">
     <title lang="es">Las aventuras de Medialuna</title>
     <title lang="xx">Episodio 5</title>
@@ -123254,6 +122816,9 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261108083527 -0300" stop="20261108103426 -0300" channel="fmh-movies.teleclub">
+    <title>Burlesque</title>
   </programme>
   <programme start="20261108083600 +0000" stop="20261108092400 +0000" channel="ID.HD.-.INVESTIGATION.DISCOVERY.HD.(Invest.DiscoveryHD).pe">
     <title lang="es">El precio de la fama</title>
@@ -123510,6 +123075,9 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261108084800 -0300" stop="20261108091100 -0300" channel="589">
+    <title>Casting Online</title>
   </programme>
   <programme start="20261108085000 +0000" stop="20261108102400 +0000" channel="202dtv.pe">
     <title lang="es">La noche mágica</title>
@@ -123769,6 +123337,9 @@
     <category lang="es">Infantil</category>
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/11729315.jpg" />
     <country lang="es">Argentina</country>
+  </programme>
+  <programme start="20261108085800 -0300" stop="20261108102800 -0300" channel="590">
+    <title>Trío con MILF</title>
   </programme>
   <programme start="20261108085900 +0000" stop="20261108094500 +0000" channel="HISTORY.2.HD.(H2.HD).pe">
     <title lang="es">Secretos de guerra</title>
@@ -124390,6 +123961,21 @@
       <value>+-1</value>
     </rating>
   </programme>
+  <programme start="20261108090000 -0300" stop="20261108093000 -0300" channel="208dtv.cl">
+    <title>Designing Women : Great Expectations</title>
+  </programme>
+  <programme start="20261108090000 -0300" stop="20261108100000 -0300" channel="custom-1085">
+    <title>Sin información</title>
+  </programme>
+  <programme start="20261108090000 -0300" stop="20261108093000 -0300" channel="custom-1233">
+    <title>Derby español: Me verás campeón</title>
+  </programme>
+  <programme start="20261108090000 -0300" stop="20261108100000 -0300" channel="custom-1334">
+    <title>Programación Infantil</title>
+  </programme>
+  <programme start="20261108090000 -0300" stop="20261108100000 -0300" channel="movistar.lch7110">
+    <title>Sin información</title>
+  </programme>
   <programme start="20261108090000 -0600" stop="20261108094800 -0600" channel="DISCOVERY.SCIENCE.(Disc.Science).pe">
     <title lang="es">Códigos y Conspiraciones</title>
     <sub-title lang="es">Las Vegas</sub-title>
@@ -124535,6 +124121,9 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261108091100 -0300" stop="20261108093600 -0300" channel="589">
+    <title>Sexomnia</title>
   </programme>
   <programme start="20261108091300 +0000" stop="20261108091800 +0000" channel="custom-1220">
     <title lang="es">Rastro de caracol</title>
@@ -125107,6 +124696,12 @@
       <value>+-1</value>
     </rating>
   </programme>
+  <programme start="20261108093000 -0300" stop="20261108100000 -0300" channel="208dtv.cl">
+    <title>Designing Women : Second Time Around</title>
+  </programme>
+  <programme start="20261108093000 -0300" stop="20261108110337 -0300" channel="custom-1233">
+    <title>Semifinal 2: Tala RC vs. Córdoba Athletic Club</title>
+  </programme>
   <programme start="20261108093000 -0300" stop="20261108103000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">Baby deportivo</title>
     <title lang="xx">Episodio 238</title>
@@ -125167,6 +124762,9 @@
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261108093352 -0300" stop="20261108110337 -0300" channel="fmh-family.teleclub">
+    <title>Novia Fugitiva</title>
+  </programme>
   <programme start="20261108093500 +0000" stop="20261108110000 +0000" channel="1513dtv.cl">
     <title lang="es">Sin regreso</title>
     <desc lang="es">Mitchell y Carter, amigos de toda la vida, quedan atrapados en el desierto durante un viaje por tierra. Ellos discuten sobre las decisiones de la vida hasta que se enfrentan físicamente y luchan realmente por la vida o la muerte.</desc>
@@ -125214,6 +124812,9 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261108093600 -0300" stop="20261108100000 -0300" channel="589">
+    <title>Encuentros cruzados</title>
   </programme>
   <programme start="20261108093900 +0000" stop="20261108094100 +0000" channel="custom-1220">
     <title lang="es">Canciones &amp; rimas</title>
@@ -126079,6 +125680,21 @@
       <value>+-1</value>
     </rating>
   </programme>
+  <programme start="20261108100000 -0300" stop="20261108110000 -0300" channel="208dtv.cl">
+    <title>Betty's Call : Letzte Reise</title>
+  </programme>
+  <programme start="20261108100000 -0300" stop="20261108110337 -0300" channel="589">
+    <title>Curious Women</title>
+  </programme>
+  <programme start="20261108100000 -0300" stop="20261108110000 -0300" channel="custom-1085">
+    <title>Sin información</title>
+  </programme>
+  <programme start="20261108100000 -0300" stop="20261108110000 -0300" channel="custom-1334">
+    <title>Programación Infantil</title>
+  </programme>
+  <programme start="20261108100000 -0300" stop="20261108110000 -0300" channel="movistar.lch7110">
+    <title>Sin información</title>
+  </programme>
   <programme start="20261108100000 -0600" stop="20261108110000 -0600" channel="custom-1042">
     <title lang="es">World Chase Tag</title>
     <sub-title lang="es">Episodio 34</sub-title>
@@ -126579,6 +126195,9 @@
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261108102800 -0300" stop="20261108110337 -0300" channel="590">
+    <title>Estrellas del p... rellenas de crema</title>
+  </programme>
   <programme start="20261108103000 +0000" stop="20261108110000 +0000" channel="2047mvstr.pe">
     <title lang="es">Somos mujeres y hacemos ciencia en Perú</title>
     <desc lang="es">Espacio de apoyo para que las nuevas generaciones de niñas estudien una carrera STEM teniendo a mujeres científicas como inspiración.</desc>
@@ -126951,6 +126570,9 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261108103426 -0300" stop="20261108110337 -0300" channel="fmh-movies.teleclub">
+    <title>Busqueda Implacable</title>
   </programme>
   <programme start="20261108103500 +0000" stop="20261108104700 +0000" channel="custom-1243">
     <title>El campamento de Lazlo</title>
@@ -128107,6 +127729,9 @@
     <rating system="ES">
       <value>Apta</value>
     </rating>
+  </programme>
+  <programme start="20261108110000 -0300" stop="20261108110337 -0300" channel="208dtv.cl">
+    <title>Betty's Call : Qualitäten</title>
   </programme>
   <programme start="20261108110000 -0300" stop="20261108113000 -0300" channel="nacional-tv.teleclub">
     <title lang="es">¿Y tú, tú que vas a hacer?</title>
@@ -159696,6 +159321,21 @@
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="226dtv.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="228dtv.pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="627">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261109070000 +0000" stop="20261109075000 +0000" channel="8577mvstr.pe">
     <title>Prédicas</title>
     <desc>Un espacio destinado a la oración y la reflexión.</desc>
@@ -159721,6 +159361,11 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109070000 +0000" stop="20261109083000 +0000" channel="america-television.teleclub">
     <title lang="es">América NoticiasEdición dominical</title>
@@ -159855,6 +159500,11 @@
       <value>14+</value>
     </rating>
   </programme>
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="custom-1215">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261109070000 +0000" stop="20261109073000 +0000" channel="custom-1234">
     <title lang="es">Perú surf</title>
     <desc lang="es">Un programa producido y dirigido íntegramente por tablistas y bodyboarders peruanos para seguir a los surfistas en su persecución de las mejores olas del Perú y del mundo, así como a las estrellas internacionales de la tabla.</desc>
@@ -159862,6 +159512,21 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="custom-1237">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="custom-1238">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="custom-1292">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109070000 +0000" stop="20261109073000 +0000" channel="custom-1293">
     <title>Recuerdos de Cocina</title>
@@ -159918,6 +159583,11 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="ewtn.pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109070000 +0000" stop="20261109073000 +0000" channel="france-24-espanol.ar">
     <title>Directo América</title>
@@ -160717,6 +160387,21 @@
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="226dtv.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="228dtv.pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="627">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261109080000 +0000" stop="20261109083000 +0000" channel="8577mvstr.pe">
     <title>Coronilla de la Misericordia, oración intergenaracional</title>
     <date>20220905</date>
@@ -160772,6 +160457,11 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109080000 +0000" stop="20261109084400 +0000" channel="NAT.GEO.HD.(Nat.Geo.HD).pe">
     <title lang="es">Alerta Aeropuerto: Roma</title>
@@ -160915,6 +160605,11 @@
       <value>16</value>
     </rating>
   </programme>
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="custom-1215">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="custom-1234">
     <title lang="es">Movistar Deportes</title>
     <desc lang="es">Los mejores especiales deportivos con una mirada más de cerca de la actualidad del deporte nacional e internacional.</desc>
@@ -160922,6 +160617,16 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="custom-1237">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="custom-1238">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109080000 +0000" stop="20261109082300 +0000" channel="custom-1243">
     <title>ThunderCats</title>
@@ -160948,6 +160653,11 @@
     <rating system="MPAA">
       <value>TVY7</value>
     </rating>
+  </programme>
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="custom-1292">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109080000 +0000" stop="20261109083000 +0000" channel="custom-1293">
     <title>Más rico</title>
@@ -161004,6 +160714,11 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="ewtn.pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109080000 +0000" stop="20261109081500 +0000" channel="france-24-espanol.ar">
     <title>Noticias</title>
@@ -161598,6 +161313,21 @@
       <value>TE</value>
     </rating>
   </programme>
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="226dtv.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="228dtv.pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="627">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="8577mvstr.pe">
     <title>Nuestra fe en Cristo</title>
     <date>20250421</date>
@@ -161613,6 +161343,11 @@
     <video>
       <quality>HDTV</quality>
     </video>
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="atv-sur.teleclub">
     <title>Under the Dome: Bajo el Domo</title>
@@ -161784,6 +161519,11 @@
       <value>16</value>
     </rating>
   </programme>
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="custom-1215">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="custom-1234">
     <title lang="es">El fuera de lista</title>
     <desc lang="es">Un seguimiento a cada paso de la selección peruana, con el día a día del hincha y el lado B de los futbolistas, con humor y mucha magia.</desc>
@@ -161791,6 +161531,16 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="custom-1237">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="custom-1238">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109090000 +0000" stop="20261109092500 +0000" channel="custom-1243">
     <title>Mansión Foster para amigos imaginarios</title>
@@ -161816,6 +161566,11 @@
     <rating system="MPAA">
       <value>TVG</value>
     </rating>
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="custom-1292">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109090000 +0000" stop="20261109093000 +0000" channel="custom-1293">
     <title>Entre cuchillos y fuego</title>
@@ -161897,6 +161652,11 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="ewtn.pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109090000 +0000" stop="20261109091500 +0000" channel="france-24-espanol.ar">
     <title>Noticias</title>
@@ -162572,6 +162332,21 @@
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="226dtv.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="228dtv.pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="627">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261109100000 +0000" stop="20261109102500 +0000" channel="8577mvstr.pe">
     <title>Microprogramas</title>
     <desc>Un espacio dedicado a los habitantes más pequeños de la casa.</desc>
@@ -162598,6 +162373,11 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109100000 +0000" stop="20261109104600 +0000" channel="NAT.GEO.HD.(Nat.Geo.HD).pe">
     <title lang="es">Tesoros perdidos de Egipto</title>
@@ -162780,6 +162560,11 @@
       <value>6</value>
     </rating>
   </programme>
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="custom-1215">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261109100000 +0000" stop="20261109103000 +0000" channel="custom-1234">
     <title lang="es">Perú surf</title>
     <desc lang="es">Un programa producido y dirigido íntegramente por tablistas y bodyboarders peruanos para seguir a los surfistas en su persecución de las mejores olas del Perú y del mundo, así como a las estrellas internacionales de la tabla.</desc>
@@ -162787,6 +162572,16 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="custom-1237">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="custom-1238">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109100000 +0000" stop="20261109101200 +0000" channel="custom-1243">
     <title>El campamento de Lazlo</title>
@@ -162812,6 +162607,11 @@
     <rating system="MPAA">
       <value>TVY7</value>
     </rating>
+  </programme>
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="custom-1292">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109100000 +0000" stop="20261109103000 +0000" channel="custom-1293">
     <title>Diario de carretera</title>
@@ -162901,6 +162701,11 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="ewtn.pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109100000 +0000" stop="20261109101600 +0000" channel="france-24-espanol.ar">
     <title>Noticias</title>
@@ -163659,6 +163464,21 @@
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261109110000 +0000" stop="20261109120000 +0000" channel="226dtv.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109110000 +0000" stop="20261109120000 +0000" channel="228dtv.pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109110000 +0000" stop="20261109120000 +0000" channel="627">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261109110000 +0000" stop="20261109113000 +0000" channel="8577mvstr.pe">
     <title>Laudes; Angelus desde tierra santa; Coronilla de la divina misericordia.</title>
     <desc>La celebración del Ángelus.</desc>
@@ -163689,6 +163509,11 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261109110000 +0000" stop="20261109120000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109110000 +0000" stop="20261109140000 +0000" channel="atv-sur.teleclub">
     <title>Nuevo Día</title>
@@ -163818,6 +163643,21 @@
     <episode-num system="original-air-date">2012-11-16 00:00:00</episode-num>
     <previously-shown start="20121116000000" />
   </programme>
+  <programme start="20261109110000 +0000" stop="20261109120000 +0000" channel="custom-1215">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109110000 +0000" stop="20261109120000 +0000" channel="custom-1237">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109110000 +0000" stop="20261109120000 +0000" channel="custom-1238">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261109110000 +0000" stop="20261109111100 +0000" channel="custom-1243">
     <title>Mi compañero de clase es un mono</title>
     <desc>Adam Lyon es inscrito por error en una escuela de puros animales, la Secundaria Charles Darwin; el zoológico local y chicos del acuario son sus compañeros de clases: gorilas, jirafas, serpientes, aves, murciélagos y peces.</desc>
@@ -163842,6 +163682,11 @@
     <rating system="MPAA">
       <value>TVY7</value>
     </rating>
+  </programme>
+  <programme start="20261109110000 +0000" stop="20261109120000 +0000" channel="custom-1292">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109110000 +0000" stop="20261109113000 +0000" channel="custom-1293">
     <title>Entre cuchillos y fuego</title>
@@ -163903,6 +163748,11 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261109110000 +0000" stop="20261109120000 +0000" channel="ewtn.pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109110000 +0000" stop="20261109113000 +0000" channel="france-24-espanol.ar">
     <title>El mundo ahora</title>
@@ -164743,6 +164593,21 @@
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="226dtv.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="228dtv.pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="627">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261109120000 +0000" stop="20261109124000 +0000" channel="8577mvstr.pe">
     <title>La Santa Misa</title>
     <desc>Oficiada por el padre Manuel Rodríguez.</desc>
@@ -164798,6 +164663,11 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109120000 +0000" stop="20261109135000 +0000" channel="america-television.teleclub">
     <title lang="es">América NoticiasPrimera edición</title>
@@ -164931,6 +164801,11 @@
       <value>PG</value>
     </rating>
   </programme>
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="custom-1215">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261109120000 +0000" stop="20261109140000 +0000" channel="custom-1234">
     <title lang="es">Movistar Deportes</title>
     <desc lang="es">Los mejores especiales deportivos con una mirada más de cerca de la actualidad del deporte nacional e internacional.</desc>
@@ -164938,6 +164813,16 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="custom-1237">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="custom-1238">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109120000 +0000" stop="20261109132000 +0000" channel="custom-1274">
     <title>La jaula</title>
@@ -164956,6 +164841,11 @@
     <length units="minutes">80</length>
     <icon src="https://ebyl.tmsimg.com/assets/p19318511_v_v8_aa.jpg" />
     <episode-num system="dd_progid">MV01575675.0000</episode-num>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="custom-1292">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109120000 +0000" stop="20261109123000 +0000" channel="custom-1293">
     <title>+ 20 mil kilómetros: Historias del camino</title>
@@ -165044,6 +164934,11 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="ewtn.pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109120000 +0000" stop="20261109123000 +0000" channel="france-24-espanol.ar">
     <title>El mundo ahora</title>
@@ -165854,6 +165749,21 @@
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261109130000 +0000" stop="20261109140000 +0000" channel="226dtv.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109130000 +0000" stop="20261109140000 +0000" channel="228dtv.pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109130000 +0000" stop="20261109140000 +0000" channel="627">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261109130000 +0000" stop="20261109133000 +0000" channel="8577mvstr.pe">
     <title>Diálogo de fe</title>
     <desc>La reflexión sobre el Evangelio y la palabra de Dios.</desc>
@@ -165883,6 +165793,11 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261109130000 +0000" stop="20261109140000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109130000 +0000" stop="20261109133000 +0000" channel="bethel.teleclub">
     <title>Palabras de vida eterna</title>
@@ -165979,6 +165894,21 @@
       <value>A12</value>
     </rating>
   </programme>
+  <programme start="20261109130000 +0000" stop="20261109140000 +0000" channel="custom-1215">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109130000 +0000" stop="20261109140000 +0000" channel="custom-1237">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109130000 +0000" stop="20261109140000 +0000" channel="custom-1238">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261109130000 +0000" stop="20261109130100 +0000" channel="custom-1243">
     <title>Sheep en la gran ciudad</title>
     <desc>Una oveja a la fuga se esconde en la gran ciudad.</desc>
@@ -166003,6 +165933,11 @@
     <rating system="MPAA">
       <value>TVY7</value>
     </rating>
+  </programme>
+  <programme start="20261109130000 +0000" stop="20261109140000 +0000" channel="custom-1292">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109130000 +0000" stop="20261109133000 +0000" channel="custom-1293">
     <title>Sabe a Perú</title>
@@ -166087,6 +166022,11 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261109130000 +0000" stop="20261109140000 +0000" channel="ewtn.pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109130000 +0000" stop="20261109131500 +0000" channel="france-24-espanol.ar">
     <title>Noticias</title>
@@ -167044,6 +166984,21 @@
       <value>+14</value>
     </rating>
   </programme>
+  <programme start="20261109140000 +0000" stop="20261109150000 +0000" channel="226dtv.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109140000 +0000" stop="20261109150000 +0000" channel="228dtv.pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109140000 +0000" stop="20261109150000 +0000" channel="627">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261109140000 +0000" stop="20261109145000 +0000" channel="8577mvstr.pe">
     <title>Un corazón que escuche</title>
     <desc>Un equipo de especialistas charla y analiza los temas de actualidad que interesan a las familias católicas.</desc>
@@ -167075,6 +167030,11 @@
     <rating system="MJColombia">
       <value>TE</value>
     </rating>
+  </programme>
+  <programme start="20261109140000 +0000" stop="20261109150000 +0000" channel="HISTORY.CHANNEL.HD.(HistoryHD).pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109140000 +0000" stop="20261109170000 +0000" channel="atv-sur.teleclub">
     <title>Nuevo Día</title>
@@ -167207,6 +167167,11 @@
       <value>PG</value>
     </rating>
   </programme>
+  <programme start="20261109140000 +0000" stop="20261109150000 +0000" channel="custom-1215">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261109140000 +0000" stop="20261109143000 +0000" channel="custom-1234">
     <title lang="es">La carne del domingo</title>
     <desc lang="es">Resumen de la jornada deportiva. Las mejores jugadas y goles de los partidos de fútbol transmitidos en el país.</desc>
@@ -167214,6 +167179,21 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261109140000 +0000" stop="20261109150000 +0000" channel="custom-1237">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109140000 +0000" stop="20261109150000 +0000" channel="custom-1238">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261109140000 +0000" stop="20261109150000 +0000" channel="custom-1292">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109140000 +0000" stop="20261109143000 +0000" channel="custom-1293">
     <title>Recuerdos de Cocina</title>
@@ -167306,6 +167286,11 @@
     <rating system="MJColombia">
       <value>+14</value>
     </rating>
+  </programme>
+  <programme start="20261109140000 +0000" stop="20261109150000 +0000" channel="ewtn.pe">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261109140000 +0000" stop="20261109141500 +0000" channel="france-24-espanol.ar">
     <title>Noticias</title>
