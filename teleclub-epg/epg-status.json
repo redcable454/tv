@@ -1,9 +1,9 @@
 {
-  "channels": 320,
-  "programmes": 19819,
-  "channels_with_programmes": 320,
+  "channels": 321,
+  "programmes": 19807,
+  "channels_with_programmes": 321,
   "real_epg_channels": 155,
-  "generic_epg_channels": 165,
+  "generic_epg_channels": 166,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "Juntos-tv.teleclub",
@@ -99,6 +99,7 @@
     "custom-1356",
     "custom-1358",
     "custom-1361",
+    "custom-1362",
     "custom-27",
     "custom-31",
     "custom-5",
@@ -576,6 +577,10 @@
     {
       "id": "custom-1123",
       "name": "Radio jaen mix"
+    },
+    {
+      "id": "custom-1362",
+      "name": "RADIO KE BUENA VIRU"
     },
     {
       "id": "custom-1325",
