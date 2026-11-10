@@ -1,9 +1,9 @@
 {
-  "channels": 321,
-  "programmes": 19807,
-  "channels_with_programmes": 321,
-  "real_epg_channels": 155,
-  "generic_epg_channels": 166,
+  "channels": 322,
+  "programmes": 19626,
+  "channels_with_programmes": 322,
+  "real_epg_channels": 154,
+  "generic_epg_channels": 168,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "Juntos-tv.teleclub",
@@ -45,7 +45,6 @@
     "custom-1116",
     "custom-1117",
     "custom-1119",
-    "custom-1120",
     "custom-1121",
     "custom-1122",
     "custom-1123",
@@ -130,12 +129,15 @@
     "onda-tv.teleclub",
     "orbit-tv.teleclub",
     "planea-tv.teleclub",
+    "radio-campesina.teleclub",
     "radio-contacto-sur.teleclub",
     "radio-exitosa.teleclub",
-    "radio-jaen-mix.teleclub",
+    "radio-huancayo.teleclub",
     "radio-la-zona.teleclub",
     "radio-moda.teleclub",
     "radio-onda-cero.teleclub",
+    "radio-pirata-mix.teleclub",
+    "radio-super-stereo-arequipa.teleclub",
     "radio-virus-star-trujillo.teleclub",
     "regional-atm-television.teleclub",
     "regional-bella-abanquina-tv.teleclub",
@@ -559,6 +561,10 @@
       "name": "Radio 1160"
     },
     {
+      "id": "radio-campesina.teleclub",
+      "name": "Radio campesina"
+    },
+    {
       "id": "radio-contacto-sur.teleclub",
       "name": "Radio contacto sur"
     },
@@ -571,7 +577,7 @@
       "name": "Radio frecuencia 100"
     },
     {
-      "id": "radio-onda-cero.teleclub",
+      "id": "radio-huancayo.teleclub",
       "name": "Radio huancayo"
     },
     {
@@ -589,6 +595,10 @@
     {
       "id": "custom-1114",
       "name": "Radio la nube"
+    },
+    {
+      "id": "radio-super-stereo-arequipa.teleclub",
+      "name": "RADIO LA RIBEREÑA AREQUIPA"
     },
     {
       "id": "radio-moda.teleclub",
@@ -615,11 +625,11 @@
       "name": "Radio omar"
     },
     {
-      "id": "custom-1120",
+      "id": "radio-onda-cero.teleclub",
       "name": "Radio onda cero"
     },
     {
-      "id": "radio-jaen-mix.teleclub",
+      "id": "radio-pirata-mix.teleclub",
       "name": "Radio pirata mix"
     },
     {
