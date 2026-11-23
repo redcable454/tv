@@ -1,9 +1,9 @@
 {
   "channels": 322,
-  "programmes": 19468,
+  "programmes": 19624,
   "channels_with_programmes": 322,
-  "real_epg_channels": 155,
-  "generic_epg_channels": 167,
+  "real_epg_channels": 154,
+  "generic_epg_channels": 168,
   "missing_epg_channels": 0,
   "generic_channel_ids": [
     "Juntos-tv.teleclub",
@@ -60,6 +60,7 @@
     "custom-1219",
     "custom-1221",
     "custom-1235",
+    "custom-1237",
     "custom-1245",
     "custom-1247",
     "custom-1252",
@@ -410,6 +411,10 @@
     {
       "id": "custom-1358",
       "name": "FOX SPORTS 1"
+    },
+    {
+      "id": "custom-1237",
+      "name": "FOX SPORTS 3"
     },
     {
       "id": "auno-tv.teleclub",
